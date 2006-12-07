@@ -8,8 +8,9 @@ layout: wiki
 
 <http://biodas.org/> will eventually be migrated to a wiki format. In
 the meantime, please continue to use the original site. If you want to
-pitch in and help this migration, send a note to the [discussion
-list](http://lists.open-bio.org/mailman/listinfo/das2:BioDAS).
+pitch in and help this migration, send a note to the
+\[<http://lists.open-bio.org/mailman/listinfo/das2>: BioDAS discussion
+list\].
 
 Getting started
 ---------------

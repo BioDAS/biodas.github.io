@@ -4,13 +4,18 @@ permalink: wiki/Main_Page/
 layout: wiki
 ---
 
-<big>**MediaWiki has been successfully installed.**</big>
+<big>**Welcome To BioDAS.org**</big>
 
-Consult the [User's Guide](http://meta.wikimedia.org/wiki/Help:Contents)
-for information on using the wiki software.
+<http://biodas.org/> will eventually be migrated to a wiki format. In
+the meantime, please continue to use the original site. If you want to
+pitch in and help this migration, send a note to the [discussion
+list](http://biodas.org/mailman/listinfo/das2:BioDAS).
 
 Getting started
 ---------------
+
+Consult the [User's Guide](http://meta.wikimedia.org/wiki/Help:Contents)
+for information on using the wiki software.
 
 -   [Configuration settings
     list](http://www.mediawiki.org/wiki/Help:Configuration_settings)

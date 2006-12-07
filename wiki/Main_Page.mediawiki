@@ -1,8 +1,10 @@
-<big>'''MediaWiki has been successfully installed.'''</big>
+<big>'''Welcome To BioDAS.org'''</big>
 
-Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
+http://biodas.org/ will eventually be migrated to a wiki format. In the meantime, please continue to use the original site. If you want to pitch in and help this migration, send a note to the [http://biodas.org/mailman/listinfo/das2:BioDAS discussion list].
 
 == Getting started ==
+
+Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
 
 * [http://www.mediawiki.org/wiki/Help:Configuration_settings Configuration settings list]
 * [http://www.mediawiki.org/wiki/Help:FAQ MediaWiki FAQ]

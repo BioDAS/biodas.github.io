@@ -27,8 +27,23 @@ a list of DAS/1 clients here
 How to set up a DAS/1 server
 ----------------------------
 
+In general it is quite easy to set up DAS server. All the server
+implementations are easy to set up. Most server implementations allow
+eaasy setup using already provide data-adaptors (e.g. for GFF files).
+For custom data simple plugins can be written to quickly provide your
+data via DAS.
+
+DAS server implementations are available in several programming
+languages:
+
 -   Perl
+
+[`Proserver`](http://www.sanger.ac.uk/Software/analysis/proserver/)  
+[`LDAS`](http://biodas.org/servers/LDAS.html)
+
 -   Java
+
+[`Dazzle`](http://www.derkholm.net/thomas/dazzle/)
 
 Publishing and Discovery of DAS/1 sources
 -----------------------------------------

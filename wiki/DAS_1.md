@@ -31,9 +31,9 @@ How to set up a DAS/1 server
 
 In general it is quite easy to set up DAS server. All the server
 implementations are easy to set up. Most server implementations allow
-eaasy setup using already provide data-adaptors (e.g. for GFF files).
-For custom data simple plugins can be written to quickly provide your
-data via DAS.
+easy setup using ready provided data-adaptors (e.g. for GFF files). For
+custom data simple plugins can be written to quickly provide your data
+via DAS.
 
 DAS server implementations are available in several programming
 languages:

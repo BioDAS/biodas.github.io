@@ -1,0 +1,23 @@
+<big>'''The DAS/1 Protocol'''</big>
+
+
+== About DAS/1 ==
+
+The original version 1 specification, written by Lincoln Stein and Robin Dowell, is the basis for a number of clients and servers. More than 200 DAS/1 servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR], and [http://genome.ucsc.edu/ UCSC]. 
+
+
+The DAS/1 specification is currently available in version 1.53 from
+http://www.biodas.org/documents/spec.html
+
+== Clients ==
+
+a list of DAS/1 clients here
+
+== How to set up a DAS/1 server ==
+
+* Perl
+* Java
+
+== Publishing and Discovery of DAS/1 sources ==
+
+For a listing of all available DAS sources please proceed to http://www.dasregistry.org

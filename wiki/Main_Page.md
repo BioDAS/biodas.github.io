@@ -31,6 +31,43 @@ DAS is heavily used in the genome bioinformatics community. Over the
 last years we have also seen growing acceptance in the protein sequence
 and structure communities.
 
+What can I do with DAS ?
+------------------------
+
+A number of webpages and applications is available that are using DAS.
+
+-   IGB: <http://genoviz.sourceforge.net>
+
+<!-- -->
+
+-   Gbrowse: <http://www.gmod.org/gbrowse_installation>
+
+<!-- -->
+
+-   Ensembl:
+    <http://www.ensembl.org/info/data/external_data/das/ensembl_das.html>
+
+<!-- -->
+
+-   Spice: <http://www.efamily.org.uk/software/dasclients/spice/>
+
+<!-- -->
+
+-   Dasty:
+    <http://www.ebi.ac.uk/das-srv/uniprot/dasty/content?ID>=:dis=BioSapiens
+
+<!-- -->
+
+-   Dasty2: <http://www.ebi.ac.uk/~rafael/pre_dasty2/>
+
+<!-- -->
+
+-   Jalview: <http://www.jalview.org>
+
+<!-- -->
+
+-   PeppeR: <http://biocomp.cnb.uam.es/das/PeppeR/>
+
 Getting started
 ---------------
 

@@ -22,7 +22,7 @@ seen growing acceptance in the protein sequence and structure communities.
 
 == What can I do with DAS ? ==
 
-A number of webpages and applications is available that are using DAS.
+A number of sites and applications is available that are using DAS.
 
 * IGB: http://genoviz.sourceforge.net
 
@@ -39,7 +39,6 @@ A number of webpages and applications is available that are using DAS.
 * Jalview: http://www.jalview.org
 
 * PeppeR: http://biocomp.cnb.uam.es/das/PeppeR/
-
 
 == The Protocol ==
 

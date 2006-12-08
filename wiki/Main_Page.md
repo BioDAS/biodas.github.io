@@ -34,7 +34,7 @@ and structure communities.
 What can I do with DAS ?
 ------------------------
 
-A number of webpages and applications is available that are using DAS.
+A number of sites and applications is available that are using DAS.
 
 -   IGB: <http://genoviz.sourceforge.net>
 

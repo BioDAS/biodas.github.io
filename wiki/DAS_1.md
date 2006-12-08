@@ -14,7 +14,8 @@ Dowell, is the basis for a number of clients and servers. More than 200
 DAS/1 servers are currently running worldwide including
 [WormBase](http://www.wormbase.org/),
 [FlyBase](http://www.flybase.org/), [Ensembl](http://www.ensembl.org/),
-[TIGR](http://www.tigr.org/), and [UCSC](http://genome.ucsc.edu/).
+[TIGR](http://www.tigr.org/), and [UCSC](http://genome.ucsc.edu/). A
+number of websites and software applications are based on DAS.
 
 The DAS/1 specification is currently available in version 1.53 from
 <http://www.biodas.org/documents/spec.html>

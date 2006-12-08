@@ -99,8 +99,20 @@ grant was funded. Participating in the DAS/2 grant are Affymetrix, Cold
 Spring Harbor Lab, the European Bioinformatics Institute/Sanger Center,
 and Dalke Scientific.
 
-Getting started
----------------
+Mailing Lists
+-------------
+
+There are currently two separate mailing lists for public discussions
+about DAS, one for [DAS/1](http://biodas.org/mailman/listinfo/das) and
+one for [DAS/2](http://biodas.org/mailman/listinfo/das2). See the
+[BioDAS mailing list](http://biodas.org/documents/biodas-lists.html)
+page for more info.
+
+CVS access
+----------
+
+Getting started with the wiki
+-----------------------------
 
 Consult the [User's Guide](http://meta.wikimedia.org/wiki/Help:Contents)
 for information on using the wiki software.

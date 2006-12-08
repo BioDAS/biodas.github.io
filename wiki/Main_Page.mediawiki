@@ -54,7 +54,17 @@ In light of lessons learned during the DAS/1 implementation, a transition to a m
 
 DAS/2 development officially commenced in July 2004 when a 2-year NIH grant was funded. Participating in the DAS/2 grant are Affymetrix, Cold Spring Harbor Lab, the European Bioinformatics Institute/Sanger Center, and Dalke Scientific.
 
-== Getting started ==
+
+== Mailing Lists ==
+
+There are currently two separate mailing lists for public discussions about DAS, 
+one for [http://biodas.org/mailman/listinfo/das DAS/1] and one for [http://biodas.org/mailman/listinfo/das2 DAS/2]. See the [http://biodas.org/documents/biodas-lists.html BioDAS mailing list] page for more info.
+
+
+== CVS access ==
+
+
+== Getting started with the wiki==
 
 Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
 

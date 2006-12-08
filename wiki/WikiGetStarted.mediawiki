@@ -1,0 +1,8 @@
+
+== Getting started with the wiki==
+
+Consult the [http://meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
+
+* [http://www.mediawiki.org/wiki/Help:Configuration_settings Configuration settings list]
+* [http://www.mediawiki.org/wiki/Help:FAQ MediaWiki FAQ]
+* [http://mail.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]

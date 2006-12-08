@@ -111,15 +111,5 @@ page for more info.
 CVS access
 ----------
 
-Getting started with the wiki
------------------------------
-
-Consult the [User's Guide](http://meta.wikimedia.org/wiki/Help:Contents)
-for information on using the wiki software.
-
--   [Configuration settings
-    list](http://www.mediawiki.org/wiki/Help:Configuration_settings)
--   [MediaWiki FAQ](http://www.mediawiki.org/wiki/Help:FAQ)
--   [MediaWiki release mailing
-    list](http://mail.wikimedia.org/mailman/listinfo/mediawiki-announce)
-
+Want to contribute to the Wiki? please see some beginners instructions
+at the [WikiGetStarted](/wiki/WikiGetStarted "wikilink") page.

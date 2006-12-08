@@ -75,9 +75,27 @@ Currently there are two versions of the DAS protocol
 
 -   [DAS/1](/wiki/DAS/1 "wikilink")
 
-<!-- -->
+The original version 1 specification, written by Lincoln Stein and Robin
+Dowell, is the basis for a number of clients and servers. More than 200
+DAS/1 servers are currently running worldwide including
+\[WormBase|<http://www.wormbase.org/>\],
+\[FlyBase|<http://www.flybase.org/>\],
+\[Ensembl|<http://www.ensembl.org/>\], \[TIGR|<http://www.tigr.org/>\],
+and [<http://genome.ucsc.edu/>](/wiki/UCSC "wikilink").
 
 -   [DAS/2](/wiki/DAS/2 "wikilink")
+
+In light of lessons learned during the DAS/1 implementation, a
+transition to a more flexible and powerful protocol called DAS/2 is
+underway. This transition will occur slowly and DAS software will
+continue to support DAS/1 for some years to come. The evolution from
+DAS/1 to DAS/2 is very much a community-driven process, informed by a
+variety of RFCs (Requests for Comment) received from the user communty.
+
+DAS/2 development officially commenced in July 2004 when a 2-year NIH
+grant was funded. Participating in the DAS/2 grant are Affymetrix, Cold
+Spring Harbor Lab, the European Bioinformatics Institute/Sanger Center,
+and Dalke Scientific.
 
 Getting started
 ---------------

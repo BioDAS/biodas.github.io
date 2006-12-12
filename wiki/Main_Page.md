@@ -80,9 +80,9 @@ Dowell, is the basis for a number of clients and servers. More than 200
 DAS/1 servers are currently running worldwide including
 [WormBase](http://www.wormbase.org/),
 [FlyBase](http://www.flybase.org/), [Ensembl](http://www.ensembl.org/),
-[TIGR](http://www.tigr.org/), and [UCSC](http://genome.ucsc.edu/). For a
-listing of all available DAS sources please proceed to
-<http://www.dasregistry.org>
+[TIGR](http://www.tigr.org/), [UCSC](http://genome.ucsc.edu/), and
+[UniProt](http://www.ebi.ac.uk/uniprot-das/). For a listing of all
+available DAS sources please proceed to <http://www.dasregistry.org>
 
 -   [DAS/2](/wiki/DAS/2 "wikilink")
 

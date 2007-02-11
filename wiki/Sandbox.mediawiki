@@ -1,0 +1,5 @@
+Wiki testing ground, nothing real should really go here.
+<source lang=perl
+ use strict;
+ print "hello world\n";
+</source>

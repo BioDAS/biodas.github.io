@@ -68,12 +68,12 @@ A number of sites and applications is available that are using DAS.
 
 -   PeppeR: <http://biocomp.cnb.uam.es/das/PeppeR/>
 
-The Protocol: [DAS/1](/wiki/DAS/1 "wikilink") and [DAS/2](/wiki/DAS/2 "wikilink")
----------------------------------------------------------------------
+The Protocol
+------------
 
 Currently there are two versions of the DAS protocol
 
--   [DAS/1](/wiki/DAS/1 "wikilink")
+### [DAS/1](/wiki/DAS/1 "wikilink")
 
 The original version 1 specification, written by Lincoln Stein and Robin
 Dowell, is the basis for a number of clients and servers. More than 200
@@ -84,7 +84,7 @@ DAS/1 servers are currently running worldwide including
 [UniProt](http://www.ebi.ac.uk/uniprot-das/). For a listing of all
 available DAS sources please proceed to <http://www.dasregistry.org>
 
--   [DAS/2](/wiki/DAS/2 "wikilink")
+### [DAS/2](/wiki/DAS/2 "wikilink")
 
 In light of lessons learned during the DAS/1 implementation, a
 transition to a more flexible and powerful protocol called DAS/2 is

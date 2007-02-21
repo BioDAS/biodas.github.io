@@ -40,15 +40,15 @@ A number of sites and applications is available that are using DAS.
 
 * PeppeR: http://biocomp.cnb.uam.es/das/PeppeR/
 
-== The Protocol: [[DAS/1]] and [[DAS/2]] ==
+== The Protocol ==
 
 Currently there are two versions of the DAS protocol
 
-* [[DAS/1]] 
+=== [[DAS/1]] ===
 
 The original version 1 specification, written by Lincoln Stein and Robin Dowell, is the basis for a number of clients and servers. More than 200 DAS/1 servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR],  [http://genome.ucsc.edu/ UCSC], and [http://www.ebi.ac.uk/uniprot-das/ UniProt]. For a listing of all available DAS sources please proceed to http://www.dasregistry.org
 
-* [[DAS/2]]
+=== [[DAS/2]] ===
 
 In light of lessons learned during the DAS/1 implementation, a transition to a more flexible and powerful protocol called DAS/2 is underway. This transition will occur slowly and DAS software will continue to support DAS/1 for some years to come. The evolution from DAS/1 to DAS/2 is very much a community-driven process, informed by a variety of [[RFCs]] (Requests for Comment) received from the user communty.
 

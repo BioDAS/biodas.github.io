@@ -87,18 +87,9 @@ available DAS sources please proceed to <http://www.dasregistry.org>
 
 ### [DAS/2](/wiki/DAS/2 "wikilink")
 
-In light of lessons learned during the DAS/1 implementation, a
-transition to a more flexible and powerful protocol called DAS/2 is
-underway. This transition will occur slowly and DAS software will
-continue to support DAS/1 for some years to come. The evolution from
-DAS/1 to DAS/2 is very much a community-driven process, informed by a
-variety of [RFCs](/wiki/RFCs "wikilink") (Requests for Comment) received from
-the user communty.
-
-DAS/2 development officially commenced in July 2004 when a 2-year NIH
-grant was funded. Participating in the DAS/2 grant are Affymetrix, Cold
-Spring Harbor Lab, the European Bioinformatics Institute/Sanger Center,
-and Dalke Scientific.
+[DAS/2](/wiki/DAS/2 "wikilink") is the latest version of the DAS specification
+and builds on the capabilities of the original [DAS/1](/wiki/DAS/1 "wikilink")
+spec. See the [DAS/2](/wiki/DAS/2 "wikilink") page for more information.
 
 Mailing Lists
 -------------

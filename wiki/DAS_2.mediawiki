@@ -1,42 +1,35 @@
 <big>'''The DAS/2 Protocol'''</big>
 
 
-== About DAS/1 ==
+== About DAS/2 ==
 
-The original version 1 specification, written by Lincoln Stein and Robin Dowell, is the basis for a number of clients and servers. More than 200 DAS/1 servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR],  [http://genome.ucsc.edu/ UCSC], and [http://www.ebi.ac.uk/das-srv/uniprot/das UniProt]. A number of websites and software applications are based on DAS.
+DAS/2 is a more flexible and powerful version of the original [[DAS/1]]. The DAS/2 code base consists of:
+
+# [http://biodas.org/documents/das2/das2_protocol.html The DAS/2 specification]
+# [http://das.biopackages.net/das/genome A publically accessible DAS/2 server implementation] (open source code available from the [http://www.gmod.org/ GMOD project])
+# [http://genoviz.sourceforge.net An open-source DAS/2 client implementation]
+# [http://sourceforge.net/projects/dasypus An open-source client library and server validation suite] 
 
 
-The DAS/1 specification is currently available in version 1.53 from
-http://www.biodas.org/documents/spec.html
+== DAS/2 History ==
+
+DAS/2 evolved from the DAS/1 version through a community-driven process, informed by a variety of [http://biodas.org/RFCs/index.html RFCs (Requests for Comment) received from the user community]. DAS/2 development officially commenced in July 2004 when a 2-year [http://crisp.cit.nih.gov/crisp/CRISP_LIB.getdoc?textkey=6712060&p_grant_num=1R01HG003040-01&p_query=(DAS)&ticket=15416031&p_audit_session_id=72191905&p_audit_score=100&p_audit_numfound=1&p_keywords=DAS NIH grant] was funded. Participating in the DAS/2 grant are Affymetrix, Cold Spring Harbor Lab, the European Bioinformatics Institute/Sanger Center, and Dalke Scientific.
 
 == Clients ==
 
-a list of DAS/1 clients here
+a list of DAS/2 clients here
 
 
+== How to set up a DAS/2 server ==
 
-== How to set up a DAS/1 server ==
+server setup docs here
 
-In general it is quite easy to set up DAS server. All the server implementations are easy to set up.
-Most server implementations allow easy setup using ready provided data-adaptors (e.g. for GFF files).
-For custom data simple plugins can be written to quickly provide your data via DAS.
 
-DAS server implementations are available in several programming languages:
+== Publishing and Discovery of DAS/2 sources ==
 
-* Perl
- [http://www.sanger.ac.uk/Software/analysis/proserver/ Proserver]
- [http://biodas.org/servers/LDAS.html LDAS]
+See [[DAS_registry]]
 
-* Java
- [http://www.derkholm.net/thomas/dazzle/ Dazzle]
 
-== Publishing and Discovery of DAS/1 sources ==
+== Global Sequence Identifiers==
 
-The DAS/1 specification does not define how to publish or discover DAS sources. Due to the
-success of DAS and the large number of sources that are spread around the world it is not easy
-to keep track of these. The DAS registration server at [http://www.dasregistry.org www.dasregistry.org]
-provides a repository where people can publish and  share their DAS sources with the community. 
-
-The DAS registry provdies a Web interface so users can search for available DAS source. For 
-DAS-clients an XML interface is available that allows to obtain the listing programmatically.
-For more info on this please see the [http://www.dasregistry.org/help_scripting.jsp documentation].
+See [[GlobalSeqIDs]

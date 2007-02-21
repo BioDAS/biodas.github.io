@@ -68,8 +68,8 @@ A number of sites and applications is available that are using DAS.
 
 -   PeppeR: <http://biocomp.cnb.uam.es/das/PeppeR/>
 
-The Protocol
-------------
+The Protocol: [DAS/1](/wiki/DAS/1 "wikilink") and [DAS/2](/wiki/DAS/2 "wikilink")
+---------------------------------------------------------------------
 
 Currently there are two versions of the DAS protocol
 

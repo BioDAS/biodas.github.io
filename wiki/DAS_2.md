@@ -57,7 +57,7 @@ data in response to queries conforming with the DAS/2 protocol:
 Publishing and Discovery of DAS/2 sources
 -----------------------------------------
 
-See [DAS\_registry](/wiki/DAS_registry "wikilink")
+See [DasRegistry](/wiki/DasRegistry "wikilink")
 
 Global Sequence Identifiers
 ---------------------------

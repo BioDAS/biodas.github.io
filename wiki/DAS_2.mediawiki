@@ -30,7 +30,7 @@ The following software packages operate as servers capable of providing data in 
 
 == Publishing and Discovery of DAS/2 sources ==
 
-See [[DAS_registry]]
+See [[DasRegistry]]
 
 == Global Sequence Identifiers==
 

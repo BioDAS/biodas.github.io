@@ -52,4 +52,4 @@ See [DAS\_registry](/wiki/DAS_registry "wikilink")
 Global Sequence Identifiers
 ---------------------------
 
-See \[\[GlobalSeqIDs\]
+See [GlobalSeqIDs](/wiki/GlobalSeqIDs "wikilink")

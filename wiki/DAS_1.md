@@ -50,15 +50,4 @@ languages:
 Publishing and Discovery of DAS/1 sources
 -----------------------------------------
 
-The DAS/1 specification does not define how to publish or discover DAS
-sources. Due to the success of DAS and the large number of sources that
-are spread around the world it is not easy to keep track of these. The
-DAS registration server at
-[www.dasregistry.org](http://www.dasregistry.org) provides a repository
-where people can publish and share their DAS sources with the community.
-
-The DAS registry provdies a Web interface so users can search for
-available DAS source. For DAS-clients an XML interface is available that
-allows to obtain the listing programmatically. For more info on this
-please see the
-[documentation](http://www.dasregistry.org/help_scripting.jsp).
+See [DasRegistry](/wiki/DasRegistry "wikilink")

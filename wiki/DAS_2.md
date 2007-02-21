@@ -25,14 +25,24 @@ DAS/2 is a more flexible and powerful version of the original
 DAS/2 History
 -------------
 
-DAS/2 evolved from the DAS/1 version through a community-driven process,
-informed by a variety of [RFCs (Requests for Comment) received from the
-user community](http://biodas.org/RFCs/index.html). DAS/2 development
-officially commenced in July 2004 when a 2-year
+DAS/2 evolved from [DAS/1](/wiki/DAS/1 "wikilink") through a community-driven
+process, informed by a variety of [RFCs (Requests for
+Comment)](http://biodas.org/RFCs/index.html) received from the community
+of users and implementers of the spec. As of November 2006, the
+[retrieval portion of the DAS/2
+spec](http://biodas.org/documents/das2/das2_get.html) has stabilized.
+Implementers can rely on this for their DAS/2-based development efforts.
+
+DAS/2 development officially commenced in July 2004 when a 2-year
 \[<http://crisp.cit.nih.gov/crisp/CRISP_LIB.getdoc?textkey=6712060&p_grant_num=1R01HG003040-01&p_query>=(DAS)&ticket=15416031&p\_audit\_session\_id=72191905&p\_audit\_score=100&p\_audit\_numfound=1&p\_keywords=DAS
 NIH grant\] was funded. Participating in the DAS/2 grant are Affymetrix,
 Cold Spring Harbor Lab, the European Bioinformatics Institute/Sanger
 Center, and Dalke Scientific.
+
+Given that the DAS/2 specification is not backward compatible with the
+DAS/1 version, existing DAS software will continue to support DAS/1. A
+DAS proxy server is in development that will permit a DAS/1 server to be
+accessed by DAS/2 clients.
 
 Clients
 -------

@@ -37,12 +37,22 @@ Center, and Dalke Scientific.
 Clients
 -------
 
-a list of DAS/2 clients here
+The following software packages operate as clients capable of
+interacting with servers supporting the DAS/2 protocol:
 
-How to set up a DAS/2 server
-----------------------------
+-   [IGB - Integrated Genome Browser](http://genoviz.sourceforge.net)
+-   [GBrowse - Generic Genome Browser](http://www.gmod.org/ggb/)
 
-server setup docs here
+Servers
+-------
+
+The following software packages operate as servers capable of providing
+data in response to queries conforming with the DAS/2 protocol:
+
+-   [Biopackages DAS/2 server](http://das.biopackages.net/das/genome) -
+    a DAS/2 reference implementation
+-   [Affymetrix Public DAS/2
+    server](http://netaffxdas.affymetrix.com/das2)
 
 Publishing and Discovery of DAS/2 sources
 -----------------------------------------

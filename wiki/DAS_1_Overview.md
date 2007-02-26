@@ -149,12 +149,12 @@ Data Source Name for a data source.
 >
 ### dna
 
-<I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/dna?segment=<I>RANGE</I>\[;segment=<I>RANGE</I>\]
-<I>Function</I>: Retrieves the DNA associated with a subsequence
-
-<I>Scope</I>: Reference servers
-
+> |            |                                                                          |
+> |------------|--------------------------------------------------------------------------|
+> | *Command*  | *`PREFIX`*`/das/`*`DSN`*`/dna?segment=`*`RANGE`*`[;segment=`*`RANGE`*`]` |
+> | *Function* | Retrieves the DNA associated with a subsequence                          |
+> | *Scope*    | Reference servers                                                        |
+>
 ### sequence
 
 <I>Command</I>:

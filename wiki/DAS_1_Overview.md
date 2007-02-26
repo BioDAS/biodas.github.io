@@ -2,13 +2,12 @@
 title: DAS/1/Overview
 permalink: wiki/DAS/1/Overview/
 layout: wiki
+tags:
+ - Documentation
 ---
 
 <big>**An Overview of the Concepts Concerning the Distributed Annotation
 System (DAS/1)**</big>
-
-NOTE: Some, but not all, concepts are applicable to the
-[DAS/2](/wiki/DAS/2 "wikilink") version of the specification.
 
 Information Source
 ------------------

@@ -21,7 +21,7 @@ convention <U>Specs</U>.
 DAS Glossary
 ------------
 
-(Definitions later defined are \_italicized\_; queries are \*bolded\*;
+(Definitions later defined are *italicized*; queries are **bolded**;
 optional portions within names are \[bracketed\].)
 
 ### Distributed Annotation System (DAS)

@@ -74,3 +74,22 @@ Global Sequence Identifiers
 ---------------------------
 
 See [GlobalSeqIDs](/wiki/GlobalSeqIDs "wikilink")
+
+Feedback and Bug Reports
+------------------------
+
+A general forum for advice on DAS/2-related issues is the [discussion
+list](http://biodas.org/mailman/listinfo/das2).
+
+To submit or view bug reports in DAS/2-related software, use one of the
+links below, depending on the affected component.
+
+-   DAS/2 Specification:
+    -   <http://bugzilla.open-bio.org/>
+-   Reference Server (GMOD Project - select category 'DAS2'):
+    -   <http://sourceforge.net/tracker/?group_id=27707&atid=391291>
+-   Reference Client (IGB):
+    -   <http://sourceforge.net/tracker/?group_id=129420&atid=714744>
+-   Validation Suite (Dasypus):
+    -   <https://sourceforge.net/tracker/?group_id=138271&atid=740641>
+

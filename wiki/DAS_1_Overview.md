@@ -173,13 +173,12 @@ Data Source Name for a data source.
 >
 ### features
 
-<I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/features?segment=<I>REF:start,stop</I>\[;segment=<I>REF:start,stop</I>\]
-
-\[;type=<I>TYPE</I>\]\[;type=<I>TYPE</I>\]\[;category=<I>CATEGORY</I>\]\[;category=<I>CATEGORY</I>\]
-<I>Function</I>: Retrieves the annotations across a segment
-<I>Scope</I>: Reference and annotation servers
-
+> |            |                                                                                                                                                                                          |
+> |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+> | *Command*  | *`PREFIX`*`/das/`*`DSN`*`//features?segment=`*`REF:start,stop`*`[;segment=`*`REF:start,stop`*`][;type=`*`TYPE`*`][;type=`*`TYPE`*`][;category=`*`CATEGORY`*`][;category=`*`CATEGORY`*`]` |
+> | *Function* | Retrieves the annotations across a segment                                                                                                                                               |
+> | *Scope*    | Reference and annotation servers                                                                                                                                                         |
+>
 ### link
 
 <I>Command</I>:

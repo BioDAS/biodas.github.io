@@ -107,11 +107,15 @@ A query can be made via a URL according to HTTP conventions, through either GET 
 </blockquote>
 
 === types ===
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/types[?segment=<I>RANGE</I>][;segment=<I>RANGE</I>][;type=<I>TYPE</I>]
-
-[;type=<I>TYPE</I>]
-<I>Function</I>: Retrieves the types available for a segment of a sequence
-<I>Scope</I>: Reference and annotation servers
+<blockquote>
+{| 
+| ''Command'' || <code>''PREFIX''/das/''DSN''/types[?segment=''RANGE''][;segment=''RANGE''][;type=''TYPE'']</code>
+|- 
+| ''Function'' || Retrieves the types available for a segment of a sequence
+|-
+| ''Scope''|| Reference and annotation servers
+|}
+</blockquote>
 
 === features ===
 <I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/features?segment=<I>REF:start,stop</I>[;segment=<I>REF:start,stop</I>]

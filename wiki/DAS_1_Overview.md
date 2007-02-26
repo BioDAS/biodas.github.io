@@ -165,12 +165,12 @@ Data Source Name for a data source.
 >
 ### types
 
-<I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/types\[?segment=<I>RANGE</I>\]\[;segment=<I>RANGE</I>\]\[;type=<I>TYPE</I>\]
-
-\[;type=<I>TYPE</I>\] <I>Function</I>: Retrieves the types available for
-a segment of a sequence <I>Scope</I>: Reference and annotation servers
-
+> |            |                                                                                                |
+> |------------|------------------------------------------------------------------------------------------------|
+> | *Command*  | *`PREFIX`*`/das/`*`DSN`*`/types[?segment=`*`RANGE`*`][;segment=`*`RANGE`*`][;type=`*`TYPE`*`]` |
+> | *Function* | Retrieves the types available for a segment of a sequence                                      |
+> | *Scope*    | Reference and annotation servers                                                               |
+>
 ### features
 
 <I>Command</I>:

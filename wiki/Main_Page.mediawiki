@@ -62,8 +62,7 @@ See the [[DasFAQ]] page for some frequently asked questions.
 
 == CVS Access ==
 
-See the [[DAS/2]] page for CVS access information to various aspects of the DAS/2 development effort.
-
+See the [[DAS/2/CVS Access]] page for CVS access information to various aspects of the DAS/2 development effort.
 
 == Contribute to this Wiki ==
 

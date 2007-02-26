@@ -189,9 +189,12 @@ Data Source Name for a data source.
 >
 ### stylesheet
 
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/stylesheet <I>Function</I>:
-Retrieves a stylesheet for the given <I>Scope</I>: Annotation servers
-
+> |            |                                          |
+> |------------|------------------------------------------|
+> | *Command*  | *`PREFIX`*`/das/`*`DSN`*`/stylesheet`    |
+> | *Function* | Retrieves a stylesheet for the given DSN |
+> | *Scope*    | Annotation servers                       |
+>
 Genome Assembly
 ---------------
 

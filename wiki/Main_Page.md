@@ -109,8 +109,8 @@ questions.
 CVS Access
 ----------
 
-See the [DAS/2/CVS Access](/wiki/DAS/2/CVS_Access "wikilink") page for CVS
-access information to various aspects of the DAS/2 development effort.
+See [DAS/2\#CVS Access](/wiki/DAS/2#CVS_Access "wikilink") for CVS access
+information to various aspects of the DAS/2 development effort.
 
 Contribute to this Wiki
 -----------------------

@@ -157,12 +157,12 @@ Data Source Name for a data source.
 >
 ### sequence
 
-<I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/sequence?segment=<I>RANGE</I>\[;segment=<I>RANGE</I>\]
-<I>Function</I>: Retrieves the sequence associated with a subsequence
-
-<I>Scope</I>: Reference servers
-
+> |            |                                                                               |
+> |------------|-------------------------------------------------------------------------------|
+> | *Command*  | *`PREFIX`*`/das/`*`DSN`*`/sequence?segment=`*`RANGE`*`[;segment=`*`RANGE`*`]` |
+> | *Function* | Retrieves the sequence associated with a subsequence                          |
+> | *Scope*    | Reference servers                                                             |
+>
 ### types
 
 <I>Command</I>:

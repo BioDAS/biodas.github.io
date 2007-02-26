@@ -96,10 +96,15 @@ A query can be made via a URL according to HTTP conventions, through either GET 
 </blockquote>
 
 === sequence ===
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/sequence?segment=<I>RANGE</I>[;segment=<I>RANGE</I>]
-<I>Function</I>: Retrieves the sequence associated with a subsequence
-
-<I>Scope</I>: Reference servers
+<blockquote>
+{| 
+| ''Command'' || <code>''PREFIX''/das/''DSN''/sequence?segment=''RANGE''[;segment=''RANGE'']</code>
+|- 
+| ''Function'' || Retrieves the sequence associated with a subsequence
+|-
+| ''Scope''|| Reference servers
+|}
+</blockquote>
 
 === types ===
 <I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/types[?segment=<I>RANGE</I>][;segment=<I>RANGE</I>][;type=<I>TYPE</I>]

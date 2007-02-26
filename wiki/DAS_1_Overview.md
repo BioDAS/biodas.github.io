@@ -22,7 +22,8 @@ convention <U>Specs</U>.
 DAS Glossary
 ------------
 
-(optional portions within names are \[bracketed\].)
+(Definitions later defined are \_italicized\_; queries are \*bolded\*;
+optional portions within names are \[bracketed\].)
 
 ### Distributed Annotation System (DAS)
 
@@ -36,178 +37,158 @@ A sequence, consisting of a set of <I>entry points</I> into the sequence
 and of the lengths of each entry point, which possesses a <I>reference
 sequence ID</I>.
 
-==== \[Reference\] Sequence ID === The identification for a sequence,
-which corresponds to sequences of either a low-level (<I>e.g.</I>,
-clones) or a high-level (<I>e.g.</I>, contigs) and which is composed of
-any set of printable characters, save for the colon, newline, tab, and
-carriage return characters.
+### \[Reference\] Sequence ID
 
-<B><I>
+The identification for a sequence, which corresponds to sequences of
+either a low-level (<I>e.g.</I>, clones) or a high-level (<I>e.g.</I>,
+contigs) and which is composed of any set of printable characters, save
+for the colon, newline, tab, and carriage return characters.
 
-Entry point</B></I> - A position defined for each genome at which the
-server may begin dispensing data for a sequence, for a given length (of
-variable size), <I>e.g.</I>, the head of a chromosome, the beginning of
-a series of contigs, and the beginning of a contig. A list of entry
-points for a given species may be retrieved via <B>entry\_points</B>
+### Entry point
 
-</DIR>
-<B><I>
+A position defined for each genome at which the server may begin
+dispensing data for a sequence, for a given length (of variable size),
+<I>e.g.</I>, the head of a chromosome, the beginning of a series of
+contigs, and the beginning of a contig. A list of entry points for a
+given species may be retrieved via <B>entry\_points</B>.
 
-Annotation Server </B></I> - A server specialized for returning lists of
-<I>annotations </I>across a certain segment of the genome.
+### Annotation Server
 
-<B><I>
+A server specialized for returning lists of <I>annotations </I>across a
+certain segment of the genome.
 
-Reference \[Sequence\] Server</B></I> - An annotation server that, given
-a reference sequence ID, can also return the following data:  
-1. The raw DNA of the sequence;  
-2. The annotations of the "component" of a <I>category </I>(<I>E.g.</I>,
-a contig is the component of a chromosome; thus, reference servers can
-return the annotation for a contig);  
-3. The annotations of "supercomponents" of a <I>category
-</I>(<I>E.g.</I>, a chromosome is the supercomponent of a contig.).
+### Reference \[Sequence\] Server
 
-<DIR>
-<B><I>
+An annotation server that, given a reference sequence ID, can also
+return the following data:
 
-Annotation</B></I> - An entity which:  
-1. Is anchored to the genome map via a stop and start value relative to
-the reference subsequence;  
-2. Possesses an ID unique to the server and a structured description of
-its nature and attributes;  
-3. Optionally associated with Web URLs providing human-readable
-information about the annotation (via <B>link</B>);  
-4. Possesses <I>types</I>, <I>methods</I>, and <I>categories</I>.
+1.  The raw DNA of the sequence;
+2.  The annotations of the "component" of a <I>category
+    </I>(<I>E.g.</I>, a contig is the component of a chromosome; thus,
+    reference servers can return the annotation for a contig);
+3.  The annotations of "supercomponents" of a <I>category
+    </I>(<I>E.g.</I>, a chromosome is the supercomponent of a contig.).
 
-<DIR>
-<B><I>
+### Annotation
 
-\[Annotation\] Type</B></I> - An entity selected from a list of types
-which have biological significance and which roughly correspond to
-EMBL/GenBank feature table tags, <I>e.g.</I>, exon, intron, CDS, and
-splice3.
+An entity which:
 
-<B><I>
+1.  Is anchored to the genome map via a stop and start value relative to
+    the reference subsequence;
+2.  Possesses an ID unique to the server and a structured description of
+    its nature and attributes;
+3.  Optionally associated with Web URLs providing human-readable
+    information about the annotation (via <B>link</B>);
+4.  Possesses <I>types</I>, <I>methods</I>, and <I>categories</I>.
 
-\[Annotation\] Method </B></I> - A description of how the annotated
-feature was discovered, possibly including a reference to a software
-program.
+### \[Annotation\] Type
 
-<B><I>
+An entity selected from a list of types which have biological
+significance and which roughly correspond to EMBL/GenBank feature table
+tags, <I>e.g.</I>, exon, intron, CDS, and splice3.
 
-\[Annotation\] Category </B></I> - A intentionally broad functional
-genre that can be used to filter, group, and sort annotations,
-<I>e.g.</I>, homology, variation, and transcribed. (For the sake of
-consistency, <I>cf.</I> <U>Specs</U>: "Feature Types and Categories" for
-a general list of types and categories.)
+### \[Annotation\] Method
 
-</DIR>
-</DIR>
-<B><I>
+A description of how the annotated feature was discovered, possibly
+including a reference to a software program.
 
-Source </B></I> - A project containing data on DAS (a list of which may
-be retrieved via <B>dsn</B>).
+### \[Annotation\] Category
 
-<B><I>
+A intentionally broad functional genre that can be used to filter,
+group, and sort annotations, <I>e.g.</I>, homology, variation, and
+transcribed. (For the sake of consistency, <I>cf.</I> <U>Specs</U>:
+"Feature Types and Categories" for a general list of types and
+categories.)
 
-Stylesheet </B></I>The server's non-binding recommendations on
-formatting retrieved annotations for a given source (via
-<B>stylesheet</B>), using a General Feature Format (GFF) document.
-(<I>Cf.</I>, <U>Specs</U>: "The Queries: Retrieving the Stylesheet" and
-<U>Specs</U>: "Glyph Types.")
+### Source
 
-</DIR>
-</DIR>
+A project containing data on DAS (a list of which may be retrieved via
+<B>dsn</B>).
+
+### Stylesheet
+
+The server's non-binding recommendations on formatting retrieved
+annotations for a given source (via <B>stylesheet</B>), using a General
+Feature Format (GFF) document. (<I>Cf.</I>, <U>Specs</U>: "The Queries:
+Retrieving the Stylesheet" and <U>Specs</U>: "Glyph Types.")
+
 DAS Queries
 -----------
 
-</B></FONT>
-
 A query can be made via a URL according to HTTP conventions, through
 either GET or (more preferably because of size) POST. The response is
-composed of:  
-1. A standard HTTP header with DAS status information pertaining to the
-validity of the query (<I>cf.</I> <U>Specs</U>: "Client/Server
-Interactions: The Response.");  
-2. (Optionally) an XML file containing the answer to the query,
-according to the specifications listed in <U>Specs</U>: "The Queries".
+composed of:
 
-<I>
+1.  A standard HTTP header with DAS status information pertaining to the
+    validity of the query (<I>cf.</I> <U>Specs</U>: "Client/Server
+    Interactions: The Response.");
+2.  (Optionally) an XML file containing the answer to the query,
+    according to the specifications listed in <U>Specs</U>:
+    "The Queries".
 
-PREFIX</I> denotes the URL prefix for the DAS server, <I>e.g.</I>,
+*PREFIX* denotes the URL prefix for the DAS server, e.g.,
 <http://servlet.sanger.ac.uk:8080> is the prefix for
-&lt;<http://servlet.sanger.ac.uk:8080/das/dsn%3E>.  
-<I>DAS</I> denotes the Data Source Name for a data source.
+&lt;<http://servlet.sanger.ac.uk:8080/das/dsn%3E>. *DAS* denotes the
+Data Source Name for a data source.
 
-<DIR>
-<B>
+### dsn
 
-dsn</B>  
-<I>Command</I>: <I>PREFIX</I>/das/dsn  
-<I>Function</I>: Retrieves the list of data sources available from this
-server  
-<I>Scope</I>: Reference and annotation servers
+*Command*: *`PREFIX`*`/das/dsn` *Function*: Retrieves the list of data
+sources available from this server *Scope*: Reference and annotation
+servers
 
-<B>
+### entry\_points
 
-entry\_points</B>  
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/entry\_points  
-<I>Function</I>: Retrieves the list of entry points and their respective
-sizes for a data source  
+\_Command\_: `_PREFIX_/das/_DSN_/entry_points` \_Function\_: Retrieves
+the list of entry points and their respective sizes for a data source
+
 <I>Scope</I>: Reference servers
 
-<B>
+### dna
 
-dna</B>  
 <I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/dna?segment=<I>RANGE</I>\[;segment=<I>RANGE</I>\]  
-<I>Function</I>: Retrieves the DNA associated with a subsequence  
+<I>PREFIX</I>/das/<I>DSN</I>/dna?segment=<I>RANGE</I>\[;segment=<I>RANGE</I>\]
+<I>Function</I>: Retrieves the DNA associated with a subsequence
+
 <I>Scope</I>: Reference servers
 
-<B>
+### sequence
 
-sequence</B>  
 <I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/sequence?segment=<I>RANGE</I>\[;segment=<I>RANGE</I>\]  
-<I>Function</I>: Retrieves the sequence associated with a subsequence  
+<I>PREFIX</I>/das/<I>DSN</I>/sequence?segment=<I>RANGE</I>\[;segment=<I>RANGE</I>\]
+<I>Function</I>: Retrieves the sequence associated with a subsequence
+
 <I>Scope</I>: Reference servers
 
-<B>
+### types
 
-types</B>  
 <I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/types\[?segment=<I>RANGE</I>\]\[;segment=<I>RANGE</I>\]\[;type=<I>TYPE</I>\]  
-\[;type=<I>TYPE</I>\]  
-<I>Function</I>: Retrieves the types available for a segment of a
-sequence  
+<I>PREFIX</I>/das/<I>DSN</I>/types\[?segment=<I>RANGE</I>\]\[;segment=<I>RANGE</I>\]\[;type=<I>TYPE</I>\]
+
+\[;type=<I>TYPE</I>\] <I>Function</I>: Retrieves the types available for
+a segment of a sequence <I>Scope</I>: Reference and annotation servers
+
+### features
+
+<I>Command</I>:
+<I>PREFIX</I>/das/<I>DSN</I>/features?segment=<I>REF:start,stop</I>\[;segment=<I>REF:start,stop</I>\]
+
+\[;type=<I>TYPE</I>\]\[;type=<I>TYPE</I>\]\[;category=<I>CATEGORY</I>\]\[;category=<I>CATEGORY</I>\]
+<I>Function</I>: Retrieves the annotations across a segment
 <I>Scope</I>: Reference and annotation servers
 
-<B>
+### link
 
-features</B>  
 <I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/features?segment=<I>REF:start,stop</I>\[;segment=<I>REF:start,stop</I>\]  
-\[;type=<I>TYPE</I>\]\[;type=<I>TYPE</I>\]\[;category=<I>CATEGORY</I>\]\[;category=<I>CATEGORY</I>\]  
-<I>Function</I>: Retrieves the annotations across a segment  
-<I>Scope</I>: Reference and annotation servers
-
-<B>
-
-link</B>  
-<I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/link?field=<I>TAG</I>;id=<I>ID</I>  
+<I>PREFIX</I>/das/<I>DSN</I>/link?field=<I>TAG</I>;id=<I>ID</I>
 <I>Function</I>: Retrieves and HTML page describing human-readable
-information about an annotation  
-<I>Scope</I>: Annotation servers
+information about an annotation <I>Scope</I>: Annotation servers
 
-<B>
+### stylesheet
 
-stylesheet</B>  
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/stylesheet  
-<I>Function</I>: Retrieves a stylesheet for the given  
-<I>Scope</I>: Annotation servers
+<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/stylesheet <I>Function</I>:
+Retrieves a stylesheet for the given <I>Scope</I>: Annotation servers
 
-</DIR>
 Genome Assembly
 ---------------
 

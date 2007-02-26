@@ -7,102 +7,116 @@ NOTE: Some, but not all, concepts are applicable to the [[DAS/2]] version of the
 The full specification, available at http://www.biodas.org/documents/spec.html, serves as the primary source for this document and will be plagiarized without explicit notice. Any reference to this document will be made through the convention <U>Specs</U>. 
 
 == DAS Glossary ==
-(optional portions within names are [bracketed].)
+(Definitions later defined are _italicized_; queries are *bolded*; optional portions within names are [bracketed].)
 
 === Distributed Annotation System (DAS) === 
 A server system for the sharing of <I>Reference Sequences</I>, a system<I> </I>conceptually composed of a <I>Reference Server </I>and <I>Annotation Server(s)</I>.
 
 === [Reference] Sequence === 
-A sequence, consisting of a set of <I>entry points</I> into the sequence and of the lengths of each entry point, which possesses a <I>reference sequence ID</I>.</P>
+A sequence, consisting of a set of <I>entry points</I> into the sequence and of the lengths of each entry point, which possesses a <I>reference sequence ID</I>.
 
-==== [Reference] Sequence ID === 
-The identification for a sequence, which corresponds to sequences of either a low-level (<I>e.g.</I>, clones) or a high-level (<I>e.g.</I>, contigs) and which is composed of any set of printable characters, save for the colon, newline, tab, and carriage return characters.</P>
+=== [Reference] Sequence ID === 
+The identification for a sequence, which corresponds to sequences of either a low-level (<I>e.g.</I>, clones) or a high-level (<I>e.g.</I>, contigs) and which is composed of any set of printable characters, save for the colon, newline, tab, and carriage return characters.
 
-<B><I><P>Entry point</B></I> - A position defined for each genome at which the server may begin dispensing data for a sequence, for a given length (of variable size), <I>e.g.</I>, the head of a chromosome, the beginning of a series of contigs, and the beginning of a contig. A list of entry points for a given species may be retrieved via <B>entry_points</B></P></DIR>
+=== Entry point === 
+A position defined for each genome at which the server may begin dispensing data for a sequence, for a given length (of variable size), <I>e.g.</I>, the head of a chromosome, the beginning of a series of contigs, and the beginning of a contig. A list of entry points for a given species may be retrieved via <B>entry_points</B>.
 
-<B><I><P>Annotation Server </B></I> - A server specialized for returning lists of <I>annotations </I>across a certain segment of the genome.</P>
-<B><I><P>Reference [Sequence] Server</B></I> - An annotation server that, given a reference sequence ID, can also return the following data:<BR>
+=== Annotation Server ===
+A server specialized for returning lists of <I>annotations </I>across a certain segment of the genome.
 
-1. The raw DNA of the sequence;<BR>
-2. The annotations of the &quot;component&quot; of a <I>category </I>(<I>E.g.</I>, a contig is the component of a chromosome; thus, reference servers can return the annotation for a contig);<BR>
-3. The annotations of &quot;supercomponents&quot; of a <I>category </I>(<I>E.g.</I>, a chromosome is the supercomponent of a contig.).</P><DIR>
+=== Reference [Sequence] Server === 
+An annotation server that, given a reference sequence ID, can also return the following data:
 
-<B><I><P>Annotation</B></I> - An entity which:<BR>
-1. Is anchored to the genome map via a stop and start value relative to the reference subsequence;<BR>
-2. Possesses an ID unique to the server and a structured description of its nature and attributes;<BR>
-3. Optionally associated with Web URLs providing human-readable information about the annotation (via <B>link</B>);<BR>
-4. Possesses <I>types</I>, <I>methods</I>, and <I>categories</I>.</P><DIR>
+# The raw DNA of the sequence;
+# The annotations of the &quot;component&quot; of a <I>category </I>(<I>E.g.</I>, a contig is the component of a chromosome; thus, reference servers can return the annotation for a contig);
+# The annotations of &quot;supercomponents&quot; of a <I>category </I>(<I>E.g.</I>, a chromosome is the supercomponent of a contig.).
 
-<B><I><P>[Annotation] Type</B></I> - An entity selected from a list of types which have biological significance and which roughly correspond to EMBL/GenBank feature table tags, <I>e.g.</I>, exon, intron, CDS, and splice3.</P>
-<B><I><P>[Annotation] Method </B></I> - A description of how the annotated feature was discovered, possibly including a reference to a software program.</P>
-<B><I><P>[Annotation] Category </B></I> - A intentionally broad functional genre that can be used to filter, group, and sort annotations, <I>e.g.</I>, homology, variation, and transcribed. (For the sake of consistency, <I>cf.</I> <U>Specs</U>: &quot;Feature Types and Categories&quot; for a general list of types and categories.)</P></DIR>
+=== Annotation === 
+An entity which:
+# Is anchored to the genome map via a stop and start value relative to the reference subsequence;
+# Possesses an ID unique to the server and a structured description of its nature and attributes;
+# Optionally associated with Web URLs providing human-readable information about the annotation (via <B>link</B>);
+# Possesses <I>types</I>, <I>methods</I>, and <I>categories</I>.
 
-</DIR>
+=== [Annotation] Type ===
+An entity selected from a list of types which have biological significance and which roughly correspond to EMBL/GenBank feature table tags, <I>e.g.</I>, exon, intron, CDS, and splice3.
 
-<B><I><P>Source </B></I> - A project containing data on DAS (a list of which may be retrieved via <B>dsn</B>).</P>
-<B><I><P>Stylesheet </B></I>The server's non-binding recommendations on formatting retrieved annotations for a given source (via <B>stylesheet</B>), using a General Feature Format (GFF) document. (<I>Cf.</I>, <U>Specs</U>: &quot;The Queries: Retrieving the Stylesheet&quot; and <U>Specs</U>: &quot;Glyph Types.&quot;)</P>
+=== [Annotation] Method === 
+A description of how the annotated feature was discovered, possibly including a reference to a software program.
 
-</DIR>
-</DIR>
+=== [Annotation] Category === 
+A intentionally broad functional genre that can be used to filter, group, and sort annotations, <I>e.g.</I>, homology, variation, and transcribed. (For the sake of consistency, <I>cf.</I> <U>Specs</U>: &quot;Feature Types and Categories&quot; for a general list of types and categories.)
+
+=== Source === 
+A project containing data on DAS (a list of which may be retrieved via <B>dsn</B>).
+
+=== Stylesheet ===
+The server's non-binding recommendations on formatting retrieved annotations for a given source (via <B>stylesheet</B>), using a General Feature Format (GFF) document. (<I>Cf.</I>, <U>Specs</U>: &quot;The Queries: Retrieving the Stylesheet&quot; and <U>Specs</U>: &quot;Glyph Types.&quot;)
 
 == DAS Queries == 
-</B></FONT><P>A query can be made via a URL according to HTTP conventions, through either GET or (more preferably because of size) POST. The response is composed of:<BR>
-1. A standard HTTP header with DAS status information pertaining to the validity of the query (<I>cf.</I> <U>Specs</U>: &quot;Client/Server Interactions: The Response.&quot;);<BR>
-2. (Optionally) an XML file containing the answer to the query, according to the specifications listed in <U>Specs</U>: &quot;The Queries&quot;.</P>
 
-<I><P>PREFIX</I> denotes the URL prefix for the DAS server, <I>e.g.</I>, http://servlet.sanger.ac.uk:8080 is the prefix for &lt;http://servlet.sanger.ac.uk:8080/das/dsn&gt;.<BR>
-<I>DAS</I> denotes the Data Source Name for a data source.</P><DIR>
+A query can be made via a URL according to HTTP conventions, through either GET or (more preferably because of size) POST. The response is composed of:
+# A standard HTTP header with DAS status information pertaining to the validity of the query (<I>cf.</I> <U>Specs</U>: &quot;Client/Server Interactions: The Response.&quot;);
+# (Optionally) an XML file containing the answer to the query, according to the specifications listed in <U>Specs</U>: "The Queries".
 
-<B><P>dsn</B><BR>
-<I>Command</I>: <I>PREFIX</I>/das/dsn<BR>
+''PREFIX'' denotes the URL prefix for the DAS server, e.g., http://servlet.sanger.ac.uk:8080 is the prefix for &lt;http://servlet.sanger.ac.uk:8080/das/dsn&gt;.
+''DAS'' denotes the Data Source Name for a data source.
 
-<I>Function</I>: Retrieves the list of data sources available from this server<BR>
-<I>Scope</I>: Reference and annotation servers</P>
-<B><P>entry_points</B><BR>
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/entry_points<BR>
-<I>Function</I>: Retrieves the list of entry points and their respective sizes for a data source<BR>
+=== dsn ===
+''Command'': <code>''PREFIX''/das/dsn</code>
+''Function'': Retrieves the list of data sources available from this server
+''Scope'': Reference and annotation servers
 
-<I>Scope</I>: Reference servers</P>
-<B><P>dna</B><BR>
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/dna?segment=<I>RANGE</I>[;segment=<I>RANGE</I>]<BR>
-<I>Function</I>: Retrieves the DNA associated with a subsequence<BR>
+=== entry_points ===
+_Command_: <code>_PREFIX_/das/_DSN_/entry_points</code>
+_Function_: Retrieves the list of entry points and their respective sizes for a data source
 
-<I>Scope</I>: Reference servers</P>
-<B><P>sequence</B><BR>
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/sequence?segment=<I>RANGE</I>[;segment=<I>RANGE</I>]<BR>
-<I>Function</I>: Retrieves the sequence associated with a subsequence<BR>
+<I>Scope</I>: Reference servers
 
-<I>Scope</I>: Reference servers</P>
-<B><P>types</B><BR>
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/types[?segment=<I>RANGE</I>][;segment=<I>RANGE</I>][;type=<I>TYPE</I>]<BR>
+=== dna ===
+<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/dna?segment=<I>RANGE</I>[;segment=<I>RANGE</I>]
+<I>Function</I>: Retrieves the DNA associated with a subsequence
 
-[;type=<I>TYPE</I>]<BR>
-<I>Function</I>: Retrieves the types available for a segment of a sequence<BR>
-<I>Scope</I>: Reference and annotation servers</P>
-<B><P>features</B><BR>
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/features?segment=<I>REF:start,stop</I>[;segment=<I>REF:start,stop</I>]<BR>
+<I>Scope</I>: Reference servers
 
-[;type=<I>TYPE</I>][;type=<I>TYPE</I>][;category=<I>CATEGORY</I>][;category=<I>CATEGORY</I>]<BR>
-<I>Function</I>: Retrieves the annotations across a segment<BR>
-<I>Scope</I>: Reference and annotation servers</P>
-<B><P>link</B><BR>
+=== sequence ===
+<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/sequence?segment=<I>RANGE</I>[;segment=<I>RANGE</I>]
+<I>Function</I>: Retrieves the sequence associated with a subsequence
 
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/link?field=<I>TAG</I>;id=<I>ID</I><BR>
-<I>Function</I>: Retrieves and HTML page describing human-readable information about an annotation<BR>
-<I>Scope</I>: Annotation servers</P>
-<B><P>stylesheet</B><BR>
+<I>Scope</I>: Reference servers
 
-<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/stylesheet<BR>
-<I>Function</I>: Retrieves a stylesheet for the given <BR>
-<I>Scope</I>: Annotation servers</P>
-</DIR>
+=== types ===
+<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/types[?segment=<I>RANGE</I>][;segment=<I>RANGE</I>][;type=<I>TYPE</I>]
+
+[;type=<I>TYPE</I>]
+<I>Function</I>: Retrieves the types available for a segment of a sequence
+<I>Scope</I>: Reference and annotation servers
+
+=== features ===
+<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/features?segment=<I>REF:start,stop</I>[;segment=<I>REF:start,stop</I>]
+
+[;type=<I>TYPE</I>][;type=<I>TYPE</I>][;category=<I>CATEGORY</I>][;category=<I>CATEGORY</I>]
+<I>Function</I>: Retrieves the annotations across a segment
+<I>Scope</I>: Reference and annotation servers
+
+=== link ===
+
+<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/link?field=<I>TAG</I>;id=<I>ID</I>
+<I>Function</I>: Retrieves and HTML page describing human-readable information about an annotation
+<I>Scope</I>: Annotation servers
+
+=== stylesheet ===
+
+<I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/stylesheet
+<I>Function</I>: Retrieves a stylesheet for the given 
+<I>Scope</I>: Annotation servers
 
 == Genome Assembly ==
 
-</B></FONT><P>In a client application, Genome Assembly consists of moving &quot;up&quot; or &quot;down&quot; (the nomenclature of the <U>Specs</U>, analogous to zooming &quot;in&quot; or &quot;out&quot;), along component children and supercomponent parent(s) <SUP><A HREF="#1">1</A></SUP>. Genome Assembly occurs only upon Reference Servers, a necessary deduction from its definition. This data is contained within the TYPE description for a feature. (<I>Cf.</I> <U>Specs</U>: &quot;Fetching Sequence Assemblies.)</P>
+</B></FONT><P>In a client application, Genome Assembly consists of moving &quot;up&quot; or &quot;down&quot; (the nomenclature of the <U>Specs</U>, analogous to zooming &quot;in&quot; or &quot;out&quot;), along component children and supercomponent parent(s) <SUP><A HREF="#1">1</A></SUP>. Genome Assembly occurs only upon Reference Servers, a necessary deduction from its definition. This data is contained within the TYPE description for a feature. (<I>Cf.</I> <U>Specs</U>: &quot;Fetching Sequence Assemblies.)
 
-<P>Thus, in describing such a paradigm, the <U>Specs</U> appear to convey that the client application will have to assemble information for a given segment from its component children (<I>i.e.</I>, moving down). (<I>E.g.</I>, a requested segment of a chromosome must be composed by the assembly of several contigs.) Conversely, this paradigm simply facilitates the client application to visit the supercomponent category (<I>i.e.</I>, moving up). (<I>E.g.</I>, a user would like to zoom out from a contig to view the entire chromosome.) However, the programmer should note well that it is a logical possibility for a segment to span more than one supercomponent parent (<I>e.g.</I>, a segment may span two contigs).</P>
+<P>Thus, in describing such a paradigm, the <U>Specs</U> appear to convey that the client application will have to assemble information for a given segment from its component children (<I>i.e.</I>, moving down). (<I>E.g.</I>, a requested segment of a chromosome must be composed by the assembly of several contigs.) Conversely, this paradigm simply facilitates the client application to visit the supercomponent category (<I>i.e.</I>, moving up). (<I>E.g.</I>, a user would like to zoom out from a contig to view the entire chromosome.) However, the programmer should note well that it is a logical possibility for a segment to span more than one supercomponent parent (<I>e.g.</I>, a segment may span two contigs).
 
 <HR>
 
-<A NAME="#1"></A><P><SUP>1</SUP> Following Lincoln Stein, I use the words <I>component</I> and <I>supercomponent</I> to refer to categories alone. (<I>E.g.</I>, the category contig is a component of the category chromosome, whereas chromosome is a supercomponent of contig.) I shall use the words <I>children</I> and <I>parent(s)</I> to refer to entities of the given category. (<I>E.g.</I>, contigs 17, 18, 19, and 20 are the children of the parent chromosome 4.)</P>
+<A NAME="#1"></A><P><SUP>1</SUP> Following Lincoln Stein, I use the words <I>component</I> and <I>supercomponent</I> to refer to categories alone. (<I>E.g.</I>, the category contig is a component of the category chromosome, whereas chromosome is a supercomponent of contig.) I shall use the words <I>children</I> and <I>parent(s)</I> to refer to entities of the given category. (<I>E.g.</I>, contigs 17, 18, 19, and 20 are the children of the parent chromosome 4.)

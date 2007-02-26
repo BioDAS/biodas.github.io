@@ -19,7 +19,6 @@ information providers.
 DAS is heavily used in the genome bioinformatics community. Over the last years we have also
 seen growing acceptance in the protein sequence and structure communities.
 
-
 == What can I do with DAS ? ==
 
 A number of sites and applications is available that are using DAS.
@@ -57,8 +56,10 @@ Currently there are two versions of the DAS protocol
 There are currently two separate mailing lists for public discussions about DAS, 
 one for [http://biodas.org/mailman/listinfo/das DAS/1] and one for [http://biodas.org/mailman/listinfo/das2 DAS/2]. See the [http://biodas.org/documents/biodas-lists.html BioDAS mailing list] page for more info.
 
+== DAS FAQ ==
+
+See the [[DasFAQ]] page for some frequently asked questions.
 
 == CVS access ==
-
 
 Want to contribute to the Wiki? please see some beginners instructions at the [[WikiGetStarted]] page.

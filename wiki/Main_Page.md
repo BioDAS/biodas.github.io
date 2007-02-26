@@ -100,6 +100,12 @@ one for [DAS/2](http://biodas.org/mailman/listinfo/das2). See the
 [BioDAS mailing list](http://biodas.org/documents/biodas-lists.html)
 page for more info.
 
+DAS FAQ
+-------
+
+See the [DasFAQ](/wiki/DasFAQ "wikilink") page for some frequently asked
+questions.
+
 CVS access
 ----------
 

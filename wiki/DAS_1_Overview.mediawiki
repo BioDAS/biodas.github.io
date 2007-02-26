@@ -72,10 +72,13 @@ A query can be made via a URL according to HTTP conventions, through either GET 
 |}
 
 === entry_points ===
-_Command_: <code>_PREFIX_/das/_DSN_/entry_points</code>
-_Function_: Retrieves the list of entry points and their respective sizes for a data source
-
-<I>Scope</I>: Reference servers
+{| 
+| ''Command'' || <code>''PREFIX''/das/''DSN''/entry_points</code>
+|- 
+| ''Function'' || Retrieves the list of entry points and their respective sizes for a data source
+|-
+| ''Scope''|| Reference servers
+|}
 
 === dna ===
 <I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/dna?segment=<I>RANGE</I>[;segment=<I>RANGE</I>]

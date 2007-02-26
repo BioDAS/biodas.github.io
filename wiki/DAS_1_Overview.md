@@ -181,11 +181,12 @@ Data Source Name for a data source.
 >
 ### link
 
-<I>Command</I>:
-<I>PREFIX</I>/das/<I>DSN</I>/link?field=<I>TAG</I>;id=<I>ID</I>
-<I>Function</I>: Retrieves and HTML page describing human-readable
-information about an annotation <I>Scope</I>: Annotation servers
-
+> |            |                                                                                   |
+> |------------|-----------------------------------------------------------------------------------|
+> | *Command*  | *`PREFIX`*`/das/`*`DSN`*`/link?field=`*`TAG`*`;id=`*`ID`*                         |
+> | *Function* | Retrieves and HTML page describing human-readable information about an annotation |
+> | *Scope*    | Reference servers                                                                 |
+>
 ### stylesheet
 
 <I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/stylesheet <I>Function</I>:

@@ -24,7 +24,11 @@ The DAS/1 specification is currently available in version 1.53 from
 Clients
 -------
 
-a list of DAS/1 clients here
+-   [Ensembl](http://www.ensembl.org/info/data/external_data/das/ensembl_das.html)
+-   [Spice](http://www.efamily.org.uk/software/dasclients/spice/)
+-   \[<http://www.ebi.ac.uk/das-srv/uniprot/dasty/content?ID>=:dis=BioSapiens
+    Dasty\]
+-   [Dasty2](http://www.ebi.ac.uk/~rafael/pre_dasty2/)
 
 How to set up a DAS/1 server
 ----------------------------

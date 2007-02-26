@@ -11,9 +11,10 @@ http://www.biodas.org/documents/spec.html
 
 == Clients ==
 
-a list of DAS/1 clients here
-
-
+* [http://www.ensembl.org/info/data/external_data/das/ensembl_das.html Ensembl]
+* [http://www.efamily.org.uk/software/dasclients/spice/ Spice]
+* [http://www.ebi.ac.uk/das-srv/uniprot/dasty/content?ID=:dis=BioSapiens Dasty]
+* [http://www.ebi.ac.uk/~rafael/pre_dasty2/ Dasty2]
 
 == How to set up a DAS/1 server ==
 

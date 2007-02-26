@@ -10,6 +10,8 @@ DAS/2 is a more flexible and powerful version of the original [[DAS/1]]. The DAS
 # [http://genoviz.sourceforge.net An open-source DAS/2 client implementation]
 # [http://sourceforge.net/projects/dasypus An open-source client library and server validation suite] 
 
+See [[DAS/2#CVS Access]] for details on retrieving code related to these projects.
+
 == DAS/2 History ==
 
 DAS/2 evolved from [[DAS/1]] through a community-driven process, informed by a variety of [http://biodas.org/RFCs/index.html RFCs (Requests for Comment)] received from the community of users and implementers of the spec. As of November 2006, the [http://biodas.org/documents/das2/das2_get.html retrieval portion of the DAS/2 spec] has stabilized. Implementers can rely on this for their DAS/2-based development efforts.
@@ -54,3 +56,14 @@ To submit or view bug reports in DAS/2-related software, use one of the links be
 **    http://sourceforge.net/tracker/?group_id=129420&atid=714744
 * Validation Suite (Dasypus):
 **    https://sourceforge.net/tracker/?group_id=138271&atid=740641
+
+== CVS Access ==
+
+There are separate repositories for the DAS/2 specification, DAS/2 client and server reference implementations, and the validation suite. These are for developers only since they do not represent stable releases and may contain modifications that contain bugs. The one exception is the schema for the retrieval portion of the DAS/2 spec, which is now stable.
+
+* DAS/2 spec: 
+** <code>:pserver:cvs@cvs.biodas.org:/home/repository/biodas</code>
+*** (login password="cvs", directory=das/das2, XML schema: das2_schemas.rnc)
+* [http://genoviz.sourceforge.net DAS/2 Client reference implementation] ("IGB")
+* [http://gmod.org DAS/2 Server reference implementation] (see das2 package)
+* [http://sourceforge.net/projects/dasypus/ DAS/2 validation suite] ("Dasypus")

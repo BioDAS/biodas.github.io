@@ -9,6 +9,8 @@ The original version 1 specification, written by Lincoln Stein and Robin Dowell,
 The DAS/1 specification is currently available in version 1.53 from
 http://www.biodas.org/documents/spec.html
 
+See also the [[DAS/1/Overview]] for a glossary and list of concepts.
+
 == Clients ==
 
 * [http://www.ensembl.org/info/data/external_data/das/ensembl_das.html Ensembl]

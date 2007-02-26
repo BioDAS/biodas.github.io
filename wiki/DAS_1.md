@@ -21,6 +21,9 @@ websites and software applications are based on DAS.
 The DAS/1 specification is currently available in version 1.53 from
 <http://www.biodas.org/documents/spec.html>
 
+See also the [DAS/1/Overview](/wiki/DAS/1/Overview "wikilink") for a glossary
+and list of concepts.
+
 Clients
 -------
 

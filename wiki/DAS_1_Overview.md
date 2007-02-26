@@ -133,12 +133,12 @@ Data Source Name for a data source.
 
 ### dsn
 
-|            |                                                               |
-|------------|---------------------------------------------------------------|
-| *Command*  | *`PREFIX`*`/das/dsn`                                          |
-| *Function* | Retrieves the list of data sources available from this server |
-| *Scope*    | Reference and annotation servers                              |
-
+> |            |                                                               |
+> |------------|---------------------------------------------------------------|
+> | *Command*  | *`PREFIX`*`/das/dsn`                                          |
+> | *Function* | Retrieves the list of data sources available from this server |
+> | *Scope*    | Reference and annotation servers                              |
+>
 ### entry\_points
 
 |            |                                                                                 |

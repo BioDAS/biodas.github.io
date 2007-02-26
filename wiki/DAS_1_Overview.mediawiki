@@ -63,6 +63,7 @@ A query can be made via a URL according to HTTP conventions, through either GET 
 ''DAS'' denotes the Data Source Name for a data source.
 
 === dsn ===
+<blockquote>
 {| 
 | ''Command'' || <code>''PREFIX''/das/dsn</code>
 |- 
@@ -70,6 +71,7 @@ A query can be made via a URL according to HTTP conventions, through either GET 
 |-
 | ''Scope''|| Reference and annotation servers
 |}
+</blockquote>
 
 === entry_points ===
 {| 

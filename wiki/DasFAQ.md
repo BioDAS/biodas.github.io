@@ -4,7 +4,7 @@ permalink: wiki/DasFAQ/
 layout: wiki
 ---
 
-<big>**DAS FAQ**</big>
+<big>**DAS Frequently Asked Questions**</big>
 
 What applications are the actual "DAS clients"?
 -----------------------------------------------

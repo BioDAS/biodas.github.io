@@ -106,8 +106,14 @@ DAS FAQ
 See the [DasFAQ](/wiki/DasFAQ "wikilink") page for some frequently asked
 questions.
 
-CVS access
+CVS Access
 ----------
+
+See the [DAS/2](/wiki/DAS/2 "wikilink") page for CVS access information to
+various aspects of the DAS/2 development effort.
+
+Contribute to this Wiki
+-----------------------
 
 Want to contribute to the Wiki? please see some beginners instructions
 at the [WikiGetStarted](/wiki/WikiGetStarted "wikilink") page.

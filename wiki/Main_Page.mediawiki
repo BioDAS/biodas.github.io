@@ -60,6 +60,11 @@ one for [http://biodas.org/mailman/listinfo/das DAS/1] and one for [http://bioda
 
 See the [[DasFAQ]] page for some frequently asked questions.
 
-== CVS access ==
+== CVS Access ==
+
+See the [[DAS/2]] page for CVS access information to various aspects of the DAS/2 development effort.
+
+
+== Contribute to this Wiki ==
 
 Want to contribute to the Wiki? please see some beginners instructions at the [[WikiGetStarted]] page.

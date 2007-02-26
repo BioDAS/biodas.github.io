@@ -2,6 +2,8 @@
 title: DAS/2
 permalink: wiki/DAS/2/
 layout: wiki
+tags:
+ - Documentation
 ---
 
 <big>**The DAS/2 Protocol**</big>

@@ -63,7 +63,7 @@ There are separate repositories for the DAS/2 specification, DAS/2 client and se
 
 * DAS/2 spec: 
 ** <code>:pserver:cvs@cvs.biodas.org:/home/repository/biodas</code>
-*** (login password="cvs", directory=das/das2, XML schema: das2_schemas.rnc)
+*** (login password="cvs", directory=das/das2, XML schema for retrieval spec: das2_schemas.rnc)
 * [http://genoviz.sourceforge.net DAS/2 Client reference implementation] ("IGB")
 * [http://gmod.org DAS/2 Server reference implementation] (see das2 package)
 * [http://sourceforge.net/projects/dasypus/ DAS/2 validation suite] ("Dasypus")

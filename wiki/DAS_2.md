@@ -108,8 +108,8 @@ which is now stable.
 
 -   DAS/2 spec:
     -   `:pserver:cvs@cvs.biodas.org:/home/repository/biodas`
-        -   (login password="cvs", directory=das/das2, XML
-            schema: das2\_schemas.rnc)
+        -   (login password="cvs", directory=das/das2, XML schema for
+            retrieval spec: das2\_schemas.rnc)
 -   [DAS/2 Client reference
     implementation](http://genoviz.sourceforge.net) ("IGB")
 -   [DAS/2 Server reference implementation](http://gmod.org) (see

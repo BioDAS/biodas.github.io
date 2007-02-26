@@ -41,3 +41,9 @@ To fully realize 1 &lt;-&gt; 2 interoperation, there would need to be a
 DAS/1 proxy adapter for DAS/2 servers, to permit DAS/1 clients to
 interact with DAS/2 servers. Whether such a utility will be needed or
 developed remains to be seen.
+
+How does one retrieve genomic coordinates from a list of gene names or Entrez Gene IDs using DAS/2?
+---------------------------------------------------------------------------------------------------
+
+See this thread on the DAS/2 discussion list:
+<http://lists.open-bio.org/pipermail/das2/2007-January/000967.html>

@@ -74,6 +74,7 @@ A query can be made via a URL according to HTTP conventions, through either GET 
 </blockquote>
 
 === entry_points ===
+<blockquote>
 {| 
 | ''Command'' || <code>''PREFIX''/das/''DSN''/entry_points</code>
 |- 
@@ -81,6 +82,7 @@ A query can be made via a URL according to HTTP conventions, through either GET 
 |-
 | ''Scope''|| Reference servers
 |}
+</blockquote>
 
 === dna ===
 <I>Command</I>: <I>PREFIX</I>/das/<I>DSN</I>/dna?segment=<I>RANGE</I>[;segment=<I>RANGE</I>]

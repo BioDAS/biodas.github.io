@@ -141,12 +141,12 @@ Data Source Name for a data source.
 >
 ### entry\_points
 
-|            |                                                                                 |
-|------------|---------------------------------------------------------------------------------|
-| *Command*  | *`PREFIX`*`/das/`*`DSN`*`/entry_points`                                         |
-| *Function* | Retrieves the list of entry points and their respective sizes for a data source |
-| *Scope*    | Reference servers                                                               |
-
+> |            |                                                                                 |
+> |------------|---------------------------------------------------------------------------------|
+> | *Command*  | *`PREFIX`*`/das/`*`DSN`*`/entry_points`                                         |
+> | *Function* | Retrieves the list of entry points and their respective sizes for a data source |
+> | *Scope*    | Reference servers                                                               |
+>
 ### dna
 
 <I>Command</I>:

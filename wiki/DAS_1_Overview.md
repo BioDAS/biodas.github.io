@@ -198,35 +198,29 @@ Data Source Name for a data source.
 Genome Assembly
 ---------------
 
-</B></FONT>
-
 In a client application, Genome Assembly consists of moving "up" or
 "down" (the nomenclature of the <U>Specs</U>, analogous to zooming "in"
-or "out"), along component children and supercomponent parent(s)
-<sup><A HREF="#1">1</A></sup>. Genome Assembly occurs only upon
-Reference Servers, a necessary deduction from its definition. This data
-is contained within the TYPE description for a feature. (<I>Cf.</I>
-<U>Specs</U>: "Fetching Sequence Assemblies.)
+or "out"), along component children and supercomponent parent(s) \[1\].
+Genome Assembly occurs only upon Reference Servers, a necessary
+deduction from its definition. This data is contained within the TYPE
+description for a feature. (*Cf.* <U>Specs</U>: "Fetching Sequence
+Assemblies".)
 
 Thus, in describing such a paradigm, the <U>Specs</U> appear to convey
 that the client application will have to assemble information for a
-given segment from its component children (<I>i.e.</I>, moving down).
-(<I>E.g.</I>, a requested segment of a chromosome must be composed by
-the assembly of several contigs.) Conversely, this paradigm simply
-facilitates the client application to visit the supercomponent category
-(<I>i.e.</I>, moving up). (<I>E.g.</I>, a user would like to zoom out
-from a contig to view the entire chromosome.) However, the programmer
-should note well that it is a logical possibility for a segment to span
-more than one supercomponent parent (<I>e.g.</I>, a segment may span two
-contigs).
+given segment from its component children (i.e., moving down). (E.g., a
+requested segment of a chromosome must be composed by the assembly of
+several contigs.) Conversely, this paradigm simply facilitates the
+client application to visit the supercomponent category (i.e., moving
+up). (E.g., a user would like to zoom out from a contig to view the
+entire chromosome.) However, the programmer should note well that it is
+a logical possibility for a segment to span more than one supercomponent
+parent (e.g., a segment may span two contigs).
 
-<HR>
-<A NAME="#1"></A>
-
-<sup>1</sup> Following Lincoln Stein, I use the words <I>component</I>
-and <I>supercomponent</I> to refer to categories alone. (<I>E.g.</I>,
-the category contig is a component of the category chromosome, whereas
-chromosome is a supercomponent of contig.) I shall use the words
-<I>children</I> and <I>parent(s)</I> to refer to entities of the given
-category. (<I>E.g.</I>, contigs 17, 18, 19, and 20 are the children of
-the parent chromosome 4.)
+Notes:  
+:\[1\] Following Lincoln Stein, the words *component* and
+*supercomponent* refer to categories alone. (E.g., the category contig
+is a component of the category chromosome, whereas chromosome is a
+supercomponent of contig.) The words *children* and *parent(s)* refer to
+entities of the given category. (E.g., contigs 17, 18, 19, and 20 are
+the children of the parent chromosome 4).

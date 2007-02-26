@@ -20,11 +20,11 @@ DAS/1 servers are currently running worldwide including
 [UniProt](http://www.ebi.ac.uk/das-srv/uniprot/das). A number of
 websites and software applications are based on DAS.
 
-The DAS/1 specification is currently available in version 1.53 from
+The DAS/1 specification is available at
 <http://www.biodas.org/documents/spec.html>
 
-The [DAS/1/Overview](/wiki/DAS/1/Overview "wikilink") provides a glossary and
-list of concepts.
+[DAS/1/Overview](/wiki/DAS/1/Overview "wikilink") provides a glossary and list
+of concepts.
 
 Clients
 -------

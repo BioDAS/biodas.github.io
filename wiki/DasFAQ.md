@@ -2,6 +2,8 @@
 title: DasFAQ
 permalink: wiki/DasFAQ/
 layout: wiki
+tags:
+ - Documentation
 ---
 
 <big>**DAS Frequently Asked Questions**</big>

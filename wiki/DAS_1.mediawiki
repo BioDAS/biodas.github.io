@@ -30,6 +30,7 @@ DAS server implementations are available in several programming languages:
 
 * Java
  [http://www.derkholm.net/thomas/dazzle/ Dazzle]
+ [http://servlet.sanger.ac.uk:8080/das/ Dazzle server at Sanger]
 
 == Publishing and Discovery of DAS/1 sources ==
 

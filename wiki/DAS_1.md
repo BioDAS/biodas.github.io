@@ -49,7 +49,8 @@ languages:
 
 -   Java
 
-[`Dazzle`](http://www.derkholm.net/thomas/dazzle/)
+[`Dazzle`](http://www.derkholm.net/thomas/dazzle/)  
+[`Dazzle` `server` `at` `Sanger`](http://servlet.sanger.ac.uk:8080/das/)
 
 Publishing and Discovery of DAS/1 sources
 -----------------------------------------

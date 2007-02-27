@@ -54,8 +54,7 @@ Parameter "url" is required. This is the URL to validate.
 It has an optional parameter "doctype" which is the document type to
 expect
 
-    %curl 'http://cgi.biodas.org:8080/validate_url?\
-    url=http://das.biopackages.net/das/genome/human/;doctype=sources'
+    %curl 'http://cgi.biodas.org:8080/validate_url?url=http://das.biopackages.net/das/genome/human/;doctype=sources'
     <?xml version="1.0" encoding="utf-8"?>
     <DAS_VALIDATION url="http://das.biopackages.net/das/genome/human/"  
     doctype="sources" />
@@ -73,7 +72,7 @@ The XML document is
 A note about the doctype. If the server could not get the document then
 the validation will not have a doctype even if you gave it one.
 
-    %curl 'http://cgi.biodas.org:8080/validate_url?url=http://slashdot.org; doctype=types'
+    %curl 'http://cgi.biodas.org:8080/validate_url?url=http://slashdot.org;doctype=types'
     <?xml version="1.0" encoding="utf-8"?>
     <DAS_VALIDATION url="http://slashdot.org">
       <MESSAGE text="Received Content-Type 'text/html', expected  

@@ -23,6 +23,7 @@ The DAS/1 specification is available at http://www.biodas.org/documents/spec.htm
 
 == Servers ==
 
+* [http://netaffxdas.affymetrix.com/das/ Affymetrix]
 * [http://www.biosapiens.info/page.php?page=biosapiensdir BioSapiens servers]
 * [http://servlet.sanger.ac.uk:8080/das/ Dazzle server at Sanger]
 * [http://das.hgc.jp/ KEGG DAS]

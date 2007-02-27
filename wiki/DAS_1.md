@@ -44,6 +44,7 @@ Clients
 Servers
 -------
 
+-   [Affymetrix](http://netaffxdas.affymetrix.com/das/)
 -   [BioSapiens
     servers](http://www.biosapiens.info/page.php?page=biosapiensdir)
 -   [Dazzle server at Sanger](http://servlet.sanger.ac.uk:8080/das/)

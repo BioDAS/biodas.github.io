@@ -151,9 +151,9 @@ A query can be made via a URL according to HTTP conventions, through either GET 
 
 == Genome Assembly ==
 
-In a client application, Genome Assembly consists of moving "up" or "down" (the nomenclature of the <U>Specs</U>, analogous to zooming "in" or "out"), along component children and supercomponent parent(s) [1]. Genome Assembly occurs only upon Reference Servers, a necessary deduction from its definition. This data is contained within the TYPE description for a feature. (''Cf.'' <U>Specs</U>: "Fetching Sequence Assemblies".)
+In a client application, Genome Assembly consists of moving "up" or "down" (the nomenclature of the <U>Specs</U>, analogous to zooming "in" or "out"), along component children and supercomponent parent(s).<ref>Following Lincoln Stein, the words ''component'' and ''supercomponent'' refer to categories alone. (E.g., the category contig is a component of the category chromosome, whereas chromosome is a supercomponent of contig.) The words ''children'' and ''parent(s)'' refer to entities of the given category. (E.g., contigs 17, 18, 19, and 20 are the children of the parent chromosome 4).</ref> Genome Assembly occurs only upon Reference Servers, a necessary deduction from its definition. This data is contained within the TYPE description for a feature. (''Cf.'' <U>Specs</U>: "Fetching Sequence Assemblies".)
 
 Thus, in describing such a paradigm, the <U>Specs</U> appear to convey that the client application will have to assemble information for a given segment from its component children (i.e., moving down). (E.g., a requested segment of a chromosome must be composed by the assembly of several contigs.) Conversely, this paradigm simply facilitates the client application to visit the supercomponent category (i.e., moving up). (E.g., a user would like to zoom out from a contig to view the entire chromosome.) However, the programmer should note well that it is a logical possibility for a segment to span more than one supercomponent parent (e.g., a segment may span two contigs).
 
-Notes:<br>
-:[1] Following Lincoln Stein, the words ''component'' and ''supercomponent'' refer to categories alone. (E.g., the category contig is a component of the category chromosome, whereas chromosome is a supercomponent of contig.) The words ''children'' and ''parent(s)'' refer to entities of the given category. (E.g., contigs 17, 18, 19, and 20 are the children of the parent chromosome 4).
+'''Notes''':
+<references />

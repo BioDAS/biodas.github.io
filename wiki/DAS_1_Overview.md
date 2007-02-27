@@ -199,7 +199,7 @@ Genome Assembly
 
 In a client application, Genome Assembly consists of moving "up" or
 "down" (the nomenclature of the <U>Specs</U>, analogous to zooming "in"
-or "out"), along component children and supercomponent parent(s) \[1\].
+or "out"), along component children and supercomponent parent(s).[1]
 Genome Assembly occurs only upon Reference Servers, a necessary
 deduction from its definition. This data is contained within the TYPE
 description for a feature. (*Cf.* <U>Specs</U>: "Fetching Sequence
@@ -216,10 +216,13 @@ entire chromosome.) However, the programmer should note well that it is
 a logical possibility for a segment to span more than one supercomponent
 parent (e.g., a segment may span two contigs).
 
-Notes:  
-:\[1\] Following Lincoln Stein, the words *component* and
-*supercomponent* refer to categories alone. (E.g., the category contig
-is a component of the category chromosome, whereas chromosome is a
-supercomponent of contig.) The words *children* and *parent(s)* refer to
-entities of the given category. (E.g., contigs 17, 18, 19, and 20 are
-the children of the parent chromosome 4).
+**Notes**:
+
+<references />
+
+[1] Following Lincoln Stein, the words *component* and *supercomponent*
+refer to categories alone. (E.g., the category contig is a component of
+the category chromosome, whereas chromosome is a supercomponent of
+contig.) The words *children* and *parent(s)* refer to entities of the
+given category. (E.g., contigs 17, 18, 19, and 20 are the children of
+the parent chromosome 4).

@@ -13,10 +13,11 @@ About
 
 The
 \[<http://crisp.cit.nih.gov/crisp/CRISP_LIB.getdoc?textkey=6712060&p_grant_num=1R01HG003040-01&p_query>=(DAS)&ticket=15416031&p\_audit\_session\_id=72191905&p\_audit\_score=100&p\_audit\_numfound=1&p\_keywords=DAS
-NIH grant\] included the development of a validation service to verify
-conformance of DAS/2 clients and servers with the DAS/2 specification.
-This should promote consistency between different implementations and
-thereby enhance interoperability of DAS/2 based systems.
+DAS/2 NIH grant\] included the development of a validation service to
+verify conformance of DAS/2 clients and servers with the DAS/2
+specification. This should promote consistency between different
+implementations and thereby enhance interoperability of DAS/2 based
+systems.
 
 Server URL
 ----------

@@ -6,11 +6,6 @@ layout: wiki
 
 <big>**Welcome To BioDAS.org**</big>
 
-<http://biodas.org/> will eventually be migrated to a wiki format. In
-the meantime, please continue to use the original site. If you want to
-pitch in and help this migration, send a note to the [BioDAS discussion
-list](http://lists.open-bio.org/mailman/listinfo/das2).
-
 About DAS
 ---------
 

@@ -124,3 +124,5 @@ which is now stable.
 -   [DAS/2 validation
     suite](http://sourceforge.net/projects/dasypus/) ("Dasypus")
 
+See <http://www.open-bio.org/wiki/SourceCode> for general pointers about
+anonymous access to source code hosted by <http://open-bio.org>.

@@ -71,3 +71,5 @@ There are separate repositories for the DAS/2 specification, DAS/2 client and se
 * [http://genoviz.sourceforge.net DAS/2 Client reference implementation] ("IGB")
 * [http://gmod.org DAS/2 Server reference implementation] (see das2 package)
 * [http://sourceforge.net/projects/dasypus/ DAS/2 validation suite] ("Dasypus")
+
+See http://www.open-bio.org/wiki/SourceCode for general pointers about anonymous access to source code hosted by http://open-bio.org.

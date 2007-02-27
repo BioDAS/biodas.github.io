@@ -21,6 +21,12 @@ Older (still maintained?):
 * [http://biodas.org/geodesic/ Geodesic]
 * [http://sourceforge.net/project/showfiles.php?group_id=28453&release_id=60810 OmniDAS/OmniGene]
 
+== Servers ==
+
+* [http://servlet.sanger.ac.uk:8080/das/ Dazzle server at Sanger]
+* [http://das.hgc.jp/ KEGG DAS]
+* [http://www.tigr.org/tdb/DAS/das_server_list.html Listing of servers maintained by TIGR]
+
 == How to set up a DAS/1 server ==
 
 In general it is quite easy to set up DAS server. All the server implementations are easy to set up.
@@ -35,7 +41,6 @@ DAS server implementations are available in several programming languages:
 
 * Java
  [http://www.derkholm.net/thomas/dazzle/ Dazzle]
- [http://servlet.sanger.ac.uk:8080/das/ Dazzle server at Sanger]
 
 == Publishing and Discovery of DAS/1 sources ==
 

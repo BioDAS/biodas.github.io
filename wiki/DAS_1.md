@@ -40,6 +40,14 @@ Older (still maintained?):
 -   [Geodesic](http://biodas.org/geodesic/)
 -   [OmniDAS/OmniGene](http://sourceforge.net/project/showfiles.php?group_id=28453&release_id=60810)
 
+Servers
+-------
+
+-   [Dazzle server at Sanger](http://servlet.sanger.ac.uk:8080/das/)
+-   [KEGG DAS](http://das.hgc.jp/)
+-   [Listing of servers maintained by
+    TIGR](http://www.tigr.org/tdb/DAS/das_server_list.html)
+
 How to set up a DAS/1 server
 ----------------------------
 
@@ -59,8 +67,7 @@ languages:
 
 -   Java
 
-[`Dazzle`](http://www.derkholm.net/thomas/dazzle/)  
-[`Dazzle` `server` `at` `Sanger`](http://servlet.sanger.ac.uk:8080/das/)
+[`Dazzle`](http://www.derkholm.net/thomas/dazzle/)
 
 Publishing and Discovery of DAS/1 sources
 -----------------------------------------

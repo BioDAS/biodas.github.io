@@ -125,4 +125,5 @@ which is now stable.
     suite](http://sourceforge.net/projects/dasypus/) ("Dasypus")
 
 See <http://www.open-bio.org/wiki/SourceCode> for general pointers about
-anonymous access to source code hosted by <http://open-bio.org>.
+anonymous access to [open-bio.org](http://open-bio.org)-hosted source
+code.

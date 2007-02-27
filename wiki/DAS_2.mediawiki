@@ -72,4 +72,4 @@ There are separate repositories for the DAS/2 specification, DAS/2 client and se
 * [http://gmod.org DAS/2 Server reference implementation] (see das2 package)
 * [http://sourceforge.net/projects/dasypus/ DAS/2 validation suite] ("Dasypus")
 
-See http://www.open-bio.org/wiki/SourceCode for general pointers about anonymous access to source code hosted by http://open-bio.org.
+See http://www.open-bio.org/wiki/SourceCode for general pointers about anonymous access to [http://open-bio.org open-bio.org]-hosted source code.

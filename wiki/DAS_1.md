@@ -43,6 +43,8 @@ Older (still maintained?):
 Servers
 -------
 
+-   [BioSapiens
+    servers](http://www.biosapiens.info/page.php?page=biosapiensdir)
 -   [Dazzle server at Sanger](http://servlet.sanger.ac.uk:8080/das/)
 -   [KEGG DAS](http://das.hgc.jp/)
 -   [Listing of servers maintained by

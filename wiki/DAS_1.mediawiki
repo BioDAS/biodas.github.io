@@ -23,6 +23,7 @@ Older (still maintained?):
 
 == Servers ==
 
+* [http://www.biosapiens.info/page.php?page=biosapiensdir BioSapiens servers]
 * [http://servlet.sanger.ac.uk:8080/das/ Dazzle server at Sanger]
 * [http://das.hgc.jp/ KEGG DAS]
 * [http://www.tigr.org/tdb/DAS/das_server_list.html Listing of servers maintained by TIGR]

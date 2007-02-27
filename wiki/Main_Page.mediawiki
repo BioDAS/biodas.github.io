@@ -53,8 +53,21 @@ Currently there are two versions of the DAS protocol
 
 == Mailing Lists ==
 
-There are currently two separate mailing lists for public discussions about DAS, 
-one for [http://biodas.org/mailman/listinfo/das DAS/1] and one for [http://biodas.org/mailman/listinfo/das2 DAS/2]. See the [http://biodas.org/documents/biodas-lists.html BioDAS mailing list] page for more info.
+Just so we don't create confusion over DAS/1 vs. DAS/2 issues, there are separate discussion lists for issues related to these very different versions of the spec. For general discussions, use the DAS/2 list.
+
+=== DAS/1 Discussion list ===
+
+* Post to: das@biodas.org
+* Listinfo: http://biodas.org/mailman/listinfo/das
+
+=== DAS/2 Discussion list ===
+
+* Post to: das2@biodas.org
+* Listinfo: http://biodas.org/mailman/listinfo/das2
+
+=== DAS Announcements ===
+
+* Listinfo: http://biodas.org/mailman/listinfo/das-announce
 
 == DAS FAQ ==
 

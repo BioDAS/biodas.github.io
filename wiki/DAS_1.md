@@ -35,10 +35,11 @@ Clients
     Dasty\]
 -   [Dasty2](http://www.ebi.ac.uk/~rafael/pre_dasty2/)
 
-Older (still maintained?):
+<!-- -->
 
--   [Geodesic](http://biodas.org/geodesic/)
--   [OmniDAS/OmniGene](http://sourceforge.net/project/showfiles.php?group_id=28453&release_id=60810)
+-   Older (still maintained?):
+    -   [Geodesic](http://biodas.org/geodesic/)
+    -   [OmniDAS/OmniGene](http://sourceforge.net/project/showfiles.php?group_id=28453&release_id=60810)
 
 Servers
 -------

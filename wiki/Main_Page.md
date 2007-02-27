@@ -29,7 +29,7 @@ and structure communities.
 What can I do with DAS ?
 ------------------------
 
-A number of sites and applications is available that are using DAS.
+Here are some examples of DAS-enabled websites and applications:
 
 -   IGB: <http://genoviz.sourceforge.net>
 

@@ -78,7 +78,8 @@ servers are currently running worldwide including
 [FlyBase](http://www.flybase.org/), [Ensembl](http://www.ensembl.org/),
 [TIGR](http://www.tigr.org/), [UCSC](http://genome.ucsc.edu/), and
 [UniProt](http://www.ebi.ac.uk/uniprot-das/). For a listing of all
-available DAS sources please proceed to <http://www.dasregistry.org>
+available DAS sources please proceed to the DasRegistry
+<http://www.dasregistry.org>
 
 ### [DAS/2](/wiki/DAS/2 "wikilink")
 

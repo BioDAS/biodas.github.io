@@ -24,7 +24,7 @@ Given that the DAS/2 specification is not backward compatible with the DAS/1 ver
 
 The following software packages operate as clients capable of interacting with servers supporting the DAS/2 protocol:
 
-* [http://genoviz.sourceforge.net IGB - Integrated Genome Browser]
+* [http://genoviz.sourceforge.net IGB - Integrated Genome Browser] - a DAS/2 reference implementation
 * [http://www.gmod.org/ggb/ GBrowse - Generic Genome Browser]
 
 == Servers ==

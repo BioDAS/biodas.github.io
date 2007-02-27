@@ -36,7 +36,8 @@ Comment)](http://biodas.org/RFCs/index.html) received from the community
 of users and implementers of the spec. As of November 2006, the
 [retrieval portion of the DAS/2
 spec](http://biodas.org/documents/das2/das2_get.html) has stabilized.
-Implementers can rely on this for their DAS/2-based development efforts.
+Implementers and service providers can rely on this for their
+DAS/2-based development efforts.
 
 DAS/2 development officially commenced in July 2004 when a 2-year
 \[<http://crisp.cit.nih.gov/crisp/CRISP_LIB.getdoc?textkey=6712060&p_grant_num=1R01HG003040-01&p_query>=(DAS)&ticket=15416031&p\_audit\_session\_id=72191905&p\_audit\_score=100&p\_audit\_numfound=1&p\_keywords=DAS

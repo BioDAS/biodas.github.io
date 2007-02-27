@@ -14,7 +14,7 @@ See [[DAS/2#CVS Access]] for details on retrieving code related to these project
 
 == DAS/2 History ==
 
-DAS/2 evolved from [[DAS/1]] through a community-driven process, informed by a variety of [http://biodas.org/RFCs/index.html RFCs (Requests for Comment)] received from the community of users and implementers of the spec. As of November 2006, the [http://biodas.org/documents/das2/das2_get.html retrieval portion of the DAS/2 spec] has stabilized. Implementers can rely on this for their DAS/2-based development efforts.
+DAS/2 evolved from [[DAS/1]] through a community-driven process, informed by a variety of [http://biodas.org/RFCs/index.html RFCs (Requests for Comment)] received from the community of users and implementers of the spec. As of November 2006, the [http://biodas.org/documents/das2/das2_get.html retrieval portion of the DAS/2 spec] has stabilized. Implementers and service providers can rely on this for their DAS/2-based development efforts.
 
 DAS/2 development officially commenced in July 2004 when a 2-year [http://crisp.cit.nih.gov/crisp/CRISP_LIB.getdoc?textkey=6712060&p_grant_num=1R01HG003040-01&p_query=(DAS)&ticket=15416031&p_audit_session_id=72191905&p_audit_score=100&p_audit_numfound=1&p_keywords=DAS NIH grant] was funded. Participating in the DAS/2 grant are Affymetrix, Cold Spring Harbor Lab, the European Bioinformatics Institute/Sanger Center, and Dalke Scientific.
 

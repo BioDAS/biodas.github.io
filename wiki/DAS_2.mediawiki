@@ -36,7 +36,7 @@ The following software packages operate as servers capable of providing data in 
 
 == Validation Suite ==
 
-The DAS/2 grant included the development of a validation service to verify conformance of DAS/2 clients and servers with the DAS/2 specification. This service is available here http://cgi.biodas.org:8080/. If it is down, please notify the [http://biodas.org/mailman/listinfo/das2 discussion list].
+See [[Das2Validation]].
 
 == Publishing and Discovery of DAS/2 sources ==
 

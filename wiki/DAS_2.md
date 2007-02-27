@@ -73,11 +73,7 @@ data in response to queries conforming with the DAS/2 protocol:
 Validation Suite
 ----------------
 
-The DAS/2 grant included the development of a validation service to
-verify conformance of DAS/2 clients and servers with the DAS/2
-specification. This service is available here
-<http://cgi.biodas.org:8080/>. If it is down, please notify the
-[discussion list](http://biodas.org/mailman/listinfo/das2).
+See [Das2Validation](/wiki/Das2Validation "wikilink").
 
 Publishing and Discovery of DAS/2 sources
 -----------------------------------------

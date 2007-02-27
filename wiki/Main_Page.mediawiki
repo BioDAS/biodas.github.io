@@ -43,7 +43,7 @@ Currently there are two versions of the DAS protocol
 
 === [[DAS/1]] ===
 
-[[DAS/1]] is the original version of the specification written by Lincoln Stein, Sean Eddy, and Robin Dowell and is the basis for a number of existing clients and servers. More than 200 DAS/1 servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR],  [http://genome.ucsc.edu/ UCSC], and [http://www.ebi.ac.uk/uniprot-das/ UniProt]. For a listing of all available DAS sources please proceed to the DasRegistry http://www.dasregistry.org
+[[DAS/1]] is the original version of the specification written by Lincoln Stein, Sean Eddy, and Robin Dowell and is the basis for a number of existing clients and servers. More than 200 DAS/1 servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR],  [http://genome.ucsc.edu/ UCSC], and [http://www.ebi.ac.uk/uniprot-das/ UniProt]. For a listing of all available DAS sources please proceed to the [[DasRegistry]] http://www.dasregistry.org
 
 === [[DAS/2]] ===
 

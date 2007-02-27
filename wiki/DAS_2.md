@@ -70,6 +70,15 @@ data in response to queries conforming with the DAS/2 protocol:
 -   [Affymetrix Public DAS/2
     server](http://netaffxdas.affymetrix.com/das2)
 
+Validation Suite
+----------------
+
+The DAS/2 grant included the development of a validation service to
+verify conformance of DAS/2 clients and servers with the DAS/2
+specification. This service is available here
+<http://cgi.biodas.org:8080/>. If it is down, please notify the
+[discussion list](http://biodas.org/mailman/listinfo/das2).
+
 Publishing and Discovery of DAS/2 sources
 -----------------------------------------
 

@@ -34,6 +34,10 @@ The following software packages operate as servers capable of providing data in 
 * [http://das.biopackages.net/das/genome Biopackages DAS/2 server] - a DAS/2 reference implementation
 * [http://netaffxdas.affymetrix.com/das2 Affymetrix Public DAS/2 server]
 
+== Validation Suite ==
+
+The DAS/2 grant included the development of a validation service to verify conformance of DAS/2 clients and servers with the DAS/2 specification. This service is available here http://cgi.biodas.org:8080/. If it is down, please notify the [http://biodas.org/mailman/listinfo/das2 discussion list].
+
 == Publishing and Discovery of DAS/2 sources ==
 
 See [[DasRegistry]]

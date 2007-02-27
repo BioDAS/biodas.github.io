@@ -12,10 +12,9 @@ that has a strong commitment to DAS and has been very pro-active in
 setting up DAS/1 servers (lots of protein data) and developing DAS
 clients.
 
-Around this EU-wide collaboration we are organizing two DAS-related
-workshops to which we would like to invite you as well. They will both
-be held in the last week of February, location is the Genome Campus in
-Hinxton / Cambridge, U.K.
+Around this EU-wide collaboration they are organizing two DAS-related
+workshops. They will both be held in the last week of February, location
+is the Genome Campus in Hinxton / Cambridge, U.K.
 
 workshop 1: DAS client developers workshop Monday 26/2/2007 main
 organizer: Andreas Prlic for more info please see:

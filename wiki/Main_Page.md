@@ -71,9 +71,9 @@ Currently there are two versions of the DAS protocol
 ### [DAS/1](/wiki/DAS/1 "wikilink")
 
 [DAS/1](/wiki/DAS/1 "wikilink") is the original version of the specification
-written by Lincoln Stein and Robin Dowell and is the basis for a number
-of existing clients and servers. More than 200 DAS/1 servers are
-currently running worldwide including
+written by Lincoln Stein, Sean Eddy, and Robin Dowell and is the basis
+for a number of existing clients and servers. More than 200 DAS/1
+servers are currently running worldwide including
 [WormBase](http://www.wormbase.org/),
 [FlyBase](http://www.flybase.org/), [Ensembl](http://www.ensembl.org/),
 [TIGR](http://www.tigr.org/), [UCSC](http://genome.ucsc.edu/), and

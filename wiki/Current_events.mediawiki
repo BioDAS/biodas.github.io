@@ -21,4 +21,6 @@ workshop 2:
 BioSapiens Feature Classification (Ontology) Workshop
 Tuesday, 27/2/2007, Wednesday, 28/2/2007
 main organizer: Henning Hermjakob
-fore more details please see attachment.
+Summary:
+
+:''We propose to develop a hierarchical classification of DAS feature types based on the [http://obo.sourceforge.net/ OBO] format and existing feature ontologies like the [http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=SO Sequence Ontology (SO)]. This will then be the standard BioSapiens feature classification. This will allow clients to easily implement a meaningful default view for features as well as a user-friendly browser configuration by e.g. only showing feature groups of interest. We also propose to annotate features with default servers, so that e.g. structural features for a protein are only shown from one server in default views.''

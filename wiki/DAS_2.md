@@ -27,8 +27,7 @@ DAS/2 is a more flexible and powerful version of the original
 See [DAS/2\#CVS Access](/wiki/DAS/2#CVS_Access "wikilink") for details on
 retrieving code related to these projects.
 
-DAS/2 History
--------------
+### DAS/2 History
 
 DAS/2 evolved from [DAS/1](/wiki/DAS/1 "wikilink") through a community-driven
 process, informed by a variety of [RFCs (Requests for

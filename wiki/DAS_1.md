@@ -66,7 +66,7 @@ languages:
 
 -   Perl
 
-[`Proserver`](http://www.sanger.ac.uk/Software/analysis/proserver/)  
+[`Proserver`](http://www.sanger.ac.uk/proserver/)  
 [`LDAS`](http://biodas.org/servers/LDAS.html)
 
 -   Java

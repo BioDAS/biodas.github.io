@@ -38,7 +38,7 @@ For custom data simple plugins can be written to quickly provide your data via D
 DAS server implementations are available in several programming languages:
 
 * Perl
- [http://www.sanger.ac.uk/Software/analysis/proserver/ Proserver]
+ [http://www.sanger.ac.uk/proserver/ Proserver]
  [http://biodas.org/servers/LDAS.html LDAS]
 
 * Java

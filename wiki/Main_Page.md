@@ -10,11 +10,12 @@ About DAS
 ---------
 
 The <b>Distributed Annotation System</b> (DAS) defines a communication
-protocol used to exchange biological annotations. It is motivated by the
-idea that annotations should not be provided by single centralized
-databases, but instead be spread over multiple sites. Data distribution,
-performed by DAS servers, is separated from visualization, which is done
-by DAS clients.
+protocol used to exchange biological
+[annotations](http://wikiomics.org/wiki/Viewing_and_sharing_genome_annotations).
+It is motivated by the idea that annotations should not be provided by
+single centralized databases, but instead be spread over multiple sites.
+Data distribution, performed by DAS servers, is separated from
+visualization, which is done by DAS clients.
 
 DAS is a client-server system in which a single client integrates
 information from multiple servers. It allows a single machine to gather

@@ -9,7 +9,7 @@ The full specification, available at http://www.biodas.org/documents/spec.html, 
 (Definitions later defined are ''italicized''; queries are '''bolded'''; optional portions within names are [bracketed].)
 
 === Distributed Annotation System (DAS) === 
-A server system for the sharing of <I>Reference Sequences</I>, a system<I> </I>conceptually composed of a <I>Reference Server </I>and <I>Annotation Server(s)</I>.
+A client-server system for the sharing of <I>Reference Sequences</I>, a system<I> </I>conceptually composed of a <I>Reference Server </I>and <I>Annotation Server(s)</I>.
 
 === [Reference] Sequence === 
 A sequence, consisting of a set of <I>entry points</I> into the sequence and of the lengths of each entry point, which possesses a <I>reference sequence ID</I>.

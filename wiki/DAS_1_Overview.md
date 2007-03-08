@@ -26,7 +26,7 @@ optional portions within names are \[bracketed\].)
 
 ### Distributed Annotation System (DAS)
 
-A server system for the sharing of <I>Reference Sequences</I>, a
+A client-server system for the sharing of <I>Reference Sequences</I>, a
 system<I> </I>conceptually composed of a <I>Reference Server </I>and
 <I>Annotation Server(s)</I>.
 

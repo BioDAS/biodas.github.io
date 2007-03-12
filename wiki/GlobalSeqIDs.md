@@ -27,7 +27,7 @@ The name for the assembly is
 
       http://www.ncbi.nlm.nih.gov/genome/H_sapiens/B33/
 
-and the name for the individual segments are
+the name for the individual segments are
 
     http://www.ncbi.nlm.nih.gov/genome/H_sapiens/B33/dna/chr1
     http://www.ncbi.nlm.nih.gov/genome/H_sapiens/B33/dna/chr2
@@ -55,6 +55,10 @@ and the name for the individual segments are
     http://www.ncbi.nlm.nih.gov/genome/H_sapiens/B33/dna/chrY
     http://www.ncbi.nlm.nih.gov/genome/H_sapiens/B33/dna/chrM
     http://www.ncbi.nlm.nih.gov/genome/H_sapiens/B33/dna/chrUn_random
+
+and the &lt;segment&gt; identifier is of the form:
+
+    &lt;das:SEGMENT uri="http://www.ncbi.nlm.nih.gov/genome/H_sapiens/B33/dna/chr20" title="Chr20"&gt;
 
 #### Release 34.1 14 October 2003
 

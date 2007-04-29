@@ -58,7 +58,7 @@ interacting with servers supporting the DAS/2 protocol:
 
 -   [IGB - Integrated Genome Browser](http://genoviz.sourceforge.net) -
     a DAS/2 reference implementation
--   [GBrowse - Generic Genome Browser](http://www.gmod.org/ggb/)
+-   [GBrowse - Generic Genome Browser](http://www.gmod.org/GBrowse)
 
 Servers
 -------

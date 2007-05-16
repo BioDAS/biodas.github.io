@@ -41,8 +41,8 @@ DAS/1 Clients
     -   [Geodesic](http://biodas.org/geodesic/)
     -   [OmniDAS/OmniGene](http://sourceforge.net/project/showfiles.php?group_id=28453&release_id=60810)
 
-Servers
--------
+DAS/1 Servers
+-------------
 
 -   [Affymetrix](http://netaffxdas.affymetrix.com/das/)
 -   [BioSapiens

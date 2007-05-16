@@ -21,7 +21,7 @@ The DAS/1 specification is available at http://www.biodas.org/documents/spec.htm
 ** [http://biodas.org/geodesic/ Geodesic]
 ** [http://sourceforge.net/project/showfiles.php?group_id=28453&release_id=60810 OmniDAS/OmniGene]
 
-== Servers ==
+== DAS/1 Servers ==
 
 * [http://netaffxdas.affymetrix.com/das/ Affymetrix]
 * [http://www.biosapiens.info/page.php?page=biosapiensdir BioSapiens servers]

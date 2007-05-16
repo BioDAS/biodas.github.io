@@ -47,10 +47,13 @@ Servers
 -   [Affymetrix](http://netaffxdas.affymetrix.com/das/)
 -   [BioSapiens
     servers](http://www.biosapiens.info/page.php?page=biosapiensdir)
--   [Dazzle server at Sanger](http://servlet.sanger.ac.uk:8080/das/)
+-   [Ensembl
+    server](http://www.ensembl.org/info/data/external_data/das/ensembl_das.html)
 -   [KEGG DAS](http://das.hgc.jp/)
--   [Listing of servers maintained by
-    TIGR](http://www.tigr.org/tdb/DAS/das_server_list.html)
+-   [Sanger Dazzle server](http://servlet.sanger.ac.uk:8080/das/)
+-   [TIGR's listing of
+    servers](http://www.tigr.org/tdb/DAS/das_server_list.html)
+-   [UCSC server](http://genome.ucsc.edu/FAQ/FAQdownloads#download23)
 
 How to set up a DAS/1 server
 ----------------------------

@@ -25,9 +25,11 @@ The DAS/1 specification is available at http://www.biodas.org/documents/spec.htm
 
 * [http://netaffxdas.affymetrix.com/das/ Affymetrix]
 * [http://www.biosapiens.info/page.php?page=biosapiensdir BioSapiens servers]
-* [http://servlet.sanger.ac.uk:8080/das/ Dazzle server at Sanger]
+* [http://www.ensembl.org/info/data/external_data/das/ensembl_das.html Ensembl server]
 * [http://das.hgc.jp/ KEGG DAS]
-* [http://www.tigr.org/tdb/DAS/das_server_list.html Listing of servers maintained by TIGR]
+* [http://servlet.sanger.ac.uk:8080/das/ Sanger Dazzle server]
+* [http://www.tigr.org/tdb/DAS/das_server_list.html TIGR's listing of servers]
+* [http://genome.ucsc.edu/FAQ/FAQdownloads#download23 UCSC server]
 
 == How to set up a DAS/1 server ==
 

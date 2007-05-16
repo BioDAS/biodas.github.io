@@ -50,8 +50,8 @@ DAS/1 version, existing DAS software will continue to support DAS/1. A
 development](http://lists.open-bio.org/pipermail/das2/2006-October/000867.html)
 that will permit a DAS/1 server to be accessed by DAS/2 clients.
 
-Clients
--------
+DAS/2 Clients
+-------------
 
 The following software packages operate as clients capable of
 interacting with servers supporting the DAS/2 protocol:

@@ -20,7 +20,7 @@ DAS/2 development officially commenced in July 2004 when a 2-year [http://crisp.
 
 Given that the DAS/2 specification is not backward compatible with the DAS/1 version, existing DAS software will continue to support DAS/1. A [http://lists.open-bio.org/pipermail/das2/2006-October/000867.html DAS proxy server is in development] that will permit a DAS/1 server to be accessed by DAS/2 clients.
 
-== Clients ==
+== DAS/2 Clients ==
 
 The following software packages operate as clients capable of interacting with servers supporting the DAS/2 protocol:
 

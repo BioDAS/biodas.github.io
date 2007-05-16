@@ -34,7 +34,7 @@ The following software packages operate as servers capable of providing data in 
 * [http://das.biopackages.net/das/genome Biopackages DAS/2 server] - a DAS/2 reference implementation
 * [http://netaffxdas.affymetrix.com/das2 Affymetrix Public DAS/2 server]
 
-== Validation Suite ==
+== DAS/2 Validation Suite ==
 
 See [[Das2Validation]].
 

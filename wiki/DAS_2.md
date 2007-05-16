@@ -71,8 +71,8 @@ data in response to queries conforming with the DAS/2 protocol:
 -   [Affymetrix Public DAS/2
     server](http://netaffxdas.affymetrix.com/das2)
 
-Validation Suite
-----------------
+DAS/2 Validation Suite
+----------------------
 
 See [Das2Validation](/wiki/Das2Validation "wikilink").
 

@@ -60,8 +60,8 @@ interacting with servers supporting the DAS/2 protocol:
     a DAS/2 reference implementation
 -   [GBrowse - Generic Genome Browser](http://www.gmod.org/GBrowse)
 
-Servers
--------
+DAS/2 Servers
+-------------
 
 The following software packages operate as servers capable of providing
 data in response to queries conforming with the DAS/2 protocol:

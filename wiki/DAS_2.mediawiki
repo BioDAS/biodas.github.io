@@ -27,7 +27,7 @@ The following software packages operate as clients capable of interacting with s
 * [http://genoviz.sourceforge.net IGB - Integrated Genome Browser] - a DAS/2 reference implementation
 * [http://www.gmod.org/GBrowse GBrowse - Generic Genome Browser]
 
-== Servers ==
+== DAS/2 Servers ==
 
 The following software packages operate as servers capable of providing data in response to queries conforming with the DAS/2 protocol:
 

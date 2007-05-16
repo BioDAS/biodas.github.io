@@ -10,7 +10,7 @@ The DAS/1 specification is available at http://www.biodas.org/documents/spec.htm
 
 [[DAS/1/Overview]] provides a glossary and list of concepts.
 
-== Clients ==
+== DAS/1 Clients ==
 
 * [http://www.ensembl.org/info/data/external_data/das/ensembl_das.html Ensembl]
 * [http://www.efamily.org.uk/software/dasclients/spice/ Spice]

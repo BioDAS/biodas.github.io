@@ -26,8 +26,8 @@ The DAS/1 specification is available at
 [DAS/1/Overview](/wiki/DAS/1/Overview "wikilink") provides a glossary and list
 of concepts.
 
-Clients
--------
+DAS/1 Clients
+-------------
 
 -   [Ensembl](http://www.ensembl.org/info/data/external_data/das/ensembl_das.html)
 -   [Spice](http://www.efamily.org.uk/software/dasclients/spice/)

@@ -54,7 +54,7 @@ Here are some examples of DAS-enabled websites and applications:
 
 <!-- -->
 
--   Dasty2: <http://www.ebi.ac.uk/~rafael/pre_dasty2/>
+-   Dasty2: <http://www.ebi.ac.uk/dasty/>
 
 <!-- -->
 

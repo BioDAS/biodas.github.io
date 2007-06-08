@@ -35,8 +35,8 @@ in the DAS/2 grant, though broader discussion often occurs as well.
 
 ### Teleconference Schedule and Phone numbers
 
-:{| | *Schedule:* || Biweekly on Monday |- | *Last Meeting:* || 30 April
-2007 |- | *Upcoming Meetings:* || {14,28} May; {11,25} June |- | *Time
+:{| | *Schedule:* || Biweekly on Monday |- | *Last Meeting:* || 14 May
+2007 |- | *Upcoming Meetings:* || {11,25} June; {9,23} July |- | *Time
 of Day:* || 9:30 AM PST/PDT, 17:30 GMT |- | *Dialin (US):*||
 800-531-3250 |- | *Dialin (Intl):*|| 303-928-2693 |- | *Toll-free UK:*||
 08 00 907 839 |- | *Toll-free France:*|| 800-531-3250 |- | *Conference

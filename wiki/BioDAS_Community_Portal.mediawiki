@@ -26,9 +26,9 @@ Anyone interested in the last developments in the DAS world is welcome to tune i
 :{| 
 | ''Schedule:'' || Biweekly on Monday
 |-
-| ''Last Meeting:'' ||  30 April 2007
+| ''Last Meeting:'' ||  14 May 2007
 |-
-| ''Upcoming Meetings:'' || {14,28} May; {11,25} June
+| ''Upcoming Meetings:'' || {11,25} June; {9,23} July
 |- 
 | ''Time of Day:'' || 9:30 AM PST/PDT, 17:30 GMT
 |-

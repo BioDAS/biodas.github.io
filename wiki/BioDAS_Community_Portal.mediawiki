@@ -26,7 +26,7 @@ Anyone interested in the last developments in the DAS world is welcome to tune i
 :{| 
 | ''Schedule:'' || Biweekly on Monday
 |-
-| ''Upcoming Meetings:'' || {9,23} July; {6,20} August
+| ''Upcoming Meetings:'' || 23 July; {6,20} August; {3,17} September
 |- 
 | ''Time of Day:'' || 9:30 AM PST/PDT, 17:30 GMT
 |-

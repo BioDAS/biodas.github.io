@@ -28,9 +28,10 @@ versions of the spec. For general discussions, use the DAS/2 list.
 Teleconference
 --------------
 
-The biweekly DAS/2 teleconference has been canceled as of the end of
-October, when funding for the DAS/2 grant officially expired. Notes from
-past conferences between 2005-2007 are available from the link below.
+The biweekly DAS/2 teleconference has been temporarily canceled as of
+the end of October. Dial-in details will be posted once new arrangements
+have been made. Notes from past conferences between 2005-2007 are
+available from the link below.
 
 ### Teleconference Minutes
 

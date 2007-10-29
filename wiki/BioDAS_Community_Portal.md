@@ -25,21 +25,12 @@ versions of the spec. For general discussions, use the DAS/2 list.
 
 -   Listinfo: <http://biodas.org/mailman/listinfo/das-announce>
 
-Biweekly Teleconference
------------------------
+Teleconference
+--------------
 
-Anyone interested in the last developments in the DAS world is welcome
-to tune into the biweekly teleconference. The teleconference is
-primarily a means of coordination between the different centers involved
-in the DAS/2 grant, though broader discussion often occurs as well.
-
-### Teleconference Schedule and Phone numbers
-
-:{| | *Schedule:* || Biweekly on Monday |- | *Upcoming Meetings:* ||
-{15,29} October |- | *Time of Day:* || 9:30 AM PST/PDT, 17:30 GMT |- |
-*Dialin (US):*|| 800-531-3250 |- | *Dialin (Intl):*|| 303-928-2693 |- |
-*Toll-free UK:*|| 08 00 907 839 |- | *Toll-free France:*|| 800-531-3250
-|- | *Conference ID:* || 2879055 |- | *Passcode:* || 1365 |}
+The biweekly DAS/2 teleconference has been canceled as of the end of
+October, when funding for the DAS/2 grant officially expired. Notes from
+past conferences between 2005-2007 are available from the link below.
 
 ### Teleconference Minutes
 

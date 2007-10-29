@@ -38,11 +38,15 @@ spec](http://biodas.org/documents/das2/das2_get.html) has stabilized.
 Implementers and service providers can rely on this for their
 DAS/2-based development efforts.
 
-DAS/2 development officially commenced in July 2004 when a 2-year
+DAS/2 development officially commenced in May 2005 when funding for a
+2-year
 \[<http://crisp.cit.nih.gov/crisp/CRISP_LIB.getdoc?textkey=6712060&p_grant_num=1R01HG003040-01&p_query>=(DAS)&ticket=15416031&p\_audit\_session\_id=72191905&p\_audit\_score=100&p\_audit\_numfound=1&p\_keywords=DAS
-NIH grant\] was funded. Participating in the DAS/2 grant are Affymetrix,
-Cold Spring Harbor Lab, the European Bioinformatics Institute/Sanger
-Center, and Dalke Scientific.
+NIH grant\] became available (the grant was actually approved in July
+2004, but it took a while for NIH to decide the specific funding
+amount). The grant officially expired at the end of October 2007.
+Participating in the DAS/2 grant were Affymetrix, Cold Spring Harbor
+Lab, the European Bioinformatics Institute/Sanger Center, and Dalke
+Scientific.
 
 Given that the DAS/2 specification is not backward compatible with the
 DAS/1 version, existing DAS software will continue to support DAS/1. A

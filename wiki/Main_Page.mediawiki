@@ -50,6 +50,10 @@ Currently there are two versions of the DAS protocol
 
 [[DAS/2]] is the latest version of the DAS specification and builds on the capabilities of the original [[DAS/1]] spec. See the [[DAS/2]] page for more information.
 
+== DAS workshop ==
+
+A [http://www.dasregistry.org/course.jsp workshop on DAS] will be held in February 2008 at the Genome Campus in Hinxton / Cambridge U.K. This is an opportunity for newbies to learn about DAS and for the more experienced to exchange ideas and present their latest developments.
+
 == Mailing Lists ==
 
 See [[BioDAS:Community_Portal]]

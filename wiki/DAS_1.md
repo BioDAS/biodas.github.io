@@ -27,7 +27,8 @@ The specification is being actively supported, and continues to be
 extended in order to cater for the needs of its existing users and
 expand its applicability to additional arenas. For example, though
 originally focussed on genomic annotation, extensions have enabled DAS
-to be used to distribute alignment and molecular interaction data.
+to be used to distribute alignment, structural and molecular interaction
+data.
 
 The unofficial DAS/1 version 1.53E (extended) specification is available
 at <http://www.dasregistry.org/spec_1.53E.jsp>

@@ -219,6 +219,20 @@ parent (e.g., a segment may span two contigs).
 **Notes**:
 
 <references />
+Extensions
+----------
+
+The reference DAS/1 specification has been extended with additional new
+features, including an ontology and several new commands:
+
+-   alignment
+-   structure
+-   interaction
+-   volmap
+
+For more information, see the [1.53E
+specification](http://www.dasregistry.org/spec_1.53E.jsp) on the
+[DasRegistry](/wiki/DasRegistry "wikilink") website.
 
 [1] Following Lincoln Stein, the words *component* and *supercomponent*
 refer to categories alone. (E.g., the category contig is a component of

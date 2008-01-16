@@ -157,3 +157,13 @@ Thus, in describing such a paradigm, the <U>Specs</U> appear to convey that the 
 
 '''Notes''':
 <references />
+
+== Extensions ==
+
+The reference DAS/1 specification has been extended with additional new features, including an ontology and several new commands:
+* alignment
+* structure
+* interaction
+* volmap
+
+For more information, see the [http://www.dasregistry.org/spec_1.53E.jsp 1.53E specification] on the [[DasRegistry]] website.

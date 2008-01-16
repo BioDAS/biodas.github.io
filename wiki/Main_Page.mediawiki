@@ -50,7 +50,7 @@ More than 200 DAS/1 servers are currently running worldwide including [http://ww
 
 === [[DAS/2]] ===
 
-[[DAS/2]] is the latest version of the DAS specification and builds on the capabilities of the original [[DAS/1]] spec. See the [[DAS/2]] page for more information.
+[[DAS/2]] is an offshoot of the DAS specification and builds on the capabilities of the original [[DAS/1]] spec. See the [[DAS/2]] page for more information.
 
 == DAS workshop ==
 

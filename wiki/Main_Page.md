@@ -90,8 +90,8 @@ available DAS sources please proceed to the
 
 ### [DAS/2](/wiki/DAS/2 "wikilink")
 
-[DAS/2](/wiki/DAS/2 "wikilink") is the latest version of the DAS specification
-and builds on the capabilities of the original [DAS/1](/wiki/DAS/1 "wikilink")
+[DAS/2](/wiki/DAS/2 "wikilink") is an offshoot of the DAS specification and
+builds on the capabilities of the original [DAS/1](/wiki/DAS/1 "wikilink")
 spec. See the [DAS/2](/wiki/DAS/2 "wikilink") page for more information.
 
 DAS workshop

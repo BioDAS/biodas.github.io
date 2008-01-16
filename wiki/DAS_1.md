@@ -48,7 +48,7 @@ DAS/1 Servers
 -   [BioSapiens
     servers](http://www.biosapiens.info/page.php?page=biosapiensdir)
 -   [Ensembl
-    server](http://www.ensembl.org/info/data/external_data/das/ensembl_das.html)
+    server](http://www.ensembl.org/info/using/external_data/das/index.html)
 -   [KEGG DAS](http://das.hgc.jp/)
 -   [Sanger Dazzle server](http://servlet.sanger.ac.uk:8080/das/)
 -   [TIGR's listing of

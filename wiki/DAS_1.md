@@ -29,7 +29,7 @@ of concepts.
 DAS/1 Clients
 -------------
 
--   [Ensembl](http://www.ensembl.org/info/data/external_data/das/ensembl_das.html)
+-   [Ensembl](http://www.ensembl.org/info/using/external_data/das/index.html)
 -   [Spice](http://www.efamily.org.uk/software/dasclients/spice/)
 -   \[<http://www.ebi.ac.uk/das-srv/uniprot/dasty/content?ID>=:dis=BioSapiens
     Dasty\]

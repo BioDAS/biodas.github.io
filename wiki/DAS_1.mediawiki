@@ -5,8 +5,13 @@
 
 The original version 1 specification, written by Lincoln Stein, Sean Eddy, and Robin Dowell, is the basis for a number of clients and servers. More than 200 DAS/1 servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR],  [http://genome.ucsc.edu/ UCSC], and [http://www.ebi.ac.uk/das-srv/uniprot/das UniProt]. A number of websites and software applications are based on DAS.
 
+The official DAS/1 version 1.53 specification is available at http://www.biodas.org/documents/spec.html
 
-The DAS/1 specification is available at http://www.biodas.org/documents/spec.html
+
+The specification is being actively supported, and continues to be extended in order to cater for the needs of its existing users and expand its applicability to additional arenas. For example, though originally focussed on genomic annotation, extensions have enabled DAS to be used to distribute alignment and molecular interaction data.
+
+The unofficial DAS/1 version 1.53E (extended) specification is available at http://www.dasregistry.org/spec_1.53E.jsp
+
 
 [[DAS/1/Overview]] provides a glossary and list of concepts.
 

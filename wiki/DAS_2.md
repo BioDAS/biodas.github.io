@@ -11,8 +11,8 @@ tags:
 About DAS/2
 -----------
 
-DAS/2 is a more flexible and powerful version of the original
-specification upon which the majority of servers are based on,
+DAS/2 is intended to be a more flexible and powerful version of the
+original specification upon which the majority of servers are based on,
 [DAS/1](/wiki/DAS/1 "wikilink"). The two versions are not natively compatible.
 The DAS/2 code base consists of:
 

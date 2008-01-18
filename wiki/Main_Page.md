@@ -64,6 +64,12 @@ Here are some examples of DAS-enabled websites and applications:
 
 -   PeppeR: <http://biocomp.cnb.uam.es/das/PeppeR/>
 
+Publications
+------------
+
+A list of DAS related publications is available from
+[DAS\_publications](/wiki/DAS_publications "wikilink")
+
 The Protocol
 ------------
 

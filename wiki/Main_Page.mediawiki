@@ -38,6 +38,10 @@ Here are some examples of DAS-enabled websites and applications:
 
 * PeppeR: http://biocomp.cnb.uam.es/das/PeppeR/
 
+== Publications ==
+
+A list of DAS related publications is available from [[DAS_publications]]
+
 == The Protocol ==
 
 Currently there are two versions of the DAS protocol

@@ -1,1 +1,13 @@
 The following DAS related papers have been published:
+If you know of any other papers, please add them
+
+
+<biblio>
+#dowell2001 pmid=11667947
+#prlic2005 pmid=16204122
+#olason2005 pmid=15980514
+#jones2005 pmid=15905273
+#finn2007 pmid=17237073
+#prlic2007 pmid=17850653
+
+</biblio>

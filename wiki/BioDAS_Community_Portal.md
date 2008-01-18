@@ -21,6 +21,11 @@ versions of the spec. For general discussions, use the DAS/2 list.
 -   Post to: das2@biodas.org
 -   Listinfo: <http://biodas.org/mailman/listinfo/das2>
 
+### DAS registration server announce list
+
+-   Listinfo:
+    <http://lists.sanger.ac.uk/mailman/listinfo/das_registry_announce>
+
 ### DAS Announcements
 
 -   Listinfo: <http://biodas.org/mailman/listinfo/das-announce>

@@ -12,7 +12,9 @@ About DAS/2
 -----------
 
 DAS/2 is a more flexible and powerful version of the original
-[DAS/1](/wiki/DAS/1 "wikilink"). The DAS/2 code base consists of:
+specification upon which the majority of servers are based on,
+[DAS/1](/wiki/DAS/1 "wikilink"). The two versions are not natively compatible.
+The DAS/2 code base consists of:
 
 1.  [The DAS/2
     specification](http://biodas.org/documents/das2/das2_protocol.html)

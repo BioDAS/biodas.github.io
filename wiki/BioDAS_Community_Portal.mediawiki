@@ -15,6 +15,9 @@ Just so we don't create confusion over DAS/1 vs. DAS/2 issues, there are separat
 === DAS registration server announce list ===
 * Listinfo: http://lists.sanger.ac.uk/mailman/listinfo/das_registry_announce
 
+=== Proserver mailing list ===
+* Listinfo: http://lists.sanger.ac.uk/mailman/listinfo/proserver-users
+
 === DAS Announcements ===
 
 * Listinfo: http://biodas.org/mailman/listinfo/das-announce

@@ -26,6 +26,11 @@ versions of the spec. For general discussions, use the DAS/2 list.
 -   Listinfo:
     <http://lists.sanger.ac.uk/mailman/listinfo/das_registry_announce>
 
+### Proserver mailing list
+
+-   Listinfo:
+    <http://lists.sanger.ac.uk/mailman/listinfo/proserver-users>
+
 ### DAS Announcements
 
 -   Listinfo: <http://biodas.org/mailman/listinfo/das-announce>

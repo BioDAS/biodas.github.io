@@ -10,7 +10,7 @@ About DAS
 ---------
 
 The <b>Distributed Annotation System</b> (DAS) defines a communication
-protocol used to exchange [biological sequence
+protocol used to exchange [biological
 annotations](http://wikiomics.org/wiki/Viewing_and_sharing_genome_annotations).
 It is motivated by the idea that such annotations should not be provided
 by single centralized databases, but should instead be spread over

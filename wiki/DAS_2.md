@@ -29,11 +29,11 @@ retrieving code related to these projects.
 
 ### DAS/2 History
 
-DAS/2 evolved from [DAS/1](/wiki/DAS/1 "wikilink") through a community-driven
-process, informed by a variety of [RFCs (Requests for
-Comment)](http://biodas.org/RFCs/index.html) received from the community
-of users and implementers of the spec. As of November 2006, the
-[retrieval portion of the DAS/2
+DAS/2 diverged from from [DAS/1](/wiki/DAS/1 "wikilink") as a result of a
+variety of [RFCs (Requests for
+Comment)](http://biodas.org/RFCs/index.html) received from some users
+and implementers of the spec. As of November 2006, the [retrieval
+portion of the DAS/2
 spec](http://biodas.org/documents/das2/das2_get.html) has stabilized.
 Implementers and service providers can rely on this for their
 DAS/2-based development efforts.

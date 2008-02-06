@@ -24,38 +24,38 @@ schedule see at
 | Eugene Kulesha
 |
 |-
-| coffee break
+| 11:15 - 11:40 coffee break
 | 
 | 
 |-
-| 1/2 hour
+| 11:40 - 12:10 
 | Dasty
 | Rafael Jimenez & co
 |
 |-
-| 
+| 12:10 - 12:40
 | SPICE, mapping features on 3D, view alignments
 | Andreas Prlic
 |
 |-
-| 1/2 hour
+| 12:40 - 13:40 
+| Lunch break 
+|
+|-
+| 13:40 - 14:10
 | Pepper
 | Jose Ramon Macias
 |
 |-
-| Lunch break
-|
-|
-| 
-|-
-| 
-| DAS - clients  
-| Perl - Eugene, Java - Andreas
-|
-|-
-| 
+| 14:10 - 15:10
 | DAS - set up a server
-| Perl - Andy Jenkinson, Java - Andreas
+| Proserver - Andy Jenkinson, Dazzle - Andreas
+| 
+|-
+| 14:10 - 15:10 
+| DAS - client  
+| Bio::Das::Lite - Eugene, Dasobert - Andreas
+|
 |}
 
 

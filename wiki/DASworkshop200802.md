@@ -27,7 +27,8 @@ Day 2
 | 12:40 - 13:40              | Lunch break                                    |                                              |
 | 13:40 - 14:10              | Pepper                                         | Jose Ramon Macias                            |           |
 | 14:10 - 15:10              | DAS - set up a server                          | Proserver - Andy Jenkinson, Dazzle - Andreas |           |
-| 14:10 - 15:10              | DAS - client                                   | Bio::Das::Lite - Eugene, Dasobert - Andreas  |           |
+| 15:10 - 15:30              | Coffee break                                   |                                              |
+| 15:30 - 16:30              | DAS - client                                   | Bio::Das::Lite - Eugene, Dasobert - Andreas  |           |
 
 TODO: Prepare:
 

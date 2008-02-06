@@ -50,9 +50,13 @@ schedule see at
 | 14:10 - 15:10
 | DAS - set up a server
 | Proserver - Andy Jenkinson, Dazzle - Andreas
+|
+|-
+| 15:10 - 15:30
+| Coffee break
 | 
 |-
-| 14:10 - 15:10 
+| 15:30 - 16:30 
 | DAS - client  
 | Bio::Das::Lite - Eugene, Dasobert - Andreas
 |

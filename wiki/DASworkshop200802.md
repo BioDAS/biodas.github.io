@@ -17,13 +17,16 @@ schedule see at
 Day 2
 -----
 
-| time          | title                                          | speaker             | resources |
-|---------------|------------------------------------------------|---------------------|-----------|
-| 9:15          | das - technical info & Introduction            | Phil Jones          |           |
-| row 2, cell 1 | das - client demo ensembl, grouping, histogram | Eugene Kulesha      |           |
-| 1/2 hour      | Dasty                                          | Rafael Jimenez & co |           |
-|               | SPICE, mapping features on 3D, view alignments | Andreas Prlic       |           |
-| 1/2 hour      | Pepper                                         | Jose Ramon Macias   |           |
+| time        | title                                          | speaker                               | resources |
+|-------------|------------------------------------------------|---------------------------------------|-----------|
+| 9:15        | das - technical info & Introduction            | Phil Jones                            |           |
+|             | das - client demo ensembl, grouping, histogram | Eugene Kulesha                        |           |
+| 1/2 hour    | Dasty                                          | Rafael Jimenez & co                   |           |
+|             | SPICE, mapping features on 3D, view alignments | Andreas Prlic                         |           |
+| 1/2 hour    | Pepper                                         | Jose Ramon Macias                     |           |
+| Lunch break |                                                |                                       |           |
+|             | DAS - clients                                  | Perl - Eugene, Java - Andreas         |           |
+|             | DAS - set up a server                          | Perl - Andy Jenkinson, Java - Andreas |
 
 TODO: Prepare:
 

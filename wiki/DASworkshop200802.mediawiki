@@ -19,7 +19,7 @@ schedule see at
 | Phil Jones 
 |  
 |-
-| row 2, cell 1
+| 
 | das - client demo ensembl, grouping, histogram
 | Eugene Kulesha
 |
@@ -38,15 +38,17 @@ schedule see at
 | Pepper
 | Jose Ramon Macias
 |
-| -
+|-
 | Lunch break
+|
+|
 | 
-| -
+|-
 | 
 | DAS - clients  
 | Perl - Eugene, Java - Andreas
 |
-| -
+|-
 | 
 | DAS - set up a server
 | Perl - Andy Jenkinson, Java - Andreas

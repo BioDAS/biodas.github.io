@@ -30,4 +30,5 @@ Day 2
 
 TODO: Prepare:
 
-Bookmarks for important urls
+Bookmarks for important urls find common examples for the demos -
+\[all\] exchange by email suggestions: P53, BRCA1

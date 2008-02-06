@@ -5,21 +5,24 @@ layout: wiki
 ---
 
 DAS workshop February 25th, 26th Genome Campus, Hinxton
--------------------------------------------------------
+=======================================================
 
-Day 1 schedule see at
+Day 1
+-----
+
+schedule see at
 
 [[`http://www.dasregistry.org/course.jsp`](http://www.dasregistry.org/course.jsp)](http://www.dasregistry.org/course.jsp)
 
 Day 2
+-----
 
-das - technical info
-
-`   Introduction - [Phil]`
-
-das - client demo
-
-`   ensembl, grouping, histogram - [Eugene]`
+| time          | title                               | speaker        | resources |
+|---------------|-------------------------------------|----------------|-----------|
+| 9:15          | das - technical info & Introduction | Phil Jones     |           |
+| row 2, cell 1 | das - client demo                   
+                                                      
+                 `   ensembl, grouping, histogram`    | Eugene Kulesha |
 
 Dasty 1/2 hour
 

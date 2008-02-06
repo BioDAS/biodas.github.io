@@ -17,16 +17,17 @@ schedule see at
 Day 2
 -----
 
-| time        | title                                          | speaker                               | resources |
-|-------------|------------------------------------------------|---------------------------------------|-----------|
-| 9:15        | das - technical info & Introduction            | Phil Jones                            |           |
-|             | das - client demo ensembl, grouping, histogram | Eugene Kulesha                        |           |
-| 1/2 hour    | Dasty                                          | Rafael Jimenez & co                   |           |
-|             | SPICE, mapping features on 3D, view alignments | Andreas Prlic                         |           |
-| 1/2 hour    | Pepper                                         | Jose Ramon Macias                     |           |
-| Lunch break |                                                |                                       |           |
-|             | DAS - clients                                  | Perl - Eugene, Java - Andreas         |           |
-|             | DAS - set up a server                          | Perl - Andy Jenkinson, Java - Andreas |
+| time           | title                                          | speaker                               | resources |
+|----------------|------------------------------------------------|---------------------------------------|-----------|
+| 9:15 - 1 hour  | das - technical info & Introduction            | Phil Jones                            |           |
+| 10:15 - 1 hour | das - client demo ensembl, grouping, histogram | Eugene Kulesha                        |           |
+| coffee break   |                                                |                                       |
+| 1/2 hour       | Dasty                                          | Rafael Jimenez & co                   |           |
+|                | SPICE, mapping features on 3D, view alignments | Andreas Prlic                         |           |
+| 1/2 hour       | Pepper                                         | Jose Ramon Macias                     |           |
+| Lunch break    |                                                |                                       |           |
+|                | DAS - clients                                  | Perl - Eugene, Java - Andreas         |           |
+|                | DAS - set up a server                          | Perl - Andy Jenkinson, Java - Andreas |
 
 TODO: Prepare:
 

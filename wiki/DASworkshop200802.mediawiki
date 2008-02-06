@@ -20,32 +20,40 @@ schedule see at
 |  
 |-
 | row 2, cell 1
-| das - client demo
-	ensembl, grouping, histogram
+| das - client demo ensembl, grouping, histogram
 | Eugene Kulesha
+|
+|-
+| 1/2 hour
+| Dasty
+| Rafael Jimenez & co
+|
+|-
+| 
+| SPICE, mapping features on 3D, view alignments
+| Andreas Prlic
+|
+|-
+| 1/2 hour
+| Pepper
+| Jose Ramon Macias
+|
+| -
+| Lunch break
+| 
+| -
+| 
+| DAS - clients  
+| Perl - Eugene, Java - Andreas
+|
+| -
+| 
+| DAS - set up a server
+| Perl - Andy Jenkinson, Java - Andreas
 |}
 
 
-
-Dasty 1/2 hour
-	Rafael & co
 	
-das - spice
-	casp mapping features on 3d - [Andreas]
-
-Pepper 1/2 hour	
-	Jose Ramon
-
-	
-das - clients
-	perl - [Eugene]
-	java - [Andreas]
-
-das - server
-	perl - [Andy] -
-	Java - undecided [Phil]
-
-
 TODO: Prepare:
 
 Bookmarks for important urls

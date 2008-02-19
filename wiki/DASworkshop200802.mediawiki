@@ -52,12 +52,9 @@ schedule see at
 |
 |-
 | 14:10 - 15:10
-| DAS - set up a server
-| Proserver - Andy Jenkinson, [http://www.biojava.org/wiki/Dazzle Dazzle],  - Andreas
+| DAS: set up a server
+| Proserver: Andy Jenkinson, [http://www.biojava.org/wiki/Dazzle Dazzle]: Andreas
 | [http://www.biojava.org/wiki/Dazzle:plugins use existing Dazzle plugins], [http://www.biojava.org/wiki/Dazzle:writeplugin how to write a new plugin]
-
-
-|
 |-
 | 15:10 - 15:30
 | Coffee break

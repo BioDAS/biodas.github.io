@@ -19,6 +19,10 @@ schedule see at
 | Phil Jones 
 |  
 |-
+| 10:15 - 35 minutes
+| DAS Introductory Tutorial - DAS servers and the DAS Registration Service
+| Phil Jones 
+|  
 | 10:15 - 1 hour
 | das - client demo ensembl, grouping, histogram
 | Eugene Kulesha

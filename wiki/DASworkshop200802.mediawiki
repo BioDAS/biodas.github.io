@@ -14,16 +14,16 @@ schedule see at
 ! speaker
 ! resources
 |-
-| 9:15 - 1 hour
+| 9:15 - 45 minutes
 | das - technical info & Introduction 
 | Phil Jones 
 |  
 |-
-| 10:15 - 35 minutes
+| 10:00 - 35 minutes
 | DAS Introductory Tutorial - DAS servers and the DAS Registration Service
 | Phil Jones 
 |-  
-| 10:15 - 1 hour
+| 10:35 - 40 minutes
 | das - client demo ensembl, grouping, histogram
 | Eugene Kulesha
 |

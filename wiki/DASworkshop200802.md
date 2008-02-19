@@ -7,7 +7,7 @@ layout: wiki
 DAS workshop February 25th, 26th Genome Campus, Hinxton
 =======================================================
 
-\[Image:<http://www.biosapiens.info/images/biosapiens_final.gif>\]
+![](Biosapiens_final.gif "Biosapiens_final.gif")
 
 Day 1
 -----

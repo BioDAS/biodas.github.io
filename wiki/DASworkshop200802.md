@@ -33,5 +33,8 @@ Day 2
 
 TODO: Prepare:
 
+Add BioSapiens branding to the workshop home page on DAS Registry -
+Andreas.
+
 Bookmarks for important urls find common examples for the demos -
 \[all\] exchange by email suggestions: P53, BRCA1

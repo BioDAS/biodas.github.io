@@ -20,7 +20,8 @@ Day 2
 | time                       | title                                                                    | speaker                                      | resources |
 |----------------------------|--------------------------------------------------------------------------|----------------------------------------------|-----------|
 | 9:15 - 1 hour              | das - technical info & Introduction                                      | Phil Jones                                   |           |
-| 10:15 - 35 minutes         | DAS Introductory Tutorial - DAS servers and the DAS Registration Service | Phil Jones                                   |           |
+| 10:15 - 35 minutes         | DAS Introductory Tutorial - DAS servers and the DAS Registration Service | Phil Jones                                   |
+| 10:15 - 1 hour             | das - client demo ensembl, grouping, histogram                           | Eugene Kulesha                               |           |
 | 11:15 - 11:40 coffee break |                                                                          |                                              |
 | 11:40 - 12:10              | Dasty                                                                    | Rafael Jimenez & co                          |           |
 | 12:10 - 12:40              | SPICE, mapping features on 3D, view alignments                           | Andreas Prlic                                |           |

@@ -31,7 +31,7 @@ Day 2
 | 13:40 - 14:10              | Pepper                                                                   | Jose Ramon Macias                                                                |                                                                                                                                                        |
 | 14:10 - 15:10              | DAS: set up a server                                                     | Proserver: Andy Jenkinson, [Dazzle](http://www.biojava.org/wiki/Dazzle): Andreas | [use existing Dazzle plugins](http://www.biojava.org/wiki/Dazzle:plugins), [how to write a new plugin](http://www.biojava.org/wiki/Dazzle:writeplugin) |
 | 15:10 - 15:30              | Coffee break                                                             |                                                                                  |
-| 15:30 - 16:30              | DAS - client                                                             | Bio::Das::Lite - Andy, [Dasobert](http://www.spice-3d.org/dasobert/) - Andreas   |                                                                                                                                                        |
+| 15:30 - 16:30              | DAS - client                                                             | Bio::Das::Lite (Perl) - Andy, Dasobert (Java) - Andreas                          | [Dasobert](http://www.spice-3d.org/dasobert/)                                                                                                          |
 
 TODO: Prepare:
 

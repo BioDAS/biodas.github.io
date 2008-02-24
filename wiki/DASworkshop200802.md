@@ -33,10 +33,4 @@ Day 2
 | 15:10 - 15:30              | Coffee break                                                             |                                                                                  |
 | 15:30 - 16:30              | DAS - client                                                             | Bio::Das::Lite (Perl) - Andy, Dasobert (Java) - Andreas                          | [Dasobert](http://www.spice-3d.org/dasobert/)                                                                                                          |
 
-TODO: Prepare:
 
-Add BioSapiens branding to the workshop home page on DAS Registry -
-Andreas.
-
-Bookmarks for important urls find common examples for the demos -
-\[all\] exchange by email suggestions: P53, BRCA1

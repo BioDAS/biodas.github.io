@@ -47,7 +47,7 @@ A multiple structure alignment viewer
 
 The [CASP 7 - target
 view](http://www.predictioncenter.org/casp/casp7/public/cgi-bin/results.cgi)
-allows to launch SPICE again
+allows to launch SPICE in the structure alignment mode
 
 white... solved target.
 

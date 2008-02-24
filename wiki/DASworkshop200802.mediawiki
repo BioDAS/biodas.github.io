@@ -8,11 +8,11 @@ schedule see at
 
 
 {| class="wikitable" border="1"
-|-
-! time
-! title
-! speaker
-! resources
+|- style="background:silver"
+! Time
+! Title
+! Speaker
+! Resources
 |-
 | 9:15 - 10:00
 | das - technical info & Introduction 
@@ -29,7 +29,8 @@ schedule see at
 | Eugene Kulesha
 |
 |-
-| 11:15 - 11:40 coffee break
+| 11:15 - 11:40 
+| colspan="3" | Coffee break
 | 
 | 
 |-

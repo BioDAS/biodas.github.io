@@ -22,3 +22,6 @@ Find the protein structure 1cdg in Pfam:
 http://pfam.sanger.ac.uk/structure?entry=1cdg&type=Structure
 
 click on  view structure and select SPICE again.
+
+notice how the PFAM track is on top of the UniProt display.
+map the PFAM domains on the structure.

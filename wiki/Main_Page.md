@@ -102,9 +102,9 @@ spec. See the [DAS/2](/wiki/DAS/2 "wikilink") page for more information.
 DAS workshop
 ------------
 
-A [workshop on DAS](http://www.dasregistry.org/course.jsp) will be held
-in February 2008 at the Genome Campus in Hinxton / Cambridge U.K. This
-is an opportunity for newbies to learn about DAS and for the more
+A [workshop on DAS](/wiki/DASworkshop200802 "wikilink") will be held in
+February 2008 at the Genome Campus in Hinxton / Cambridge U.K. This is
+an opportunity for newbies to learn about DAS and for the more
 experienced to exchange ideas and present their latest developments.
 
 Mailing Lists

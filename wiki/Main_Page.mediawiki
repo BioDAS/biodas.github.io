@@ -58,7 +58,7 @@ More than 200 DAS/1 servers are currently running worldwide including [http://ww
 
 == DAS workshop ==
 
-A [http://www.dasregistry.org/course.jsp workshop on DAS] will be held in February 2008 at the Genome Campus in Hinxton / Cambridge U.K. This is an opportunity for newbies to learn about DAS and for the more experienced to exchange ideas and present their latest developments.
+A [[DASworkshop200802|workshop on DAS]] will be held in February 2008 at the Genome Campus in Hinxton / Cambridge U.K. This is an opportunity for newbies to learn about DAS and for the more experienced to exchange ideas and present their latest developments.
 
 == Mailing Lists ==
 

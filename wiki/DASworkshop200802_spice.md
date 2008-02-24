@@ -39,7 +39,7 @@ Do the PFAM domains correspond to what you would consider structural
 domains?
 
 Find the hydrophobicity DAS source. (in the UniProt display, very much
-at the bottom) map the Kyle-Doolittle accessibility onto the protein
+at the bottom) map the Kyle-Doolittle hydrophobicity onto the protein
 structure.
 
 A multiple structure alignment viewer

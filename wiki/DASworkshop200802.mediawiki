@@ -28,7 +28,7 @@ schedule see at
 | das - client demo ensembl, grouping, histogram
 | Eugene Kulesha
 |
-|- style="background:light-yellow"
+|- style="background:yellow"
 | 11:15 - 11:40 
 | colspan="3" | Coffee break 
 |-
@@ -41,7 +41,7 @@ schedule see at
 | SPICE, mapping features on 3D, view alignments
 | Andreas Prlic
 | [[DASworkshop200802:spice| SPICE links]]
-|- style="background:light-yellow"
+|- style="background:yellow"
 | 12:40 - 13:40 
 | colspan="3" | Lunch break
 |-
@@ -54,9 +54,9 @@ schedule see at
 | DAS: set up a server
 | Proserver: Andy Jenkinson, [http://www.biojava.org/wiki/Dazzle Dazzle]: Andreas
 | [http://www.biojava.org/wiki/Dazzle:plugins use existing Dazzle plugins], [http://www.biojava.org/wiki/Dazzle:writeplugin how to write a new plugin]
-|- style="background:light-yellow"
+|- style="background:yellow"
 | 15:10 - 15:30
-| colspan="3" Coffee break 
+| colspan="3"|Coffee break 
 |-
 | 15:30 - 16:30 
 | DAS - client  

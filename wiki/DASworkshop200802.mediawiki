@@ -30,9 +30,7 @@ schedule see at
 |
 |-
 | 11:15 - 11:40 
-| colspan="3" | Coffee break
-| 
-| 
+| colspan="3" | Coffee break| 
 |-
 | 11:40 - 12:10 
 | Dasty
@@ -45,8 +43,7 @@ schedule see at
 | [[DASworkshop200802:spice| SPICE links]]
 |-
 | 12:40 - 13:40 
-| Lunch break 
-|
+| colspan="3" | Lunch break |
 |-
 | 13:40 - 14:10
 | Pepper
@@ -59,8 +56,7 @@ schedule see at
 | [http://www.biojava.org/wiki/Dazzle:plugins use existing Dazzle plugins], [http://www.biojava.org/wiki/Dazzle:writeplugin how to write a new plugin]
 |-
 | 15:10 - 15:30
-| Coffee break
-| 
+| colspan="3" Coffee break| 
 |-
 | 15:30 - 16:30 
 | DAS - client  

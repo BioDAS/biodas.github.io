@@ -4,12 +4,15 @@ permalink: wiki/DASworkshop200802:spice/
 layout: wiki
 ---
 
+back to the [DAS workshop page](/wiki/DASworkshop200802 "wikilink")
+
 SPICE
 =====
 
-back to the [DAS workshop page](/wiki/DASworkshop200802 "wikilink")
+There are 2 main display modes in SPICE. As a single protein structure
+browser and as a multiple protein structure alignment viewer.
 
-a browser for protein sequences, structures and their annotations
+A browser for protein sequences, structures and their annotations
 -----------------------------------------------------------------
 
 There are various ways to launch SPICE.

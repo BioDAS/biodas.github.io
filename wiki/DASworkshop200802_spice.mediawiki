@@ -18,6 +18,13 @@ e.g.
 
 enable the  track in this view and click on the track and then again on the protein structure image. This allows you to launch SPICE.
 
+Find the hsa35pep DAS track in the Ensembl peptide display. 
+
+
+Map the exon structure onto 3D. 
+
+Map the nsSNPs onto 3D.
+
 ===Pfam===
 
 SPICE can be easily linked to from external web sites.

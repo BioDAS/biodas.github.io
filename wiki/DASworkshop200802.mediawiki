@@ -9,7 +9,7 @@ schedule see at
 
 {| class="wikitable" border="1"
 |- style="background:silver"
-! width="150px"|Time
+! width="100px"|Time
 ! Title
 ! Speaker
 ! Resources

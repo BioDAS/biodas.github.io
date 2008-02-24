@@ -49,6 +49,10 @@ The [CASP 7 - target
 view](http://www.predictioncenter.org/casp/casp7/public/cgi-bin/results.cgi)
 allows to launch SPICE again
 
-white... solved target. others: predictions for various targets. sort
-predictions by score switch between sequence based on structure based
-alignment algorithms.
+white... solved target.
+
+others: predictions for various targets.
+
+sort predictions by score
+
+switch between sequence based on structure based alignment algorithms.

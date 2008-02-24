@@ -35,6 +35,9 @@ What could the Pfam-B domain be?
 The [http://www.predictioncenter.org/casp/casp7/public/cgi-bin/results.cgi CASP 7 - target view] allows to launch SPICE again
 
 white... solved target.
+
 others: predictions for various targets.
+
 sort predictions by score
+
 switch between sequence based on structure based alignment algorithms.

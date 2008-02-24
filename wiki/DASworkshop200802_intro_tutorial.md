@@ -45,8 +45,8 @@ different locations, it is very useful to ensure that one reliable,
 common sequence has been obtained. To achieve this, DAS servers are
 separated into two kinds:
 
--   Reference servers provide the molecule sequence.
--   Annotation servers provide features upon the sequence, such as
+-   **Reference servers** provide the molecule sequence.
+-   **Annotation servers** provide features upon the sequence, such as
     protein domains, or related to the protein, such as
     journal references. Annotation servers often refer to a specific
     reference server as their 'map master', i.e. the server that you
@@ -56,19 +56,22 @@ separated into two kinds:
 You will now investigate an example of each kind of server.
 
 The UniProt DAS Reference Server
-================================
+--------------------------------
 
 The UniProt DAS reference server has the primary purpose of providing
 sequence information to DAS clients from the UniProt Knowledge Bank. It
 can be queried using UniProt accession numbers, Swiss-Prot protein Ids
 and also IPI (International Protein Index) accessions.
 
-Navigate to <http://www.ebi.ac.uk/das-srv/uniprot/das/dsn> Here you will
-find a summary page describing the UniProt DAS server and listing the
-data sources it provides. (If you look at the source of the page, you
-will see that the browser view is actually an XSLT transformation of the
-DAS XML returned by the dsn command) Now navigate to
-<http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/sequence?segment=Q14974>
+> ***Navigate to <http://www.ebi.ac.uk/das-srv/uniprot/das/dsn> Here you
+> will find a summary page describing the UniProt DAS server and listing
+> the data sources it provides.*** *(If you look at the source of the
+> page, you will see that the browser view is actually an* **XSLT
+> transformation** *of the DAS XML returned by the dsn command)*
+
+> ***Now navigate to
+> <http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/sequence?segment=Q14974>***
+
 You are now presented with a very simple XML file that contains the
 sequence of the protein Q14974 (Importin beta-1 subunit). This is the
 primary function of the UniProt DAS server. Note that the server also

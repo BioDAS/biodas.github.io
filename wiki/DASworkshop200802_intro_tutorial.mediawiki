@@ -17,16 +17,21 @@ DAS information is made available from DAS servers.  A DAS server is a web appli
 
 If features on a specific protein are being obtained from several different locations, it is very useful to ensure that one reliable, common sequence has been obtained.  To achieve this, DAS servers are separated into two kinds:
 
-* Reference servers provide the molecule sequence.
-* Annotation servers provide features upon the sequence, such as protein domains, or related to the protein, such as journal references.  Annotation servers often refer to a specific reference server as their 'map master', i.e. the server that you should expect to be able to retrieve the corresponding sequence from.
+* '''Reference servers''' provide the molecule sequence.
+* '''Annotation servers''' provide features upon the sequence, such as protein domains, or related to the protein, such as journal references.  Annotation servers often refer to a specific reference server as their 'map master', i.e. the server that you should expect to be able to retrieve the corresponding sequence from.
 You will now investigate an example of each kind of server.
 
-=The UniProt DAS Reference Server=
+==The UniProt DAS Reference Server==
 
 The UniProt DAS reference server has the primary purpose of providing sequence information to DAS clients from the UniProt Knowledge Bank.  It can be queried using UniProt accession numbers, Swiss-Prot protein Ids and also IPI (International Protein Index) accessions.
+<blockquote>
+'''''Navigate to http://www.ebi.ac.uk/das-srv/uniprot/das/dsn  Here you will find a summary page describing the UniProt DAS server and listing the data sources it provides.'''''  ''(If you look at the source of the page, you will see that the browser view is actually an'' '''XSLT transformation''' ''of the DAS XML returned by the dsn command)''
+</blockquote>
 
-Navigate to http://www.ebi.ac.uk/das-srv/uniprot/das/dsn  Here you will find a summary page describing the UniProt DAS server and listing the data sources it provides.  (If you look at the source of the page, you will see that the browser view is actually an XSLT transformation of the DAS XML returned by the dsn command)
-Now navigate to http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/sequence?segment=Q14974
+<blockquote>
+'''''Now navigate to http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/sequence?segment=Q14974'''''
+</blockquote>
+
 You are now presented with a very simple XML file that contains the sequence of the protein Q14974 (Importin beta-1 subunit).  This is the primary function of the UniProt DAS server.  Note that the server also indicates the length of the protein as an integer and provides a version in the form of an MD5 digest of the sequence.  This is used to allow DAS clients to allow a check that all the DAS sources are referring to the same version of the protein sequence as the reference server.
 In addition to being a reference server, the UniProt DAS server also acts as an annotation server, allowing the client to query details of features in the UniProt knowledge bank.  This also incorporates InterPro features.
 Browse to http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/features?segment=Q14974

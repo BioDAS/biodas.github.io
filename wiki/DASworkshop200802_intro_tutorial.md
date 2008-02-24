@@ -4,6 +4,8 @@ permalink: wiki/DASworkshop200802:intro_tutorial/
 layout: wiki
 ---
 
+[ Back to Workshop Programme](/wiki/DASworkshop200802 "wikilink")
+
 Tutorial: The Distributed Annotation System (DAS) and DAS Clients
 =================================================================
 

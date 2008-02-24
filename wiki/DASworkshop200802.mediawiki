@@ -40,7 +40,7 @@ schedule see at
 | 12:10 - 12:40
 | SPICE, mapping features on 3D, view alignments
 | Andreas Prlic
-|
+| [[DASworkshop200802:spice| SPICE links]]
 |-
 | 12:40 - 13:40 
 | Lunch break 

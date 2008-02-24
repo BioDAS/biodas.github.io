@@ -9,12 +9,12 @@ schedule see at
 
 {| class="wikitable" border="1"
 |- style="background:silver"
-! Time
+! width="150px"|Time
 ! Title
 ! Speaker
 ! Resources
 |-
-| 9:15 - 10:00
+| 09:15 - 10:00
 | das - technical info & Introduction 
 | Phil Jones 
 |  

@@ -7,8 +7,8 @@ layout: wiki
 [ &lt;-- Back to DAS Workshop 2008
 Programme](/wiki/DASworkshop200802 "wikilink")
 
-Tutorial: The Distributed Annotation System (DAS) and DAS Clients
-=================================================================
+Tutorial: An Introduction to the Basics of DAS
+==============================================
 
 Introduction
 ------------
@@ -20,9 +20,8 @@ source, perhaps privately in your own institution and then view the
 information served from this source in the context of features from
 other institutions.
 
-This tutorial will enable you to understand how DAS functions, how you
-can find relevant DAS data sources and how you can view the data from
-these sources using different tools with their own strengths.
+This tutorial will enable you to understand how DAS servers function and
+how you can find relevant DAS data sources.
 
 Example DAS Reference Server – The UniProt DAS Reference Server
 ---------------------------------------------------------------

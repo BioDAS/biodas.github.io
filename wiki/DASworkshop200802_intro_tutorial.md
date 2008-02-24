@@ -78,53 +78,80 @@ primary function of the UniProt DAS server. Note that the server also
 indicates the length of the protein as an integer and provides a version
 in the form of an MD5 digest of the sequence. This is used to allow DAS
 clients to allow a check that all the DAS sources are referring to the
-same version of the protein sequence as the reference server. In
-addition to being a reference server, the UniProt DAS server also acts
-as an annotation server, allowing the client to query details of
+same version of the protein sequence as the reference server.
+
+In addition to being a reference server, the UniProt DAS server also
+acts as an annotation server, allowing the client to query details of
 features in the UniProt knowledge bank. This also incorporates InterPro
-features. Browse to
-<http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/features?segment=Q14974>
-Take a careful look at the result of this search. You should be able to
-find positional features (note that the start and end coordinates of
-each feature are included) including Swiss-Prot annotation,
-non-positional features such as a description of the protein (with start
-and end coordinates of 0) and also literature references relating to the
-protein. As indicated above, the purpose of DAS is to allow you to
-retrieve protein information from multiple sources at the same time. An
-example of a completely separate but compatible DAS annotation server
-that is able to contribute further annotation of the same protein is
-given in the next task: Navigate to
-<http://www.ebi.ac.uk/msd-srv/msdmotif/das/s3dm/features?segment=Q14974>
+features.
+
+> ***Browse to
+> <http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/features?segment=Q14974>***
+
+> ***Take a careful look at the result of this search. You should be
+> able to find positional features (note that the start and end
+> coordinates of each feature are included) including Swiss-Prot
+> annotation, non-positional features such as a description of the
+> protein (with start and end coordinates of 0) and also literature
+> references relating to the protein.***
+
+As indicated above, the purpose of DAS is to allow you to retrieve
+protein information from multiple sources at the same time. An example
+of a completely separate but compatible DAS annotation server that is
+able to contribute further annotation of the same protein is given in
+the next task:
+
+> ***Navigate to
+> <http://www.ebi.ac.uk/msd-srv/msdmotif/das/s3dm/features?segment=Q14974>***
+
 Here you will find additional annotation of the same protein from the
 MSD Motif database at the EBI. Notice that in this case the version is
 not the same as the version from the UniProt DAS server for the same
 protein accession. A typical DAS client should note this discrepancy and
 warn the user that the protein sequence being annotated is possibly not
-compatible. Navigate to
-<http://bioinf.cs.ucl.ac.uk:8000/servlet/pdas.pdasServlet2/das/features?segment=Q14974>
+compatible.
+
+> ***Navigate to
+> <http://bioinf.cs.ucl.ac.uk:8000/servlet/pdas.pdasServlet2/das/features?segment=Q14974>***
+
 This is the annotation server based at UCL in London that also provides
 features for the same protein. In this case (at the time of writing) the
-version is the same as the UniProt DAS server. Clearly there are
-potentially many different DAS servers that may provide annotation that
-is useful for you. The next section describes how you can manually find
-DAS services. After this you will look at how DAS clients allow you to
-visualize DAS data, including handling the discrepancy described above.
+version is the same as the UniProt DAS server.
+
+Clearly there are potentially many different DAS servers that may
+provide annotation that is useful for you. The next section describes
+how you can manually find DAS services. After this you will look at how
+DAS clients allow you to visualize DAS data, including handling the
+discrepancy described above.
+
 Finding DAS sources – the DAS Registry Service at the Sanger Institute
-<http://www.dasregistry.org> “The purpose of the DAS registration
-service is to keep track which DAS services are around, which DAS
-commands they are understanding and about the coordinate systems of
-their data.”1 This valuable service provides a human web interface that
-allows you to search for DAS sources, test their status, examine their
-reliability and learn more about what they offer. At the time of
-writing, a total of 383 servers from 47 institutions in 18 different
-countries are included in the registry. In addition to the
-human-searchable interface, the service can be accessed directly and
-transparently by DAS clients. This allows DAS clients to find relevant
-DAS services for you without you having to perform an exhaustive search.
-Navigate to the registry at the URL at the head of this section. Use the
-search box on this page to find all DAS annotation servers that use
-UniProt as their 'authority'. Select any one of these and follow the
-information link to find out details of this server including how
-reliable it has been recently. You may also wish to test it now to find
-out if it is supporting all of the functionality that it claims to at
-the present time.
+----------------------------------------------------------------------
+
+<center>
+<http://www.dasregistry.org>
+
+</center>
+*“The purpose of the DAS registration service is to keep track which DAS
+services are around, which DAS commands they are understanding and about
+the coordinate systems of their data.”*<sup>1</sup>
+
+This valuable service provides a human web interface that allows you to
+search for DAS sources, test their status, examine their reliability and
+learn more about what they offer. At the time of writing, a total of 383
+servers from 47 institutions in 18 different countries are included in
+the registry.
+
+In addition to the human-searchable interface, the service can be
+accessed directly and transparently by DAS clients. This allows DAS
+clients to find relevant DAS services for you without you having to
+perform an exhaustive search.
+
+> ***Navigate to the registry at the URL at the head of this section.***
+
+> ***Use the search box on this page to find all DAS annotation servers
+> that use UniProt as their 'authority'.***
+
+> ***Select any one of these and follow the information link to find out
+> details of this server including how reliable it has been recently.
+> You may also wish to test it now to find out if it is supporting all
+> of the functionality that it claims to at the present time.***

@@ -7,6 +7,8 @@ layout: wiki
 SPICE
 =====
 
+back to the [DAS workshop page](/wiki/DASworkshop200802 "wikilink")
+
 a browser for protein sequences, structures and their annotations
 -----------------------------------------------------------------
 

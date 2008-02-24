@@ -1,4 +1,7 @@
 =SPICE=
+
+back to the [[DASworkshop200802|DAS workshop page]]
+
 ==a browser for protein sequences, structures and their annotations== 
 
 There are various ways to launch SPICE.

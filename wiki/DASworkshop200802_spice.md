@@ -28,7 +28,7 @@ the protein structure image. This allows you to launch SPICE.
 SPICE can be easily linked to from external web sites.
 
 Find the protein structure 1cdg in Pfam:
-<http://pfam.sanger.ac.uk/structure?entry=1cdg&type=Structure>
+<http://pfam.sanger.ac.uk/structure?entry=1boh&type=Structure>
 
 click on view structure and select SPICE again.
 

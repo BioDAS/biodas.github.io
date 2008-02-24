@@ -17,7 +17,7 @@ enable the  track in this view and click on the track and then again on the prot
 SPICE can be easily linked to from external web sites.
 
 Find the protein structure 1cdg in Pfam:
-http://pfam.sanger.ac.uk/structure?entry=1cdg&type=Structure
+http://pfam.sanger.ac.uk/structure?entry=1boh&type=Structure
 
 click on  view structure and select SPICE again.
 

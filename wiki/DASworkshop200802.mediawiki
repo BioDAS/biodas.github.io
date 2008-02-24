@@ -7,7 +7,7 @@ schedule see at
 ==Day 2==
 
 
-{| class="wikitable"
+{| class="wikitable" border="1"
 |-
 ! time
 ! title

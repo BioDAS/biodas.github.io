@@ -1,4 +1,4 @@
-[[DASworkshop200802| Back to Workshop Programme]]
+[[DASworkshop200802| <-- Back to DAS Workshop 2008 Programme]]
 
 =Tutorial: The Distributed Annotation System (DAS) and DAS Clients=
 

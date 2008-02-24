@@ -38,7 +38,9 @@ domains on the structure.
 Do the PFAM domains correspond to what you would consider structural
 domains?
 
-What could the Pfam-B domain be?
+Find the hydrophobicity DAS source. (in the UniProt display, very much
+at the bottom) map the Kyle-Doolittle accessibility onto the protein
+structure.
 
 A multiple structure alignment viewer
 -------------------------------------

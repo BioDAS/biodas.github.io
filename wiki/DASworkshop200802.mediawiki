@@ -15,7 +15,7 @@ schedule see at
 ! Resources
 |-
 | 09:15 - 10:00
-| das - technical info & Introduction 
+| DAS - Technical Introduction 
 | Phil Jones 
 |  
 |-

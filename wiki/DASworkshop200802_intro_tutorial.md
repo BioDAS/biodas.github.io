@@ -181,6 +181,22 @@ web site:
 > functionality that it claims to at the present time. (Start with the
 > green tick)***
 
+The DAS Registration Server allows DAS sources to be organised into
+projects, which can also be used at the client level to request
+annotation from logically associated DAS sources, such as DAS sources
+that are associated with the BioSapiens Project.
+
+> ***To view all the projects currently described in the DAS
+> Registration Server, take a look at:
+> <http://www.dasregistry.org/listProjects.jsp>***
+
+> ***Look at the response to the DAS Registry coordsys command:
+> [1](http://www.dasregistry.org/coordsys/CS_DS6). On this page you are
+> presented with a description of a specific accession system, namely
+> the UniProt coordinate system in this case. You will also find a link
+> that allows you to view a list of all the DAS servers that implement
+> this coordinate / accession system.***
+
 The next few exercises will allow you to examine some of the *web
 service* capabilities of the DAS Registration Server.
 
@@ -189,15 +205,15 @@ web service allowing you build a simple URL request and receive an XML
 response, as well as a SOAP (Simple Object Access Protocol) web service.
 Here we will focus on the DAS style web service.
 
-The DAS Registration Service makes use of XSLT style sheets to
-transformthe XML response into an attractive web page for viewing in an
-internet browser. For all of the following activities, please look at
-both the view in the web browser as well as the source of the page,
-which will reveal the XML response that can be parsed in suitable client
-code.
+For the DAS style web service functionality provided by the DAS
+Registration Service, XSLT style sheets are used to transform the XML
+response into an attractive web page for viewing in an internet browser.
+For all of the following activities, please look at both the view in the
+web browser as well as the source of the page, which will reveal the XML
+response that can be parsed in suitable client code.
 
 > ***Look at the response to the DAS Registry sources command:
-> [1](http://www.dasregistry.org/das1/sources). As indicated above, the
+> [2](http://www.dasregistry.org/das1/sources). As indicated above, the
 > view you are seeing in the browser is a transformation of the XML
 > response into an attractive HTML view. Right click on the browser
 > window and click on 'View Source'. (The exact details of this depend
@@ -217,13 +233,8 @@ including:
 -   The capabilities (implemented commands) of the data source;
 -   A range of additional properties for the service.
 
-> ***view-source: <http://www.dasregistry.org/das1/sources/DS_409>***
-
-> ***<http://www.dasregistry.org/coordsys/CS_DS91>***
-
-> ***<http://www.dasregistry.org/listServices.jsp>***
-
-> ***<http://www.dasregistry.org/listProjects.jsp>***
+> ***You can also perform the sources query for a single datasource:
+> <http://www.dasregistry.org/das1/sources/DS_409>***
 
 For details of web services and WSDL:
 

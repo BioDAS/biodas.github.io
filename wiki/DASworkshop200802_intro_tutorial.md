@@ -150,15 +150,18 @@ that can be queried by DAS clients (and your client code!)
 > ***Navigate to [The DAS Registration
 > Server](http://www.dasregistry.org)***
 
-> ***Use the search box on this page to find all DAS annotation servers
-> that use UniProt as their 'authority'.***
+> ***Follow the "list" ... "list sources" menu item at the top of this
+> page. On the resulting page, find all DAS annotation servers that use
+> UniProt as their 'authority'.***
 
-> ***Select any one of these and follow the information link to find out
-> details of this server including how reliable it has been recently.***
+> ***Select any one of these services and follow the information link
+> ('i' in a blue circle) to find out details of this server including
+> how reliable it has been recently.***
 
 > ***For the same DAS service, use the DAS Registration Server to test
 > its current capabilities to find out if it is supporting all of the
-> functionality that it claims to at the present time.***
+> functionality that it claims to at the present time. (Start with the
+> green tick)***
 
 To be added:
 

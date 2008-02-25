@@ -64,7 +64,7 @@ Clearly there are potentially many different DAS servers that may provide annota
 
 ==Finding DAS sources – the DAS Registry Service at the Sanger Institute==
 
-<center>http://www.dasregistry.org</center>
+<center>'''http://www.dasregistry.org'''</center>
 
 ''“The purpose of the DAS registration service is to keep track which DAS services are around, which DAS commands they are understanding and about the coordinate systems of their data.”''<sup>1</sup>
 
@@ -73,7 +73,7 @@ This valuable service provides a human web interface that allows you to search f
 In addition to the human-searchable interface, the service can be accessed directly and transparently by DAS clients.  This allows DAS clients to find relevant DAS services for you without you having to perform an exhaustive search. 
 
 <blockquote> 
-'''''Navigate to the registry at the URL at the head of this section.'''''
+'''''Navigate to [http://www.dasregistry.org The DAS Registration Server]'''''
 </blockquote>
 
 <blockquote>

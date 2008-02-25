@@ -130,7 +130,7 @@ Finding DAS sources – the DAS Registry Service at the Sanger Institute
 ----------------------------------------------------------------------
 
 <center>
-<http://www.dasregistry.org>
+**<http://www.dasregistry.org>**
 
 </center>
 *“The purpose of the DAS registration service is to keep track which DAS
@@ -148,7 +148,8 @@ accessed directly and transparently by DAS clients. This allows DAS
 clients to find relevant DAS services for you without you having to
 perform an exhaustive search.
 
-> ***Navigate to the registry at the URL at the head of this section.***
+> ***Navigate to [The DAS Registration
+> Server](http://www.dasregistry.org)***
 
 > ***Use the search box on this page to find all DAS annotation servers
 > that use UniProt as their 'authority'.***

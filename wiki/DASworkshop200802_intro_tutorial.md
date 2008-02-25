@@ -69,7 +69,8 @@ and also IPI (International Protein Index) accessions.
 > will find a summary page describing the UniProt DAS server and listing
 > the data sources it provides.*** *(If you look at the source of the
 > page, you will see that the browser view is actually an* **XSLT
-> transformation** *of the DAS XML returned by the dsn command)*
+> transformation** *of the DAS XML returned by the dsn command. The use
+> of this technology with DAS servers is becoming increasingly common.)*
 
 > ***Now navigate to
 > <http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/sequence?segment=Q14974>***
@@ -122,9 +123,7 @@ version is the same as the UniProt DAS server.
 
 Clearly there are potentially many different DAS servers that may
 provide annotation that is useful for you. The next section describes
-how you can manually find DAS services. After this you will look at how
-DAS clients allow you to visualize DAS data, including handling the
-discrepancy described above.
+how you can manually find DAS services.
 
 Finding DAS sources – the DAS Registry Service at the Sanger Institute
 ----------------------------------------------------------------------
@@ -158,3 +157,18 @@ perform an exhaustive search.
 > details of this server including how reliable it has been recently.
 > You may also wish to test it now to find out if it is supporting all
 > of the functionality that it claims to at the present time.***
+
+To be added:
+
+view-source: <http://www.dasregistry.org/das1/sources>
+
+view-source: <http://www.dasregistry.org/das1/sources/DS_109>
+
+<http://www.dasregistry.org/coordsys/CS_DS91>
+
+<http://www.dasregistry.org/listServices.jsp>
+
+<http://www.dasregistry.org/listProjects.jsp>
+
+For details of web services and WSDL:
+<http://www.dasregistry.org/help_scripting.jsp>

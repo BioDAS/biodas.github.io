@@ -27,7 +27,7 @@ You will now investigate an example of each kind of server.
 
 The UniProt DAS reference server has the primary purpose of providing sequence information to DAS clients from the UniProt Knowledge Bank.  It can be queried using UniProt accession numbers, Swiss-Prot protein Ids and also IPI (International Protein Index) accessions.
 <blockquote>
-'''''Navigate to http://www.ebi.ac.uk/das-srv/uniprot/das/dsn  Here you will find a summary page describing the UniProt DAS server and listing the data sources it provides.'''''  ''(If you look at the source of the page, you will see that the browser view is actually an'' '''XSLT transformation''' ''of the DAS XML returned by the dsn command)''
+'''''Navigate to http://www.ebi.ac.uk/das-srv/uniprot/das/dsn  Here you will find a summary page describing the UniProt DAS server and listing the data sources it provides.'''''  ''(If you look at the source of the page, you will see that the browser view is actually an'' '''XSLT transformation''' ''of the DAS XML returned by the dsn command.  The use of this technology with DAS servers is becoming increasingly common.)''
 </blockquote>
 
 <blockquote>
@@ -60,7 +60,7 @@ Here you will find additional annotation of the same protein from the MSD Motif 
 
 This is the annotation server based at UCL in London that also provides features for the same protein.  In this case (at the time of writing) the version is the same as the UniProt DAS server.
 
-Clearly there are potentially many different DAS servers that may provide annotation that is useful for you.  The next section describes how you can manually find DAS services.  After this you will look at how DAS clients allow you to visualize DAS data, including handling the discrepancy described above.
+Clearly there are potentially many different DAS servers that may provide annotation that is useful for you.  The next section describes how you can manually find DAS services. 
 
 ==Finding DAS sources – the DAS Registry Service at the Sanger Institute==
 
@@ -83,3 +83,19 @@ In addition to the human-searchable interface, the service can be accessed direc
 <blockquote>
 '''''Select any one of these and follow the information link to find out details of this server including how reliable it has been recently.  You may also wish to test it now to find out if it is supporting all of the functionality that it claims to at the present time.'''''
 </blockquote>
+
+To be added:
+
+view-source: http://www.dasregistry.org/das1/sources
+
+view-source: http://www.dasregistry.org/das1/sources/DS_109
+
+http://www.dasregistry.org/coordsys/CS_DS91
+
+http://www.dasregistry.org/listServices.jsp
+
+http://www.dasregistry.org/listProjects.jsp
+
+
+For details of web services and WSDL:
+http://www.dasregistry.org/help_scripting.jsp

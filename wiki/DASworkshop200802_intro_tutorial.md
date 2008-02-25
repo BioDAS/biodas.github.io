@@ -197,7 +197,7 @@ Registration Server provides functionality to keep track of this and to
 ensure a common nomenclature.
 
 > ***Look at the response to the DAS Registry coordsys command:
-> [1](http://www.dasregistry.org/coordsys/CS_DS6). On this page you are
+> <http://www.dasregistry.org/coordsys/CS_DS6>. On this page you are
 > presented with a description of a specific accession system, namely
 > the UniProt coordinate system in this case. You will also find a link
 > that allows you to view a list of all the DAS servers that implement
@@ -219,7 +219,7 @@ web browser as well as the source of the page, which will reveal the XML
 response that can be parsed in suitable client code.
 
 > ***Look at the response to the DAS Registry sources command:
-> [2](http://www.dasregistry.org/das1/sources). As indicated above, the
+> <http://www.dasregistry.org/das1/sources>. As indicated above, the
 > view you are seeing in the browser is a transformation of the XML
 > response into an attractive HTML view. Right click on the browser
 > window and click on 'View Source'. (The exact details of this depend

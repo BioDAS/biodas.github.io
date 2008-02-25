@@ -136,16 +136,16 @@ Finding DAS sources – the DAS Registry Service at the Sanger Institute
 services are around, which DAS commands they are understanding and about
 the coordinate systems of their data.”*<sup>1</sup>
 
-This valuable service provides a human web interface that allows you to
-search for DAS sources, test their status, examine their reliability and
-learn more about what they offer. At the time of writing, a total of 383
-servers from 47 institutions in 18 different countries are included in
-the registry.
+The DAS Registration Server allows DAS clients to discover DAS services.
+At the same time it provides an elegant browsable web interface that
+allows you to search for DAS sources, test their status, examine their
+reliability and learn more about what they offer. At the time of
+writing, a total of 383 servers from 47 institutions in 18 different
+countries are included in the registry.
 
-In addition to the human-searchable interface, the service can be
-accessed directly and transparently by DAS clients. This allows DAS
-clients to find relevant DAS services for you without you having to
-perform an exhaustive search.
+The following activities will familiarise your with the content of the
+registry, both the 'human' interface and also the web-service interface
+that can be queried by DAS clients (and your client code!)
 
 > ***Navigate to [The DAS Registration
 > Server](http://www.dasregistry.org)***
@@ -154,9 +154,11 @@ perform an exhaustive search.
 > that use UniProt as their 'authority'.***
 
 > ***Select any one of these and follow the information link to find out
-> details of this server including how reliable it has been recently.
-> You may also wish to test it now to find out if it is supporting all
-> of the functionality that it claims to at the present time.***
+> details of this server including how reliable it has been recently.***
+
+> ***For the same DAS service, use the DAS Registration Server to test
+> its current capabilities to find out if it is supporting all of the
+> functionality that it claims to at the present time.***
 
 To be added:
 

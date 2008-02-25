@@ -26,11 +26,9 @@ how you can find relevant DAS data sources.
 Example DAS Reference Server – The UniProt DAS Reference Server
 ---------------------------------------------------------------
 
-This section will illustrate how the information is provided. Being able
-to use DAS to full advantage does not require you to understand how the
-DAS protocol works, however this will give you an insight into how
-straight forward it can be to develop your own DAS data source and an
-appreciation of the strengths and weaknesses of DAS.
+This section will illustrate the structure of typical DAS requests and
+responses, including those that you might expect to see when things go
+wrong - the entry point you have asked for is not available for example.
 
 DAS information is made available from DAS servers. A DAS server is a
 web application that serves data in the form of a series of XML
@@ -49,11 +47,12 @@ separated into two kinds:
 
 -   **Reference servers** provide the molecule sequence.
 -   **Annotation servers** provide features upon the sequence, such as
-    protein domains, or related to the protein, such as
-    journal references. Annotation servers often refer to a specific
-    reference server as their 'map master', i.e. the server that you
-    should expect to be able to retrieve the corresponding
-    sequence from.
+    gene structures, regulatory motifs, protein domains, or related to
+    the protein, such as journal references. Annotation servers often
+    refer to a specific reference server as their 'map master', i.e. the
+    server that you should expect to be able to retrieve the
+    corresponding sequence from. This mechanism has become less
+    important since the inception of the DAS Registry Server however.
 
 You will now investigate an example of each kind of server.
 
@@ -98,6 +97,15 @@ features.
 > protein (with start and end coordinates of 0) and also literature
 > references relating to the protein.***
 
+It is possible for a DAS client to query a coordinate range on an entry
+point.
+
+> ***Take a look at the [definition of the features command in the DAS
+> 1.53 specification](http://biodas.org/documents/spec.html#features).
+> Use this information to modify the previous query to include only the
+> features located between residues 20 and 100 on the protein
+> sequence.***
+
 As indicated above, the purpose of DAS is to allow you to retrieve
 protein information from multiple sources at the same time. An example
 of a completely separate but compatible DAS annotation server that is
@@ -110,9 +118,11 @@ the next task:
 Here you will find additional annotation of the same protein from the
 MSD Motif database at the EBI. Notice that in this case the version is
 not the same as the version from the UniProt DAS server for the same
-protein accession. A typical DAS client should note this discrepancy and
-warn the user that the protein sequence being annotated is possibly not
-compatible.
+protein accession. This could mean that the MSD DAS server is not
+providing annotation on the same version of the sequence being served
+from the UniProt DAS server. A typical DAS client should note this
+discrepancy and warn the user that the protein sequence being annotated
+is possibly not the same.
 
 > ***Navigate to
 > <http://bioinf.cs.ucl.ac.uk:8000/servlet/pdas.pdasServlet2/das/features?segment=Q14974>***

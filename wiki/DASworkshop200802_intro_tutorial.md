@@ -5,7 +5,8 @@ layout: wiki
 ---
 
 [ &lt;-- Back to DAS Workshop 2008
-Programme](/wiki/DASworkshop200802 "wikilink")
+Programme](/wiki/DASworkshop200802 "wikilink") ![BioSapiens
+Network](Biosapiens_final.gif "fig:BioSapiens Network")
 
 Tutorial: An Introduction to the Basics of the DAS Protocol
 ===========================================================
@@ -249,4 +250,4 @@ For details of web services and WSDL:
 > more information about how to use the available web services in your
 > own scripts.***
 
-<small>\[pjones@ebi.ac.uk Philip Jones\], EMBL-EBI, Hinxton, UK</small>
+<small>Philip Jones, EMBL-EBI, Hinxton, UK. February 2008</small>

@@ -7,8 +7,8 @@ layout: wiki
 [ &lt;-- Back to DAS Workshop 2008
 Programme](/wiki/DASworkshop200802 "wikilink")
 
-Tutorial: An Introduction to the Basics of DAS
-==============================================
+Tutorial: An Introduction to the Basics of the DAS Protocol
+===========================================================
 
 Introduction
 ------------
@@ -179,7 +179,7 @@ web site:
 > ***For the same DAS service, use the DAS Registration Server to test
 > its current capabilities to find out if it is supporting all of the
 > functionality that it claims to at the present time. (Start with the
-> green tick)***
+> green tick).***
 
 The DAS Registration Server allows DAS sources to be organised into
 projects, which can also be used at the client level to request
@@ -189,6 +189,11 @@ that are associated with the BioSapiens Project.
 > ***To view all the projects currently described in the DAS
 > Registration Server, take a look at:
 > <http://www.dasregistry.org/listProjects.jsp>***
+
+Of course different DAS data sources serve sequences and features based
+upon numerous different accession and coordinate systems. The DAS
+Registration Server provides functionality to keep track of this and to
+ensure a common nomenclature.
 
 > ***Look at the response to the DAS Registry coordsys command:
 > [1](http://www.dasregistry.org/coordsys/CS_DS6). On this page you are

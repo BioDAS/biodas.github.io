@@ -1,6 +1,6 @@
 [[DASworkshop200802| <-- Back to DAS Workshop 2008 Programme]]
 
-=Tutorial: An Introduction to the Basics of DAS=
+=Tutorial: An Introduction to the Basics of the DAS Protocol=
 
 ==Introduction==
 By making use of DAS you can take advantage of being able to view integrated information from multiple sources, without these sources needing to be aware of each other.  You can also add your own DAS data source, perhaps privately in your own institution and then view the information served from this source in the context of features from other institutions.
@@ -98,7 +98,7 @@ First of all, a few exercises to familiarize you with the DAS Registry web site:
 </blockquote>
 
 <blockquote>
-'''''For the same DAS service, use the DAS Registration Server to test its current capabilities to find out if it is supporting all of the functionality that it claims to at the present time. (Start with the green tick)'''''
+'''''For the same DAS service, use the DAS Registration Server to test its current capabilities to find out if it is supporting all of the functionality that it claims to at the present time. (Start with the green tick).'''''
 </blockquote>
 
 The DAS Registration Server allows DAS sources to be organised into projects, which can also be used at the client level to request annotation from logically associated DAS sources, such as DAS sources that are associated with the BioSapiens Project.
@@ -106,6 +106,8 @@ The DAS Registration Server allows DAS sources to be organised into projects, wh
 <blockquote>
 '''''To view all the projects currently described in the DAS Registration Server, take a look at: http://www.dasregistry.org/listProjects.jsp'''''
 </blockquote>
+
+Of course different DAS data sources serve sequences and features based upon numerous different accession and coordinate systems.  The DAS Registration Server provides functionality to keep track of this and to ensure a common nomenclature.
 
 <blockquote>
 '''''Look at the response to the DAS Registry coordsys command: [http://www.dasregistry.org/coordsys/CS_DS6].  On this page you are presented with a description of a specific accession system, namely the UniProt coordinate system in this case.  You will also find a link that allows you to view a list of all the DAS servers that implement this coordinate / accession system.'''''

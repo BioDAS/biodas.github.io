@@ -108,8 +108,17 @@ Note that the DAS Registration Service provides both a simple DAS style web serv
 The DAS Registration Service makes use of XSLT style sheets to transformthe XML response into an attractive web page for viewing in an internet browser.  For all of the following activities, please look at both the view in the web browser as well as the source of the page, which will reveal the XML response that can be parsed in suitable client code.
 
 <blockquote>
-'''''view-source: http://www.dasregistry.org/das1/sources'''''
+'''''Look at the response to the DAS Registry sources command: [http://www.dasregistry.org/das1/sources]. As indicated above, the view you are seeing in the browser is a transformation of the XML response into an attractive HTML view. Right click on the browser window and click on 'View Source'. (The exact details of this depend upon the internet browser you are using).'''''
 </blockquote>
+
+You should see that the XML response provides a <tt>&lt;SOURCES&gt;</tt> XML file, containing any number of <tt>&lt;SOURCE&gt;</tt> elements.  Each <tt>&lt;SOURCE&gt;</tt> element describes a single data source, providing parsable information including:
+
+* The source URI as defined in the registry, of the form DS_NNN;
+* The title and a description of the data source;
+* Details of the datasource maintainer;
+* The coordinate system used by the data source (note that this is defined in terms of DAS Registry registered coordinate systems, e.g. "UniProt" has been assigned the URI CS_DS6);
+* The capabilities (implemented commands) of the data source;
+* A range of additional properties for the service.
 
 <blockquote>
 '''''view-source: http://www.dasregistry.org/das1/sources/DS_409'''''

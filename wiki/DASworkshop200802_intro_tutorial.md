@@ -196,7 +196,26 @@ both the view in the web browser as well as the source of the page,
 which will reveal the XML response that can be parsed in suitable client
 code.
 
-> ***view-source: <http://www.dasregistry.org/das1/sources>***
+> ***Look at the response to the DAS Registry sources command:
+> [1](http://www.dasregistry.org/das1/sources). As indicated above, the
+> view you are seeing in the browser is a transformation of the XML
+> response into an attractive HTML view. Right click on the browser
+> window and click on 'View Source'. (The exact details of this depend
+> upon the internet browser you are using).***
+
+You should see that the XML response provides a `<SOURCES>` XML file,
+containing any number of `<SOURCE>` elements. Each `<SOURCE>` element
+describes a single data source, providing parsable information
+including:
+
+-   The source URI as defined in the registry, of the form DS\_NNN;
+-   The title and a description of the data source;
+-   Details of the datasource maintainer;
+-   The coordinate system used by the data source (note that this is
+    defined in terms of DAS Registry registered coordinate systems, e.g.
+    "UniProt" has been assigned the URI CS\_DS6);
+-   The capabilities (implemented commands) of the data source;
+-   A range of additional properties for the service.
 
 > ***view-source: <http://www.dasregistry.org/das1/sources/DS_409>***
 

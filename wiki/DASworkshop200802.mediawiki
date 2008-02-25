@@ -17,7 +17,7 @@ schedule see at
 | 09:15 - 10:00
 | DAS - Technical Introduction 
 | Phil Jones 
-| Presentation:[http://www.ebi.ac.uk/~pjones/DAS2008/DAS-technical-introduction.ppt Powerpoint]<br/>[http://www.ebi.ac.uk/~pjones/DAS2008/DAS-technical-introduction.odp Open Document Format]<br/>[http://www.ebi.ac.uk/~pjones/DAS2008/DAS-technical-introduction.odp PDF] 
+| Presentation:<br/>[http://www.ebi.ac.uk/~pjones/DAS2008/DAS-technical-introduction.ppt Powerpoint]<br/>[http://www.ebi.ac.uk/~pjones/DAS2008/DAS-technical-introduction.odp Open Document Format]<br/>[http://www.ebi.ac.uk/~pjones/DAS2008/DAS-technical-introduction.odp PDF] 
 |-
 | 10:00 - 10:35
 | DAS Introductory Tutorial - DAS servers and the DAS Registration Service

@@ -248,3 +248,5 @@ For details of web services and WSDL:
 > Page](http://www.dasregistry.org/help_scripting.jsp) that provides
 > more information about how to use the available web services in your
 > own scripts.***
+
+##### \[pjones@ebi.ac.uk Philip Jones\], EMBL-EBI, Hinxton, UK

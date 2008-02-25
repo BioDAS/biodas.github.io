@@ -141,4 +141,4 @@ For details of web services and WSDL:
 '''''Finally, you may like to take a look at the [http://www.dasregistry.org/help_scripting.jsp DAS Registry Server Help with Scripting Page] that provides more information about how to use the available web services in your own scripts.'''''
 </blockquote>
 
-=====[pjones@ebi.ac.uk Philip Jones], EMBL-EBI, Hinxton, UK=====
+<small>[pjones@ebi.ac.uk Philip Jones], EMBL-EBI, Hinxton, UK</small>

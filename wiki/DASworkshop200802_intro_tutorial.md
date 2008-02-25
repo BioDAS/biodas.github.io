@@ -249,4 +249,4 @@ For details of web services and WSDL:
 > more information about how to use the available web services in your
 > own scripts.***
 
-##### \[pjones@ebi.ac.uk Philip Jones\], EMBL-EBI, Hinxton, UK
+<small>\[pjones@ebi.ac.uk Philip Jones\], EMBL-EBI, Hinxton, UK</small>

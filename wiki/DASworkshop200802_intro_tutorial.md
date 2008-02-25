@@ -102,9 +102,13 @@ point.
 
 > ***Take a look at the [definition of the features command in the DAS
 > 1.53 specification](http://biodas.org/documents/spec.html#features).
-> Use this information to modify the previous query to include only the
-> features located between residues 20 and 100 on the protein
-> sequence.***
+> (Keep this page open - you will find this useful later). Use this
+> information to modify the previous query to include only the features
+> located between residues 20 and 100 on the protein sequence.***
+
+> ***Using the information from the DAS 1.53 specification, modify your
+> query to retrieve the positions of alpha helices (feature ontology
+> term 'SO:0001117') across the entire Q14974 sequence.***
 
 As indicated above, the purpose of DAS is to allow you to retrieve
 protein information from multiple sources at the same time. An example
@@ -144,7 +148,7 @@ Finding DAS sources – the DAS Registry Service at the Sanger Institute
 </center>
 *“The purpose of the DAS registration service is to keep track which DAS
 services are around, which DAS commands they are understanding and about
-the coordinate systems of their data.”*<sup>1</sup>
+the coordinate systems of their data.”*
 
 The DAS Registration Server allows DAS clients to discover DAS services.
 At the same time it provides an elegant browsable web interface that
@@ -153,9 +157,13 @@ reliability and learn more about what they offer. At the time of
 writing, a total of 383 servers from 47 institutions in 18 different
 countries are included in the registry.
 
-The following activities will familiarise your with the content of the
+The following activities will familiarize you with the content of the
 registry, both the 'human' interface and also the web-service interface
-that can be queried by DAS clients (and your client code!)
+that can be queried by DAS clients (and possibly your client code in the
+exercises this afternoon).
+
+First of all, a few exercises to familiarize you with the DAS Registry
+web site:
 
 > ***Navigate to [The DAS Registration
 > Server](http://www.dasregistry.org)***
@@ -173,9 +181,24 @@ that can be queried by DAS clients (and your client code!)
 > functionality that it claims to at the present time. (Start with the
 > green tick)***
 
+The next few exercises will allow you to examine some of the *web
+service* capabilities of the DAS Registration Server.
+
+Note that the DAS Registration Service provides both a simple DAS style
+web service allowing you build a simple URL request and receive an XML
+response, as well as a SOAP (Simple Object Access Protocol) web service.
+Here we will focus on the DAS style web service.
+
+The DAS Registration Service makes use of XSLT style sheets to
+transformthe XML response into an attractive web page for viewing in an
+internet browser. For all of the following activities, please look at
+both the view in the web browser as well as the source of the page,
+which will reveal the XML response that can be parsed in suitable client
+code.
+
 > ***view-source: <http://www.dasregistry.org/das1/sources>***
 
-> ***view-source: <http://www.dasregistry.org/das1/sources/DS_109>***
+> ***view-source: <http://www.dasregistry.org/das1/sources/DS_409>***
 
 > ***<http://www.dasregistry.org/coordsys/CS_DS91>***
 

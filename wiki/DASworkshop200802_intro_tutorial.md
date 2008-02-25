@@ -163,17 +163,20 @@ that can be queried by DAS clients (and your client code!)
 > functionality that it claims to at the present time. (Start with the
 > green tick)***
 
-To be added:
+> ***view-source: <http://www.dasregistry.org/das1/sources>***
 
-view-source: <http://www.dasregistry.org/das1/sources>
+> ***view-source: <http://www.dasregistry.org/das1/sources/DS_109>***
 
-view-source: <http://www.dasregistry.org/das1/sources/DS_109>
+> ***<http://www.dasregistry.org/coordsys/CS_DS91>***
 
-<http://www.dasregistry.org/coordsys/CS_DS91>
+> ***<http://www.dasregistry.org/listServices.jsp>***
 
-<http://www.dasregistry.org/listServices.jsp>
-
-<http://www.dasregistry.org/listProjects.jsp>
+> ***<http://www.dasregistry.org/listProjects.jsp>***
 
 For details of web services and WSDL:
-<http://www.dasregistry.org/help_scripting.jsp>
+
+> ***Finally, you may like to take a look at the [DAS Registry Server
+> Help with Scripting
+> Page](http://www.dasregistry.org/help_scripting.jsp) that provides
+> more information about how to use the available web services in your
+> own scripts.***

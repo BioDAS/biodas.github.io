@@ -84,23 +84,31 @@ The following activities will familiarise your with the content of the registry,
 '''''Select any one of these services and follow the information link ('i' in a blue circle) to find out details of this server including how reliable it has been recently.'''''
 </blockquote>
 
-
 <blockquote>
 '''''For the same DAS service, use the DAS Registration Server to test its current capabilities to find out if it is supporting all of the functionality that it claims to at the present time. (Start with the green tick)'''''
 </blockquote>
 
-To be added:
+<blockquote>
+'''''view-source: http://www.dasregistry.org/das1/sources'''''
+</blockquote>
 
-view-source: http://www.dasregistry.org/das1/sources
+<blockquote>
+'''''view-source: http://www.dasregistry.org/das1/sources/DS_109'''''
+</blockquote>
 
-view-source: http://www.dasregistry.org/das1/sources/DS_109
+<blockquote>
+'''''http://www.dasregistry.org/coordsys/CS_DS91'''''
+</blockquote>
 
-http://www.dasregistry.org/coordsys/CS_DS91
+<blockquote>
+'''''http://www.dasregistry.org/listServices.jsp'''''
+</blockquote>
 
-http://www.dasregistry.org/listServices.jsp
-
-http://www.dasregistry.org/listProjects.jsp
-
+<blockquote>
+'''''http://www.dasregistry.org/listProjects.jsp'''''
+</blockquote>
 
 For details of web services and WSDL:
-http://www.dasregistry.org/help_scripting.jsp
+<blockquote>
+'''''Finally, you may like to take a look at the [http://www.dasregistry.org/help_scripting.jsp DAS Registry Server Help with Scripting Page] that provides more information about how to use the available web services in your own scripts.'''''
+</blockquote>

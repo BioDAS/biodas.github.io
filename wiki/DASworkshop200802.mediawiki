@@ -48,7 +48,7 @@ schedule see at
 | 13:40 - 14:10
 | Pepper
 | Jose Ramon Macias
-|
+| [http://biocomp.cnb.csic.es/das http://biocomp.cnb.csic.es/das] 
 |-
 | 14:10 - 15:10
 | DAS: Setting Up Your Own Server.  In this section the group will split into two tracks - one for Perl programmers and one for Java programmers.  

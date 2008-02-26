@@ -51,7 +51,7 @@ schedule see at
 |
 |-
 | 14:10 - 15:10
-| DAS: Setting Up Your Own Server
+| DAS: Setting Up Your Own Server.  In this section the group will split into two tracks - one for Perl programmers and one for Java programmers.  
 | Proserver: Andy Jenkinson, [http://www.biojava.org/wiki/Dazzle Dazzle]: Andreas
 | [http://www.ebi.ac.uk/~aj/das_workshop_2008/proserver_tutorial.html ProServer: writing a SourceAdaptor]<br/>
 [http://www.biojava.org/wiki/Dazzle:plugins Dazzle: using existing plugins]<br/>
@@ -61,7 +61,7 @@ schedule see at
 | colspan="3"|Coffee break 
 |-
 | 15:30 - 16:30 
-| DAS - Coding a Client.  In this section the group will split into two tracks - one for Perl programmers and one for Java programmers.  
+| DAS - Coding a Client. 
 | [http://search.cpan.org/~rpettett/Bio-Das-Lite/ Bio::Das::Lite] (Perl) - Andy Jenkinson,  [http://www.spice-3d.org/dasobert/ Dasobert] (Java) - Andreas Prlic
 | [http://www.ebi.ac.uk/~aj/das_workshop_2008/daslite_tutorial.html Bio::Das::Lite tutorial]
 |}

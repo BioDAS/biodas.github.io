@@ -53,6 +53,12 @@ Find the hydrophobicity DAS source. (in the UniProt display, very much
 at the bottom) map the Kyle-Doolittle hydrophobicity onto the protein
 structure.
 
+### SPICE & histogram style data
+
+examples for how to display histogram style plots in SPICE can be see
+from here:
+[<http://www.efamily.org.uk/software/dasclients/spice/histogram.shtml>](http://www.efamily.org.uk/software/dasclients/spice/histogram.shtml)
+
 ### SPICE homepage
 
 Just for completeness, you can of course also launch SPICE via its

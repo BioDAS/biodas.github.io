@@ -57,7 +57,7 @@ schedule see at
 | [http://www.ebi.ac.uk/~aj/das_workshop_2008/proserver_tutorial.html ProServer: writing a SourceAdaptor]<br/>
 [http://www.biojava.org/wiki/Dazzle:plugins Dazzle: using existing plugins]<br/>
 [http://www.biojava.org/wiki/Dazzle:writeplugin Dazzle: writing a plugin]<br/>
-[http://www.ebi.ac.uk/~pjones/public_html/DAS2008/chr21.gff Chromosome 21 GFF File]
+[http://www.ebi.ac.uk/~pjones/DAS2008/chr21.gff Chromosome 21 GFF File]
 |- style="background:#ffdead;"
 | 15:10 - 15:30
 | colspan="3"|Coffee break 

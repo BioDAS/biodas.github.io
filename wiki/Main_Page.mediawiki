@@ -38,6 +38,8 @@ Here are some examples of DAS-enabled websites and applications:
 
 * PeppeR: http://biocomp.cnb.uam.es/das/PeppeR/
 
+* DASMI: http://www.dasmi.de
+
 == Publications ==
 
 A list of DAS related publications is available from [[DAS_publications]]

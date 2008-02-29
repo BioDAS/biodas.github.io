@@ -64,6 +64,10 @@ Here are some examples of DAS-enabled websites and applications:
 
 -   PeppeR: <http://biocomp.cnb.uam.es/das/PeppeR/>
 
+<!-- -->
+
+-   DASMI: <http://www.dasmi.de>
+
 Publications
 ------------
 

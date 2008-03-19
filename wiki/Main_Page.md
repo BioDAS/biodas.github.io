@@ -49,11 +49,6 @@ Here are some examples of DAS-enabled websites and applications:
 
 <!-- -->
 
--   Dasty:
-    <http://www.ebi.ac.uk/das-srv/uniprot/dasty/content?ID>=:dis=BioSapiens
-
-<!-- -->
-
 -   Dasty2: <http://www.ebi.ac.uk/dasty/>
 
 <!-- -->

@@ -68,10 +68,6 @@ See [[BioDAS:Community_Portal]]
 
 See the [[DasFAQ]] page for some frequently asked questions.
 
-== CVS Access ==
-
-See [[DAS/2#CVS Access]] for CVS access information to various aspects of the DAS/2 development effort.
-
 == Contribute to this Wiki ==
 
 Want to contribute to the Wiki? please see some beginners instructions at the [[WikiGetStarted]] page.

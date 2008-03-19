@@ -84,7 +84,7 @@ Though mature, the protocol continues to be
 [extended](http://www.dasregistry.org/spec_1.53E.jsp) to cater for the
 needs of the DAS community.
 
-More than 200 DAS/1 servers are currently running worldwide including
+Hundreds of DAS/1 servers are currently running worldwide including
 [WormBase](http://www.wormbase.org/),
 [FlyBase](http://www.flybase.org/), [Ensembl](http://www.ensembl.org/),
 [TIGR](http://www.tigr.org/), [UCSC](http://genome.ucsc.edu/), and

@@ -101,10 +101,13 @@ spec. See the [DAS/2](/wiki/DAS/2 "wikilink") page for more information.
 DAS workshop
 ------------
 
-A [workshop on DAS](/wiki/DASworkshop200802 "wikilink") will be held in
-February 2008 at the Genome Campus in Hinxton / Cambridge U.K. This is
-an opportunity for newbies to learn about DAS and for the more
-experienced to exchange ideas and present their latest developments.
+A workshop on DAS has been held in February 2007 and 2008 in Hinxton,
+U.K. as an opportunity for newbies to learn about DAS and for the more
+experienced to exchange ideas and present their latest developments. It
+included presentations and hands-on sessions.
+
+Slides from this year's workshop are available at
+[DASworkshop200802](/wiki/DASworkshop200802 "wikilink").
 
 Mailing Lists
 -------------

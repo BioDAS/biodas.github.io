@@ -22,10 +22,11 @@ Given that the DAS/2 specification is not backward compatible with the DAS/1 ver
 
 == DAS/2 Clients ==
 
-The following software packages operate as clients capable of interacting with servers supporting the DAS/2 protocol:
+The following software packages support the client-side DAS/2 API for interacting with DAS/2-compliant servers:
 
 * [http://genoviz.sourceforge.net IGB - Integrated Genome Browser] - a DAS/2 reference implementation
 * [http://www.gmod.org/GBrowse GBrowse - Generic Genome Browser]
+* [http://cabio.nci.nih.gov/NCICB/infrastructure/cacore_overview/caBIO caBIO Infrastructure Objects] ''(confirm this)''
 
 == DAS/2 Servers ==
 

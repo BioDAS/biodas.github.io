@@ -59,12 +59,15 @@ that will permit a DAS/1 server to be accessed by DAS/2 clients.
 DAS/2 Clients
 -------------
 
-The following software packages operate as clients capable of
-interacting with servers supporting the DAS/2 protocol:
+The following software packages support the client-side DAS/2 API for
+interacting with DAS/2-compliant servers:
 
 -   [IGB - Integrated Genome Browser](http://genoviz.sourceforge.net) -
     a DAS/2 reference implementation
 -   [GBrowse - Generic Genome Browser](http://www.gmod.org/GBrowse)
+-   [caBIO Infrastructure
+    Objects](http://cabio.nci.nih.gov/NCICB/infrastructure/cacore_overview/caBIO)
+    *(confirm this)*
 
 DAS/2 Servers
 -------------

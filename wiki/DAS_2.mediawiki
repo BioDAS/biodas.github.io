@@ -33,6 +33,7 @@ The following software packages operate as servers capable of providing data in 
 
 * [http://das.biopackages.net/das/genome Biopackages DAS/2 server] - a DAS/2 reference implementation
 * [http://netaffxdas.affymetrix.com/das2 Affymetrix Public DAS/2 server]
+* [http://bioserver.hci.utah.edu:8080/DAS2/das2 Huntsman Cancer Institute's DAS/2 server]
 
 == DAS/2 Validation Suite ==
 

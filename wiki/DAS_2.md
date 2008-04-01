@@ -76,6 +76,8 @@ data in response to queries conforming with the DAS/2 protocol:
     a DAS/2 reference implementation
 -   [Affymetrix Public DAS/2
     server](http://netaffxdas.affymetrix.com/das2)
+-   [Huntsman Cancer Institute's DAS/2
+    server](http://bioserver.hci.utah.edu:8080/DAS2/das2)
 
 DAS/2 Validation Suite
 ----------------------

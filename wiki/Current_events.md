@@ -4,6 +4,14 @@ permalink: wiki/Current_events/
 layout: wiki
 ---
 
+Programmatic access in Java, November 2008
+------------------------------------------
+
+24th-27th November 2008 at the European Bioinformatics Institute,
+Hinxton, UK.
+
+See Perl course for topics.
+
 Programmatic access in Perl, September 2008
 -------------------------------------------
 

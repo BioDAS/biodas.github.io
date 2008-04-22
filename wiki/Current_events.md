@@ -4,6 +4,21 @@ permalink: wiki/Current_events/
 layout: wiki
 ---
 
+European School in Bioinformatics, May 2008
+-------------------------------------------
+
+The BioSapiens ESB is an intensive five-day course that combines
+lectures and hands-on tutorials to help the participants actively learn
+and resolve biologically relevant problems. The 8th ESB is to be held
+12th-16th May at the European Bioinformatics Institute, Hinxton, UK and
+focuses on using Europe’s core biological data resources and associated
+tools to analyse biological data. The first day of the course focuses on
+DAS.
+
+See
+<http://www.ebi.ac.uk/training/handson/course_080512_biosapiens.html>
+for more details.
+
 BioSapiens DAS workshop, Feb 2008
 ---------------------------------
 

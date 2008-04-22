@@ -4,6 +4,21 @@ permalink: wiki/Current_events/
 layout: wiki
 ---
 
+Programmatic access in Perl, September 2008
+-------------------------------------------
+
+8th-10th September 2008 at the European Bioinformatics Institute,
+Hinxton, UK.
+
+Topics:
+
+-   Introduction to the EBI and Webservices
+-   Rest and SOAP; application to EBI services (e.g. OLS, PICR, see
+    <http://www.ebi.ac.uk/Tools/webservices/>)
+-   DAS
+-   BioMart and Biomart Webservices
+-   Workflows: TAVERNA, Enfin, Encor
+
 European School in Bioinformatics, May 2008
 -------------------------------------------
 

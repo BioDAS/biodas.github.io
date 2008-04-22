@@ -27,8 +27,8 @@ Topics:
 -   BioMart and Biomart Webservices
 -   Workflows: TAVERNA, Enfin, Encor
 
-DILS 2008
----------
+DILS, June 2008
+---------------
 
 DAS will be represented at the 2008 Data Integration in the Life
 Sciences (DILS) conference. This year's conference will be held

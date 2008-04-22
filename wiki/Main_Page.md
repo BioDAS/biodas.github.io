@@ -98,16 +98,17 @@ available DAS sources please proceed to the
 builds on the capabilities of the original [DAS/1](/wiki/DAS/1 "wikilink")
 spec. See the [DAS/2](/wiki/DAS/2 "wikilink") page for more information.
 
-DAS workshop
-------------
+DAS events
+----------
 
-A workshop on DAS has been held in February 2007 and 2008 in Hinxton,
-U.K. as an opportunity for newbies to learn about DAS and for the more
-experienced to exchange ideas and present their latest developments. It
-included presentations and hands-on sessions.
+-   There are several upcoming training courses that include DAS
+    components
+-   DAS will be represented at the Data Integration in the Life Sciences
+    conference
+-   Recently held was the 2008 DAS Workshop
 
-Slides from this year's workshop are available at
-[DASworkshop200802](/wiki/DASworkshop200802 "wikilink").
+See the [Current events](/wiki/Current_events "wikilink") page for details of
+these.
 
 Mailing Lists
 -------------

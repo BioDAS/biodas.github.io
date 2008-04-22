@@ -4,7 +4,7 @@
 
 See Perl course for topics.
 
-== Programmatic access in Perl, Sep2008==
+== Programmatic access in Perl, Sep 2008==
 
 8th-10th September 2008 at the European Bioinformatics Institute, Hinxton, UK.
 

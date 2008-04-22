@@ -4,6 +4,37 @@ permalink: wiki/Current_events/
 layout: wiki
 ---
 
+BioSapiens DAS workshop, Feb 2008
+---------------------------------
+
+The BioSapiens Network of Excellence are organising a 2-day workshop on
+DAS, held 25th-26th February 2008 at the Wellcome Trust Genome Campus,
+Hinxton, UK. For more information see
+<http://www.dasregistry.org/course.jsp>.
+
+### Day 1
+
+Similar to the DAS client developers workshop from last year, this is
+the day where developers present their DAS related applications,
+websites and discuss new ideas.
+
+-   present the progress over the last year
+-   find synergies
+-   see if/how interoperability can be improved
+-   discuss possible future extensions to DAS
+
+See <http://www.dasregistry.org/course.jsp> for slides.
+
+### Day 2
+
+This is the practical day where you can learn how to work with DAS.
+
+-   learn what you can do with DAS
+-   how to talk to a DAS server
+-   how to set up your own servers
+
+See [DASworkshop200802](/wiki/DASworkshop200802 "wikilink") for slides.
+
 BioSapiens DAS workshop, Feb 2007
 ---------------------------------
 
@@ -16,13 +47,17 @@ Around this EU-wide collaboration they are organizing two DAS-related
 workshops. They will both be held in the last week of February, location
 is the Genome Campus in Hinxton / Cambridge, U.K.
 
-workshop 1: DAS client developers workshop Monday 26/2/2007 main
-organizer: Andreas Prlic for more info please see:
+### workshop 1
+
+DAS client developers workshop Monday 26/2/2007 main organizer: Andreas
+Prlic for more info please see:
 <http://www.sanger.ac.uk/Users/ap3/dasworkshop.html>
 
-workshop 2: BioSapiens Feature Classification (Ontology) Workshop
-Tuesday, 27/2/2007, Wednesday, 28/2/2007 main organizer: Henning
-Hermjakob Summary:
+### workshop 2
+
+BioSapiens Feature Classification (Ontology) Workshop Tuesday,
+27/2/2007, Wednesday, 28/2/2007 main organizer: Henning Hermjakob
+Summary:
 
   
 *We propose to develop a hierarchical classification of DAS feature

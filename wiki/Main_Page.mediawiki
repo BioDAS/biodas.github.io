@@ -58,6 +58,8 @@ Hundreds of DAS/1 servers are currently running worldwide including [http://www.
 
 == DAS events ==
 
+* currently [[EuropeanSchoolBioinformatics200805| 8th BioSapiens European School for BioInformatics]]
+
 * There are several upcoming training courses that include DAS components
 * DAS will be represented at the Data Integration in the Life Sciences conference
 * Recently held was the 2008 DAS Workshop

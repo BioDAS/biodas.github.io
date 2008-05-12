@@ -101,6 +101,11 @@ spec. See the [DAS/2](/wiki/DAS/2 "wikilink") page for more information.
 DAS events
 ----------
 
+-   currently [ 8th BioSapiens European School for
+    BioInformatics](/wiki/EuropeanSchoolBioinformatics200805 "wikilink")
+
+<!-- -->
+
 -   There are several upcoming training courses that include DAS
     components
 -   DAS will be represented at the Data Integration in the Life Sciences

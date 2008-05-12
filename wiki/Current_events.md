@@ -50,6 +50,9 @@ See
 <http://www.ebi.ac.uk/training/handson/course_080512_biosapiens.html>
 for more details.
 
+see [ the DAS slides of the
+school](/wiki/EuropeanSchoolBioinformatics200805 "wikilink")
+
 BioSapiens DAS workshop, Feb 2008
 ---------------------------------
 

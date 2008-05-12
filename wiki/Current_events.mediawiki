@@ -25,6 +25,8 @@ The BioSapiens ESB is an intensive five-day course that combines lectures and ha
 
 See http://www.ebi.ac.uk/training/handson/course_080512_biosapiens.html for more details.
 
+see  [[EuropeanSchoolBioinformatics200805| the DAS slides of the school]]
+
 == BioSapiens DAS workshop, Feb 2008==
 
 The BioSapiens Network of Excellence are organising a 2-day workshop on DAS, held 25th-26th February 2008 at the Wellcome Trust Genome Campus, Hinxton, UK. For more information see http://www.dasregistry.org/course.jsp.

@@ -72,19 +72,14 @@ A list of DAS related publications is available from
 The Protocol
 ------------
 
-Currently there are two versions of the DAS protocol
-
-### [DAS/1](/wiki/DAS/1 "wikilink")
-
-[DAS/1](/wiki/DAS/1 "wikilink") (or commonly "DAS") is the original version of
-the specification written by Lincoln Stein, Sean Eddy, and Robin Dowell.
-It is widely adopted and well supported, particularly throughout Europe,
-and is the basis for a large number of existing clients and servers.
-Though mature, the protocol continues to be
+The original DAS specification was written by Lincoln Stein, Sean Eddy,
+and Robin Dowell. It is widely adopted and well supported, particularly
+throughout Europe, and is the basis for a large number of existing
+clients and servers. Though mature, the protocol continues to be
 [extended](http://www.dasregistry.org/spec_1.53E.jsp) to cater for the
 needs of the DAS community.
 
-Hundreds of DAS/1 servers are currently running worldwide including
+Hundreds of DAS servers are currently running worldwide including
 [WormBase](http://www.wormbase.org/),
 [FlyBase](http://www.flybase.org/), [Ensembl](http://www.ensembl.org/),
 [TIGR](http://www.tigr.org/), [UCSC](http://genome.ucsc.edu/), and
@@ -92,11 +87,7 @@ Hundreds of DAS/1 servers are currently running worldwide including
 available DAS sources please proceed to the
 [DasRegistry](/wiki/DasRegistry "wikilink") <http://www.dasregistry.org>
 
-### [DAS/2](/wiki/DAS/2 "wikilink")
-
-[DAS/2](/wiki/DAS/2 "wikilink") is an offshoot of the DAS specification and
-builds on the capabilities of the original [DAS/1](/wiki/DAS/1 "wikilink")
-spec. See the [DAS/2](/wiki/DAS/2 "wikilink") page for more information.
+See the [DAS/1](/wiki/DAS/1 "wikilink") page for more details.
 
 DAS events
 ----------
@@ -114,6 +105,13 @@ DAS events
 
 See the [Current events](/wiki/Current_events "wikilink") page for details of
 these.
+
+[DAS/2](/wiki/DAS/2 "wikilink")
+-------------------------
+
+[DAS/2](/wiki/DAS/2 "wikilink") is an offshoot of the DAS specification and
+builds on the capabilities of the original [DAS/1](/wiki/DAS/1 "wikilink")
+spec. See the [DAS/2](/wiki/DAS/2 "wikilink") page for more information.
 
 Mailing Lists
 -------------

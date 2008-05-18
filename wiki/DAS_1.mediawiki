@@ -3,7 +3,7 @@
 
 == About DAS/1 ==
 
-The original version 1 specification, written by Lincoln Stein, Sean Eddy, and Robin Dowell, is the basis for a number of clients and servers. More than 200 DAS/1 servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR],  [http://genome.ucsc.edu/ UCSC], and [http://www.ebi.ac.uk/das-srv/uniprot/das UniProt]. A number of websites and software applications are based on DAS.
+The original version 1 specification, written by Lincoln Stein, Sean Eddy, and Robin Dowell, is the basis for a number of clients and servers. Around 400 public DAS/1 servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR],  [http://genome.ucsc.edu/ UCSC], and [http://www.ebi.ac.uk/das-srv/uniprot/das UniProt]. Many more private DAS sources are known to be in use. A number of websites and software applications are based on DAS.
 
 The official DAS/1 version 1.53 specification is available at http://www.biodas.org/documents/spec.html
 

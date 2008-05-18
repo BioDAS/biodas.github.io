@@ -42,9 +42,8 @@ DAS/1 Clients
 
 -   [Ensembl](http://www.ensembl.org/info/using/external_data/das/index.html)
 -   [Spice](http://www.efamily.org.uk/software/dasclients/spice/)
--   \[<http://www.ebi.ac.uk/das-srv/uniprot/dasty/content?ID>=:dis=BioSapiens
-    Dasty\]
--   [Dasty2](http://www.ebi.ac.uk/~rafael/pre_dasty2/)
+-   [Dasty](http://www.ebi.ac.uk/dasty/)
+-   [Pfam](http://pfam.sanger.ac.uk/)
 
 <!-- -->
 

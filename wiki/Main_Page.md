@@ -92,19 +92,13 @@ See the [DAS/1](/wiki/DAS/1 "wikilink") page for more details.
 DAS events
 ----------
 
--   currently [ 8th BioSapiens European School for
-    BioInformatics](/wiki/EuropeanSchoolBioinformatics200805 "wikilink")
-
-<!-- -->
-
 -   There are several upcoming training courses that include DAS
     components
--   DAS will be represented at the Data Integration in the Life Sciences
-    conference
--   Recently held was the 2008 DAS Workshop
+-   DAS will be represented at the [BOSC
+    2008](http://open-bio.org/wiki/BOSC_2008) conference
 
 See the [Current events](/wiki/Current_events "wikilink") page for details of
-these.
+these and past events.
 
 [DAS/2](/wiki/DAS/2 "wikilink")
 -------------------------

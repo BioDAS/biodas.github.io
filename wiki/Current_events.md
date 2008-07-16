@@ -31,10 +31,11 @@ Topics:
 BOSC, July 2008
 ---------------
 
-A BioDAS project update will be presented at the 2008 BOSC
-(Bioinformatics Open Source Conference), a two day Special Interest
-Group meeting in conjunction with the ISMB conference. This year's BOSC
-will be held 18th-19th July in Toronto, Canada.
+A BioDAS project update will be presented at the [2008
+BOSC](http://www.open-bio.org/wiki/BOSC_2008) (Bioinformatics Open
+Source Conference), a two day Special Interest Group meeting in
+conjunction with the [ISMB](http://www.iscb.org/ismb2008/) conference.
+This year's BOSC will be held 18th-19th July in Toronto, Canada.
 
 DILS, June 2008
 ---------------

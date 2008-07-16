@@ -54,13 +54,21 @@ DAS/1 Clients
 DAS/1 Servers
 -------------
 
+A more exchaustive list of servers is available from the [DAS
+Registry](/wiki/DasRegistry "wikilink").
+
 -   [Affymetrix](http://netaffxdas.affymetrix.com/das/)
 -   [BioSapiens
     servers](http://www.biosapiens.info/page.php?page=biosapiensdir)
 -   [Ensembl
     server](http://www.ensembl.org/info/using/external_data/das/index.html)
 -   [KEGG DAS](http://das.hgc.jp/)
--   [Sanger Dazzle server](http://servlet.sanger.ac.uk:8080/das/)
+-   [Sanger DAS server](http://das.sanger.ac.uk/das/dsn)
+-   [EBI Genomic DAS
+    server](http://www.ebi.ac.uk/das-srv/genomicdas/das/sources)
+-   [EBI Protein DAS
+    server](http://www.ebi.ac.uk/das-srv/proteindas/das/sources)
+-   [Uniprot DAS server](http://www.ebi.ac.uk/das-srv/uniprot/das/dsn)
 -   [TIGR's listing of
     servers](http://www.tigr.org/tdb/DAS/das_server_list.html)
 -   [UCSC server](http://genome.ucsc.edu/FAQ/FAQdownloads#download23)

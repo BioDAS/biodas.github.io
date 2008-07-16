@@ -28,11 +28,16 @@ The unofficial DAS/1 version 1.53E (extended) specification is available at http
 
 == DAS/1 Servers ==
 
+A more exchaustive list of servers is available from the [[DasRegistry|DAS Registry]].
+
 * [http://netaffxdas.affymetrix.com/das/ Affymetrix]
 * [http://www.biosapiens.info/page.php?page=biosapiensdir BioSapiens servers]
 * [http://www.ensembl.org/info/using/external_data/das/index.html Ensembl server]
 * [http://das.hgc.jp/ KEGG DAS]
-* [http://servlet.sanger.ac.uk:8080/das/ Sanger Dazzle server]
+* [http://das.sanger.ac.uk/das/dsn Sanger DAS server]
+* [http://www.ebi.ac.uk/das-srv/genomicdas/das/sources EBI Genomic DAS server]
+* [http://www.ebi.ac.uk/das-srv/proteindas/das/sources EBI Protein DAS server]
+* [http://www.ebi.ac.uk/das-srv/uniprot/das/dsn Uniprot DAS server]
 * [http://www.tigr.org/tdb/DAS/das_server_list.html TIGR's listing of servers]
 * [http://genome.ucsc.edu/FAQ/FAQdownloads#download23 UCSC server]
 

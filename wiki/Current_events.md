@@ -15,7 +15,7 @@ See Perl course for topics.
 Programmatic access in Perl, Sep 2008
 -------------------------------------
 
-8th-10th September 2008 at the European Bioinformatics Institute,
+8th-11th September 2008 at the European Bioinformatics Institute,
 Hinxton, UK.
 
 Topics:
@@ -25,7 +25,16 @@ Topics:
     <http://www.ebi.ac.uk/Tools/webservices/>)
 -   DAS
 -   BioMart and Biomart Webservices
+-   Integr8
 -   Workflows: TAVERNA, Enfin, Encor
+
+BOSC, July 2008
+---------------
+
+A BioDAS project update will be presented at the 2008 BOSC
+(Bioinformatics Open Source Conference), a two day Special Interest
+Group meeting in conjunction with the ISMB conference. This year's BOSC
+will be held 18th-19th July in Toronto, Canada.
 
 DILS, June 2008
 ---------------

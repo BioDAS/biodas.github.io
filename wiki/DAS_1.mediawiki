@@ -54,7 +54,7 @@ DAS server implementations are available in several programming languages:
  [http://biodas.org/servers/LDAS.html LDAS]
 
 * Java
- [http://www.derkholm.net/thomas/dazzle/ Dazzle]
+ [http://www.biojava.org/wiki/Dazzle Dazzle]
  [http://code.google.com/p/mydas/ MyDas]
 
 == Publishing and Discovery of DAS/1 sources ==

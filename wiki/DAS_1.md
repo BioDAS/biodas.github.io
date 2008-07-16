@@ -92,7 +92,7 @@ languages:
 
 -   Java
 
-[`Dazzle`](http://www.derkholm.net/thomas/dazzle/)  
+[`Dazzle`](http://www.biojava.org/wiki/Dazzle)  
 [`MyDas`](http://code.google.com/p/mydas/)
 
 Publishing and Discovery of DAS/1 sources

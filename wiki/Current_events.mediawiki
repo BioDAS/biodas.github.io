@@ -16,6 +16,10 @@ Topics:
 * Integr8
 * Workflows: TAVERNA, Enfin, Encor
 
+== ECCB Conference Sardinia, Sep 2008--
+
+Talks:
+
 == BOSC, July 2008==
 
 A BioDAS project update will be presented at the [http://www.open-bio.org/wiki/BOSC_2008 2008 BOSC] (Bioinformatics Open Source Conference), a two day Special Interest Group meeting in conjunction with the [http://www.iscb.org/ismb2008/ ISMB] conference. This year's BOSC will be held 18th-19th July in Toronto, Canada.

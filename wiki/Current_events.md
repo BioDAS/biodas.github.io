@@ -28,6 +28,10 @@ Topics:
 -   Integr8
 -   Workflows: TAVERNA, Enfin, Encor
 
+== ECCB Conference Sardinia, Sep 2008--
+
+Talks:
+
 BOSC, July 2008
 ---------------
 

@@ -940,7 +940,7 @@ across the segment.
 
 ------------------------------------------------------------------------
 
-### Retrieve the Annotations Across a Segment
+### Retrieve the Annotations Across a Segment (features cmd)
 
 **Scope:** Reference and annotation servers.
 

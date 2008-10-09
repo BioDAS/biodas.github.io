@@ -735,7 +735,7 @@ The document returned from the ''types'' request is an XML-formatted "DASTYPES" 
 
 ----
 
-===Retrieve the Annotations Across a Segment===
+===Retrieve the Annotations Across a Segment (features cmd)===
 
 '''Scope:''' Reference and annotation servers.
 

@@ -316,7 +316,7 @@ In particular the following information for a DAS server is important:
 <b>Format:</b>
 <pre>
 
-<i>PREFIX</i>/das[1]/sources
+PREFIX/das[1]/sources
 
 </pre>
 

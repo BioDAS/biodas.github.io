@@ -371,7 +371,7 @@ a DAS server is important:
 <b>Format:</b>
 
 
-    <i>PREFIX</i>/das[1]/sources
+    PREFIX/das[1]/sources
 
 The PREFIX can be either <b>das</b> or <b>das1</b> in order to refer to
 the major version 1 of the DAS protocol and in order to provide support

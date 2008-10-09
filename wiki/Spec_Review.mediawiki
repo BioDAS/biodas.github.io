@@ -562,15 +562,10 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 
 ----
 ===Retrieve the Sequence Associated with a Subsequence===
-<p>
-
 <b>Scope:</b> Reference servers.
-
-<p>
 
 <b>Command:</b> <i>sequence</i>
 
-<p>
 
 <b>Format:</b>
 
@@ -578,12 +573,11 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 <i>PREFIX</i>/das/<i>DSN</i>/sequence?segment=<i>RANGE</i>[;segment=<i>RANGE</i>...]
 </pre></blockquote>
 
-<p>
 
 <b>Description:</b> This query returns the sequence (nucleotide or
 protein) corresponding to the indicated segment.
 
-<p>
+
 
 <b>Arguments:</b>
 
@@ -596,9 +590,6 @@ protein) corresponding to the indicated segment.
       returned.
 
 </dl>
-
-<p>
-
 Here is an example of a valid request that uses the <b>segment</b>
 argument to fetch three independent segments.  The last segment is a
 subsequence:
@@ -608,7 +599,7 @@ subsequence:
         segment=BUM;segment=HUM_HGA;segment=CE_HOC2:1,200
 </pre>
 
-<h4>The Sequence Response</a></h4>
+====The Sequence Response</a>====
 
 <p>
 

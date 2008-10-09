@@ -827,7 +827,7 @@ the
 </td>
 </tr>
 </table>
-### Retrieve the Types Available for a Segment
+### Retrieve the Types Available for a Segment (types cmd)
 
 **Scope:** Annotation and reference servers.
 

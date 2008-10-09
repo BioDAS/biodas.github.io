@@ -76,13 +76,13 @@ annotation <b>type</b> is selected from a list of types that have
 biological significance and previously correspond roughly to
 EMBL/GenBank feature table tags. Examples of annotation types include
 "exon", "intron", "CDS" and "splice3."(We encourage the use of the
-<a href="http://www.sequenceontology.org/">Sequence Ontology</a> IDs to
-give uniformity to DAS sources for example CDS is SO:0000316). The
-annotation <b>method</b> is intended to describe how the annotated
-feature was discovered, and may include a reference to a software
-program (we also encourage the use of ECO numbers to represent the
-method of annotation e.g.ECO:0000032 "inferred from curated blast match
-to nucleic acid). The annotation
+<http://www.sequenceontology.org/> Sequence Ontology IDs to give
+uniformity to DAS sources for example CDS is SO:0000316). The annotation
+<b>method</b> is intended to describe how the annotated feature was
+discovered, and may include a reference to a software program (we also
+encourage the use of ECO numbers to represent the method of annotation
+e.g.ECO:0000032 "inferred from curated blast match to nucleic acid). The
+annotation
 
 <a href="http://www.ebi.ac.uk/ontology-lookup/">
 

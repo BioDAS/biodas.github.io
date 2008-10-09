@@ -335,7 +335,7 @@ a reference sequence.
 
 ### Retrieve the List of Data Sources
 
-<font color="red">DSN command has been deprecated in favour of the
+<font color="red">DSN command has been deprecated in favour of this
 sources cmd</font>
 
 **Scope:** Reference and annotation servers.

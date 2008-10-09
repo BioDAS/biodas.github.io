@@ -287,7 +287,7 @@ A data source that uses the colon character for its internal IDs must map this c
 This section lists the queries recognized by reference and annotation servers. Each of these queries begins with some site-specific prefix, denoted here as ''PREFIX''. The other meta-variable used in these examples is ''DSN'', which is a symbolic data source. (As seen the the [#request  above example.]) Data sources are standardized across DAS servers in such a way that a data source name has a one-to-one correspondence with a reference sequence.
 
 ===Retrieve the List of Data Sources===
-<font color="red">DSN command has been deprecated in favour of the sources cmd</font>
+<font color="red">DSN command has been deprecated in favour of this sources cmd</font>
 
 '''Scope:''' Reference and annotation servers.
 

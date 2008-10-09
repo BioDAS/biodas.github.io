@@ -86,8 +86,6 @@ difference is that the reference sequence server is required to serve
 the sequence map and the raw DNA, while annotation servers have no 
 such requirement <font color="red">how to generalise this? reference servers produce structures instead of sequence</font>.
 
-<p>
-
 ====The DAS Registry====
 central DAS registry which implements this protocol and fulfils the following roles:
 

@@ -712,7 +712,7 @@ Instead, use the features request with a category of "component". See
 
 ------------------------------------------------------------------------
 
-### <font color="red">Retrieve the DNA Associated with a Subsequence has been deprecated as the sequence cmd below is more commonly used.</font>Retrieve the DNA Associated with a Subsequence
+### <font color="red">Retrieve the DNA Associated with a Subsequence has been deprecated as the sequence cmd below is more commonly used.</font>
 
 ------------------------------------------------------------------------
 

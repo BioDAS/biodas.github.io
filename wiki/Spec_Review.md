@@ -333,7 +333,7 @@ above example.\]) Data sources are standardized across DAS servers in
 such a way that a data source name has a one-to-one correspondence with
 a reference sequence.
 
-### Retrieve the List of Data Sources
+### Retrieve the List of Data Sources (sources cmd)
 
 <font color="red">DSN command has been deprecated in favour of this
 sources cmd</font>

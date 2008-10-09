@@ -2,7 +2,6 @@
 System (DAS) Spec Review</font></h1>
 <h3 align=CENTER>Version 2.53</h3>
 
-<h4 align=CENTER>Warren J, Jenkinson A, Prlc A, Hubbard T, Lincoln D. Stein, Sean Eddy, Robin Dowell</h4>
 <h5 align=CENTER>Oct 1,2008</h5>
 
 <p> This is a proposal for a reworked DAS specification which hopes to clarify the DAS spec based on how DAS is being used in the community today and to include commands from the <a href="http://www.dasregistry.org/spec_1.53E.jsp">1.53E spec</a> and some of the 2.0 spec.
@@ -12,21 +11,6 @@ System (DAS) Spec Review</font></h1>
 
 Proposed modifications to the spec are
 indicated in brown.
-
-</p>
-<h2>Contents</h2>
-<h2><a href="#description">Overview of the System</a></h2>
-<h3><a href="#components">Reference server, Annotation Servers and DAS Registry</a><br/></h3>
-<h4><a href="#referenceServer">Reference Server</a></h4>
-<h4><a href="#annotationServer">Annotation Server</a></h4>
-<h4><a href="#dasRegistry">The DAS Registry</a></h4>
-<h2><a href="#queries">Queries/Commands available</a></h2>
-<h3><a href="#sources">Sources</a></h3>
-<h3><a href="#entry">Entry_Points</a></h3>
-<h3><a href="#sequence">Retrieve the Sequence Associated with a Subsequence</a></h3>
-<h3><a href="#types">Retrieve the Types Available for a Segment</a></h3>
-<h3><a href="#features">Retrieve the Annotations Across a Segment</a></h3>
-<h3><a href="#retrieving_stylesheet">Retrieving the Style Sheet</a></h3>
 
 
 <h2><a name="description">Overview of the System</a></h2>

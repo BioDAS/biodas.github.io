@@ -13,11 +13,6 @@ Review</font>
 Version 2.53
 
 </h3>
-<h4 align=CENTER>
-Warren J, Jenkinson A, Prlc A, Hubbard T, Lincoln D. Stein, Sean Eddy,
-Robin Dowell
-
-</h4>
 <h5 align=CENTER>
 Oct 1,2008
 
@@ -33,60 +28,6 @@ some of the 2.0 spec.
 
 Proposed modifications to the spec are indicated in brown.
 
-<h2>
-Contents
-
-</h2>
-<h2>
-<a href="#description">Overview of the System</a>
-
-</h2>
-<h3>
-<a href="#components">Reference server, Annotation Servers and DAS
-Registry</a>  
-
-</h3>
-<h4>
-<a href="#referenceServer">Reference Server</a>
-
-</h4>
-<h4>
-<a href="#annotationServer">Annotation Server</a>
-
-</h4>
-<h4>
-<a href="#dasRegistry">The DAS Registry</a>
-
-</h4>
-<h2>
-<a href="#queries">Queries/Commands available</a>
-
-</h2>
-<h3>
-<a href="#sources">Sources</a>
-
-</h3>
-<h3>
-<a href="#entry">Entry\_Points</a>
-
-</h3>
-<h3>
-<a href="#sequence">Retrieve the Sequence Associated with a
-Subsequence</a>
-
-</h3>
-<h3>
-<a href="#types">Retrieve the Types Available for a Segment</a>
-
-</h3>
-<h3>
-<a href="#features">Retrieve the Annotations Across a Segment</a>
-
-</h3>
-<h3>
-<a href="#retrieving_stylesheet">Retrieving the Style Sheet</a>
-
-</h3>
 <h2>
 <a name="description">Overview of the System</a>
 

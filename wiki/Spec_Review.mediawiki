@@ -608,7 +608,7 @@ The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
 &lt;DASSEQUENCE&gt;
 
   &lt;SEQUENCE id="<i>id</i>" start="<i>start</i>" stop="<i>stop</i>"
-               moltype="<i>moltype</i>" version="X.XX"&gt;
+               <font color="red">moltype="<i>moltype</i>"</font> version="X.XX"&gt;
       atttcttggcgtaaataagagtctcaatgagactctcagaagaaaattgataaatattat
       taatgatataataataatcttgttgatccgttctatctccagacgattttcctagtctcc
       agtcgattttgcgctgaaaatgggatatttaatggaattgtttttgtttttattaataaa

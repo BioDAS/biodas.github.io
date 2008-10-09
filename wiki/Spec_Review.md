@@ -827,7 +827,11 @@ the
 </table>
 ### Retrieve the Types Available for a Segment (types cmd)
 
-**Scope:** Annotation and reference servers.
+<font color="red"> how do we reconcile the way UCSC and ensembl uses the
+type command i.e. UCSC use it as a filter for tracks from one source,
+whereas ensembl only has one track per source!!! Can't deprecate this
+command as is used by UCSC???</font> **Scope:** Annotation and reference
+servers.
 
 **Command:** *types*
 

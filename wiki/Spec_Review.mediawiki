@@ -599,13 +599,11 @@ subsequence:
         segment=BUM;segment=HUM_HGA;segment=CE_HOC2:1,200
 </pre>
 
-====The Sequence Response</a>====
+====The Sequence Response====
 
-<p>
 
 The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
 
-<p>
 
 <b>Format:</b>
 <blockquote>
@@ -637,7 +635,6 @@ The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
 &lt;/DASDNA&gt;
 
 </pre></blockquote>
-<p>
 
 <dl>
   <dt>&lt;!DOCTYPE&gt; (required; one only)

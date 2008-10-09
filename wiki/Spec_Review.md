@@ -752,7 +752,7 @@ subsequence:
         http://www.wormbase.org/db/das/elegans/sequence?
             segment=BUM;segment=HUM_HGA;segment=CE_HOC2:1,200
 
-#### The Sequence Response</a>
+#### The Sequence Response
 
 The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
 

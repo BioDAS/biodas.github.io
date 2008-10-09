@@ -156,11 +156,10 @@ activate or highlight DAS sources in clients.
 The distributed annotation system (DAS) relies on there being a common
 "co-ordinate system" on which to base annotations. The co-ordinate
 system consists of a set of "entry points", and the lengths of each
-entry point <font color="red">but not all in the case of
-alignments??</font>. The identity of an entry point will vary from
-co-ordinate system to co-ordinate system. For some projects, entry
-points correspond to entire chromosomes. For others, entry points may be
-a series of contigs or proteins or structures.
+entry point. The identity of an entry point will vary from co-ordinate
+system to co-ordinate system. For some projects, entry points correspond
+to entire chromosomes. For others, entry points may be a series of
+contigs, proteins or structures.
 
 The entry points describe the top level items on the co-ordinate system.
 <font color="red">remove this section on subsequence?</font>It is

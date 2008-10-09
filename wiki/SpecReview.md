@@ -4,11 +4,9 @@ permalink: wiki/SpecReview/
 layout: wiki
 ---
 
-<h1 align=CENTER>
-<font color="red">Distributed Sequence Annotation System (DAS) Spec
-Review</font>
+Distributed Sequence Annotation System (DAS) Spec Review
+========================================================
 
-</h1>
 <h3 align=CENTER>
 Version 2.53
 

@@ -993,7 +993,7 @@ method of annotation e.g.ECO:0000032 "inferred from curated blast match
 to nucleic acid).
 
 **categorize** (optional)  
-&lt;font color="what to do with this?</font> Either "yes" or
+<font color="red">what to do with this?</font> Either "yes" or
 "no" (default). If "yes", then each annotation must include its
 functional category.
 
@@ -1010,13 +1010,15 @@ in multiple locations.
 The **group\_id** argument, is similar to **feature\_id**, but retrieves
 segments that contain the indicated feature group.
 
-Annotation servers are only required to return annotations which are
-completely contained within the indicated segment. Servers **may** also
-return annotations which overlap the segment, but are not completely
-contained within them. Annotations **must** be returned using the
-coordinate system in which they were requested. For example, if a contig
-ID was used to specify the segment, then the annotation endpoints must
-use contig coordinates.
+<font color="red">Servers should return annotations which overlap the
+segment, but are not completely contained within them. Annotations
+**must** be returned using the coordinate system in which they were
+requested.Annotation servers are no longer allowed to only return
+annotations which are completely contained within the indicated segment.
+Annotations **must** be returned using the coordinate system in which
+they were requested. For example, if a contig ID was used to specify the
+segment, then the annotation endpoints must use contig
+coordinates.</font>
 
 If multiple segment arguments are provided and they happen to overlap,
 then the annotation server may return the same annotation multiple

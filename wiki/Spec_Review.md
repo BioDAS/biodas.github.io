@@ -78,9 +78,10 @@ EMBL/GenBank feature table tags. Examples of annotation types include
 "exon", "intron", "CDS" and "splice3."(We encourage the use of the
 <http://www.sequenceontology.org/> Sequence Ontology IDs to give
 uniformity to DAS sources for example CDS is SO:0000316). The annotation
-&lt;font color="red&gt; what are we doing with method??<b>method</b> is
-intended to describe how the annotated feature was discovered, and may
-include a reference to a software program </font>.
+method (<font color="red">what are we doing with annotion method if
+catagory is handling this??</font><b>method</b> is intended to describe
+how the annotated feature was discovered, and may include a reference to
+a software program </font>.
 
 To look up ontologies you could go here:
 "<http://www.ebi.ac.uk/ontology-lookup/>"

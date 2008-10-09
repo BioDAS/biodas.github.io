@@ -1146,26 +1146,26 @@ identify the feature. The **id** (optional) tag can be used to retrieve
 further information from the annotation server. The tag
 contents (optional) is a human readable label.
 
-<START>, <END> (required; one apiece per FEATURE)  
+<START>, <END> (<font color="red"> optional</font>; one apiece per FEATURE)  
 These tags indicate the start and end of the feature in the coordinate
 system of the reference sequence given in the <SEGMENT> tag. The
 relationship between the feature start and stop positions and the
 segment start and stop is that the two spans are guaranteed to overlap.
 
-<SCORE> (required; one per FEATURE)  
+<SCORE> (<font color="red"> optional</font>; one per FEATURE)  
 This is a floating point number indicating the "score" of the method
 used to find the current feature. The number can only be understood in
 the context of information retrieved from the server by linking to
 the method. If this field is inapplicable, the contents of the tag can
 be replaced with a **-** symbol.
 
-<ORIENTATION> (required; one per FEATURE)  
+<ORIENTATION> (<font color="red"> optional</font>; one per FEATURE)  
 This tag indicates the orientation of the feature relative to the
 direction of transcription. It may be for features that are unrelated to
 transcription, **+**, for features that are on the sense strand, and
 **-**, for features on the antisense strand.
 
-<PHASE> (required; one per FEATURE)  
+<PHASE> (<font color="red"> optional</font>; one per FEATURE)  
 This tag indicates the position of the feature relative to open reading
 frame, if any. It may be one of the integers , **1** or **2**,
 corresponding to each of the three reading frames, or **-** if the

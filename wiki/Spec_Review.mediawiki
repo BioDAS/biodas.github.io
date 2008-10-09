@@ -217,10 +217,10 @@ The X-Das-Capabilities header provides an extensible list of the capabilities th
 | Description
 |-
 ! align="LEFT" | dsn/1.0
-| The server supports the basic ''dsn'' request.
+| <font color="red">Deprecate these: The server supports the basic ''dsn'' request.
 |-
 ! align="LEFT" | dna/1.0
-| The server supports the basic ''dna'' request.
+| The server supports the basic ''dna'' request.</font>
 |-
 ! align="LEFT" | types/1.0
 | The server supports the basic ''types'' request.

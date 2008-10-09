@@ -81,10 +81,9 @@ uniformity to DAS sources for example CDS is SO:0000316). The annotation
 <b>method</b> is intended to describe how the annotated feature was
 discovered, and may include a reference to a software program (we also
 encourage the use of ECO numbers to represent the method of annotation
-e.g.ECO:0000032 "inferred from curated blast match to nucleic acid). The
-annotation
-
-<a href="http://www.ebi.ac.uk/ontology-lookup/">
+e.g.ECO:0000032 "inferred from curated blast match to nucleic acid). To
+look up ontologies you could go here:
+"<http://www.ebi.ac.uk/ontology-lookup/>"
 
 <b>category</b> is a broad functional category that can be used to
 filter, group and sort annotations. "Homology", "variation" and

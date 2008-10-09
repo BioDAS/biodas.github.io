@@ -78,11 +78,11 @@ EMBL/GenBank feature table tags. Examples of annotation types include
 "exon", "intron", "CDS" and "splice3."(We encourage the use of the
 <http://www.sequenceontology.org/> Sequence Ontology IDs to give
 uniformity to DAS sources for example CDS is SO:0000316). The annotation
-<b>method</b> is intended to describe how the annotated feature was
-discovered, and may include a reference to a software program (we also
-encourage the use of ECO numbers to represent the method of annotation
-e.g.ECO:0000032 "inferred from curated blast match to nucleic acid). To
-look up ontologies you could go here:
+&lt;font color="red&gt; what are we doing with method??<b>method</b> is
+intended to describe how the annotated feature was discovered, and may
+include a reference to a software program </font>.
+
+To look up ontologies you could go here:
 "<http://www.ebi.ac.uk/ontology-lookup/>"
 
 <b>category</b> is a broad functional category that can be used to
@@ -90,9 +90,13 @@ filter, group and sort annotations. "Homology", "variation" and
 "transcribed" are all valid categories. The existence of these
 categories allows researchers to add new annotation types if the
 existing list is inadequate without entirely losing all semantic value.
-The <a href="#categories">Annotation Categories</a> section contains a
-list of the annotation types in use in the <cite>C. elegans</cite>
-project.
+(we also encourage the use of ECO numbers to represent the method of
+annotation e.g.ECO:0000032 "inferred from curated blast match to nucleic
+acid).
+
+#### Example
+
+<TYPE id="SO:0000417" category="inferred from reviewed computational analysis (ECO:0000053)">polypeptide\_domain</TYPE>
 
 It is intended that larger annotation servers provide pointers to
 human-readable data that describes its types, methods and categories in

@@ -113,7 +113,7 @@ The distributed annotation system (DAS) relies on there being a common
 the lengths of each entry point <font color="red">but not all in the case of alignments??</font>.  The identity of an entry point will
 vary from co-ordinate system to co-ordinate system.  For some projects, entry points
 correspond to entire chromosomes.  For others, entry points may be a
-series of contigs or proteins.
+series of contigs or proteins or structures.
 
 <p>
 

@@ -373,9 +373,11 @@ a DAS server is important:
 
     PREFIX/das[1]/sources
 
-The PREFIX can be either <b>das</b> or <b>das1</b> in order to refer to
-the major version 1 of the DAS protocol and in order to provide support
-for the future das2 protocol.  
+<font color="red">Should simplify this as in the future there should
+only be DAS not DAS1 and DAS2!!!</font> The PREFIX can be either
+<b>das</b> or <b>das1</b> in order to refer to the major version 1 of
+the DAS protocol and in order to provide support for the future das2
+protocol.  
   
 <b>Description:</b> This query returns the meta information for a DAS
 server  

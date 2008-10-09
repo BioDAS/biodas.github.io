@@ -31,7 +31,6 @@ the server and a structured description that describes its nature and
 attributes.  Annotations may also be associated with Web URLs that
 provide additional human readable information about the annotation.
 
-<p>
 
 Annotations have <i>types</i>, <i>methods</i> and <i>categories</i>.
 The annotation <b>type</b> is selected from a list of types that have
@@ -56,7 +55,6 @@ value.  The <a href="#categories">Annotation Categories</a> section
 contains a list of the annotation types in use in the
 <cite>C. elegans</cite> project.
 
-<p>
 
 It is intended that larger annotation servers provide pointers to
 human-readable data that describes its types, methods and categories
@@ -64,7 +62,6 @@ in more detail.  Another optional feature of annotation servers is the
 ability to provide hints to clients on how the annotations should be
 rendered visually.  This is done by returning a XML "stylesheet".
 
-<p>
 
 The reference server is an annotation server that provides
 the following additional services:

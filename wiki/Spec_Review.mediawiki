@@ -1277,7 +1277,7 @@ To retrieve this information, the client requests the category '''supercomponent
  </SEGMENT>
 
 To continue following the parents upward in the assembly, the client will issue further features requests for the target IDs, in this case "contig21" and "contig100". In the general case, following parents will project the requested segment onto a discontinuous set of regions, potentially on different chromosomes. The client may wish to alert the user and refuse to proceed further when it encounters a segment with multiple parents.
-
+</font>
 ----
 
 ==Feature Types and Categories==

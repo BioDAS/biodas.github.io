@@ -1730,7 +1730,7 @@ will issue further features requests for the target IDs, in this case
 project the requested segment onto a discontinuous set of regions,
 potentially on different chromosomes. The client may wish to alert the
 user and refuse to proceed further when it encounters a segment with
-multiple parents.
+multiple parents. </font>
 
 ------------------------------------------------------------------------
 

@@ -561,7 +561,7 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 
 
 ----
-===Retrieve the Sequence Associated with a Subsequence===
+===Retrieve the Sequence Associated with a Subsequence (sequence cmd)===
 <b>Scope:</b> Reference servers.
 
 <b>Command:</b> <i>sequence</i>

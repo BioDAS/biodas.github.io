@@ -716,7 +716,7 @@ Instead, use the features request with a category of "component". See
 
 ------------------------------------------------------------------------
 
-### Retrieve the Sequence Associated with a Subsequence
+### Retrieve the Sequence Associated with a Subsequence (sequence cmd)
 
 <b>Scope:</b> Reference servers.
 

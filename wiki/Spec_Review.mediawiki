@@ -492,7 +492,7 @@ to automatically update the registration for these DAS servers.</li>
 
 ----
 
-===Retrieve the List of Entry Points for a Data Source===
+===Retrieve the List of Entry Points for a Data Source (entry_points cmd)===
 <font color="red">This Entry_Points cmd is now mandatory for reference servers.</font>
 '''Scope:''' Reference servers.
 

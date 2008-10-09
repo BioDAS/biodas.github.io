@@ -612,7 +612,7 @@ server
 
 ------------------------------------------------------------------------
 
-### Retrieve the List of Entry Points for a Data Source
+### Retrieve the List of Entry Points for a Data Source (entry\_points cmd)
 
 <font color="red">This Entry\_Points cmd is now mandatory for reference
 servers.</font> **Scope:** Reference servers.

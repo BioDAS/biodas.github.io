@@ -161,7 +161,8 @@ system to co-ordinate system. For some projects, entry points correspond
 to entire chromosomes. For others, entry points may be a series of
 contigs, proteins or structures. <font color="red"> Consensus at the
 moment is that each coordinate system should specify an exact version
-e.g. a specific assembly or release.</font>
+e.g. a specific assembly or release and not a general human coordinate
+system and sub versions of it.</font>
 
 The entry points describe the top level items on the co-ordinate system.
 <font color="red">remove this section on subsequence?It is possible for

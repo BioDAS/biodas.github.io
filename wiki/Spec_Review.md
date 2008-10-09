@@ -807,7 +807,7 @@ the
 
 `   attributes `<b>`id`</b>`, which indicates the reference ID for this sequence,`  
 `     `<b>`start`</b>` and `<b>`stop`</b>`, which indicate the position of`  
-`     this segment within the reference sequence, `<b>`moltype`</b>`,`  
+`     this segment within the reference sequence, `<font color="red">`Deprecate this as not consistent with registry and coordinate system?`<b>`moltype`</b>`,`  
 `     which indicates the molecular type of the sequence, and `<b>`version`</b>`,`  
 `     which provides the sequence map version number.  All five`  
 `     attributes are required.`  
@@ -820,6 +820,8 @@ the
 
 `     The content of this tag is the sequence itself, using standard`  
 `     IUPAC codes for DNA, RNA and protein.`
+
+</font>
 
 </dl>
 </td>

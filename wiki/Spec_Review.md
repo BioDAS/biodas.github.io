@@ -1242,22 +1242,13 @@ section, and clients must recognize and accomodate this.
 
 <DASGFF>
 
-` `<GFF version="1.01" href="http://das.sanger.ac.uk:80/das/pfam/features">
-
-<SEGMENT id="P08487" version="d1dfb367c112d4820eeffe4eab1d6487" start="1" stop="1291"><FEATURE id="C2" label="C2:1090-1177"><TYPE id="SO:0000417" category="inferred from reviewed computational analysis (ECO:0000053)">polypeptide\_domain</TYPE><START>1090</START><END>1177</END><METHOD id="Pfam">Pfam-A</METHOD><SCORE>1.7e-18</SCORE>
+` `<GFF version="1.01" href="http://das.sanger.ac.uk:80/das/pfam/features"><SEGMENT id="P08487" version="d1dfb367c112d4820eeffe4eab1d6487" start="1" stop="1291"><FEATURE id="C2" label="C2:1090-1177"><TYPE id="SO:0000417" category="inferred from reviewed computational analysis (ECO:0000053)">`polypeptide_domain`</TYPE><START>`1090`</START><END>`1177`</END><METHOD id="Pfam">`Pfam-A`</METHOD><SCORE>`1.7e-18`</SCORE>
 
 <NOTE>
 HMMER Version: 2.3.2
 
 </NOTE>
-<LINK href="http://pfam.sanger.ac.uk/family?entry=PF00168">C2</LINK></FEATURE><FEATURE id="PI-PLC-X" label="PI-PLC-X:322-465"><TYPE id="SO:0100021" category="inferred from reviewed computational analysis (ECO:0000053)">polypeptide\_conserved\_region</TYPE><START>322</START><END>465</END><METHOD id="Pfam">Pfam-A</METHOD><SCORE>7.2e-93</SCORE>
-
-<NOTE>
-HMMER Version: 2.3.2
-
-</NOTE>
-<LINK href="http://pfam.sanger.ac.uk/family?entry=PF00388">PI-PLC-X</LINK></FEATURE></SEGMENT>
-</GFF>
+<LINK href="http://pfam.sanger.ac.uk/family?entry=PF00168">C2</LINK></FEATURE></SEGMENT></GFF>
 
 </DASGFF>
 

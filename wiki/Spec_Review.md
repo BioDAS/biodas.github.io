@@ -656,7 +656,7 @@ document:
 <!DOCTYPE DASEP SYSTEM "http://www.biodas.org/dtd/dasep.dtd">
 <DASEP>  
 `  `<ENTRY_POINTS href="''url''" version="''X.XX''">  
-`    `<SEGMENT id="''id1''" start="''start1''" stop="''stop1''" type="type" orientation="+">`descriptive text`</SEGMENT>  
+`    <SEGMENT id="`*`id1`*`" start="`*`start1`*`" stop="`*`stop1`*`"`<font color="red">` type="type" is now deprecated due to the registry should specify the type in this coordinate system `</font>` orientation="+">descriptive text`</SEGMENT>  
   
 `    `<SEGMENT id="''id2''" start="''start2''" stop="''stop2''" type="type" orientation="+">`descriptive text`</SEGMENT>  
 `    `<SEGMENT id="''id3''" start="''start3''" stop="''stop3''" type="type" orientation="+">`descriptive text`</SEGMENT>  
@@ -696,7 +696,7 @@ segment is not intrinsically ordered)<font color="red">The orientation
 is now optional.</font>. If the optional **subparts** attribute is
 present and has the value "yes", it indicates that the segment has
 subparts.<font color="red">The subparts section is now
-deprecated?</font><font color="red">The type section is now deprecated
+deprecated?</font><font color="red"> The type section is now deprecated
 as this should be specified by the registry</font>.For compatibility
 with older versions of the specification, the <SEGMENT> tag can use a
 **size** attribute rather than **start** and **stop**, and can omit the

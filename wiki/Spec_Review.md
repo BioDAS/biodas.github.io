@@ -189,9 +189,11 @@ request and return a response in the form of a formatted XML document
 All DAS requests take the form of a URL. Each URL has a site-specific
 prefix, followed by a standardized path and query string. The
 standardized path begins with the string **/das**. This is followed by
-URL components containing the data source name and a command. For
-example: <font color="red">How do we get everyone to specify say
-"chromosome1" in the exact same way not "chr1" etc.</font> <code>
+URL components containing the data source name and a
+command.<font color="red"> Should put some guidance or specify the
+ability for servers to accept encoded URLs</font> For example:
+<font color="red">How do we get everyone to specify say "chromosome1" in
+the exact same way not "chr1" etc.</font> <code>
 
 [`http://www.wormbase.org/db/das/elegans/features?segment=CHROMOSOME_I:1000,2000`](http://www.wormbase.org/db/das/elegans/features?segment=CHROMOSOME_I:1000,2000)  
 `^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^ ^^^^^^^ ^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^`  

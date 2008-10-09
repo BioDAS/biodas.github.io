@@ -988,11 +988,14 @@ by category. If multiple categories are provided, they are treated as
 the logical OR. For compatibility with versions 0.997 and earlier of
 this protocol, servers are allowed to treat the type ID as a regular
 expression, but this feature is **deprecated** and should not be
-relied on.
+relied on. (we also encourage the use of ECO numbers to represent the
+method of annotation e.g.ECO:0000032 "inferred from curated blast match
+to nucleic acid).
 
 **categorize** (optional)  
-Either "yes" or "no" (default). If "yes", then each annotation must
-include its functional category.
+&lt;font color="what to do with this?</font> Either "yes" or
+"no" (default). If "yes", then each annotation must include its
+functional category.
 
 **feature\_id**<font style="background-color: #DEB887"> (zero or more; new in 1.5)</font>  
 Instead of, or in addition to, **segment** arguments, you may provide

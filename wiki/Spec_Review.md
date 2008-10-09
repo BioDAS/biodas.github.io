@@ -128,8 +128,8 @@ A single server can provide both reference sequence information and
 annotation information. The main functional difference is that the
 reference sequence server is required to serve the sequence map and the
 raw DNA, while annotation servers have no such requirement
-<font color="red">how to generalise this? What does not serve sequence
-info?</font>.
+<font color="red">how to generalise this? reference servers produce
+structures instead of sequence</font>.
 
 #### The DAS Registry
 

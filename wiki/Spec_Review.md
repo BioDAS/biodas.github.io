@@ -1592,7 +1592,7 @@ hat-shaped line:
 
 ------------------------------------------------------------------------
 
-Fetching Sequence Assemblies<font color="red"> We are proposing to deprecate this as not many people use it????
+<font color="red">Fetching Sequence Assemblies We are proposing to deprecate this as not many people use it????
 ---------------------------------------------------------------------------------------------------------------
 
 Reference servers, but not annotation servers, must represent and serve

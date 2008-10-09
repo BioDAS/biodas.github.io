@@ -1,5 +1,5 @@
-=Distributed Sequence Annotation
-System (DAS) Spec Review=
+<h1>Distributed Sequence Annotation
+System (DAS) Spec Review</h1>
 <h3 align=CENTER>Version 2.53</h3>
 
 <h5 align=CENTER>Oct 1,2008</h5>

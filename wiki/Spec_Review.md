@@ -716,6 +716,119 @@ Instead, use the features request with a category of "component". See
 
 ------------------------------------------------------------------------
 
+### Retrieve the Sequence Associated with a Subsequence
+
+<b>Scope:</b> Reference servers.
+
+<b>Command:</b> <i>sequence</i>
+
+<b>Format:</b>
+
+>     <i>PREFIX</i>/das/<i>DSN</i>/sequence?segment=<i>RANGE</i>[;segment=<i>RANGE</i>...]
+
+<b>Description:</b> This query returns the sequence (nucleotide or
+protein) corresponding to the indicated segment.
+
+<b>Arguments:</b>
+
+<dl>
+<dt>
+<b>segment</b> (required; one or more)
+
+<dd>
+This is the sequence range. It uses the format format
+<i>reference:start,stop</i>, where
+
+`     `<i>`reference`</i>` is the ID of the reference sequence used to establish the coordinate`  
+`     system, and `<i>`start`</i>` and `<i>`stop`</i>` are the endpoints of the region to query, inclusive.`  
+`     If the start and stop positions are not provided, then the entire reference sequence is`  
+`     returned.`
+
+</dl>
+Here is an example of a valid request that uses the <b>segment</b>
+argument to fetch three independent segments. The last segment is a
+subsequence:
+
+        http://www.wormbase.org/db/das/elegans/sequence?
+            segment=BUM;segment=HUM_HGA;segment=CE_HOC2:1,200
+
+<h4>
+The Sequence Response</a>
+
+</h4>
+The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
+
+<b>Format:</b>
+
+>     &lt;?xml version="1.0" standalone="no"?&gt;
+>     &lt;!DOCTYPE DASSEQUENCE SYSTEM "http://www.biodas.org/dtd/dassequence.dtd"&gt;
+>     &lt;DASSEQUENCE&gt;
+>
+>       &lt;SEQUENCE id="<i>id</i>" start="<i>start</i>" stop="<i>stop</i>"
+>                    moltype="<i>moltype</i>" version="X.XX"&gt;
+>           atttcttggcgtaaataagagtctcaatgagactctcagaagaaaattgataaatattat
+>           taatgatataataataatcttgttgatccgttctatctccagacgattttcctagtctcc
+>           agtcgattttgcgctgaaaatgggatatttaatggaattgtttttgtttttattaataaa
+>           taggaataaatttacgaaaatcacaaaattttcaataaaaaacaccaaaaaaaagagaaa
+>           aaatgagaaaaatcgacgaaaatcggtataaaatcaaataaaaatagaaggaaaatattc
+>           agctcgtaaacccacacgtgcggcacggtttcgtgggcggggcgtctctgccgggaaaat
+>           tttgcgtttaaaaactcacatataggcatccaatggattttcggattttaaaaattaata
+>           taaaatcagggaaatttttttaaattttttcacatcgatattcggtatcaggggcaaaat
+>           tagagtcagaaacatatatttccccacaaactctactccccctttaaacaaagcaaagag
+>           cgatactcattgcctgtagcctctatattatgccttatgggaatgcatttgattgtttcc
+>           gcatattgtttacaaccatttatacaacatgtgacgtagacgcactgggcggttgtaaaa
+>           cctgacagaaagaattggtcccgtcatctactttctgattttttggaaaatatgtacaat
+>           gtcgtccagtattctattccttctcggcgatttggccaagttattcaaacacgtataaat
+>           aaaaatcaataaagctaggaaaatattttcagccatcacaaagtttcgtcagccttgtta
+>           tgtcaaccactttttatacaaattatataaccagaaatactattaaataagtatttgtat
+>           gaaacaatgaacactattataacattttcagaaaatgtagtatttaagcgaaggtagtgc
+>           acatcaaggccgtcaaacggaaaaatttttgcaagaatca
+>       &lt;/SEQUENCE&gt;
+>     &lt;/DASDNA&gt;
+
+<dl>
+<dt>
+&lt;!DOCTYPE&gt; (required; one only)
+
+<dd>
+The doctype indicates which formal DTD specification to use.
+
+`     For the sequence query, the doctype DTD is "`[`http://www.biodas.org/dtd/dassequence.dtd`](http://www.biodas.org/dtd/dassequence.dtd)`".`  
+`     `
+
+<dt>
+&lt;DASSEQUENCE&gt; (required; one only)
+
+<dd>
+The appropriate doctype and root tag is DASSEQUENCE.
+
+<dt>
+&lt;SEQUENCE&gt; (required; one or more)
+
+<dd>
+There is a single &lt;SEQUENCES&gt; tag per requested segment. It has
+the
+
+`   attributes `<b>`id`</b>`, which indicates the reference ID for this sequence,`  
+`     `<b>`start`</b>` and `<b>`stop`</b>`, which indicate the position of`  
+`     this segment within the reference sequence, `<b>`moltype`</b>`,`  
+`     which indicates the molecular type of the sequence, and `<b>`version`</b>`,`  
+`     which provides the sequence map version number.  All five`  
+`     attributes are required.`  
+`     `
+
+`     The molecule type is one of `<i>`DNA`</i>`, `<i>`ssRNA`</i>`,`  
+`     `<i>`dsRNA`</i>`, or `<i>`Protein`</i>`.  No provision is made for`  
+`     circular molecules.`  
+`     `
+
+`     The content of this tag is the sequence itself, using standard`  
+`     IUPAC codes for DNA, RNA and protein.`
+
+</dl>
+</td>
+</tr>
+</table>
 ### Retrieve the Types Available for a Segment
 
 **Scope:** Annotation and reference servers.

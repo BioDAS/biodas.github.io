@@ -1240,7 +1240,7 @@ section, and clients must recognize and accomodate this.
 
 ------------------------------------------------------------------------
 
-### Linking to a Feature
+### <font color="red">We are proposing to remove Linking to a Feature from the spec
 
 **Scope:** Annotation servers.
 
@@ -1274,7 +1274,7 @@ The field to fetch further information on. Options are:
 **id** (required)  
 The ID of the indicated annotation field.
 
-**Response:** A web page.
+**Response:** A web page. </font>
 
 ------------------------------------------------------------------------
 

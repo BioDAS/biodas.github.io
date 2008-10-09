@@ -871,7 +871,7 @@ The request for a named segment may fail because: (1) the reference sequence is 
 
 ----
 
-===Linking to a Feature===
+===<font color="red">We are proposing to remove Linking to a Feature from the spec===
 
 '''Scope:''' Annotation servers.
 
@@ -901,7 +901,7 @@ The request for a named segment may fail because: (1) the reference sequence is 
 : The ID of the indicated annotation field.
 
 '''Response:''' A web page.
-
+</font>
 ----
 
 ===Retrieving the Stylesheet===

@@ -493,7 +493,7 @@ to automatically update the registration for these DAS servers.</li>
 ----
 
 ===Retrieve the List of Entry Points for a Data Source===
-
+<font color="red">This Entry_Points cmd is now mandatory for reference servers.</font>
 '''Scope:''' Reference servers.
 
 '''Command:''' ''entry_points''
@@ -545,7 +545,7 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 : The doctype indicates which formal DTD specification to use. For the entry_points query, the doctype DTD is "http://www.biodas.org/dtd/dasep.dtd".
 ; <DASEP> (required, one only)
 : The appropriate doctype and root tag is DASEP.
-; <ENTRY_POINTS> (required, only one)
+; <ENTRY_POINTS> (<font color="red">The start and stop are now optional</font>, only one)
 : There is a single <ENTRY_POINTS> tag. It has a version number (required) in the form "N.NN". Whenever the DNA of the entry point changes, the version number should change as well. The '''href''' (required) attribute echoes the URL query that was used to fetch the current document.
 ; <SEGMENT> (optional; zero or more)
 : Each segment contains the attributes '''id''', '''start''', '''stop''' and '''orientation'''. The id is a unique identifier, which can be used as the reference ID in further requests to DAS. The start and stop indicate the start and stop positions of the segment. Orientation is one of "+" or "-" and indicates the strandedness of the segment (use "+" if the segment is not intrinsically ordered). If the optional '''subparts''' attribute is present and has the value "yes", it indicates that the segment has subparts.If the optional '''type''' attribute is present, it can be used to describe the type of the segment (for future compatibility with Sequence Ontology-based feature typing).For compatibility with older versions of the specification, the <SEGMENT> tag can use a '''size''' attribute rather than '''start''' and '''stop''', and can omit the '''orientation''' attribute: 

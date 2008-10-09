@@ -614,7 +614,8 @@ server
 
 ### Retrieve the List of Entry Points for a Data Source
 
-**Scope:** Reference servers.
+<font color="red">This Entry\_Points cmd is now mandatory for reference
+servers.</font> **Scope:** Reference servers.
 
 **Command:** *entry\_points*
 
@@ -679,7 +680,7 @@ entry\_points query, the doctype DTD is
 <DASEP> (required, one only)  
 The appropriate doctype and root tag is DASEP.
 
-<ENTRY_POINTS> (required, only one)  
+<ENTRY_POINTS> (<font color="red">The start and stop are now optional</font>, only one)  
 There is a single <ENTRY_POINTS> tag. It has a version number (required)
 in the form "N.NN". Whenever the DNA of the entry point changes, the
 version number should change as well. The **href** (required) attribute

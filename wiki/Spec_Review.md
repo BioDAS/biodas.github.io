@@ -108,21 +108,22 @@ more detail. Another optional feature of annotation servers is the
 ability to provide hints to clients on how the annotations should be
 rendered visually. This is done by returning a XML "stylesheet".
 
-The co-ordinate system server is an annotation server that provides the
-following additional services:
+The reference server is an annotation server that provides the following
+additional services:
 
-1.  Given a reference sequence id, it can return the raw DNA of
-    that sequence.
-2.  Given a reference sequence id, it can return annotations of the
+1.  Given a reference sequence id, it can return the raw sequence.
+2.  <font color="red">Deprecate this? Given a reference sequence id, it
+    can return annotations of the
     `     category "component".  Component annotations describe how the`  
     `     sequence is assembled from smaller parts into large parts from the`  
     `     top down.`  
     ` `
 
-3.  <font color="red">deprecate this?</font>Given a reference sequence
-    id, it can return annotations of the
+3.  Given a reference sequence id, it can return annotations of the
     `     category "supercomponent".  Component parent annotations`  
     `     describe the assembly of the sequence from the bottom up.`
+
+    </font>
 
 Although the servers are conceptually divided between reference servers
 and annotation servers, there is in fact no key difference between them.

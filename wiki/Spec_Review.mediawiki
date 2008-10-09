@@ -66,19 +66,19 @@ rendered visually.  This is done by returning a XML "stylesheet".
 
 <p>
 
-The co-ordinate system server is an annotation server that provides
+The reference server is an annotation server that provides
 the following additional services:
 
 <ol>
-  <li>Given a reference sequence id, it can return the raw DNA of that sequence.
-  <li>Given a reference sequence id, it can return annotations of the
+  <li>Given a reference sequence id, it can return the raw sequence.
+  <li><font color="red">Deprecate this? Given a reference sequence id, it can return annotations of the
       category "component".  Component annotations describe how the
       sequence is assembled from smaller parts into large parts from the
       top down.
-  <li><font color="red">deprecate this?</font>Given a reference sequence id, it can return annotations of the
+  <li>Given a reference sequence id, it can return annotations of the
       category "supercomponent".  Component parent annotations
       describe the assembly of the sequence from the bottom up.
-
+</font>
 </ol>
 
 <p>

@@ -281,8 +281,8 @@ DAS/1.5 protocol:
 
 | Capability Name     | Description                                                                                                                                 |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| dsn/1.0             | <font color="red">Deprecate these: The server supports the basic *dsn* request.                                                             |
-| dna/1.0             | The server supports the basic *dna* request.</font>                                                                                         |
+| dsn/1.0             | <font color="red">Deprecate these: The server supports the basic *dsn* request.</font>                                                      |
+| dna/1.0             | <font color="red">The server supports the basic *dna* request.</font>                                                                       |
 | types/1.0           | The server supports the basic *types* request.                                                                                              |
 | stylesheet/1.0      | The server supports the basic *stylesheet* request.                                                                                         |
 | features/1.0        | The server supports the basic *features* request.                                                                                           |

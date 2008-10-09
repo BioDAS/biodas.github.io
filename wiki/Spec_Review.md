@@ -787,10 +787,7 @@ The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
 &lt;!DOCTYPE&gt; (required; one only)
 
 <dd>
-The doctype indicates which formal DTD specification to use.
-
-`     For the sequence query, the doctype DTD is "`[`http://www.biodas.org/dtd/dassequence.dtd`](http://www.biodas.org/dtd/dassequence.dtd)`".`  
-`     `
+<font color="red">xsd instead of dtd</font>.
 
 <dt>
 &lt;DASSEQUENCE&gt; (required; one only)

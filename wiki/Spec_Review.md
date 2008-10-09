@@ -696,10 +696,9 @@ segment is not intrinsically ordered)<font color="red">The orientation
 is now optional.</font>. If the optional **subparts** attribute is
 present and has the value "yes", it indicates that the segment has
 subparts.<font color="red">The subparts section is now
-deprecated?</font>If the optional **type** attribute is present, it can
-be used to describe the type of the segment (for future compatibility
-with Sequence Ontology-based feature typing).For compatibility with
-older versions of the specification, the <SEGMENT> tag can use a
+deprecated?</font><font color="red">The type section is now deprecated
+as this should be specified by the registry</font>.For compatibility
+with older versions of the specification, the <SEGMENT> tag can use a
 **size** attribute rather than **start** and **stop**, and can omit the
 **orientation** attribute:
 

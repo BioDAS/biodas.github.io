@@ -30,7 +30,7 @@ Overview of the System
 
 This section provides a high-level view of the system architecture.
 
-### System Components (Reference Servers, Annotation Servers and the DAS Registry)
+### System Components
 
 The DAS system consists of the a reference server, one or more
 annotation servers and the das registry.

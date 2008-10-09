@@ -91,9 +91,9 @@ filter, group and sort annotations. "Homology", "variation" and
 "transcribed" are all valid categories. The existence of these
 categories allows researchers to add new annotation types if the
 existing list is inadequate without entirely losing all semantic value.
-(we also encourage the use of ECO numbers to represent the method of
-annotation e.g.ECO:0000032 "inferred from curated blast match to nucleic
-acid).
+<font color="red"> (we also encourage the use of ECO numbers to
+represent the method of annotation e.g.ECO:0000032 "inferred from
+curated blast match to nucleic acid).</font>
 
 #### Example
 

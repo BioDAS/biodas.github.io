@@ -108,15 +108,15 @@ The distributed annotation system (DAS) relies on there being a common
 the lengths of each entry point.  The identity of an entry point will
 vary from co-ordinate system to co-ordinate system.  For some projects, entry points
 correspond to entire chromosomes.  For others, entry points may be a
-series of contigs, proteins or structures.
+series of contigs, proteins or structures. <font color="red"> Consensus at the moment is that each coordinate system should specify an exact version e.g. a specific assembly or release.</font>
 
 The entry points describe the top level items on the co-ordinate system.  
-<font color="red">remove this section on subsequence?</font>It is possible for each entry point to have substructure, basically
+<font color="red">remove this section on subsequence?It is possible for each entry point to have substructure, basically
 a series of subsequences (components) and their start and end points.  This
 structure is recursive.  Each annotation is unambiguously located by providing 
 its position as the start and stop positions relative to a "reference object."  
 The reference object can be one of the entry points, or any of the 
-subsequences within the entry point.<br/>
+subsequences within the entry point.</font>
 
 ==Client/Server Interactions==
 

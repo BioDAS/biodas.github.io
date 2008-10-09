@@ -660,7 +660,6 @@ The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
 </table>
 
 ===Retrieve the Types Available for a Segment (types cmd)===
-
 '''Scope:''' Annotation and reference servers.
 
 '''Command:''' ''types''

@@ -73,23 +73,16 @@ human readable information about the annotation.
 
 Annotations have <i>types</i>, <i>methods</i> and <i>categories</i>. The
 annotation <b>type</b> is selected from a list of types that have
-biological significance <font color="red"> though these do not help the
-readability of xml returned so I can see why people are reluctant to
-adapt them</font>), <font color="red">delete this EMBL bit?</font> and
-correspond roughly to EMBL/GenBank feature table tags. Examples of
-annotation types include "exon", "intron", "CDS" and "splice3."(We
-encourage the use of the
-<a href="http://www.sequenceontology.org/">Sequence Ontology</a>
-<font color="blue">Tip: We recommend OboEdit for looking up ontologies
-for regular use and the ontologies it uses can be downloaded from
-<a href="http://www.berkeleybop.org/ontologies/#ontologies">here</a></font>
-
-`IDs to give uniformity to DAS sources for example CDS is SO:0000316 `<font color="red">` is there a better resource out there that you can go from id to name and desciption and visa versa??`</font>`).  The annotation `<b>`method`</b>` is`
-
-intended to describe how the annotated feature was discovered, and may
-include a reference to a software program (we also encourage the use of
-ECO numbers to represent the method of annotation e.g.ECO:0000032
-"inferred from curated blast match to nucleic acid). The annotation
+biological significance and previously correspond roughly to
+EMBL/GenBank feature table tags. Examples of annotation types include
+"exon", "intron", "CDS" and "splice3."(We encourage the use of the
+<a href="http://www.sequenceontology.org/">Sequence Ontology</a> IDs to
+give uniformity to DAS sources for example CDS is SO:0000316). The
+annotation <b>method</b> is intended to describe how the annotated
+feature was discovered, and may include a reference to a software
+program (we also encourage the use of ECO numbers to represent the
+method of annotation e.g.ECO:0000032 "inferred from curated blast match
+to nucleic acid). The annotation
 
 <a href="http://www.ebi.ac.uk/ontology-lookup/">
 

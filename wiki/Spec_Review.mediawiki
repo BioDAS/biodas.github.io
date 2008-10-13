@@ -262,7 +262,7 @@ This section lists the queries recognized by reference and annotation servers. E
 
 '''Scope:''' Reference and annotation servers.
 
-'''Command:''' ''Sources''
+'''Command:''' ''sources''
 
 '''Format:'''
 
@@ -282,39 +282,11 @@ In particular the following information for a DAS server is important:
 <li>Different properties that allow further description of a source</li>
 </ul>
 
-<b>Scope:</b> all DAS servers
+'''Arguments:''' none
 
-<br/>
+====Response:====
 
-<b>Command:</b> <i>sources</i>
-
-<br/>
-
-<b>Format:</b>
-<pre>
-
-PREFIX/das[1]/sources
-
-</pre>
-<font color="red">Should simplify this and have "das" as in the future there should only be DAS not DAS1 and DAS2.</font>
-<font color="blue">Agreed.</font>
-The PREFIX can be either <b>das</b> or <b>das1</b> in order to refer to the major version 1 of the DAS protocol
-and in order to provide support for the future das2 protocol.
-<br/>
-
-<br/>
-<b>Description:</b> This query returns the meta information for a DAS server
-<br/>
-<b>Arguments:</b>
-none
-<br/>
-
-<h4>Response:</h4>
-
-
-<br/>
-
-The response to the <i>sources</i> command is the "DASSSOURCE" XML-formatted document:
+The response to the ''sources'' command is the "DASSSOURCE" XML-formatted document:
 
 <blockquote>
 <pre>

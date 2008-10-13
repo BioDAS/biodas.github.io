@@ -346,7 +346,7 @@ sources cmd</font>
 
 **Scope:** Reference and annotation servers.
 
-**Command:** *Sources*
+**Command:** *sources*
 
 **Format:**
 
@@ -364,34 +364,12 @@ a DAS server is important:
 -   The coordinate system of the provided data
 -   Different properties that allow further description of a source
 
-<b>Scope:</b> all DAS servers
+**Arguments:** none
 
-  
-<b>Command:</b> <i>sources</i>
+#### Response:
 
-  
-<b>Format:</b>
-
-
-    PREFIX/das[1]/sources
-
-<font color="red">Should simplify this and have "das" as in the future
-there should only be DAS not DAS1 and DAS2.</font>
-<font color="blue">Agreed.</font> The PREFIX can be either <b>das</b> or
-<b>das1</b> in order to refer to the major version 1 of the DAS protocol
-and in order to provide support for the future das2 protocol.  
-  
-<b>Description:</b> This query returns the meta information for a DAS
-server  
-<b>Arguments:</b> none  
-
-<h4>
-Response:
-
-</h4>
-  
-The response to the <i>sources</i> command is the "DASSSOURCE"
-XML-formatted document:
+The response to the *sources* command is the "DASSSOURCE" XML-formatted
+document:
 
 >     &lt;?xml version='1.0' encoding='UTF-8' ?&gt;
 >     &lt;?xml-stylesheet type="text/xsl" href="das.xsl"?&gt;

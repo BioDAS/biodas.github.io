@@ -40,7 +40,7 @@ Of these, category and authority are required.
 
 Some example coordinate systems:
 
-{|
+{| border="border"
 |-
 ! Category
 ! Authority

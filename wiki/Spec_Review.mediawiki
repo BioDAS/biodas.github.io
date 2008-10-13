@@ -71,6 +71,10 @@ DAS distinguishes between two types of server, each providing different types of
 
 The distinction between reference and annotation servers is conceptual rather than physical. That is, a single server instance can in fact play both roles by offering offer both sequences and annotations of those sequences.
 
+'''Note:''' it is perfectly valid for a server to support multiple coordinate systems. Since some coordinate systems are subsets of other coordinate systems (such as the case in genomic assemblies), this can mean that annotation servers can potentially server the same annotations on several coordinate systems.
+
+<font color="blue">In my opinion, the registry coordinate systems XML (i.e. http://www.dasregistry.org/das/coordinatesystem) should be used to indicate coordinate systems that are subsets of each other which would avoid this problem - clients could then programmatically choose what to query with and what to avoid.</font>
+
 ====The DAS Registry====
 
 The DAS registry is a special component of DAS, fulfilling the following roles:

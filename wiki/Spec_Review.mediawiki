@@ -90,7 +90,7 @@ A DAS client typically integrates data from a number of DAS servers, making use 
 # Obtain sequence features from each of the annotation servers
 # Display the annotations in the context of the sequence
 
-<font color="red">This is best explained by diagram</font>
+<font color="blue">This is best explained by diagram</font>
 
 ==Client/Server Interactions==
 

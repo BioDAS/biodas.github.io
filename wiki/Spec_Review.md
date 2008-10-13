@@ -151,7 +151,7 @@ implement the following procedure for a particular sequence location:
 3.  Obtain sequence features from each of the annotation servers
 4.  Display the annotations in the context of the sequence
 
-<font color="red">This is best explained by diagram</font>
+<font color="blue">This is best explained by diagram</font>
 
 Client/Server Interactions
 --------------------------

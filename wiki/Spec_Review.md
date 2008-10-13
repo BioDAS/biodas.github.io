@@ -348,11 +348,9 @@ available from this server. In particular the following information for
 a DAS server is important:
 
 -   The email address of the maintainer of a DAS source
--   The <a href="help_coordsys.jsp">coordinate system</a>(namespace) of
-    the provided data
--   different properties that allow to describe a server closer
+-   The coordinate system of the provided data
+-   Different properties that allow further description of a source
 
-  
 <b>Scope:</b> all DAS servers
 
   

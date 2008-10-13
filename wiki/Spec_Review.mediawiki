@@ -273,11 +273,9 @@ In particular the following information for a DAS server is important:
 
 <ul>
 <li>The email address of the maintainer of a DAS source</li>
-<li>The <a href="help_coordsys.jsp">coordinate system</a>(namespace) of the provided data</li>
-<li>different properties that allow to describe a server closer</li>
+<li>The coordinate system of the provided data</li>
+<li>Different properties that allow further description of a source</li>
 </ul>
-</p>
-<br/>
 
 <b>Scope:</b> all DAS servers
 

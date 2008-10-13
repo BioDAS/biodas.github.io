@@ -611,12 +611,14 @@ server
 </div>
 <b>Example Responses</b>
 
--   \[<http://www.dasregistry.org/das/sources>"&gt;\] - the listing of
-    sources at the DAS registration server
--   [2](http://www.ensembl.org/das/sources) - the DAS sources provided
-    by Ensembl. The DAS registration server uses this listing to
-    automatically update the registration for these DAS servers.
--   [3](http://vega.sanger.ac.uk/das/sources) - the VEGA DAS sources
+-   [<http://www.dasregistry.org/das/sources>](http://www.dasregistry.org/das/sources) -
+    the listing of sources at the DAS registration server
+-   [<http://www.ensembl.org/das/sources>](http://www.ensembl.org/das/sources) -
+    the DAS sources provided by Ensembl. The DAS registration server
+    uses this listing to automatically update the registration for these
+    DAS servers.
+-   [<http://vega.sanger.ac.uk/das/sources>](http://vega.sanger.ac.uk/das/sources) -
+    the VEGA DAS sources
 
 ------------------------------------------------------------------------
 

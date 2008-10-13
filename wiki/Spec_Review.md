@@ -588,14 +588,12 @@ server
 </div>
 <b>Example Responses</b>
 
--   <a href="http://www.dasregistry.org/das1/sources"><http://www.dasregistry.org/das1/sources></a> -
-    the listing of DAS/1 sources at the DAS registration server
--   <a href="http://www.ensembl.org/das/sources"><http://www.ensembl.org/das/sources></a> -
-    the DAS sources provided by Ensembl. The DAS registration server
-    uses this listing to automatically update the registration for these
-    DAS servers.
--   <a href="http://vega.sanger.ac.uk/das/sources"><http://vega.sanger.ac.uk/das/sources></a> -
-    the VEGA DAS sources
+-   \[<http://www.dasregistry.org/das/sources>"&gt;\] - the listing of
+    sources at the DAS registration server
+-   [2](http://www.ensembl.org/das/sources) - the DAS sources provided
+    by Ensembl. The DAS registration server uses this listing to
+    automatically update the registration for these DAS servers.
+-   [3](http://vega.sanger.ac.uk/das/sources) - the VEGA DAS sources
 
 ------------------------------------------------------------------------
 

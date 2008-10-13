@@ -113,7 +113,7 @@ returning lists of annotations for the reference objects within a
 coordinate system. This is done by implementing the DAS *features*
 command.
 
-<font color="red">In future versions of the spec (i.e. those not
+<font color="blue">In future versions of the spec (i.e. those not
 focussed entirely on sequence) this will be generalised. That is,
 reference objects won't be assumed to be sequences and annotations won't
 be assumed to be sequence features.</font>

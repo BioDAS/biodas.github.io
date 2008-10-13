@@ -172,24 +172,30 @@ URL components containing the data source name and a
 command.<font color="red"> Should put some guidance or specify the
 ability for servers to accept encoded URLs</font> For example:
 <font color="red">How do we get everyone to specify say "chromosome1" in
-the exact same way not "chr1" etc.</font> <code>
+the exact same way not "chr1" etc. </font><font color="blue">By
+coordinate system and entry\_points I guess. Reference server MUST
+implement entry\_points, regardless of number of objects (don't expect
+it to come back quickly). We can always add a "range" parameter
+later</font> <code>
 
-[`http://www.wormbase.org/db/das/elegans/features?segment=CHROMOSOME_I:1000,2000`](http://www.wormbase.org/db/das/elegans/features?segment=CHROMOSOME_I:1000,2000)  
-`^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^ ^^^^^^^ ^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^`  
-`   site-specific prefix    das  data   command  arguments`  
-`                                 src `
+[`http://das.sanger.ac.uk/das/ccds_mouse/features?segment=1:174405453,174408689`](http://das.sanger.ac.uk/das/ccds_mouse/features?segment=1:174405453,174408689)  
+`^^^^^^^^^^^^^^^^^^^^^^^ ^^^ ^^^^^^^^^^ ^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^`  
+`  site-specific prefix  `<font color="red">`das`</font>`  `<font color="blue">`data src`</font>`  `<font color="green">`command`</font>`   `<font color="orange">`arguments`</font>
 
 </code>
 
-In this case, the site-specific prefix is
-**<http://www.wormbase.org/db>**. The request begins with the
-standardized path **/das**, and the data source, in this case
-**/elegans**. This is followed by the command **/features**, which
-requests a list of features, and a query string providing named
-arguments to the **/features** command.
+In this case, the site-specific prefix is **<http://das.sanger.ac.uk>**.
+The request begins with the standardized path **/das**, and the data
+source, in this case **/ccds\_mouse**. This is followed by the command
+**/features**, which requests a list of features, and a query string
+providing named arguments to the **/features** command.
 
-The data source component allows a single server to provide information
-on several genomes.
+Thus, a single DAS server hosts one or more DAS *sources*, allowing it
+to provide different types of information, and/or information in several
+coordinate systems. This example source provides consensus CDS
+transcripts for mouse chromosomes, but the same server provides a number
+of other sources, including a similar source for human along with
+sources containing very different types of data.
 
 More information on the format of the request and the various available
 commands is given \[\#commands below\].
@@ -200,8 +206,9 @@ queries can be quite large, this is the recommended way of argument
 passing.
 
 **<font color="red">SOAP has not been widely adopted for das so should
-we delete this?</font>** The request may be replaced with a SOAP-style
-XML-encapsulated document in future versions of this specification.
+we delete this?</font><font color="blue">Yep!</font>** The request may
+be replaced with a SOAP-style XML-encapsulated document in future
+versions of this specification.
 
 ### The Response
 

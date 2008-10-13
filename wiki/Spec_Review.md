@@ -15,164 +15,143 @@ Distributed Sequence Annotation System (DAS) Spec Review
 This is a working document and a proposal for a reworked DAS
 specification which hopes to clarify the DAS spec based on how DAS is
 being used in the community today and to include commands from the
-<a href="http://www.dasregistry.org/spec_1.53E.jsp">1.53E spec</a> and
-some of the 2.0 spec. Also the document has been adjusted to reflect
-changes in the use of DAS away from a solely genome centric protocol to
-a more open one encompassing other reference/coordinate systems such as
-alignments and protein structures. The spec also includes references to
-the DAS Registry which is essential for implementing an SOA
-architecture. Note: this is a technical document but should be readable
-and understandable by people without a deep understanding of broader
-technical issues and other system architectures. <font color="red">Note
-that we are proposing to change dtd for xsd</font>
+[1.53E spec](http://www.dasregistry.org/spec_1.53E.jsp) and some of the
+2.0 spec. Also the document has been adjusted to reflect changes in the
+use of DAS away from a solely genome centric protocol to a more open one
+encompassing other reference/coordinate systems such as protein
+sequences and structures. The spec also includes references to the DAS
+Registry which is essential for implementing an SOA architecture. Note:
+this is a technical document but should be readable and understandable
+by people without a deep understanding of broader technical issues and
+other system architectures. <font color="red">Note that we are proposing
+to change dtd for xsd</font>
 
-Overview of the System
-----------------------
+System Architecture
+-------------------
 
-This section provides a high-level view of the system architecture.
+The Distributed Annotation System is a network of server and client
+software installations distributed across the web. The DAS protocol is a
+standard mechanism through which clients can communicate with servers in
+order to obtain various types of biological data. The protocol defines:
 
-### System Components
+-   the communication method
+-   the query model
+-   the data format
 
-The DAS system consists of the a reference server, one or more
-annotation servers and the das registry.
+By enforcing these constraints, DAS allows a client to integrate data
+from many diverse sources implementing the protocol at a scaleable
+development cost.
 
-#### The Reference Server
+The DAS network of servers comprises a *registry*, several *reference
+servers* and several *annotation servers*. Tying these together are the
+concepts of *reference objects* and *coordinate systems*.
 
-Central to the DAS system is the idea of reference objects that can be
-served from a reference server. These are biological data objects with
-stable identifiers which are targets for annotation. In the original DAS
-protocol, the reference objects are always biological sequences:
-chromosomes, scaffold sequences from genome assemblies or protein
-sequences. When a DAS client starts, its first action is to connect to
-an appropriate reference server and retrieve the reference sequence.
-Once a reference object has been loaded, the DAS client will contact one
-or more annotation servers to obtain the data provided for the reference
-objects. Typical annotations might include sets of predicted exons on a
-genome sequence, or matches to a protein domain model on a protein
-sequence. It is the client's responsibility to collect all relevant
-annotations and display them in a user-friendly manner.
+### Reference Objects
 
-A coordinate system describes the data that is made available by a DAS
-source/reference server. This information is important for the DAS
-clients, to deal with data correctly, as they often can accept data
-served in multiple coordinate systems. The coordinate systems are
-described by four fields: Authority, (assembly) Version, Type, and
-Organism. The assembly version is important for genome assemblies, but
-not really applicable for other datasets like UniProt sequences,
-therefore this field is optional.
+Reference objects are items of data with stable identifiers that are
+targets for annotation. At the most abstract level a reference object
+might be an annotatable concept or idea (e.g. a particular gene), but
+usually describes a biological unit within which annotations can be
+positioned. For example, "P15056" refers to a protein sequence upon
+which annotations can be based. Similarly, "chromosome 21" refers to a
+DNA sequence.
 
-#### Annotation Server
+Individual reference objects can in fact have several versions, and it
+is important to recognise that annotations based upon different versions
+of the same reference entity are not necessarily equivalent.
 
-Annotation servers are specialized for returning lists of annotations
-across a reference object served by the reference server. Each
-annotation can be anchored to the co-ordinate system map by way of a
-start and stop position relative to one of the reference
-objects.Annotations have an ID that is unique to the server and a
-structured description that describes its nature and attributes.
-Annotations may also be associated with Web URLs that provide additional
-human readable information about the annotation.
+### Annotations
 
-Annotations have <i>types</i>, <i>methods</i> and <i>categories</i>. The
-annotation <b>type</b> is selected from a list of types that have
-biological significance and previously correspond roughly to
-EMBL/GenBank feature table tags. Examples of annotation types include
-"exon", "intron", "CDS" and "splice3."(We encourage the use of the
-<http://www.sequenceontology.org/> Sequence Ontology IDs to give
-uniformity to DAS sources for example CDS is SO:0000316). The annotation
-method (<font color="red">what are we doing with annotion method if
-catagory is handling this??</font><b>method</b> is intended to describe
-how the annotated feature was discovered, and may include a reference to
-a software program </font>.
+Annotations are pieces of information that are always attributed to a
+reference object. Annotations are usually *positional*, that is they
+refer to a specific location within a reference object. An exon within a
+genomic sequence is an example. Annotations can also be
+*non-positional*, in which case they can be considered as information
+attributed to the whole of the reference object. For example, the
+description of a protein or gene.
 
-To look up ontologies you could go here:
-"<http://www.ebi.ac.uk/ontology-lookup/>"
+### Coordinate Systems
 
-<b>category</b> is a broad functional category that can be used to
-filter, group and sort annotations. "Homology", "variation" and
-"transcribed" are all valid categories. The existence of these
-categories allows researchers to add new annotation types if the
-existing list is inadequate without entirely losing all semantic value.
-<font color="red"> (we also encourage the use of ECO numbers to
-represent the method of annotation e.g.ECO:0000032 "inferred from
-curated blast match to nucleic acid).</font>
+A coordinate system is a stable, logical grouping of reference objects.
+A coordinate system provides a mechanism to uniquely identify reference
+objects that share identifiers, such as chromosomes. For example,
+chromosome 21 might identify several reference objects from different
+species', but only one within the NCBI 36 human assembly. Thus, "human
+NCBI 36 chromosomes" is a coordinate system containing 25 reference
+objects.
 
-#### Example
+Coordinate systems are formally described using four properties:
 
-<TYPE id="SO:0000417" category="inferred from reviewed computational analysis (ECO:0000053)">polypeptide\_domain</TYPE>
+-   The **category** or type of annotatable entity. For example a
+    chromosome sequence or protein structure
+-   The **authority** responsible for defining the coordinate system.
+    For example NCBI or UniProt
+-   The **version**, for coordinate systems containing entities that are
+    not versioned (e.g. genomic assemblies)
+-   The **species**, for coordinate systems containing only entities
+    from a single organism
 
-It is intended that larger annotation servers provide pointers to
-human-readable data that describes its types, methods and categories in
-more detail. Another optional feature of annotation servers is the
-ability to provide hints to clients on how the annotations should be
-rendered visually. This is done by returning a XML "stylesheet".
+Of these, category and authority are required.
 
-The reference server is an annotation server that provides the following
-additional services:
+Some example coordinate systems:
 
-1.  Given a reference sequence id, it can return the raw sequence.
-2.  <font color="red">Deprecate this? Given a reference sequence id, it
-    can return annotations of the
-    `     category "component".  Component annotations describe how the`  
-    `     sequence is assembled from smaller parts into large parts from the`  
-    `     top down.`  
-    ` `
+| Category         | Authority | Version | Species      |
+|------------------|-----------|---------|--------------|
+| Chromosome       | NCBI      | 36      | Homo sapiens |
+| Scaffold         | ZFISH     | 7       | Danio rerio  |
+| Protein sequence | UniProt   | -       | -            |
 
-3.  Given a reference sequence id, it can return annotations of the
-    `     category "supercomponent".  Component parent annotations`  
-    `     describe the assembly of the sequence from the bottom up.`
+### Reference & Annotation Servers
 
-    </font>
+DAS distinguishes between two types of server, each providing different
+types of data. A reference server is a DAS server that provides core
+data for the reference objects in a particular coordinate system. For
+example, the reference server for "UniProt Protein sequence" provides
+the actual sequence for each UniProt entry. It does this by implementing
+the DAS *sequence* command. Annotation servers are specialized for
+returning lists of annotations for the reference objects within a
+coordinate system. This is done by implementing the DAS *features*
+command.
 
-Although the servers are conceptually divided between reference servers
-and annotation servers, there is in fact no key difference between them.
-A single server can provide both reference sequence information and
-annotation information. The main functional difference is that the
-reference sequence server is required to serve the sequence map and the
-raw DNA, while annotation servers have no such requirement
-<font color="red">how to generalise this? Some reference servers produce
-structures instead of sequence</font>.
+<font color="red">In future versions of the spec (i.e. those not
+focussed entirely on sequence) this will be generalised. That is,
+reference objects won't be assumed to be sequences and annotations won't
+be assumed to be sequence features.</font>
+
+The distinction between reference and annotation servers is conceptual
+rather than physical. That is, a single server instance can in fact play
+both roles by offering offer both sequences and annotations of those
+sequences.
 
 #### The DAS Registry
 
-central DAS registry which implements this protocol and fulfils the
-following roles:
+The DAS registry is a special component of DAS, fulfilling the following
+roles:
 
-1. It allows discovery of available DAS sources via a web page, or as
-machine-readable XML which can be used directly by DAS client programs.
+1.  Catalogues and describes the capabilities and coordinate systems of
+    DAS services
+2.  Allows discovery of available DAS services via both human and
+    programmatic interfaces
+3.  Automatically validates registered DAS sources to ensure that they
+    correctly implement the protocol
+4.  Periodically tests DAS sources and notifies their administrators if
+    they are unavailable
+5.  Provides a mechanism for activating or highlighting individual DAS
+    services in clients
 
-2. It automatically validates registered DAS sources to ensure that they
-return well formed DAS XML.
+### Clients
 
-3. It periodically tests DAS sources and notifies their administrators
-if they are unavailable.
+A DAS client typically integrates data from a number of DAS servers,
+making use of the different data types. For example, a client might
+implement the following procedure for a particular sequence location:
 
-4. It can group the registered DAS sources according to the coordinate
-systems of their data.
+1.  Contact DAS registry to find reference and annotation servers for
+    the relevant assembly
+2.  Obtain sequence from the reference server
+3.  Obtain sequence features from each of the annotation servers
+4.  Display the annotations in the context of the sequence
 
-5. It can also communicate bi-directionally with DAS clients and
-activate or highlight DAS sources in clients.
-
-#### The Co-ordinate System
-
-The distributed annotation system (DAS) relies on there being a common
-"co-ordinate system" on which to base annotations. The co-ordinate
-system consists of a set of "entry points", and the lengths of each
-entry point. The identity of an entry point will vary from co-ordinate
-system to co-ordinate system. For some projects, entry points correspond
-to entire chromosomes. For others, entry points may be a series of
-contigs, proteins or structures. <font color="red"> Consensus at the
-moment is that each coordinate system should specify an exact version
-e.g. a specific assembly or release and we should not have a general
-human coordinate system and then sub versions of it.</font>
-
-The entry points describe the top level items on the co-ordinate system.
-<font color="red">remove this section on subsequence?It is possible for
-each entry point to have substructure, basically a series of
-subsequences (components) and their start and end points. This structure
-is recursive. Each annotation is unambiguously located by providing its
-position as the start and stop positions relative to a "reference
-object." The reference object can be one of the entry points, or any of
-the subsequences within the entry point.</font>
+<font color="red">This is best explained by diagram</font>
 
 Client/Server Interactions
 --------------------------
@@ -1246,6 +1225,43 @@ is preferred to place it directly in the <FEATURE> section. Earlier
 versions of this specification placed the TARGET tag in the GROUP
 section, and clients must recognize and accomodate this.
 
+Annotations have an ID that is unique to the server and a structured
+description that describes its nature and attributes. Annotations may
+also be associated with Web URLs that provide additional human readable
+information about the annotation.
+
+Annotations have <i>types</i>, <i>methods</i> and <i>categories</i>. The
+annotation <b>type</b> is selected from a list of types that have
+biological significance and previously correspond roughly to
+EMBL/GenBank feature table tags. Examples of annotation types include
+"exon", "intron", "CDS" and "splice3."(We encourage the use of the
+<http://www.sequenceontology.org/> Sequence Ontology IDs to give
+uniformity to DAS sources for example CDS is SO:0000316). The annotation
+method (<font color="red">what are we doing with annotion method if
+catagory is handling this??</font><b>method</b> is intended to describe
+how the annotated feature was discovered, and may include a reference to
+a software program </font>.
+
+To look up ontologies you could go here:
+"<http://www.ebi.ac.uk/ontology-lookup/>"
+
+<b>category</b> is a broad functional category that can be used to
+filter, group and sort annotations. "Homology", "variation" and
+"transcribed" are all valid categories. The existence of these
+categories allows researchers to add new annotation types if the
+existing list is inadequate without entirely losing all semantic value.
+<font color="red"> (we also encourage the use of ECO numbers to
+represent the method of annotation e.g.ECO:0000032 "inferred from
+curated blast match to nucleic acid).</font>
+
+#### Example
+
+<TYPE id="SO:0000417" category="inferred from reviewed computational analysis (ECO:0000053)">polypeptide\_domain</TYPE>
+
+It is intended that larger annotation servers provide pointers to
+human-readable data that describes its types, methods and categories in
+more detail.
+
 | New in version 1.5: Exception Handling for Invalid Segments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The request for a named segment may fail because: (1) the reference sequence is not known to the server or (2) the requested region is outside the bounds of the segment. In both cases, an exception is indicated. In the case of a reference server, which is expected to be authoritative for the map, the <GFF> section will flag the problem by issuing an <ERRORSEGMENT> tag instead of the usual <SEGMENT> tag. This tag has the following format:<ERRORSEGMENT id="id" start="start" stop="stop">The **id** attribute (required) corresponds to the ID of the requested segment, and **start** and **stop** (optional) correspond to the requested bounds of the segment if this was specified in the request.Unlike a reference server, an annotation server is not required to know the identities of all the segments. Therefore when presented with a segment ID that it doesn't recognize, it can't know whether this is a true client error or merely an unannotated segment. In this case, an annotation server will issue an <UNKNOWNSEGMENT> tag. This tag has the same syntax as <ERRORSEGMENT> but doesn't necessarily imply an error.If an annotation server detects a request for a region outside the bounds of a segment that it has annotated, it will issue an <ERRORSEGMENT> exception.In the case of a request for multiple segments, the server will return a mixture of <SEGMENT> sections for valid segments, and <ERRORSEGMENT> or <UNKNOWNSEGMENT> sections for invalid ones. |
@@ -1262,7 +1278,7 @@ HMMER Version: 2.3.2
 
 ------------------------------------------------------------------------
 
-### <font color="red">We are proposing to remove Linking to a Feature from the spec
+### <font color="red">We are proposing to remove Linking to a Feature from the spec, as implementations tend to use a separate web server anyway
 
 **Scope:** Annotation servers.
 

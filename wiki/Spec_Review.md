@@ -156,12 +156,13 @@ implement the following procedure for a particular sequence location:
 Client/Server Interactions
 --------------------------
 
-The DAS is Web-based. Clients query the reference and annotation servers
-by sending a formatted URL request to the server. This request must
-follow the conventions of the HTTP/1.0 protocol (see
-[RFC2616](ftp://ftp.isi.edu/in-notes/rfc2616.txt). Servers process the
-request and return a response in the form of a formatted XML document
-(see [W3C Extensible Markup Language](http://www.w3.org/XML/)).
+The DAS is web-based. Clients query the reference and annotation servers
+using the HTTP protocol (see
+[RFC2616](ftp://ftp.isi.edu/in-notes/rfc2616.txt)) by sending a
+formatted URL request to the server. Servers process the request and
+return a response in the form of a formatted XML document (see [W3C
+Extensible Markup Language](http://www.w3.org/XML/)) according to a
+predefined schema.
 
 ### The Request
 
@@ -213,12 +214,14 @@ versions of this specification.
 ### The Response
 
 The response from the server to the client consists of a standard HTTP
-header with DAS status information within that header followed
-optionally by an XML file that contains the answer to the query. The DAS
-status portion of the header consists of two lines. The first is
-X-DAS-Version and gives the current protocol version number, currently
-DAS/1.0. The second line is X-DAS-Status and contains a three digit
-status code which indicates the outcome of the request.
+header with DAS status information within that header, followed
+optionally by XML content that contains the answer to the query. The DAS
+status portion of the header consists of <font color="blue">three</font>
+lines. The first is X-DAS-Version and gives the current protocol version
+number, currently <font color="blue">DAS/1.6</font>. The second line is
+X-DAS-Status and contains a three digit status code which indicates the
+outcome of the request. The third is X-DAS-Capabilities, which describes
+the parts of of the spec the server implements.
 
 Here is an example HTTP header: (*provided by Web server*)
 
@@ -256,32 +259,34 @@ header. Web servers that are capable of it can reply with a
 *Content-transfer-encoding* header and a compressed body. Implementors
 of DAS clients and servers may wish to implement this HTTP feature.
 
-### New in version 1.5
+#### X-DAS-Capabilities
 
 The X-Das-Capabilities header provides an extensible list of the
-capabilities that the server provides. This can be used by those writing
+capabilities that the server provides. This can be used by
+<font color="blue">clients wishing to make use of optional components of
+the DAS protocol where they are supported, and by</font> those writing
 experimental extensions to DAS to flag clients that those extensions are
 available. Capabilities have the form *CapabilityName/Version* and are
 separated by semicolon, space, as in "capabilityA/1.0; capabilityB/1.4;
 capabilityC/1.0". The following standard capabilities are present in the
-DAS/1.5 protocol:
+DAS/1.6 protocol:
 
-| Capability Name     | Description                                                                                                                                 |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| dsn/1.0             | <font color="red">Deprecate these: The server supports the basic *dsn* request.</font>                                                      |
-| dna/1.0             | <font color="red">The server supports the basic *dna* request.</font>                                                                       |
-| types/1.0           | The server supports the basic *types* request.                                                                                              |
-| stylesheet/1.0      | The server supports the basic *stylesheet* request.                                                                                         |
-| features/1.0        | The server supports the basic *features* request.                                                                                           |
-| entry\_points/1.0   | The server supports the basic *entry\_points* request.                                                                                      |
-| error-segment/1.0   | Server will report requests for invalid segments with an <ErrorSegment> response.                                                           |
-| unknown-segment/1.0 | Server will report requests for unknown or unannotated segments with an <UnknownSegment> response.                                          |
-| unknown-feature/1.0 | Server will report requests for unknown features with an <UnknownFeature> response.                                                         |
-| feature-by-id/1.0   | The *features* request will accept the CGI parameter "feature\_id", enabling the server to look up segment(s) based on the ID of a feature. |
-| group-by-id/1.0     | The *features* request will accept the CGI parameter "group\_id", enabling the server to look up segment(s) based on the ID of a group.     |
-| component/1.0       | The *features* request will return components of the indicated segment when a category type of "component" is requested.                    |
-| supercomponent/1.0  | The *features* request will return supercomponents of the indicated segment when a category type of "supercomponent" is requested.          |
-| sequence/1.0        | The server supports the new *sequence* request.                                                                                             |
+| Capability Name                          | Description                                                                                                                                                             |
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| dsn/1.0                                  | <font color="red">Deprecate these: The server supports the **deprecated** *dsn* request.</font>                                                                         |
+| dna/1.0                                  | <font color="red">The server supports the **deprecated** *dna* request.</font>                                                                                          |
+| types/1.0                                | The server supports the basic *types* request.                                                                                                                          |
+| stylesheet/<font color="blue">1.1</font> | The server supports the basic *stylesheet* request.                                                                                                                     |
+| features/1.0                             | The server supports the basic *features* request.                                                                                                                       |
+| entry\_points/1.0                        | The server supports the basic *entry\_points* request.                                                                                                                  |
+| error-segment/1.0                        | Server will report requests for invalid segments with an <ErrorSegment> response.                                                                                       |
+| unknown-segment/1.0                      | Server will report requests for unknown or unannotated segments with an <UnknownSegment> response.                                                                      |
+| unknown-feature/1.0                      | Server will report requests for unknown features with an <UnknownFeature> response.                                                                                     |
+| feature-by-id/1.0                        | The *features* request will accept the CGI parameter "feature\_id", enabling the server to look up <font color="blue">annotations</font> based on their ID.             |
+| group-by-id/1.0                          | The *features* request will accept the CGI parameter "group\_id", enabling the server to look up <font color="blue">annotations</font> based on the ID of a group.      |
+| component/1.0                            | <font color="blue">Deprecate?</font> The *features* request will return components of the indicated segment when a category type of "component" is requested.           |
+| supercomponent/1.0                       | <font color="blue">Deprecate?</font> The *features* request will return supercomponents of the indicated segment when a category type of "supercomponent" is requested. |
+| sequence/1.0                             | The server supports the *sequence* request.                                                                                                                             |
 
 ------------------------------------------------------------------------
 

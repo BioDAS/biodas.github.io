@@ -309,10 +309,10 @@ example:
   
 `   gi-123456:1,1000 --> gi:123456 start=1 stop=1000  --->  gi-123456:1,1000`
 
-In general, DAS mandates that a server must respond in the same
-coordinate system by which it is queried. This is relevant where
-annotations can potentially exist in several coordinate systems (such as
-clones and contigs).
+<font color="blue">In general, DAS mandates that a server must respond
+in the same coordinate system by which it is queried. This is relevant
+where annotations can potentially exist in several coordinate systems
+(such as clones and contigs).</font>
 
 ------------------------------------------------------------------------
 

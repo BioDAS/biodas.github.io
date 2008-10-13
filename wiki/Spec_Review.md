@@ -290,28 +290,29 @@ DAS/1.6 protocol:
 
 ------------------------------------------------------------------------
 
-Reference sequence IDs
-----------------------
+Reference <font color="blue">Object</font> IDs
+----------------------------------------------
 
-Reference sequence IDs indicate a segment of the genome. They can
-correspond to low-level primary sequences such as sequenced clones, or
-to higher-level assemblies such as contigs.
-
-A reference ID can contain any set of printable characters (including
-the space character), but not the colon character (":"), which is
-reserved for separating reference IDs from sequence ranges (see below).
-The newline, tab and carriage return characters are also reserved for
-future use.
+The ID used by a client or server to refer to a reference object can
+contain any set of printable characters (including the space character),
+but not the colon character (":"), which is reserved for separating
+reference IDs from sequence ranges (see below). The newline, tab and
+carriage return characters are also reserved for future use.
 
 A data source that uses the colon character for its internal IDs must
-map this character to another one on the way out and on the way in. For
+map this character to another one on the way in and on the way out. For
 example:
 
 `   Client request       server's internal id         Response to client`  
   
 `   gi-123456       -->  gi:123456                    --->  gi-123456`  
   
-`   gi-123456:1,1000 --> gi:123456 start=1 stop=1000  --->  gi-123456:1,1000`  
+`   gi-123456:1,1000 --> gi:123456 start=1 stop=1000  --->  gi-123456:1,1000`
+
+In general, DAS mandates that a server must respond in the same
+coordinate system by which it is queried. This is relevant where
+annotations can potentially exist in several coordinate systems (such as
+clones and contigs).
 
 ------------------------------------------------------------------------
 

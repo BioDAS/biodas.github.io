@@ -312,7 +312,7 @@ denoted here as *PREFIX*. The other meta-variable used in these examples
 is *DSN*, which is a symbolic data source. (As seen the the \[\#request
 above example.\]) Data sources are standardized across DAS servers in
 such a way that a data source name has a one-to-one correspondence with
-a reference sequence.
+a reference sequence. <font color="blue">This isn't true - delete</font>
 
 ### Retrieve the List of Data Sources (sources cmd)
 
@@ -353,10 +353,10 @@ a DAS server is important:
     PREFIX/das[1]/sources
 
 <font color="red">Should simplify this and have "das" as in the future
-there should only be DAS not DAS1 and DAS2!!!</font> The PREFIX can be
-either <b>das</b> or <b>das1</b> in order to refer to the major version
-1 of the DAS protocol and in order to provide support for the future
-das2 protocol.  
+there should only be DAS not DAS1 and DAS2.</font>
+<font color="blue">Agreed.</font> The PREFIX can be either <b>das</b> or
+<b>das1</b> in order to refer to the major version 1 of the DAS protocol
+and in order to provide support for the future das2 protocol.  
   
 <b>Description:</b> This query returns the meta information for a DAS
 server  
@@ -400,7 +400,8 @@ optional
 </td>
 <td>
 an XSL stylesheet that e.g. allows a browser to nicely display the XML
-response
+response <font color="blue">I'm not sure whether this should actually be
+part of the spec - could be confused with stylesheet command?</font>
 
 </td>
 </tr>
@@ -502,10 +503,13 @@ mandatory
 </td>
 <td>
 in principle this would allow hosting several versions of a DAS sources
-(with unque uris) on a server, but in practise most people provide only
-the server with the latest data. the created attribute provides the date
-on which a DAS server has been set up initially. For a DAS registation
-server this is the date at which a DAS server has been pulished.
+(with unique URIs) on a server, but in practise most people provide only
+the server with the latest data. <font color="blue">Different versions
+of the same source should be considered to be*equivalent*, that is the
+latest version is definitive.</font> The created attribute provides the
+date on which a DAS server has been set up initially. For a DAS
+registation server this is the date at which a DAS server has been
+pulished.
 
 </td>
 </tr>
@@ -519,12 +523,12 @@ mandatory, one or many
 
 </td>
 <td>
-The description of the namespace of a DAS source.  
-<b>uri</b> - the unique URI for a DAS source. For a DAS registration
-server these should be resolvable and allow to access more information
-about this. e.g.
-<a href="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6"><http://www.dasregistry.org/dasregistry/coordsys/CS_DS6></a>
-for the UniProt,Protein Sequence coordinate system.  
+The description of the coordinate system(s) a DAS source operates on.  
+<b>uri</b> - the unique URI for a DAS coordinate system. For a DAS
+registration server these should be resolvable and allow to access more
+information. e.g.
+[1](http://www.dasregistry.org/dasregistry/coordsys/CS_DS6) for the
+UniProt,Protein Sequence coordinate system.  
 <b>source</b> - the data type. This refers to the "physical dimension"
 of the data. Currently the following categories are available:
 Chromosome, Clone, Contig, Gene\_ID, NT\_Contig, Protein Sequence,

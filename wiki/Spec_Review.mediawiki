@@ -251,7 +251,7 @@ A data source that uses the colon character for its internal IDs must map this c
 
 ==The Queries==
 
-This section lists the queries recognized by reference and annotation servers. Each of these queries begins with some site-specific prefix, denoted here as ''PREFIX''. The other meta-variable used in these examples is ''DSN'', which is a symbolic data source. (As seen the the [#request  above example.]) Data sources are standardized across DAS servers in such a way that a data source name has a one-to-one correspondence with a reference sequence.
+This section lists the queries recognized by reference and annotation servers. Each of these queries begins with some site-specific prefix, denoted here as ''PREFIX''. The other meta-variable used in these examples is ''DSN'', which is a symbolic data source. (As seen the the [#request  above example.]) Data sources are standardized across DAS servers in such a way that a data source name has a one-to-one correspondence with a reference sequence. <font color="blue">This isn't true - delete</font>
 
 ===Retrieve the List of Data Sources (sources cmd)===
 <font color="red">DSN command has been deprecated in favour of this sources cmd</font>
@@ -294,7 +294,8 @@ In particular the following information for a DAS server is important:
 PREFIX/das[1]/sources
 
 </pre>
-<font color="red">Should simplify this and have "das" as in the future there should only be DAS not DAS1 and DAS2!!!</font>
+<font color="red">Should simplify this and have "das" as in the future there should only be DAS not DAS1 and DAS2.</font>
+<font color="blue">Agreed.</font>
 The PREFIX can be either <b>das</b> or <b>das1</b> in order to refer to the major version 1 of the DAS protocol
 and in order to provide support for the future das2 protocol.
 <br/>
@@ -341,7 +342,7 @@ The response to the <i>sources</i> command is the "DASSSOURCE" XML-formatted doc
 <tr id="row2">
 <td>xml-stylesheet</td>
 <td>optional</td>
-<td>an XSL stylesheet that e.g. allows a browser to nicely display the XML response </td>
+<td>an XSL stylesheet that e.g. allows a browser to nicely display the XML response <font color="blue">I'm not sure whether this should actually be part of the spec - could be confused with stylesheet command?</font> </td>
 </tr>
 
 <tr id="row1">
@@ -387,9 +388,9 @@ The description is a free text description of the provided data</td>
 <tr id="row1">
 <td>VERSION</td>
 <td>mandatory</td>
-<td>in principle this would allow hosting several versions of a DAS sources (with unque uris) 
+<td>in principle this would allow hosting several versions of a DAS sources (with unique URIs) 
 on a server, but in practise most people
-provide only the server with the latest data. the created attribute provides the date on which a DAS server has been set up initially.
+provide only the server with the latest data. <font color="blue">Different versions of the same source should be considered to be''equivalent'', that is the latest version is definitive.</font> The created attribute provides the date on which a DAS server has been set up initially.
 For a DAS registation server this is the date at which a DAS server has been pulished.
  </td>
 </tr>
@@ -400,11 +401,10 @@ For a DAS registation server this is the date at which a DAS server has been pul
 <td>COORDINATES</td>
 <td>mandatory, one or many</td>
 
-<td>The description of the namespace of a DAS source. <br/>
-<b>uri</b> - the unique URI for a DAS source. For a DAS registration server these
-should be resolvable and allow to access more information about this. 
-e.g. <a href="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6">http://www.dasregistry.org/dasregistry/coordsys/CS_DS6</a>
-for the UniProt,Protein Sequence coordinate system. <br/>
+<td>The description of the coordinate system(s) a DAS source operates on. <br/>
+<b>uri</b> - the unique URI for a DAS coordinate system. For a DAS registration server these
+should be resolvable and allow to access more information. 
+e.g. [http://www.dasregistry.org/dasregistry/coordsys/CS_DS6] for the UniProt,Protein Sequence coordinate system. <br/>
 
 <b>source</b> - the data type. This refers to the "physical dimension" of the data. Currently the following categories are available:
 Chromosome, Clone, Contig, Gene_ID, NT_Contig, Protein Sequence, Protein Structure <br/>

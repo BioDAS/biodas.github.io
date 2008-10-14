@@ -259,6 +259,12 @@ A data source that uses the colon character for its internal IDs must map this c
 
 This section lists the queries recognized by reference and annotation servers. Each of these queries begins with some site-specific prefix, denoted here as ''PREFIX''.
 
+<font color="blue">At present, there is no implementation of the "assembly traversal' features of DAS. In the interests of simplicity, we could opt for removing this capacity. This would involve removing:
+
+* entry_points: subparts and orientation attributes (orientation only makes sense if you have other information about how entry points relate to each other)
+* features: reference, superparts and subparts attributes
+</font>
+
 ===Sources Command===
 
 ''Retrieve the list of data sources for a server.''
@@ -617,7 +623,7 @@ The response to <font color="blue"><i>sequence</i></font> is the "DASSEQUENCE" X
 ; '''segment''' (optional)
 : This is the sequence range. It uses the format format ''reference:start,stop'', where ''reference'' is the ID of the reference sequence used to establish the coordinate system, and ''start'' and ''stop'' are the endpoints of the region to query, inclusive.
 ; '''type''' (optional)
-: One or more type IDs to be used for filtering annotations on the type field. If multiple type names are provided, the resulting list of features will be the logical OR of the list. For compatibility with versions 0.997 and earlier of this protocol, servers are allowed to treat the type ID as a regular expression, but this feature is '''deprecated''' and should not be used.
+: <font color="blue">I can't see that this is really needed. Deprecate?</font> One or more type IDs to be used for filtering annotations on the type field. If multiple type names are provided, the resulting list of features will be the logical OR of the list. For compatibility with versions 0.997 and earlier of this protocol, servers are allowed to treat the type ID as a regular expression, but this feature is '''deprecated''' and should not be used.
 
 If one or more segment arguments are provided, the list of types returned is restricted to the indicated segments. If no segment argument is provided, then '''all''' feature types known to the source are returned.
 
@@ -654,7 +660,7 @@ The document returned from the ''types'' request is an XML-formatted "DASTYPES" 
 ; <SEGMENT> (required; one or more)
 : The <SEGMENT> tag provides information on the reference segment. The '''id''', '''start''' and '''stop''' attributes indicate the coordinate system of the segment, and are required if the segment corresponds to a defined region of the genome, optional if the list of types corresponds to the entire database. The '''version''' attribute (required) indicates the current version of the sequence map. The optional '''label''' attribute supplies a human readable label for display purposes. <font color="blue">DEPRECATE: </font>The optional type attribute describes the segment type, for future compatibility with Sequence Ontology-based feature typing.
 ; <TYPE> (optional; zero or more per SEGMENT)
-: Each segment has zero or more <TYPE> tags, which summarize the types of annotation available. The attributes are '''id''' (required), which is a unique id for the annotation type and can be used to retrieve further information from the annotation server (see [#feature_linking Linking to a Feature]), '''method''' (optional), which indicates the method (subtype) for the feature type and the '''category''' (optional) attribute, which provides functional grouping to related types. The tag contents (optional) is a count of the number of features of this type across the segment.
+: Each segment has zero or more <TYPE> tags, which summarize the types of annotation available. The attributes are '''id''' (required), which is a unique id for the annotation type <font color="blue">Snip: we're removing link</font> and can be used to retrieve further information from the annotation server (see [#feature_linking Linking to a Feature]), '''method''' (optional), <font color="blue">Servers treat method as being independent of the type, so this needs to be changed. IMO we can just remove it.</font> which indicates the method (subtype) for the feature type and the '''category''' (optional) attribute, which provides functional grouping to related types. The tag contents (optional) is a count of the number of features of this type across the segment.
 
 ----
 

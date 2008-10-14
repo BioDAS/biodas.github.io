@@ -336,6 +336,17 @@ This section lists the queries recognized by reference and annotation
 servers. Each of these queries begins with some site-specific prefix,
 denoted here as *PREFIX*.
 
+<font color="blue">At present, there is no implementation of the
+"assembly traversal' features of DAS. In the interests of simplicity, we
+could opt for removing this capacity. This would involve removing:
+
+-   entry\_points: subparts and orientation attributes (orientation only
+    makes sense if you have other information about how entry points
+    relate to each other)
+-   features: reference, superparts and subparts attributes
+
+</font>
+
 ### Sources Command
 
 *Retrieve the list of data sources for a server.*
@@ -847,12 +858,13 @@ sequence used to establish the coordinate system, and *start* and *stop*
 are the endpoints of the region to query, inclusive.
 
 **type** (optional)  
-One or more type IDs to be used for filtering annotations on the
-type field. If multiple type names are provided, the resulting list of
-features will be the logical OR of the list. For compatibility with
-versions 0.997 and earlier of this protocol, servers are allowed to
-treat the type ID as a regular expression, but this feature is
-**deprecated** and should not be used.
+<font color="blue">I can't see that this is really needed.
+Deprecate?</font> One or more type IDs to be used for filtering
+annotations on the type field. If multiple type names are provided, the
+resulting list of features will be the logical OR of the list. For
+compatibility with versions 0.997 and earlier of this protocol, servers
+are allowed to treat the type ID as a regular expression, but this
+feature is **deprecated** and should not be used.
 
 If one or more segment arguments are provided, the list of types
 returned is restricted to the indicated segments. If no segment argument
@@ -922,11 +934,14 @@ Ontology-based feature typing.
 <TYPE> (optional; zero or more per SEGMENT)  
 Each segment has zero or more <TYPE> tags, which summarize the types of
 annotation available. The attributes are **id** (required), which is a
-unique id for the annotation type and can be used to retrieve further
-information from the annotation server (see \[\#feature\_linking Linking
-to a Feature\]), **method** (optional), which indicates the
-method (subtype) for the feature type and the **category** (optional)
-attribute, which provides functional grouping to related types. The tag
+unique id for the annotation type <font color="blue">Snip: we're
+removing link</font> and can be used to retrieve further information
+from the annotation server (see \[\#feature\_linking Linking to a
+Feature\]), **method** (optional), <font color="blue">Servers treat
+method as being independent of the type, so this needs to be changed.
+IMO we can just remove it.</font> which indicates the method (subtype)
+for the feature type and the **category** (optional) attribute, which
+provides functional grouping to related types. The tag
 contents (optional) is a count of the number of features of this type
 across the segment.
 

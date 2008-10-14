@@ -498,8 +498,9 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 
 ----
 
-===<font color="red">Retrieve the DNA Associated with a Subsequence has been deprecated as the sequence cmd below is more commonly used.</font>===
+===DNA Command===
 
+<font color="red">Deprecated as the sequence cmd below is more commonly used.</font>
 
 ----
 

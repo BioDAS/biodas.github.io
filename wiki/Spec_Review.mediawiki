@@ -257,7 +257,10 @@ A data source that uses the colon character for its internal IDs must map this c
 
 This section lists the queries recognized by reference and annotation servers. Each of these queries begins with some site-specific prefix, denoted here as ''PREFIX''. The other meta-variable used in these examples is ''DSN'', which is a symbolic data source. (As seen the the [#request  above example.]) Data sources are standardized across DAS servers in such a way that a data source name has a one-to-one correspondence with a reference sequence. <font color="blue">This isn't true - delete</font>
 
-===Retrieve the List of Data Sources (sources cmd)===
+===Sources Command===
+
+''Retrieve the list of data sources for a server.''
+
 <font color="red">DSN command has been deprecated in favour of this sources cmd</font>
 
 '''Scope:''' Reference and annotation servers.
@@ -267,10 +270,7 @@ This section lists the queries recognized by reference and annotation servers. E
 '''Format:'''
 
 <code>
-
- 
  ''PREFIX''/das/sources
-
 </code>
 
 '''Description:''' This query returns the list of data sources that are available from this server.
@@ -296,7 +296,6 @@ The response to the ''sources'' command is the "DASSSOURCE" XML-formatted docume
  &lt;SOURCE uri="URI" title="title" doc_href="URL" description="description"&gt;
     &lt;MAINTAINER email="email address" /&gt;
     &lt;VERSION uri="URI" created="date"&gt;
-
       &lt;COORDINATES uri="uri" source="data type" authority="authority" test_range="ID">coordinate string&lt;/COORDINATES&gt;      
       &lt;CAPABILITY type="das1:command" query_uri="URL" /&gt;
       &lt;PROP name="key" value="value" /&gt;     
@@ -306,9 +305,6 @@ The response to the ''sources'' command is the "DASSSOURCE" XML-formatted docume
 </pre>
 </blockquote>
 
-
-
-<br/>
 <b>Format:</b>
 <div id="table">
 <table class="dastable">

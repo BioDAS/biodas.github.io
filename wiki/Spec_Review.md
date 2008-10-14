@@ -339,7 +339,9 @@ above example.\]) Data sources are standardized across DAS servers in
 such a way that a data source name has a one-to-one correspondence with
 a reference sequence. <font color="blue">This isn't true - delete</font>
 
-### Retrieve the List of Data Sources (sources cmd)
+### Sources Command
+
+*Retrieve the list of data sources for a server.*
 
 <font color="red">DSN command has been deprecated in favour of this
 sources cmd</font>
@@ -377,7 +379,6 @@ document:
 >      &lt;SOURCE uri="URI" title="title" doc_href="URL" description="description"&gt;
 >         &lt;MAINTAINER email="email address" /&gt;
 >         &lt;VERSION uri="URI" created="date"&gt;
->
 >           &lt;COORDINATES uri="uri" source="data type" authority="authority" test_range="ID">coordinate string&lt;/COORDINATES&gt;      
 >           &lt;CAPABILITY type="das1:command" query_uri="URL" /&gt;
 >           &lt;PROP name="key" value="value" /&gt;     
@@ -385,7 +386,6 @@ document:
 >        &lt;/SOURCE&gt;
 >     &lt;/SOURCES>
 
-  
 <b>Format:</b>
 
 <div id="table">

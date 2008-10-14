@@ -1219,10 +1219,15 @@ for the link. The link text is an optional human readable label for
 display purposes.
 
 <TARGET> (optional; zero or more per FEATURE)  
+<font color="blue">Not really sure about this. Is anyone using it in
+this context? Does it make sense after removing the link command? Do we
+remove this now, or wait until alignments are properly supported?</font>
 The target sequence in a sequence similarity match. The **id** attribute
 provides the reference ID for the target sequence, and the **start** and
 **stop** attributes indicate the segment that matched across the
-target sequence. All three attributes are required. More information on
+target sequence. <font color="blue">If we keep target element really we
+need this the coordinate system in order to identify a reference
+object.</font> All three attributes are required. More information on
 the target can be retrieved by linking back to the annotation server.
 See \[\#feature\_linking Linking to a Feature\].
 

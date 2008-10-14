@@ -1163,23 +1163,15 @@ attribute can be used instead.
 
 <TYPE> (required; one per FEATURE)  
 Each feature has just one <TYPE> field, which indicates the type of
-the annotation. The attributes are **id** (required), which is a unique
-id for the annotation type and can be used to retrieve further
-information from the annotation server (see \[\#feature\_linking Linking
-to a Feature\]), and the **category** (optional, recommended) attribute,
-which provides functional grouping to related types. The reference
-server's annotations can consist of additional overlapping landmarks
-(parents, children, and neighbors), which should be marked "yes" in the
-third attribute **reference** (optional, defaults to "no") to indicate
-that the feature is a structural landmark within the map (this feature
-can be annotated). The tag contents (optional) is a human readable label
-for display purposes.If a **reference** annotation has either or both of
-the optional attributes, **subparts="yes"** and **superparts="yes"**,
-then in addition to being useable as a reference sequence, the feature
-contains subparts and/or superparts that themselves can act as
-reference features. This can be used to reconstruct reference
-server's assembly. See also \[\#fetching\_assembly Fetching
-Assembly Information\].
+the annotation. <font color="blue">The attributes are **id** (required)
+and category (required). The ID is a term ID from the Sequence Features
+Ontology (SO), Protein Modifications Ontology (MOD) or BioSapiens
+Ontology (BS), e.g. "SO:0000114". The **category** attribute indicates
+the evidence used to derive the annotation, selected from the Evidence
+Codes Ontology (ECO). It is formatted as: *term name (term ID)*, e.g.
+"inferred from experiment (ECO:0000006)". The tag contents (required) is
+the term name, e.g. "methylated\_C". HAVE REMOVED
+REFERENCE/SUBPARTS/SUPERPARTS ATTRIBUTES.</font>
 
 <METHOD> (required; one per FEATURE)  
 Each feature has one <METHOD> field, which identifies the method used to
@@ -1246,14 +1238,15 @@ indicates when certain features are related to each other. The canonical
 example is the CDS, exons and introns of a transcribed gene, which
 logically belong together. The group **id** attribute (required)
 provides an identifier that should be used by the client to group
-features together visually. Unlike other IDs in this protocol, the group
-ID cannot be used as a database handle to retrieve further information
-about the group. Such information can, however, be provided within
-<GROUP> section, which may contain up to three optional tags.The
-**label** attribute (optional) provides a human-readable string that can
-be used in graphical representations to label the glyph.The **type**
-attribute (optional) provides a type ID for the group as a whole, for
-example "transcript". This ID can be used as a key into the
+features together visually. <font color="blue">Removing linking to
+features anyway... remove next sentence:</font> Unlike other IDs in this
+protocol, the group ID cannot be used as a database handle to retrieve
+further information about the group. Such information can, however, be
+provided within <GROUP> section, which may contain up to three optional
+tags.The **label** attribute (optional) provides a human-readable string
+that can be used in graphical representations to label the glyph.The
+**type** attribute (optional) provides a type ID for the group as a
+whole, for example "transcript". This ID can be used as a key into the
 \[\#stylesheet stylesheet\] to select the glyph and graphical
 characteristics for the group as a whole.
 
@@ -1264,7 +1257,9 @@ characteristics for the group as a whole.
 
   
   
-A human-readable note in plain text format.
+A human-readable note in plain text format. <font color="blue">Some
+sources embed HTML here e.g. arrayexpress... what do we do about
+these?</font>
 
 ; <LINK> (optional; zero or more per GROUP)  
   
@@ -1284,34 +1279,8 @@ is preferred to place it directly in the <FEATURE> section. Earlier
 versions of this specification placed the TARGET tag in the GROUP
 section, and clients must recognize and accomodate this.
 
-Annotations have an ID that is unique to the server and a structured
-description that describes its nature and attributes. Annotations may
-also be associated with Web URLs that provide additional human readable
-information about the annotation.
-
-Annotations have <i>types</i>, <i>methods</i> and <i>categories</i>. The
-annotation <b>type</b> is selected from a list of types that have
-biological significance and previously correspond roughly to
-EMBL/GenBank feature table tags. Examples of annotation types include
-"exon", "intron", "CDS" and "splice3."(We encourage the use of the
-<http://www.sequenceontology.org/> Sequence Ontology IDs to give
-uniformity to DAS sources for example CDS is SO:0000316). The annotation
-method (<font color="red">what are we doing with annotion method if
-catagory is handling this??</font><b>method</b> is intended to describe
-how the annotated feature was discovered, and may include a reference to
-a software program </font>.
-
 To look up ontologies you could go here:
 "<http://www.ebi.ac.uk/ontology-lookup/>"
-
-<b>category</b> is a broad functional category that can be used to
-filter, group and sort annotations. "Homology", "variation" and
-"transcribed" are all valid categories. The existence of these
-categories allows researchers to add new annotation types if the
-existing list is inadequate without entirely losing all semantic value.
-<font color="red"> (we also encourage the use of ECO numbers to
-represent the method of annotation e.g.ECO:0000032 "inferred from
-curated blast match to nucleic acid).</font>
 
 #### Example
 

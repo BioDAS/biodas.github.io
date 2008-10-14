@@ -152,9 +152,10 @@ roles:
 5.  Provides a mechanism for activating or highlighting individual DAS
     services in clients
 
-<font color="red"> Maybe it's a good idea to have a list of cmds that
-you can perform on the registry such as /das1/sources and
-<http://www.dasregistry.org/das/coordinatesystem> </font>
+<font color="red"> a list of cmds that you can perform on the registry
+such as /das1/sources and
+<http://www.dasregistry.org/das/coordinatesystem> can be found here
+<http://www.dasregistry.org/help_scripting.jsp#coordinatesystem> </font>
 
 ### Clients
 

@@ -986,20 +986,23 @@ segments may be specified.
 **type** (zero or more)  
 Zero or more type IDs to be used for filtering annotations on the
 type field. If multiple type names are provided, the resulting list of
-features will be the logical OR of the list. For compatibility with
-versions 0.997 and earlier of this protocol, servers are allowed to
-treat the type ID as a regular expression, but this feature is
-**deprecated** and should not be relied on.
+features will be the logical OR of the list. <font color="blue">Remove
+this bit, and replace with: The type ID is the term ID from the SO, MOD
+or BS ontologies.</font> For compatibility with versions 0.997 and
+earlier of this protocol, servers are allowed to treat the type ID as a
+regular expression, but this feature is **deprecated** and should not be
+relied on.
 
 **category** (zero or more)  
 Zero or more category IDs to be used for filtering annotations
 by category. If multiple categories are provided, they are treated as
-the logical OR. For compatibility with versions 0.997 and earlier of
-this protocol, servers are allowed to treat the type ID as a regular
-expression, but this feature is **deprecated** and should not be
-relied on. (we also encourage the use of ECO numbers to represent the
-method of annotation e.g.ECO:0000032 "inferred from curated blast match
-to nucleic acid).
+the logical OR. <font color="blue">Remove this bit, and replace with:
+The type category is the evidence code from the ECO ontology. It
+includes the term name and ID: category="inferred from curated blast
+match (ECO:0000032)".</font> For compatibility with versions 0.997 and
+earlier of this protocol, servers are allowed to treat the type ID as a
+regular expression, but this feature is **deprecated** and should not be
+relied on.
 
 **categorize** (optional)  
 <font color="red">what to do with this?</font>

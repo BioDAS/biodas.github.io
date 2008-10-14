@@ -808,13 +808,18 @@ There is a single &lt;SEQUENCES&gt; tag per requested segment.
 </td>
 </tr>
 </table>
-### Retrieve the Types Available for a Segment (types cmd)
+### Types Command
+
+*Retrieve the types of features offered by a data source*
 
 <font color="red"> how do we reconcile the way UCSC and ensembl uses the
 type command i.e. UCSC use it as a filter for tracks from one source,
 whereas ensembl only has one track per source!!! Can't deprecate this
-command as is used by UCSC???</font> **Scope:** Annotation and reference
-servers.
+command as is used by UCSC???</font> <font color="blue">Make the unit of
+registration in the registry the combination of the source and type(s),
+and we will make Ensembl will honour it and apply the filter.</font>
+
+**Scope:** Annotation and reference servers.
 
 **Command:** *types*
 

@@ -135,7 +135,7 @@ to indicate coordinate systems that are subsets of each other which
 would avoid this problem - clients could then programmatically choose
 what to query with and what to avoid.</font>
 
-#### The DAS Registry
+### The DAS Registry
 
 The DAS registry is a special component of DAS, fulfilling the following
 roles:

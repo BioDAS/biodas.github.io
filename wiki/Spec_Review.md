@@ -1603,7 +1603,7 @@ sample stylesheet used for the WormBase DAS server can be found at
 \[sample\_stylesheet.xml
 <http://www.biodas.org/documents/sample_stylesheet.xml>\].
 
-### Glyphs and Groups
+#### Glyphs and Groups
 
 Glyphs and their attributes are typically applied to individual
 features. However, they can be applied to entire groups as well (via the

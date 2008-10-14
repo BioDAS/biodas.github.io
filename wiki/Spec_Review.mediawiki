@@ -1071,7 +1071,7 @@ Groups can also have stylesheet entries. If present, they are located in the cat
 
 <font color="blue">Provide an ontology-updated stylesheet: </font>A sample stylesheet used for the WormBase DAS server can be found at [sample_stylesheet.xml http://www.biodas.org/documents/sample_stylesheet.xml].
 
-===Glyphs and Groups===
+====Glyphs and Groups====
 
 Glyphs and their attributes are typically applied to individual features. However, they can be applied to entire groups as well (via the <GROUP> '''type''' attribute). In this case, the glyph will apply to the connecting regions '''between''' the components of the group.
 

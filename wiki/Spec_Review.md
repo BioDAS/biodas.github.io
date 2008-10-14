@@ -719,7 +719,7 @@ Instead, use the features request with a category of "component". See
 
 <code>
 
-*PREFIX*/das/*DSN*/sequence?segment=*RANGE*\[;segment=*RANGE*...\]
+*`PREFIX`*`/das/`*`DSN`*`/sequence?segment=`*`RANGE`*`[;segment=`*`RANGE`*`...]`  
 
 </code>
 
@@ -751,7 +751,8 @@ subsequence:
 
 #### Response:
 
-The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
+The response to <font color="blue"><i>sequence</i></font> is the
+"DASSEQUENCE" XML-formatted document.
 
 <b>Format:</b>
 
@@ -809,9 +810,6 @@ There is a single &lt;SEQUENCES&gt; tag per requested segment.
 `     IUPAC codes for DNA, RNA and protein.`
 
 </dl>
-</td>
-</tr>
-</table>
 ### Types Command
 
 *Retrieve the types of features offered by a data source*

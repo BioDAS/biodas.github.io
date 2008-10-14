@@ -508,9 +508,9 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 <b>Format:</b>
 
 <code>
-
-''PREFIX''/das/''DSN''/sequence?segment=''RANGE''[;segment=''RANGE''...]
-
+ 
+ ''PREFIX''/das/''DSN''/sequence?segment=''RANGE''[;segment=''RANGE''...]
+ 
 </code>
 
 <b>Description:</b> This query returns the sequence (nucleotide or
@@ -538,7 +538,7 @@ subsequence:
 
 ====Response:====
 
-The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
+The response to <font color="blue"><i>sequence</i></font> is the "DASSEQUENCE" XML-formatted document.
 
 <b>Format:</b>
 <blockquote>
@@ -586,11 +586,6 @@ The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
       The content of this tag is the sequence itself, using standard
       IUPAC codes for DNA, RNA and protein.
 </dl>
-
-</td>
-
-</tr>
-</table>
 
 ===Types Command===
 

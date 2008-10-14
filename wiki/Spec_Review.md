@@ -794,26 +794,15 @@ The appropriate doctype and root tag is DASSEQUENCE.
 &lt;SEQUENCE&gt; (required; one or more)
 
 <dd>
-There is a single &lt;SEQUENCES&gt; tag per requested segment. It has
-the
+There is a single &lt;SEQUENCES&gt; tag per requested segment.
 
-`   attributes `<b>`id`</b>`, which indicates the reference ID for this sequence,`  
-`     `<b>`start`</b>` and `<b>`stop`</b>`, which indicate the position of`  
-`     this segment within the reference sequence, `<font color="red">`Deprecate this as not consistent with registry and coordinate system?`<b>`moltype`</b>`,`  
-`     which indicates the molecular type of the sequence, and `<b>`version`</b>`,`  
-`     which provides the sequence map version number.  All five`  
-`     attributes are required.`  
-`     `
-
+`     It has the attributes `<b>`id`</b>`, which indicates the reference ID for this sequence, `<b>`start`</b>` and `<b>`stop`</b>`, which indicate the position of this segment within the reference sequence, `<font color="red">`Deprecate this as not consistent with registry and coordinate system?`</font>` `<font color="blue">`Yep`</font>` `<b>`moltype`</b>`, which indicates the molecular type of the sequence, and `<b>`version`</b>`, which provides the version of the reference sequence.`  
 `     The molecule type is one of `<i>`DNA`</i>`, `<i>`ssRNA`</i>`,`  
 `     `<i>`dsRNA`</i>`, or `<i>`Protein`</i>`.  No provision is made for`  
 `     circular molecules.`  
-`     `
-
+`     The version may be either a numerical value or a digest such as MD5 checksum.  All five attributes are required.`  
 `     The content of this tag is the sequence itself, using standard`  
 `     IUPAC codes for DNA, RNA and protein.`
-
-</font>
 
 </dl>
 </td>

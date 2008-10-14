@@ -179,10 +179,10 @@ predefined schema.
 
 ### The Request
 
-All DAS requests take the form of a URL. Each URL has a site-specific
-prefix, followed by a standardized path and query string. The
-standardized path begins with the string **/das**. This is followed by
-URL components containing the data source name and a
+All DAS requests take the form of a hierarchical URL. Each URL has a
+site-specific prefix, followed by a standardized path and query string.
+The standardized path begins with the string **/das**. This is followed
+by URL components containing the data source name and a
 command.<font color="red"> Should put some guidance or specify the
 ability for servers to accept encoded URLs</font> For example:
 <font color="red">How do we get everyone to specify say "chromosome1" in

@@ -1809,6 +1809,10 @@ multiple parents. </font>
 Feature Types and Categories
 ----------------------------
 
+<font color="blue">We can either remove this section entirely or, as I
+would prefer, replace it with one that talks about the ontology. Then
+the features and types command sections can refer here.</font>
+
 This is a list of generic feature categories and specific feature types
 within them. This list was derived from the features currently exported
 by ACeDB/GFF and is not comprehensive. Suggestions for modifications,

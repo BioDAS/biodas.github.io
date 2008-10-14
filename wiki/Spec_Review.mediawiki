@@ -658,7 +658,9 @@ The document returned from the ''types'' request is an XML-formatted "DASTYPES" 
 
 ----
 
-===Retrieve the Annotations Across a Segment (features cmd)===
+===Features Command===
+
+''Retrieve the annotations for all or part of a reference object''
 
 '''Scope:''' Reference and annotation servers.
 
@@ -676,7 +678,6 @@ The document returned from the ''types'' request is an XML-formatted "DASTYPES" 
                                        [;category=''CATEGORY'']
                                        [;categorize=''yes|no'']
                                        <font style="background-color: #DEB887">[;feature_id=ID]</font>
- 
                                        <font style="background-color: #DEB887">[;group_id=ID]</font>
 
 </code>
@@ -698,7 +699,19 @@ The document returned from the ''types'' request is an XML-formatted "DASTYPES" 
 ; '''group_id'''<font style="background-color: #DEB887"> (zero or more; new in 1.5)</font>
 : The '''group_id''' argument, is similar to '''feature_id''', but retrieves segments that contain the indicated feature group.
 
-<font color="red">Servers should return annotations which overlap the segment, but are not completely contained within them. Annotations '''must''' be returned using the coordinate system in which they were requested.Annotation servers are no longer allowed to only return annotations which are completely contained within the indicated segment. Annotations '''must''' be returned using the coordinate system in which they were requested. For example, if a contig ID was used to specify the segment, then the annotation endpoints must use contig coordinates.</font>
+<font color="red">Annotations '''must''' be returned using the coordinate system in which they were requested. For example, if a contig ID was used to specify the segment, then the annotation endpoints must use contig coordinates.</font> <font color="red">Servers should return annotations which overlap the segment, but are not completely contained within them. Annotation servers are no longer allowed to only return annotations which are completely contained within the indicated segment.</font> <font color="blue">This is confusing. Better as: Servers should return annotations which lie wholly or partially within the query segment. For example:</font>
+
+<code>
+ 
+        -------------------
+               Query       
+ 
+ -----   ---   -------    -----------   -----
+   A      B       C            D          E  
+ 
+</code>
+
+<font color="blue">In the above example, the server should return annotations B and C because they lie wholly within the query segment, and annotation D because it lies partially within the query segment.</font>
 
 If multiple segment arguments are provided and they happen to overlap, then the annotation server may return the same annotation multiple times, possibly using different coordinate systems. It is the responsibility of the client to merge annotations based on the assembly.
 

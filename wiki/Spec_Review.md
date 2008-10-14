@@ -1351,7 +1351,9 @@ The ID of the indicated annotation field.
 
 ------------------------------------------------------------------------
 
-### Retrieving the Stylesheet
+### Stylesheet Command
+
+*Retrieve guidelines for how to render annotations offered by a server.*
 
 **Scope:** Annotation servers.
 
@@ -1375,8 +1377,8 @@ free to use any display format it chooses.
 #### Response:
 
 This document is intended to provide hints to the annotation display
-client. It maps feature categories and individual types to a series of
-glyphs known to the display client.
+client. It maps feature categories and types to a series of glyphs known
+to the display client.
 
 **Format:**
 
@@ -1545,54 +1547,46 @@ more information.
 Here is a short stylesheet example:
 
 `           ...`  
-`     `<CATEGORY id="Similarity">  
+`     `<CATEGORY id="inferred from similarity (ECO:0000041)">  
 `   `<TYPE id="default">  
 `        `<GLYPH>  
-  
 `                  `<LINE>  
 `              `<FGCOLOR>`gray`</FGCOLOR>  
 `                  `</LINE>  
 `        `</GLYPH>  
 `   `</TYPE>  
-  
-`   `<TYPE id="NN">  
+`   `<TYPE id="SO:0001066">  
 `        `<GLYPH >  
 `                  `<BOX>  
 `              `<HEIGHT>`4`</HEIGHT>  
 `              `<FGCOLOR>`black`</FGCOLOR>` `  
 `              `<BGCOLOR>`red`</BGCOLOR>  
-  
 `                  `</BOX>  
 `        `</GLYPH>  
 `   `</TYPE>  
-`   `<TYPE id="NP">  
+`   `<TYPE id="SO:0100013">  
 `        `<GLYPH>  
 `                  `<TOOMANY>  
-  
 `              `<HEIGHT>`4`</HEIGHT>  
 `              `<FGCOLOR>`black`</FGCOLOR>  
 `              `<BGCOLOR>`blue`</BGCOLOR>  
 `                  `</TOOMANY>  
-  
 `        `</GLYPH>  
 `   `</TYPE>  
-`   `<TYPE id="PN">  
+`   `<TYPE id="SO:0001073">  
 `        `<GLYPH>  
 `                  `<BOX>  
 `              `<HEIGHT>`3`</HEIGHT>  
-  
 `              `<FGCOLOR>`blue`</FGCOLOR>  
 `              `<BGCOLOR>`green`</BGCOLOR>  
 `                  `</BOX>  
 `        `</GLYPH>  
 `   `</TYPE>  
-  
-`   `<TYPE id="PP">  
+`   `<TYPE id="SO:0001074">  
 `        `<GLYPH>  
 `                  `<SPAN>  
 `              `<HEIGHT>`4`</HEIGHT>  
 `              `<FGCOLOR>`gray`</FGCOLOR>  
-  
 `                  `</SPAN>  
 `        `</GLYPH>  
 `   `</TYPE>  
@@ -1604,7 +1598,8 @@ the category named "group". Typically a group will be associated with
 the "line" glyph, which as described below, draws connections between
 the members of a group.
 
-A sample stylesheet used for the WormBase DAS server can be found at
+<font color="blue">Provide an ontology-updated stylesheet: </font>A
+sample stylesheet used for the WormBase DAS server can be found at
 \[sample\_stylesheet.xml
 <http://www.biodas.org/documents/sample_stylesheet.xml>\].
 

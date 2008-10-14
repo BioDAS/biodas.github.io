@@ -717,7 +717,7 @@ Instead, use the features request with a category of "component". See
 
 <b>Format:</b>
 
->     <i>PREFIX</i>/das/<i>DSN</i>/sequence?segment=<i>RANGE</i>[;segment=<i>RANGE</i>...]
+>     ''PREFIX''/das/''DSN''/sequence?segment=''RANGE''[;segment=''RANGE''...]
 
 <b>Description:</b> This query returns the sequence (nucleotide or
 protein) corresponding to the indicated segment.

@@ -334,11 +334,7 @@ The Queries
 
 This section lists the queries recognized by reference and annotation
 servers. Each of these queries begins with some site-specific prefix,
-denoted here as *PREFIX*. The other meta-variable used in these examples
-is *DSN*, which is a symbolic data source. (As seen the the \[\#request
-above example.\]) Data sources are standardized across DAS servers in
-such a way that a data source name has a one-to-one correspondence with
-a reference sequence. <font color="blue">This isn't true - delete</font>
+denoted here as *PREFIX*.
 
 ### Sources Command
 

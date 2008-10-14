@@ -1593,11 +1593,6 @@ Here is a short stylesheet example:
 `     `</CATEGORY>  
 `      ...`  
 
-Groups can also have stylesheet entries. If present, they are located in
-the category named "group". Typically a group will be associated with
-the "line" glyph, which as described below, draws connections between
-the members of a group.
-
 <font color="blue">Provide an ontology-updated stylesheet: </font>A
 sample stylesheet used for the WormBase DAS server can be found at
 \[sample\_stylesheet.xml
@@ -1608,44 +1603,50 @@ sample stylesheet used for the WormBase DAS server can be found at
 Glyphs and their attributes are typically applied to individual
 features. However, they can be applied to entire groups as well (via the
 <GROUP> **type** attribute). In this case, the glyph will apply to the
-connecting regions **between** the components of the group.
+connecting regions **between** the <font color="blue">individual
+features within the group. Glyphs for groups are identified in the
+stylesheet using the special category named "group".</font>
 
 For example, to indicate that the exons in a "transcript" group should
 be drawn with a yellow box, that the utrs should be drawn with a blue
 box, and that the connections between exons should be drawn with a
 hat-shaped line:
 
-<CATEGORY id="Transcription">  
-`   `<TYPE id="exon">  
+<font color="blue">Note that these terms aren't in the BS ontology
+because it is still protein-specific!</font>
+
+<CATEGORY id="inferred from electronic annotation (ECO:00000067)">  
+  
+`   `<TYPE id="SO:0000147">` `  
 `      `<GLYPH>  
 `         `<BOX>  
 `            `<BGCOLOR>`yellow`</BGCOLOR>  
-  
 `         `</BOX>  
 `      `</GLYPH>  
 `   `</TYPE>  
   
-`   `<TYPE id="utr">  
+`   `<TYPE id="SO:0000203">` `  
 `      `<GLYPH>  
 `         `<BOX>  
-  
 `            `<BGCOLOR>`blue`</BGCOLOR>  
 `         `</BOX>  
 `      `</GLYPH>  
 `   `</TYPE>  
+  
 </CATEGORY>  
   
 <CATEGORY id="group">  
-<TYPE id="transcript">  
-`   `<GLYPH>  
-`      `<LINE>  
-`         `<FGCOLOR>`black`</FGCOLOR>  
-`         `<LINE_STYLE>`hat`</LINE_STYLE>  
   
-`      `</LINE>  
-`   `</GLYPH>  
-</TYPE>  
-`...`
+`   `<TYPE id="SO:0000673">` `  
+`      `<GLYPH>  
+`         `<LINE>  
+`            `<FGCOLOR>`black`</FGCOLOR>  
+`            `<LINE_STYLE>`hat`</LINE_STYLE>  
+`         `</LINE>  
+`      `</GLYPH>  
+`   `</TYPE>
+
+</CATEGORY>
 
 ------------------------------------------------------------------------
 

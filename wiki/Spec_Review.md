@@ -742,8 +742,8 @@ Here is an example of a valid request that uses the <b>segment</b>
 argument to fetch three independent segments. The last segment is a
 subsequence:
 
-        http://www.wormbase.org/db/das/elegans/sequence?
-            segment=BUM;segment=HUM_HGA;segment=CE_HOC2:1,200
+        http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/sequence?
+            segment=P00280;segment=P15056;segment=P51587:200,300
 
 #### Response:
 

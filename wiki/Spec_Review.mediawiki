@@ -497,11 +497,13 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 
 ----
 
-===Retrieve the Sequence Associated with a Subsequence (sequence cmd)===
+===Sequence Command===
+
+''Retrieve the sequence for a reference object.''
+
 <b>Scope:</b> Reference servers.
 
 <b>Command:</b> <i>sequence</i>
-
 
 <b>Format:</b>
 
@@ -509,11 +511,8 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 <i>PREFIX</i>/das/<i>DSN</i>/sequence?segment=<i>RANGE</i>[;segment=<i>RANGE</i>...]
 </pre></blockquote>
 
-
 <b>Description:</b> This query returns the sequence (nucleotide or
 protein) corresponding to the indicated segment.
-
-
 
 <b>Arguments:</b>
 
@@ -535,11 +534,9 @@ subsequence:
         segment=BUM;segment=HUM_HGA;segment=CE_HOC2:1,200
 </pre>
 
-====The Sequence Response====
-
+====Response:====
 
 The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
-
 
 <b>Format:</b>
 <blockquote>
@@ -597,7 +594,6 @@ The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
       IUPAC codes for DNA, RNA and protein.
 </font>
 </dl>
-
 
 </td>
 

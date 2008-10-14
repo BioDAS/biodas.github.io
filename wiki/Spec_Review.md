@@ -707,7 +707,9 @@ Instead, use the features request with a category of "component". See
 
 ------------------------------------------------------------------------
 
-### Retrieve the Sequence Associated with a Subsequence (sequence cmd)
+### Sequence Command
+
+*Retrieve the sequence for a reference object.*
 
 <b>Scope:</b> Reference servers.
 
@@ -743,7 +745,7 @@ subsequence:
         http://www.wormbase.org/db/das/elegans/sequence?
             segment=BUM;segment=HUM_HGA;segment=CE_HOC2:1,200
 
-#### The Sequence Response
+#### Response:
 
 The response to <i>dna</i> is the "DASSEQUENCE" XML-formatted document.
 

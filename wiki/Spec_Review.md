@@ -402,7 +402,7 @@ response <font color="blue">I'm not sure whether this should actually be
 part of the spec - could be confused with stylesheet
 command?</font><font color="red"> We should probably highlight the fact
 that there is a difference and that this is for display in a web browser
-not how to display in a client.
+not how to display in a client.</font>
 
 </td>
 </tr>

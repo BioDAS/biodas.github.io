@@ -103,31 +103,32 @@ Some example coordinate systems:
 
 ### Reference & Annotation Servers
 
-DAS distinguishes between two types of server, each providing different
-types of data. A reference server is a DAS server that provides core
-data for the reference objects in a particular coordinate system. For
-example, the reference server for "UniProt Protein sequence" provides
-the actual sequence for each UniProt entry. It does this by implementing
-the DAS *sequence* command. Annotation servers are specialized for
-returning lists of annotations for the reference objects within a
-coordinate system. This is done by implementing the DAS *features*
-command.
+A reference server is a DAS server that provides core data for the
+reference objects in a particular coordinate system. For example, the
+reference server for "UniProt Protein sequence" provides the actual
+sequence for each UniProt entry. It does this by implementing the DAS
+*sequence* command. So that clients can discover the available reference
+objects in a coordinate system, a reference server must also list them
+via the *entry\_points* command.
+
+Annotation servers are specialized for returning lists of annotations
+for the reference objects within a coordinate system. This is done by
+implementing the DAS *features* command.
 
 <font color="blue">In future versions of the spec (i.e. those not
 focussed entirely on sequence) this will be generalised. That is,
 reference objects won't be assumed to be sequences and annotations won't
 be assumed to be sequence features.</font>
 
-The distinction between reference and annotation servers is conceptual
-rather than physical. That is, a single server instance can in fact play
-both roles by offering offer both sequences and annotations of those
-sequences.
+**Note:** The distinction between reference and annotation servers is
+conceptual rather than physical. That is, a single server instance can
+in fact play both roles by offering offer both sequences and annotations
+of those sequences.
 
-**Note:** it is perfectly valid for a server to support multiple
-coordinate systems. Since some coordinate systems are subsets of other
-coordinate systems (such as the case in genomic assemblies), this can
-mean that annotation servers can potentially server the same annotations
-on several coordinate systems.
+**Note:** A server may support multiple coordinate systems. Since some
+coordinate systems are subsets of others (such as chromosomes, contigs
+and clones), this can mean that annotation servers can potentially serve
+the same annotations on several coordinate systems.
 
 <font color="blue">In my opinion, the registry coordinate systems XML
 (i.e. <http://www.dasregistry.org/das/coordinatesystem>) should be used

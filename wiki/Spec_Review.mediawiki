@@ -429,7 +429,10 @@ to automatically update the registration for these DAS servers.</li>
 
 ----
 
-===Retrieve the List of Entry Points for a Data Source (entry_points cmd)===
+===Entry Points Command===
+
+''Retrieve the list of reference objects for a data source''
+
 <font color="red">This Entry_Points cmd is now mandatory for reference servers.</font>
 '''Scope:''' Reference servers.
 
@@ -438,11 +441,7 @@ to automatically update the registration for these DAS servers.</li>
 '''Format:'''
 
 <code>
-
- 
  ''PREFIX''/das/''DSN''/entry_points
- 
-
 </code>
 
 '''Description:''' This query returns the list of sequence entry points available and their sizes in base pairs.
@@ -461,8 +460,6 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 '''Format:'''
 
 <code>
-
- 
  <?xml version="1.0" standalone="no"?>
  <!DOCTYPE DASEP SYSTEM "http://www.biodas.org/dtd/dasep.dtd">
  <DASEP>
@@ -475,7 +472,6 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
      ...
    </ENTRY_POINTS>
  </DASEP>
-
 </code>
 
 ; <!DOCTYPE> (required; one only)

@@ -600,7 +600,9 @@ server
 
 ------------------------------------------------------------------------
 
-### Retrieve the List of Entry Points for a Data Source (entry\_points cmd)
+### Entry Points Command
+
+*Retrieve the list of reference objects for a data source*
 
 <font color="red">This Entry\_Points cmd is now mandatory for reference
 servers.</font> **Scope:** Reference servers.
@@ -611,7 +613,7 @@ servers.</font> **Scope:** Reference servers.
 
 <code>
 
-*`PREFIX`*`/das/`*`DSN`*`/entry_points`  
+*`PREFIX`*`/das/`*`DSN`*`/entry_points`
 
 </code>
 

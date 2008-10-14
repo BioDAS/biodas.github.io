@@ -1598,6 +1598,258 @@ sample stylesheet used for the WormBase DAS server can be found at
 \[sample\_stylesheet.xml
 <http://www.biodas.org/documents/sample_stylesheet.xml>\].
 
+#### Glyph Types
+
+This section describes a set of generic "glyphs" that can be used by
+sequence display programs to display the position of features on a
+sequence map. The annotation server may use these glyphs to send display
+suggestions to the viewer via the \[\#stylesheet stylesheet document\].
+
+The current set of glyph ID values are:
+
+-   ARROW
+-   ANCHORED\_ARROW
+-   BOX
+-   CROSS
+-   EX
+-   HIDDEN
+-   LINE
+-   SPAN
+-   TEXT
+-   TOOMANY
+-   TRIANGLE
+-   PRIMERS
+
+Each glyph has a set of attributes associated with it. Attribute values
+come in the following flavors. <font color="blue">Note that these are
+*types*' of element, not element names.</font>
+
+INT  
+An integer
+
+FLOAT  
+A floating point number (not currently used)
+
+STRING  
+A text string
+
+COLOR  
+A color. Colors can be specified using the "\#RRGGBB" format commonly
+used in HTML, or as one of the 16 IBM VGA colors recognized by Netscape
+and Internet Explorer. <font color="blue">Ensembl supports more than
+that...</font>
+
+BOOL  
+A boolean value, either "yes" or "no".
+
+FONT  
+A font. Any of the font identifiers recognized by Web browsers is
+acceptable, e.g. "helvetica".
+
+FONT\_STYLE  
+One of "bold", "italic", "underline".
+
+LINE\_STYLE  
+One of "hat", "solid", "dashed".
+
+Some attributes are shared by all glyphs. Others are glyph-specific. The
+following attributes are shared in common:
+
+HEIGHT  
+type: INT
+
+The height of the glyph, in pixels. For the text font, this is
+equivalent to the FONTSIZE attribute.
+
+FGCOLOR  
+type: COLOR
+
+The foreground color of the glyph. This is the line and outline color
+for graphical glyphs, and the font color for text glyphs.
+
+BGCOLOR  
+type: COLOR
+
+The background color of the glyph. For hollow glyphs, such as boxes,
+this is the color of the interior of the box. For solid glyphs, such as
+text, this is ignored
+
+LABEL  
+BOOL
+
+Whether the glyph should be labeled with its name, as dictated by the
+<FEATURE> **label** attribute in the DASGFF document.
+
+BUMP  
+BOOL
+
+Whether the glyph should "bump" intersecting glyphs so that they do
+not overlap.
+
+**<em>ARROW</em>**
+
+A double-headed arrow with an axis either orthogonal or parallel to the
+sequence map.
+
+Attributes:
+
+PARALLEL  
+type: BOOL
+
+Arrows run either parallel ("yes") or orthogonal("no") to the
+sequence axis.
+
+**<em>ANCHORED\_ARROW</em>**
+
+An arrow that has an arrowhead at one end, and an "anchor" (typically a
+diamond or line) at the other. The arrow points in the direction
+indicated by the <ORIENTATION> tag.
+
+Attributes:
+
+PARALLEL  
+type: BOOL
+
+Arrows run either parallel ("yes") or orthogonal("no") to the
+sequence axis.
+
+**<em>BOX</em>**
+
+A rectangular box.
+
+Attributes:
+
+LINEWIDTH  
+type: INT
+
+Width of the box outline.
+
+**<em>CROSS</em>**
+
+A cross "+". Common used for point mutations and other point-like
+features.
+
+Attributes:
+
+(no glyph-specific attributes)
+
+**<em>DOT</em>**
+
+A dot. Common used for point mutations and other point-like features.
+
+Attributes:
+
+(no glyph-specific attributes)
+
+**<em>EX</em>**
+
+"X" marks the spot. Common used for point mutations and other point-like
+features.
+
+Attributes:
+
+(no glyph-specific attributes)
+
+**<em>HIDDEN</em>**
+
+A feature that is invisible, intended to support semantic zooming
+schemes in which a feature is hidden at particular zooms.
+
+Attributes: none.
+
+**<em>LINE</em>**
+
+A line. Lines are equivalent to arrows with both the <em>northeast</em>
+and <em>southwest</em> attributes set to "no".
+
+Attributes:
+
+STYLE  
+type: LINE\_STYLE
+
+The line type. A type of "hat" draws an inverted V (commonly used
+for introns). A type of "solid" draws a horizontal solid line in the
+indicated color. A type of "dashed" draws a dashed horizonal line in the
+indicated color.
+
+**<em>SPAN</em>**
+
+A spanning region, the recommended representation is a horizontal line
+with vertical lines at each end.
+
+Attributes:
+
+(no glyph-specific attributes)
+
+**<em>TEXT</em>**
+
+A bit of text.
+
+Attributes:
+
+FONT  
+type: FONT
+
+The font.
+
+FONTSIZE  
+type: INT
+
+The font size.
+
+STRING  
+type: STRING
+
+The text to render.
+
+STYLE  
+type: FONT\_SYTLE
+
+The style in which to render this glyph. Multiple FONT\_STYLE attributes
+may be present.
+
+**<em>PRIMERS</em>**
+
+Two inward-pointing arrows connected by a line of a different color.
+Used for showing primer pairs and a PCR product. The length of the
+arrows is meaningless.
+
+There are no glyph-specific attributes, but in this context the
+foreground color is the color of the arrows, and the background color is
+the color of the line that connects them.
+
+**<em>TOOMANY</em>**
+
+Too many features than can be shown. Recommended for use in
+consolidating sequence homology hits. The recommended visual
+presentation is a set of overlapping boxes.
+
+Attributes:
+
+LINEWIDTH  
+type: INT
+
+Width of the glyph.
+
+**<em>TRIANGLE</em>**
+
+A triangle. Commonly used for point mutations and other point-like
+features. The triangle is always drawn in the center of its range, but
+its width and height can be controlled by HEIGHT and LINEWIDTH
+respectively.
+
+Attributes:
+
+LINEWIDTH  
+type: INT
+
+Width of the glyph.
+
+DIRECTION  
+One of "N", "E", "S", and "W"
+
+------------------------------------------------------------------------
+
 #### Glyphs and Groups
 
 Glyphs and their attributes are typically applied to individual
@@ -1978,257 +2230,6 @@ It is recommended, but not required, that the <FEATURE> section contain
 <NOTE>
 tags that provide further information on the nature of the experimental
 data.
-
-------------------------------------------------------------------------
-
-Glyph Types
------------
-
-This section describes a set of generic "glyphs" that can be used by
-sequence display programs to display the position of features on a
-sequence map. The annotation server may use these glyphs to send display
-suggestions to the viewer via the \[\#stylesheet stylesheet document\].
-
-The current set of glyph ID values are:
-
--   ARROW
--   ANCHORED\_ARROW
--   BOX
--   CROSS
--   EX
--   HIDDEN
--   LINE
--   SPAN
--   TEXT
--   TOOMANY
--   TRIANGLE
--   PRIMERS
-
-Each glyph has a set of attributes associated with it. Attribute values
-come in the following flavors:
-
-INT  
-An integer
-
-FLOAT  
-A floating point number (not currently used)
-
-STRING  
-A text string
-
-COLOR  
-A color. Colors can be specified using the "\#RRGGBB" format commonly
-used in HTML, or as one of the 16 IBM VGA colors recognized by Netscape
-and Internet Explorer.
-
-BOOL  
-A boolean value, either "yes" or "no".
-
-FONT  
-A font. Any of the font identifiers recognized by Web browsers is
-acceptable, e.g. "helvetica".
-
-FONT\_STYLE  
-One of "bold", "italic", "underline".
-
-LINE\_STYLE  
-One of "hat", "solid", "dashed".
-
-Some attributes are shared by all glyphs. Others are glyph-specific. The
-following attributes are shared in common:
-
-HEIGHT  
-type: INT
-
-The height of the glyph, in pixels. For the text font, this is
-equivalent to the FONTSIZE attribute.
-
-FGCOLOR  
-type: COLOR
-
-The foreground color of the glyph. This is the line and outline color
-for graphical glyphs, and the font color for text glyphs.
-
-BGCOLOR  
-type: COLOR
-
-The background color of the glyph. For hollow glyphs, such as boxes,
-this is the color of the interior of the box. For solid glyphs, such as
-text, this is ignored
-
-LABEL  
-BOOL
-
-Whether the glyph should be labeled with its name, as dictated by the
-<FEATURE> **label** attribute in the DASGFF document.
-
-BUMP  
-BOOL
-
-Whether the glyph should "bump" intersecting glyphs so that they do
-not overlap.
-
-### <em>ARROW</em>
-
-A double-headed arrow with an axis either orthogonal or parallel to the
-sequence map.
-
-Attributes:
-
-PARALLEL  
-type: BOOL
-
-Arrows run either parallel ("yes") or orthogonal("no") to the
-sequence axis.
-
-### <em>ANCHORED\_ARROW</em>
-
-An arrow that has an arrowhead at one end, and an "anchor" (typically a
-diamond or line) at the other. The arrow points in the direction
-indicated by the <ORIENTATION> tag.
-
-Attributes:
-
-PARALLEL  
-type: BOOL
-
-Arrows run either parallel ("yes") or orthogonal("no") to the
-sequence axis.
-
-### <em>BOX</em>
-
-A rectangular box.
-
-Attributes:
-
-LINEWIDTH  
-type: INT
-
-Width of the box outline.
-
-### <em>CROSS</em>
-
-A cross "+". Common used for point mutations and other point-like
-features.
-
-Attributes:
-
-(no glyph-specific attributes)
-
-### <em>DOT</em>
-
-A dot. Common used for point mutations and other point-like features.
-
-Attributes:
-
-(no glyph-specific attributes)
-
-### <em>EX</em>
-
-"X" marks the spot. Common used for point mutations and other point-like
-features.
-
-Attributes:
-
-(no glyph-specific attributes)
-
-### <em>HIDDEN</em>
-
-A feature that is invisible, intended to support semantic zooming
-schemes in which a feature is hidden at particular zooms.
-
-Attributes: none.
-
-### <em>LINE</em>
-
-A line. Lines are equivalent to arrows with both the <em>northeast</em>
-and <em>southwest</em> attributes set to "no".
-
-Attributes:
-
-STYLE  
-type: LINE\_STYLE
-
-The line type. A type of "hat" draws an inverted V (commonly used
-for introns). A type of "solid" draws a horizontal solid line in the
-indicated color. A type of "dashed" draws a dashed horizonal line in the
-indicated color.
-
-### <em>SPAN</em>
-
-A spanning region, the recommended representation is a horizontal line
-with vertical lines at each end.
-
-Attributes:
-
-(no glyph-specific attributes)
-
-### <em>TEXT</em>
-
-A bit of text.
-
-Attributes:
-
-FONT  
-type: FONT
-
-The font.
-
-FONTSIZE  
-type: INT
-
-The font size.
-
-STRING  
-type: STRING
-
-The text to render.
-
-STYLE  
-type: FONT\_SYTLE
-
-The style in which to render this glyph. Multiple FONT\_STYLE attributes
-may be present.
-
-### <em>PRIMERS</em>
-
-Two inward-pointing arrows connected by a line of a different color.
-Used for showing primer pairs and a PCR product. The length of the
-arrows is meaningless.
-
-There are no glyph-specific attributes, but in this context the
-foreground color is the color of the arrows, and the background color is
-the color of the line that connects them.
-
-### <em>TOOMANY</em>
-
-Too many features than can be shown. Recommended for use in
-consolidating sequence homology hits. The recommended visual
-presentation is a set of overlapping boxes.
-
-Attributes:
-
-LINEWIDTH  
-type: INT
-
-Width of the glyph.
-
-### <em>TRIANGLE</em>
-
-A triangle. Commonly used for point mutations and other point-like
-features. The triangle is always drawn in the center of its range, but
-its width and height can be controlled by HEIGHT and LINEWIDTH
-respectively.
-
-Attributes:
-
-LINEWIDTH  
-type: INT
-
-Width of the glyph.
-
-DIRECTION  
-One of "N", "E", "S", and "W"
 
 ------------------------------------------------------------------------
 

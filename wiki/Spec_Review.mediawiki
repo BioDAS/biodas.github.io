@@ -86,7 +86,8 @@ The DAS registry is a special component of DAS, fulfilling the following roles:
 # Automatically validates registered DAS sources to ensure that they correctly implement the protocol
 # Periodically tests DAS sources and notifies their administrators if they are unavailable
 # Provides a mechanism for activating or highlighting individual DAS services in clients
-<font color="red> Maybe it's a good idea to have a list of cmds that you can perform on the registry such as /das1/sources and / </font>
+
+<font color="red> Maybe it's a good idea to have a list of cmds that you can perform on the registry such as /das1/sources and http://www.dasregistry.org/das/coordinatesystem </font>
 
 ===Clients===
 

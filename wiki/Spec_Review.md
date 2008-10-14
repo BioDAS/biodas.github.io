@@ -152,6 +152,9 @@ roles:
 5.  Provides a mechanism for activating or highlighting individual DAS
     services in clients
 
+&lt;font color="red&gt; Maybe it's a good idea to have a list of cmds
+that you can perform on the registry such as /das1/sources and / </font>
+
 ### Clients
 
 A DAS client typically integrates data from a number of DAS servers,

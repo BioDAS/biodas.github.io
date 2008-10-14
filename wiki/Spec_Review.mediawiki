@@ -507,9 +507,11 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 
 <b>Format:</b>
 
-<blockquote><pre>
-''PREFIX''/das/''DSN''/sequence?segment=''RANGE''[;segment=''RANGE''...]
-</pre></blockquote>
+<blockquote>
+<pre>
+PREFIX/das/DSN/sequence?segment=RANGE[;segment=RANGE...]
+</pre>
+</blockquote>
 
 <b>Description:</b> This query returns the sequence (nucleotide or
 protein) corresponding to the indicated segment.

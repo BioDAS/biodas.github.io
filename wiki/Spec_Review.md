@@ -621,7 +621,9 @@ server
 *Retrieve the list of reference objects for a data source*
 
 <font color="red">This Entry\_Points cmd is now mandatory for reference
-servers.</font> **Scope:** Reference servers.
+servers.</font>
+
+**Scope:** Reference servers.
 
 **Command:** *entry\_points*
 

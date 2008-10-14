@@ -1112,7 +1112,9 @@ For example, to indicate that the exons in a "transcript" group should be drawn 
 
 ----
 
-==<font color="red">Fetching Sequence Assemblies We are proposing to deprecate this as not many people use it????==
+==Fetching Sequence Assemblies==
+
+<font color="red"> We are proposing to deprecate this as not many people use it.
 
 Reference servers, but not annotation servers, must represent and serve genome assemblies.
 
@@ -1140,7 +1142,6 @@ For example:
 A request for this assembly will look like the following:
 
 <code>
-
  
  http://www.wormbase.org/db/das/elegans/features?segment=chr22:1,1000;category=component
 

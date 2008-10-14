@@ -832,7 +832,11 @@ The request for a named segment may fail because: (1) the reference sequence is 
 
 ----
 
-===<font color="red">We are proposing to remove Linking to a Feature from the spec, as implementations tend to use a separate web server anyway===
+===Link command===
+
+''Linking to a feature.''
+
+<font color="red">We are proposing to remove this command, as implementations tend to use a separate web server anyway
 
 '''Scope:''' Annotation servers.
 

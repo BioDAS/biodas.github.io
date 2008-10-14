@@ -1308,7 +1308,12 @@ HMMER Version: 2.3.2
 
 ------------------------------------------------------------------------
 
-### <font color="red">We are proposing to remove Linking to a Feature from the spec, as implementations tend to use a separate web server anyway
+### Link command
+
+*Linking to a feature.*
+
+<font color="red">We are proposing to remove this command, as
+implementations tend to use a separate web server anyway
 
 **Scope:** Annotation servers.
 

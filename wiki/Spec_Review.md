@@ -709,7 +709,7 @@ Instead, use the features request with a category of "component". See
 
 ### Sequence Command
 
-*Retrieve the sequence for a reference object.*
+*Retrieve all or part of the sequence for a reference object.*
 
 <b>Scope:</b> Reference servers.
 

@@ -499,7 +499,7 @@ The response to the ''entry_points'' command is the "DASEP" XML-formatted docume
 
 ===Sequence Command===
 
-''Retrieve the sequence for a reference object.''
+''Retrieve all or part of the sequence for a reference object.''
 
 <b>Scope:</b> Reference servers.
 

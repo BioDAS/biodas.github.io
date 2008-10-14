@@ -915,9 +915,10 @@ of the segment, and are required if the segment corresponds to a defined
 region of the genome, optional if the list of types corresponds to the
 entire database. The **version** attribute (required) indicates the
 current version of the sequence map. The optional **label** attribute
-supplies a human readable label for display purposes. The optional type
-attribute describes the segment type, for future compatibility with
-Sequence Ontology-based feature typing.
+supplies a human readable label for display purposes.
+<font color="blue">DEPRECATE: </font>The optional type attribute
+describes the segment type, for future compatibility with Sequence
+Ontology-based feature typing.
 
 <TYPE> (optional; zero or more per SEGMENT)  
 Each segment has zero or more <TYPE> tags, which summarize the types of

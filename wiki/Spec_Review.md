@@ -964,7 +964,7 @@ across the segment.
 `                                      [;type=`*`TYPE`*`]`  
 `                                      [;category=`*`CATEGORY`*`]`  
 `                                      [;category=`*`CATEGORY`*`]`  
-`                                      [;categorize=`*`yes|no`*`]`  
+`                                      [;categorize=`*`yes|no`*`] `<font color="blue">`deprecate...`</font>  
 `                                      `<font style="background-color: #DEB887">`[;feature_id=ID]`</font>  
 `                                      `<font style="background-color: #DEB887">`[;group_id=ID]`</font>
 
@@ -1002,7 +1002,8 @@ method of annotation e.g.ECO:0000032 "inferred from curated blast match
 to nucleic acid).
 
 **categorize** (optional)  
-<font color="red">what to do with this?</font> Either "yes" or
+<font color="red">what to do with this?</font>
+<font color="blue">Deprecate it: Assume "yes"</font> Either "yes" or
 "no" (default). If "yes", then each annotation must include its
 functional category.
 
@@ -1013,7 +1014,11 @@ of particular features. If the server supports this operation, it will
 translate the feature ID into the segment(s) that strictly enclose them
 and return the result in the *features* response. It is possible for the
 server to return multiple segments if the requested feature is present
-in multiple locations.
+in multiple locations. <font color="blue">At the moment the few servers
+that implement this don't just use feature\_id to identify the
+segment(s), they actually restrict on the feature ID... I'd say this
+behaviour is more valuable so perhaps we should specify it here.
+Likewise group\_id below:</font>
 
 **group\_id**<font style="background-color: #DEB887"> (zero or more; new in 1.5)</font>  
 The **group\_id** argument, is similar to **feature\_id**, but retrieves

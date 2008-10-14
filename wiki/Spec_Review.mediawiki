@@ -682,7 +682,7 @@ The document returned from the ''types'' request is an XML-formatted "DASTYPES" 
                                        [;type=''TYPE'']
                                        [;category=''CATEGORY'']
                                        [;category=''CATEGORY'']
-                                       [;categorize=''yes|no'']
+                                       [;categorize=''yes|no''] <font color="blue">deprecate...</font>
                                        <font style="background-color: #DEB887">[;feature_id=ID]</font>
                                        <font style="background-color: #DEB887">[;group_id=ID]</font>
 
@@ -699,9 +699,9 @@ The document returned from the ''types'' request is an XML-formatted "DASTYPES" 
 ; '''category''' (zero or more)
 : Zero or more category IDs to be used for filtering annotations by category. If multiple categories are provided, they are treated as the logical OR. For compatibility with versions 0.997 and earlier of this protocol, servers are allowed to treat the type ID as a regular expression, but this feature is '''deprecated''' and should not be relied on. (we also encourage the use of ECO numbers to represent the method of annotation e.g.ECO:0000032 "inferred from curated blast match to nucleic acid).
 ; '''categorize''' (optional)
-: <font color="red">what to do with this?</font> Either "yes" or "no" (default). If "yes", then each annotation must include its functional category.
+: <font color="red">what to do with this?</font> <font color="blue">Deprecate it: Assume "yes"</font> Either "yes" or "no" (default). If "yes", then each annotation must include its functional category.
 ; '''feature_id'''<font style="background-color: #DEB887"> (zero or more; new in 1.5)</font>
-: Instead of, or in addition to, '''segment''' arguments, you may provide one or more '''feature_id''' arguments, whose values are the identifiers of particular features. If the server supports this operation, it will translate the feature ID into the segment(s) that strictly enclose them and return the result in the ''features'' response. It is possible for the server to return multiple segments if the requested feature is present in multiple locations.
+: Instead of, or in addition to, '''segment''' arguments, you may provide one or more '''feature_id''' arguments, whose values are the identifiers of particular features. If the server supports this operation, it will translate the feature ID into the segment(s) that strictly enclose them and return the result in the ''features'' response. It is possible for the server to return multiple segments if the requested feature is present in multiple locations. <font color="blue">At the moment the few servers that implement this don't just use feature_id to identify the segment(s), they actually restrict on the feature ID... I'd say this behaviour is more valuable so perhaps we should specify it here. Likewise group_id below:</font>
 ; '''group_id'''<font style="background-color: #DEB887"> (zero or more; new in 1.5)</font>
 : The '''group_id''' argument, is similar to '''feature_id''', but retrieves segments that contain the indicated feature group.
 

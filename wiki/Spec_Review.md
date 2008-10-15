@@ -1160,20 +1160,16 @@ attribute can be used instead.
 
 <TYPE> (required; one per FEATURE)  
 Each feature has just one <TYPE> field, which indicates the type of
-the annotation. <font color="blue">The attributes are **id** (required)
-and category (required). The ID is a term ID from the Sequence Features
-Ontology (SO), Protein Modifications Ontology (MOD) or BioSapiens
-Ontology (BS), e.g. "SO:0000114". The **category** attribute indicates
-the evidence used to derive the annotation, selected from the Evidence
-Codes Ontology (ECO). It is formatted as: *term name (term ID)*, e.g.
-"inferred from experiment (ECO:0000006)". The tag contents (required) is
-the term name, e.g. "methylated\_C". HAVE REMOVED
+the annotation. <font color="blue">See the \[\#Feature
+Types\_and\_Categories Feature Types and Categories\] section for
+details of what this tag should contain. HAVE REMOVED
 REFERENCE/SUBPARTS/SUPERPARTS ATTRIBUTES.</font>
 
 <METHOD> (required; one per FEATURE)  
 Each feature has one <METHOD> field, which identifies the method used to
-identify the feature. The **id** (optional) tag can be used to retrieve
-further information from the annotation server. The tag
+identify the feature<font color="blue">, such as an experiment
+or algorithm. DELETE: The **id** (optional) tag can be used to retrieve
+further information from the annotation server. </font>The tag
 contents (optional) is a human readable label.
 
 <START>, <END> (<font color="red"> optional</font>; one apiece per FEATURE)  
@@ -1185,21 +1181,26 @@ segment start and stop is that the two spans are guaranteed to overlap.
 <SCORE> (<font color="red"> optional</font>; one per FEATURE)  
 This is a floating point number indicating the "score" of the method
 used to find the current feature. The number can only be understood in
-the context of information retrieved from the server by linking to
-the method. If this field is inapplicable, the contents of the tag can
-be replaced with a **-** symbol.
+the context of information retrieved <font color="blue">Replace with:
+"via the <LINK> element." from the server by linking to the
+method.</font> If this field is inapplicable, the contents of the tag
+can be replaced with a **-** symbol. <font color="blue">Omitting this
+element is equivalent to a value of **-**</font>
 
 <ORIENTATION> (<font color="red"> optional</font>; one per FEATURE)  
 This tag indicates the orientation of the feature relative to the
-direction of transcription. It may be for features that are unrelated to
-transcription, **+**, for features that are on the sense strand, and
-**-**, for features on the antisense strand.
+direction of transcription. It may be **0** for features that are
+unrelated to transcription, **+**, for features that are on the sense
+strand, and **-**, for features on the antisense strand.
+<font color="blue">Omitting this element is equivalent to a value of
+**0**.</font>
 
 <PHASE> (<font color="red"> optional</font>; one per FEATURE)  
 This tag indicates the position of the feature relative to open reading
-frame, if any. It may be one of the integers , **1** or **2**,
+frame, if any. It may be one of the integers **0**, **1** or **2**,
 corresponding to each of the three reading frames, or **-** if the
-feature is unrelated to a reading frame.
+feature is unrelated to a reading frame. <font color="blue">Omitting
+this element is equivalent to a value of **-**.</font>
 
 ;
 
@@ -1263,17 +1264,15 @@ display purposes.
 
 ; <TARGET> (optional; zero or more per GROUP)  
   
-The target sequence in a sequence similarity match. The **id** attribute
-provides the reference ID for the target sequence, and the **start** and
-**stop** attributes indicate the segment that matched across the
-target sequence. All three attributes are required. NOTE: although this
-tag is present in the GROUP section, it applies to the FEATURE, and it
-is preferred to place it directly in the <FEATURE> section. Earlier
-versions of this specification placed the TARGET tag in the GROUP
-section, and clients must recognize and accomodate this.
-
-To look up ontologies you could go here:
-"<http://www.ebi.ac.uk/ontology-lookup/>"
+<font color="blue">DEPRECATED</font> The target sequence in a sequence
+similarity match. The **id** attribute provides the reference ID for the
+target sequence, and the **start** and **stop** attributes indicate the
+segment that matched across the target sequence. All three attributes
+are required. NOTE: although this tag is present in the GROUP section,
+it applies to the FEATURE, and it is preferred to place it directly in
+the <FEATURE> section. Earlier versions of this specification placed the
+TARGET tag in the GROUP section, and clients must recognize and
+accomodate this.
 
 #### Example
 

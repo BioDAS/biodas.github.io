@@ -1517,15 +1517,15 @@ The category attribute of the <TYPE> element is the evidence term name, followed
 
 This is a list of generic feature categories and specific feature types within them. This list was derived from the features currently exported by ACeDB/GFF and is not comprehensive. Suggestions for modifications, additions and deletions are welcomed.
 
-===<em>component</em>===
+'''<em>component</em>'''
 
 This category indicates that the feature is a child component of the reference sequence in the current assembly. When combined with the '''reference="yes"''' attribute, this indicates that the feature can be used as a reference point to retrieve subfeatures contained within it (including subcomponents).
 
-===<em>supercomponent</em>===
+'''<em>supercomponent</em>'''
 
 This category indicates that the feature is the parent of the reference sequence in the current assembly. When combined with the '''reference="yes"''' attribute, this indicates that the feature can be used as a reference point to retrieve features that completely contain the selected range of the reference sequence.
 
-===<em>translation</em>===
+'''<em>translation</em>'''
 
 The <em>translation</em> category is used for features that relate to regions of the sequence that are translated into proteins. Features that relate to transcription are separate (see below).
 
@@ -1540,7 +1540,7 @@ Features:
 
 It is recommended, but not required, that the <FEATURE> section contain <LINK> and/or <NOTE> tags that provide further information on the transcription feature.
 
-===<em>transcription</em>===
+'''<em>transcription</em>'''
 
 The <em>transcription</em> category is used for features that relate to regions of the sequence that are transcribed into RNA.
 
@@ -1559,7 +1559,7 @@ Features:
 
 It is recommended, but not required, that the <FEATURE> section contain <LINK> and/or <NOTE> tags that provide further information on the transcription feature.
 
-===<em>variation</em>===
+'''<em>variation</em>'''
 
 The <em>variation</em> category is used for features that relate to regions of the sequence that are polymorphic.
 
@@ -1572,7 +1572,7 @@ Features:
 
 It is recommended, but not required, that the <FEATURE> section contain <LINK> and/or <NOTE> tags that provide further information on the variation.
 
-===<em>structural</em>===
+'''<em>structural</em>'''
 
 The <em>structural</em> category is used for features that relate to mapping, sequencing and assembly, as well as for various landmarks that carry no intrinsic biological information.
 
@@ -1587,7 +1587,7 @@ Features:
 
 It is recommended, but not required, that the <FEATURE> section contain <LINK> and/or <NOTE> tags that provide further information on the structural feature.
 
-===<em>similarity</em>===
+'''<em>similarity</em>'''
 
 The <em>similarity</em> category is used for areas that are similar to other sequences. Similarity features should have a <METHOD> tag that indicates the algorithm used for the sequence comparison, and a <TARGET> tag that indicates the target of the match.
 
@@ -1599,7 +1599,7 @@ Features:
 * PP -- protein to protein similarity (e.g. tblastx)
 * misc_homology
 
-===<em>repeat</em>===
+'''<em>repeat</em>'''
 
 The <em>repeat</em> category is used for areas that contain repetitive DNA. This category is used both for low-complexity regions, such as microsatellites, and for more biologically interesting features, such as transposon insertion sites.
 
@@ -1614,7 +1614,7 @@ Features:
 
 It is recommended, but not required, that the <FEATURE> section contain <LINK> and/or <NOTE> tags that provide further information on the repetitive element.
 
-===<em>experimental</em>===
+'''<em>experimental</em>'''
 
 The <em>experimental</em> category is a catchall used to flag areas where there is interesting experimental data of one sort or another. It is intended for use with high-throughput functional genomics work, such as knockouts or insertional mutagenesis screens.
 

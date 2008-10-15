@@ -2183,7 +2183,7 @@ within them. This list was derived from the features currently exported
 by ACeDB/GFF and is not comprehensive. Suggestions for modifications,
 additions and deletions are welcomed.
 
-### <em>component</em>
+**<em>component</em>**
 
 This category indicates that the feature is a child component of the
 reference sequence in the current assembly. When combined with the
@@ -2191,7 +2191,7 @@ reference sequence in the current assembly. When combined with the
 used as a reference point to retrieve subfeatures contained within it
 (including subcomponents).
 
-### <em>supercomponent</em>
+**<em>supercomponent</em>**
 
 This category indicates that the feature is the parent of the reference
 sequence in the current assembly. When combined with the
@@ -2199,7 +2199,7 @@ sequence in the current assembly. When combined with the
 used as a reference point to retrieve features that completely contain
 the selected range of the reference sequence.
 
-### <em>translation</em>
+**<em>translation</em>**
 
 The <em>translation</em> category is used for features that relate to
 regions of the sequence that are translated into proteins. Features that
@@ -2220,7 +2220,7 @@ It is recommended, but not required, that the <FEATURE> section contain
 <NOTE>
 tags that provide further information on the transcription feature.
 
-### <em>transcription</em>
+**<em>transcription</em>**
 
 The <em>transcription</em> category is used for features that relate to
 regions of the sequence that are transcribed into RNA.
@@ -2244,7 +2244,7 @@ It is recommended, but not required, that the <FEATURE> section contain
 <NOTE>
 tags that provide further information on the transcription feature.
 
-### <em>variation</em>
+**<em>variation</em>**
 
 The <em>variation</em> category is used for features that relate to
 regions of the sequence that are polymorphic.
@@ -2262,7 +2262,7 @@ It is recommended, but not required, that the <FEATURE> section contain
 <NOTE>
 tags that provide further information on the variation.
 
-### <em>structural</em>
+**<em>structural</em>**
 
 The <em>structural</em> category is used for features that relate to
 mapping, sequencing and assembly, as well as for various landmarks that
@@ -2283,7 +2283,7 @@ It is recommended, but not required, that the <FEATURE> section contain
 <NOTE>
 tags that provide further information on the structural feature.
 
-### <em>similarity</em>
+**<em>similarity</em>**
 
 The <em>similarity</em> category is used for areas that are similar to
 other sequences. Similarity features should have a <METHOD> tag that
@@ -2298,7 +2298,7 @@ Features:
 -   PP -- protein to protein similarity (e.g. tblastx)
 -   misc\_homology
 
-### <em>repeat</em>
+**<em>repeat</em>**
 
 The <em>repeat</em> category is used for areas that contain repetitive
 DNA. This category is used both for low-complexity regions, such as
@@ -2320,7 +2320,7 @@ It is recommended, but not required, that the <FEATURE> section contain
 <NOTE>
 tags that provide further information on the repetitive element.
 
-### <em>experimental</em>
+**<em>experimental</em>**
 
 The <em>experimental</em> category is a catchall used to flag areas
 where there is interesting experimental data of one sort or another. It

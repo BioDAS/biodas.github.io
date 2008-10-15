@@ -679,7 +679,7 @@ The document returned from the ''types'' request is an XML-formatted "DASTYPES" 
 <code>
 
  
- ''PREFIX''/das/''DSN''/features?segment=''REF:start,stop''[;segment=''REF:start,stop''...]
+ ''PREFIX''/das/''DSN''/features?segment=''REF[:start,stop]''[;segment=''REF:start,stop''...]
                                        [;type=''TYPE'']
                                        [;type=''TYPE'']
                                        [;category=''CATEGORY'']
@@ -695,9 +695,9 @@ The document returned from the ''types'' request is an XML-formatted "DASTYPES" 
 '''Arguments:'''
 
 ; '''segment''' (<font style="background-color: #DEB887">zero</font> or more)
-: If specified, the segment argument restricts the list of annotations to those that overlap the indicated range. Each segment argument uses the format format ''reference:start,stop'', where ''reference'' is the ID of the reference sequence used to establish the coordinate system, and ''start'' and ''stop'' are the endpoints of the region to query, inclusive. Multiple segments may be specified.
+: If specified, the segment argument restricts the list of annotations to those that overlap the indicated <font color="blue">reference object, or a specific range within the reference object. The argument uses the format segment=''reference'' or segment=''reference:start,stop''. Here,</font> ''reference'' is the ID of the reference object used to establish the coordinate system, and ''start'' and ''stop'' are the endpoints of the region to query, inclusive. Multiple segments may be specified. For example: ''features?segment='''REF1:100,200''';segment='''REF2'''''
 ; '''type''' (zero or more)
-: Zero or more type IDs to be used for filtering annotations on the type field. If multiple type names are provided, the resulting list of features will be the logical OR of the list. <font color="blue">Remove this bit:</font> For compatibility with versions 0.997 and earlier of this protocol, servers are allowed to treat the type ID as a regular expression, but this feature is '''deprecated''' and should not be relied on.
+: Zero or more type IDs to be used for filtering annotations on the type field. If multiple type <font color="blue">IDs</font> are provided, the resulting list of features will be the logical OR of the list. <font color="blue">Remove this bit:</font> For compatibility with versions 0.997 and earlier of this protocol, servers are allowed to treat the type ID as a regular expression, but this feature is '''deprecated''' and should not be relied on.
 ; '''category''' (zero or more)
 : Zero or more category IDs to be used for filtering annotations by category. If multiple categories are provided, they are treated as the logical OR. <font color="blue">Remove this bit:</font> For compatibility with versions 0.997 and earlier of this protocol, servers are allowed to treat the type ID as a regular expression, but this feature is '''deprecated''' and should not be relied on.
 ; '''categorize''' (optional)
@@ -778,7 +778,7 @@ The document returned from the ''features'' request is an XML-formatted "DASGFF"
 ; <GFF> (required; one only)
 : There is a single <GFF> tag. Its '''version''' (required) attribute indicates the current version of the XML form of the General Feature Format. The current version is (arbitrarily) 1.0 The '''href''' (required) attribute echoes the URL query that was used to fetch the current document. <font color="blue">Not used - deprecate in favour of the capabilities headers and registry?</font>
 ; <SEGMENT> (required; one or more)
-: The <SEGMENT> tag provides information on the reference segment coordinate system. The '''id''', '''start''' and '''stop''' attributes indicate the position of the segment. The '''version''' attribute indicates the current version of the sequence map. The id, start, stop, and version attributes are required. The optional '''label''' attribute provides a human readable label for display purposes. The optional type attribute describes the segment type, for future compatibility with Sequence Ontology-based feature typing. <font color="blue">If anything the type should refer to the coordinate system IMO - deprecate or change? Also, since start and stop are no longer required query parameters, should they be optional in the response?</font>
+: The <SEGMENT> tag provides information on the reference segment coordinate system. The '''id''', '''start''' and '''stop''' attributes indicate the position of the segment. <font color="blue">Since start and stop are no longer required query parameters, should they be optional in the response?</font> The '''version''' attribute indicates the current version of the sequence map. The id, start, stop, and version attributes are required. The optional '''label''' attribute provides a human readable label for display purposes. The optional type attribute describes the segment type, for future compatibility with Sequence Ontology-based feature typing. <font color="blue">If anything the type should refer to the coordinate system IMO - deprecate or change?</font>
 ; <FEATURE> (optional; zero or more per SEGMENT)
 : There are zero or more <FEATURE> tags per <SEGMENT>, each providing information on one annotation. The '''id''' attribute (required) is a unique identifier for the feature. It can be used as a reference point for further navigation. The '''label''' attribute (optional) is a suggested label to display for the feature. If not present, the '''id''' attribute can be used instead.
 ; <TYPE> (required; one per FEATURE)

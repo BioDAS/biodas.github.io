@@ -35,7 +35,8 @@ The unofficial DAS/1 version 1.53E (extended) specification is available
 at <http://www.dasregistry.org/spec_1.53E.jsp>
 
 [DAS/1/Overview](/wiki/DAS/1/Overview "wikilink") provides a glossary and list
-of concepts.
+of concepts. [DAS Plans](/wiki/DAS_Plans "wikilink") has some details of
+possible future improvements to DAS.
 
 DAS/1 Clients
 -------------

@@ -45,3 +45,9 @@ other options:
     sequence
 3.  alternative content negotiation
 
+### Bridging coordinate systems
+
+Alignments provide a way to bridge across 1:1 coordinate systems (e.g.
+UniProt protein sequence &lt;--&gt; Ensembl protein sequence). We can
+formalise this, and extend to cover genomic-protein bridging (i.e. 1:3
+relationships).

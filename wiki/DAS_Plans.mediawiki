@@ -24,3 +24,7 @@ Especially for DAS sources with simple per-base annotations, speed is an issue. 
 # move type etc outside each feature to avoid replication
 # allow a single feature to contain a set of scores across a region of sequence
 # alternative content negotiation
+
+===Bridging coordinate systems===
+
+Alignments provide a way to bridge across 1:1 coordinate systems (e.g. UniProt protein sequence <--> Ensembl protein sequence). We can formalise this, and extend to cover genomic-protein bridging (i.e. 1:3 relationships).

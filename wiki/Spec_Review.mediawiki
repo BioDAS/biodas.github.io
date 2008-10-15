@@ -73,9 +73,7 @@ Annotation servers are specialized for returning lists of annotations for the re
 
 '''Note:''' The distinction between reference and annotation servers is conceptual rather than physical. That is, a single server instance can in fact play both roles by offering offer both sequences and annotations of those sequences.
 
-'''Note:''' A server may support multiple coordinate systems. Since some coordinate systems are subsets of others (such as chromosomes, contigs and clones), this can mean that annotation servers can potentially serve the same annotations on several coordinate systems.
-
-<font color="blue">In my opinion, the registry coordinate systems XML (i.e. http://www.dasregistry.org/das/coordinatesystem) should be used to indicate coordinate systems that are subsets of each other which would avoid this problem - clients could then programmatically choose what to query with and what to avoid.</font>
+'''Note:''' A server may support multiple coordinate systems.
 
 ===The DAS Registry===
 

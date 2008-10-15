@@ -1134,7 +1134,8 @@ There is a single <GFF> tag. Its **version** (required) attribute
 indicates the current version of the XML form of the General
 Feature Format. The current version is (arbitrarily) 1.0 The
 **href** (required) attribute echoes the URL query that was used to
-fetch the current document.
+fetch the current document. <font color="blue">Not used - deprecate in
+favour of the capabilities headers and registry?</font>
 
 <SEGMENT> (required; one or more)  
 The <SEGMENT> tag provides information on the reference segment
@@ -1271,27 +1272,84 @@ the <FEATURE> section. Earlier versions of this specification placed the
 TARGET tag in the GROUP section, and clients must recognize and
 accomodate this.
 
-#### Example
-
-<TYPE id="SO:0000417" category="inferred from reviewed computational analysis (ECO:0000053)">polypeptide\_domain</TYPE>
-
-It is intended that larger annotation servers provide pointers to
-human-readable data that describes its types, methods and categories in
-more detail.
-
-| New in version 1.5: Exception Handling for Invalid Segments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The request for a named segment may fail because: (1) the reference sequence is not known to the server or (2) the requested region is outside the bounds of the segment. In both cases, an exception is indicated. In the case of a reference server, which is expected to be authoritative for the map, the <GFF> section will flag the problem by issuing an <ERRORSEGMENT> tag instead of the usual <SEGMENT> tag. This tag has the following format:<ERRORSEGMENT id="id" start="start" stop="stop">The **id** attribute (required) corresponds to the ID of the requested segment, and **start** and **stop** (optional) correspond to the requested bounds of the segment if this was specified in the request.Unlike a reference server, an annotation server is not required to know the identities of all the segments. Therefore when presented with a segment ID that it doesn't recognize, it can't know whether this is a true client error or merely an unannotated segment. In this case, an annotation server will issue an <UNKNOWNSEGMENT> tag. This tag has the same syntax as <ERRORSEGMENT> but doesn't necessarily imply an error.If an annotation server detects a request for a region outside the bounds of a segment that it has annotated, it will issue an <ERRORSEGMENT> exception.In the case of a request for multiple segments, the server will return a mixture of <SEGMENT> sections for valid segments, and <ERRORSEGMENT> or <UNKNOWNSEGMENT> sections for invalid ones. |
+It is intended that annotation servers provide pointers to
+human-readable data that describes its features and methods in more
+detail.
 
 #### Examples
 
-<DASGFF><GFF version="1.01" href="http://das.sanger.ac.uk:80/das/pfam/features"><SEGMENT id="P08487" version="d1dfb367c112d4820eeffe4eab1d6487" start="1" stop="1291"><FEATURE id="C2" label="C2:1090-1177"><TYPE id="SO:0000417" category="inferred from reviewed computational analysis (ECO:0000053)">polypeptide\_domain</TYPE><START>1090</START><END>1177</END><METHOD id="Pfam">Pfam-A</METHOD><SCORE>1.7e-18</SCORE>
+<code>
+
+<DASGFF>  
+`   `<GFF href="http://das.sanger.ac.uk/das/pfam/features">  
+`      `<SEGMENT id="P08487" version="d1dfb367c112d4820eeffe4eab1d6487" start="1" stop="1291">  
+`         `<FEATURE id="C2" label="C2:1090-1177">  
+`            `<TYPE id="SO:0000417" category="inferred from reviewed computational analysis (ECO:0000053)">`polypeptide_domain`</TYPE>  
+`            `<START>`1090`</START>  
+`            `<END>`1177`</END>  
+`            `<METHOD id="Pfam">`Pfam-A`</METHOD>  
+`            `<SCORE>`1.7e-18`</SCORE>  
+`            `
 
 <NOTE>
 HMMER Version: 2.3.2
 
 </NOTE>
-<LINK href="http://pfam.sanger.ac.uk/family?entry=PF00168">C2</LINK></FEATURE></SEGMENT></GFF></DASGFF>
+`            `<LINK href="http://pfam.sanger.ac.uk/family?entry=PF00168">`C2`</LINK>  
+`         `</FEATURE>  
+`      `</SEGMENT>  
+`   `</GFF>  
+</DASGFF>
+
+</code>
+
+### Exception Handling for Invalid Segments
+
+<font color="blue">Rewritten this section, no longer "new"</font>
+
+A request for the sequence or annotations of a named segment may fail
+because either:
+
+1.  the requested segment is outside the bounds of the reference object.
+2.  the reference object is not known to the server
+
+In both cases, an exception is indicated by issuing an <ERRORSEGMENT> or
+<UNKOWNSEGMENT> tag instead of the usual <SEGMENT> tag. In the case of a
+request for multiple segments, the server will return a mixture of
+<SEGMENT> sections for valid segments, and <ERRORSEGMENT> or
+<UNKNOWNSEGMENT> sections for invalid ones:
+
+<code>
+
+<ERRORSEGMENT id="id" start="start" stop="stop">  
+<UNKNOWNSEGMENT id="id" start="start" stop="stop">  
+<SEGMENT id="id" start="start" stop="stop" version="version">  
+`   ...`  
+</SEGMENT>
+
+</code>
+
+The **id** attribute (required) corresponds to the ID of the requested
+segment, and **start** and **stop** (optional) correspond to the
+*requested* bounds of the segment (if this was specified).
+
+An <UNKNOWNSEGMENT> exception will only be raised if:
+
+1.  the reference object is not known to the server **AND**
+2.  the server can not authoritatively identify that the requested
+    segment is erroneous
+
+Otherwise an <ERRORSEGMENT> exception is raised.
+
+For example a reference server, which is authoritative for the
+coordinate system, knows that any reference object it cannot identify
+must be erroroneous. It will therefore raise an <ERRORSEGMENT>. By
+contrast an annotation server, which is not required to know the
+identities of all the reference objects in the coordinate system, should
+respond by issuing an <UNKNOWNSEGMENT> tag - it does not know whether
+the request is erroneous or not. All servers should issue <ERRORSEGMENT>
+exceptions when they detect a query segment that is beyond the range of
+a reference object.
 
 ------------------------------------------------------------------------
 

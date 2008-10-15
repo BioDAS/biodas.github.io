@@ -1145,7 +1145,10 @@ indicates the current version of the sequence map. The id, start, stop,
 and version attributes are required. The optional **label** attribute
 provides a human readable label for display purposes. The optional type
 attribute describes the segment type, for future compatibility with
-Sequence Ontology-based feature typing.
+Sequence Ontology-based feature typing. <font color="blue">If anything
+the type should refer to the coordinate system IMO - deprecate or
+change? Also, since start and stop are no longer required query
+parameters, should they be optional in the response?</font>
 
 <FEATURE> (optional; zero or more per SEGMENT)  
 There are zero or more <FEATURE> tags per <SEGMENT>, each providing

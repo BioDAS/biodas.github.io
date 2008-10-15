@@ -682,8 +682,11 @@ The appropriate doctype and root tag is DASEP.
 <ENTRY_POINTS> (<font color="red">The start and stop are now optional</font>, only one)  
 There is a single <ENTRY_POINTS> tag. It has a version number (required)
 in the form "N.NN". Whenever the DNA of the entry point changes, the
-version number should change as well. The **href** (required) attribute
-echoes the URL query that was used to fetch the current document.
+version number should change as well. <font color="blue">This is not
+implemented to my knowledge. Versioning is handled by coordinate
+systems, or explicitly for each segment. I suggest this be
+DEPRECATED.</font> The **href** (required) attribute echoes the URL
+query that was used to fetch the current document.
 
 <SEGMENT> (optional; zero or more)  
 Each segment contains the attributes **id**, **start**, **stop** and

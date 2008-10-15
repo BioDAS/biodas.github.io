@@ -760,7 +760,7 @@ The document returned from the ''features'' request is an XML-formatted "DASGFF"
  	       <NOTE> ''note text'' </NOTE>
  	       <LINK href="''url''"> ''link text'' </LINK>
  
- 	       <TARGET id="id" start="x" stop="y">''target name''</TARGET>
+ 	       <TARGET id="id" start="x" stop="y">''target name''</TARGET> <font color="blue">DEPRECATED</font>
           </GROUP>
        </FEATURE>
        ...
@@ -798,7 +798,7 @@ The document returned from the ''features'' request is an XML-formatted "DASGFF"
 ; <LINK> (optional; zero or more per FEATURE)
 : A link to a web page somewhere that provides more information about this feature. The '''href''' (required) attribute provides the URL target for the link. The link text is an optional human readable label for display purposes.
 ; <TARGET> (optional; zero or more per FEATURE)
-: <font color="blue">Not really sure about this. Is anyone using it in this context? Does it make sense after removing the link command? Do we remove this now, or wait until alignments are properly supported?</font> The target sequence in a sequence similarity match. The '''id''' attribute provides the reference ID for the target sequence, and the '''start''' and '''stop''' attributes indicate the segment that matched across the target sequence. <font color="blue">If we keep target element really we need this the coordinate system in order to identify a reference object.</font>  All three attributes are required. More information on the target can be retrieved by linking back to the annotation server. See [#feature_linking Linking to a Feature].
+:  <font color="blue">DEPRECATED</font> The target sequence in a sequence similarity match. The '''id''' attribute provides the reference ID for the target sequence, and the '''start''' and '''stop''' attributes indicate the segment that matched across the target sequence. All three attributes are required. More information on the target can be retrieved by linking back to the annotation server. See [#feature_linking Linking to a Feature].
 ; <GROUP> (optional; zero or more per FEATURE)
 : The <GROUP> section is slightly odd, as it is derived from an overloaded field in the GFF flat file format. It provides a unique "group" ID that indicates when certain features are related to each other. The canonical example is the CDS, exons and introns of a transcribed gene, which logically belong together. The group '''id''' attribute (required) provides an identifier that should be used by the client to group features together visually. <font color="blue">Removing linking to features anyway... remove next sentence:</font> Unlike other IDs in this protocol, the group ID cannot be used as a database handle to retrieve further information about the group. Such information can, however, be provided within <GROUP> section, which may contain up to three optional tags.The '''label''' attribute (optional) provides a human-readable string that can be used in graphical representations to label the glyph.The '''type''' attribute (optional) provides a type ID for the group as a whole, for example "transcript". This ID can be used as a key into the [#stylesheet stylesheet] to select the glyph and graphical characteristics for the group as a whole.
 ;; <NOTE> (optional; zero or more per GROUP)

@@ -1023,17 +1023,18 @@ segments that contain the indicated feature group.
 <font color="blue">Servers may offer the same feature on several
 coordinate systems. In such a case, they will share a common feature ID
 and thus can be filtered by the client.</font>
-
 <font color="red">Annotations **must** be returned using the coordinate
 system in which they were requested. For example, if a contig ID was
 used to specify the segment, then the annotation endpoints must use
-contig coordinates.</font> <font color="red">Servers should return
-annotations which overlap the segment, but are not completely contained
-within them. Annotation servers are no longer allowed to only return
-annotations which are completely contained within the indicated
-segment.</font> <font color="blue">This is confusing. Better as: Servers
-should return annotations which lie wholly or partially within the query
-segment. For example:</font>
+contig coordinates.</font>
+
+<font color="red">Servers should return annotations which overlap the
+segment, but are not completely contained within them. Annotation
+servers are no longer allowed to only return annotations which are
+completely contained within the indicated segment.</font>
+<font color="blue">This is confusing. Better as: Servers should return
+annotations which lie wholly or partially within the query segment. For
+example:</font>
 
 <code>
 

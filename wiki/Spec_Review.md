@@ -2052,9 +2052,71 @@ multiple parents. </font>
 Feature Types and Categories
 ----------------------------
 
-<font color="blue">We can either remove this section entirely or, as I
-would prefer, replace it with one that talks about the ontology. Then
-the features and types command sections can refer here.</font>
+Annotations returned by the *features* command are classified by type.
+Specifically, the type refers to the class of data represented by the
+annotation. Previous versions of this specification gave guidelines for
+the content (or semantics) of a feature's type, but as of version 1.6
+DAS has formally adopted the use of ontologies for this purpose.
+
+The **type** of an annotation is selected from one of the following
+ontologies:
+
+| Ontology name                   | Ontology ID |
+|---------------------------------|-------------|
+| Sequence Types and Features     | SO          |
+| Protein Modifications (PSI-MOD) | MOD         |
+| BioSapiens Annotations          | BS          |
+
+The type is further classified by **category**. The category is a
+classification of how the annotation was derived, represented as
+*evidence*:
+
+| Ontology name  | Ontology ID |
+|----------------|-------------|
+| Evidence Codes | ECO         |
+
+All ontologies can be browsed and searched using the [Ontology Lookup
+Service](http://www.ebi.ac.uk/ontology-lookup/) at the European
+Bioinformatics Institute.
+
+These ontologies are applied to the DAS *features* response in the
+following manner:
+
+### Type ID
+
+The ID attribute of the <TYPE> element is the ontology term ID. For
+example:
+
+<code>
+
+`<TYPE `**`id="SO:0000114"`**` ... > ... `</TYPE>
+
+</code>
+
+### Type label
+
+The content of the <TYPE> element is the ontology term name. For
+example:
+
+<code>
+
+<TYPE id="SO:0000114"  ... >**`methylated_C`**</TYPE>
+
+</code>
+
+### Type category
+
+The category attribute of the <TYPE> element is the evidence term name,
+followed by the evidence term ID in parentheses. For example:
+
+<code>
+
+`<TYPE id="SO:0000114"  `**`category="inferred` `from` `experiment`
+`(ECO:0000006)"`**`>methylated_C`</TYPE>
+
+</code>
+
+<font color="blue">The following is DEPRECATED:
 
 This is a list of generic feature categories and specific feature types
 within them. This list was derived from the features currently exported
@@ -2220,7 +2282,7 @@ It is recommended, but not required, that the <FEATURE> section contain
 
 <NOTE>
 tags that provide further information on the nature of the experimental
-data.
+data. </font>
 
 ------------------------------------------------------------------------
 

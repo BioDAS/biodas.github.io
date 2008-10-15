@@ -1028,6 +1028,10 @@ Likewise group\_id below:</font>
 The **group\_id** argument, is similar to **feature\_id**, but retrieves
 segments that contain the indicated feature group.
 
+<font color="blue">Servers may offer the same feature on several
+coordinate systems. In such a case, they will share a common feature ID
+and thus can be filtered by the client.</font>
+
 <font color="red">Annotations **must** be returned using the coordinate
 system in which they were requested. For example, if a contig ID was
 used to specify the segment, then the annotation endpoints must use

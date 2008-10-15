@@ -1168,7 +1168,9 @@ contents (optional) is a human readable label.
 These tags indicate the start and end of the feature in the coordinate
 system of the reference sequence given in the <SEGMENT> tag. The
 relationship between the feature start and stop positions and the
-segment start and stop is that the two spans are guaranteed to overlap.
+segment start and stop is that the two spans are guaranteed to overlap
+<font color="blue">wholly or partially. Non-positional features do not
+have a start or end.</font>
 
 <SCORE> (<font color="red"> optional</font>; one per FEATURE)  
 This is a floating point number indicating the "score" of the method

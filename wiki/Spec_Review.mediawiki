@@ -786,7 +786,7 @@ The document returned from the ''features'' request is an XML-formatted "DASGFF"
 ; <METHOD> (required; one per FEATURE)
 : Each feature has one <METHOD> field, which identifies the method used to identify the feature<font color="blue">, such as an experiment or algorithm. DELETE: The '''id''' (optional) tag can be used to retrieve further information from the annotation server. </font>The tag contents (optional) is a human readable label.
 ; <START>, <END> (<font color="red"> optional</font>; one apiece per FEATURE)
-: These tags indicate the start and end of the feature in the coordinate system of the reference sequence given in the <SEGMENT> tag. The relationship between the feature start and stop positions and the segment start and stop is that the two spans are guaranteed to overlap.
+: These tags indicate the start and end of the feature in the coordinate system of the reference sequence given in the <SEGMENT> tag. The relationship between the feature start and stop positions and the segment start and stop is that the two spans are guaranteed to overlap <font color="blue">wholly or partially. Non-positional features do not have a start or end.</font>
 ; <SCORE> (<font color="red"> optional</font>; one per FEATURE)
 : This is a floating point number indicating the "score" of the method used to find the current feature. The number can only be understood in the context of information retrieved <font color="blue">Replace with: "via the <LINK> element." from the server by linking to the method.</font> If this field is inapplicable, the contents of the tag can be replaced with a '''-''' symbol. <font color="blue">Omitting this element is equivalent to a value of '''-'''</font>
 ; <ORIENTATION> (<font color="red"> optional</font>; one per FEATURE)

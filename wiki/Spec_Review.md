@@ -985,28 +985,23 @@ segments may be specified.
 Zero or more type IDs to be used for filtering annotations on the
 type field. If multiple type names are provided, the resulting list of
 features will be the logical OR of the list. <font color="blue">Remove
-this bit, and replace with: The type ID is the term ID from the SO, MOD
-or BS ontologies.</font> For compatibility with versions 0.997 and
-earlier of this protocol, servers are allowed to treat the type ID as a
-regular expression, but this feature is **deprecated** and should not be
+this bit:</font> For compatibility with versions 0.997 and earlier of
+this protocol, servers are allowed to treat the type ID as a regular
+expression, but this feature is **deprecated** and should not be
 relied on.
 
 **category** (zero or more)  
 Zero or more category IDs to be used for filtering annotations
 by category. If multiple categories are provided, they are treated as
-the logical OR. <font color="blue">Remove this bit, and replace with:
-The type category is the evidence code from the ECO ontology. It
-includes the term name and ID: category="inferred from curated blast
-match (ECO:0000032)".</font> For compatibility with versions 0.997 and
-earlier of this protocol, servers are allowed to treat the type ID as a
-regular expression, but this feature is **deprecated** and should not be
-relied on.
+the logical OR. <font color="blue">Remove this bit:</font> For
+compatibility with versions 0.997 and earlier of this protocol, servers
+are allowed to treat the type ID as a regular expression, but this
+feature is **deprecated** and should not be relied on.
 
 **categorize** (optional)  
-<font color="red">what to do with this?</font>
-<font color="blue">Deprecate it: Assume "yes"</font> Either "yes" or
-"no" (default). If "yes", then each annotation must include its
-functional category.
+Either "yes" or "no" (default). If "yes", then each annotation must
+include its functional category. <font color="blue">This parameter
+is DEPRECATED. The category is now mandatory in the response.</font>
 
 **feature\_id**<font style="background-color: #DEB887"> (zero or more; new in 1.5)</font>  
 Instead of, or in addition to, **segment** arguments, you may provide
@@ -1157,10 +1152,9 @@ attribute can be used instead.
 
 <TYPE> (required; one per FEATURE)  
 Each feature has just one <TYPE> field, which indicates the type of
-the annotation. <font color="blue">See the \[\#Feature
-Types\_and\_Categories Feature Types and Categories\] section for
-details of what this tag should contain. HAVE REMOVED
-REFERENCE/SUBPARTS/SUPERPARTS ATTRIBUTES.</font>
+the annotation. <font color="blue">See the **Feature Types and
+Categories** section for details of what this tag should contain. HAVE
+REMOVED REFERENCE/SUBPARTS/SUPERPARTS ATTRIBUTES.</font>
 
 <METHOD> (required; one per FEATURE)  
 Each feature has one <METHOD> field, which identifies the method used to

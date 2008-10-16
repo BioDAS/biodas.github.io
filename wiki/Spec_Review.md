@@ -215,10 +215,9 @@ be POSTed to the URL following conventional HTTP standards. Since some
 queries can be quite large, this is the recommended way of argument
 passing.
 
-**<font color="red">SOAP has not been widely adopted for das so should
-we delete this?</font><font color="blue">Yep!</font>** The request may
-be replaced with a SOAP-style XML-encapsulated document in future
-versions of this specification.
+'''<font color="blue">DELETE: The request may be replaced with a
+SOAP-style XML-encapsulated document in future versions of this
+specification.</font>
 
 ### The Response
 

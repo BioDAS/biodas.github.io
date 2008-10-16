@@ -330,7 +330,9 @@ The Queries
 
 This section lists the queries recognized by reference and annotation
 servers. Each of these queries begins with some site-specific prefix,
-denoted here as *PREFIX*.
+denoted here as *PREFIX*. The other meta-variable used in these examples
+is *DSN*, which is a symbolic data source (as seen in the \[\#request
+above example.\])
 
 <font color="blue">At present, there is no implementation of the
 "assembly traversal' features of DAS. In the interests of simplicity, we

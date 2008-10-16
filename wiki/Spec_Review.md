@@ -241,7 +241,7 @@ Here is an example HTTP header: (*provided by Web server*)
 `Last-Modified: Fri, 18 Feb 2000 20:57:52 GMT `  
 `Connection: close                            `  
 `Content-Type: text/plain                     `  
-`X-DAS-Version: DAS/1.5`  
+`X-DAS-Version: `<font color="blue">`DAS/1.6`</font>  
 `X-DAS-Status: 200`  
 `X-DAS-Capabilities: error-segment/1.0; unknown-segment/1.0; unknown-feature/1.0; ...`  
 <em>`data follows...`</em>

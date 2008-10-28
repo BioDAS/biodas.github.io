@@ -775,7 +775,7 @@ The response to <font color="blue"><i>sequence</i></font> is the
 >     &lt;!DOCTYPE DASSEQUENCE SYSTEM "http://www.biodas.org/dtd/dassequence.dtd"&gt;
 >     &lt;DASSEQUENCE&gt;
 >
->       &lt;SEQUENCE id="id" start="start" stop="stop"
+>       &lt;SEQUENCE id="id" start="start" stop="stop">
 >                    
 >           atttcttggcgtaaataagagtctcaatgagactctcagaagaaaattgataaatattat
 >           taatgatataataataatcttgttgatccgttctatctccagacgattttcctagtctcc

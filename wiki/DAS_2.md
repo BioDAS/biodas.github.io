@@ -31,22 +31,27 @@ retrieving code related to these projects.
 
 ### DAS/2 History
 
-DAS/2 diverged from from [DAS/1](/wiki/DAS/1 "wikilink") as a result of a
-variety of [RFCs (Requests for
-Comment)](http://biodas.org/RFCs/index.html) received from some users
-and implementers of the spec. As of November 2006, the [retrieval
-portion of the DAS/2
+DAS/2 diverged from [DAS/1](/wiki/DAS/1 "wikilink") as a result of a variety
+of [RFCs (Requests for Comment)](http://biodas.org/RFCs/index.html)
+posted on the DAS mailing list from users and implementers of the DAS
+spec over the first several years after DAS was originally introduced.
+As of November 2006, the [retrieval portion of the DAS/2
 spec](http://biodas.org/documents/das2/das2_get.html) has stabilized.
 Implementers and service providers can rely on this for their
 DAS/2-based development efforts.
 
-DAS/2 development officially commenced in July 2004 when funding for a
-2-year
-\[<http://crisp.cit.nih.gov/crisp/CRISP_LIB.getdoc?textkey=6712060&p_grant_num=1R01HG003040-01&p_query>=(DAS)&ticket=15416031&p\_audit\_session\_id=72191905&p\_audit\_score=100&p\_audit\_numfound=1&p\_keywords=DAS
-NIH grant\] became available. The grant was subsequently extended, and
-the grant funding period ended October 2007. Participating in the DAS/2
-grant were Affymetrix, Cold Spring Harbor Lab, the European
-Bioinformatics Institute/Sanger Center, and Dalke Scientific.
+Work on what became the DAS/2.0 specification "officially" began in July
+2004 when funding was awarded for a 2-year NIH grant for DAS/2
+development
+(\[<http://crisp.cit.nih.gov/crisp/CRISP_LIB.getdoc?textkey=6712060&p_grant_num=1R01HG003040-01&p_query>=(DAS)&ticket=15416031&p\_audit\_session\_id=72191905&p\_audit\_score=100&p\_audit\_numfound=1&p\_keywords=DAS
+abstract\], [full
+proposal](http://biodas.s3.amazonaws.com/das2grant/DAS2+Grant+Proposal+Feb2003.doc)).
+The grant was subsequently extended, and the grant funding period ended
+October 2007 ([final progress
+report](http://biodas.s3.amazonaws.com/das2grant/DAS2+Grant+Final+Progress+Report+Aug2008.doc)).
+Participating in the DAS/2 grant were Affymetrix, Cold Spring Harbor
+Lab, the European Bioinformatics Institute/Sanger Center, and Dalke
+Scientific.
 
 Given that the DAS/2 specification is not backward compatible with the
 DAS/1 version, existing DAS software will continue to support DAS/1. A

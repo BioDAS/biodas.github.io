@@ -154,8 +154,8 @@ A DAS client typically integrates data from a number of DAS servers,
 making use of the different data types. For example, a client might
 implement the following procedure for a particular sequence location:
 
-1.  Contact DAS registry to find reference and annotation servers for
-    the relevant assembly
+1.  Contact DAS registry to find reference and annotation servers for a
+    particular genomic assembly
 2.  Obtain sequence from the reference server
 3.  Obtain sequence features from each of the annotation servers
 4.  Display the annotations in the context of the sequence

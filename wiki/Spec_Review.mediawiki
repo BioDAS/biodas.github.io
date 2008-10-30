@@ -91,7 +91,7 @@ The DAS registry is a special component of DAS, fulfilling the following roles:
 
 A DAS client typically integrates data from a number of DAS servers, making use of the different data types. For example, a client might implement the following procedure for a particular sequence location:
 
-# Contact DAS registry to find reference and annotation servers for the relevant assembly
+# Contact DAS registry to find reference and annotation servers for a particular genomic assembly
 # Obtain sequence from the reference server
 # Obtain sequence features from each of the annotation servers
 # Display the annotations in the context of the sequence

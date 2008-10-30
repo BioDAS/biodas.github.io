@@ -122,8 +122,8 @@ be assumed to be sequence features.</font>
 
 **Note:** The distinction between reference and annotation servers is
 conceptual rather than physical. That is, a single server instance can
-in fact play both roles by offering offer both sequences and annotations
-of those sequences.
+in fact play both roles by offering both sequences and annotations of
+those sequences.
 
 **Note:** A server may support multiple coordinate systems.
 

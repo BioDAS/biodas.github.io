@@ -71,7 +71,7 @@ Annotation servers are specialized for returning lists of annotations for the re
 
 <font color="blue">In future versions of the spec (i.e. those not focussed entirely on sequence) this will be generalised. That is, reference objects won't be assumed to be sequences and annotations won't be assumed to be sequence features.</font>
 
-'''Note:''' The distinction between reference and annotation servers is conceptual rather than physical. That is, a single server instance can in fact play both roles by offering offer both sequences and annotations of those sequences.
+'''Note:''' The distinction between reference and annotation servers is conceptual rather than physical. That is, a single server instance can in fact play both roles by offering both sequences and annotations of those sequences.
 
 '''Note:''' A server may support multiple coordinate systems.
 

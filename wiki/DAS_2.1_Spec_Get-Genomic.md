@@ -13,8 +13,9 @@ of documents. The <b>sources</b> documents describe the available data
 sources, the <b>segments</b> documents describe the reference genomic
 sequences, the <b>features</b> documents contain the features on the
 sequences, and the <b>types</b> documents characterize the different
-feature types. The <a href="das2_schemas.rnc">formal schema for the XML
-responses</a> is a RelaxNG schema in .rnc format.
+feature types. The [formal schema for the XML
+responses](http://biodas.org/documents/das2/das2_schemas.rnc) is a
+RelaxNG schema in .rnc format.
 
 Genome DAS/2 uses half-open intervals to specify regions along a
 nucleotide sequence. See [Segment ranges](#Segment_ranges "wikilink")
@@ -50,7 +51,7 @@ genome domain.
 >
 > </td>
 > <td>
-> ...
+> [Sources Specification](/wiki/DAS/2/Spec/Get-Genomic/Sources "wikilink")
 >
 > </td>
 > <td>

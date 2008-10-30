@@ -45,7 +45,13 @@ versions of the spec.
 
 ### Teleconference
 
-The biweekly DAS/2 teleconference has been temporarily canceled as of
-the end of October. Dial-in details will be posted once new arrangements
-have been made. Notes from past conferences between 2005-2007 are
-available from <http://biodas.org/documents/das2/notes/>
+|              |                                                                                                                                    |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------|
+| Next Meeting | 30 October 2008                                                                                                                    |
+| Schedule     | Biweekly on Thursday                                                                                                               |
+| Time of Day  | 9:00 AM PDT, 12:00 PM EST, 16:00 GMT                                                                                               |
+| Dialin (US)  | 704-687-8984 <small>(subject to change)</small>                                                                                    |
+| Minutes      | <http://biodas.org/documents/das2/notes/>                                                                                          |
+| Comments     | We're still ironing out the best teleconference line. The number listed above may change, so check back to verify before you call. |
+
+

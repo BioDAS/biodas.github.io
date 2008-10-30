@@ -69,7 +69,7 @@ genome domain.
 >
 > </td>
 > <td>
-> ...
+> [Segments Specification](/wiki/DAS/2/Spec/Get-Genomic/Segments "wikilink")
 >
 > </td>
 > <td>
@@ -87,7 +87,7 @@ genome domain.
 >
 > </td>
 > <td>
-> ...
+> [Types Specification](/wiki/DAS/2/Spec/Get-Genomic/Types "wikilink")
 >
 > </td>
 > <td>
@@ -105,7 +105,7 @@ genome domain.
 >
 > </td>
 > <td>
-> ...
+> [Features Specification](/wiki/DAS/2/Spec/Get-Genomic/Features "wikilink")
 >
 > </td>
 > <td>

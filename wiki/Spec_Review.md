@@ -941,12 +941,13 @@ Ontology-based feature typing.
 Each segment has zero or more <TYPE> tags, which summarize the types of
 annotation available. The attributes are **id** (required), category
 (<font color="blue">required</font>) and <font color="blue">method
-(DEPRECATED)</font>. <font color="blue">The content of these correspond
-to the equivalent values in the **Features Command**.</font> The tag
-contents (optional) is a count of the number of features of this type
-across the segment, if one is specified in the request.
-<font color="blue">Servers treat method as being independent of the
-type, so should this be here?? IMO we can just remove it.</font>
+(DEPRECATED - a method relates to a feature, not a type!)</font>.
+<font color="blue">The content of these correspond to the equivalent
+values in the **Features Command**.</font> The tag contents (optional)
+is a count of the number of features of this type across the segment, if
+one is specified in the request. <font color="blue">Servers treat method
+as being independent of the type, so should this be here?? IMO we can
+just remove it.</font>
 
 ------------------------------------------------------------------------
 

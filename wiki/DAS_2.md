@@ -16,8 +16,10 @@ original specification upon which the majority of servers are based,
 [DAS/1](/wiki/DAS/1 "wikilink"). The two versions are not natively compatible.
 The DAS/2 code base consists of:
 
-1.  [The DAS/2
-    specification](http://biodas.org/documents/das2/das2_protocol.html)
+1.  [ DAS/2 specification](/wiki/DAS/2/Spec/Get-Genomic "wikilink")
+    -   [Original DAS/2 specification
+        (HTML docs)](http://biodas.org/documents/das2/das2_protocol.html)
+
 2.  [A publically accessible DAS/2 server
     implementation](http://das.biopackages.net/das/genome) (open source
     code available from the [GMOD project](http://www.gmod.org/))

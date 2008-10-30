@@ -160,7 +160,8 @@ implement the following procedure for a particular sequence location:
 3.  Obtain sequence features from each of the annotation servers
 4.  Display the annotations in the context of the sequence
 
-<font color="blue">This is best explained by diagram</font>
+See this example in diagrammatic form: [PNG
+image](/wiki/Media:Canonical_DAS_diagram_all.png "wikilink")
 
 Client/Server Interactions
 --------------------------

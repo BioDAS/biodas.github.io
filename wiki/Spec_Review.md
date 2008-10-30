@@ -72,8 +72,8 @@ description of a protein or gene.
 
 ### Coordinate Systems
 
-A coordinate system is a stable, logical grouping of reference objects.
-A coordinate system provides a mechanism to uniquely identify reference
+A coordinate system is a stable, logical set of reference objects. A
+coordinate system provides a mechanism to uniquely identify reference
 objects that share identifiers, such as chromosomes. For example,
 chromosome 21 might identify several reference objects from different
 species', but only one within the NCBI 36 human assembly. Thus, "human
@@ -83,7 +83,7 @@ objects.
 Coordinate systems are formally described using four properties:
 
 -   The **category** or type of annotatable entity. For example a
-    chromosome sequence or protein structure
+    chromosome, contig or protein sequence
 -   The **authority** responsible for defining the coordinate system.
     For example NCBI or UniProt
 -   The **version**, for coordinate systems containing entities that are

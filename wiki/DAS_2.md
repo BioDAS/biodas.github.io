@@ -17,7 +17,7 @@ original specification upon which the majority of servers are based,
 The DAS/2 code base consists of:
 
 1.  DAS/2 Specification:
-    -   [Original DAS/2
+    -   [DAS/2.0
         specification](http://biodas.org/documents/das2/das2_protocol.html) (frozen)
     -   [ DAS/2.1 specification](/wiki/DAS/2.1/Spec "wikilink")
         (under development)

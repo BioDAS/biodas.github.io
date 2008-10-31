@@ -6,7 +6,7 @@
 DAS/2 is intended to be a more flexible and powerful version of the original specification upon which the majority of servers are based, [[DAS/1]]. The two versions are not natively compatible. The DAS/2 code base consists of:
 
 # DAS/2 Specification:
-#* [http://biodas.org/documents/das2/das2_protocol.html Original DAS/2 specification] (frozen)
+#* [http://biodas.org/documents/das2/das2_protocol.html DAS/2.0 specification] (frozen)
 #* [[DAS/2.1/Spec| DAS/2.1 specification]] (under development)
 # [http://das.biopackages.net/das/genome A publicly accessible DAS/2 server implementation] (open source code available from the [http://www.gmod.org/ GMOD project])
 # [http://genoviz.sourceforge.net An open-source DAS/2 client implementation]

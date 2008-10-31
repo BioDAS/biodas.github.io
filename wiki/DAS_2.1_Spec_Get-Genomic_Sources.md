@@ -4,10 +4,8 @@ permalink: wiki/DAS/2.1/Spec/Get-Genomic/Sources/
 layout: wiki
 ---
 
-**<big>DAS/2.1 Sources Document Specification</big>**
-
--   **[Retrieving DAS2 genomic sequence and annotation feature
-    records](/wiki/DAS/2.1/Spec/Get-Genomic "wikilink")**
+**<big>[DAS/2.1](/wiki/DAS/2.1/Spec/Get-Genomic "wikilink") Sources Document
+Specification for Genome Data Retrieval</big>**
 
 Overview
 --------

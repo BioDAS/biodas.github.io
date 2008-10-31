@@ -1,7 +1,4 @@
-'''<big>DAS/2.1 Sources Document Specification</big>'''
-
-* '''[[DAS/2.1/Spec/Get-Genomic|Retrieving DAS2 genomic sequence and annotation feature records]]'''
-
+'''<big>[[DAS/2.1/Spec/Get-Genomic|DAS/2.1]] Sources Document Specification for Genome Data Retrieval</big>'''
 
 ==Overview==
 

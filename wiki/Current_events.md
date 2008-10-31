@@ -53,6 +53,9 @@ Sciences (DILS) conference. This year's conference will be held
 25th-27th June in Evry, France. See <http://dils2008.lri.fr/> for
 details.
 
+Presentation given by Andy Jenkinson:
+[here](http://www.ebi.ac.uk/~aj/DILS_2008/)
+
 European School in Bioinformatics, May 2008
 -------------------------------------------
 

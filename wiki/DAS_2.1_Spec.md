@@ -4,10 +4,18 @@ permalink: wiki/DAS/2.1/Spec/
 layout: wiki
 ---
 
+This **DAS/2.1** version is currently under development. Contributions
+to this new version are invited from both DAS/1 and DAS/2 developers
+with the goal of merging ideas from both camps to create a unified
+version of the spec suitable for all DAS-based applications.
+
+Here's the [stable **DAS/2.0**
+specification](http://biodas.org/documents/das2/das2_protocol.html).
+
 Overview
 --------
 
-The DAS 2.0 specification addresses some shortcomings of the DAS 1.x
+The DAS 2.x specification addresses some shortcomings of the DAS 1.x
 protocol, including:
 
 -   Better support for hierachical structures (e.g. gene -&gt;
@@ -21,13 +29,13 @@ protocol, including:
     structure coordinates)
 
 DAS is a protocol for sharing biological data. This version of the
-specification, DAS 2.0, describes features located on the genomic
+specification, DAS 2.x, describes features located on the genomic
 sequence. Future versions will add support for sharing annotations of
 protein sequences, expression data, 3D structures and ontologies. The
 genomic DAS interface is deliberately designed so there will be a large
 core shared with the protein sequence DAS.
 
-A DAS 2.0 annotation server provides feature information about one or
+A DAS 2.x annotation server provides feature information about one or
 more genome sources. Each source may have one or more versions.
 Different versions are usually based on different assemblies. As an
 implementation detail an assembly and corresponding sequence data may be
@@ -45,7 +53,7 @@ set of properties used to depict a given type.
 Annotations can be searched by range, type, and a properties table
 associated with each annotation. These are called feature filters.
 
-DAS 2.0 is implemented using a [ReST
+DAS 2.x is implemented using a [ReST
 architecture](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm).
 Each document (also called an entity or object) has a name, which is a
 URL. Fetching the URL gets information about the document. The
@@ -57,7 +65,8 @@ along with information about which formats are available.
 Retrieval of genomic sequence and annotation
 --------------------------------------------
 
-[DAS/2/Spec/Get-Genomic](/wiki/DAS/2/Spec/Get-Genomic "wikilink")
+[DAS/2.1/Spec/Get-Genomic](/wiki/DAS/2.1/Spec/Get-Genomic "wikilink") for
+read-only access to genomic sequence and annotation data sources.
 
 Stylesheet
 ----------

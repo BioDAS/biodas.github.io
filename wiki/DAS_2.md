@@ -18,7 +18,7 @@ The DAS/2 code base consists of:
 
 1.  DAS/2 Specification:
     -   [DAS/2.0
-        specification](http://biodas.org/documents/das2/das2_protocol.html) (frozen)
+        specification](http://biodas.org/documents/das2/das2_protocol.html) (stable)
     -   [ DAS/2.1 specification](/wiki/DAS/2.1/Spec "wikilink")
         (under development)
 

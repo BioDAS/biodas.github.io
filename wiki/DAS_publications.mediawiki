@@ -14,4 +14,6 @@ If you know of any others, please add them
 #prlic2007 pmid=17850653
 #kryshtafovych2007 pmid=17705273
 #flicek2008 pmid=18000006
+#jenkinson2008 pmid=18673527
+#jimenez2008 pmid=18694895
 </biblio>

@@ -21,5 +21,7 @@ If you know of any others, please add them
 9.  prlic2007 pmid=17850653
 10. kryshtafovych2007 pmid=17705273
 11. flicek2008 pmid=18000006
+12. jenkinson2008 pmid=18673527
+13. jimenez2008 pmid=18694895
 
 </biblio>

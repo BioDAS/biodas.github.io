@@ -42,6 +42,9 @@ Source Conference), a two day Special Interest Group meeting in
 conjunction with the [ISMB](http://www.iscb.org/ismb2008/) conference.
 This year's BOSC will be held 18th-19th July in Toronto, Canada.
 
+Presentation given by Andy Jenkinson:
+[here](http://www.ebi.ac.uk/~aj/BOSC_2008/)
+
 DILS, June 2008
 ---------------
 

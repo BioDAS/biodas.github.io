@@ -24,6 +24,8 @@ Talks:
 
 A BioDAS project update will be presented at the [http://www.open-bio.org/wiki/BOSC_2008 2008 BOSC] (Bioinformatics Open Source Conference), a two day Special Interest Group meeting in conjunction with the [http://www.iscb.org/ismb2008/ ISMB] conference. This year's BOSC will be held 18th-19th July in Toronto, Canada.
 
+Presentation given by Andy Jenkinson: [http://www.ebi.ac.uk/~aj/BOSC_2008/ here]
+
 == DILS, June 2008==
 
 DAS will be represented at the 2008 Data Integration in the Life Sciences (DILS) conference. This year's conference will be held 25th-27th June in Evry, France. See http://dils2008.lri.fr/ for details.

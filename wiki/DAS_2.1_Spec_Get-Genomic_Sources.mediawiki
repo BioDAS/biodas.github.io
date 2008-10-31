@@ -1,6 +1,6 @@
-'''<big>DAS/2 Sources Document Specification</big>'''
+'''<big>DAS/2.1 Sources Document Specification</big>'''
 
-* '''General specification:''' [[DAS/2/Spec/Get-Genomic|Retrieving DAS2 genomic sequence and annotation feature records]]
+* '''[[DAS/2.1/Spec/Get-Genomic|Retrieving DAS2 genomic sequence and annotation feature records]]'''
 
 
 ==Overview==
@@ -380,5 +380,5 @@ A CAPABILITY has zero or more SUPPORTS elements, each with a 'name'
 attribute.  These list the available extensions supported by the
 given capability.
 
-The [[DAS/2/Spec/Get-Genome/Segments|segments]] portion of the specification describes in
+The [[DAS/2.1/Spec/Get-Genome/Segments|segments]] portion of the specification describes in
 more detail how the FORMAT and SUPPORTS elements are used.

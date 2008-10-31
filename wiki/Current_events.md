@@ -31,10 +31,15 @@ Topics:
 ECCB Conference Sardinia, Sep 2008
 ----------------------------------
 
-Talks: DAS overview; Dazzle; SPICE; (Andreas Prlic) Proserver; Ensembl
-(Andy Jenkinson) [available here](http://www.ebi.ac.uk/~aj/ECCB_2008/)
-DAS ontology (Henning Hermjakob) Dasty2 (Omar Pera Mira) DAMSI (Mario
-Albrecht)
+Talks:
+
+| Topics                       | Presenter         | Slides                                        |
+|------------------------------|-------------------|-----------------------------------------------|
+| DAS overview; Dazzle; SPICE; | Andreas Prlic     |                                               |
+| Proserver; Ensembl           | Andy Jenkinson    | [slides](http://www.ebi.ac.uk/~aj/ECCB_2008/) |
+| DAS ontology                 | Henning Hermjakob |                                               |
+| Dasty2                       | Omar Pera Mira)   |                                               |
+| DASMI                        | Mario Albrecht    |                                               |
 
 BOSC, July 2008
 ---------------

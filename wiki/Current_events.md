@@ -64,6 +64,8 @@ details.
 Presentation given by Andy Jenkinson:
 [here](http://www.ebi.ac.uk/~aj/DILS_2008/)
 
+For paper see [DAS\_publications](/wiki/DAS_publications "wikilink").
+
 European School in Bioinformatics, May 2008
 -------------------------------------------
 

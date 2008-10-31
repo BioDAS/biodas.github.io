@@ -51,7 +51,7 @@ genome domain.
 >
 > </td>
 > <td>
-> [Sources Specification](/wiki/DAS/2/Spec/Get-Genomic/Sources "wikilink")
+> [Sources Specification](/wiki/DAS/2.1/Spec/Get-Genomic/Sources "wikilink")
 >
 > </td>
 > <td>
@@ -69,7 +69,7 @@ genome domain.
 >
 > </td>
 > <td>
-> [Segments Specification](/wiki/DAS/2/Spec/Get-Genomic/Segments "wikilink")
+> [Segments Specification](/wiki/DAS/2.1/Spec/Get-Genomic/Segments "wikilink")
 >
 > </td>
 > <td>
@@ -87,7 +87,7 @@ genome domain.
 >
 > </td>
 > <td>
-> [Types Specification](/wiki/DAS/2/Spec/Get-Genomic/Types "wikilink")
+> [Types Specification](/wiki/DAS/2.1/Spec/Get-Genomic/Types "wikilink")
 >
 > </td>
 > <td>
@@ -105,7 +105,7 @@ genome domain.
 >
 > </td>
 > <td>
-> [Features Specification](/wiki/DAS/2/Spec/Get-Genomic/Features "wikilink")
+> [Features Specification](/wiki/DAS/2.1/Spec/Get-Genomic/Features "wikilink")
 >
 > </td>
 > <td>
@@ -118,6 +118,8 @@ genome domain.
 > </td>
 > </tr>
 > </table>
+
+-   **[Main DAS/2.1 specification page](/wiki/DAS/2.1/Spec "wikilink")**
 
 General Information
 -------------------

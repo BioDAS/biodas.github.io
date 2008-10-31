@@ -27,30 +27,32 @@ within the genome domain.
   </tr>
   <tr>
     <td>sources</td>
-    <td>[[DAS/2/Spec/Get-Genomic/Sources|Sources Specification]] </td>
+    <td>[[DAS/2.1/Spec/Get-Genomic/Sources|Sources Specification]] </td>
     <td>Information about all data sources or a specific data source</td>
     <td>application/x-das-sources+xml</td>
   </tr>
   <tr>
     <td>segments</td>
-    <td>[[DAS/2/Spec/Get-Genomic/Segments|Segments Specification]] </td>
+    <td>[[DAS/2.1/Spec/Get-Genomic/Segments|Segments Specification]] </td>
     <td>Description of the regions on which features are located</td>
     <td>application/x-das-segments+xml</td>
   </tr>
   <tr>
     <td>types</td>
-    <td>[[DAS/2/Spec/Get-Genomic/Types|Types Specification]] </td>
+    <td>[[DAS/2.1/Spec/Get-Genomic/Types|Types Specification]] </td>
     <td>Description of all feature types or a single type</td>
     <td class="mono">application/x-das-types+xml</td>
   </tr>
   <tr>
     <td>features</td>
-    <td>[[DAS/2/Spec/Get-Genomic/Features|Features Specification]]  </td>
+    <td>[[DAS/2.1/Spec/Get-Genomic/Features|Features Specification]]  </td>
     <td>One or more genomic features, including sequence alignments</td>
     <td>application/x-das-features+xml</td>
   </tr>
 </table>
 </blockquote>
+
+* '''[[DAS/2.1/Spec|Main DAS/2.1 specification page]]'''
 
 
 ==General Information==

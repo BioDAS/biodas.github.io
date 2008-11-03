@@ -74,6 +74,9 @@ Stylesheet
 Writeback
 ---------
 
+[DAS/2.1/Spec/Writeback](/wiki/DAS/2.1/Spec/Writeback "wikilink") for write
+access (add, delete, edit) to annotation data sources.
+
 Region locking
 --------------
 

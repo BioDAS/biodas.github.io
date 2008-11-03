@@ -55,6 +55,8 @@ available.
 
 ==Writeback==
 
+[[DAS/2.1/Spec/Writeback]] for write access (add, delete, edit) to annotation data sources.
+
 ==Region locking==
  
 ==Assay Retrievals==

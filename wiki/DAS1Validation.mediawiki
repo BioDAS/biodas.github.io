@@ -1,7 +1,7 @@
 The following links should link to relaxNG schemas in development to aid validation of DAS1 Sources.
-[http://www.dasregistry.org/sources.rng sources]
-[http://www.dasregistry.org/entry_points.rng entry_points]
-[http://www.dasregistry.org/feature.rng feature]
-[http://www.dasregistry.org/alignment.rng alignment]
-[http://www.dasregistry.org/structure.rng structure]
-[http://www.dasregistry.org/sources.rng types]
+*[http://www.dasregistry.org/sources.rng sources]
+*[http://www.dasregistry.org/entry_points.rng entry_points]
+*[http://www.dasregistry.org/feature.rng feature]
+*[http://www.dasregistry.org/alignment.rng alignment]
+*[http://www.dasregistry.org/structure.rng structure]
+*[http://www.dasregistry.org/sources.rng types]

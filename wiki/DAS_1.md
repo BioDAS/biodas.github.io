@@ -96,6 +96,13 @@ languages:
 [`Dazzle`](http://www.biojava.org/wiki/Dazzle)  
 [`MyDas`](http://code.google.com/p/mydas/)
 
+-   Validation
+
+Validation RelaxNG documents are now available to help validate the xml
+produced by your servers. It is intended that these will be used by the
+registry to help servers conform to the DAS1 specification before being
+registered.
+
 Publishing and Discovery of DAS/1 sources
 -----------------------------------------
 

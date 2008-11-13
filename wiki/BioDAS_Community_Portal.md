@@ -34,9 +34,8 @@ DAS Mailing Lists
 DAS/2
 -----
 
-**`The` `DAS/2` `discussion` `list` `is` `in` `the` `process` `of`
-`being` `retired.` `All` `traffic` `should` `be` `directed` `to` `the`
-`DAS` `list` `noted` `above.`**
+`'''The DAS/2 discussion list is in the process of being retired. `  
+`Please direct all DAS-related discussion to the DAS list noted above.'''`
 
 ### DAS/2 Discussion list
 

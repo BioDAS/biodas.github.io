@@ -34,9 +34,9 @@ DAS Mailing Lists
 DAS/2
 -----
 
-Just so we don't create confusion over DAS vs. DAS/2 issues, there are
-separate discussion lists for issues related to these very different
-versions of the spec.
+**`The` `DAS/2` `discussion` `list` `is` `in` `the` `process` `of`
+`being` `retired.` `All` `traffic` `should` `be` `directed` `to` `the`
+`DAS` `list` `noted` `above.`**
 
 ### DAS/2 Discussion list
 
@@ -45,13 +45,18 @@ versions of the spec.
 
 ### Teleconference
 
-|              |                                                                                                                                    |
-|--------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Next Meeting | 30 October 2008                                                                                                                    |
-| Schedule     | Biweekly on Thursday                                                                                                               |
-| Time of Day  | 9:00 AM PDT, 12:00 PM EST, 16:00 GMT                                                                                               |
-| Dialin (US)  | 704-687-8984 <small>(subject to change)</small>                                                                                    |
-| Minutes      | <http://biodas.org/documents/das2/notes/>                                                                                          |
-| Comments     | We're still ironing out the best teleconference line. The number listed above may change, so check back to verify before you call. |
+|              |                                           |
+|--------------|-------------------------------------------|
+| Next Meeting | 13 November 2008                          |
+| Schedule     | Biweekly on Thursday                      |
+| Time of Day  | 9:00 AM PDT, 12:00 PM EST, 16:00 GMT      |
+| Dialin (US)  | 866-692-3582 (Conference \#: 4977624)     |
+| Dialin (UK)  | -   BIRMINGHAM: 0808-238-6019             
+                -   GLASGOW: 0808-238-6019                 
+                -   LEEDS: 0808-238-6019                   
+                -   LONDON: 0808-238-6019                  
+                -   MANCHESTER: 0808-238-6019              |
+| Minutes      | <http://biodas.org/documents/das2/notes/> |
+||
 
 

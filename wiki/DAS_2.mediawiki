@@ -20,7 +20,7 @@ DAS/2 diverged from [[DAS/1]] as a result of a variety of [http://biodas.org/RFC
 
 Work on what became the DAS/2.0 specification "officially" began in July 2004 when funding was awarded for a 2-year NIH grant for DAS/2 development ([http://crisp.cit.nih.gov/crisp/CRISP_LIB.getdoc?textkey=6712060&p_grant_num=1R01HG003040-01&p_query=(DAS)&ticket=15416031&p_audit_session_id=72191905&p_audit_score=100&p_audit_numfound=1&p_keywords=DAS abstract], [http://biodas.s3.amazonaws.com/das2grant/DAS2+Grant+Proposal+Feb2003.doc full proposal]). The grant was subsequently extended, and the grant funding period ended October 2007 ([http://biodas.s3.amazonaws.com/das2grant/DAS2+Grant+Final+Progress+Report+Aug2008.doc final progress report]). Participating in the DAS/2 grant were Affymetrix, Cold Spring Harbor Lab, the European Bioinformatics Institute/Sanger Center, and Dalke Scientific. 
 
-Given that the DAS/2 specification is not backward compatible with the DAS/1 version, existing DAS software will continue to support DAS/1. A [http://lists.open-bio.org/pipermail/das2/2006-October/000268.html DAS proxy server is in development] that will permit a DAS/1 server to be accessed by DAS/2 clients.
+Given that the DAS/2 specification is not backward compatible with the DAS/1 version, existing DAS software will continue to support DAS/1. A [http://lists.open-bio.org/pipermail/das2/2008-October/001055.html DAS proxy server is in development] that will permit a DAS/1 server to be accessed by DAS/2 clients.
 
 == DAS/2 Clients ==
 

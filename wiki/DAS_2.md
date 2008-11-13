@@ -60,7 +60,7 @@ Scientific.
 Given that the DAS/2 specification is not backward compatible with the
 DAS/1 version, existing DAS software will continue to support DAS/1. A
 [DAS proxy server is in
-development](http://lists.open-bio.org/pipermail/das2/2006-October/000268.html)
+development](http://lists.open-bio.org/pipermail/das2/2008-October/001055.html)
 that will permit a DAS/1 server to be accessed by DAS/2 clients.
 
 DAS/2 Clients

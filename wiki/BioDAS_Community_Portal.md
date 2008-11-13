@@ -39,7 +39,6 @@ DAS/2
 
 ### DAS/2 Discussion list
 
--   Post to: das2@biodas.org
 -   Listinfo: <http://biodas.org/mailman/listinfo/das2>
 
 ### Teleconference

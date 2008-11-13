@@ -47,7 +47,7 @@ DAS/2
 
 |              |                                           |
 |--------------|-------------------------------------------|
-| Next Meeting | 13 November 2008                          |
+| Next Meeting | 4 December 2008                           |
 | Schedule     | Biweekly on Thursday                      |
 | Time of Day  | 9:00 AM PST, 12:00 PM EST, 17:00 GMT      |
 | Dialin (US)  | 866-692-3582 (Conference \#: 4977624)     |

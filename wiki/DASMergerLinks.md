@@ -28,8 +28,8 @@ layout: wiki
 
 -   date formats, date of annotations
 
-<http://www.dasregistry.org/extension_timestamp.jsp>
-<http://biodas.org/documents/das2/das2_get.html#iso_dates>
+[`http://www.dasregistry.org/extension_timestamp.jsp`](http://www.dasregistry.org/extension_timestamp.jsp)  
+[`http://biodas.org/documents/das2/das2_get.html#iso_dates`](http://biodas.org/documents/das2/das2_get.html#iso_dates)
 
 -   next feature/ previous feature cmd.
 

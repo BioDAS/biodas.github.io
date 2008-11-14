@@ -25,7 +25,7 @@
 
 *GFF3 as a standard within DAS?
 
-*"UCSC sources filtered by types" implementation catered for in the DAS
-Registry - currently there is nothing implemented in the registry for this
+*"UCSC sources filtered by types" implementation catered for in the DAS Registry
+ currently there is nothing implemented in the registry for this
         
 *"wait" response from DAS Servers...

@@ -40,10 +40,10 @@ layout: wiki
 <!-- -->
 
 -   "UCSC sources filtered by types" implementation catered for in the
-    DAS
+    DAS Registry
 
-Registry - currently there is nothing implemented in the registry for
-this
+`currently there is nothing implemented in the registry for this`  
+`       `
 
 -   "wait" response from DAS Servers...
 

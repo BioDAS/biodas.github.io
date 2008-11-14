@@ -46,4 +46,7 @@ Registry
 
 -   currently there is nothing implemented in the registry for this
 
-`*also "wait" response from DAS Servers...`
+<!-- -->
+
+-   "wait" response from DAS Servers...
+

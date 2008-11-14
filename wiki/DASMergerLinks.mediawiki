@@ -1,15 +1,20 @@
-*Write back for DAS2 http://biodas.org/documents/das2/das2_writeback.html for DAS1.5  http://code.google.com/p/daswriteback/ at the bottom of this page is a link to the masters thesis on this as well. Is there any more recent stuff on this from Gustavo, other than the reams of emails on the das list...  Andy? 
+*Write back for DAS2 
+ http://biodas.org/documents/das2/das2_writeback.html
+ http://code.google.com/p/daswriteback/ at the bottom of this page is a link to the masters thesis on this as well. Is there any more recent stuff on this from Gustavo, other than the reams of emails on the das list...  Andy? 
 
 
-*Ontologies http://www.dasregistry.org/extension_ontology.jsp
+*Ontologies 
+ http://www.dasregistry.org/extension_ontology.jsp
 
 
-*1.53 Extensions - http://www.dasregistry.org/spec_1.53E.jsp links to the main extensions including sources (taken from DAS2 http://biodas.org/documents/das2/das2_get.html#sources_overview), alignment, structure, interaction and volmap.
+*1.53 Extensions
+ http://www.dasregistry.org/spec_1.53E.jsp links to the main extensions including sources (taken from DAS2 http://biodas.org/documents/das2/das2_get.html#sources_overview), alignment, structure, interaction and volmap.
 
-*hierarchy's - nothing for DAS1 for DAS2: http://biodas.org/documents/das2/das2_get.html#features_detailed
+*hierarchy's - nothing for DAS1 for DAS2: 
+ http://biodas.org/documents/das2/das2_get.html#features_detailed
 
-*style sheets http://www.biodas.org/wiki/Spec_Review#Stylesheet_Command
-
+*style sheets
+ http://www.biodas.org/wiki/Spec_Review#Stylesheet_Command
  http://biodas.org/documents/das2/das2_stylesheet.html
 
 *date formats, date of annotations

@@ -32,18 +32,11 @@ layout: wiki
 [`http://biodas.org/documents/das2/das2_get.html#iso_dates`](http://biodas.org/documents/das2/das2_get.html#iso_dates)
 
 -   next feature/ previous feature cmd.
-
-<!-- -->
-
 -   GFF3 as a standard within DAS?
-
-<!-- -->
-
 -   "UCSC sources filtered by types" implementation catered for in the
     DAS Registry
 
-`currently there is nothing implemented in the registry for this`  
-`       `
+`currently there is nothing implemented in the registry for this`
 
 -   "wait" response from DAS Servers...
 

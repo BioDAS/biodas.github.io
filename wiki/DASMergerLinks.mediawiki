@@ -5,23 +5,16 @@
  http://www.dasregistry.org/extension_ontology.jsp
 *1.53 Extensions
  http://www.dasregistry.org/spec_1.53E.jsp links to the main extensions including sources (taken from DAS2 http://biodas.org/documents/das2/das2_get.html#sources_overview), alignment, structure, interaction and volmap.
-
 *hierarchy's - nothing for DAS1 for DAS2: 
  http://biodas.org/documents/das2/das2_get.html#features_detailed
-
 *style sheets
  http://www.biodas.org/wiki/Spec_Review#Stylesheet_Command
  http://biodas.org/documents/das2/das2_stylesheet.html
-
 *date formats, date of annotations
  http://www.dasregistry.org/extension_timestamp.jsp
  http://biodas.org/documents/das2/das2_get.html#iso_dates
-
 *next feature/ previous feature cmd.
-
 *GFF3 as a standard within DAS?
-
 *"UCSC sources filtered by types" implementation catered for in the DAS Registry
  currently there is nothing implemented in the registry for this
-        
 *"wait" response from DAS Servers...

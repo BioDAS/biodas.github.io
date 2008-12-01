@@ -1081,10 +1081,10 @@ The document returned from the *features* request is an XML-formatted
 `  `<SEGMENT id="''id''" start="''start''" stop="''stop''" type="''type''" version="X.XX" label="''label''">  
   
 `      `<FEATURE id="''id''" label="''label''">  
-`         `<TYPE id="''id''" category="''category''" reference="''yes|no''">*`type`
+`         `<TYPE id="''id''" category="''category''" reference="''yes|no''" ontId="OntologyTermID">*`type`
 `label`*</TYPE>  
   
-`         `<METHOD id="''id''">`'' method label ''`</METHOD>  
+`         <METHOD id="`*`id`*` ontId="OntologyTermID"">'' method label ''`</METHOD>  
 `         `<START>`'' start'' `</START>  
 `         `<END>`'' end'' `</END>  
   
@@ -1101,7 +1101,7 @@ The document returned from the *features* request is an XML-formatted
 `    `<LINK href="''url''">` `*`link` `text`*` `</LINK>  
 `    `<TARGET id="id" start="x" stop="y">*`target` `name`*</TARGET>  
   
-`    `<GROUP id="''id''" label="''label''" type="''type''">  
+`    `<GROUP id="''id''" label="''label''" type="''type''" ontId="OntologyTermID">  
 `          `
 
 <NOTE>

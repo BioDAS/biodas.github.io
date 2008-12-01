@@ -1172,12 +1172,13 @@ the annotation. <font color="blue">See the **Feature Types and
 Categories** section for details of what this tag should contain. HAVE
 REMOVED REFERENCE/SUBPARTS/SUPERPARTS ATTRIBUTES.</font>
 
-<PARENT> and <PART> Each feature has a unique identifier and an
-identifer linking it to a type record. Both identifiers are URLs and
-should be directly fetchable. Simple features can be located on a region
-of a segment. More complex features like a gapped alignment are
-represented through a parent/part relationship. A feature may have
-multiple parents and multiple parts.
+<PARENT> and <PART>  
+
+Each feature has a unique identifier and an identifer linking it to a
+type record. Both identifiers are URLs and should be directly fetchable.
+Simple features can be located on a region of a segment. More complex
+features like a gapped alignment are represented through a parent/part
+relationship. A feature may have multiple parents and multiple parts.
 
 <METHOD> (required; one per FEATURE)  
 Each feature has one <METHOD> field, which identifies the method used to

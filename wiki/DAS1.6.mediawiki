@@ -764,10 +764,7 @@ The document returned from the ''features'' request is an XML-formatted "DASGFF"
           </GROUP>
          <PARENT id="parent_feature_ID"/>
          <PART id="childFeatureID" />
-
-
-
-       </FEATURE>
+         </FEATURE>
        ...
    </SEGMENT>
    </GFF>

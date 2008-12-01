@@ -1114,9 +1114,8 @@ The document returned from the *features* request is an XML-formatted
 `name`*</TARGET>` `<font color="blue">`DEPRECATED`</font>  
 `         `</GROUP>  
 `        `<PARENT id="parent_feature_ID"/>  
-`        `<PART id="childFeatureID" />
-
-`      `</FEATURE>  
+`        `<PART id="childFeatureID" />  
+`        `</FEATURE>  
 `      ...`  
 `  `</SEGMENT>  
 `  `</GFF>  

@@ -24,7 +24,8 @@
 == DAS/2 ==
 
  '''The DAS/2 discussion list is in the process of being retired. 
- Please direct all DAS-related discussion to the DAS list noted above.'''
+ Please direct all DAS-related discussion to the DAS Discussion list noted above.
+ DAS/2 discussion list archives are available at http://lists.open-bio.org/pipermail/das2/'''
 
 === DAS/2 Discussion list ===
 

@@ -31,18 +31,15 @@ DAS Mailing Lists
 -   Listinfo: <http://biodas.org/mailman/listinfo/das-announce>
 -   Used for: major DAS announcements
 
-DAS/2
------
+DAS/2 Discussion list
+---------------------
 
 `'''The DAS/2 discussion list is in the process of being retired. `  
 `Please direct all DAS-related discussion to the DAS Discussion list noted above.`  
 `DAS/2 discussion list archives are available at `[`http://lists.open-bio.org/pipermail/das2/`](http://lists.open-bio.org/pipermail/das2/)`'''`
 
-### DAS/2 Discussion list
-
--   Listinfo: <http://biodas.org/mailman/listinfo/das2>
-
-### Teleconference
+Teleconference
+--------------
 
 |              |                                           |
 |--------------|-------------------------------------------|

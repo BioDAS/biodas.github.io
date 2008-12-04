@@ -80,6 +80,9 @@ access (add, delete, edit) to annotation data sources.
 Region locking
 --------------
 
+[DAS/2.1/Spec/Locking](/wiki/DAS/2.1/Spec/Locking "wikilink") to prevent
+editing conflicts for clients and servers supporting writeback.
+
 Assay Retrievals
 ----------------
 

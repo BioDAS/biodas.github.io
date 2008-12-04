@@ -1,0 +1,187 @@
+---
+title: DAS/2.1/Spec/Writeback
+permalink: wiki/DAS/2.1/Spec/Writeback/
+layout: wiki
+---
+
+**<big>[DAS/2.1](/wiki/DAS/2.1/Spec "wikilink") Writeback
+Specification</big>**
+
+Some annotation servers may support curational writeback of a [versioned
+source](/wiki/DAS/2.1/Spec/Get-Genomic/Sources "wikilink"). Clients POST a
+writeback document to a URL to create, delete or modify features. The
+formal schema for the writeback document XML is a RelaxNG schema in .rnc
+format. The writeback document is also called a delta because it
+describes the changes to make in the server. The server response to a
+writeback is a modified features document. Each
+[FEATURE](/wiki/DAS/2.1/Spec/Get-Genomic/Features "wikilink") element contains
+the optional attribute "old\_uri". A server may change the FEATURE uri
+during writeback. If this happens the "old\_uri" attibute contains the
+uri sent in the writeback and the normal "uri" attribute contains the
+new attribute.
+
+Writeback requires a mechanism to lock items or portions of items being
+edited to prevent potential editing conflicts. This locking mechanism is
+described in the [Locking document](/wiki/DAS/2.1/Spec/Locking "wikilink").
+
+This version of DAS only supports feature writeback and does not support
+type or sequence writeback.
+
+The writeback configuration information is specified in the versioned
+source record of a sources document using the CAPABILITIES element of
+type "writeback". At most one writeback CAPABILITIES element is allowed
+in a versioned source record.
+
+The query\_uri attribute of the CAPABILITIES element contains the URL
+used to POST the writeback delta document.
+
+Example:
+
+    <CAPABILITY type="writeback"
+         query_uri="http://www.biodas.org/das/h_sapiens/v35/writeback.cgi" />
+
+The writeback document
+----------------------
+
+The writeback document is in XML format with content-type
+"application/x-das-writeback+xml". All of the DAS writeback elements are
+in the standard DAS2 namespace <http://biodas.org/documents/das2>. This
+namespace is reserved and authors of DAS extensions may not create new
+XML elements in it.
+
+Here is an example of a writeback document modifying a single feature:
+
+Post to:
+
+> `   `[`http://www.biodas.org/das/h_sapiens/v35/writeback.cgi`](http://www.biodas.org/das/h_sapiens/v35/writeback.cgi)` `
+
+POSTed:
+
+    Content-Type: application/x-das-writeback+xml
+
+    <WRITEBACK xmlns="http://biodas.org/documents/das2"
+           xml:base="http://www.biodas.org/das/h_sapiens/v35/">
+      <MESSAGE>Moved endpoint by 1; wrong coordinate numbers</MESSAGE>
+      <FEATURE uri="feature/cTel54X" type="type/gene" title="tg-3">
+        <LOC segment="segment/Chr2" range="1200:2916:1" />
+      </FEATURE>
+    </WRITEBACK>
+
+Here is a more complicated example. This one deletes a feature named
+"<http://example.com/das2/dasypus/April2006/F001>", and changes an
+existing feature (".../F002") to a different type.
+
+Post to:
+
+> `   `[`http://example.com/das2/dasypus/April2006/writeback.py`](http://example.com/das2/dasypus/April2006/writeback.py)` `
+
+POSTed:
+
+    Content-Type: application/x-das-writeback+xml
+
+    <WRITEBACK xmlns="http://biodas.org/documents/das2"
+           xml:base="http://example.com/das2/dasypus/April2006/">
+      <MESSAGE>Removed duplicate gene; changed remaining one to a pseudogene</MESSAGE>
+      <DELETES>
+        <DELETE uri="F001" />
+      </DELETES>
+      <FEATURE uri="F002" type="T981" title="tg-3">
+        <LOC segment="segment/Chr2" range="1200:2916:1" />
+      </FEATURE>
+    </WRITEBACK>
+
+The root element is named WRITEBACK. The MESSAGE element contains
+human-readable text summarizing the changes made by the writeback. After
+the MESSAGE are zero or more DELETE elements followed by zero or more
+FEATURE elements.
+
+Each DELETE element has a "uri" attribute with the identifier of the
+feature to delete. If a feature is deleted then it may not be present as
+a FEATURE in the same writeback.
+
+The writeback FEATURE element is identical to the FEATURE element used
+in the features document. The writeback feature replaces an existing
+feature with the same uri. If the parent/part relationship changes then
+all modified features must be included in the same writeback. This
+includes sending DELETE elements when a feature is removed. New features
+must use the private identifier scheme described below.
+
+The WRITEBACK, DELETE and FEATURE elements include the xml:base
+attributes. As there is no reasonable retrieval context providing a base
+url for the POSTed writeback document, all relative URIs must be
+resolved to absolute URIs inside the document.
+
+New feature URIs
+----------------
+
+Each feature has its own unique URI assigned by the server. To create a
+new feature record the client temporarily assigns a private id. These
+URIs have the syntax "das-private:" followed by an alphanumeric string
+of at least 1 and no more than 20 characters. The legal characters are
+0-9, A-Z and a-z. Some examples are: "das-private:0", "das-private:AAAA"
+and "das-private:ThisIsPrivate007".
+
+When the server receives a feature record with a private identifier it
+generates a new URI appropriate to the server's namespace and assigns
+the URI to the feature. The "old\_uri" attribute in the writeback
+response document will include the temporary das-private identifier.
+
+Server response to a writeback
+------------------------------
+
+A writeback server may further modify the feature record sent by the
+client. It will assign a new URI for newly created features and
+curational servers might add fields for history tracking. Changes to one
+feature may affect other features. Consider a change to a feature
+involved in a parent/part relationshop. A versioning server may create
+new versions of all features in that annotation, with new URIs for the
+new features. (Such a server might add extra feature filter query terms
+to support historical queries. XXX make sure the feature filter spec
+allows this!)
+
+A server is not required to change the feature URI when the feature
+changes. The decision is left to the server implementer.
+
+The server responds to a writeback document with a modified features
+document. This contains all of the features that changed as a result of
+the writeback. The document format is identical to the standard features
+document except for one addition. The FEATURE element has an optional
+"old\_uri" attribute. If present it is the previous URI for the given
+object. This may be a relative URI and it resolved as normal through the
+xml:base and URI resolution mechanism. If the "old\_uri" attribute is
+not present then the URI has not changed.
+
+The server should not reuse feature identifiers which were used for
+earlier features. Doing so may cause synchronization problems with other
+clients. The "old\_uri" URI may no longer be retrievable and a client
+should consider it no longer valid.
+
+XXX What about XID tracking, if the XID is an intra-database link. Will
+those records change? Will a versioning database change them?
+
+Following is an example
+
+    XXX insert example here XXX.
+
+Errors
+------
+
+The writeback document may contain errors. It may reference invalid
+URIs, delete a feature type while features of that type still exist,
+introduce features with cycles, include malformed XML, modify locked
+regions, and more. The server must respond with an HTTP error 400 ("Bad
+Request") when an error occurs and must implement the writeback
+atomically and transactionally. That is, writebacks occur in order with
+no overlap and if there is an error the annotation database is
+unchanged.
+
+There is a possible loss of synchronization between the client and the
+server if the writeback is processed but the connection is lost before
+the mapping document is fully returned to the client. A client must not
+automatically repost the writeback if this occurs. It should rely on
+user intervention to determine how to recover in this case.
+
+Because we judge this to be a rare case we have no solution for it. We
+suggest implementors consider responding with an HTTP code 202
+("Accepted") and a Location header pointing to a URL for status and/or
+results.

@@ -1123,13 +1123,13 @@ The current set of glyph ID values are:
 Each glyph has a set of attributes associated with it. <font color="blue">Attribute values come in various flavors; some are common to several glyphs and some are relevant to specific glyphs only. Some common attribute types are:</font>
 
 ; INT
-: An integer
+: A <font color="blue">decimal</font> integer
 ; FLOAT
 : A floating point number (not currently used)
 ; STRING
-: A text string
+: A text string <font color="blue">comprising ASCII characters.</font>
 ; COLOR
-: A color. Colors can be specified using the "#RRGGBB" format commonly used in HTML, or as one of the 16 IBM VGA colors recognized by Netscape and Internet Explorer. <font color="blue">Ensembl supports more than that...</font>
+: A color. Colors can be specified using the "#RRGGBB" format commonly used in HTML, or as one of the 16 IBM VGA colors recognized by Netscape and Internet Explorer. <font color="blue">Ensembl supports more than that... see the <a href="http://www.ensembl.org/Homo_sapiens/Server/Colourmap">Ensembl Colour map</a>.</font>
 ; BOOL
 : A boolean value, either "yes" or "no".
 ; FONT

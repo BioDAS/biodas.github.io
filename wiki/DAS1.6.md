@@ -1702,11 +1702,9 @@ A text string <font color="blue">comprising ASCII characters.</font>
 
 COLOR  
 A color. Colors can be specified using the "\#RRGGBB" format commonly
-used in HTML, or as one of the 16 IBM VGA colors recognized by Netscape
-and Internet Explorer. <font color="blue">Ensembl supports more
-than that... see the
-<a href="http://www.ensembl.org/Homo_sapiens/Server/Colourmap">Ensembl
-Colour map</a>.</font>
+used in HTML, or as one of the <font color="blue"><s>16 IBM VGA colors
+recognized by Netscape and Internet Explorer</s> colors in the [X11
+set](http://en.wikipedia.org/wiki/X11_color_names).</font>
 
 BOOL  
 A boolean value, either "yes" or "no".

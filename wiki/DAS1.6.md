@@ -1953,7 +1953,12 @@ because it is still protein-specific!</font>
 `      `<GLYPH>  
 `         `<LINE>  
 `            `<FGCOLOR>`black`</FGCOLOR>  
-`            `<LINE_STYLE>`hat`</LINE_STYLE>  
+`            `
+
+<STYLE>
+hat
+
+</STYLE>
 `         `</LINE>  
 `      `</GLYPH>  
 `   `</TYPE>

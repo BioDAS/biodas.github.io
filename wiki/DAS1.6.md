@@ -1684,9 +1684,12 @@ The current set of glyph ID values are:
 -   TRIANGLE
 -   PRIMERS
 
-Each glyph has a set of attributes associated with it. Attribute values
-come in the following flavors. <font color="blue">Note that these are
-*types*' of element, not element names.</font>
+#### Glyph Attribute Types
+
+Each glyph has a set of attributes associated with it.
+<font color="blue">Attribute values come in various flavors; some are
+common to several glyphs and some are relevant to specific glyphs only.
+Some common attribute types are:</font>
 
 INT  
 An integer
@@ -1709,12 +1712,6 @@ A boolean value, either "yes" or "no".
 FONT  
 A font. Any of the font identifiers recognized by Web browsers is
 acceptable, e.g. "helvetica".
-
-FONT\_STYLE  
-One of "bold", "italic", "underline".
-
-LINE\_STYLE  
-One of "hat", "solid", "dashed".
 
 Some attributes are shared by all glyphs. Others are glyph-specific. The
 following attributes are shared in common:
@@ -1829,12 +1826,10 @@ and <em>southwest</em> attributes set to "no".
 Attributes:
 
 STYLE  
-type: LINE\_STYLE
-
-The line type. A type of "hat" draws an inverted V (commonly used
-for introns). A type of "solid" draws a horizontal solid line in the
-indicated color. A type of "dashed" draws a dashed horizonal line in the
-indicated color.
+The line type, one of "hat", "solid" and "dashed". A type of "hat" draws
+an inverted V (commonly used for introns). A type of "solid" draws a
+horizontal solid line in the indicated color. A type of "dashed" draws a
+dashed horizonal line in the indicated color.
 
 **<em>SPAN</em>**
 
@@ -1854,7 +1849,7 @@ Attributes:
 FONT  
 type: FONT
 
-The font.
+The name of the font.
 
 FONTSIZE  
 type: INT
@@ -1867,10 +1862,8 @@ type: STRING
 The text to render.
 
 STYLE  
-type: FONT\_SYTLE
-
-The style in which to render this glyph. Multiple FONT\_STYLE attributes
-may be present.
+The style in which to render this glyph - one of "bold",
+"italic", "underline". Multiple STYLE attributes may be present.
 
 **<em>PRIMERS</em>**
 
@@ -1910,7 +1903,8 @@ type: INT
 Width of the glyph.
 
 DIRECTION  
-One of "N", "E", "S", and "W"
+The direction in which the point of the triangle faces. One of "N", "E",
+"S", and "W".
 
 ------------------------------------------------------------------------
 

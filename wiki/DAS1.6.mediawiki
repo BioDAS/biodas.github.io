@@ -1316,7 +1316,7 @@ For example, to indicate that the exons in a "transcript" group should be drawn 
           </LINE>
        </GLYPH>
     </TYPE>
-
+  
  </CATEGORY>
 
 ----

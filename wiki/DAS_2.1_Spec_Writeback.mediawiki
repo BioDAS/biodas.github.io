@@ -41,15 +41,14 @@ A DAS2 writeback server should support transactional integrity (actions should b
 If a problem, use locking.  Otherwise relies on database -- it's up to database whether a curation can be "branched" -- should be easy to do if database uses unique URIs for each version of a curation.  Then branching is just annotation A being edited once to yield annotation B1 and a second time to yield B2 -- both are valid.  If a database doesn't want to support this, it's easy enough to throw an error (resource no longer available?)  if someone attempts to edit A after B1 has already been created.
 
 
-==Split==
-Splitting feature A into B and C
+==Handling Feature "Splits"==
+Splitting feature A into B and C <BR>
+   <DELETE uri="A" /><BR>
+   <FEATURE uri="B" ...<BR>
+   <FEATURE uri="C" ...<BR>
 
-<DELETE uri="A" />
-<FEATURE uri="B" ...
-<FEATURE uri="C" ...
-
-==Merge==
-Merging B and C into A
-<DELETE uri="B" />
-<DELETE uri="C" />
-<FEATURE uri="A" ...
+==Handling Feature "Merges"==
+Merging B and C into A<BR>
+   <DELETE uri="B" /> <BR>
+   <DELETE uri="C" /> <BR>
+   <FEATURE uri="A" ... <BR>

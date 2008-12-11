@@ -113,14 +113,19 @@ support this, it's easy enough to throw an error (resource no longer
 available?) if someone attempts to edit A after B1 has already been
 created.
 
-Split
------
+Handling Feature "Splits"
+-------------------------
 
-Splitting feature A into B and C
+Splitting feature A into B and C  
+<DELETE uri="A" />  
+&lt;FEATURE uri="B" ...  
+&lt;FEATURE uri="C" ...  
 
-<DELETE uri="A" /> <FEATURE uri="B" ...
-<FEATURE uri="C" ...
+Handling Feature "Merges"
+-------------------------
 
-==Merge==
-Merging B and C into A
-<DELETE uri="B" /> <DELETE uri="C" /> &lt;FEATURE uri="A" ...
+Merging B and C into A  
+<DELETE uri="B" />  
+<DELETE uri="C" />  
+&lt;FEATURE uri="A" ...  
+

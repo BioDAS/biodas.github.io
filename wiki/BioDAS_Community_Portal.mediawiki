@@ -31,7 +31,7 @@
 
 {| border="1" cellspacing="0" cellpadding="5" align="left"
  ! Next Meeting
- | 4 December 2008
+ | 8 January 2009
  |- 
  ! Schedule
  | Biweekly on Thursday

@@ -7,181 +7,120 @@ layout: wiki
 **<big>[DAS/2.1](/wiki/DAS/2.1/Spec "wikilink") Writeback
 Specification</big>**
 
-Some annotation servers may support curational writeback of a [versioned
-source](/wiki/DAS/2.1/Spec/Get-Genomic/Sources "wikilink"). Clients POST a
-writeback document to a URL to create, delete or modify features. The
-formal schema for the writeback document XML is a RelaxNG schema in .rnc
-format. The writeback document is also called a delta because it
-describes the changes to make in the server. The server response to a
-writeback is a modified features document. Each
-[FEATURE](/wiki/DAS/2.1/Spec/Get-Genomic/Features "wikilink") element contains
-the optional attribute "old\_uri". A server may change the FEATURE uri
-during writeback. If this happens the "old\_uri" attibute contains the
-uri sent in the writeback and the normal "uri" attribute contains the
-new attribute.
+DAS/2.1 Writeback Specification
 
-Writeback requires a mechanism to lock items or portions of items being
-edited to prevent potential editing conflicts. This locking mechanism is
-described in the [Locking document](/wiki/DAS/2.1/Spec/Locking "wikilink").
+DAS 2.1 annotation servers may support the creation, editing, and
+deletion of DAS resources as requested from DAS clients. This is also
+referred to as DAS writeback. A DAS2 resource is any entity represented
+in DAS2 XML that has a URI, and thus a "uri" attribute. The writeback
+URI is specified in the versioned source record of a DAS sources
+document using a CAPABILITY element of type "writeback", for example:
 
-This version of DAS only supports feature writeback and does not support
-type or sequence writeback.
+<CAPABILITY type="writeback" query_uri="http://www.biodas.org/das2/h_sapiens/v35/writeback" />
 
-The writeback configuration information is specified in the versioned
-source record of a sources document using the CAPABILITIES element of
-type "writeback". At most one writeback CAPABILITIES element is allowed
-in a versioned source record.
+At most one writeback CAPABILITY element is allowed per versioned source
+(???).
 
-The query\_uri attribute of the CAPABILITIES element contains the URL
-used to POST the writeback delta document.
+The client sends an HTTP POST to the URI of the writeback capability,
+which is found by resolving the capability's query\_uri to a URI. The
+content of the writeback POST is XML specifying what DAS resources are
+being created/edited/deleted. Writeback uses the same XML schemas as
+returned for DAS2 features, types, and segments as specifiied in the
+DAS2 retrieval specs, except for two additions described below. The
+servers response to a successful writeback is a modified version of the
+POSTed content. Use of formats other than XML for representing the DAS
+resources is currently not supported.
 
-Example:
+\[For creation/editing/deletion of DAS2 sources and versioned sources
+there also needs to be a pointer somewhere to the writeback URI for a
+server's sources doc\].
 
-    <CAPABILITY type="writeback"
-         query_uri="http://www.biodas.org/das/h_sapiens/v35/writeback.cgi" />
+Writeback Request
+-----------------
 
-The writeback document
-----------------------
+For DAS 2.1 sources, segments, types, and features, the content-type of
+the XML returned is the same as in DAS 2.1 retrieval:
 
-The writeback document is in XML format with content-type
-"application/x-das-writeback+xml". All of the DAS writeback elements are
-in the standard DAS2 namespace <http://biodas.org/documents/das2>. This
-namespace is reserved and authors of DAS extensions may not create new
-XML elements in it.
+`   sources --> application/x-das-sources+xml`  
+`   segments --> application/x-das-segments+xml`  
+`   types --> application/x-das-types+xml`  
+`   features --> application/x-das-features+xml`
 
-Here is an example of a writeback document modifying a single feature:
+To include a comment use the <PROP> element of the root DAS2 element
 
-Post to:
+New Resource URIs
+-----------------
 
-> `   `[`http://www.biodas.org/das/h_sapiens/v35/writeback.cgi`](http://www.biodas.org/das/h_sapiens/v35/writeback.cgi)` `
+A special syntax is needed to guarantee that a new request for DAS2
+resource creation won't be mistaken for editing of a previous resource
+due to a client accidentally using the same URI as an existing feature
+for the new feature creation request (this is a problem only in the
+POST, afterward not an issue since server is in charge of permanent URI
+assignment). These client-assigned URIs have the syntax "das-private:"
+followed by an alphanumeric string of at least 1 and no more than 20
+characters. The legal characters are 0-9, A-Z and a-z. Some examples
+are: "das-private:0", "das-private:AAAA" and
+"das-private:ThisIsPrivate007".
 
-POSTed:
+Writeback Response
+------------------
 
-    Content-Type: application/x-das-writeback+xml
+The server is free to make the requested modifications, as well as other
+modifications as it sees fit. The server responds to a request by
+sending back an XML representation of the modifications. In the simple
+case where the server makes no modifications of its own, this is just
+the client's POST XML content mirrored back.
 
-    <WRITEBACK xmlns="http://biodas.org/documents/das2"
-           xml:base="http://www.biodas.org/das/h_sapiens/v35/">
-      <MESSAGE>Moved endpoint by 1; wrong coordinate numbers</MESSAGE>
-      <FEATURE uri="feature/cTel54X" type="type/gene" title="tg-3">
-        <LOC segment="segment/Chr2" range="1200:2916:1" />
-      </FEATURE>
-    </WRITEBACK>
+In addition to a required "uri" attribute, each DAS2 resource has an
+optional "old\_uri" attribute reserved for use in writeback. A server
+may change the resouce's URI during writeback. If this happens then in
+the server's response the "old\_uri" attibute contains the URI reference
+sent to the server and the normal "uri" attribute contains the new URI
+reference determined by the server.
 
-Here is a more complicated example. This one deletes a feature named
-"<http://example.com/das2/dasypus/April2006/F001>", and changes an
-existing feature (".../F002") to a different type.
+For every DELETE completed, the server should mirror the DELETE back.
+However a server \_may\_ choose not to actually do a delete -- for
+example servers that maintain a complete versioning history. If this is
+the case then the XML element for the entity that wasn't deleted should
+be returned as if it was an edit request, so a server can modify the
+entity if it chooses to (for example, changing the URI to indicate a
+"deleted" entity without actual removal from the server?)
 
-Post to:
+Transactional Integrity
+-----------------------
 
-> `   `[`http://example.com/das2/dasypus/April2006/writeback.py`](http://example.com/das2/dasypus/April2006/writeback.py)` `
+A DAS2 writeback server should support transactional integrity (actions
+should be atomic, isolated, and recoverable -- see for example
+[here](http://safari.oreilly.com/0321375777/ch13) for more details).
+Each HTTP POST should be considered a unit of transactional integrity.
+So for example if there are multiple edited features in the POST
+content, the server should make the modifications necessary to edit all
+of the features and return an HTTP OK status, or else edit none of them
+and return an HTTP error status.
 
-POSTed:
+Error Handling
+--------------
 
-    Content-Type: application/x-das-writeback+xml
+Concurrent Modifications
+------------------------
 
-    <WRITEBACK xmlns="http://biodas.org/documents/das2"
-           xml:base="http://example.com/das2/dasypus/April2006/">
-      <MESSAGE>Removed duplicate gene; changed remaining one to a pseudogene</MESSAGE>
-      <DELETES>
-        <DELETE uri="F001" />
-      </DELETES>
-      <FEATURE uri="F002" type="T981" title="tg-3">
-        <LOC segment="segment/Chr2" range="1200:2916:1" />
-      </FEATURE>
-    </WRITEBACK>
+If a problem, use locking. Otherwise relies on database -- it's up to
+database whether a curation can be "branched" -- should be easy to do if
+database uses unique URIs for each version of a curation. Then branching
+is just annotation A being edited once to yield annotation B1 and a
+second time to yield B2 -- both are valid. If a database doesn't want to
+support this, it's easy enough to throw an error (resource no longer
+available?) if someone attempts to edit A after B1 has already been
+created.
 
-The root element is named WRITEBACK. The MESSAGE element contains
-human-readable text summarizing the changes made by the writeback. After
-the MESSAGE are zero or more DELETE elements followed by zero or more
-FEATURE elements.
+Split
+-----
 
-Each DELETE element has a "uri" attribute with the identifier of the
-feature to delete. If a feature is deleted then it may not be present as
-a FEATURE in the same writeback.
+Splitting feature A into B and C
 
-The writeback FEATURE element is identical to the FEATURE element used
-in the features document. The writeback feature replaces an existing
-feature with the same uri. If the parent/part relationship changes then
-all modified features must be included in the same writeback. This
-includes sending DELETE elements when a feature is removed. New features
-must use the private identifier scheme described below.
+<DELETE uri="A" /> <FEATURE uri="B" ...
+<FEATURE uri="C" ...
 
-The WRITEBACK, DELETE and FEATURE elements include the xml:base
-attributes. As there is no reasonable retrieval context providing a base
-url for the POSTed writeback document, all relative URIs must be
-resolved to absolute URIs inside the document.
-
-New feature URIs
-----------------
-
-Each feature has its own unique URI assigned by the server. To create a
-new feature record the client temporarily assigns a private id. These
-URIs have the syntax "das-private:" followed by an alphanumeric string
-of at least 1 and no more than 20 characters. The legal characters are
-0-9, A-Z and a-z. Some examples are: "das-private:0", "das-private:AAAA"
-and "das-private:ThisIsPrivate007".
-
-When the server receives a feature record with a private identifier it
-generates a new URI appropriate to the server's namespace and assigns
-the URI to the feature. The "old\_uri" attribute in the writeback
-response document will include the temporary das-private identifier.
-
-Server response to a writeback
-------------------------------
-
-A writeback server may further modify the feature record sent by the
-client. It will assign a new URI for newly created features and
-curational servers might add fields for history tracking. Changes to one
-feature may affect other features. Consider a change to a feature
-involved in a parent/part relationshop. A versioning server may create
-new versions of all features in that annotation, with new URIs for the
-new features. (Such a server might add extra feature filter query terms
-to support historical queries. XXX make sure the feature filter spec
-allows this!)
-
-A server is not required to change the feature URI when the feature
-changes. The decision is left to the server implementer.
-
-The server responds to a writeback document with a modified features
-document. This contains all of the features that changed as a result of
-the writeback. The document format is identical to the standard features
-document except for one addition. The FEATURE element has an optional
-"old\_uri" attribute. If present it is the previous URI for the given
-object. This may be a relative URI and it resolved as normal through the
-xml:base and URI resolution mechanism. If the "old\_uri" attribute is
-not present then the URI has not changed.
-
-The server should not reuse feature identifiers which were used for
-earlier features. Doing so may cause synchronization problems with other
-clients. The "old\_uri" URI may no longer be retrievable and a client
-should consider it no longer valid.
-
-XXX What about XID tracking, if the XID is an intra-database link. Will
-those records change? Will a versioning database change them?
-
-Following is an example
-
-    XXX insert example here XXX.
-
-Errors
-------
-
-The writeback document may contain errors. It may reference invalid
-URIs, delete a feature type while features of that type still exist,
-introduce features with cycles, include malformed XML, modify locked
-regions, and more. The server must respond with an HTTP error 400 ("Bad
-Request") when an error occurs and must implement the writeback
-atomically and transactionally. That is, writebacks occur in order with
-no overlap and if there is an error the annotation database is
-unchanged.
-
-There is a possible loss of synchronization between the client and the
-server if the writeback is processed but the connection is lost before
-the mapping document is fully returned to the client. A client must not
-automatically repost the writeback if this occurs. It should rely on
-user intervention to determine how to recover in this case.
-
-Because we judge this to be a rare case we have no solution for it. We
-suggest implementors consider responding with an HTTP code 202
-("Accepted") and a Location header pointing to a URL for status and/or
-results.
+==Merge==
+Merging B and C into A
+<DELETE uri="B" /> <DELETE uri="C" /> &lt;FEATURE uri="A" ...

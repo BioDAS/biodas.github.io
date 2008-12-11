@@ -24,6 +24,9 @@ To include a comment use the <PROP> element of the root DAS2 element
 ==New Resource URIs==
 A special syntax is needed to guarantee that a new request for DAS2 resource creation won't be mistaken for editing of a previous resource due to a client accidentally using the same URI as an existing feature for the new feature creation request  (this is a problem only in the POST, afterward not an issue since server is in charge of permanent URI assignment).  These client-assigned URIs have the syntax "das-private:" followed by an alphanumeric string of at least 1 and no more than 20 characters. The legal characters are 0-9, A-Z and a-z. Some examples are: "das-private:0", "das-private:AAAA" and "das-private:ThisIsPrivate007".
 
+==Deletes==
+<DELETE uri="xyz" />
+
 ==Writeback Response==
 
 The server is free to make the requested modifications, as well as other modifications as it sees fit.  The server responds to a request by sending back an XML representation of the modifications.  In the simple case where the server makes no modifications of its own, this is just the client's POST XML content mirrored back.

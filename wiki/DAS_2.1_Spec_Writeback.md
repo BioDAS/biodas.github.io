@@ -62,6 +62,11 @@ characters. The legal characters are 0-9, A-Z and a-z. Some examples
 are: "das-private:0", "das-private:AAAA" and
 "das-private:ThisIsPrivate007".
 
+Deletes
+-------
+
+<DELETE uri="xyz" />
+
 Writeback Response
 ------------------
 

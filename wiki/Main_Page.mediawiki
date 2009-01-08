@@ -26,7 +26,7 @@ Here are some examples of DAS-enabled websites and applications:
 
 * Gbrowse: http://www.gmod.org/gbrowse_installation
 
-* Ensembl: http://www.ensembl.org/info/using/external_data/das/ensembl_das.html
+* Ensembl: http://www.ensembl.org/info/using/external_data/das/ensembl_das.html '''Link broked'''
 
 * Spice: http://www.efamily.org.uk/software/dasclients/spice/
 

@@ -14,16 +14,22 @@ What applications are the actual "DAS clients"?
 DAS applications generally take the form of graphical genome browsers,
 protein feature/structure browsers, and even gene information browsers.
 
-Examples of DAS applications are listed on both the
-[DAS/1\#Clients](/wiki/DAS/1#Clients "wikilink") and
-[DAS/2\#Clients](/wiki/DAS/2#Clients "wikilink") pages.
-
 For an example of how Ensembl acts as a DAS client for gene information
 browsing, see the "Gene DAS Report" section of this page:
 <http://www.ensembl.org/Homo_sapiens/geneview?gene=ENSG00000165029>
 
 Here's an interesting review of EBI DAS clients:
 <http://www.ebi.ac.uk/~rafael/das/index.php?display=clients>
+
+See also: [\#What DAS client should I
+use?](#What_DAS_client_should_I_use? "wikilink")
+
+What DAS client should I use?
+-----------------------------
+
+Examples of DAS applications are listed on both the
+[DAS/1\#Clients](/wiki/DAS/1#Clients "wikilink") and
+[DAS/2\#Clients](/wiki/DAS/2#Clients "wikilink") pages.
 
 Are DAS/1 and DAS/2 designed to interoperate? For example, will I be able to use a DAS/2 client and a DAS/1 server?
 -------------------------------------------------------------------------------------------------------------------

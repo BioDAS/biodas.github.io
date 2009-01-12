@@ -9,8 +9,11 @@ to this new version are invited from both DAS/1 and DAS/2 developers
 with the goal of merging ideas from both camps to create a unified
 version of the spec suitable for all DAS-based applications.
 
-Here's the [stable **DAS/2.0**
-specification](http://biodas.org/documents/das2/das2_protocol.html).
+**See also:**
+
+-   [Stable **DAS/2.0**
+    specification](http://biodas.org/documents/das2/das2_protocol.html)
+-   [Spec Review](/wiki/Spec_Review "wikilink")
 
 Overview
 --------
@@ -18,7 +21,7 @@ Overview
 The DAS 2.x specification addresses some shortcomings of the DAS 1.x
 protocol, including:
 
--   Better support for hierachical structures (e.g. gene -&gt;
+-   Better support for hierarchical structures (e.g. gene -&gt;
     transcripts -&gt; exons)
 -   Ontology-based feature annotations
 -   Allow multiple formats, including formats only appropriate for some

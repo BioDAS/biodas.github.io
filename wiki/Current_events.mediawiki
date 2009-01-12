@@ -1,3 +1,7 @@
+== EBI DAS Workshop, March 2009 ==
+
+The EBI is hosting a [http://www.dasregistry.org/course.jsp a 3-day workshop on DAS, 9-11 March 2009]
+
 == Programmatic access in Java, Nov 2008==
 
 24th-27th November 2008 at the European Bioinformatics Institute, Hinxton, UK.

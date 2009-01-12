@@ -4,6 +4,12 @@ permalink: wiki/Current_events/
 layout: wiki
 ---
 
+EBI DAS Workshop, March 2009
+----------------------------
+
+The EBI is hosting a [a 3-day workshop on DAS, 9-11 March
+2009](http://www.dasregistry.org/course.jsp)
+
 Programmatic access in Java, Nov 2008
 -------------------------------------
 

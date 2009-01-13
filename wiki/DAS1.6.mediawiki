@@ -5,7 +5,7 @@
 '''Oct 1,2008'''
 
 This is a working document and a proposal for a reworked DAS specification which hopes to clarify the DAS spec based on how DAS is being used in the community today and to include commands from the [http://www.dasregistry.org/spec_1.53E.jsp 1.53E spec] and some of the 2.0 spec. Also the document has been adjusted to reflect changes in the use of DAS away from a solely genome centric protocol to a more open one encompassing other reference/coordinate systems such as protein sequences and structures. The spec also includes references to the DAS Registry which is essential for implementing an SOA architecture. Note: this is a technical document but should be readable and understandable by people without a deep understanding of broader technical issues and other system architectures.
-<font color="red">Note that we are proposing to change dtd for xsd</font>
+<font color="red">Note that we are proposing to change dtd for RelaxNG</font>
 
 ==System Architecture==
 

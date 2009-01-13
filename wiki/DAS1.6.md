@@ -24,7 +24,7 @@ Registry which is essential for implementing an SOA architecture. Note:
 this is a technical document but should be readable and understandable
 by people without a deep understanding of broader technical issues and
 other system architectures. <font color="red">Note that we are proposing
-to change dtd for xsd</font>
+to change dtd for RelaxNG</font>
 
 System Architecture
 -------------------

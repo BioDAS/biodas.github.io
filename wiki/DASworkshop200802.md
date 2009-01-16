@@ -12,9 +12,29 @@ DAS workshop February 25th, 26th Genome Campus, Hinxton
 Day 1
 -----
 
-schedule see at
-
-[[`http://www.dasregistry.org/course.jsp`](http://www.dasregistry.org/course.jsp)](http://www.dasregistry.org/course.jsp)
+| Time          | ProjectName              | Speaker                                          | Presentation |
+|---------------|--------------------------|--------------------------------------------------|--------------|
+| 09:30 - 10:00 | Arrival - Tea, Coffee.   |                                                  |              |
+| 10:00         | Opening talk             | Tim Hubbard                                      |              |
+| 10:20         | CNIO                     | Osvaldo Grana                                    |              |
+| 10:40         | Jalview / VAMSAS         | Jim Procter / Geoff Barton                       |              |
+| 11:00         | Pfam                     | Rob Finn                                         |              |
+| 11:20         | UniProt / MyDAS          | Phil Jones                                       |              |
+| 11:40         | Dasty2                   | Rafael Jimenez                                   |              |
+| 12:00         | short demo: Dastard      | Thomas Down                                      |              |
+| 12:15-13:30   | Lunch break              |                                                  |              |
+| 13:30         | Ensembl                  | James Smith / Eugene Kulesha                     |              |
+| 13:50         | DAS registry, SPICE      | Andreas Prlic                                    |              |
+| 14:10         | DAS - writeback          | Asja Grzibovska                                  |              |
+| 14:30         | Interaction DAS          | Hagen Blankenburg / Mario Albrecht               |              |
+| 14:50         | PeppeR                   | Jose Ramon Macias                                |              |
+| 15:10-15:30   | coffee break             |                                                  |              |
+| 15:30         | Annotation Pipeline      | Niall Haslam                                     |              |
+| 15:50         | Annotation type ontology | Gabby Reeves                                     |              |
+| 16:10         | Proserver                | Roger Pettett / Andy Jenkinson                   |              |
+| 16:30         | BioMart & DAS            | Syed Haider / Arek Kasprzyk                      |              |
+| 17:00         | Open discussion          | How to improve interopability, future extensions |              |
+||
 
 Day 2
 -----

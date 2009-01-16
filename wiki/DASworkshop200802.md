@@ -27,7 +27,7 @@ Day 1
 | 13:50         | DAS registry, SPICE      | Andreas Prlic                                    | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/prlic.pdf)                 |
 | 14:10         | DAS - writeback          | Asja Grzibovska                                  |                                                                                               |
 | 14:30         | Interaction DAS          | Hagen Blankenburg / Mario Albrecht               | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/blankenburg.pdf)           |
-| 14:50         | PeppeR                   | Jose Ramon Macias                                | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/marcias.pdf)               |
+| 14:50         | PeppeR                   | Jose Ramon Macias                                | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/macias.pdf)                |
 | 15:10-15:30   | coffee break             |                                                  |                                                                                               |
 | 15:30         | Annotation Pipeline      | Niall Haslam                                     | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/DASworkshopNialHaslam.pdf) |
 | 15:50         | Annotation type ontology | Gabby Reeves                                     | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/reeves.pdf)                |

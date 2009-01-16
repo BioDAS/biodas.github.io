@@ -12,28 +12,28 @@ DAS workshop February 25th, 26th Genome Campus, Hinxton
 Day 1
 -----
 
-| Time          | ProjectName              | Speaker                                          | Presentation                                                                    |
-|---------------|--------------------------|--------------------------------------------------|---------------------------------------------------------------------------------|
-| 09:30 - 10:00 | Arrival - Tea, Coffee.   |                                                  |                                                                                 |
-| 10:00         | Opening talk             | Tim Hubbard                                      | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/hubbard.pdf) |
-| 10:20         | CNIO                     | Osvaldo Grana                                    |                                                                                 |
-| 10:40         | Jalview / VAMSAS         | Jim Procter / Geoff Barton                       |                                                                                 |
-| 11:00         | Pfam                     | Rob Finn                                         |                                                                                 |
-| 11:20         | UniProt / MyDAS          | Phil Jones                                       |                                                                                 |
-| 11:40         | Dasty2                   | Rafael Jimenez                                   |                                                                                 |
-| 12:00         | short demo: Dastard      | Thomas Down                                      |                                                                                 |
-| 12:15-13:30   | Lunch break              |                                                  |                                                                                 |
-| 13:30         | Ensembl                  | James Smith / Eugene Kulesha                     |                                                                                 |
-| 13:50         | DAS registry, SPICE      | Andreas Prlic                                    |                                                                                 |
-| 14:10         | DAS - writeback          | Asja Grzibovska                                  |                                                                                 |
-| 14:30         | Interaction DAS          | Hagen Blankenburg / Mario Albrecht               |                                                                                 |
-| 14:50         | PeppeR                   | Jose Ramon Macias                                |                                                                                 |
-| 15:10-15:30   | coffee break             |                                                  |                                                                                 |
-| 15:30         | Annotation Pipeline      | Niall Haslam                                     |                                                                                 |
-| 15:50         | Annotation type ontology | Gabby Reeves                                     |                                                                                 |
-| 16:10         | Proserver                | Roger Pettett / Andy Jenkinson                   |                                                                                 |
-| 16:30         | BioMart & DAS            | Syed Haider / Arek Kasprzyk                      |                                                                                 |
-| 17:00         | Open discussion          | How to improve interopability, future extensions |                                                                                 |
+| Time          | ProjectName              | Speaker                                          | Presentation                                                                                  |
+|---------------|--------------------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| 09:30 - 10:00 | Arrival - Tea, Coffee.   |                                                  |                                                                                               |
+| 10:00         | Opening talk             | Tim Hubbard                                      | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/hubbard.pdf)               |
+| 10:20         | CNIO                     | Osvaldo Grana                                    |                                                                                               |
+| 10:40         | Jalview / VAMSAS         | Jim Procter / Geoff Barton                       | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/Jalview_DasDev2008.pdf)    |
+| 11:00         | Pfam                     | Rob Finn                                         |                                                                                               |
+| 11:20         | UniProt / MyDAS          | Phil Jones                                       | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jones.pdf)                 |
+| 11:40         | Dasty2                   | Rafael Jimenez                                   | [1](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jimenez.pdf)                          |
+| 12:00         | short demo: Dastard      | Thomas Down                                      |                                                                                               |
+| 12:15-13:30   | Lunch break              |                                                  |                                                                                               |
+| 13:30         | Ensembl                  | James Smith / Eugene Kulesha                     |                                                                                               |
+| 13:50         | DAS registry, SPICE      | Andreas Prlic                                    | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/prlic.pdf)                 |
+| 14:10         | DAS - writeback          | Asja Grzibovska                                  |                                                                                               |
+| 14:30         | Interaction DAS          | Hagen Blankenburg / Mario Albrecht               | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/blankenburg.pdf)           |
+| 14:50         | PeppeR                   | Jose Ramon Macias                                | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/marcias.pdf)               |
+| 15:10-15:30   | coffee break             |                                                  |                                                                                               |
+| 15:30         | Annotation Pipeline      | Niall Haslam                                     | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/DASworkshopNialHaslam.pdf) |
+| 15:50         | Annotation type ontology | Gabby Reeves                                     | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/reeves.pdf)                |
+| 16:10         | Proserver                | Roger Pettett / Andy Jenkinson                   | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jenkinson.pdf)             |
+| 16:30         | BioMart & DAS            | Syed Haider / Arek Kasprzyk                      | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/biomart.pdf)               |
+| 17:00         | Open discussion          | How to improve interopability, future extensions |                                                                                               |
 ||
 
 Day 2

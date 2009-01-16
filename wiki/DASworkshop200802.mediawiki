@@ -28,7 +28,7 @@
 |10:40
 |Jalview / VAMSAS
 |Jim Procter / Geoff Barton
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/Jalview_DasDev2008.pdf presentation]
 |-
 |11:00
 |Pfam
@@ -38,12 +38,12 @@
 |11:20
 |UniProt / MyDAS
 |Phil Jones
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jones.pdf presentation]
 |-
 |11:40
 |Dasty2
 |Rafael Jimenez
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jimenez.pdf]
 |-
 |12:00
 |short demo: Dastard
@@ -63,7 +63,7 @@
 |13:50
 |DAS registry, SPICE
 |Andreas Prlic
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/prlic.pdf presentation]
 |-
 |14:10
 |DAS - writeback
@@ -73,12 +73,12 @@
 |14:30
 |Interaction DAS
 |Hagen Blankenburg / Mario Albrecht
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/blankenburg.pdf presentation]
 |-
 |14:50
 |PeppeR
 |Jose Ramon Macias
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/marcias.pdf presentation]
 |-
 |15:10-15:30
 |coffee break
@@ -88,22 +88,22 @@
 |15:30
 |Annotation Pipeline
 |Niall Haslam
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/DASworkshopNialHaslam.pdf  presentation]
 |-
 |15:50
 |Annotation type ontology
 |Gabby Reeves
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/reeves.pdf presentation]
 |-
 |16:10
 |Proserver
 |Roger Pettett / Andy Jenkinson
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jenkinson.pdf presentation]
 |-
 |16:30
 |BioMart & DAS
 |Syed Haider / Arek Kasprzyk
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/biomart.pdf presentation]
 |-
 |17:00
 |Open discussion

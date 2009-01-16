@@ -23,7 +23,7 @@
 |10:20
 |CNIO
 |Osvaldo Grana
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/grzibovska.pdf presentation]
 |-
 |10:40
 |Jalview / VAMSAS

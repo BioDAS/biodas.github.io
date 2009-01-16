@@ -16,7 +16,7 @@ Day 1
 |---------------|--------------------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | 09:30 - 10:00 | Arrival - Tea, Coffee.   |                                                  |                                                                                               |
 | 10:00         | Opening talk             | Tim Hubbard                                      | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/hubbard.pdf)               |
-| 10:20         | CNIO                     | Osvaldo Grana                                    |                                                                                               |
+| 10:20         | CNIO                     | Osvaldo Grana                                    | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/grzibovska.pdf)            |
 | 10:40         | Jalview / VAMSAS         | Jim Procter / Geoff Barton                       | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/Jalview_DasDev2008.pdf)    |
 | 11:00         | Pfam                     | Rob Finn                                         |                                                                                               |
 | 11:20         | UniProt / MyDAS          | Phil Jones                                       | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jones.pdf)                 |

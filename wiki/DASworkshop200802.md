@@ -20,7 +20,7 @@ Day 1
 | 10:40         | Jalview / VAMSAS         | Jim Procter / Geoff Barton                       | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/Jalview_DasDev2008.pdf)    |
 | 11:00         | Pfam                     | Rob Finn                                         |                                                                                               |
 | 11:20         | UniProt / MyDAS          | Phil Jones                                       | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jones.pdf)                 |
-| 11:40         | Dasty2                   | Rafael Jimenez                                   | [1](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jimenez.pdf)                          |
+| 11:40         | Dasty2                   | Rafael Jimenez                                   | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jimenez.pdf)               |
 | 12:00         | short demo: Dastard      | Thomas Down                                      |                                                                                               |
 | 12:15-13:30   | Lunch break              |                                                  |                                                                                               |
 | 13:30         | Ensembl                  | James Smith / Eugene Kulesha                     |                                                                                               |

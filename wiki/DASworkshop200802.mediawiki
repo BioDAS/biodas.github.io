@@ -43,7 +43,7 @@
 |11:40
 |Dasty2
 |Rafael Jimenez
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jimenez.pdf]
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jimenez.pdf presentation]
 |-
 |12:00
 |short demo: Dastard

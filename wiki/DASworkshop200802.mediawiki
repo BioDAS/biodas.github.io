@@ -18,7 +18,7 @@
 |10:00
 |Opening talk 
 |Tim Hubbard
-|
+|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/hubbard.pdf presentation]
 |-
 |10:20
 |CNIO

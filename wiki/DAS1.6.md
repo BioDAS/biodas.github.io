@@ -334,17 +334,6 @@ denoted here as *PREFIX*. The other meta-variable used in these examples
 is *DSN*, which is a symbolic data source (as seen in the \[\#request
 above example.\])
 
-<font color="blue">At present, there is no implementation of the
-"assembly traversal' features of DAS. In the interests of simplicity, we
-could opt for removing this capacity. This would involve removing:
-
--   entry\_points: subparts and orientation attributes (orientation only
-    makes sense if you have other information about how entry points
-    relate to each other)
--   features: reference, superparts and subparts attributes
-
-</font>
-
 ### Sources Command
 
 *Retrieve the list of data sources for a server.*

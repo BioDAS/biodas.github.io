@@ -688,11 +688,10 @@ start and stop positions of the segment. Orientation is one of "+" or
 segment is not intrinsically ordered)<font color="red">The orientation
 is now optional.</font>. If the optional **subparts** attribute is
 present and has the value "yes", it indicates that the segment has
-subparts.<font color="red">The subparts section is now
-deprecated?</font><font color="red"> The type section is now deprecated
-as this should be specified by the registry</font>.For compatibility
-with older versions of the specification, the <SEGMENT> tag can use a
-**size** attribute rather than **start** and **stop**, and can omit the
+subparts.<font color="red"> The type section is now deprecated as this
+should be specified by the registry</font>.For compatibility with older
+versions of the specification, the <SEGMENT> tag can use a **size**
+attribute rather than **start** and **stop**, and can omit the
 **orientation** attribute:
 
 `      `<SEGMENT id="id" size="123456">  

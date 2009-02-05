@@ -780,7 +780,7 @@ The document returned from the ''features'' request is an XML-formatted "DASGFF"
 ; <TYPE> (required; one per FEATURE)
 : Each feature has just one <TYPE> field, which indicates the type of the annotation. <font color="blue">See the '''Feature Types and Categories''' section for details of what this tag should contain. HAVE REMOVED REFERENCE/SUBPARTS/SUPERPARTS ATTRIBUTES.</font>
 ;<PARENT> and <PART>
-Each feature has a unique identifier and an identifer linking it to a type record. Both identifiers are URLs and should be directly fetchable. Simple features can be located on a region of a segment. More complex features like a gapped alignment are represented through a parent/part relationship. A feature may have multiple parents and multiple parts. 
+Each feature has a unique identifier and an identifer linking it to a type record. Both identifiers are URLs and should be directly fetchable. Simple features can be located on a region of a segment. More complex features like a gapped alignment are represented through a parent/part relationship. A feature may have multiple parents and multiple parts. '''Note''' that a parent-part relationship must be represented in both features. That is, if feature A is the parent of feature B, then A must have a ''PART'' element and B must have a ''PARENT'' element.
 ; <METHOD> (required; one per FEATURE)
 : Each feature has one <METHOD> field, which identifies the method used to identify the feature<font color="blue">, such as an experiment or algorithm. DELETE: The '''id''' (optional) tag can be used to retrieve further information from the annotation server. </font>The tag contents (optional) is a human readable label.
 ; <START>, <END> (<font color="red"> optional</font>; one apiece per FEATURE)

@@ -1167,6 +1167,9 @@ type record. Both identifiers are URLs and should be directly fetchable.
 Simple features can be located on a region of a segment. More complex
 features like a gapped alignment are represented through a parent/part
 relationship. A feature may have multiple parents and multiple parts.
+**Note** that a parent-part relationship must be represented in both
+features. That is, if feature A is the parent of feature B, then A must
+have a *PART* element and B must have a *PARENT* element.
 
 <METHOD> (required; one per FEATURE)  
 Each feature has one <METHOD> field, which identifies the method used to

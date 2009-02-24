@@ -73,8 +73,6 @@ Registry](/wiki/DasRegistry "wikilink").
 -   [TIGR's listing of
     servers](http://www.tigr.org/tdb/DAS/das_server_list.html)
 -   [UCSC server](http://genome.ucsc.edu/FAQ/FAQdownloads#download23)
--   [STRAP](http://3d-alignment.eu/)also directly accessible here
-    [STRAP](http://www.charite.de/bioinf/strap/)
 
 How to set up a DAS/1 server
 ----------------------------

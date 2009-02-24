@@ -40,6 +40,7 @@ A more exchaustive list of servers is available from the [[DasRegistry|DAS Regis
 * [http://www.ebi.ac.uk/das-srv/uniprot/das/dsn Uniprot DAS server]
 * [http://www.tigr.org/tdb/DAS/das_server_list.html TIGR's listing of servers]
 * [http://genome.ucsc.edu/FAQ/FAQdownloads#download23 UCSC server]
+* [http://3d-alignment.eu/ STRAP]also directly accessible here [http://www.charite.de/bioinf/strap/ STRAP]
 
 == How to set up a DAS/1 server ==
 

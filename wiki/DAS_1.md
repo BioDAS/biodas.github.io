@@ -45,6 +45,8 @@ DAS/1 Clients
 -   [Spice](http://www.efamily.org.uk/software/dasclients/spice/)
 -   [Dasty](http://www.ebi.ac.uk/dasty/)
 -   [Pfam](http://pfam.sanger.ac.uk/)
+-   [STRAP](http://3d-alignment.eu/)also directly accessible here
+    [STRAP](http://www.charite.de/bioinf/strap/)
 
 <!-- -->
 

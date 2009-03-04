@@ -37,7 +37,7 @@
 | Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl.
 | Jonathan Warren and Andy Jenkinson
 | Java server: [http://www.dasregistry.org/DazzleTutorial.jsp Dazzle tutorial]<br/>
-Java client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Dasobert tutorial]<br/>
+Java client: [http://www.dasregistry.org/DasobertTutorial.jsp Dasobert tutorial]<br/>
 Perl server: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::ProServer tutorial]<br/>
 Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::Lite tutorial]<br/>
 |- style="background:#ffdead;"

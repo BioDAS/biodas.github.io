@@ -132,57 +132,43 @@
 ! Speaker
 ! Resources
 |-
-| 09:15 - 10:00
+| 8:45 - 9:30
+| colspan="3" | Minibus/Taxis to pick attendees up from hotels and bring to Campus
+|- style="background:#ffdead;"
+| 9:30 - 10:00 
+| colspan="3" | Coffee is served outside the training room 
+|- style="background:#ffdead;"
+|-
+| 10:00 - 10:10
+| Welcome and Introduction to the Workshop
+| Jonathan Warren
+|
+|-
+| 10:10 - 11:10
 | DAS - Technical Introduction 
-| Phil Jones 
-| Presentation:<br/>[http://www.ebi.ac.uk/~pjones/DAS2008/DAS-technical-introduction.ppt Powerpoint]<br/>[http://www.ebi.ac.uk/~pjones/DAS2008/DAS-technical-introduction.odp Open Document Format]<br/>[http://www.ebi.ac.uk/~pjones/DAS2008/DAS-technical-introduction.pdf PDF] 
+| Andy Jenkinson
+| Presentation:<br/>[http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.ppt Powerpoint]<br/>[http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.pdf PDF] 
 |-
-| 10:00 - 10:35
-| DAS Introductory Tutorial - DAS servers and the DAS Registration Service
-| Phil Jones 
-| [[DASworkshop200802:intro_tutorial| Introductory Tutorial]]
-|-  
-| 10:35 - 11:15
-| DAS - Client Demonstration: Ensembl, grouping and histograms
-| Eugene Kulesha
-|
+| 11:10 - 11:30
+| The DAS Registration Service
+| Jonathan Warren
+| 
+|-
+| 11:30 - 12:15
+| Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl.
+| Jonathan Warren and Andy Jenkinson
+| [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::ProServer server tutorial]<br/>
+[http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::Lite client tutorial]<br/>
 |- style="background:#ffdead;"
-| 11:15 - 11:40 
-| colspan="3" | Coffee break 
-|-
-| 11:40 - 12:10 
-| Dasty2
-| Rafael Jimenez
-|
-|-
-| 12:10 - 12:40
-| SPICE, Mapping features on 3D, viewing alignments
-| Andreas Prlic
-| [[DASworkshop200802:spice| SPICE links]]
-|- style="background:#ffdead;"
-| 12:40 - 13:40 
+| 12:15 - 13:15 
 | colspan="3" | Lunch break
 |-
-| 13:40 - 14:10
-| Pepper
-| Jose Ramon Macias
-| [http://biocomp.cnb.csic.es/das http://biocomp.cnb.csic.es/das] 
-|-
-| 14:10 - 15:10
-| DAS: Setting Up Your Own Server.  In this section the group will split into two tracks - one for Perl programmers and one for Java programmers.  
-| [http://www.sanger.ac.uk/Software/analysis/proserver Proserver]: Andy Jenkinson<br/>
-[http://www.biojava.org/wiki/Dazzle Dazzle]: Andreas Prlic
-| [http://www.ebi.ac.uk/~aj/das_workshop_2008/proserver_tutorial.html ProServer: writing a SourceAdaptor]<br/>
-[http://www.biojava.org/wiki/Dazzle:plugins Dazzle: using existing plugins]<br/>
-[http://www.biojava.org/wiki/Dazzle:writeplugin Dazzle: writing a plugin]<br/>
-[http://www.ebi.ac.uk/~pjones/DAS2008/chr21.gff Chromosome 21 GFF File]
+| 13:15 - 15:10
+| colspan="3" | Hands On Tutorial - continued
 |- style="background:#ffdead;"
 | 15:10 - 15:30
 | colspan="3"|Coffee break 
 |-
 | 15:30 - 16:30 
-| DAS - Coding a Client. 
-| [http://search.cpan.org/~rpettett/Bio-Das-Lite/ Bio::Das::Lite] (Perl) - Andy Jenkinson<br/>
-[http://www.spice-3d.org/dasobert/ Dasobert] (Java) - Andreas Prlic
-| [http://www.ebi.ac.uk/~aj/das_workshop_2008/daslite_tutorial.html Bio::Das::Lite tutorial]
+| colspan="3" | Hands On Tutorial - continued
 |}

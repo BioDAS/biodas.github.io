@@ -36,8 +36,10 @@
 | 11:30 - 12:15
 | Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl.
 | Jonathan Warren and Andy Jenkinson
-| [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::ProServer server tutorial]<br/>
-[http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::Lite client tutorial]<br/>
+| Java server: [http://www.dasregistry.org/DazzleTutorial.jsp Dazzle tutorial]<br/>
+Java client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Dasobert tutorial]<br/>
+Perl server: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::ProServer tutorial]<br/>
+Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::Lite tutorial]<br/>
 |- style="background:#ffdead;"
 | 12:15 - 13:15 
 | colspan="3" | Lunch break

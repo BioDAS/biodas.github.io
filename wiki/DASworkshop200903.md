@@ -12,28 +12,30 @@ DAS workshop March 9th-11th 2009 Genome Campus, Hinxton
 Day 1
 -----
 
-| Time          | ProjectName              | Speaker                                          | Presentation                                                                                  |
-|---------------|--------------------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| 09:30 - 10:00 | Arrival - Tea, Coffee.   |                                                  |                                                                                               |
-| 10:00         | Opening talk             | Tim Hubbard                                      | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/hubbard.pdf)               |
-| 10:20         | CNIO                     | Osvaldo Grana                                    | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/grzibovska.pdf)            |
-| 10:40         | Jalview / VAMSAS         | Jim Procter / Geoff Barton                       | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/Jalview_DasDev2008.pdf)    |
-| 11:00         | Pfam                     | Rob Finn                                         |                                                                                               |
-| 11:20         | UniProt / MyDAS          | Phil Jones                                       | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jones.pdf)                 |
-| 11:40         | Dasty2                   | Rafael Jimenez                                   | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jimenez.pdf)               |
-| 12:00         | short demo: Dastard      | Thomas Down                                      |                                                                                               |
-| 12:15-13:30   | Lunch break              |                                                  |                                                                                               |
-| 13:30         | Ensembl                  | James Smith / Eugene Kulesha                     |                                                                                               |
-| 13:50         | DAS registry, SPICE      | Andreas Prlic                                    | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/prlic.pdf)                 |
-| 14:10         | DAS - writeback          | Asja Grzibovska                                  |                                                                                               |
-| 14:30         | Interaction DAS          | Hagen Blankenburg / Mario Albrecht               | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/blankenburg.pdf)           |
-| 14:50         | PeppeR                   | Jose Ramon Macias                                | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/macias.pdf)                |
-| 15:10-15:30   | coffee break             |                                                  |                                                                                               |
-| 15:30         | Annotation Pipeline      | Niall Haslam                                     | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/DASworkshopNialHaslam.pdf) |
-| 15:50         | Annotation type ontology | Gabby Reeves                                     | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/reeves.pdf)                |
-| 16:10         | Proserver                | Roger Pettett / Andy Jenkinson                   | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jenkinson.pdf)             |
-| 16:30         | BioMart & DAS            | Syed Haider / Arek Kasprzyk                      | [presentation](http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/biomart.pdf)               |
-| 17:00         | Open discussion          | How to improve interopability, future extensions |                                                                                               |
+| Time          | ProjectName                                                                                       | Speaker                    | Presentation |
+|---------------|---------------------------------------------------------------------------------------------------|----------------------------|--------------|
+| 09:30 - 10:00 | Arrival - Tea, Coffee.                                                                            |                            |              |
+| 10:00         | Opening talk                                                                                      | Tim Hubbard                |              |
+| 10:20         | Collaborative Annotation tool (MaDAS)                                                             | Victor de la Torre         |              |
+| 10:40         | Jalview / VAMSAS                                                                                  | Jim Procter / Geoff Barton |              |
+| 11:00         | Pfam                                                                                              | Rob Finn                   |              |
+| 11:20         | DASgenexp                                                                                         | Bernat Gel                 |              |
+| 11:40         | Dasty2                                                                                            | Rafael Jimenez             |              |
+| 12:00         | EMBOSS as an efficient DAS annotation source                                                      | Peter Rice, Mahmut Uludag  |              |
+| 12:15-13:30   | Lunch break                                                                                       |                            |              |
+| 13:30         | Ensembl                                                                                           | James Smith                |              |
+| 13:50         | Integration of info on gene expression and its temporal and spatial localization                  | Jose Ramon Macias          |              |
+| 14:10         | DAS - writeback                                                                                   | Gustavo Salazar            |              |
+| 14:30         | Interaction DAS                                                                                   | Hagen Blankenburg          |              |
+| 14:50         | DAS for ENCODE data coordination                                                                  | Felix Kokocinski           |              |
+| 15:10-15:30   | coffee break                                                                                      |                            |              |
+| 15:30         | A web resource for selecting epitopes for antibodies                                              | Niall Haslam               |              |
+| 15:50         | DAS Searches                                                                                      | Andreas Prlic              |              |
+| 16:10         | A karyotype DAS client                                                                            | Rafael Jimenez             |              |
+| 16:30         | DASher, a standalone Java client for DAS protein sequence features                                | David Messina              |              |
+| 16:50         | Data Federation - BioMart & DAS                                                                   | Syed Haider                |              |
+| 17:10         | Trellis DAS2 framework- which includes the DAS1--&gt;DAS2 proxy and alpha UCSC DAS2 server        | Gregg Helt                 |              |
+| 17:30         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                            |              |
 ||
 
 Day 2

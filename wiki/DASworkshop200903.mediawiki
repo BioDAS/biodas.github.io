@@ -18,17 +18,17 @@
 |10:00
 |Opening talk 
 |Tim Hubbard
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/hubbard.pdf presentation]
+|
 |-
 |10:20
-|CNIO
-|Osvaldo Grana
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/grzibovska.pdf presentation]
+|Collaborative Annotation tool (MaDAS)
+|Victor de la Torre
+|
 |-
 |10:40
 |Jalview / VAMSAS
 |Jim Procter / Geoff Barton
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/Jalview_DasDev2008.pdf presentation]
+|
 |-
 |11:00
 |Pfam
@@ -36,18 +36,18 @@
 |
 |-
 |11:20
-|UniProt / MyDAS
-|Phil Jones
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jones.pdf presentation]
+|DASgenexp
+|Bernat Gel
+|
 |-
 |11:40
 |Dasty2
 |Rafael Jimenez
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jimenez.pdf presentation]
+|
 |-
 |12:00
-|short demo: Dastard
-|Thomas Down
+|EMBOSS as an efficient DAS annotation source
+|Peter Rice, Mahmut Uludag
 |
 |-
 |12:15-13:30
@@ -57,28 +57,28 @@
 |-
 |13:30
 |Ensembl
-|James Smith / Eugene Kulesha
+|James Smith
 |
 |-
 |13:50
-|DAS registry, SPICE
-|Andreas Prlic
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/prlic.pdf presentation]
+|Integration of info on gene expression and its temporal and spatial localization
+|Jose Ramon Macias
+|
 |-
 |14:10
 |DAS - writeback
-|Asja Grzibovska
+|Gustavo Salazar
 |
 |-
 |14:30
 |Interaction DAS
-|Hagen Blankenburg / Mario Albrecht
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/blankenburg.pdf presentation]
+|Hagen Blankenburg
+|
 |-
 |14:50
-|PeppeR
-|Jose Ramon Macias
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/macias.pdf presentation]
+|DAS for ENCODE data coordination
+|Felix Kokocinski
+|
 |-
 |15:10-15:30
 |coffee break
@@ -86,28 +86,38 @@
 |
 |-
 |15:30
-|Annotation Pipeline
+|A web resource for selecting epitopes for antibodies
 |Niall Haslam
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/DASworkshopNialHaslam.pdf  presentation]
+|
 |-
 |15:50
-|Annotation type ontology
-|Gabby Reeves
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/reeves.pdf presentation]
+|DAS Searches
+|Andreas Prlic
+|
 |-
 |16:10
-|Proserver
-|Roger Pettett / Andy Jenkinson
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/jenkinson.pdf presentation]
+|A karyotype DAS client
+|Rafael Jimenez
+|
 |-
 |16:30
-|BioMart & DAS
-|Syed Haider / Arek Kasprzyk
-|[http://www.sanger.ac.uk/Users/ap3/dasworkshop200802/biomart.pdf presentation]
+|DASher, a standalone Java client for DAS protein sequence features
+|David Messina
+|
 |-
-|17:00
-|Open discussion
-|How to improve interopability, future extensions
+|16:50
+|Data Federation - BioMart & DAS
+|Syed Haider
+|
+|-
+|17:10
+|Trellis DAS2 framework- which includes the DAS1-->DAS2 proxy and alpha UCSC DAS2 server
+|Gregg Helt
+|
+|-
+|17:30
+|Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups
+|
 |
 |-
 |}

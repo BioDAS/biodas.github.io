@@ -1,7 +1,7 @@
 =DAS workshop March 9th-11th 2009 Genome Campus, Hinxton=
 [[Image:Biosapiens_final.gif|frame|BioSapiens Network]]
 
-==Day 2==
+==Day 1==
 
 
 {| class="wikitable" border="1"
@@ -52,8 +52,7 @@
 | colspan="3" | Hands On Tutorial - continued
 |}
 
-==Day 1==
-
+==Day 2==
 
 {| class="wikitable" border="1"
 |- style="background:silver"

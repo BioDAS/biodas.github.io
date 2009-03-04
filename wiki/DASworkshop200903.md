@@ -9,7 +9,7 @@ DAS workshop March 9th-11th 2009 Genome Campus, Hinxton
 
 ![BioSapiens Network](Biosapiens_final.gif "BioSapiens Network")
 
-Day 2
+Day 1
 -----
 
 | Time          | Title                                                                                                                                         | Speaker                            | Resources                                                                                                 |
@@ -29,7 +29,7 @@ Day 2
 | 15:10 - 15:30 | Coffee break                                                                                                                                  |
 | 15:30 - 16:30 | Hands On Tutorial - continued                                                                                                                 |
 
-Day 1
+Day 2
 -----
 
 | Time          | ProjectName                                                                                       | Speaker                    | Presentation |

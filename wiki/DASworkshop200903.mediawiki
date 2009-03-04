@@ -1,5 +1,57 @@
 =DAS workshop March 9th-11th 2009 Genome Campus, Hinxton=
 [[Image:Biosapiens_final.gif|frame|BioSapiens Network]]
+
+==Day 2==
+
+
+{| class="wikitable" border="1"
+|- style="background:silver"
+! width="100px"|Time
+! Title
+! Speaker
+! Resources
+|-
+| 8:45 - 9:30
+| colspan="3" | Minibus/Taxis to pick attendees up from hotels and bring to Campus
+|- style="background:#ffdead;"
+| 9:30 - 10:00 
+| colspan="3" | Coffee is served outside the training room 
+|- style="background:#ffdead;"
+|-
+| 10:00 - 10:10
+| Welcome and Introduction to the Workshop
+| Jonathan Warren
+|
+|-
+| 10:10 - 11:10
+| DAS - Technical Introduction 
+| Andy Jenkinson
+| Presentation:<br/>[http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.ppt Powerpoint]<br/>[http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.pdf PDF] 
+|-
+| 11:10 - 11:30
+| The DAS Registration Service
+| Jonathan Warren
+| 
+|-
+| 11:30 - 12:15
+| Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl.
+| Jonathan Warren and Andy Jenkinson
+| [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::ProServer server tutorial]<br/>
+[http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::Lite client tutorial]<br/>
+|- style="background:#ffdead;"
+| 12:15 - 13:15 
+| colspan="3" | Lunch break
+|-
+| 13:15 - 15:10
+| colspan="3" | Hands On Tutorial - continued
+|- style="background:#ffdead;"
+| 15:10 - 15:30
+| colspan="3"|Coffee break 
+|-
+| 15:30 - 16:30 
+| colspan="3" | Hands On Tutorial - continued
+|}
+
 ==Day 1==
 
 
@@ -120,55 +172,4 @@
 |
 |
 |-
-|}
-
-==Day 2==
-
-
-{| class="wikitable" border="1"
-|- style="background:silver"
-! width="100px"|Time
-! Title
-! Speaker
-! Resources
-|-
-| 8:45 - 9:30
-| colspan="3" | Minibus/Taxis to pick attendees up from hotels and bring to Campus
-|- style="background:#ffdead;"
-| 9:30 - 10:00 
-| colspan="3" | Coffee is served outside the training room 
-|- style="background:#ffdead;"
-|-
-| 10:00 - 10:10
-| Welcome and Introduction to the Workshop
-| Jonathan Warren
-|
-|-
-| 10:10 - 11:10
-| DAS - Technical Introduction 
-| Andy Jenkinson
-| Presentation:<br/>[http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.ppt Powerpoint]<br/>[http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.pdf PDF] 
-|-
-| 11:10 - 11:30
-| The DAS Registration Service
-| Jonathan Warren
-| 
-|-
-| 11:30 - 12:15
-| Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl.
-| Jonathan Warren and Andy Jenkinson
-| [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::ProServer server tutorial]<br/>
-[http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::Lite client tutorial]<br/>
-|- style="background:#ffdead;"
-| 12:15 - 13:15 
-| colspan="3" | Lunch break
-|-
-| 13:15 - 15:10
-| colspan="3" | Hands On Tutorial - continued
-|- style="background:#ffdead;"
-| 15:10 - 15:30
-| colspan="3"|Coffee break 
-|-
-| 15:30 - 16:30 
-| colspan="3" | Hands On Tutorial - continued
 |}

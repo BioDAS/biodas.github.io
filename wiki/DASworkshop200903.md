@@ -9,6 +9,26 @@ DAS workshop March 9th-11th 2009 Genome Campus, Hinxton
 
 ![BioSapiens Network](Biosapiens_final.gif "BioSapiens Network")
 
+Day 2
+-----
+
+| Time          | Title                                                                                                                                         | Speaker                            | Resources                                                                                                 |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| 8:45 - 9:30   | Minibus/Taxis to pick attendees up from hotels and bring to Campus                                                                            |
+| 9:30 - 10:00  | Coffee is served outside the training room                                                                                                    |
+||
+| 10:00 - 10:10 | Welcome and Introduction to the Workshop                                                                                                      | Jonathan Warren                    |                                                                                                           |
+| 10:10 - 11:10 | DAS - Technical Introduction                                                                                                                  | Andy Jenkinson                     | Presentation:                                                                                             
+                                                                                                                                                                                                      [Powerpoint](http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.ppt)                    
+                                                                                                                                                                                                      [PDF](http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.pdf)                           |
+| 11:10 - 11:30 | The DAS Registration Service                                                                                                                  | Jonathan Warren                    |                                                                                                           |
+| 11:30 - 12:15 | Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl. | Jonathan Warren and Andy Jenkinson | [Bio::Das::ProServer server tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html)   
+                                                                                                                                                                                                      [Bio::Das::Lite client tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html)         |
+| 12:15 - 13:15 | Lunch break                                                                                                                                   |
+| 13:15 - 15:10 | Hands On Tutorial - continued                                                                                                                 |
+| 15:10 - 15:30 | Coffee break                                                                                                                                  |
+| 15:30 - 16:30 | Hands On Tutorial - continued                                                                                                                 |
+
 Day 1
 -----
 
@@ -37,25 +57,5 @@ Day 1
 | 17:10         | Trellis DAS2 framework- which includes the DAS1--&gt;DAS2 proxy and alpha UCSC DAS2 server        | Gregg Helt                 |              |
 | 17:30         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                            |              |
 ||
-
-Day 2
------
-
-| Time          | Title                                                                                                                                         | Speaker                            | Resources                                                                                                 |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 8:45 - 9:30   | Minibus/Taxis to pick attendees up from hotels and bring to Campus                                                                            |
-| 9:30 - 10:00  | Coffee is served outside the training room                                                                                                    |
-||
-| 10:00 - 10:10 | Welcome and Introduction to the Workshop                                                                                                      | Jonathan Warren                    |                                                                                                           |
-| 10:10 - 11:10 | DAS - Technical Introduction                                                                                                                  | Andy Jenkinson                     | Presentation:                                                                                             
-                                                                                                                                                                                                      [Powerpoint](http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.ppt)                    
-                                                                                                                                                                                                      [PDF](http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-introduction.pdf)                           |
-| 11:10 - 11:30 | The DAS Registration Service                                                                                                                  | Jonathan Warren                    |                                                                                                           |
-| 11:30 - 12:15 | Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl. | Jonathan Warren and Andy Jenkinson | [Bio::Das::ProServer server tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html)   
-                                                                                                                                                                                                      [Bio::Das::Lite client tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html)         |
-| 12:15 - 13:15 | Lunch break                                                                                                                                   |
-| 13:15 - 15:10 | Hands On Tutorial - continued                                                                                                                 |
-| 15:10 - 15:30 | Coffee break                                                                                                                                  |
-| 15:30 - 16:30 | Hands On Tutorial - continued                                                                                                                 |
 
 

@@ -63,4 +63,4 @@ Day 2
 Day 3
 -----
 
-\[DASworkshop200903Day3 Day3page\]
+\["DASworkshop200903Day3" Day3page\]

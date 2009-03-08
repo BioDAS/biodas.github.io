@@ -36,7 +36,7 @@ Day 2
 
 | Time          | ProjectName                                                                                       | Speaker                    | Presentation |
 |---------------|---------------------------------------------------------------------------------------------------|----------------------------|--------------|
-| 09:30 - 10:00 | Arrival - Tea, Coffee.                                                                            |                            |              |
+| 09:30 - 10:00 | Arrival - Tea, Coffee.                                                                            |
 | 10:00         | Opening talk                                                                                      | Tim Hubbard                |              |
 | 10:20         | Collaborative Annotation tool (MaDAS)                                                             | Victor de la Torre         |              |
 | 10:40         | Jalview / VAMSAS                                                                                  | Jim Procter / Geoff Barton |              |
@@ -44,7 +44,7 @@ Day 2
 | 11:20         | DASgenexp                                                                                         | Bernat Gel                 |              |
 | 11:40         | Dasty2                                                                                            | Rafael Jimenez             |              |
 | 12:00         | EMBOSS as an efficient DAS annotation source                                                      | Peter Rice, Mahmut Uludag  |              |
-| 12:15-13:30   | Lunch break                                                                                       |                            |              |
+| 12:15-13:30   | Lunch break                                                                                       |
 | 13:30         | Ensembl                                                                                           | James Smith                |              |
 | 13:50         | Integration of info on gene expression and its temporal and spatial localization                  | Jose Ramon Macias          |              |
 | 14:10         | DAS - writeback                                                                                   | Gustavo Salazar            |              |

@@ -26,7 +26,7 @@
 | 10:10 - 11:10
 | DAS - Technical Introduction 
 | Andy Jenkinson
-| Presentation:<br/>[http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-Technical-Introduction.pptx Powerpoint 2008]<br/>
+| Presentation:<br/>
 [http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-Technical-Introduction.pptx Powerpoint 2008]<br/>
 [http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-Technical-Introduction.ppt Powerpoint 1997]<br/>
 [http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-Introduction.pdf PDF] 

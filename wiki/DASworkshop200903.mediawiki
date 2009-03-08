@@ -31,7 +31,7 @@
 | 11:10 - 11:30
 | The DAS Registration Service
 | Jonathan Warren
-| 
+| [http://www.biodas.org/wiki/DASworkshop200802:intro_tutorial#Finding_DAS_sources_.E2.80.93_the_DAS_Registry_Service_at_the_Sanger_Institute The Registry]
 |-
 | 11:30 - 12:15
 | Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl.

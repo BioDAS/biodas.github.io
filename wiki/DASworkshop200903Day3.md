@@ -7,6 +7,12 @@ layout: wiki
 DAS Workshop 2009 Day3
 ======================
 
+This page is for people attending day 3 of the workshop to put down
+their ideas and volunteer to host a session on a topic or write some
+minutes of the meeting on the biodas wiki site, so we have a record of
+what was discussed and what the outcomes were or ideally some code to
+work with.
+
 `   * DAS1/DAS2 merger`  
 `   * DAS writeback`  
 `   * Adapting Java DAS client libraries for alignment and PDB file retrieval for clients that dont use BioJava`  

@@ -31,11 +31,6 @@ Day 1
 | 15:10 - 15:30 | Coffee break                                                                                                                                  |
 | 15:30 - 16:30 | Hands On Tutorial - continued                                                                                                                 |
 
-Day 3
------
-
-\[DASworkshop200903Day3 Day 3 page\]
-
 Day 2
 -----
 

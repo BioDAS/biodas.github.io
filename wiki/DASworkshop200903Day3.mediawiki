@@ -1,8 +1,10 @@
 
 This page is for people attending day 3 of the workshop to put down their ideas and volunteer to host a session on a topic or write some minutes of the meeting on the biodas wiki site, so we have a record of what was discussed and what the outcomes were or ideally some code to work with.
 ==DAS 1.6 spec and where to go with the Registry==
-Host Jonathan Warren and Andy Jenkinson
-Secretary Jonathan Warren and Andy Jenkinson
+===Host===
+Jonathan Warren and Andy Jenkinson
+===Secretary===
+Jonathan Warren and Andy Jenkinson
 
 ==DAS1/DAS2 merger==
 ==DAS writeback==

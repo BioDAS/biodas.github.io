@@ -13,8 +13,13 @@ work with.
 DAS 1.6 spec and where to go with the Registry
 ----------------------------------------------
 
-Host Jonathan Warren and Andy Jenkinson Secretary Jonathan Warren and
-Andy Jenkinson
+### Host
+
+Jonathan Warren and Andy Jenkinson
+
+### Secretary
+
+Jonathan Warren and Andy Jenkinson
 
 DAS1/DAS2 merger
 ----------------

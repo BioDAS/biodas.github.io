@@ -50,7 +50,7 @@ Day 2
 | 14:10         | DAS - writeback                                                                                   | Gustavo Salazar            |              |
 | 14:30         | Interaction DAS                                                                                   | Hagen Blankenburg          |              |
 | 14:50         | DAS for ENCODE data coordination                                                                  | Felix Kokocinski           |              |
-| 15:10-15:30   | coffee break                                                                                      |                            |              |
+| 15:10-15:30   | coffee break                                                                                      |
 | 15:30         | A web resource for selecting epitopes for antibodies                                              | Niall Haslam               |              |
 | 15:50         | DAS Searches                                                                                      | Andreas Prlic              |              |
 | 16:10         | A karyotype DAS client                                                                            | Rafael Jimenez             |              |

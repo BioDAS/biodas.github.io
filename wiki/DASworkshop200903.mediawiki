@@ -66,7 +66,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 ! ProjectName
 ! Speaker
 ! Presentation
-|-
+|- style="background:#ffdead;"
 | 09:30 - 10:00
 | colspan="3" | Arrival - Tea, Coffee.
 |- 
@@ -134,9 +134,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |
 |- style="background:#ffdead;"
 |15:10-15:30
-|coffee break
-|
-|
+| colspan="3" | coffee break
 |-
 |15:30
 |A web resource for selecting epitopes for antibodies
@@ -174,5 +172,6 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |
 |-
 |}
+
 ==Day 3==
 [http://www.biodas.org/wiki/DASworkshop200903Day3 Day3page]

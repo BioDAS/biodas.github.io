@@ -10,6 +10,11 @@ minutes of the meeting on the biodas wiki site, so we have a record of
 what was discussed and what the outcomes were or ideally some code to
 work with.
 
+-   My current suggestion for the format would be to have the 1.6 spec
+    and the DAS1/DAS2 merger topics discussed in the first 2 hrs of the
+    day and be open to everybody. Then have groups split up into the
+    remainder of the topics?
+
 DAS 1.6 spec and where to go with the Registry
 ----------------------------------------------
 

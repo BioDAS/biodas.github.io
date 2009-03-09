@@ -90,43 +90,36 @@ public class Chromosome {
 `      private String id="";`  
 `      private int start=1;`  
 `      private int end;`  
-`      ArrayList features;`
-
+`      ArrayList features;`  
 `      public Chromosome(String id, int end){`  
 `       this.id=id;`  
 `       this.end=end;`  
-`       features =new ArrayList();`
-
-`      }`
-
+`       features =new ArrayList();`  
+`      }`  
 `      public void addFeature(GFFFeature feature){`  
 `              this.features.add(feature);`  
-`      }`
-
+`      }`  
 `      public GFFFeature[] getFeatures(Segment seg){`  
 `              System.out.println("seg in chromosome="+seg);`  
 `              ArrayList featuresOnSegment=new ArrayList();`  
 `              int start=seg.getStart();`  
 `              int stop =seg.getStop();`  
 `              //loop over arraylist of features and return a lis`  
-`              Iterator it=features.iterator();`
-
-`              while(it.hasNext()){`  
+`              Iterator it=features.iterator();`  
+`           while(it.hasNext()){`  
 `                      GFFFeature feature=(GFFFeature)it.next();`  
 `                      int fStart=Integer.parseInt(feature.getStart());`  
 `                      int fStop=Integer.parseInt(feature.getEnd());`  
 `              //if between start and stop then include in returned list`  
 `                      if((fStart>=start && fStart<=stop)||(fStop<=stop && fStop>=start)){`  
-`                              featuresOnSegment.add(feature);`
-
+`                              featuresOnSegment.add(feature);`  
 `                      }`  
 `              }`  
 `              return (GFFFeature[]) featuresOnSegment.toArray(new`
 
 GFFFeature\[featuresOnSegment.size()\]);
 
-`              //return new GFFFeature[0];`
-
+`              //return new GFFFeature[0];`  
 `      }`
 
 }

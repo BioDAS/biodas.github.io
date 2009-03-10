@@ -15,42 +15,28 @@ work with.
     day and be open to everybody. Then have groups split up into the
     remainder of the topics?
 
-DAS 1.6 spec and where to go with the Registry
-----------------------------------------------
+### DAS 1.6 spec and where to go with the Registry
 
-### Host
+Host: Jonathan Warren and Andy Jenkinson Scretary: Jonathan Warren and
+Andy Jenkinson
 
-Jonathan Warren and Andy Jenkinson
+### DAS1/DAS2 merger
 
-### Secretary
+### DAS writeback
 
-Jonathan Warren and Andy Jenkinson
+### Adapting Java DAS client libraries for alignment and PDB file retrieval for clients that dont use BioJava
 
-DAS1/DAS2 merger
-----------------
+### Ajax das client/server library (allow DAS server discovery and retrieval on the browser page)
 
-DAS writeback
--------------
+### Graphical Representation of data
 
-Adapting Java DAS client libraries for alignment and PDB file retrieval for clients that dont use BioJava
----------------------------------------------------------------------------------------------------------
+### DAS interfaces to sequence analysis tools
 
-Ajax das client/server library (allow DAS server discovery and retrieval on the browser page)
----------------------------------------------------------------------------------------------
-
-Graphical Representation of data
---------------------------------
-
-DAS interfaces to sequence analysis tools
------------------------------------------
-
-BioSapiens ontology lookup
---------------------------
+### BioSapiens ontology lookup
 
 How to represent the ontology in DAS, e.g. JR Macias' "term" command
 
-DAS vs. ontologies, how and why
--------------------------------
+### DAS vs. ontologies, how and why
 
 This topic was suggeseted because I'd like to understand how
 'ontologies' (in general) are implemented in DAS and how this relates to
@@ -61,14 +47,11 @@ behaviour? What about DAS ontology servers (and the 'term' DAS command)?
 This topic dosn't really fit with the idea of a 'hackathon', but is a
 very interesting aspect of DAS. i.e.
 
-Javascript DAS libraries
-------------------------
+### Javascript DAS libraries
 
-Searching
----------
+### Searching
 
-Filters and tags
-----------------
+### Filters and tags
 
 What are:
 

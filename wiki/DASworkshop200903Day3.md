@@ -55,7 +55,7 @@ This topic was suggeseted because I'd like to understand how
 the feature annotation models in [Chado](/wiki/Chado "wikilink") or
 [GFF3](/wiki/GFF3 "wikilink"), for example. How should an annotator use an
 ontology? How should the use of an ontology be reflected in the client
-behaviour? What about DAS ontology servers (and the term DAS command)?
+behaviour? What about DAS ontology servers (and the 'term' DAS command)?
 This topic dosn't really fit with the idea of a 'hackathon', but is a
 very interesting aspect of DAS. i.e.
 

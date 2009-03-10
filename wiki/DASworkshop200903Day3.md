@@ -47,6 +47,8 @@ DAS interfaces to sequence analysis tools
 BioSapiens ontology lookup
 --------------------------
 
+How to represent the ontology in DAS, e.g. JR Macias' "term" command
+
 DAS vs. ontologies, how and why
 -------------------------------
 
@@ -58,6 +60,15 @@ ontology? How should the use of an ontology be reflected in the client
 behaviour? What about DAS ontology servers (and the 'term' DAS command)?
 This topic dosn't really fit with the idea of a 'hackathon', but is a
 very interesting aspect of DAS. i.e.
+
+Javascript DAS libraries
+------------------------
+
+Searching
+---------
+
+Filters and tags
+----------------
 
 What are:
 

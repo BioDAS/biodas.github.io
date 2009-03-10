@@ -9,15 +9,14 @@ Scretary: Jonathan Warren and Andy Jenkinson
 ===DAS writeback===
 ===Adapting Java DAS client libraries for alignment and PDB file retrieval for clients that dont use BioJava===
 ===Ajax das client/server library (allow DAS server discovery and retrieval on the browser page)===
-===Graphical Representation of data===
+Graphical Representation of data
 ===DAS interfaces to sequence analysis tools===
 ===BioSapiens ontology lookup===
 How to represent the ontology in DAS, e.g. JR Macias' "term" command
-===DAS vs. ontologies, how and why===
+DAS vs. ontologies, how and why
 This topic was suggeseted because I'd like to understand how 'ontologies' (in general) are implemented in DAS and how this relates to the feature annotation models in [[Chado]] or [[GFF3]], for example. How should an annotator use an ontology? How should the use of an ontology be reflected in the client behaviour? What about DAS ontology servers (and the 'term' DAS command)? This topic dosn't really fit with the idea of a 'hackathon', but is a very interesting aspect of DAS. i.e. 
 ===Javascript DAS libraries===
-===Searching===
-===Filters and tags===
+===Searching, Filters and tags===
 
 What are:
 *[[Ontodas]]

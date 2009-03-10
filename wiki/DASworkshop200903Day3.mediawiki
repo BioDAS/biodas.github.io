@@ -20,5 +20,6 @@ What are:
 *[[Ontodas]]
 *[[DAS Protein Ontology]]
 *[[Ontology Lookup Service]]
-
+* The [[BioSapians]] (feature type?) ontology
+* The ontology of 'input filters' from [[EMbrace]]
 :???

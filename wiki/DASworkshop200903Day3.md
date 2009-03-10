@@ -61,6 +61,8 @@ What are:
 -   [Ontodas](/wiki/Ontodas "wikilink")
 -   [DAS Protein Ontology](/wiki/DAS_Protein_Ontology "wikilink")
 -   [Ontology Lookup Service](/wiki/Ontology_Lookup_Service "wikilink")
+-   The [BioSapians](/wiki/BioSapians "wikilink") (feature type?) ontology
+-   The ontology of 'input filters' from [EMbrace](/wiki/EMbrace "wikilink")
 
   
 ???

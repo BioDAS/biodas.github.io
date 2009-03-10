@@ -52,6 +52,6 @@ DAS vs. ontologies, how and why
 
 This topic was suggeseted because I'd like to understand how
 'ontologies' (in general) are implemented in DAS and how this relates to
-the feature annotation models in [Chaddo](/wiki/Chaddo "wikilink") or
+the feature annotation models in [Chado](/wiki/Chado "wikilink") or
 [GFF3](/wiki/GFF3 "wikilink"), for example. This topic dosn't really fit with
 the idea of a 'hackathon'.

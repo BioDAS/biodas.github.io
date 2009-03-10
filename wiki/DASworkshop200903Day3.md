@@ -59,7 +59,17 @@ What are:
 -   [DAS Protein Ontology](/wiki/DAS_Protein_Ontology "wikilink")
 -   [Ontology Lookup Service](/wiki/Ontology_Lookup_Service "wikilink")
 -   The [BioSapians](/wiki/BioSapians "wikilink") (feature type?) ontology
--   The ontology of 'input filters' from [EMbrace](/wiki/EMbrace "wikilink")
+-   The ontology of 'input filters' from [EMBRACE](/wiki/EMBRACE "wikilink")
+    This is an effort by the EMBRACE project to define ontologies for
+    use in registering web services in the EMBRACE registry and later in
+    the BioCatalogue registry. The ontology will cover the terms used in
+    EMBRACE servcies, including BioMart and EMBOSS - both of which
+    already have well-defined terms which will be used to populate
+    the ontology. This will be contributed to the OBO foundry (like the
+    other ontologies used in DAS) and can be extended to cover
+    algorithms to give a better description of a service, its inputs,
+    parameters and outputs. Contact Peter Rice pmr@ebi.ac.uk for
+    more information.
 
   
 ???

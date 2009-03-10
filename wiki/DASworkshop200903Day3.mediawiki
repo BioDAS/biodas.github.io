@@ -14,7 +14,7 @@ Jonathan Warren and Andy Jenkinson
 ==DAS interfaces to sequence analysis tools==
 ==BioSapiens ontology lookup==
 ==DAS vs. ontologies, how and why==
-This topic was suggeseted because I'd like to understand how 'ontologies' (in general) are implemented in DAS and how this relates to the feature annotation models in [[Chado]] or [[GFF3]], for example. This topic dosn't really fit with the idea of a 'hackathon', but is a very interesting aspect of DAS. i.e. 
+This topic was suggeseted because I'd like to understand how 'ontologies' (in general) are implemented in DAS and how this relates to the feature annotation models in [[Chado]] or [[GFF3]], for example. How should an annotator use an ontology? How should the use of an ontology be reflected in the client behaviour? This topic dosn't really fit with the idea of a 'hackathon', but is a very interesting aspect of DAS. i.e. 
 
 What are:
 *[[Ontodas]]

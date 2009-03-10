@@ -53,8 +53,10 @@ DAS vs. ontologies, how and why
 This topic was suggeseted because I'd like to understand how
 'ontologies' (in general) are implemented in DAS and how this relates to
 the feature annotation models in [Chado](/wiki/Chado "wikilink") or
-[GFF3](/wiki/GFF3 "wikilink"), for example. This topic dosn't really fit with
-the idea of a 'hackathon', but is a very interesting aspect of DAS. i.e.
+[GFF3](/wiki/GFF3 "wikilink"), for example. How should an annotator use an
+ontology? How should the use of an ontology be reflected in the client
+behaviour? This topic dosn't really fit with the idea of a 'hackathon',
+but is a very interesting aspect of DAS. i.e.
 
 What are:
 

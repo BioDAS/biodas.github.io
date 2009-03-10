@@ -9,8 +9,8 @@ layout: wiki
 DAS Workshop 2009 is in progress!
 ---------------------------------
 
-See the [DASworkshop200903](/wiki/DASworkshop200903 "wikilink") for the 2009
-workshop schedule.
+See the [DASworkshop200903](/wiki/DASworkshop200903 "wikilink") page for the
+2009 workshop schedule.
 
 About DAS
 ---------

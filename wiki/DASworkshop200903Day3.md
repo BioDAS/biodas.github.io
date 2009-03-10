@@ -4,6 +4,8 @@ permalink: wiki/DASworkshop200903Day3/
 layout: wiki
 ---
 
+Doodle Poll: [poll](http://doodle.com/68bxciw5vaqq7icw)
+
 This page is for people attending day 3 of the workshop to put down
 their ideas and volunteer to host a session on a topic or write some
 minutes of the meeting on the biodas wiki site, so we have a record of

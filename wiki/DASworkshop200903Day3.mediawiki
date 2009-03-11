@@ -19,8 +19,6 @@ DAS vs. ontologies, how and why
 This topic was suggeseted because I'd like to understand how 'ontologies' (in general) are implemented in DAS and how this relates to the feature annotation models in [[Chado]] or [[GFF3]], for example. How should an annotator use an ontology? How should the use of an ontology be reflected in the client behaviour? What about DAS ontology servers (and the 'term' DAS command)? This topic dosn't really fit with the idea of a 'hackathon', but is a very interesting aspect of DAS. i.e. 
 
 
-===Searching, Filters and tags===
-
 What are:
 *[[Ontodas]]
 *[[DAS Protein Ontology]]
@@ -28,3 +26,6 @@ What are:
 * The [[BioSapians]] (feature type?) ontology
 * The ontology of 'input filters' from [[EMBRACE]] This is an effort by the EMBRACE project to define ontologies for use in registering web services in the EMBRACE registry and later in the BioCatalogue registry. The ontology will cover the terms used in EMBRACE servcies, including BioMart and EMBOSS - both of which already have well-defined terms which will be used to populate the ontology. This will be contributed to the OBO foundry (like the other ontologies used in DAS) and can be extended to cover algorithms to give a better description of a service, its inputs, parameters and outputs. Contact Peter Rice pmr@ebi.ac.uk for more information.
 :???
+
+
+===Searching, Filters and tags===

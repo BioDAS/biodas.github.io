@@ -46,8 +46,6 @@ be reflected in the client behaviour? What about DAS ontology servers
 (and the 'term' DAS command)? This topic dosn't really fit with the idea
 of a 'hackathon', but is a very interesting aspect of DAS. i.e.
 
-### Searching, Filters and tags
-
 What are:
 
 -   [Ontodas](/wiki/Ontodas "wikilink")
@@ -69,4 +67,4 @@ What are:
   
 ???
 
-
+### Searching, Filters and tags

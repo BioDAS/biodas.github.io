@@ -74,4 +74,33 @@ What are:
   
 ???
 
+**Discussion group notes**
+
+-   similar to attribute, but includes hierachical structure
+
+<!-- -->
+
+-   if treated like coordsys, but additional layers hidden
+
+<!-- -->
+
+-   use case: anatomical ontology, uses "term" as query command
+
+  
+more general terms return too much data, response needs to be cut
+
+-&gt; proposed solution: use "maxbins"-like functionality
+
+-&gt; For DAS 1.6: adopt ontology from 1.53E:
+
+a) Sequence Feature Ontology (SFO)
+
+add terms if necessary, other ontology may need to be added for
+anatomical eg.
+
+b) evidence codes
+
+example:
+<TYPE id="exon SO:0000147" category="inferred from RT-PCR experiment (ECO:0000109)">exon</TYPE>
+
 ### Searching, Filters and tags

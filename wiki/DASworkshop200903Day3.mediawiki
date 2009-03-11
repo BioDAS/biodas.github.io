@@ -32,4 +32,25 @@ What are:
 * The ontology of 'input filters' from [[EMBRACE]] This is an effort by the EMBRACE project to define ontologies for use in registering web services in the EMBRACE registry and later in the BioCatalogue registry. The ontology will cover the terms used in EMBRACE servcies, including BioMart and EMBOSS - both of which already have well-defined terms which will be used to populate the ontology. This will be contributed to the OBO foundry (like the other ontologies used in DAS) and can be extended to cover algorithms to give a better description of a service, its inputs, parameters and outputs. Contact Peter Rice pmr@ebi.ac.uk for more information.
 :???
 
+'''Discussion group notes'''
+
+*similar to attribute, but includes hierachical structure
+
+*if treated like coordsys, but additional layers hidden
+
+*use case: anatomical ontology, uses "term" as query command
+<br>more general terms return too much data, response needs to be cut
+
+-> proposed solution: use  "maxbins"-like functionality
+
+-> For DAS 1.6: adopt ontology from 1.53E:
+
+a) Sequence Feature Ontology (SFO)
+
+add terms if necessary, other ontology may need to be added for anatomical eg.
+
+b) evidence codes
+
+example: <TYPE id="exon SO:0000147" category="inferred from RT-PCR experiment (ECO:0000109)">exon</TYPE>
+
 ===Searching, Filters and tags===

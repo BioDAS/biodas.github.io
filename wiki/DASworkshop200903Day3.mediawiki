@@ -5,7 +5,9 @@ This page is for people attending day 3 of the workshop to put down their ideas 
 
 ===DAS 1.6 spec and where to go with the Registry===
 Host: Jonathan Warren and Andy Jenkinson
-Scretary: Jonathan Warren and Andy Jenkinson
+Secretary: Jonathan Warren and Andy Jenkinson
+
+[[1.6_Examples]]
 
 ===DAS1/DAS2 merger===
 ===DAS writeback===

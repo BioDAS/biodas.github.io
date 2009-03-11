@@ -19,8 +19,10 @@ work with.
 
 ### DAS 1.6 spec and where to go with the Registry
 
-Host: Jonathan Warren and Andy Jenkinson Scretary: Jonathan Warren and
+Host: Jonathan Warren and Andy Jenkinson Secretary: Jonathan Warren and
 Andy Jenkinson
+
+[1.6\_Examples](1.6_Examples "wikilink")
 
 ### DAS1/DAS2 merger
 

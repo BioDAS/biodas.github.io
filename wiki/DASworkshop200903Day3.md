@@ -40,6 +40,8 @@ Graphical Representation of data
 
 How to represent the ontology in DAS, e.g. JR Macias' "term" command
 
+-   <http://biocomp.cnb.csic.es/VisualOmics>
+
 #### DAS vs. ontologies, how and why
 
 This topic was suggeseted because I'd like to understand how

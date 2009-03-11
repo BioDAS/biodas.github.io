@@ -131,7 +131,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |14:50
 |DAS for ENCODE data coordination
 |Felix Kokocinski
-|
+|[http://www.sanger.ac.uk/~fsk/DAS_workshop09.pdf pdf]
 |- style="background:#ffdead;"
 |15:10-15:30
 | colspan="3" | coffee break

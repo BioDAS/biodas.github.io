@@ -78,10 +78,11 @@ A list of DAS related publications is available from
 The Protocol
 ------------
 
-The original DAS specification was written by Lincoln Stein, Sean Eddy,
-and Robin Dowell. It is widely adopted and well supported, particularly
-throughout Europe, and is the basis for a large number of existing
-clients and servers. Though mature, the protocol continues to be
+The original [DAS specification](/wiki/DAS_specification "wikilink") was
+written by Lincoln Stein, Sean Eddy, and Robin Dowell. It is widely
+adopted and well supported, particularly throughout Europe, and is the
+basis for a large number of existing clients and servers. Though mature,
+the protocol continues to be
 [extended](http://www.dasregistry.org/spec_1.53E.jsp) to cater for the
 needs of the DAS community.
 

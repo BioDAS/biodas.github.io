@@ -48,7 +48,7 @@ A list of DAS related publications is available from [[DAS_publications]]
 
 == The Protocol ==
 
-The original DAS specification was written by Lincoln Stein, Sean Eddy, and Robin Dowell. It is widely adopted and well supported, particularly throughout Europe, and is the basis for a large number of existing clients and servers. Though mature, the protocol continues to be [http://www.dasregistry.org/spec_1.53E.jsp extended] to cater for the needs of the DAS community.
+The original [[DAS specification]] was written by Lincoln Stein, Sean Eddy, and Robin Dowell. It is widely adopted and well supported, particularly throughout Europe, and is the basis for a large number of existing clients and servers. Though mature, the protocol continues to be [http://www.dasregistry.org/spec_1.53E.jsp extended] to cater for the needs of the DAS community.
 
 Hundreds of DAS servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR],  [http://genome.ucsc.edu/ UCSC], and [http://www.ebi.ac.uk/uniprot-das/ UniProt]. For a listing of all available DAS sources please proceed to the [[DasRegistry]] http://www.dasregistry.org
 

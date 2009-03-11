@@ -84,14 +84,13 @@ What are:
 
 <!-- -->
 
--   use case: anatomical ontology, uses "term" as query command
+-   use case: anatomical ontology, uses "term" as query command;
 
-  
-more general terms return too much data, response needs to be cut
+but more general terms return too much data, response needs to be cut
 
 -&gt; proposed solution: use "maxbins"-like functionality
 
--&gt; For DAS 1.6: adopt ontology from 1.53E:
+-&gt; For DAS 1.6: adopt ontology from 1.53E as cvID and method
 
 a) Sequence Feature Ontology (SFO)
 
@@ -102,5 +101,8 @@ b) evidence codes
 
 example:
 <TYPE id="exon SO:0000147" category="inferred from RT-PCR experiment (ECO:0000109)">exon</TYPE>
+
+-   Add to Registry: Cache Ontology, add links to master ontology
+    files (PSI?) and ontology browser (EBI?)
 
 ### Searching, Filters and tags

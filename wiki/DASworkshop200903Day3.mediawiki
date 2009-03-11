@@ -38,12 +38,12 @@ What are:
 
 *if treated like coordsys, but additional layers hidden
 
-*use case: anatomical ontology, uses "term" as query command
-<br>more general terms return too much data, response needs to be cut
+*use case: anatomical ontology, uses "term" as query command; 
+but more general terms return too much data, response needs to be cut
 
 -> proposed solution: use  "maxbins"-like functionality
 
--> For DAS 1.6: adopt ontology from 1.53E:
+-> For DAS 1.6: adopt ontology from 1.53E as cvID and method
 
 a) Sequence Feature Ontology (SFO)
 
@@ -52,5 +52,7 @@ add terms if necessary, other ontology may need to be added for anatomical eg.
 b) evidence codes
 
 example: <TYPE id="exon SO:0000147" category="inferred from RT-PCR experiment (ECO:0000109)">exon</TYPE>
+
+*Add to Registry: Cache Ontology, add links to master ontology files (PSI?) and ontology browser (EBI?)
 
 ===Searching, Filters and tags===

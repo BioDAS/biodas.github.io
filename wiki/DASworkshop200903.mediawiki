@@ -73,7 +73,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |10:00
 |Opening talk 
 |Tim Hubbard
-|
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/200903 DAS workshop.ppt]
 |-
 |10:20
 |Collaborative Annotation tool (MaDAS)

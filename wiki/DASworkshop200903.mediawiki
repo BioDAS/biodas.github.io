@@ -73,37 +73,37 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |10:00
 |Opening talk 
 |Tim Hubbard
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/ ]]
 |-
 |10:20
 |Collaborative Annotation tool (MaDAS)
 |Victor de la Torre
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/MaDAS_victor_de_la_torre.pptx powerpoint]]
 |-
 |10:40
 |Jalview / VAMSAS
 |Jim Procter / Geoff Barton
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/ ]]
 |-
 |11:00
 |Pfam
 |Rob Finn
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |11:20
 |DASgenexp
 |Bernat Gel
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |11:40
 |Dasty2
 |Rafael Jimenez
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |12:00
 |EMBOSS as an efficient DAS annotation source
 |Peter Rice, Mahmut Uludag
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |- style="background:#ffdead;"
 |12:15-13:30
 | colspan="3" | Lunch break
@@ -116,17 +116,17 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |13:50
 |Integration of info on gene expression and its temporal and spatial localization
 |Jose Ramon Macias
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |14:10
 |DAS - writeback
 |Gustavo Salazar
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |14:30
 |Interaction DAS
 |Hagen Blankenburg
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |14:50
 |DAS for ENCODE data coordination
@@ -139,32 +139,32 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |15:30
 |A web resource for selecting epitopes for antibodies
 |Niall Haslam
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |15:50
 |DAS Searches
 |Andreas Prlic
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |16:10
 |A karyotype DAS client
 |Rafael Jimenez
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |16:30
 |DASher, a standalone Java client for DAS protein sequence features
 |David Messina
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |16:50
 |Data Federation - BioMart & DAS
 |Syed Haider
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |17:10
 |Trellis DAS2 framework- which includes the DAS1-->DAS2 proxy and alpha UCSC DAS2 server
 |Gregg Helt
-|
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
 |-
 |17:30
 |Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups

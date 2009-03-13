@@ -88,12 +88,12 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |11:00
 |Pfam
 |Rob Finn
-|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/20090309PfamDasWorkShop.ppt] powerpoint]
 |-
 |11:20
 |DASgenexp
 |Bernat Gel
-|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/
+|[[http://www.sanger.ac.uk/Software/analysis/das/presentations/DASGenExp3.ppt] powerpoint]
 |-
 |11:40
 |Dasty2

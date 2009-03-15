@@ -51,18 +51,18 @@ Procedure
 
 The lifecycle of a typical DAS features request is as follows:
 
-1.  . Client issues request.
-2.  . Core parses and checks request content.
-3.  . Core obtains the data source's SourceAdaptor object.
-4.  . Core passes the extracted query parameters to the SourceAdaptor
+1.  Client issues request.
+2.  Core parses and checks request content.
+3.  Core obtains the data source's SourceAdaptor object.
+4.  Core passes the extracted query parameters to the SourceAdaptor
     object via the das\_features method.
-5.  . SourceAdaptor handles basic logic/iteration and delegates to the
-    the build\_features method (implemented in subclass).
-6.  . SourceAdaptor subclass extracts the relevant data from storage and
+5.  SourceAdaptor handles basic logic/iteration and delegates to the the
+    build\_features method (implemented in subclass).
+6.  SourceAdaptor subclass extracts the relevant data from storage and
     returns a uniform Perl data structure.
-7.  . SourceAdaptor constructs an XML response and passes it back to
+7.  SourceAdaptor constructs an XML response and passes it back to
     the core.
-8.  . Core sends the response back to the client.
+8.  Core sends the response back to the client.
 
 Downloading and Building ProServer
 ----------------------------------

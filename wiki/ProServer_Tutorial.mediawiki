@@ -21,15 +21,14 @@ ProServer includes various transport modules that exist to make accessing your d
 
 The lifecycle of a typical DAS features request is as follows:
 
-#. Client issues request.
-#. Core parses and checks request content.
-#. Core obtains the data source's SourceAdaptor object.
-#. Core passes the extracted query parameters to the SourceAdaptor object via the das_features method.
-#. SourceAdaptor handles basic logic/iteration and delegates to the the build_features method (implemented in subclass).
-#. SourceAdaptor subclass extracts the relevant data from storage and returns a uniform Perl data structure.
-#. SourceAdaptor constructs an XML response and passes it back to the core.
-#. Core sends the response back to the client.
-
+# Client issues request.
+# Core parses and checks request content.
+# Core obtains the data source's SourceAdaptor object.
+# Core passes the extracted query parameters to the SourceAdaptor object via the das_features method.
+# SourceAdaptor handles basic logic/iteration and delegates to the the build_features method (implemented in subclass).
+# SourceAdaptor subclass extracts the relevant data from storage and returns a uniform Perl data structure.
+# SourceAdaptor constructs an XML response and passes it back to the core.
+# Core sends the response back to the client.
 
 ==Downloading and Building ProServer==
 

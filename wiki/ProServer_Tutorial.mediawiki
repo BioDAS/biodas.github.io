@@ -80,7 +80,7 @@ Let's try using a plugin that does exist: the file adaptor. Take a look at the p
 
  perldoc Bio::Das::ProServer::SourceAdaptor::file
 
-As you can see, this plugin allows you to use a file in order to create a data source that supports the DAS features command. Download this example file and save it somewhere. Now change your tutorial.ini to use the file adaptor and tell it the location of the file you downloaded.
+As you can see, this plugin allows you to use a file in order to create a data source that supports the DAS features command. Download [[ProServer/Tutorial/clones.txt|this example file]] and save it somewhere. Now change your tutorial.ini to use the file adaptor and tell it the location of the file you downloaded.
 
  [mysource]
  state        = on
@@ -89,7 +89,7 @@ As you can see, this plugin allows you to use a file in order to create a data s
 
 You also need to tell the file SourceAdaptor the order of the columns in the file. The column names will be used in the data structure that is returned by the build_features method, so you must use values that ProServer expects. Look at the POD for the build_features method of the Bio::Das::ProServer::SourceAdaptor module for a list. The columns present in the file are:
 
-segment ID, start position, end position, strand, feature ID
+ segment ID, start position, end position, strand, feature ID
 
  [mysource]
  state        = on
@@ -112,7 +112,7 @@ It is now time to start your server up again. You should see your source in the 
 
 Your source should appear in the list. The table has columns for extra details such as the description and coordinate system of the DAS source. We will add these later. You should also see features listed when requesting for a segment of chromosome X:
 
-http://localhost:9000/das/mysource/features?segment=X:1,2000000
+ http://localhost:9000/das/mysource/features?segment=X:1,2000000
 
 You may have noticed that there are more possible data fields that may be filled in for each feature than are included in your data file. Whilst some of these are optional (e.g. group, target, note, link) others are not. The DAS specification details which of the fields are required and the appropriate content, but for now set the following using the "fill-in" technique documented in the POD of the Bio::Das::ProServer::SourceAdaptor::file adaptor:
 
@@ -121,7 +121,6 @@ You may have noticed that there are more possible data fields that may be filled
 * method = EcoRI digest
 * phase = - (features unrelated to phase)
 * score = - (features without a score)
-
 
 ==Metadata==
 

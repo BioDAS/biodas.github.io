@@ -171,9 +171,10 @@ INI file:
 `perldoc Bio::Das::ProServer::SourceAdaptor::file`
 
 As you can see, this plugin allows you to use a file in order to create
-a data source that supports the DAS features command. Download this
-example file and save it somewhere. Now change your tutorial.ini to use
-the file adaptor and tell it the location of the file you downloaded.
+a data source that supports the DAS features command. Download [this
+example file](/wiki/ProServer/Tutorial/clones.txt "wikilink") and save it
+somewhere. Now change your tutorial.ini to use the file adaptor and tell
+it the location of the file you downloaded.
 
 `[mysource]`  
 `state        = on`  
@@ -187,7 +188,7 @@ ProServer expects. Look at the POD for the build\_features method of the
 Bio::Das::ProServer::SourceAdaptor module for a list. The columns
 present in the file are:
 
-segment ID, start position, end position, strand, feature ID
+`segment ID, start position, end position, strand, feature ID`
 
 `[mysource]`  
 `state        = on`  
@@ -220,7 +221,7 @@ details such as the description and coordinate system of the DAS source.
 We will add these later. You should also see features listed when
 requesting for a segment of chromosome X:
 
-<http://localhost:9000/das/mysource/features?segment=X:1,2000000>
+[`http://localhost:9000/das/mysource/features?segment=X:1,2000000`](http://localhost:9000/das/mysource/features?segment=X:1,2000000)
 
 You may have noticed that there are more possible data fields that may
 be filled in for each feature than are included in your data file.

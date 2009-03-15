@@ -21,8 +21,8 @@ separate web server such as Apache. It handles all of the
 communications, query parsing and XML output functions, only requiring
 you to:
 
-1.  . Adapt your own data to the DAS protocol.
-2.  . Provide the appropriate metadata configuration.
+1.  Adapt your own data to the DAS protocol.
+2.  Provide the appropriate metadata configuration.
 
 Each data source is represented in ProServer by an instance of a plugin
 module. Simple data sources, especially those based on files, can often

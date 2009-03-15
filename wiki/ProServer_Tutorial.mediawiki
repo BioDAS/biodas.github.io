@@ -8,15 +8,14 @@ The tutorial assumes you are familiar with Perl and are operating on a Linux pla
 
 ProServer is a standalone server, meaning you do not need to run a separate web server such as Apache. It handles all of the communications, query parsing and XML output functions, only requiring you to:
 
-#. Adapt your own data to the DAS protocol.
-#. Provide the appropriate metadata configuration.
+# Adapt your own data to the DAS protocol.
+# Provide the appropriate metadata configuration.
 
 Each data source is represented in ProServer by an instance of a plugin module. Simple data sources, especially those based on files, can often be set up without requiring any code at all by using a pre-existing plugin. More complex data sources may require you to write your own plugin. This is done by creating a subclass of the Bio::Das::ProServer::SourceAdaptor module.
 
 The contract of a SourceAdaptor is to provide the data for a DAS query in a data structure that the ProServer core can understand. This is done by implementing a single method for each DAS command. For example, a DAS source that is to respond to the 'features' command implements the 'build_features' method, which returns an array of hashes. Each hash represents a single feature.
 
 ProServer includes various transport modules that exist to make accessing your data easier by reducing the boilerplate code you need to write. For example, the dbi transport for relational databases handles all database connections, statements, results sets etc. Transports also exist for flat files, SRS, the BioPerl and Ensembl APIs, etc. Unlike SourceAdaptors, you do not nave to use a Transport if you do not want to.
-
 
 ==Procedure==
 

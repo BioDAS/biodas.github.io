@@ -71,8 +71,7 @@ The best way to get ProServer is via the Subversion repository. The
 trunk always contains the latest stable version, so includes the latest
 bugfixes. To download it, open a terminal and type the following:
 
-svn checkout <http://proserver.svn.sf.net/svnroot/proserver/trunk>
-Bio-Das-ProServer
+`svn checkout `[`http://proserver.svn.sf.net/svnroot/proserver/trunk`](http://proserver.svn.sf.net/svnroot/proserver/trunk)` Bio-Das-ProServer`
 
 When the download is complete, enter the Bio-Das-ProServer directory
 that was created and take a moment to read the README file. Proceed to

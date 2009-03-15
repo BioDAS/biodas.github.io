@@ -34,10 +34,9 @@ The lifecycle of a typical DAS features request is as follows:
 
 The best way to get ProServer is via the Subversion repository. The trunk always contains the latest stable version, so includes the latest bugfixes. To download it, open a terminal and type the following:
 
-svn checkout http://proserver.svn.sf.net/svnroot/proserver/trunk Bio-Das-ProServer
+ svn checkout http://proserver.svn.sf.net/svnroot/proserver/trunk Bio-Das-ProServer
 
 When the download is complete, enter the Bio-Das-ProServer directory that was created and take a moment to read the README file. Proceed to build ProServer as per the instructions. You do not need to run the make install step (which integrates the library into the Perl installation) as you will be working inside the Bio-Das-ProServer directory.
-
 
 ==Running ProServer==
 

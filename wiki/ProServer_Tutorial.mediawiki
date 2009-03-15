@@ -57,14 +57,13 @@ Each section of the INI file is denoted by square brackets. Server options such 
 
  [mysource]
  state        = on
- adaptor      = myplugin
+ adaptor      = tutorial
 
-This file configures ProServer with a DAS source called 'mysource' using the 'Bio::Das::ProServer::SourceAdaptor::myplugin' adaptor, and turns it on. Now start ProServer with this file instead of the example one using the -c option:
+This file configures ProServer with a DAS source called 'mysource' using the 'Bio::Das::ProServer::SourceAdaptor::tutorial' adaptor, and turns it on. Now start ProServer with this file instead of the example one using the -c option:
 
  eg/proserver -x -c eg/tutorial.ini
 
 By default, ProServer listens for HTTP requests on port 9000. Open a web browser to the URL "http://localhost:9000/das/sources". This runs the sources server command, which returns an XML document listing the DAS sources the server is hosting.
-
 
 ==XSL Stylesheets==
 

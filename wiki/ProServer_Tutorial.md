@@ -124,10 +124,10 @@ several sources, you will define only one. Create a new file
 
 `[mysource]`  
 `state        = on`  
-`adaptor      = myplugin`
+`adaptor      = tutorial`
 
 This file configures ProServer with a DAS source called 'mysource' using
-the 'Bio::Das::ProServer::SourceAdaptor::myplugin' adaptor, and turns it
+the 'Bio::Das::ProServer::SourceAdaptor::tutorial' adaptor, and turns it
 on. Now start ProServer with this file instead of the example one using
 the -c option:
 

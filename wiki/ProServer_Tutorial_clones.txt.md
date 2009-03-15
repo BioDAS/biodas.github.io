@@ -4,6 +4,10 @@ permalink: wiki/ProServer/Tutorial/clones.txt/
 layout: wiki
 ---
 
+See: <http://www.ebi.ac.uk/~aj/das_workshop_2009/clones.txt>
+
+Or copy and paste the below into a file:
+
     1   511232  632895  +   RP5-857K21
     1   799614  988150  +   RP11-54O7
     1   1115132 1227290 +   RP5-902P8

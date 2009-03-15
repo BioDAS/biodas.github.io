@@ -1,3 +1,7 @@
+See: http://www.ebi.ac.uk/~aj/das_workshop_2009/clones.txt
+
+Or copy and paste the below into a file:
+
 <PRE>
 1	511232	632895	+	RP5-857K21
 1	799614	988150	+	RP11-54O7

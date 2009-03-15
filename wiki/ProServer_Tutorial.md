@@ -89,7 +89,7 @@ this script with the -x option. This prevents the process from forking
 and directs log output to your terminal rather than to file. Try running
 the script in your terminal:
 
-eg/proserver -x -c eg/proserver.ini
+`eg/proserver -x -c eg/proserver.ini`
 
 If all is well, the server will start and output some information about
 its (default) configuration. If not, you should be able to diagnose the

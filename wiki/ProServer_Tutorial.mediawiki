@@ -42,13 +42,12 @@ When the download is complete, enter the Bio-Das-ProServer directory that was cr
 
 Although ProServer is technically a framework, the distribution contains an example Perl script called proserver that you should use to run proserver. It is in the eg directory. During development, you should run this script with the -x option. This prevents the process from forking and directs log output to your terminal rather than to file. Try running the script in your terminal:
 
-eg/proserver -x -c eg/proserver.ini
+ eg/proserver -x -c eg/proserver.ini
 
 If all is well, the server will start and output some information about its (default) configuration. If not, you should be able to diagnose the problem. Commonly errors arise from:
 
 * The Perl interpreter being installed somewhere other than /usr/local/bin/perl. Edit the script with the correct location.
 * The ProServer libraries cannot be found. Since you did not install them into the Perl distribution, you need to be running the proserver script from a location where it can find the modules. It is looking in ./blib/lib (where the modules reside when ProServer is built), so make sure you run the script from the root proserver directory.
-
 
 ==INI files==
 

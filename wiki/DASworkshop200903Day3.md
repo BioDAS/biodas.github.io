@@ -51,8 +51,9 @@ DAS1.6 spec discussions:
 -   JS suggested that the maxbins should encompass a returned value that
     says how the data is being made i.e. whether it is an average or an
     extreme of the data in those bins.
--   this at least should be some kind of free text field.
--   response should also say if returning 200 of 10,000??
+
+`this at least should be some kind of free text field.`  
+`response should also say if returning 200 of 10,000??`
 
 ### DAS1/DAS2 merger
 

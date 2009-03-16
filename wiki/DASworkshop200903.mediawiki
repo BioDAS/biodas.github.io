@@ -83,7 +83,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |10:40
 |Jalview / VAMSAS
 |Jim Procter / Geoff Barton
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/Jalview_2009_DAS.pdf presentation]
 |-
 |11:00
 |Pfam

@@ -78,7 +78,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |10:20
 |Collaborative Annotation tool (MaDAS)
 |Victor de la Torre
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/MaDAS_victor_de_la_torre.pptx presentation]
 |-
 |10:40
 |Jalview / VAMSAS

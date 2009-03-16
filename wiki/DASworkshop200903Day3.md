@@ -220,3 +220,5 @@ example:
     files (PSI?) and ontology browser (EBI?)
 
 ### Searching, Filters and tags
+
+`A proposal was made and accepted that Andreas should post a proposal for adding the DAS search functionality to DAS under the 1.6E pages of the biodas wiki`

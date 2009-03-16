@@ -36,6 +36,8 @@ Graphical Representation of data
 
 ### DAS interfaces to sequence analysis tools
 
+Not discussed as a group due to time constraints
+
 ### BioSapiens ontology lookup and general Ontologies
 
 How to represent the ontology in DAS, e.g. JR Macias' "term" command

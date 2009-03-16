@@ -15,6 +15,8 @@ Secretary: Jonathan Warren and Andy Jenkinson
 ===Ajax das client/server library (allow DAS server discovery and retrieval on the browser page)===
 Graphical Representation of data
 ===DAS interfaces to sequence analysis tools===
+Not discussed as a group due to time constraints
+
 ===BioSapiens ontology lookup and general Ontologies===
 How to represent the ontology in DAS, e.g. JR Macias' "term" command
 * http://biocomp.cnb.csic.es/VisualOmics

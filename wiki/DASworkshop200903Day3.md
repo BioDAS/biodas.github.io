@@ -223,4 +223,5 @@ example:
 
 ### Searching, Filters and tags
 
-`A proposal was made and accepted that Andreas should post a proposal for adding the DAS search functionality to DAS under the 1.6E pages of the biodas wiki`
+`A proposal was made and accepted that Andreas should post a proposal for adding the DAS search functionality to DAS under the `[`1.6E`
+`spec`](http://www.biodas.org/wiki/DAS1.6E)` of the biodas wiki`

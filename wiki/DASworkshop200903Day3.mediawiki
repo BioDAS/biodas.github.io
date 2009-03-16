@@ -115,4 +115,4 @@ example: <TYPE id="exon SO:0000147" category="inferred from RT-PCR experiment (E
 *Add to Registry: Cache Ontology, add links to master ontology files (PSI?) and ontology browser (EBI?)
 
 ===Searching, Filters and tags===
- A proposal was made and accepted that Andreas should post a proposal for adding the DAS search functionality to DAS under the 1.6E pages of the biodas wiki
+ A proposal was made and accepted that Andreas should post a proposal for adding the DAS search functionality to DAS under the [http://www.biodas.org/wiki/DAS1.6E 1.6E spec] of the biodas wiki

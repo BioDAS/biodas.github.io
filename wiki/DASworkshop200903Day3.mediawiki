@@ -36,7 +36,8 @@ if a capability is not specified but seems to exist?
 *As if BOSC or a certain date it was agreed that every new data source registered should conform to the 1.6 spec and not be allowed into the registry unless it does.
 *have testing pages for testing only - not for registering.
 *people want to be able to query by ontology cvID type e.g. gene, protein etc
-*Ontology cache was suggested and I said that this was in hand and almost done. (me to finish).
+*Ontology cache was suggested and I said that this was in hand and almost done. (JW to finish).
+*Suggestion of having a browsable ontology on the registry was also made maybe using javascript/AJAX
 *query by cooridinate systems.
 *lucene/Google type search idea was proposed and accepted but above still wanted.
 

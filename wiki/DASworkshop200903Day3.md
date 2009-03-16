@@ -76,7 +76,9 @@ if a capability is not specified but seems to exist?
 -   people want to be able to query by ontology cvID type e.g. gene,
     protein etc
 -   Ontology cache was suggested and I said that this was in hand and
-    almost done. (me to finish).
+    almost done. (JW to finish).
+-   Suggestion of having a browsable ontology on the registry was also
+    made maybe using javascript/AJAX
 -   query by cooridinate systems.
 -   lucene/Google type search idea was proposed and accepted but above
     still wanted.

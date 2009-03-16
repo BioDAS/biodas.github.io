@@ -6,3 +6,9 @@ layout: wiki
 
 Proposals for DAS 1.6 Extensions to be added after the 1.6 spec has been
 officially released.
+
+DAS writeback
+=============
+
+DAS search
+==========

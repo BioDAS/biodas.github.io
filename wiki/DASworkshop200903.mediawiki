@@ -149,7 +149,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |16:10
 |A karyotype DAS client
 |Rafael Jimenez
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/rjimenez_dasworkshop2009_KDC.ppt presentation]
 |-
 |16:30
 |DASher, a standalone Java client for DAS protein sequence features

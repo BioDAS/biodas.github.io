@@ -1,6 +1,10 @@
+See the sidebar (documentation box)
+
 == [[DAS/1]] ==
-; 1.53 : http://www.biodas.org/documents/spec.html
-; 1.53e : http://www.dasregistry.org/spec_1.53E.jsp
-; 1.6 : ???
+; [[1.53]] : http://www.biodas.org/documents/spec.html
+; [[1.53e]] : http://www.dasregistry.org/spec_1.53E.jsp
+; [[1.6]] : ???
+; [[1.6e]] : ???
 == [[DAS/2]] ==
-; ??? : ???
+; [[2.0]] : ???
+; [[2.1]] : ???

@@ -159,7 +159,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |16:50
 |Data Federation - BioMart & DAS
 |Syed Haider
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/BioMart_DAS_2009.ppt presentation]
 |-
 |17:10
 |Trellis DAS2 framework- which includes the DAS1-->DAS2 proxy and alpha UCSC DAS2 server

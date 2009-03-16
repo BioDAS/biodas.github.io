@@ -25,3 +25,12 @@ clients now make use of this.
 
 For more info on this please see the
 [documentation](http://www.dasregistry.org/help_scripting.jsp).
+
+Installing local version of DAS registry
+----------------------------------------
+
+Some very rough [DAS registry installation
+notes](/wiki/DAS_registry_installation_notes "wikilink") on Gregg Helt's
+attempts to get a local installation of the DAS registry running, and
+modifications to the registry code to support a merged DAS1/DAS2
+registry.

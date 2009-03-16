@@ -9,3 +9,6 @@ to keep track of these.
 The DAS registry provdies a Web interface so users can search for available [[DAS/1]] or [[DAS/2]] data sources. For DAS-clients, an XML interface is available that allows a programmatic way to retrieve data source listings, and several DAS clients now make use of this.
 
 For more info on this please see the [http://www.dasregistry.org/help_scripting.jsp documentation].
+
+==Installing local version of DAS registry==
+Some very rough [[DAS registry installation notes]] on Gregg Helt's attempts to get a local installation of the DAS registry running, and modifications to the registry code to support a merged DAS1/DAS2 registry.

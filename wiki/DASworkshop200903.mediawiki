@@ -139,7 +139,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |15:30
 |A web resource for selecting epitopes for antibodies
 |Niall Haslam
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/NiallHaslamDAS2009.pdf presentation]
 |-
 |15:50
 |DAS Searches

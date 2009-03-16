@@ -30,6 +30,8 @@ Andy Jenkinson
 
 ### Adapting Java DAS client libraries for alignment and PDB file retrieval for clients that dont use BioJava
 
+Not discussed.
+
 ### Javascript das client/server library (allow DAS server discovery and retrieval on the browser page)
 
 Meeting held on Thursday as relevant people were available after

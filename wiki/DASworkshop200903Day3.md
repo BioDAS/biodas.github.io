@@ -77,7 +77,8 @@ if a capability is not specified but seems to exist?
 -   Ontology cache was suggested and I said that this was in hand and
     almost done. (me to finish).
 -   query by cooridinate systems.
--   lucene search idea was proposed and accepted but above still wanted.
+-   lucene/Google type search idea was proposed and accepted but above
+    still wanted.
 
 ### DAS1/DAS2 merger
 

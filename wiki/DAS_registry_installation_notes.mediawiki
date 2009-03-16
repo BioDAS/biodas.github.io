@@ -3,10 +3,10 @@
 '''Java code:'''
 
 <pre>
-BioJava: checked out head of trunk (svn://code.open-bio.org/biojava/biojava-live/trunk)<br>
-Dasobert: checked out head of trunk (http://www.derkholm.net/svn/repos/dasobert/trunk)<br>
+BioJava: checked out head of trunk (svn://code.open-bio.org/biojava/biojava-live/trunk)
+Dasobert: checked out head of trunk (http://www.derkholm.net/svn/repos/dasobert/trunk)
 DasRegistry: checked out head of openid branch, as per disccusion with Jonathon 
-              (http://www.derkholm.net/svn/repos/dasregistry/branches/openid)<br>
+              (http://www.derkholm.net/svn/repos/dasregistry/branches/openid)
     To build dasregistry, started new NetBeans project as "Web Application with Existing Sources"
                 rather than free-form project, because having problems with checked in build.xml file
                 this way, NetBeans creates a new build file (nbbuild.xml)
@@ -35,16 +35,18 @@ dom3-xml-apis.jar (from openid-sxip endorsed libs)
 xalan-2.6.0.jar (from openid-sxip endorsed libs)
 commons-fileupload-1.2.1.jar (Apache commons)
 jcommon-1.0.13.jar (from jfreechart)
+</pre>
 
 Code changes required for registry compilation:
 
 Couldn't find ontology lookup jar that corresponded with naming in head of registry oid branch:
 The only compilation problem I had was with the DasRegistryOntologyLookup class, which depends on classes in the uk.ac.ebi.www.ontology_lookup.OntologyQuery package.  Which I couldn't locate.  The closest I could find was the Ontology Lookup Service code at http://www.ebi.ac.uk/ontology-lookup/.  As near as I can tell this has the exact same classes as uk.ac.ebi.www.ontology_lookup.OntologyQuery, except they're in a different package: uk.ac.ebi.ook.web.services.  So I'm guessing there was just a package refactoring at some point and the registry is using either a newer or older version of the ontology-lookup code than what is available at the OLS site.  Changed the imports in DasRegistryOntologyLookup to use the package names in the OLS jar and now everything compiles.  Should check with Jonathon and see if where to find ontology_lookup.OntologyQuery package, and whether I should swap in.
 
+<pre>
 Changes required to avoid runtime errors:
     das_registry
         org.biojava.services.das.dao.DasSourceManager.getCapabilities() method
-had to add "sources" column to SELECT statement, otherwise get "column 'sources' not found" errors when accessing ResultSet
+        had to add "sources" column to SELECT statement, otherwise get "column 'sources' not found" errors when accessing ResultSet
 
     Tomcat / webapp setup:
     JNDI stuff in Tomcat/webapp couldn't find mysql JDBC drivers even when they
@@ -64,6 +66,7 @@ had to add "sources" column to SELECT statement, otherwise get "column 'sources'
     org.biojava.services.das.servlet.DasSourceActionServlet --> org.biojava.services.das.servlets.DasSourceActionServlet
     org.biojava.services.das.servlet.ProjectIconServlet --> org.biojava.services.das.servlets.ProjectIconServlet
     org.biojava.services.das.servlet.ProjectActionServlet --> org.biojava.services.das.servlets.ProjectActionServlet
+</pre>
 
 WARNING!!
 Xerces parser problems (org.apache.xerces.jaxp.DocumentBuilderFactoryImpl not found)
@@ -181,4 +184,3 @@ org.biojava.services.das.dao.DasSourceManager
 Major problem going forward is that the registry database doesn't store capability URLs, but rather a URL for the versioned source and a set of BIT/boolean columns for whether a versioned source supports a particular capability.  As near as I can tell the query_uri of the capability is then composed from the versioned source URI and the column name corresponding to a capability.
 
 It looks like there was work done by Andreas on a revised registry database schema that supported decoupling of capability URIs from versioned source URIs via source, capability, and source2capability tables.  Is there an instance of this database still around?
-</pre>

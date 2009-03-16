@@ -15,7 +15,8 @@ layout: wiki
         To build dasregistry, started new NetBeans project as "Web Application with Existing Sources"
                     rather than free-form project, because having problems with checked in build.xml file
                     this way, NetBeans creates a new build file (nbbuild.xml)
-        JARs required but not present in repository:
+
+    JARs required but not present in repository:
     mysql-connector-java-5.1.7-bin.jar (MySQL Connector/J JDBC driver)
     axis.jar (Axis 1.4)
     jaxrpc.jar

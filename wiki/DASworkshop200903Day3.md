@@ -30,9 +30,45 @@ Andy Jenkinson
 
 ### Adapting Java DAS client libraries for alignment and PDB file retrieval for clients that dont use BioJava
 
-### Ajax das client/server library (allow DAS server discovery and retrieval on the browser page)
+### Javascript das client/server library (allow DAS server discovery and retrieval on the browser page)
 
-Graphical Representation of data
+Meeting held on Thursday as relevant people were available after
+workshop:
+
+MINUTES Attendees: Bernat, Greg, Andy, Jonathan, Gustavo and Rafael
+
+On thursday 12 we talked about JavaScript DAS client libraries. We
+identify three different ways to create user interfaces using
+javascript.
+
+-   1.- Clients based on the google maps idea. Creating images on the
+    server and using javascript on the client to manage tailing images.
+    Victor de la Torre show a nice example on his presentation
+    "collaborative annotation tool (MaDAS)"
+
+<!-- -->
+
+-   2.- Clients drawing graphics using canvas. Canvas is a new HTML
+    element which can be used to draw graphics using scripting
+    (usually JavaScript). Following this idea the client collects the
+    information to render it on the canvas. Bernat Gel gave some
+    examples with his genome viewer "DASgenexp".
+
+<!-- -->
+
+-   3.- Client creating graphics using HTML elements and transparent
+    shaped images. In this case the client creates graphic
+    representations creating HTML elements through the DOM
+    and javascript. We can find an example in Dasty2 and the
+    Karyotype Viewer.
+
+To be able to share javascript on web DAS clients rendering graphics on
+the client side we proposed to create a standard javascript library. On
+a web client we can identify three general stages: Request, Parsing and
+Visualization. Since visualization it is more up to the developer and
+the necessities of the project we proposed to create this standard
+library for requests and parsing. Rafael agreed to create the first
+prototype for this library.
 
 ### DAS interfaces to sequence analysis tools
 

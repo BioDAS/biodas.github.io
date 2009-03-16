@@ -52,12 +52,9 @@ DAS1.6 spec discussions:
 -   The parent and sub part feature and deprecation of the group
     attribute for features was unanimously accepted as a good idea,
     however there was significant debate as to the the
-    exact specification. Should a server return all children (or parts)
-    of a parent even if they are outside the viewable area of
-    the screen/segment. The argument for saying yes was due to DAS being
-    used as a data interchange format. The argument for no because as a
-    purely visual tool it DAS would not need to return features not
-    included in the viewable segment/area.
+    exact specification.
+
+`Should a server return all children (or parts) of a parent even if they are outside the viewable area of the screen/segment. The argument for saying yes was due to DAS being used as a data interchange format. The argument for no because as a purely visual tool it DAS would not need to return features not included in the viewable segment/area.`
 
 Registry - suggested:
 

@@ -55,6 +55,30 @@ DAS1.6 spec discussions:
 `this at least should be some kind of free text field.`  
 `response should also say if returning 200 of 10,000??`
 
+Registry - suggested:
+
+-   Dont trust the sources document or the capabilities ticked by users
+    but test each capability anyway to see what servers do what.
+-   Give a graphical representation of the capabilities supported by
+    each source e.g. red for not supported and green block
+    for supported.
+-   JW suggestion would be do as above and get rid of manual
+    configuration of DAS sources capabilities and only use the sources
+    document and have the registry suggest
+
+if a capability is not specified but seems to exist?
+
+-   As if BOSC or a certain date it was agreed that every new data
+    source registered should conform to the 1.6 spec and not be allowed
+    into the registry unless it does.
+-   have testing pages for testing only - not for registering.
+-   people want to be able to query by ontology cvID type e.g. gene,
+    protein etc
+-   Ontology cache was suggested and I said that this was in hand and
+    almost done. (me to finish).
+-   query by cooridinate systems.
+-   lucene search idea was proposed and accepted but above still wanted.
+
 ### DAS1/DAS2 merger
 
 ### DAS writeback

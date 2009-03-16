@@ -101,7 +101,7 @@ auto generation of features on the server side should be handled
 No decision was made on the correct approach.
 
 `A proposal was made and accepted that Gustavo should post a proposal for adding the DAS writeback functionality to DAS under`  
-`the 1.6E `[`1.6E`
+`the `[`1.6E`
 `spec`](http://www.biodas.org/wiki/DAS1.6E)` pages of the biodas wiki and give a link to source already developed for this capability.`
 
 ### Adapting Java DAS client libraries for alignment and PDB file retrieval for clients that dont use BioJava

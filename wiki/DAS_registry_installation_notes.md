@@ -90,32 +90,42 @@ between JDK1.5 internal Xerces (crimson?) and explicit setting of
 implementations in
 org.biojava.services.das.registry.RegistryConfiguration (also explicitly
 set often in dasobert examples, Das1Validator, some .jsp files, and
-tests) Problem is that internal Xerces is auto-overriding any external
-Xerces (in my case from dom3-xercesImpl.jar) in classpath but with
-different package naming, which gives errors like:
-javax.xml.parsers.FactoryConfigurationError: Provider
-org.apache.xerces.jaxp.DocumentBuilderFactoryImpl not found See
-<http://www.mbaworld.com/docs/class-loader-howto.html> , section on XML
-parser class loading
+tests)
 
-`   and `[`http://java.sun.com/j2se/1.5.0/docs/guide/standards/index.html`](http://java.sun.com/j2se/1.5.0/docs/guide/standards/index.html)` for endorsed libs mechanism for overriding internal JDK/JRE classes`
+Problem is that internal Xerces is auto-overriding any external Xerces
+(in my case from dom3-xercesImpl.jar) in classpath but with different
+package naming, which gives errors like:
+
+javax.xml.parsers.FactoryConfigurationError: Provider
+org.apache.xerces.jaxp.DocumentBuilderFactoryImpl not found
+
+See <http://www.mbaworld.com/docs/class-loader-howto.html> , section on
+XML parser class loading and
+
+<http://java.sun.com/j2se/1.5.0/docs/guide/standards/index.html> for
+endorsed libs mechanism for overriding internal JDK/JRE classes
 
 Unfortunately can't just use endorsed libs in a straightforward ways
 because there is also a problem with NetBeans using anything other than
 the JDK1.5 internal lib, which it seems to interpret as having Xalan in
 the classpath, which causes NetBeans to refuse to run at all:
-<http://wiki.netbeans.org/FaqXalanOnCPmplementations> Tried several ways
-of using endorsed libs mechanism in combination with using different JDK
-to run NetBeans (to avoid Xalan problem mentioned above), but never
-could get the combination to stick on NetBeans6.5 under OSX -- possibly
-the problem is in specifying the java.endorsed.dirs system property?
-SOLUTION: for now, commented out explicit setting of factory in
-RegistryConfiguration NEED TO EITHER COME UP WITH ALTERNATIVE, OR ALSO
-FIX IN OTHER CLASSES
+<http://wiki.netbeans.org/FaqXalanOnCPmplementations>
 
-**Registry MySQL database:** In general, preface everything on
-command-line with sudo in order to admin stuff... Alternatively, for
-mysql command line login as root:
+Tried several ways of using endorsed libs mechanism in combination with
+using different JDK to run NetBeans (to avoid Xalan problem mentioned
+above), but never could get the combination to stick on NetBeans6.5
+under OSX -- possibly the problem is in specifying the
+java.endorsed.dirs system property?
+
+SOLUTION: for now, commented out explicit setting of factory in
+RegistryConfiguration
+
+NEED TO EITHER COME UP WITH ALTERNATIVE, OR ALSO FIX IN OTHER CLASSES
+
+**Registry MySQL database:**
+
+In general, preface everything on command-line with sudo in order to
+admin stuff... Alternatively, for mysql command line login as root:
 
 `       mysql -u root -p`
 
@@ -170,48 +180,37 @@ Use DbVisualizer application to browse database:
 `   userid: root (or optionally "javauser")`  
 `   password:  ****** (or optionally "javadude")`
 
-**Older installation notes in code repository** Only after figuring out
-all of the above did I find Andreas' notes from Nov 2005 on local
-installation of the DAS registry, in the code repository at
+**Older installation notes in code repository**
 
-`   $CHECKOUT_ROOT/release/install.txt`
+    Only after figuring out all of the above did I find Andreas' notes from Nov 2005 on local installation of the DAS registry, in the code repository at
+        $CHECKOUT_ROOT/release/install.txt
+    Also the SQL for creating an empty database registry:
+        $CHECKOUT_ROOT/release/dasregistry.sql
+    And the (old and out of date) war file for easy distribution
+        $CHECKOUT_ROOT/release/dasregistry.war
+    WARNING!!!  The installation notes, SQL file, and .war are out of date,
+        at least for the openid branch --
+             for example:
+                the SQL does not include creation of "sources" and "interaction" columns in the "registry" tab
+                the .war does not include _anything_ from Dasobert
+    There are additional jars in $CHECKOUT_ROOT/release/version2.0/ that date from July 2006
+            biojavar.jar, dasobert.jar, dasregistry.jar
+            These are closer to current code base, for example there are Das2Source etc. classes which were not present in Nov2005 war
+            But still out of date -- for instance nothing on molecular interactions in dasobert jar
+    THIS STUFF NEEDS UPDATING!!!
+    STILL NEED TO DO: the installation notes suggest putting the RESOURCE configuration for jdbc/mysql in the $TOMCAT/conf/server.xml config file instead of in the webapp context.xml file as I did above
 
-Also the SQL for creating an empty database registry:
+**Remaining Issues**
 
-`   $CHECKOUT_ROOT/release/dasregistry.sql`
-
-And the (old and out of date) war file for easy distribution
-
-`   $CHECKOUT_ROOT/release/dasregistry.war`
-
-WARNING!!! The installation notes, SQL file, and .war are out of date,
-
-`   at least for the openid branch --`  
-`        for example:`  
-`           the SQL does not include creation of "sources" and "interaction" columns in the "registry" tab`  
-`           the .war does not include _anything_ from Dasobert`
-
-There are additional jars in $CHECKOUT\_ROOT/release/version2.0/ that
-date from July 2006
-
-`       biojavar.jar, dasobert.jar, dasregistry.jar`  
-`       These are closer to current code base, for example there are Das2Source etc. classes which were not present in Nov2005 war`  
-`       But still out of date -- for instance nothing on molecular interactions in dasobert jar`
-
-THIS STUFF NEEDS UPDATING!!! STILL NEED TO DO: the installation notes
-suggest putting the RESOURCE configuration for jdbc/mysql in the
-$TOMCAT/conf/server.xml config file instead of in the webapp context.xml
-file as I did above
-
-**Remaining Issues** Still getting warning messages about log4j from
-Tomcat when registry webapp is deployed: log4j:WARN No appenders could
-be found for logger
+Still getting warning messages about log4j from Tomcat when registry
+webapp is deployed: log4j:WARN No appenders could be found for logger
 (org.springframework.context.support.ClassPathXmlApplicationContext).
 log4j:WARN Please initialize the log4j system properly.
 
 Problems with das.xsl stylesheet
 
-`    Browser is having trouble retrieving the das.xsl stylesheet`  
+`    Browser is having trouble retrieving the das.xsl stylesheet`
+
 `    Because of the way the webapp is configured (mapping das1/*) and the way the stylesheet is specified in the sources XML (just as "das.xsl"), the browser does a GET on [rootpath]/das1/das.xsl.  The server, rather than directly returning the das.xsl file for this request, hands off responsibility to the Das2RegistryServlet.  Which retrieves the file as a resource stream from the servlet context and then streams it back as content of the HTTP response.  But resource-not-found exceptions are getting thrown.  Looks like problem is that at least some combinations of JVM/TomCat really want a "/" prefixed to the file name in arg to the ServletContext.getResourceAsStream() call (see `[`http://www.xyzws.com/servletfaq/how-to-use-servletcontextgetresourceasstream/18`](http://www.xyzws.com/servletfaq/how-to-use-servletcontextgetresourceasstream/18)`)`
 
 SOLUTION: added conditional so that if "das.xsl" doesn't work for
@@ -230,10 +229,14 @@ browser GETs).
 
 TEMPORARY SOLUTION: turned off adding of xml-stylesheet clause to
 sources XML response in ServletResponseWriter (made adding it a boolean
-option) NEED TO FIX: once css is checked into repository, can flip
-boolean to turn xml-stylesheet back on)
+option)
 
-Now starting to modify to support DAS2 "segments", "types", "features"
+NEED TO FIX: once css is checked into repository, can flip boolean to
+turn xml-stylesheet back on)
+
+**Looking at adding support for DAS2 capabilities**
+
+Starting to modify to support DAS2 "segments", "types", "features"
 capabilities (and extend "sources" support)
 
 Added columns to registry database for das2:segments, das2:types,

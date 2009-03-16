@@ -4,7 +4,8 @@ permalink: wiki/DAS_registry_installation_notes/
 layout: wiki
 ---
 
-**Notes on getting Sanger DAS registry running locally (on OSX)**
+**Gregg Helt's notes on getting Sanger DAS registry running locally (on
+OSX)**
 
 **Java code:**
 

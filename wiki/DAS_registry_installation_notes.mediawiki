@@ -1,4 +1,4 @@
-'''Notes on getting Sanger DAS registry running locally (on OSX)'''
+'''Gregg Helt's notes on getting Sanger DAS registry running locally (on OSX)'''
 
 '''Java code:'''
 

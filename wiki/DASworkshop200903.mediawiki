@@ -93,7 +93,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |11:20
 |DASgenexp
 |Bernat Gel
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/DASGenExp3.ppt presentation]
 |-
 |11:40
 |Dasty2

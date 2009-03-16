@@ -37,8 +37,8 @@ workshop:
 
 MINUTES Attendees: Bernat, Greg, Andy, Jonathan, Gustavo and Rafael
 
-On thursday 12 we talked about JavaScript DAS client libraries. We
-identify three different ways to create user interfaces using
+On Thursday 12 we talked about JavaScript DAS client libraries. We
+identified three different ways to create user interfaces using
 javascript.
 
 -   1.- Clients based on the google maps idea. Creating images on the

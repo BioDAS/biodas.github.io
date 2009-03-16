@@ -116,7 +116,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |13:50
 |Integration of info on gene expression and its temporal and spatial localization
 |Jose Ramon Macias
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/20090310_DAS_Workshop_DASxVO.ppt presentation]
 |-
 |14:10
 |DAS - writeback

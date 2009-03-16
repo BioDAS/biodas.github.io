@@ -98,7 +98,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |11:40
 |Dasty2
 |Rafael Jimenez
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/rjimenez_dasworkshop2009_dasty2.ppt presentation]
 |-
 |12:00
 |EMBOSS as an efficient DAS annotation source

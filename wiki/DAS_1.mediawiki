@@ -22,6 +22,7 @@ The unofficial DAS/1 version 1.53E (extended) specification is available at http
 * [http://www.ebi.ac.uk/dasty/ Dasty]
 * [http://pfam.sanger.ac.uk/ Pfam]
 * [http://3d-alignment.eu/ STRAP]also directly accessible here [http://www.charite.de/bioinf/strap/ STRAP]
+* [http://dasher.sbc.su.se DASher]
 
 * Older (still maintained?):
 ** [http://biodas.org/geodesic/ Geodesic]

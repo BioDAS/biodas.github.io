@@ -10,23 +10,23 @@ Secretary: Jonathan Warren and Andy Jenkinson
 [[1.6_Examples]]
 
 DAS1.6 spec discussions:
--Generally 1.6 was accepted as a good idea ,Minor changes to 1.6 document:
-- Document XDAS server version so its implemented correctly.
--Alignment clarified in the das spec?
--BOSC proposed as a release date for the 1.6 spec
--The entry_points cmd is proposed as being compulsory in 1.6 for both annotation and reference servers?
-	this caused a lot of discussion as to how to handle cases where there are 1000's of entry_points. A consensus seemed to be that the spec should allow people
-	to specify a range eg. 1-1000, then 1000-2000 in the request in a similar way that you can for the alignments you want returned in the alignment 1.53E spec.
-	There should be a DAS standard default range always returned if no params sent say 1-10.
-	The response should always return a count for the total number of entry_points available for the source.
-	We need to provide a explanation as to why the above is available.
+*Generally 1.6 was accepted as a good idea ,Minor changes to 1.6 document:
+*Document XDAS server version so its implemented correctly.
+*Alignment clarified in the das spec?
+*BOSC proposed as a release date for the 1.6 spec
+*The entry_points cmd is proposed as being compulsory in 1.6 for both annotation and reference servers?
+ this caused a lot of discussion as to how to handle cases where there are 1000's of entry_points. A consensus seemed to be that the spec should allow people
+ to specify a range eg. 1-1000, then 1000-2000 in the request in a similar way that you can for the alignments you want returned in the alignment 1.53E spec.
+ There should be a DAS standard default range always returned if no params sent say 1-10.
+ The response should always return a count for the total number of entry_points available for the source.
+ We need to provide a explanation as to why the above is available.
 	
--IUPAC names for moltype was suggested e.g. deoxyribonucleic acids (DNA).
--it was suggested that the registry should enforce the number of types available in a source.
--we need to explain what cvId stands for in the spec (Controlled Vocabulary Identifier) and why people should be encouraged to use it.
--JS suggested that the maxbins should encompass a returned value that says how the data is being made i.e. whether it is an average or an extreme of the data in those bins.
-this at least should be some kind of free text field.
--response should also say if returning 200 of 10,000??
+*IUPAC names for moltype was suggested e.g. deoxyribonucleic acids (DNA).
+*it was suggested that the registry should enforce the number of types available in a source.
+*we need to explain what cvId stands for in the spec (Controlled Vocabulary Identifier) and why people should be encouraged to use it.
+*JS suggested that the maxbins should encompass a returned value that says how the data is being made i.e. whether it is an average or an extreme of the data in those bins.
+*this at least should be some kind of free text field.
+*response should also say if returning 200 of 10,000??
 
 ===DAS1/DAS2 merger===
 ===DAS writeback===

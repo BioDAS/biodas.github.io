@@ -103,7 +103,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |12:00
 |EMBOSS as an efficient DAS annotation source
 |Peter Rice, Mahmut Uludag
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/DAS-Rice-Uludag.ppt presentation]
 |- style="background:#ffdead;"
 |12:15-13:30
 | colspan="3" | Lunch break

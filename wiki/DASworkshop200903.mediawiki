@@ -126,7 +126,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |14:30
 |Interaction DAS
 |Hagen Blankenburg
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/2009-das-talk-smith.ppt presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/20090310_Blankenburg_DASMI.ppt presentation]
 |-
 |14:50
 |DAS for ENCODE data coordination

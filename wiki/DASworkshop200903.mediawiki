@@ -88,7 +88,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |11:00
 |Pfam
 |Rob Finn
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/2009-das-talk-smith.ppt presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/20090309PfamDasWorkShop.ppt presentation]
 |-
 |11:20
 |DASgenexp

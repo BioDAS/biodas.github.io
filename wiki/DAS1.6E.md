@@ -12,3 +12,9 @@ DAS writeback
 
 DAS search
 ==========
+
+Support for alternative content formats
+=======================================
+
+Use of URIs for DAS identifiers
+===============================

@@ -164,7 +164,7 @@ Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html B
 |17:10
 |Trellis DAS2 framework- which includes the DAS1-->DAS2 proxy and alpha UCSC DAS2 server
 |Gregg Helt
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/ presentation]
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/Trellis_Mar2009.pptx presentation]
 |-
 |17:30
 |Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups

@@ -15,6 +15,9 @@ Includes a hands-on day of tutorials, a day of talks from DAS
 contributors and users as well as a hackathon/discussion day for
 progressing DAS projects.
 
+See the [schedule](/wiki/DASworkshop200903 "wikilink") for the tutorials and
+presentations.
+
 Programmatic access in Java, Nov 2008
 -------------------------------------
 

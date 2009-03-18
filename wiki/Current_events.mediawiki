@@ -4,6 +4,8 @@
 
 A [http://www.dasregistry.org/course.jsp 3-day workshop on DAS, 9-11 March 2009] hosted by EBI/Sanger. Includes a hands-on day of tutorials, a day of talks from DAS contributors and users as well as a hackathon/discussion day for progressing DAS projects.
 
+See the [[DASworkshop200903|schedule]] for the tutorials and presentations.
+
 == Programmatic access in Java, Nov 2008==
 
 24th-27th November 2008 at the European Bioinformatics Institute, Hinxton, UK.

@@ -7,12 +7,13 @@ layout: wiki
 Sanger/EBI DAS Workshop, March 2009
 -----------------------------------
 
-The Sanger and EBI is hosting a [a 3-day workshop on DAS, 9-11 March
-2009](http://www.dasregistry.org/course.jsp) which includes a hands-on
-day of tutorials, a day of talks from DAS contributors and users as well
-as a hackathon/discussion day for progressing DAS projects.
-Registrations are still open. Closing date for registration is 1st
-February 2009, so sign up soon.
+9th-11th March 2009 at the Wellcome Trust Genome Campus, Hinxton, UK.
+
+A [3-day workshop on DAS, 9-11 March
+2009](http://www.dasregistry.org/course.jsp) hosted by EBI/Sanger.
+Includes a hands-on day of tutorials, a day of talks from DAS
+contributors and users as well as a hackathon/discussion day for
+progressing DAS projects.
 
 Programmatic access in Java, Nov 2008
 -------------------------------------

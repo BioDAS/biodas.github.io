@@ -69,5 +69,4 @@ Validation RelaxNG documents are now available to help validate the xml produced
 See [[DasRegistry]]
 
 == Training in DAS ==
-
-[http://www.sanger.ac.uk/Software/analysis/das/DASWorkshopHistory.shtml DAS Workshop]]
+DAS Tutorials, talks and hackathons take place once a year at the Genome Campus UK almost every year in the [http://www.sanger.ac.uk/Software/analysis/das/DASWorkshopHistory.shtml DAS Workshop]]. The next workshop is likely to be in March 2010.

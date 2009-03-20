@@ -110,3 +110,9 @@ Publishing and Discovery of DAS/1 sources
 -----------------------------------------
 
 See [DasRegistry](/wiki/DasRegistry "wikilink")
+
+Training in DAS
+---------------
+
+[DAS
+Workshop](http://www.sanger.ac.uk/Software/analysis/das/DASWorkshopHistory.shtml)\]

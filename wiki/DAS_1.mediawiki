@@ -67,3 +67,7 @@ Validation RelaxNG documents are now available to help validate the xml produced
 == Publishing and Discovery of DAS/1 sources ==
 
 See [[DasRegistry]]
+
+== Training in DAS ==
+
+[http://www.sanger.ac.uk/Software/analysis/das/DASWorkshopHistory.shtml DAS Workshop]]

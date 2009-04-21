@@ -146,7 +146,14 @@ Proserver example of config to implement sources cmd:
 [`http://www.gramene.org/das/Arabidopsis_thaliana.TAIR8.reference`](http://www.gramene.org/das/Arabidopsis_thaliana.TAIR8.reference)  
 `capabilities = features -> 1.0`
 
-`The coordinates data is taken from the coordinates/registry_coordinates.xml file, which is an archived copy of the list of coordinates available in the DAS registry. Specifying the name (or URI, actually) and test range is enough, ProServer will pick up the rest from the XML file. If the full data is not picked up, you may need to update the coordinates XML file from the registry (http://www.dasregistry.org/das/coordinatesystem). If your coordinate system is not in the Registry, an admin can add it for you.`
+The coordinates data is taken from the
+coordinates/registry\_coordinates.xml file, which is an archived copy of
+the list of coordinates available in the DAS registry. Specifying the
+name (or URI, actually) and test range is enough, ProServer will pick up
+the rest from the XML file. If the full data is not picked up, you may
+need to update the coordinates XML file from the registry
+(http://www.dasregistry.org/das/coordinatesystem). If your coordinate
+system is not in the Registry, an admin can add it for you.
 
 #### Protein Annotations and Ontologies
 
@@ -159,7 +166,22 @@ in DAS\]
 
 #### RelaxNG and other validation in the Registry
 
-`The DAS Registry uses `[`RelaxNG`](http://relaxng.org/)` to validate the xml responses from DAS servers before allowing them to register as a valid das source. RelaxNG is essentially a document like a dtd except that it uses an xml syntax that is easy to learn quickly. The registry uses the documents found at the following `[`http://www.dasregistry.org/validation/`](http://www.dasregistry.org/validation/)` and has one document for each of the DAS commands (note you may need to right click "view the source" to see anything on these pages in a web browser) `[`features.rng`](http://www.dasregistry.org/validation/features.rng)`, `[`sources.rng`](http://www.dasregistry.org/validation/sources.rng)`, `[`alignments.rng`](http://www.dasregistry.org/validation/alignments.rng)`, `[`structure.rng`](http://www.dasregistry.org/validation/structure.rng)`, `[`entry_points.rng`](http://www.dasregistry.org/validation/entry_points.rng)`, `[`interaction.rng`](http://www.dasregistry.org/validation/interaction.rng)`, `[`sequence.rng`](http://www.dasregistry.org/validation/sequence.rng)` and `[`types.rng`](http://www.dasregistry.org/validation/types.rng)`.`
+The DAS Registry uses [RelaxNG](http://relaxng.org/) to validate the xml
+responses from DAS servers before allowing them to register as a valid
+das source. RelaxNG is essentially a document like a dtd except that it
+uses an xml syntax that is easy to learn quickly. The registry uses the
+documents found at the following
+<http://www.dasregistry.org/validation/> and has one document for each
+of the DAS commands (note you may need to right click "view the source"
+to see anything on these pages in a web browser)
+[features.rng](http://www.dasregistry.org/validation/features.rng),
+[sources.rng](http://www.dasregistry.org/validation/sources.rng),
+[alignments.rng](http://www.dasregistry.org/validation/alignments.rng),
+[structure.rng](http://www.dasregistry.org/validation/structure.rng),
+[entry\_points.rng](http://www.dasregistry.org/validation/entry_points.rng),
+[interaction.rng](http://www.dasregistry.org/validation/interaction.rng),
+[sequence.rng](http://www.dasregistry.org/validation/sequence.rng) and
+[types.rng](http://www.dasregistry.org/validation/types.rng).
 
 The DAS Registry
 ----------------

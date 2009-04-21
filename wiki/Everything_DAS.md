@@ -190,7 +190,13 @@ The DAS Registry
 
 ### Connecting to the Registry Programmatically
 
-`There are several commands that can be used to query the registry including: The sources cmd with optional parameters: label, organism, authority, capability, type and unique source_id. You can also use the organsim, coordinatesystem and lastmodified commands. For examples see `[`Scripting`](http://www.dasregistry.org/help_scripting.jsp)` an example of a java classe written using Dasobert to access the Registry is here `[`http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/ContactRegistry.java`](http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/ContactRegistry.java)
+There are several commands that can be used to query the registry
+including: The sources cmd with optional parameters: label, organism,
+authority, capability, type and unique source\_id. You can also use the
+organsim, coordinatesystem and lastmodified commands. For examples see
+[Scripting](http://www.dasregistry.org/help_scripting.jsp) an example of
+a java classe written using Dasobert to access the Registry is here
+<http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/ContactRegistry.java>
 
 Setting up a DAS client
 -----------------------

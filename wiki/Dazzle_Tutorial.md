@@ -119,12 +119,15 @@ a / in front e.g. change "test.embl" to "/test.embl"
 Adding your own Data Source and writing your own plugin
 =======================================================
 
-`Using the above setup in of Dazzle in Eclipse we are now going to write our own Java classes to get data from our own datasource.`
+Using the above setup in of Dazzle in Eclipse we are now going to write
+our own Java classes to get data from our own datasource.
 
 Background information on Dazzle and it's structure/methodology.
 ----------------------------------------------------------------
 
-`If you wish to get stuck into coding straight away carry on with this page. If you wish to get an overview of the inner workings of Dazzle go [DazzleMethodologyAndStructure Dazzle Methodology And Structure].`
+If you wish to get stuck into coding straight away carry on with this
+page. If you wish to get an overview of the inner workings of Dazzle go
+\[DazzleMethodologyAndStructure Dazzle Methodology And Structure\].
 
 Writing the plugins (a genomic dazzle data source)
 --------------------------------------------------
@@ -205,7 +208,7 @@ parse data method we read in the whole of the data file into memory (if
 you are using a database you probably would initialize the connections
 instead).
 
-`A utility class you will need to run this code is here:`
+A utility class you will need to run this code is here:
 
 `package myplugins;`  
   

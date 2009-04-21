@@ -117,9 +117,9 @@ There are several commands that can be used to query the registry including: The
 
 === Currently Available DAS Clients - table? ===
 
-
+{|class="wikitable" border="1"
 |-
-! Name
+! width="100px"|Name
 ! Description
 ! Programming Language
 ! Links
@@ -150,7 +150,7 @@ quote from GBrowse Website "GBrowse[1] is the most popular viewer in GMOD. For a
 | PERL and AJAX
 |
 http://www.ebi.ac.uk/dasty/
-|-
+|}
 
 === Writing your own DAS client ===
 

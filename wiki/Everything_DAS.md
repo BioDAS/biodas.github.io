@@ -201,29 +201,13 @@ Setting up a DAS client
 
 ### Currently Available DAS Clients - table?
 
-|- ! Name ! Description ! Programming Language ! Links |- | GBrowse |
-quote from GBrowse Website "GBrowse\[1\] is the most popular viewer in
-GMOD. For a list of GBrowse and GMOD installations see the GMOD Users
-page. For a demo of its features, try the
-[WormBase](http://www.wormbase.org/db/seq/gbrowse/wormbase/),
-[FlyBase](http://flybase.org/cgi-bin/gbrowse/dmel), or [Human Genome
-Segmental Duplication
-Database](http://projects.tcag.ca/cgi-bin/duplication/dupbrowse/human_b35)
-web sites. Spec DAS 1.53E and 1.6 soon | PERL
-|<http://gmod.org/wiki/Gbrowse> |- | EnsEMBL | EnsEMBL is a web based
-genome browser and database system which supports DAS 1.53E and soon 1.6
-| PERL |[<http://www.ensembl.org/>](http://www.ensembl.org) |- | IGB |
-is an application built upon the GenoViz SDK and Genometry for
-visualization and exploration of genomes and corresponding annotations
-from multiple data sources | Java | <http://genoviz.sourceforge.net/> |-
-| Jalview | A multiple sequence alignment editor & viewer | Java
-|<http://www.jalview.org/> |- | Dasty2 | Dasty, a protein DAS client is
-implemented for visualising protein sequence feature information. The
-client is able to connect, to a reference server and one or many DAS
-servers. It merges the data from all the servers, and displays sequence
-information as well as annotated feature information form all the
-available DAS Servers in a very user friendly way . | PERL and AJAX |
-<http://www.ebi.ac.uk/dasty/> |-
+| Name    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Programming Language | Links                                               |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|-----------------------------------------------------|
+| GBrowse | quote from GBrowse Website "GBrowse\[1\] is the most popular viewer in GMOD. For a list of GBrowse and GMOD installations see the GMOD Users page. For a demo of its features, try the [WormBase](http://www.wormbase.org/db/seq/gbrowse/wormbase/), [FlyBase](http://flybase.org/cgi-bin/gbrowse/dmel), or [Human Genome Segmental Duplication Database](http://projects.tcag.ca/cgi-bin/duplication/dupbrowse/human_b35) web sites. Spec DAS 1.53E and 1.6 soon | PERL                 | <http://gmod.org/wiki/Gbrowse>                      |
+| EnsEMBL | EnsEMBL is a web based genome browser and database system which supports DAS 1.53E and soon 1.6                                                                                                                                                                                                                                                                                                                                                                   | PERL                 | [<http://www.ensembl.org/>](http://www.ensembl.org) |
+| IGB     | is an application built upon the GenoViz SDK and Genometry for visualization and exploration of genomes and corresponding annotations from multiple data sources                                                                                                                                                                                                                                                                                                  | Java                 | <http://genoviz.sourceforge.net/>                   |
+| Jalview | A multiple sequence alignment editor & viewer                                                                                                                                                                                                                                                                                                                                                                                                                     | Java                 | <http://www.jalview.org/>                           |
+| Dasty2  | Dasty, a protein DAS client is implemented for visualising protein sequence feature information. The client is able to connect, to a reference server and one or many DAS servers. It merges the data from all the servers, and displays sequence information as well as annotated feature information form all the available DAS Servers in a very user friendly way .                                                                                           | PERL and AJAX        | <http://www.ebi.ac.uk/dasty/>                       |
 
 ### Writing your own DAS client
 

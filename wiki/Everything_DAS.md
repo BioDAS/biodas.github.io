@@ -217,8 +217,8 @@ Examples of client code written in Java using Dasobert can be found
 here: <http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/>
 
 There is also a tutorial for using Dasobert within eclipse that (follows
-on from the Dazzle eclipse tutorial here): \[DasobertTutorial.jsp
-Dasobert Eclipse Tutorial\]
+on from the Dazzle eclipse tutorial here):
+[Dasobert\_Tutorial](/wiki/Dasobert_Tutorial "wikilink")
 
 #### Example of walking a DAS source using perl
 

@@ -84,7 +84,7 @@ server. All are either written in PERL or Java.
 | MyDAS     | Java                 | Some people say it's easier to set up and configure than Dazzle                        | Doesn't support extensions currently                                                               |
 | LDAS      | PERL                 | Very Easy to set up?                                                                   | Limited support for DAS functionality and sources                                                  |
 
-#### Dazzle
+### Dazzle
 
 Dazzle is currently the standard/default implementation for Java users-
 however MyDas (mentioned below) is popular.
@@ -95,19 +95,19 @@ however MyDas (mentioned below) is popular.
 through setting up Dazzle in eclipse and then shows you how to add your
 own plugins
 
-##### Getting Dazzle
+#### Getting Dazzle
 
 <http://biojava.org/wiki/Dazzle#Getting_Dazzle> The latest version from
 the cutting edge source code is available here from
 subversion:[<http://www.derkholm.net/svn/repos/dazzle/>](http://www.derkholm.net/svn/repos/dazzle/)
 
-##### Using ready made plugins for datasources
+#### Using ready made plugins for datasources
 
 <http://biojava.org/wiki/Dazzle:plugins> <font color="red">More examples
 needed here and tips for using mysql etc?</font>
 <http://biojava.org/wiki/Dazzle:deployment>
 
-##### Writing your own plugin
+#### Writing your own plugin
 
 <http://biojava.org/wiki/Dazzle:writeplugin>  
 [How to write a plugin using
@@ -116,17 +116,17 @@ on what interfaces need to be implemented and give a full example that
 implements all needed functionality such as sources.cmd and coordinate
 system etc.</font>
 
-##### Deploying an Ensembl Reference Server
+#### Deploying an Ensembl Reference Server
 
 [link to Ensembl reference server
 instructions](http://biojava.org/wiki/Dazzle:Ensembl)
 
-#### MyDas
+### MyDas
 
 [Information about MyDas can be found
 here.](http://code.google.com/p/mydas/)
 
-#### Proserver
+### Proserver
 
 [Proserver Page at the Sanger
 Institute.](http://www.sanger.ac.uk/Software/analysis/proserver/)  
@@ -135,9 +135,10 @@ Tutorial](http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proser
 [Guide to
 Proserver](http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proserver_guide.html)  
 
-### Implementing the latest specs
+Implementing the latest specs
+-----------------------------
 
-`Proserver example of config to implement sources cmd:`
+Proserver example of config to implement sources cmd:
 
 `coordinates = TAIR_8,Chromosome,Arabidopsis thaliana -> 1:2000,3000`  
 `properties  = key1 -> value1 ; key2 -> value2`  

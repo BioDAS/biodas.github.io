@@ -49,40 +49,40 @@ There are several different options available for setting up a DAS server. All a
 |}
 
 
-==== Dazzle ====
+===Dazzle ===
 Dazzle is currently the standard/default implementation for Java users- however MyDas (mentioned below) is popular.
 
 ==== Dazzle Eclipse Tutorial ====
 
 [DazzleTutorial Dazzle Eclipse Tutorial] This tutorial takes you through setting up Dazzle in eclipse and then shows you how to add your own plugins
 
-===== Getting Dazzle =====
+==== Getting Dazzle ====
 
 http://biojava.org/wiki/Dazzle#Getting_Dazzle The latest version from the cutting edge source code is available here from subversion:[http://www.derkholm.net/svn/repos/dazzle/  http://www.derkholm.net/svn/repos/dazzle/]
 
-===== Using ready made plugins for datasources =====
+==== Using ready made plugins for datasources ====
 
 http://biojava.org/wiki/Dazzle:plugins <font color="red">More examples needed here and tips for using mysql etc?</font> http://biojava.org/wiki/Dazzle:deployment
 
-===== Writing your own plugin =====
+==== Writing your own plugin ====
 
 http://biojava.org/wiki/Dazzle:writeplugin<br />[http://biojava.org/wiki/Dazzle:eclipse  How to write a plugin using eclipse] <font color="red">more on what interfaces need to be implemented and give a full example that implements all needed functionality such as sources.cmd and coordinate system etc.</font>
 
-===== Deploying an Ensembl Reference Server =====
+==== Deploying an Ensembl Reference Server ====
 
 [http://biojava.org/wiki/Dazzle:Ensembl  link to Ensembl reference server instructions]
 
-==== MyDas ====
+=== MyDas ===
 
 [http://code.google.com/p/mydas/ Information about MyDas can be found here.]
 
-==== Proserver ====
+=== Proserver ===
 
 [http://www.sanger.ac.uk/Software/analysis/proserver/ Proserver Page at the Sanger Institute.]<br />[http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proserver_tutorial.html Proserver Tutorial]<br />[http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proserver_guide.html Guide to Proserver]<br />
 
-=== Implementing the latest specs ===
+==Implementing the latest specs==
 
- Proserver example of config to implement sources cmd:
+Proserver example of config to implement sources cmd:
 
  
  coordinates = TAIR_8,Chromosome,Arabidopsis thaliana -&gt; 1:2000,3000

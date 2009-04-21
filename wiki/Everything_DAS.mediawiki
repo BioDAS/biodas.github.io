@@ -21,34 +21,35 @@ The intention of this document is to bring together and add to all the documenta
 === Servers available ===
 
 
-{|
-! Name
-! Programming Language
-! advantages
-! disadvantages
+
+{|class="wikitable" border="1"
 |-
-| Dazzle
-| Java
-| Standard implementation, includes support for extensions (structure, interaction, vol)
-| Some people say it can be hard to configure and deploy if you are not used to Java web development
+| width="100px"|Name
+|Programming Language
+|advantages
+|disadvantages
 |-
-| Proserver
-| PERL
-| Standard implementation includes support for extensions (structure, interaction, vol)
+|Dazzle
+|Java
+|Standard implementation, includes support for extensions (structure, interaction, vol)
+|Some people say it can be hard to configure and deploy if you are not used to Java web development
+|-
+|Proserver
+|PERL
+|Standard implementation includes support for extensions (structure, interaction, vol)
 |
 |-
-| MyDAS
-| Java
-| Some people say it's easier to set up and configure than Dazzle
-| Doesn't support extensions currently
+|MyDAS
+|Java
+|Some people say it's easier to set up and configure than Dazzle
+|Doesn't support extensions currently
 |-
-| LDAS
-| PERL
-| Very Easy to set up?
-| Limited support for DAS functionality and sources
-|-
-|
-&lt;%@include file="sangertableend.jsp" %&gt;
+|LDAS
+|PERL
+|Very Easy to set up?
+|Limited support for DAS functionality and sources
+|}
+
 
 ==== Dazzle ====
 

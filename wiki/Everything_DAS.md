@@ -41,9 +41,8 @@ Setting up a DAS Server
 
 ### Servers available
 
-|           |                      |                                                                                        |                                                                                                    |
-|-----------|----------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | Name      | Programming Language | advantages                                                                             | disadvantages                                                                                      |
+|-----------|----------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | Dazzle    | Java                 | Standard implementation, includes support for extensions (structure, interaction, vol) | Some people say it can be hard to configure and deploy if you are not used to Java web development |
 | Proserver | PERL                 | Standard implementation includes support for extensions (structure, interaction, vol)  |                                                                                                    |
 | MyDAS     | Java                 | Some people say it's easier to set up and configure than Dazzle                        | Doesn't support extensions currently                                                               |

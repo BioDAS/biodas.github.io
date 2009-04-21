@@ -144,7 +144,7 @@ delete the biojava.jar currently set and add the new biojava.jar from
 the ant-build directory of your new biojava project by adding it to the
 J2EE dependencies.
 
-`BasicData.txt file is in this format:`
+BasicData.txt file is in this format:
 
 `1  799614  988150      RP11-54O7`  
 `1  1115132 1227290     RP5-902P8`  
@@ -402,7 +402,9 @@ A utility class you will need to run this code is here:
   
 `}`
 
-`once you have got your features cmd working you can download the dasobert project from svn and test it by creating a class like this (you can add this class to the same package as your plugins):`
+once you have got your features cmd working you can download the
+dasobert project from svn and test it by creating a class like this (you
+can add this class to the same package as your plugins):
 
 `package myplugins;`  
   
@@ -639,11 +641,17 @@ currently implement it. So lets do that now:
 `  </STYLESHEET>`  
 `</DASSTYLE>`
 
-`to use this test stylesheet with our dazzle source we can just make sure the file is under the dazzle-webapp directory of eclipse and then add this line to our dazzlecfg.xml file :`
+to use this test stylesheet with our dazzle source we can just make sure
+the file is under the dazzle-webapp directory of eclipse and then add
+this line to our dazzlecfg.xml file :
 
 `<string name="stylesheet" value="/test.style" />`
 
-`Instructions for deploying to live server: With eclipse you can select export, as war file, then select a dir to put you .war file into. When this is done you can copy this war file to a production tomcat or resin servers webapp directory. Then to run Dazzle from tomcat you just run the following on cmd line from within the webapp dir:`
+Instructions for deploying to live server: With eclipse you can select
+export, as war file, then select a dir to put you .war file into. When
+this is done you can copy this war file to a production tomcat or resin
+servers webapp directory. Then to run Dazzle from tomcat you just run
+the following on cmd line from within the webapp dir:
 
 `sh ../bin/startup.sh`  
   
@@ -651,7 +659,8 @@ currently implement it. So lets do that now:
   
 `sh ../bin/shutdown.sh`
 
-`For development purposes and the purposes of this tutorial we can just continue to run our das server through eclipse as we have been.`
+For development purposes and the purposes of this tutorial we can just
+continue to run our das server through eclipse as we have been.
 
 Setting up our server in the DAS Registry
 =========================================

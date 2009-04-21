@@ -86,7 +86,8 @@ server. All are either written in PERL or Java.
 
 #### Dazzle
 
-`Dazzle is currently the standard/default implementation for Java users- however MyDas (mentioned below) is popular.`
+Dazzle is currently the standard/default implementation for Java users-
+however MyDas (mentioned below) is popular.
 
 #### Dazzle Eclipse Tutorial
 

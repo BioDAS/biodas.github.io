@@ -50,8 +50,7 @@ There are several different options available for setting up a DAS server. All a
 
 
 ==== Dazzle ====
-
- Dazzle is currently the standard/default implementation for Java users- however MyDas (mentioned below) is popular.
+Dazzle is currently the standard/default implementation for Java users- however MyDas (mentioned below) is popular.
 
 ==== Dazzle Eclipse Tutorial ====
 

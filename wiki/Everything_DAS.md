@@ -234,7 +234,8 @@ the workshop</font> &lt;%@include file="sangertableend.jsp" %&gt;
 
 #### A Java DAS Client Library - Dasobert
 
-`Examples of client code written in Java using Dasobert can be found here: `[`http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/`](http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/)
+Examples of client code written in Java using Dasobert can be found
+here: <http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/>
 
 There is also a tutorial for using Dasobert within eclipse that (follows
 on from the Dazzle eclipse tutorial here): \[DasobertTutorial.jsp

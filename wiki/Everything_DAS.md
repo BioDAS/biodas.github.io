@@ -633,7 +633,8 @@ some time, but works nicely.
 \[acknoledgments \]Acknowledgments
 ----------------------------------
 
-`(some of this document may have been cut an pasted from documentation contributed by the following people):`
+(some of this document may have been cut an pasted from documentation
+contributed by the following people):
 
 -   Andreas Prlic
 -   Andy Jenkinson
@@ -642,4 +643,3 @@ some time, but works nicely.
 -   Lincoln Stein
 -   Thomas Down
 
-|}

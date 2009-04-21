@@ -22,15 +22,26 @@ default plugins available and test datasets included in the application.
 Steps required to set up dazzle in eclipse with already available plugins
 =========================================================================
 
-`Setting up dazzle in eclipse makes it easier to debug the application if configuration files are incorrect and makes it easy to test your das server in an integrated environment. This step by step guide should be usable by anyone with only a moderate knowledge of java and web development. It describes how to set up a basic dazzle instance with the default plugins available and test datasets included in the application.`
+Setting up dazzle in eclipse makes it easier to debug the application if
+configuration files are incorrect and makes it easy to test your das
+server in an integrated environment. This step by step guide should be
+usable by anyone with only a moderate knowledge of java and web
+development. It describes how to set up a basic dazzle instance with the
+default plugins available and test datasets included in the application.
 
 ### Download container (apache tomcat 5.5.27)
 
-`Go to `[[`http://tomcat.apache.org/download-55.cgi`](http://tomcat.apache.org/download-55.cgi)`"`](http://tomcat.apache.org/download-55.cgi)` and download tomcat by clicking on a link under the core catagory - windows installer if you are using windows or a tar.gz if you are using linux or macOSX`
+Go to
+[<http://tomcat.apache.org/download-55.cgi>"](http://tomcat.apache.org/download-55.cgi)
+and download tomcat by clicking on a link under the core catagory -
+windows installer if you are using windows or a tar.gz if you are using
+linux or macOSX
 
 ### Download EasyEclipse (EasyEclipse server java version which has Web tools already or the Ganymede version).
 
-`Go to `[`http://www.easyeclipse.org/site/distributions/server-java.html`](http://www.easyeclipse.org/site/distributions/server-java.html)` and select the download for your type of operating system e.g. windows or mac`
+Go to <http://www.easyeclipse.org/site/distributions/server-java.html>
+and select the download for your type of operating system e.g. windows
+or mac
 
 ### Set up a server configuration in eclipse
 
@@ -66,7 +77,10 @@ Steps required to set up dazzle in eclipse with already available plugins
     project in the popup that appears and a jars dir should be visible,
     then select all the jar files, then ok.
 
-`(newer features require java 5.0 so we need to make sure the project is configured to use java 5.0 as standard). rigt click on the project and select properties then the J2EE tab, then select the jar files as before to be added to the project.`
+(newer features require java 5.0 so we need to make sure the project is
+configured to use java 5.0 as standard). rigt click on the project and
+select properties then the J2EE tab, then select the jar files as before
+to be added to the project.
 
 1.  go to project properties again and select the java build path,
     source tab- then click "add resources" tick the resources folder
@@ -74,7 +88,9 @@ Steps required to set up dazzle in eclipse with already available plugins
 
 ### Configure using dazzle.xml
 
-`now go to the dazzlecfg.xml file that you just moved into the webcontent folder and alter the "value" next to filename for all occurances and put a / in front e.g. change "test.embl" to "/test.embl"`
+now go to the dazzlecfg.xml file that you just moved into the webcontent
+folder and alter the "value" next to filename for all occurances and put
+a / in front e.g. change "test.embl" to "/test.embl"
 
 ### Run using eclipse
 

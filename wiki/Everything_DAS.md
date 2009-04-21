@@ -89,7 +89,7 @@ however MyDas (mentioned below) is popular.
 
 #### Dazzle Eclipse Tutorial
 
-[DazzleTutorial](/wiki/DazzleTutorial "wikilink") This tutorial takes you
+[Dazzle\_Tutorial](/wiki/Dazzle_Tutorial "wikilink") This tutorial takes you
 through setting up Dazzle in eclipse and then shows you how to add your
 own plugins
 

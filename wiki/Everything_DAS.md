@@ -14,7 +14,8 @@ set of instructions that you can print out and use as reference
 documentation or a good read. If you find any errors on these pages and
 pages that it links to then please contact me ([Jonathan
 Warren](mailto:jw12@sanger.ac.uk)) to let me know, any suggestions and
-contributions are also welcomed.
+contributions are also welcomed. As this is now in wiki form you can log
+in and edit/add things yourself.
 
 What is DAS?
 ------------

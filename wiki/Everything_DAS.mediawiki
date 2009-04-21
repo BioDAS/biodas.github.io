@@ -167,7 +167,7 @@ There is also a tutorial for using Dasobert within eclipse that (follows on from
 
 ==== Example of walking a DAS source using perl ====
 
- This example was kindly provided by Felix Kokocinski: You can specify a region or let it walk through all regions if the server can supply entry points with lengths. This is done in eg. 20 MB slices. It takes quite some time, but works nicely.
+This example was kindly provided by Felix Kokocinski: You can specify a region or let it walk through all regions if the server can supply entry points with lengths. This is done in eg. 20 MB slices. It takes quite some time, but works nicely.
 
  
  <font color="#555500">''<nowiki># Example script that reads genomic data from DAS server </nowiki>''</font><font color="#555500">''<nowiki># using a defined chunk size </nowiki>''</font><font color="#555500">''<nowiki># writing the data out to a gff file. </nowiki>''</font>
@@ -505,8 +505,6 @@ There is also a tutorial for using Dasobert within eclipse that (follows on from
    <font color="#000055">'''print'''</font> GFF $element-&gt;{'phase'}."\t";
    <font color="#000055">'''print'''</font> GFF $element-&gt;{'attributes'}."\n";
  }
- 
- 
 
 == [acknoledgments ]Acknowledgments ==
 

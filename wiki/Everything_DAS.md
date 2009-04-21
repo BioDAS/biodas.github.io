@@ -243,7 +243,10 @@ Dasobert Eclipse Tutorial\]
 
 #### Example of walking a DAS source using perl
 
-`This example was kindly provided by Felix Kokocinski: You can specify a region or let it walk through all regions if the server can supply entry points with lengths. This is done in eg. 20 MB slices. It takes quite some time, but works nicely.`
+This example was kindly provided by Felix Kokocinski: You can specify a
+region or let it walk through all regions if the server can supply entry
+points with lengths. This is done in eg. 20 MB slices. It takes quite
+some time, but works nicely.
 
 <font color="#555500">*`#` `Example` `script` `that` `reads` `genomic`
 `data` `from` `DAS` `server`*</font><font color="#555500">*`#` `using`
@@ -625,8 +628,7 @@ Dasobert Eclipse Tutorial\]
 `  `<font color="#000055">**`print`**</font>` GFF $element->{'strand'}."\t";`  
 `  `<font color="#000055">**`print`**</font>` GFF $element->{'phase'}."\t";`  
 `  `<font color="#000055">**`print`**</font>` GFF $element->{'attributes'}."\n";`  
-`}`  
-  
+`}`
 
 \[acknoledgments \]Acknowledgments
 ----------------------------------

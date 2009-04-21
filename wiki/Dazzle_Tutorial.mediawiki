@@ -583,4 +583,4 @@ For development purposes and the purposes of this tutorial we can just continue 
 
 = Writing some client code =
 
- The client code/Dasobert tutorial is here [DasobertTutorial.jsp DasobertTutorial] There are some examples of writing client code here: http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/
+ The client code/Dasobert tutorial is here [[Dasobert_Tutorial]] There are some examples of writing client code here: http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/

@@ -731,4 +731,4 @@ Looking at your server with Ensembl
 Writing some client code
 ========================
 
-`The client code/Dasobert tutorial is here [DasobertTutorial.jsp DasobertTutorial] There are some examples of writing client code here: `[`http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/`](http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/)
+`The client code/Dasobert tutorial is here `[`Dasobert_Tutorial`](/wiki/Dasobert_Tutorial "wikilink")` There are some examples of writing client code here: `[`http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/`](http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/)

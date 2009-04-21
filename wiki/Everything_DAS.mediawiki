@@ -10,7 +10,7 @@ As biological databases are becoming so large with the advent of high throughput
 
 === Current Status/ DAS specifications 1.5, 1.53E, 1.6, 2.0 and Future Intentions ===
 
-Currently DAS 1.5 is the most widely used and supported together with 1.53E. DAS 2.0 is quite different and is really running in parallel to the other 2 versions of DAS and it is hoped that in the next few years these versions will become one version (the 1.6 Spec includes some of the commands from the 2.0 spec). If you wish your data to be widely accessible then use the [http://www.biodas.org/wiki/DAS1.6  The 1.6 spec] and [http://www.dasregistry.org/spec_1.53E.jsp  The 1.53E spec] documents as their guide. If your main priority is using the most recent technology and external libraries then [http://biodas.org/documents/das2/das2_protocol.html DAS2.0] may be of most interest to you.
+Currently DAS 1.5 is the most widely used and supported together with 1.53E. DAS 2.0 is quite different and is really running in parallel to the other 2 versions of DAS. After the 2009 workshop it was generally agreed that most of the useful additional features that 2.0 provides is now or very soon to be implemented in DAS 1.6E and it's subsequent incarnations and thus DAS2.0 is now considered redundant. If you wish your data to be widely accessible then use the [http://www.biodas.org/wiki/DAS1.6  The 1.6 spec] and [http://www.dasregistry.org/spec_1.53E.jsp  The 1.53E spec] documents as your guide.
 
 == Setting up a DAS Server ==
 

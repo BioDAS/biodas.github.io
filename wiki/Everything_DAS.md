@@ -58,16 +58,14 @@ data.
 
 Currently DAS 1.5 is the most widely used and supported together with
 1.53E. DAS 2.0 is quite different and is really running in parallel to
-the other 2 versions of DAS and it is hoped that in the next few years
-these versions will become one version (the 1.6 Spec includes some of
-the commands from the 2.0 spec). If you wish your data to be widely
-accessible then use the [The 1.6
+the other 2 versions of DAS. After the 2009 workshop it was generally
+agreed that most of the useful additional features that 2.0 provides is
+now or very soon to be implemented in DAS 1.6E and it's subsequent
+incarnations and thus DAS2.0 is now considered redundant. If you wish
+your data to be widely accessible then use the [The 1.6
 spec](http://www.biodas.org/wiki/DAS1.6) and [The 1.53E
-spec](http://www.dasregistry.org/spec_1.53E.jsp) documents as their
-guide. If your main priority is using the most recent technology and
-external libraries then
-[DAS2.0](http://biodas.org/documents/das2/das2_protocol.html) may be of
-most interest to you.
+spec](http://www.dasregistry.org/spec_1.53E.jsp) documents as your
+guide.
 
 Setting up a DAS Server
 -----------------------

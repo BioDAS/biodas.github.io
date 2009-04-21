@@ -117,7 +117,7 @@ There are several commands that can be used to query the registry including: The
 
 === Currently Available DAS Clients - table? ===
 
- &lt;%@include file="sangertablestart.jsp"%&gt;
+
 |-
 ! Name
 ! Description
@@ -128,14 +128,12 @@ There are several commands that can be used to query the registry including: The
 |
 quote from GBrowse Website "GBrowse[1] is the most popular viewer in GMOD. For a list of GBrowse and GMOD installations see the GMOD Users page. For a demo of its features, try the [http://www.wormbase.org/db/seq/gbrowse/wormbase/ WormBase], [http://flybase.org/cgi-bin/gbrowse/dmel FlyBase], or [http://projects.tcag.ca/cgi-bin/duplication/dupbrowse/human_b35 Human Genome Segmental Duplication Database] web sites. Spec DAS 1.53E and 1.6 soon
 | PERL
-|
-http://gmod.org/wiki/Gbrowse
+|http://gmod.org/wiki/Gbrowse
 |-
 | EnsEMBL
 | EnsEMBL is a web based genome browser and database system which supports DAS 1.53E and soon 1.6
 | PERL
-|
-[http://www.ensembl.org http://www.ensembl.org/]
+|[http://www.ensembl.org http://www.ensembl.org/]
 |-
 | IGB
 | is an application built upon the GenoViz SDK and Genometry for visualization and exploration of genomes and corresponding annotations from multiple data sources
@@ -145,8 +143,7 @@ http://gmod.org/wiki/Gbrowse
 | Jalview
 | A multiple sequence alignment editor &amp; viewer
 | Java
-|
-http://www.jalview.org/
+|http://www.jalview.org/
 |-
 | Dasty2
 | Dasty, a protein DAS client is implemented for visualising protein sequence feature information. The client is able to connect, to a reference server and one or many DAS servers. It merges the data from all the servers, and displays sequence information as well as annotated feature information form all the available DAS Servers in a very user friendly way .
@@ -154,8 +151,6 @@ http://www.jalview.org/
 |
 http://www.ebi.ac.uk/dasty/
 |-
-|
-<font color="red">Add clients from the workshop</font> &lt;%@include file="sangertableend.jsp" %&gt;
 
 === Writing your own DAS client ===
 

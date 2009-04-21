@@ -609,8 +609,8 @@ some time, but works nicely.
 `  `<font color="#000055">**`print`**</font>` GFF $element->{'attributes'}."\n";`  
 `}`
 
-\[acknoledgments \]Acknowledgments
-----------------------------------
+Acknowledgments
+---------------
 
 (some of this document may have been cut an pasted from documentation
 contributed by the following people):

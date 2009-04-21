@@ -501,7 +501,7 @@ This example was kindly provided by Felix Kokocinski: You can specify a region o
    <font color="#000055">'''print'''</font> GFF $element-&gt;{'attributes'}."\n";
  }
 
-== [acknoledgments ]Acknowledgments ==
+==Acknowledgments==
 
 (some of this document may have been cut an pasted from documentation contributed by the following people):
 

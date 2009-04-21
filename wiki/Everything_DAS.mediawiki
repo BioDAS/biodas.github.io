@@ -54,7 +54,7 @@ Dazzle is currently the standard/default implementation for Java users- however 
 
 ==== Dazzle Eclipse Tutorial ====
 
-[DazzleTutorial Dazzle Eclipse Tutorial] This tutorial takes you through setting up Dazzle in eclipse and then shows you how to add your own plugins
+[[DazzleTutorial]] This tutorial takes you through setting up Dazzle in eclipse and then shows you how to add your own plugins
 
 ==== Getting Dazzle ====
 

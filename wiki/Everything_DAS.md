@@ -4,7 +4,6 @@ permalink: wiki/Everything_DAS/
 layout: wiki
 ---
 
-<div id="main">
 *Last Updated 5th Feb 2009*
 
 The intention of this document is to bring together and add to all the
@@ -16,62 +15,6 @@ documentation or a good read. If you find any errors on these pages and
 pages that it links to then please contact me ([Jonathan
 Warren](mailto:jw12@sanger.ac.uk)) to let me know, any suggestions and
 contributions are also welcomed.
-
-Index:
-======
-
-\[\#what What is DAS?\]
------------------------
-
-### \[\#currentStatus Current Status\]
-
-\[\#settingUp Setting up a DAS Server\]
----------------------------------------
-
-### \[\#serversList Servers available\]
-
-#### \[\#dazzle Dazzle\]
-
-##### \[\#gettingDazzle Getting Dazzle\]
-
-##### \[\#readyPlugins Using ready made plugins for datasources\]
-
-##### \[\#ownPlugins Writing your own plugin\]
-
-##### \[\#ensemblRef Deploying an Ensembl Reference Server\]
-
-#### \[\#myDas MyDas\]
-
-#### \[\#proserver Proserver\]
-
-### \[\#impLatest Implementing the latest specs\]
-
-### \[\#testingServer Testing your implementation\]
-
-### \[\#validation Validation and Registering of your Server\]
-
-#### \[\#relaxNG RelaxNG and other validation in the Registry\]
-
-\[\#dasregistry The DAS Registry\]
-----------------------------------
-
-### \[\#dasRegGenInfo Introduction to the DAS Registry\]
-
-### Connecting to the Registry Programmatically
-
-\[\#settingUpClient Setting up a DAS client\]
----------------------------------------------
-
-### \[\#clientsList Currently Available DAS Clients - table?\]
-
-### \[\#writingClients Writing your own DAS client\]
-
-#### \[\#dasobert A Java DAS Client Library - Dasobert\]
-
-#### \[\#perlWalking Example of walking a DAS source using perl\]
-
-\[\#acknowledgements Acknowledgments\]
---------------------------------------
 
 Content:
 ========
@@ -97,8 +40,6 @@ Setting up a DAS Server
 `There are several different options available for setting up a DAS server. All are either written in PERL or Java.`
 
 ### Servers available
-
-`<%@include file="sangertablestart.jsp"%>`
 
 | Name                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Programming Language                                                                                                                                                                                                                                                                                                                                                                                                                                              | advantages                                                                             | disadvantages                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
@@ -552,5 +493,4 @@ Setting up a DAS Server
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -   Lincoln Stein                                                                                                                                                                                                                                                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -   Thomas Down                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
-</div>
 

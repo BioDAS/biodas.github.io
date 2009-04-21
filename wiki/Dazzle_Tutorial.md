@@ -672,11 +672,8 @@ Setting up our server in the DAS Registry
 3.  box2:select the coordinate system (note you can type the first
     letter to get you close to the correct one) in our case it's N
     for NCBI. Select "NCBI\_36, Chromosome, HomoSapiens".
-4.  box3: Paste in the full das path for your data source in my case
-    it's
-    "<http://deskpro20727.dynamic.sanger.ac.uk:8080/das/JonsPlugin>" -
-    (for yours <http://deskpro20727.dynamic.sanger.ac.uk:8080> will be
-    replaced by <http://www.yourdomainname.org/>
+4.  box3: Paste in the full das path for your data source
+    <http://www.yourdomainname.org/das/JonsPlugin>
 5.  box5: Put your email address
 6.  box6: Put a desciption of your source and any relevant experimental
     conditions etc

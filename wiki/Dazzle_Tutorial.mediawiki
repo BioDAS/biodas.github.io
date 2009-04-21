@@ -1,6 +1,6 @@
 = Dazzle Tutorial Introduction =
 
- This tutorial will take you through setting up Dazzle (in the Eclipse Environment and using Tomcat as your container) as a DAS server using the already available test sources and then it will take you through how to write your own plugin using the this setup.
+This tutorial will take you through setting up Dazzle (in the Eclipse Environment and using Tomcat as your container) as a DAS server using the already available test sources and then it will take you through how to write your own plugin using the this setup.
 
 Setting up dazzle in eclipse makes it easier to debug the application if configuration files are incorrect and makes it easy to test your das server in an integrated environment. This step by step guide should be usable by anyone with only a moderate knowledge of java and web development. It describes how to set up a basic dazzle instance with the default plugins available and test datasets included in the application.
 

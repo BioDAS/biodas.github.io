@@ -258,6 +258,10 @@ Setting up a DAS client
 
 ### Writing your own DAS client
 
+Remember that if you are developing your clients behind a firewall you
+may need to configure your code to go through the proxy using the proxy
+settings - examples if this can be found in the code below.
+
 #### A Java DAS Client Library - Dasobert
 
 Examples of client code written in Java using Dasobert can be found

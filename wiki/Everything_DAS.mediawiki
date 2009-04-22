@@ -1,4 +1,4 @@
-''Last Updated 21 April 2009''
+''Last Updated 22 April 2009''
 
 The intention of this document is to bring together and add to all the documentation available on the WWW for the DAS system. The content on these pages draws from many sources of information and thus has many contributors. Eventually the intention if that this document will be a set of instructions that you can print out and use as reference documentation or a good read. If you find any errors on these pages and pages that it links to then please contact me ([mailto:jw12@sanger.ac.uk Jonathan Warren]) to let me know. Any suggestions and contributions are also welcomed. As this is now in wiki form you can log in and edit/add things yourself.
 

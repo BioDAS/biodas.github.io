@@ -106,6 +106,7 @@ The DAS Registry uses [http://relaxng.org/ RelaxNG] to validate the xml response
 == The DAS Registry ==
 
 === Introduction to the DAS Registry ===
+The DAS registry can be found at http://www.dasregistry.org and serves as a central place for discovering DAS sources from around the world and for validating the sources.
 
 === Connecting to the Registry Programmatically ===
 

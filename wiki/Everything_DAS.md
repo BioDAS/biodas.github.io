@@ -188,6 +188,10 @@ The DAS Registry
 
 ### Introduction to the DAS Registry
 
+The DAS registry can be found at <http://www.dasregistry.org> and serves
+as a central place for discovering DAS sources from around the world and
+for validating the sources.
+
 ### Connecting to the Registry Programmatically
 
 There are several commands that can be used to query the registry

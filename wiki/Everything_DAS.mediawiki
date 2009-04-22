@@ -64,7 +64,7 @@ http://biojava.org/wiki/Dazzle:plugins <font color="red">More examples needed he
 
 ==== Writing your own plugin ====
 
-http://biojava.org/wiki/Dazzle:writeplugin<br />[http://biojava.org/wiki/Dazzle:eclipse  How to write a plugin using eclipse] <font color="red">more on what interfaces need to be implemented and give a full example that implements all needed functionality such as sources.cmd and coordinate system etc.</font>
+http://biojava.org/wiki/Dazzle:writeplugin<br />[http://biojava.org/wiki/Dazzle:eclipse  How to write a plugin using eclipse]
 
 ==== Deploying an Ensembl Reference Server ====
 

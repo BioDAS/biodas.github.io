@@ -111,10 +111,7 @@ needed here and tips for using mysql etc?</font>
 
 <http://biojava.org/wiki/Dazzle:writeplugin>  
 [How to write a plugin using
-eclipse](http://biojava.org/wiki/Dazzle:eclipse) <font color="red">more
-on what interfaces need to be implemented and give a full example that
-implements all needed functionality such as sources.cmd and coordinate
-system etc.</font>
+eclipse](http://biojava.org/wiki/Dazzle:eclipse)
 
 #### Deploying an Ensembl Reference Server
 

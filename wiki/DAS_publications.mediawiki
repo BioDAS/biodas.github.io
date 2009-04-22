@@ -1,8 +1,10 @@
 The following DAS related papers have been published:
 
-If you know of any others, please add them
+If you know of any others, please add them here in chronological order.
 
+<!-- To add a new citation, find its PubMed ID and add it to the biblio element listing below, giving it an identifier a la the pattern below -- #<first-auth><year> -->
 <biblio>
+#hubbard2000 pmid=10706254
 #dowell2001 pmid=11667947
 #prlic2005 pmid=16204122
 #olason2005 pmid=15980514

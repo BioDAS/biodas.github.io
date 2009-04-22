@@ -157,8 +157,8 @@ system is not in the Registry, an admin can add it for you.
 
 #### Protein Annotations and Ontologies
 
-\[extension\_ontology.jsp explanation of ontologies for proteins usage
-in DAS\]
+For an explanation of ontologies usage within the DAS protocal look here
+[ontologies](http://www.dasregistry.org/extension_ontology.jsp)
 
 ### Testing your implementation
 

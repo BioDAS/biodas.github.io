@@ -93,7 +93,7 @@ The coordinates data is taken from the coordinates/registry_coordinates.xml file
 
 ==== Protein Annotations and Ontologies ====
 
-[extension_ontology.jsp explanation of ontologies for proteins usage in DAS]
+For an explanation of ontologies usage within the DAS protocal look here [http://www.dasregistry.org/extension_ontology.jsp ontologies]
 
 === Testing your implementation ===
 

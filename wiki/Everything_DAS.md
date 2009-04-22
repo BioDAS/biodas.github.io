@@ -190,7 +190,13 @@ The DAS Registry
 
 The DAS registry can be found at <http://www.dasregistry.org> and serves
 as a central place for discovering DAS sources from around the world and
-for validating the sources.
+for validating the sources. There is a user interface for interrogating
+the sources and ways for clients to also interrogate the sources.
+Support for searching sources based on Ontologies is likely to be
+included in future releases. The number of sources registered is set to
+increase rapidly to accommodate the ensembl genomes project data and the
+general increase in numbers of sequenced genomes. The registry will thus
+have to be modified in order to cope with this increase in data.
 
 ### Connecting to the Registry Programmatically
 

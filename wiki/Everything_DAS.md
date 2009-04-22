@@ -138,6 +138,16 @@ Proserver](http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/prose
 Implementing the latest specs
 -----------------------------
 
+One of the most important additions to the recent specifications is the
+sources cmd. This gives essential information such as who maintains the
+das source and what coordinate systems it uses which is essential
+information for a large distributed system like DAS and is needed by the
+registry and clients in order to use the source correctly. Dazzle just
+uses a sources.xml document to serve this information that has to be
+written by the DAS server owner, but proserver will create a sources
+document for you if you specify the extra information needed in the
+initialisation file (proserver.ini).
+
 Proserver example of config to implement sources cmd:
 
 `coordinates = TAIR_8,Chromosome,Arabidopsis thaliana -> 1:2000,3000`  

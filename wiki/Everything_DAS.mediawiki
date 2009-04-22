@@ -111,6 +111,9 @@ The DAS Registry uses [http://relaxng.org/ RelaxNG] to validate the xml response
 
 There are several commands that can be used to query the registry including: The sources cmd with optional parameters: label, organism, authority, capability, type and unique source_id. You can also use the organsim, coordinatesystem and lastmodified commands. For examples see [http://www.dasregistry.org/help_scripting.jsp Scripting] an example of a java classe written using Dasobert to access the Registry is here http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/ContactRegistry.java
 
+=== Adding a large set of data sources to the registry ===
+The registry can automatically load a large set of data sources from the sources.xml that is returned from the sources cmd. If you wish to load a large set of sources you can contact dasregistry@sanger.ac.uk and ask for your data sources to be loaded. Please note that your sources must have valid coordinate systems that are in the registry and a valid sources document. You can do an initial test at http://www.dasregistry.org/validateServer.jsp and select the sources capability for your server.
+
 == Setting up a DAS client ==
 
 === Currently Available DAS Clients - table? ===

@@ -196,7 +196,11 @@ Support for searching sources based on Ontologies is likely to be
 included in future releases. The number of sources registered is set to
 increase rapidly to accommodate the ensembl genomes project data and the
 general increase in numbers of sequenced genomes. The registry will thus
-have to be modified in order to cope with this increase in data.
+have to be modified in order to cope with this increase in data. The
+user interface has a warning sign next to any of the sources that have
+not been valid for two days or more (if this is the case, the registry
+will have sent an email to the administrator for the data source
+informing them of this fact).
 
 ### Connecting to the Registry Programmatically
 

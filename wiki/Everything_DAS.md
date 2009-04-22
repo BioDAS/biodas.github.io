@@ -45,15 +45,16 @@ there to enable people and computers to easily find the DAS data sources
 available around the world and also to help these data sources conform
 to the specifications. It's important that data served by DAS servers
 conform to enable the interoperability of different clients and servers
-around the world. [The 1.6 spec](http://www.biodas.org/wiki/DAS1.6) is
-the latest and soon to be official DAS spec that mainly focuses on
-genomic annotations but also refers to the *E*xtentions specified in the
-1.53*E* spec below. [The 1.53E
-spec](http://www.dasregistry.org/spec_1.53E.jsp) contains up to date
-specifications for servers and clients that support information that can
-be exchanged using DAS that is not genome centric. Types of data include
-Proteins- Structures and alignments, Molecular Interactions, volume map
-data.
+around the world.[1.0](http://www.biodas.org/documents/spec.html) is
+currently supported and work is starting on supporting the new [The 1.6
+spec](http://www.biodas.org/wiki/DAS1.6) that is the latest and soon to
+be official DAS spec that mainly focuses on genomic annotations but also
+refers to the *E*xtentions specified in the 1.53*E* spec below. [The
+1.53E spec](http://www.dasregistry.org/spec_1.53E.jsp) contains up to
+date specifications for servers and clients that support information
+that can be exchanged using DAS that is not genome centric. Types of
+data include Proteins- Structures and alignments, Molecular
+Interactions, volume map data.
 
 ### Current Status/ DAS specifications 1.5, 1.53E, 1.6, 2.0 and Future Intentions
 

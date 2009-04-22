@@ -219,6 +219,16 @@ sources document. You can do an initial test at
 <http://www.dasregistry.org/validateServer.jsp> and select the sources
 capability for your server.
 
+Discovering DAS sources programmatically
+----------------------------------------
+
+The registry produces it's own sources.xml in response to the url
+request <http://www.dasregistry.org/das1/sources> and this can be used
+by clients to get information on the many DAS sources available around
+the world and what there capabililties are. Currently there is no way of
+clients finding out if the registry knows if the sources are valid or
+not.
+
 Setting up a DAS client
 -----------------------
 

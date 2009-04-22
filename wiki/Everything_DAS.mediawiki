@@ -115,6 +115,9 @@ There are several commands that can be used to query the registry including: The
 === Adding a large set of data sources to the registry ===
 The registry can automatically load a large set of data sources from the sources.xml that is returned from the sources cmd. If you wish to load a large set of sources you can contact dasregistry@sanger.ac.uk and ask for your data sources to be loaded. Please note that your sources must have valid coordinate systems that are in the registry and a valid sources document. You can do an initial test at http://www.dasregistry.org/validateServer.jsp and select the sources capability for your server.
 
+==Discovering DAS sources programmatically==
+The registry produces it's own sources.xml in response to the url request http://www.dasregistry.org/das1/sources and this can be used by clients to get information on the many DAS sources available around the world and what there capabililties are. Currently there is no way of clients finding out if the registry knows if the sources are valid or not.
+
 == Setting up a DAS client ==
 
 === Currently Available DAS Clients - table? ===

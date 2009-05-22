@@ -190,6 +190,18 @@ to see anything on these pages in a web browser)
 [sequence.rng](http://www.dasregistry.org/validation/sequence.rng) and
 [types.rng](http://www.dasregistry.org/validation/types.rng).
 
+### stylesheets
+
+The stylesheets are specified in the specification - however some extra
+notes here you may find useful: in the returned stylesheet the <BUMP>
+tag if not defined is <BUMP>no</BUMP>. This should be the case for
+features that are going to be displayed on the same line e.g. when
+grouping a set of features in a gene the exons should not be bumped so
+they appear on the same line as the other feature in that gene. However
+a transcript probably should be bumped so that overlapping transcripts
+will be displayed on separate lines ( so in this case the tag
+<BUMP>yes</BUMP> should be inserted).
+
 The DAS Registry
 ----------------
 

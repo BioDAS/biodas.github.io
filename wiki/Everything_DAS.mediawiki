@@ -104,6 +104,10 @@ For an explanation of ontologies usage within the DAS protocal look here [http:/
 
 The DAS Registry uses [http://relaxng.org/ RelaxNG] to validate the xml responses from DAS servers before allowing them to register as a valid das source. RelaxNG is essentially a document like a dtd except that it uses an xml syntax that is easy to learn quickly. The registry uses the documents found at the following http://www.dasregistry.org/validation/ and has one document for each of the DAS commands (note you may need to right click "view the source" to see anything on these pages in a web browser) [http://www.dasregistry.org/validation/features.rng features.rng], [http://www.dasregistry.org/validation/sources.rng sources.rng], [http://www.dasregistry.org/validation/alignments.rng alignments.rng], [http://www.dasregistry.org/validation/structure.rng structure.rng], [http://www.dasregistry.org/validation/entry_points.rng entry_points.rng], [http://www.dasregistry.org/validation/interaction.rng interaction.rng], [http://www.dasregistry.org/validation/sequence.rng sequence.rng] and [http://www.dasregistry.org/validation/types.rng types.rng].
 
+===stylesheets===
+The stylesheets are specified in the specification - however some extra notes here you may find useful:
+in the returned stylesheet the <BUMP> tag if not defined is <BUMP>no</BUMP>. This should be the case for features that are going to be displayed on the same line e.g. when grouping a set of features in a gene the exons should not be bumped so they appear on the same line as the other feature in that gene. However a transcript probably should be bumped so that overlapping transcripts will be displayed on separate lines ( so in this case the tag <BUMP>yes</BUMP> should be inserted).
+
 == The DAS Registry ==
 
 === Introduction to the DAS Registry ===

@@ -1735,8 +1735,8 @@ Whether the glyph should be labeled with its name, as dictated by the
 BUMP  
 BOOL
 
-Whether the glyph should "bump" intersecting glyphs so that they do
-not overlap.
+"yes" or "no"- Whether the glyph should "bump" intersecting glyphs so
+that they do not overlap.
 
 **<em>ARROW</em>**
 

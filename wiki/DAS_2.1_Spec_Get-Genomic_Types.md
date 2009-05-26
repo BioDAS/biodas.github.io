@@ -147,12 +147,13 @@ from different source programs or different representation styles
 depending on the score. At present there are no stable ontology URI
 schemes so this attribute is optional.
 
-The sequence ontology (SO) is widely used but its identifiers are not
-URIs. The 'so\_accession' attribute contains the SO accession number
-including the leading "SO:", as in "SO:0000316". Note that the leading
-zeros are important. This field should be interpreted as an opaque
-string. It is <b>highly recommended</b> that DAS/2 servers feature types
-based on the sequence ontology vocabulary.
+The [sequence ontology (SO)](http://www.sequenceontology.org/) is widely
+used but its identifiers are not URIs. The 'so\_accession' attribute
+contains the SO accession number including the leading "SO:", as in
+"SO:0000316". Note that the leading zeros are important. This field
+should be interpreted as an opaque string. It is <b>highly
+recommended</b> that DAS/2 servers feature types based on the sequence
+ontology vocabulary.
 
 The optional 'title' attribute is a short title of at most a few words,
 meant to be human readable. The optional 'description' attribute

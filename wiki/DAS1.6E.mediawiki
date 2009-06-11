@@ -107,7 +107,7 @@ All the commands of reading in the DAS specification should Apply here, however 
 </dl>
 Here is an example of a valid request:
 <pre>
-    http://www.writeback.com/das/writeback/historical?feature=http://writeback/5
+    http://www.writeback.com/das/writeback/historical?feature=http://writeback/9
 </pre>
 
 ====Response:====

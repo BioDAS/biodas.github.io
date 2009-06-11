@@ -196,7 +196,7 @@ URL identifier of a particular feature in the writeback.
 </dl>
 Here is an example of a valid request:
 
-        http://www.writeback.com/das/writeback/historical?feature=http://writeback/5
+        http://www.writeback.com/das/writeback/historical?feature=http://writeback/9
 
 #### Response:
 

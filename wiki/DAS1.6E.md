@@ -36,7 +36,7 @@ the HTTP methods PUT, GET, POST and DELETE to access the 4 CRUD
 operations. Next, is explained the proposed details to use this methods
 with DAS, but first a description of the das writeback document.
 
-**DAS Writeback Document**
+### DAS Writeback Document
 
 The document used for all the methods is an XML-formatted "DASGFF"
 document. All the information of an annotation to create/edit could be
@@ -83,9 +83,9 @@ USER=<http://user.myopenid.com>
 
 </code>
 
-**HTTP METHODS (DAS writeback methods)**
+### HTTP METHODS (DAS writeback methods)
 
-''' *POST* '''
+#### POST
 
 The HTTP method *POST* should be used to create a feature in the server.
 The writeback document should be sent to the server in a POST variable
@@ -116,7 +116,7 @@ DATE=2009-06-10 18:11:30.672644
 </NOTE>
 </code>
 
-''' *PUT* '''
+#### PUT
 
 The behavior of the method *PUT* is very similar to the described for
 *POST*. However in this case the writeback document is the content itsel
@@ -132,7 +132,7 @@ element ''FEATURE will be: <code>
 
 </code> The response should follow the same rules as the *POST* method.
 
-''' *DELETE* '''
+#### DELETE
 
 The *DELETE* method doesn't require a writeback document for the input,
 because in order to DELETE a feature is just necessary to identify it.
@@ -156,16 +156,132 @@ be in the same GFF format but the parameter *label* of the element
 
 </code>
 
-''' *GET* '''
+#### GET
 
 All the commands of reading in the DAS specification should Apply here,
 however the deleted features should be also included here(in the same
 format as explained above) and is the client who decide how to used this
-information. *historical command*
+information. There is an extra command that a writeback source should
+implement:
 
-**User Authentication**
+### Historical Command
 
-*OpenId*
+*Retrieve all the versions that the writeback has for an specific
+feature.*
+
+**Scope:** Writeback servers.
+
+**Command:** *historical*
+
+**Format:**
+
+<code>
+
+*`PREFIX`*`/das/`*`DSN`*`/historical?feature==`*`FEATUREID`*
+
+</code>
+
+<b>Description:</b> This query returns all the versions for an specific
+feature embedded in its respective segment(s).
+
+<b>Arguments:</b>
+
+<dl>
+<dt>
+<b>feature</b> (required; one)
+
+<dd>
+URL identifier of a particular feature in the writeback.
+
+</dl>
+Here is an example of a valid request:
+
+        http://www.writeback.com/das/writeback/historical?feature=http://writeback/5
+
+#### Response:
+
+The document returned from the *features* request is an XML-formatted
+"DASGFF" document.
+
+**Format:**
+
+<code>
+
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE DASGFF SYSTEM "http://www.biodas.org/dtd/dasgff.dtd">
+<DASGFF>  
+` `<GFF version="1.0" href="http://localhost:8080/MyDas/das/writeback/historical?feature=http://writeback/9">  
+`   `<SEGMENT id="P05067" start="1" stop="770" version="7dd43312cd29a262acdc0517230bc5ca">  
+`     `<FEATURE id="http://writeback/9" label="Disease mutation">  
+`       `<TYPE id="BS:01019" category="inferred by curator (ECO:0000001)">`disease`</TYPE>  
+`       `<METHOD id="1">`UniProt`</METHOD>  
+`       `<START>`143`</START>  
+`       `<END>`189`</END>  
+`       `<SCORE>`0.0`</SCORE>  
+`       `<ORIENTATION>`0`</ORIENTATION>  
+`       `<PHASE>`-`</PHASE>  
+`       `
+
+<NOTE>
+testing note
+
+</NOTE>
+<NOTE>
+USER=<http://user.myopenid.com>
+
+</NOTE>
+<NOTE>
+VERSION=1
+
+</NOTE>
+<NOTE>
+DATE=2009-05-25 14:22:39.705735
+
+</NOTE>
+`       `<LINK href="http://www.uniprot.org/uniprot/P05067">[`http://www.uniprot.org/uniprot/P05067`](http://www.uniprot.org/uniprot/P05067)</LINK>  
+`     `</FEATURE>  
+`     `<FEATURE id="http://writeback/9" label="DELETED">  
+`       `<TYPE id="" category="" />  
+`       `<METHOD />  
+`       `<START>`0`</START>  
+`       `<END>`0`</END>  
+`       `<SCORE>`0.0`</SCORE>  
+`       `<ORIENTATION>`0`</ORIENTATION>  
+`       `<PHASE>`-`</PHASE>  
+`       `
+
+<NOTE>
+USER=<http://user.myopenid.com>
+
+</NOTE>
+<NOTE>
+VERSION=2
+
+</NOTE>
+<NOTE>
+DATE=2009-06-10 17:58:11.83588
+
+</NOTE>
+`     `</FEATURE>  
+`   `</SEGMENT>  
+` `</GFF>  
+</DASGFF>
+
+</code>
+
+### User Authentication
+
+The control of who is authorized or not to made modification in the
+writeback is an source implementation issue, however the authentication
+of the user should be done using [OpenId](http://www.openid.org/) as
+seen in the examples above the openid user should be sent through the
+NOTE element: <code>
+
+<NOTE>
+USER=<http://user.myopenid.com>
+
+</NOTE>
+</code>
 
 DAS search
 ==========

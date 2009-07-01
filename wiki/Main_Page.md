@@ -70,6 +70,10 @@ Here are some examples of DAS-enabled websites and applications:
 
 -   DASher: <http://dasher.sbc.su.se>
 
+<!-- -->
+
+-   EpiC: <http://epic.embl.de>
+
 Publications
 ------------
 

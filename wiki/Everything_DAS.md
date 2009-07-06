@@ -251,9 +251,7 @@ by clients to get information on the many DAS sources available around
 the world and what there capabililties are. Clients can now find out if
 the data sources are valid or not due to a "valid" tag in the prop
 elements returned for each source in the sources.xml from the sources
-request.
-
-`example snippet of a sources with a validated features cmd:`
+request. example snippet of a sources with a validated features cmd:
 
 <PROP name="valid" value="features" />
 

@@ -253,6 +253,10 @@ the data sources are valid or not due to a "valid" tag in the prop
 elements returned for each source in the sources.xml from the sources
 request.
 
+`example snippet of a sources with a validated features cmd:`
+
+<PROP name="valid" value="features" />
+
 Setting up a DAS client
 -----------------------
 

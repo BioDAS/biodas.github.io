@@ -256,7 +256,10 @@ request. example snippet of a sources with a validated features cmd:
 <PROP name="valid" value="features" />
 
 This also means that you can find out the valid capabilities of a server
-using soap. Here is a java example using SOAP to access the registry:
+using soap. Here is a java example using SOAP to access the registry get
+the names of all the sources, their coordinate systems and their
+validated capabilities (considered valid by the registry which tests
+them approximately every 3 hours):
 
     import org.biojava.services.das.registry.DasRegistryAxisClient;
     import org.biojava.dasobert.dasregistry.DasSource;

@@ -255,6 +255,52 @@ request. example snippet of a sources with a validated features cmd:
 
 <PROP name="valid" value="features" />
 
+This also means that you can find out the valid capabilities of a server
+using soap. Here is a java example using SOAP to access the registry:
+
+    import org.biojava.services.das.registry.DasRegistryAxisClient;
+    import org.biojava.dasobert.dasregistry.DasSource;
+    import org.biojava.dasobert.dasregistry.DasCoordinateSystem;
+    import java.net.URL;
+
+    public class testWebService {
+
+        public static void main(String[] args){
+        testWebService t = new testWebService();
+        try {
+            t.runTest();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        }
+
+        public void runTest() throws Exception {
+        
+            URL u = new URL("http://www.dasregistry.org/services/das:das_directory");
+        
+        DasRegistryAxisClient dasregistryaxisclient= new DasRegistryAxisClient(u);
+        
+        DasSource[] sources = dasregistryaxisclient.listServices();
+        System.out.println("got " + sources.length + " DAS servers");
+
+        for (int i=0;i< sources.length;i++) {
+            DasSource s = sources[i];
+            System.out.println("nickname: " + s.getNickname());
+            String validCaps[]=s.getValidCapabilities();
+            for(int h=0; h<validCaps.length;h++){
+                System.out.println("validated capability="+validCaps[h]);
+            }
+            
+            DasCoordinateSystem[] coords = s.getCoordinateSystem();
+            
+            for (int j=0; j<coords.length;j++) {
+            System.out.println(coords[j].getTestCode());
+            }
+        }
+        }
+
+    }
+
 Setting up a DAS client
 -----------------------
 

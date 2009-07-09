@@ -50,7 +50,7 @@ Go to http://www.easyeclipse.org/site/distributions/server-java.html and select 
 
 === Configure using dazzle.xml ===
 
-now go to the dazzlecfg.xml file that you just moved into the webcontent folder and alter the "value" next to filename for all occurances and put a / in front e.g. change "test.embl" to "/test.embl"
+now go to the dazzlecfg.xml file in the dazzle-webapp folder and alter the "value" next to filename for all occurances and put a / in front e.g. change "test.embl" to "/test.embl"
 
 === Run using eclipse ===
 

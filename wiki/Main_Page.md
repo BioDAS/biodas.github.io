@@ -74,6 +74,11 @@ Here are some examples of DAS-enabled websites and applications:
 
 -   EpiC: <http://epic.embl.de>
 
+<!-- -->
+
+-   STRAP: <http://3d-alignment.eu>
+    <http://www.bioinformatics.org/strap/>
+
 Publications
 ------------
 

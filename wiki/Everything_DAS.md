@@ -317,6 +317,12 @@ Setting up a DAS client
 | Jalview | A multiple sequence alignment editor & viewer                                                                                                                                                                                                                                                                                                                                                                                                                     | Java                 | <http://www.jalview.org/>                           |
 | Dasty2  | Dasty, a protein DAS client is implemented for visualising protein sequence feature information. The client is able to connect, to a reference server and one or many DAS servers. It merges the data from all the servers, and displays sequence information as well as annotated feature information form all the available DAS Servers in a very user friendly way .                                                                                           | PERL and AJAX        | <http://www.ebi.ac.uk/dasty/>                       |
 
+#### Examples
+
+##### STRAP
+
+<http://www.bioinformatics.org/strap/createStrapLinks.html#DAS>
+
 ### Writing your own DAS client
 
 Remember that if you are developing your clients behind a firewall you

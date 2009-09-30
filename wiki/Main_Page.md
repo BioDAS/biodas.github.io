@@ -94,7 +94,7 @@ Though mature, the protocol continues to be extended to cater for the
 needs of the DAS community via extensions to the specification.
 Together, these extensions form an "extended specification". The current
 version is [1.53E](http://www.dasregistry.org/spec_1.53E.jsp) and the
-upcoming version is [1.53E](/wiki/DAS1.6E "wikilink").
+upcoming version is [1.6E](/wiki/DAS1.6E "wikilink").
 
 <b>NOTE:</b> The DAS/2 project is an entirely separate specification
 which although based on the DAS architecture is not backwards compatible

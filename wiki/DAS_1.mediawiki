@@ -1,72 +1,57 @@
 
-<big>'''The DAS/1 Protocol'''</big>
+<big>'''The DAS Protocol'''</big>
 
-== About DAS/1 ==
+This page describes 
 
-The original version 1 specification, written by Lincoln Stein, Sean Eddy, and Robin Dowell, is the basis for a number of clients and servers. Around 400 public DAS/1 servers are currently running worldwide including [http://www.wormbase.org/ WormBase], [http://www.flybase.org/ FlyBase], [http://www.ensembl.org/ Ensembl], [http://www.tigr.org/ TIGR],  [http://genome.ucsc.edu/ UCSC], and [http://www.ebi.ac.uk/das-srv/uniprot/das UniProt]. Many more private DAS sources are known to be in use. A number of websites and software applications are based on DAS.
+== About the DAS Protocol ==
 
-The official DAS/1 version 1.53 specification is available at http://www.biodas.org/documents/spec.html
+The current DAS specification, [http://www.biodas.org/documents/spec.html DAS 1.53], was written by Lincoln Stein, Sean Eddy, and Robin Dowell and is the basis for a large number of software implementations. Around 650 public DAS data sources are currently running worldwide, with many more private data sources known to be in use. A number of  websites and software applications function as DAS clients.
 
+The specification is being actively supported, and continues to be extended in order to cater for the needs of its existing users and expand its applicability to additional arenas. For example, though originally focussed on genomic annotation, extensions have enabled DAS to be used to distribute alignment, structural and molecular interaction data. These extensions are listed in the unofficial [http://www.dasregistry.org/spec_1.53E.jsp 1.53E (extended) specification].
 
-The specification is being actively supported, and continues to be extended in order to cater for the needs of its existing users and expand its applicability to additional arenas. For example, though originally focussed on genomic annotation, extensions have enabled DAS to be used to distribute alignment, structural and molecular interaction data.
+<b>Note:</b> This protocol should not be confused with that of [[DAS/2]], an entirely separate project.
 
-The unofficial DAS/1 version 1.53E (extended) specification is available at http://www.dasregistry.org/spec_1.53E.jsp
+The [[DAS/1/Overview|DAS Overview]] provides a glossary and list of concepts. The [[DAS Plans]] page describes some details of possible future improvements to DAS.
 
+== Architecture ==
 
-[[DAS/1/Overview]] provides a glossary and list of concepts. [[DAS Plans]] has some details of possible future improvements to DAS.
+The Distributed Annotation System comprises three types of component:
 
-== DAS/1 Clients ==
+=== Data source ===
 
-* [http://www.ensembl.org/info/using/external_data/das/index.html Ensembl]
-* [http://www.efamily.org.uk/software/dasclients/spice/ Spice]
-* [http://www.ebi.ac.uk/dasty/ Dasty]
-* [http://pfam.sanger.ac.uk/ Pfam]
-* [http://3d-alignment.eu/ STRAP]also directly accessible here [http://www.charite.de/bioinf/strap/ STRAP]
-* [http://dasher.sbc.su.se DASher]
+A data source provides programmatic access to data over a network, typically the internet. Each <i>data source</i> contains a set of data from one provider, for example Pfam domains.
 
-* Older (still maintained?):
-** [http://biodas.org/geodesic/ Geodesic]
-** [http://sourceforge.net/project/showfiles.php?group_id=28453&release_id=60810 OmniDAS/OmniGene]
+=== Registry ===
 
-== DAS/1 Servers ==
+The [[DasRegistry| DAS Registry]] lists and describes public <i>data sources</i> and the types of data that may be communicated using DAS. It is accessible programatically.
 
-A more exchaustive list of servers is available from the [[DasRegistry|DAS Registry]].
+=== Server ===
 
-* [http://netaffxdas.affymetrix.com/das/ Affymetrix]
-* [http://www.biosapiens.info/page.php?page=biosapiensdir BioSapiens servers]
-* [http://www.ensembl.org/info/using/external_data/das/index.html Ensembl server]
-* [http://das.hgc.jp/ KEGG DAS]
-* [http://das.sanger.ac.uk/das/dsn Sanger DAS server]
-* [http://www.ebi.ac.uk/das-srv/genomicdas/das/sources EBI Genomic DAS server]
-* [http://www.ebi.ac.uk/das-srv/proteindas/das/sources EBI Protein DAS server]
-* [http://www.ebi.ac.uk/das-srv/uniprot/das/dsn Uniprot DAS server]
-* [http://www.tigr.org/tdb/DAS/das_server_list.html TIGR's listing of servers]
-* [http://genome.ucsc.edu/FAQ/FAQdownloads#download23 UCSC server]
+The term <i>DAS server</i> is often used interchangeably with <i>DAS source</i>. However a server is technically a piece of software used to host one or more <i>data sources</i>, and like the <i>registry</i> can provide details of these <i>data sources</i>.
 
-== How to set up a DAS/1 server ==
+=== Client ===
 
-In general it is quite easy to set up DAS server. All the server implementations are easy to set up.
-Most server implementations allow easy setup using ready provided data-adaptors (e.g. for GFF files).
-For custom data simple plugins can be written to quickly provide your data via DAS.
+A client consumes and integrates the data contained within one or more <i>data sources</i>. It may also communicate with a <i>server</i> or <i>registry</i> to obtain information about available data sources.
 
-DAS server implementations are available in several programming languages:
+== How to set up a DAS server ==
 
-* Perl
- [http://www.sanger.ac.uk/proserver/ Proserver]
- [http://biodas.org/servers/LDAS.html LDAS]
+=== Implementation ===
 
-* Java
- [http://www.biojava.org/wiki/Dazzle Dazzle]
- [http://code.google.com/p/mydas/ MyDas]
+Theoretically it is quite easy to implement a DAS server (once you know how). However, there are also some well established multi-purpose server implementations designed to be as flexible and easy to set up as possible. Many distributions contain ready made data-adaptors (e.g. for GFF files). For custom data, simple plugins can be written to quickly provide your data via DAS:
 
+* [http://www.sanger.ac.uk/proserver/ Proserver] is a well established Perl server, supports all DAS extensions and is the most heavily used.
+* [http://biodas.org/servers/LDAS.html LDAS] is an older Perl server which is easy to set up but lacks support for the latest DAS features.
+* [http://www.biojava.org/wiki/Dazzle Dazzle] is a well established Java server tied to the BioJava framework and support most extensions.
+* [http://code.google.com/p/mydas/ MyDas] is a newer, more streamlined Java server but does not yet support all extensions.
 
-*Validation
+=== Validation ===
 
-Validation RelaxNG documents are now available to help validate the xml produced by your servers. It is intended that these will be used by the registry to help servers conform to the DAS1 specification before being registered.
+Servers should endeavour to conform strictly to the DAS data formats as this maximises compatibility across the network and minimises the maintenance required as a result of evolving client software. RelaxNG documents are now available from the [[DasRegistry DAS Registry]] to help validate the XML produced by your servers. These are used by the registry to help servers conform to the DAS specification before being registered.
 
-== Publishing and Discovery of DAS/1 sources ==
+=== Publishing and Discovery of DAS sources ===
 
-See [[DasRegistry]]
+Publishing your source in the DAS Registry allows you to advertise its availability, and is described in the [[DasRegistry|DAS Registry]] documentation. Registered sources are also easier for users to visualise in clients that are capable of interacting with the DAS Registry, such as [http://www.ensembl.org/ Ensembl], [http://www.ebi.ac.uk Dasty] and [http://www.efamily.org.uk/software/dasclients/spice/ SPICE].
 
 == Training in DAS ==
-DAS Tutorials, talks and hackathons take place once a year at the Genome Campus UK almost every year in the [http://www.sanger.ac.uk/Software/analysis/das/DASWorkshopHistory.shtml DAS Workshop]. The next workshop is likely to be in March 2010.
+
+DAS Tutorials, talks and hackathons take place once a year at the Genome Campus UK almost every year in the [http://www.sanger.ac.uk/Software/analysis/das/DASWorkshopHistory.shtml DAS Workshop]. The next workshop is likely to be in March 2010. Events, courses and workshops involving DAS are often listed on the [[Current_events|Current events]] page.

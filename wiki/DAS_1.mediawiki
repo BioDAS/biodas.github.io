@@ -1,8 +1,4 @@
 
-<big>'''The DAS Protocol'''</big>
-
-This page describes 
-
 == About the DAS Protocol ==
 
 The current DAS specification, [http://www.biodas.org/documents/spec.html DAS 1.53], was written by Lincoln Stein, Sean Eddy, and Robin Dowell and is the basis for a large number of software implementations. Around 650 public DAS data sources are currently running worldwide, with many more private data sources known to be in use. A number of  websites and software applications function as DAS clients.

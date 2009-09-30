@@ -6,10 +6,6 @@ tags:
  - Documentation
 ---
 
-<big>**The DAS Protocol**</big>
-
-This page describes
-
 About the DAS Protocol
 ----------------------
 

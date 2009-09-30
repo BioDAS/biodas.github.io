@@ -28,8 +28,8 @@ DAS is heavily used in the genome bioinformatics community. Over the
 last years we have also seen growing acceptance in the protein sequence
 and structure communities.
 
-More information can be found about DAS here [Everything
-DAS](/wiki/Everything_DAS "wikilink")
+More information can be found about DAS here: [Everything
+DAS](/wiki/Everything_DAS "wikilink").
 
 What can I do with DAS ?
 ------------------------

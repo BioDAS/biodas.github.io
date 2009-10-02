@@ -104,6 +104,15 @@ with existing servers and clients. It is described separately on the
 The various specification versions on this site are described
 [here](/wiki/DAS_specification "wikilink").
 
+  
+**Evolution**
+
+![](DasEvolution2.PNG "DasEvolution2.PNG")
+
+Graphic representation of the evolution of "Versions of DAS" over the
+years. The different colors identify the version/specification and the
+white numbers an estimation of available sources per year.
+
 Further Reading
 ---------------
 

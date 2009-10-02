@@ -48,6 +48,13 @@ Though mature, the protocol continues to be extended to cater for the needs of t
 
 The various specification versions on this site are described [[DAS specification|here]].
 
+<br>
+'''Evolution'''
+
+[[Image:DasEvolution2.PNG]]
+
+Graphic representation of the evolution of "Versions of DAS" over the years. The different colors identify the version/specification and the white numbers an estimation of available sources per year.
+
 == Further Reading ==
 
 If you would like to find out more, see a description of the [[DAS/1|DAS protocol]]. Additional information is also available in the form of an [[DasFAQ|FAQ]] page, and a more extensive reference: [[Everything DAS]]. There is also a list of DAS related [[DAS_publications|publications]].

@@ -226,7 +226,7 @@ informing them of this fact).
 There are several commands that can be used to query the registry
 including: The sources cmd with optional parameters: label, organism,
 authority, capability, type and unique source\_id. You can also use the
-organsim, coordinatesystem and lastmodified commands. For examples see
+organism, coordinatesystem and lastmodified commands. For examples see
 [Scripting](http://www.dasregistry.org/help_scripting.jsp) an example of
 a java classe written using Dasobert to access the Registry is here
 <http://www.derkholm.net/svn/repos/dasobert/trunk/doc/examples/ContactRegistry.java>
@@ -248,7 +248,7 @@ Discovering DAS sources programmatically
 The registry produces it's own sources.xml in response to the url
 request <http://www.dasregistry.org/das1/sources> and this can be used
 by clients to get information on the many DAS sources available around
-the world and what there capabililties are. Clients can now find out if
+the world and what there capabilities are. Clients can now find out if
 the data sources are valid or not due to a "valid" tag in the prop
 elements returned for each source in the sources.xml from the sources
 request. example snippet of a sources with a validated features cmd:
@@ -730,7 +730,7 @@ some time, but works nicely.
 Acknowledgments
 ---------------
 
-(some of this document may have been cut an pasted from documentation
+(some of this document may have been cut and pasted from documentation
 contributed by the following people):
 
 -   Andreas Prlic

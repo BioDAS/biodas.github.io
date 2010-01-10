@@ -95,6 +95,9 @@ data in response to queries conforming with the DAS/2 protocol:
     Flex/MySQL web application for organizing, annotating, and
     authorizing genomic annotations for distribution using the GenoViz
     DAS/2 server (**login**: guest, **pw**: guest)
+
+![](Genopub.jpg "Genopub.jpg")
+
 -   [Biopackages DAS/2 server](http://das.biopackages.net/das/genome) -
     (inactive?) a DAS/2 reference implementation
 

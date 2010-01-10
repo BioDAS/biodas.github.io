@@ -37,6 +37,7 @@ The following software packages operate as servers capable of providing data in 
 * [http://netaffxdas.affymetrix.com/das2 Affymetrix Public DAS/2 server]
 * [http://bioserver.hci.utah.edu:8080/DAS2DB/ Huntsman Cancer Institute's DAS/2 server]
 * [http://bioserver.hci.utah.edu:8080/DAS2DB/genopub HCI's GenoPub DAS/2 GUI] - A Flex/MySQL web application for organizing, annotating, and authorizing genomic annotations for distribution using the GenoViz DAS/2 server ('''login''': guest, '''pw''': guest)
+[[File:Genopub.jpg]]
 * [http://das.biopackages.net/das/genome Biopackages DAS/2 server] - (inactive?) a DAS/2 reference implementation
 
 == DAS/2 Validation Suite ==

@@ -42,9 +42,10 @@ The following software packages operate as servers capable of providing data in 
 
 See [[Das2Validation]].
 
-== Publishing and Discovery of DAS/2 sources ==
+== Publishing, Discovering, and Registering DAS/2 sources ==
+Currently, the [http://www.dasregistry.org DasRegistry] does not support DAS/2 services.
 
-See [[DasRegistry]]
+As a temporary fix, download the 'das2Registry.xml' file from the [http://genoviz.svn.sourceforge.net/viewvc/genoviz/trunk/das2_server/resources/ GenoViz Project], add an entry, and email it back to [mailto:genoviz-devel@lists.sourceforge.net  GenoViz developers] or [mailto:das@biodas.org BioDas]. If you have access to the GenoViz SVN, modify it directly.
 
 == Global Sequence Identifiers==
 

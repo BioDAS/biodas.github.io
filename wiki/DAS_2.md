@@ -94,10 +94,19 @@ DAS/2 Validation Suite
 
 See [Das2Validation](/wiki/Das2Validation "wikilink").
 
-Publishing and Discovery of DAS/2 sources
------------------------------------------
+Publishing, Discovering, and Registering DAS/2 sources
+------------------------------------------------------
 
-See [DasRegistry](/wiki/DasRegistry "wikilink")
+Currently, the [DasRegistry](http://www.dasregistry.org) does not
+support DAS/2 services.
+
+As a temporary fix, download the 'das2Registry.xml' file from the
+[GenoViz
+Project](http://genoviz.svn.sourceforge.net/viewvc/genoviz/trunk/das2_server/resources/),
+add an entry, and email it back to [GenoViz
+developers](mailto:genoviz-devel@lists.sourceforge.net) or
+[BioDas](mailto:das@biodas.org). If you have access to the GenoViz SVN,
+modify it directly.
 
 Global Sequence Identifiers
 ---------------------------

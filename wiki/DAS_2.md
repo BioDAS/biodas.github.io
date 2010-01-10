@@ -75,6 +75,9 @@ interacting with DAS/2-compliant servers:
 
 -   [IGB - Integrated Genome Browser](http://genoviz.sourceforge.net) -
     a DAS/2 reference implementation
+
+![ 800px](Igb.jpg  " 800px")
+
 -   [GBrowse - Generic Genome Browser](http://www.gmod.org/GBrowse)
 -   [caBIO Infrastructure
     Objects](http://cabio.nci.nih.gov/NCICB/infrastructure/cacore_overview/caBIO)

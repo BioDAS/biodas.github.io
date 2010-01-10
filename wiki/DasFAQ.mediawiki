@@ -4,7 +4,7 @@
 
 == Which version of DAS should I be using? ==
 
-In short, "DAS" usually refers to the original version of the protocol. It continues to evolve and be supported, and is the basis of implementations for the vast majority of clients and servers. "DAS/2" is a separate protocol that is inspired by many of the same principles as DAS, but is not backwards compatible. Though the specification is now "frozen" and therefore considered stable, there exist few solid implementations. However, many of of the technical improvements in DAS/2 are now beginning to be adopted in DAS.
+In short, "DAS" usually refers to the original version of the protocol. It continues to evolve and be supported, and is the basis of implementations for the vast majority of clients and servers. "DAS/2" is a separate protocol that is inspired by many of the same principles as DAS, but is not backwards compatible. One of the key differences is that DAS/2 allows annotations to be returned using any text or binary data format enabling the distribution of massive microarray and Next Generation Sequencing data sets.  DAS/1 requires data distribution through text based DAS XML.
 
 == What applications are the actual "DAS clients"? ==
 

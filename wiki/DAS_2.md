@@ -82,12 +82,12 @@ DAS/2 Servers
 The following software packages operate as servers capable of providing
 data in response to queries conforming with the DAS/2 protocol:
 
--   [Biopackages DAS/2 server](http://das.biopackages.net/das/genome) -
-    a DAS/2 reference implementation
 -   [Affymetrix Public DAS/2
     server](http://netaffxdas.affymetrix.com/das2)
 -   [Huntsman Cancer Institute's DAS/2
-    server](http://bioserver.hci.utah.edu:8080/DAS2/das2)
+    server](http://bioserver.hci.utah.edu:8080/DAS2DB/)
+-   [Biopackages DAS/2 server](http://das.biopackages.net/das/genome) -
+    (inactive?) a DAS/2 reference implementation
 
 DAS/2 Validation Suite
 ----------------------

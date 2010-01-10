@@ -34,9 +34,9 @@ The following software packages support the client-side DAS/2 API for interactin
 
 The following software packages operate as servers capable of providing data in response to queries conforming with the DAS/2 protocol:
 
-* [http://das.biopackages.net/das/genome Biopackages DAS/2 server] - a DAS/2 reference implementation
 * [http://netaffxdas.affymetrix.com/das2 Affymetrix Public DAS/2 server]
-* [http://bioserver.hci.utah.edu:8080/DAS2/das2 Huntsman Cancer Institute's DAS/2 server]
+* [http://bioserver.hci.utah.edu:8080/DAS2DB/ Huntsman Cancer Institute's DAS/2 server]
+* [http://das.biopackages.net/das/genome Biopackages DAS/2 server] - (inactive?) a DAS/2 reference implementation
 
 == DAS/2 Validation Suite ==
 

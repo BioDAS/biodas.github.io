@@ -90,6 +90,11 @@ data in response to queries conforming with the DAS/2 protocol:
     server](http://netaffxdas.affymetrix.com/das2)
 -   [Huntsman Cancer Institute's DAS/2
     server](http://bioserver.hci.utah.edu:8080/DAS2DB/)
+-   [HCI's GenoPub DAS/2
+    GUI](http://bioserver.hci.utah.edu:8080/DAS2DB/genopub) - A
+    Flex/MySQL web application for organizing, annotating, and
+    authorizing genomic annotations for distribution using the GenoViz
+    DAS/2 server
 -   [Biopackages DAS/2 server](http://das.biopackages.net/das/genome) -
     (inactive?) a DAS/2 reference implementation
 

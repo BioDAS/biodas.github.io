@@ -8,8 +8,8 @@ DAS/2 is intended to be a more flexible and powerful version of the original spe
 # DAS/2 Specification:
 #* [http://biodas.org/documents/das2/das2_protocol.html DAS/2.0 specification] (stable)
 #* [[DAS/2.1/Spec| DAS/2.1 specification]] (under development)
-# [http://das.biopackages.net/das/genome A publicly accessible DAS/2 server implementation] (inactive?) (open source code available from the [http://www.gmod.org/ GMOD project])
-# [http://genoviz.sourceforge.net An open-source DAS/2 client implementation]
+# (Inactive ?) [http://das.biopackages.net/das/genome A publicly accessible DAS/2 server implementation] (open source code available from the [http://www.gmod.org/ GMOD project])
+# [http://genoviz.sourceforge.net The GenoViz open-source DAS/2 client implementation]
 # [http://sourceforge.net/projects/dasypus An open-source client library and server validation suite] 
 
 See [[DAS/2#CVS Access]] for details on retrieving code related to these projects.

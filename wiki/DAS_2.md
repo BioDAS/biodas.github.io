@@ -23,8 +23,9 @@ The DAS/2 code base consists of:
         (under development)
 
 2.  [A publicly accessible DAS/2 server
-    implementation](http://das.biopackages.net/das/genome) (open source
-    code available from the [GMOD project](http://www.gmod.org/))
+    implementation](http://das.biopackages.net/das/genome) (inactive?)
+    (open source code available from the [GMOD
+    project](http://www.gmod.org/))
 3.  [An open-source DAS/2 client
     implementation](http://genoviz.sourceforge.net)
 4.  [An open-source client library and server validation

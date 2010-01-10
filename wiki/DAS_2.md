@@ -103,8 +103,8 @@ support DAS/2 services.
 As a temporary fix, download the 'das2Registry.xml' file from the
 [GenoViz
 Project](http://genoviz.svn.sourceforge.net/viewvc/genoviz/trunk/das2_server/resources/),
-add an entry, and email it back to [GenoViz
-developers](mailto:genoviz-devel@lists.sourceforge.net) or
+add an entry, and email it back to
+[GenoViz](mailto:genoviz-devel@lists.sourceforge.net) or
 [BioDas](mailto:das@biodas.org). If you have access to the GenoViz SVN,
 modify it directly.
 

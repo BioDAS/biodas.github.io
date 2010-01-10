@@ -96,7 +96,7 @@ data in response to queries conforming with the DAS/2 protocol:
     authorizing genomic annotations for distribution using the GenoViz
     DAS/2 server (**login**: guest, **pw**: guest)
 
-![](Genopub.jpg "Genopub.jpg")
+![ 800px](Genopub.jpg  " 800px")
 
 -   [Biopackages DAS/2 server](http://das.biopackages.net/das/genome) -
     (inactive?) a DAS/2 reference implementation

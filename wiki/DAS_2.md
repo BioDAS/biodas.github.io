@@ -94,10 +94,10 @@ data in response to queries conforming with the DAS/2 protocol:
 -   [Huntsman Cancer Institute's DAS/2
     server](http://bioserver.hci.utah.edu:8080/DAS2DB/)
 -   [HCI's GenoPub DAS/2
-    GUI](http://bioserver.hci.utah.edu:8080/DAS2DB/genopub) - A
-    Flex/MySQL web application for organizing, annotating, and
-    authorizing genomic annotations for distribution using the GenoViz
-    DAS/2 server (**login**: guest, **pw**: guest)
+    GUI](http://bioserver.hci.utah.edu:8080/DAS2DB/genopub) (**login**:
+    guest, **pw**: guest) - A Flex/MySQL web application for organizing,
+    annotating, and authorizing genomic annotations for distribution
+    using the GenoViz DAS/2 server
 
 ![ 800px](Genopub.jpg  " 800px")
 

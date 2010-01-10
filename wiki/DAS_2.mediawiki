@@ -14,6 +14,8 @@ DAS/2 is intended to be a more flexible and powerful version of the original spe
 
 See [[DAS/2#CVS Access]] for details on retrieving code related to these projects.
 
+
+
 === DAS/2 History ===
 
 DAS/2 diverged from [[DAS/1]] as a result of a variety of [http://biodas.org/RFCs/index.html RFCs (Requests for Comment)] posted on the DAS mailing list from users and implementers of the DAS spec over the first several years after DAS was originally introduced. As of November 2006, the [http://biodas.org/documents/das2/das2_get.html retrieval portion of the DAS/2 spec] has stabilized. Implementers and service providers can rely on this for their DAS/2-based development efforts.
@@ -22,6 +24,8 @@ Work on what became the DAS/2.0 specification "officially" began in July 2004 wh
 
 Given that the DAS/2 specification is not backward compatible with the DAS/1 version, existing DAS software will continue to support DAS/1. A [http://lists.open-bio.org/pipermail/das2/2008-October/001055.html DAS proxy server is in development] that will permit a DAS/1 server to be accessed by DAS/2 clients.
 
+
+
 == DAS/2 Clients ==
 
 The following software packages support the client-side DAS/2 API for interacting with DAS/2-compliant servers:
@@ -29,6 +33,8 @@ The following software packages support the client-side DAS/2 API for interactin
 * [http://genoviz.sourceforge.net IGB - Integrated Genome Browser] - a DAS/2 reference implementation
 * [http://www.gmod.org/GBrowse GBrowse - Generic Genome Browser]
 * [http://cabio.nci.nih.gov/NCICB/infrastructure/cacore_overview/caBIO caBIO Infrastructure Objects] ''(confirm this)''
+
+
 
 == DAS/2 Servers ==
 
@@ -40,18 +46,26 @@ The following software packages operate as servers capable of providing data in 
 [[File:Genopub.jpg]]
 * [http://das.biopackages.net/das/genome Biopackages DAS/2 server] - (inactive?) a DAS/2 reference implementation
 
+
+
 == DAS/2 Validation Suite ==
 
 See [[Das2Validation]].
+
+
 
 == Publishing, Discovering, and Registering DAS/2 sources ==
 Currently, the [http://www.dasregistry.org DasRegistry] does not support DAS/2 services.
 
 As a temporary fix, download the 'das2Registry.xml' file from the [http://genoviz.svn.sourceforge.net/viewvc/genoviz/trunk/das2_server/resources/ GenoViz Project], add an entry, and email it back to [mailto:genoviz-devel@lists.sourceforge.net  GenoViz] or [mailto:das@biodas.org BioDas]. If you have access to the GenoViz SVN, modify it directly.
 
+
+
 == Global Sequence Identifiers==
 
 See [[GlobalSeqIDs]]
+
+
 
 == Feedback and Bug Reports ==
 
@@ -67,6 +81,8 @@ To submit or view bug reports in DAS/2-related software, use one of the links be
 **    http://sourceforge.net/tracker/?group_id=129420&atid=714744
 * Validation Suite (Dasypus):
 **    https://sourceforge.net/tracker/?group_id=138271&atid=740641
+
+
 
 == CVS Access ==
 

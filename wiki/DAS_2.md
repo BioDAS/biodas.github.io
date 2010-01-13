@@ -12,13 +12,13 @@ About DAS/2
 -----------
 
 DAS/2 is intended to be a more flexible and powerful version of the
-original specification upon which the majority of servers are based,
-[DAS/1](/wiki/DAS/1 "wikilink"). It was built to distribute massive genomic
-data sets derived from high density microarray applications and Next
-(and Next Next) Generation Sequencing. Unlike DAS/1, DAS/2 does not
-require data exchange through text based XML but allows for data
-distribution using any text or binary format. The two versions are not
-natively compatible. The DAS/2 code base consists of:
+original [DAS/1](/wiki/DAS/1 "wikilink") specification. It was built to
+distribute massive genomic data sets derived from high density
+microarray applications and Next (and Next Next) Generation Sequencing.
+Unlike DAS/1, DAS/2 does not require data exchange through text based
+XML but allows for data distribution using any text or binary format.
+The two versions are not natively compatible. The DAS/2 code base
+consists of:
 
 1.  DAS/2 Specification:
     -   [DAS/2.0

@@ -1,5 +1,11 @@
 <big>'''Welcome To BioDAS.org'''</big>
 
+== Sanger/EBI DAS Workshop, April 2010 ==
+
+7th-9th April 2010 at the Wellcome Trust /EBI Genome Campus, Hinxton, UK.
+
+A [http://www.ebi.ac.uk/training/handson/DAS_070410.html 3-day workshop on DAS]
+
 == About DAS ==
 
 The <b>Distributed Annotation System</b> (DAS) defines a communication protocol used 

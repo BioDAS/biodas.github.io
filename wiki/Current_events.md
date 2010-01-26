@@ -4,6 +4,21 @@ permalink: wiki/Current_events/
 layout: wiki
 ---
 
+Sanger/EBI DAS Workshop, April 2010
+-----------------------------------
+
+7th-9th April 2010 at the Wellcome Trust /EBI Genome Campus, Hinxton,
+UK.
+
+A [3-day workshop on
+DAS](http://www.ebi.ac.uk/training/handson/DAS_070410.html) hosted by
+EBI/Sanger. Includes a hands-on day of tutorials, a day of talks from
+DAS contributors and users as well as a hackathon/discussion day for
+progressing DAS projects.
+
+See the [schedule](/wiki/DASworkshop200903 "wikilink") for the previous years
+tutorials and presentations.
+
 Sanger/EBI DAS Workshop, March 2009
 -----------------------------------
 

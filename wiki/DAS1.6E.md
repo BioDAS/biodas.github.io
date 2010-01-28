@@ -291,3 +291,34 @@ Support for alternative content formats
 
 Use of URIs for DAS identifiers
 ===============================
+
+Entry Points for annotation servers
+===================================
+
+**January 28, 2010**
+
+#### Rationale
+
+In DAS version 1.6, the *entry\_points* command is required for
+reference servers and optional for annotation servers.
+
+However, it is difficult for annotation servers to support this command
+because the start/stop attributes of the SEGMENT element are mandatory.
+In contrast to reference servers, annotation servers very rarely know
+the length of each entry point and therefore cannot satisfy this
+requirement. This is a pity because it'd be useful for clients if
+annotation servers were able to provide a list of IDs for the segments
+it has annotated. This would be very easy to implement because every
+server always knows the IDs of the segments it has annotated, and needs
+this information in order to support the *unknown-segment* capability.
+
+#### Required Change
+
+Allowing annotation servers to easily list their entry points would
+require amending the specification to say something like:
+
+-   reference servers must always list all possible segments with their
+    start/stop positions
+-   annotation servers implementing entry\_points must list only the
+    segments they have annotated, and start/stop are optional
+

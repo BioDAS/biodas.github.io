@@ -59,7 +59,11 @@ datasource that conforms to the new 1.6 Spec.
          <string name="stylesheet" value="test16.style" />
        </datasource>
 
-`Note: Older style adapters/datasources can be used in the new Dazzle and should be converted to the new 1.6 specification (you may need to add a allTypes method). However you will miss out on some of the advantages of the new spec if you update your source by this method rather than extending one of the new 16 classes.`
+Note: Older style adapters/datasources can be used in the new 16Dazzle
+and will be converted to the new 1.6 specification (you may need to add
+a allTypes method). However you will miss out on some of the advantages
+of the new spec if you update your source by this method rather than
+extending one of the new 16 classes.
 
 The new Dazzle implements the single Data Source sources.xml request:
 blah/das/myDataSourceName. The current implementation relies on on a

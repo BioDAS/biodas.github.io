@@ -41,8 +41,8 @@ Last modified: 29th Jan 2010
 (DAS) 1.6 Development and Tutorials
 ===================================
 
-Dazzle
-------
+Dazzle Example adaptor for 1.6 spec source compliant with the registry
+----------------------------------------------------------------------
 
     /*
      *                    BioJava development code

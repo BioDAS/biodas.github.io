@@ -48,3 +48,13 @@ Subversion develpment repository
 <http://www.derkholm.net/svn/repos/dazzle/branches/16Dazzle> See class
 org.biojava.servlets.dazzle.datasource.SimpleFile16ExampleSource for a
 datasource that conforms to the new 1.6 Spec.
+
+    <datasource id="test16genes" jclass="org.biojava.servlets.dazzle.datasource">
+         <string name="name" value="16 File Test" />
+         <string name="description" value="Data source for testing 1.6 heirachy structure" />
+         <string name="version" value="1.0" /> 
+         
+         <string name="fileName" value="test16genes.txt" />
+
+         <string name="stylesheet" value="test16.style" />
+       </datasource>

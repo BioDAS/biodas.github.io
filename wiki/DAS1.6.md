@@ -58,3 +58,8 @@ datasource that conforms to the new 1.6 Spec.
 
          <string name="stylesheet" value="test16.style" />
        </datasource>
+
+The new Dazzle implements the single Data Source sources.xml request:
+blah/das/myDataSourceName. The current implementation relies on on a
+valid sources.xml document being available and then parses the
+appropriate section from this document in response to a request.

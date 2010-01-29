@@ -63,3 +63,5 @@ The new Dazzle implements the single Data Source sources.xml request:
 blah/das/myDataSourceName. The current implementation relies on on a
 valid sources.xml document being available and then parses the
 appropriate section from this document in response to a request.
+
+`The das registry also now responds to these requests e.g. `[`http://www.dasregistry.org/das/DS_109`](http://www.dasregistry.org/das/DS_109)

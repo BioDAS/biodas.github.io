@@ -16,7 +16,7 @@
 |10:00
 |Opening talk 
 |Tim Hubbard
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/200903DASworkshop.ppt presentation]
+|[]
 |-
 |10:20
 |Collaborative genomics with DAS- a new interactive DAS client
@@ -36,7 +36,7 @@
 |11:20
 |easyDAS: a hosted solution for DAS server creation
 |Bernat Gel
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/DASGenExp3.ppt presentation]
+|[]
 |-
 |11:40
 |Update on the DAS Registry

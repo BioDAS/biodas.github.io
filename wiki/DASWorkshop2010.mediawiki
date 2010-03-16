@@ -26,35 +26,35 @@
 |10:40
 |Progress to report on linking EMBOSS and DAS
 |Peter Rice
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/Jalview_2009_DAS.pdf presentation]
+|[]
 |-
 |11:00
-|Pfam
-|Rob Finn
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/20090309PfamDasWorkShop.ppt presentation]
+|Visualization of sequence features with STRAP
+|Christoph Gille
+|[]
 |-
 |11:20
-|DASgenexp
+|easyDAS: a hosted solution for DAS server creation
 |Bernat Gel
 |[http://www.sanger.ac.uk/Software/analysis/das/presentations/DASGenExp3.ppt presentation]
 |-
 |11:40
-|Dasty2
-|Rafael Jimenez
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/rjimenez_dasworkshop2009_dasty2.ppt presentation]
+|Update on the DAS Registry
+|Jonathan Warren
+|[]
 |-
 |12:00
-|EMBOSS as an efficient DAS annotation source
-|Peter Rice, Mahmut Uludag
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/DAS-Rice-Uludag.ppt presentation]
+|DAS service to provide information on 3D motifs- PDBe
+|Adel Golovin
+|[]
 |- style="background:#ffdead;"
 |12:15-13:30
 | colspan="3" | Lunch break
 |-
 |13:30
-|Ensembl
-|James Smith
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/2009-das-talk-smith.ppt presentation]
+|DAS Writeback and its integration in Dasty2 as a proof of concept
+|Gustavo Salazar 
+|[]
 |-
 |13:50
 |Integration of info on gene expression and its temporal and spatial localization
@@ -105,7 +105,7 @@
 |[http://www.sanger.ac.uk/Software/analysis/das/presentations/BioMart_DAS_2009.ppt presentation]
 |-
 |17:10
-|Trellis DAS2 framework- which includes the DAS1-->DAS2 proxy and alpha UCSC DAS2 server
+|Update on the collaborative, web-based version of Apollo
 |Gregg Helt
 |[http://www.sanger.ac.uk/Software/analysis/das/presentations/Trellis_Mar2009.pptx presentation]
 |-

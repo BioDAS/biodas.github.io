@@ -118,10 +118,16 @@
 
 ==Day 3==
 
-Suggested Topics:
+ Suggested Topics:
 
-Content negotiation and efficient data formats
+ Content negotiation and efficient data formats
 
-1: From molecules to sets. 2: Other dimensions: Samples.
+ how / if the big amounts data can be served via das
 
-Writing a DAS client in C
+ DAS for high-density quantitative data.
+
+ 1: From molecules to sets. 2: Other dimensions: Samples.
+
+ Writing a DAS client in C
+
+ Running DAS on amazon or google app engine. And seeing what changes have to be made to the dazzle code to enable this. I'd favour app engine.

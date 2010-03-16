@@ -32,8 +32,8 @@ Day 2
 | 16:10         | From Pfam Das Alignments to Widgets                                                               |                             | \[\]         |
 | 16:30         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                             | \[\]         |
 | 16:50         |                                                                                                   |                             |              |
-| 17:10         | Finish for the Day                                                                                |                             | \[\]         |
-| 17:30         |                                                                                                   |                             |              |
+| 17:10         | Bus Leaves for Cambridge Travel Lodge                                                             |                             | \[\]         |
+| 19:00         | Dinner at [Alimentum](http://restaurantalimentum.co.uk/index.php)                                 |                             |              |
 ||
 
 Day 3

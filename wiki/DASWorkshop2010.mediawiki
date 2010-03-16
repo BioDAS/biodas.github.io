@@ -1,4 +1,117 @@
 =DAS Workshop 2010 Schedule=
 
 
-==Day2==
+==Day 2==
+
+{| class="wikitable" border="1"
+|- style="background:silver"
+! width="100px"|Time
+! ProjectName
+! Speaker
+! Presentation
+|- style="background:#ffdead;"
+| 09:30 - 10:00
+| colspan="3" | Arrival - Tea, Coffee.
+|- 
+|10:00
+|Opening talk 
+|Tim Hubbard
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/200903DASworkshop.ppt presentation]
+|-
+|10:20
+|Collaborative Annotation tool (MaDAS)
+|Victor de la Torre
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/MaDAS_victor_de_la_torre.pptx presentation]
+|-
+|10:40
+|Jalview / VAMSAS
+|Jim Procter / Geoff Barton
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/Jalview_2009_DAS.pdf presentation]
+|-
+|11:00
+|Pfam
+|Rob Finn
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/20090309PfamDasWorkShop.ppt presentation]
+|-
+|11:20
+|DASgenexp
+|Bernat Gel
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/DASGenExp3.ppt presentation]
+|-
+|11:40
+|Dasty2
+|Rafael Jimenez
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/rjimenez_dasworkshop2009_dasty2.ppt presentation]
+|-
+|12:00
+|EMBOSS as an efficient DAS annotation source
+|Peter Rice, Mahmut Uludag
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/DAS-Rice-Uludag.ppt presentation]
+|- style="background:#ffdead;"
+|12:15-13:30
+| colspan="3" | Lunch break
+|-
+|13:30
+|Ensembl
+|James Smith
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/2009-das-talk-smith.ppt presentation]
+|-
+|13:50
+|Integration of info on gene expression and its temporal and spatial localization
+|Jose Ramon Macias
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/20090310_DAS_Workshop_DASxVO.ppt presentation]
+|-
+|14:10
+|DAS - writeback
+|Gustavo Salazar
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/DASwriteback.pdf presentation]
+|-
+|14:30
+|Interaction DAS
+|Hagen Blankenburg
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/20090310_Blankenburg_DASMI.pdf presentation]
+|-
+|14:50
+|DAS for ENCODE data coordination
+|Felix Kokocinski
+|[http://www.sanger.ac.uk/~fsk/DAS_workshop09.pdf pdf]
+|- style="background:#ffdead;"
+|15:10-15:30
+| colspan="3" | coffee break
+|-
+|15:30
+|A web resource for selecting epitopes for antibodies
+|Niall Haslam
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/NiallHaslamDAS2009.pdf presentation]
+|-
+|15:50
+|DAS Searches
+|Andreas Prlic
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/DAS_searches_20090310.pdf presentation]
+|-
+|16:10
+|A karyotype DAS client
+|Rafael Jimenez
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/rjimenez_dasworkshop2009_KDC.ppt presentation]
+|-
+|16:30
+|DASher, a standalone Java client for DAS protein sequence features
+|David Messina
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/Messina_DASconf09.keynote.zip presentation] [http://www.sanger.ac.uk/Software/analysis/das/presentations/Messina_DASconf09.pdf pdf]
+|-
+|16:50
+|Data Federation - BioMart & DAS
+|Syed Haider
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/BioMart_DAS_2009.ppt presentation]
+|-
+|17:10
+|Trellis DAS2 framework- which includes the DAS1-->DAS2 proxy and alpha UCSC DAS2 server
+|Gregg Helt
+|[http://www.sanger.ac.uk/Software/analysis/das/presentations/Trellis_Mar2009.pptx presentation]
+|-
+|17:30
+|Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups
+|
+|
+|-
+|}

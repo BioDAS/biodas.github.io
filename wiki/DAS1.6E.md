@@ -4,22 +4,31 @@ permalink: wiki/DAS1.6E/
 layout: wiki
 ---
 
-Proposals for DAS 1.6 Extensions to be added after the 1.6 spec has been
-officially released.
+Details of existing and proposed Extensions to the [DAS 1.6
+specification](/wiki/DAS1.6 "wikilink"), once it has been released.
+
+Existing Extensions
+===================
+
+These extensions have undergone development and have solid
+implementations.
+
+Interaction
+-----------
 
 DAS writeback
-=============
+-------------
 
 **June 10,2009**
 
 This is a working document and a proposal for an extension to the [DAS
-specification](http://biodas.org/documents/spec.html) in order to
-support writeback capabilities. A writeback server should have, at
-least, the methods for the basic reading/writing operations, which in
-Databases is recognized as CRUD(Create, Read, Update and Delete). The
-reading component is already solved for the DAS protocol, even is
-possible to affirm that all the current commands in the specification
-are reading commands for different kind of information.
+1.6 specification](/wiki/DAS1.6 "wikilink") in order to support writeback
+capabilities. A writeback server should have, at least, the methods for
+the basic reading/writing operations, which in Databases is recognized
+as CRUD(Create, Read, Update and Delete). The reading component is
+already solved for the DAS protocol, even is possible to affirm that all
+the current commands in the specification are reading commands for
+different kind of information.
 
 One or more Writeback servers can be associated to a coordinate system,
 however just one coordinate system can be handle for a writeback source,
@@ -42,15 +51,14 @@ The document used for all the methods is an XML-formatted "DASGFF"
 document. All the information of an annotation to create/edit could be
 supplied using this format, which implies that the implementation of
 this extension is dependent of the DAS version implemented. All the
-elements of this format are explained in the [DAS
-specification](http://biodas.org/documents/spec.html) An example of the
-Document is below, and as it will be explained later the same format
-could be used for the input or the output of one of the HTTP methods.
-Extra information can be required depending of the implementation as
-metadata of the operation. For those cases the element NOTE should be
-used in a notation KEY=VALUE. In the example below this notation is used
-to represent the OpenId of the user who sent or is sending this feature
-to the server. <code>
+elements of this format are explained in the [DAS 1.6
+specification](/wiki/DAS1.6 "wikilink"). An example of the Document is below,
+and as it will be explained later the same format could be used for the
+input or the output of one of the HTTP methods. Extra information can be
+required depending of the implementation as metadata of the operation.
+For those cases the element NOTE should be used in a notation KEY=VALUE.
+In the example below this notation is used to represent the OpenId of
+the user who sent or is sending this feature to the server. <code>
 
 <?xml version="1.0" standalone='no'?>
 <!DOCTYPE DASGFF SYSTEM "http://www.biodas.org/dtd/dasgff.dtd">
@@ -283,17 +291,35 @@ USER=<http://user.myopenid.com>
 </NOTE>
 </code>
 
+Proposed Extensions
+===================
+
+These extensions are merely proposals for future modifications, and do
+not yet have implementations.
+
 DAS search
-==========
+----------
+
+A mechanism for programmatic search of content within annotation
+servers.
 
 Support for alternative content formats
-=======================================
+---------------------------------------
+
+Content negotiation, either via request parameters or HTTP
+auto-negotiation. This would allow support for response formats other
+than DAS XML. Examples might include JSON, XHTML, etc.
 
 Use of URIs for DAS identifiers
-===============================
+-------------------------------
+
+Often, the use of unique IDs within DAS is poorly executed. Formally
+adopting URIs as identifiers (including specifying how URIs are built
+from URI references within DAS XML documents) would allow cross
+referencing between sequences and annotations within and outside DAS.
 
 Entry Points for annotation servers
-===================================
+-----------------------------------
 
 **January 28, 2010**
 

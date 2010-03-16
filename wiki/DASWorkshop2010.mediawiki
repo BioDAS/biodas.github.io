@@ -115,3 +115,13 @@
 |
 |-
 |}
+
+==Day 3==
+
+Suggested Topics:
+
+Content negotiation and efficient data formats
+
+1: From molecules to sets. 2: Other dimensions: Samples.
+
+Writing a DAS client in C

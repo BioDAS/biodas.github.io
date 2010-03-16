@@ -19,13 +19,13 @@
 |[http://www.sanger.ac.uk/Software/analysis/das/presentations/200903DASworkshop.ppt presentation]
 |-
 |10:20
-|Collaborative Annotation tool (MaDAS)
-|Victor de la Torre
-|[http://www.sanger.ac.uk/Software/analysis/das/presentations/MaDAS_victor_de_la_torre.pptx presentation]
+|Collaborative genomics with DAS- a new interactive DAS client
+|Thomas Down
+|[]
 |-
 |10:40
-|Jalview / VAMSAS
-|Jim Procter / Geoff Barton
+|Progress to report on linking EMBOSS and DAS
+|Peter Rice
 |[http://www.sanger.ac.uk/Software/analysis/das/presentations/Jalview_2009_DAS.pdf presentation]
 |-
 |11:00

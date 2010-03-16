@@ -6,6 +6,8 @@ These extensions have undergone development and have solid implementations.
 
 ==Interaction==
 
+The [http://dasmi.de/ DASMI] extension expands DAS to apply to molecular interactions. It is part of the [http://www.dasregistry.org/spec_1.53E.jsp DAS 1.53E specification] (i.e. is an existing extension to the [http://biodas.org/documents/spec.html 1.53 specification]). It is detailed [http://www.dasregistry.org/extension_interaction.jsp here].
+
 ==DAS writeback==
 
 '''June 10,2009'''

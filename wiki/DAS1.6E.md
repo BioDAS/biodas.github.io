@@ -16,6 +16,13 @@ implementations.
 Interaction
 -----------
 
+The [DASMI](http://dasmi.de/) extension expands DAS to apply to
+molecular interactions. It is part of the [DAS 1.53E
+specification](http://www.dasregistry.org/spec_1.53E.jsp) (i.e. is an
+existing extension to the [1.53
+specification](http://biodas.org/documents/spec.html)). It is detailed
+[here](http://www.dasregistry.org/extension_interaction.jsp).
+
 DAS writeback
 -------------
 

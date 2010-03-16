@@ -29,11 +29,11 @@ Day 2
 | 15:10-15:30   | coffee break                                                                                      |
 | 15:30         | Text Mining DAS source                                                                            | Maximilian Haussler         | \[\]         |
 | 15:50         | Update on the collaborative, web-based version of Apollo                                          | Gregg Helt                  | \[\]         |
-| 16:10         |                                                                                                   |                             | \[\]         |
+| 16:10         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                             | \[\]         |
 | 16:30         |                                                                                                   |                             | \[\]         |
 | 16:50         |                                                                                                   |                             |              |
-| 17:10         |                                                                                                   |                             | \[\]         |
-| 17:30         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                             |              |
+| 17:10         | Finish for the Day                                                                                |                             | \[\]         |
+| 17:30         |                                                                                                   |                             |              |
 ||
 
 

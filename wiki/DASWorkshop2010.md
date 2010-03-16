@@ -39,7 +39,7 @@ Day 2
 Day 3
 -----
 
-`Suggested Topics:`
+### Suggested Topics:
 
 `Content negotiation and efficient data formats`
 

@@ -29,7 +29,7 @@ Day 2
 | 15:10-15:30   | coffee break                                                                                                            |
 | 15:30         | Text Mining DAS source                                                                                                  | Maximilian Haussler         | \[\]         |
 | 15:50         | Update on the collaborative, web-based version of Apollo                                                                | Gregg Helt                  | \[\]         |
-| 16:10         | From Pfam Das Alignments to Widgets                                                                                     |                             | \[\]         |
+| 16:10         | From Pfam Das Alignments to Widgets                                                                                     | Prasad Gunasekaran          | \[\]         |
 | 16:30         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups                       |                             | \[\]         |
 | 16:50         |                                                                                                                         |                             |              |
 | 17:10         | Bus Leaves for Cambridge Travel Lodge                                                                                   |                             | \[\]         |

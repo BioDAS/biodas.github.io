@@ -4,6 +4,12 @@ permalink: wiki/DASWorkshop2010/
 layout: wiki
 ---
 
+The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton
+campus.
+
+-   Information & registration:
+    <http://www.ebi.ac.uk/training/onsite/DAS_070410.html>
+
 DAS Workshop 2010 Schedule
 ==========================
 

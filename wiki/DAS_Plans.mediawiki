@@ -4,9 +4,13 @@ Future ideas for improvements to the DAS spec:
 
 Features should have parents and children, this could be accomplished with additional tags. This can be seen as either replacement or complementary to groups. For example, groups could be seen as more generic logical and visual groupings (e.g. data from the same sample/tissue). Implementation of a proper hierarchy will enable support for assembly traversal (which isn't used at present and is intended to be removed).
 
+Update: this functionality is now incorporated into the [[DAS1.6|DAS 1.6]] specification.
+
 ===Writeback===
 
 Read/write DAS sources. This is currently being worked on. The specification is based on the DAS/2 writeback portion.
+
+Update: this functionality is now described as a [[DAS1.6E|DAS 1.6 extension]].
 
 ===Annotating features===
 
@@ -17,6 +21,8 @@ A possible tie-in with writeback, this could allow:
 ===Migrate 1.53E extensions===
 
 After some minor updates to ensure consistency with the rest of the spec, it is intended that extensions such as alignment be incorporated into the core spec.
+
+Update: this work is now incorporated into the [[DAS1.6|DAS 1.6]] specification.
 
 ===Improvements for dense features===
 

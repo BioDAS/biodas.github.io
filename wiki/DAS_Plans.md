@@ -16,10 +16,16 @@ sample/tissue). Implementation of a proper hierarchy will enable support
 for assembly traversal (which isn't used at present and is intended to
 be removed).
 
+Update: this functionality is now incorporated into the [DAS
+1.6](/wiki/DAS1.6 "wikilink") specification.
+
 ### Writeback
 
 Read/write DAS sources. This is currently being worked on. The
 specification is based on the DAS/2 writeback portion.
+
+Update: this functionality is now described as a [DAS 1.6
+extension](/wiki/DAS1.6E "wikilink").
 
 ### Annotating features
 
@@ -33,6 +39,9 @@ A possible tie-in with writeback, this could allow:
 After some minor updates to ensure consistency with the rest of the
 spec, it is intended that extensions such as alignment be incorporated
 into the core spec.
+
+Update: this work is now incorporated into the [DAS
+1.6](/wiki/DAS1.6 "wikilink") specification.
 
 ### Improvements for dense features
 

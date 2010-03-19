@@ -91,10 +91,10 @@ provide your data via DAS:
 Servers should endeavour to conform strictly to the DAS data formats as
 this maximises compatibility across the network and minimises the
 maintenance required as a result of evolving client software. RelaxNG
-documents are now available from the [DasRegistry DAS
-Registry](/wiki/DasRegistry_DAS_Registry "wikilink") to help validate the XML
-produced by your servers. These are used by the registry to help servers
-conform to the DAS specification before being registered.
+documents are now available from the [DAS
+Registry](/wiki/DasRegistry "wikilink") to help validate the XML produced by
+your servers. These are used by the registry to help servers conform to
+the DAS specification before being registered.
 
 ### Publishing and Discovery of DAS sources
 

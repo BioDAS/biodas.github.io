@@ -58,3 +58,7 @@ Day 3
 `Writing a DAS client in C`
 
 `Running DAS on amazon or google app engine. And seeing what changes have to be made to the dazzle code to enable this. I'd favour app engine.`
+
+`speeding up annotation retrieval for multiple segment IDs (e.g. retrieving all features for a big alignment)`  
+  
+`using jsDas with JalviewLite`

@@ -138,3 +138,5 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
  speeding up annotation retrieval for multiple segment IDs (e.g. retrieving all features for a big alignment)
 
  using jsDas with JalviewLite
+
+ The semantic web, RDF and DAS.

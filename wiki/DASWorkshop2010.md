@@ -64,3 +64,5 @@ Day 3
 `using jsDas with JalviewLite`
 
 `The semantic web, RDF and DAS.`
+
+`DAS authentication and security`

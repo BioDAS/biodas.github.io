@@ -140,3 +140,5 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
  using jsDas with JalviewLite
 
  The semantic web, RDF and DAS.
+
+ DAS authentication and security

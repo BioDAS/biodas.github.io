@@ -7,7 +7,7 @@ layout: wiki
 DAS Workshops
 -------------
 
-\[DASWorkshop2010 DASWorkshop2010\]
+[DASWorkshop2010](http://www.biodas.org/wiki/DASWorkshop2010)
 
 DAS Mailing Lists
 -----------------

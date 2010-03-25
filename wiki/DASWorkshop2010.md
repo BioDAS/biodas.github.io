@@ -13,6 +13,28 @@ campus.
 DAS Workshop 2010 Schedule
 ==========================
 
+Day 1
+-----
+
+| Time          | Title                                                                                                                                         | Speaker                            | Resources                                                                                                                                                  |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 8:45 - 9:30   | Minibus/Taxis to pick attendees up from hotels and bring to Campus                                                                            |
+| 9:30 - 10:00  | Coffee is served outside the training room                                                                                                    |
+||
+| 10:00 - 10:10 | Welcome and Introduction to the Workshop                                                                                                      | Jonathan Warren                    |                                                                                                                                                            |
+| 10:10 - 11:10 | DAS - Technical Introduction                                                                                                                  | Andy Jenkinson                     | [Powerpoint 2008](http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-Technical-Introduction.pptx)                                                              
+                                                                                                                                                                                                      [Powerpoint 1997](http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-Technical-Introduction.ppt)                                                                
+                                                                                                                                                                                                      [PDF](http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-Introduction.pdf)                                                                            |
+| 11:10 - 11:30 | The DAS Registration Service                                                                                                                  | Jonathan Warren                    | [The Registry](http://www.biodas.org/wiki/DASworkshop200802:intro_tutorial#Finding_DAS_sources_.E2.80.93_the_DAS_Registry_Service_at_the_Sanger_Institute) |
+| 11:30 - 12:15 | Putting it all together                                                                                                                       | Rob Finn                           | [presentation](http://www.sanger.ac.uk/Software/analysis/das/presentations/Finn_DAS_20090309.pdf)                                                          |
+| 12:15 - 13:15 | Lunch break                                                                                                                                   |
+| 13:15 - 15:10 | Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl. | Jonathan Warren and Andy Jenkinson | Java server: [Dazzle tutorial](http://www.dasregistry.org/DazzleTutorial.jsp)                                                                              
+                                                                                                                                                                                                      Java client: [Dasobert tutorial](http://www.dasregistry.org/DasobertTutorial.jsp)                                                                           
+                                                                                                                                                                                                      Perl server: [Bio::Das::ProServer tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/proserver_tutorial.html)                                             
+                                                                                                                                                                                                      Perl client: [Bio::Das::Lite tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html)                                                    |
+| 15:10 - 15:30 | Coffee break                                                                                                                                  |
+| 15:30 - 16:30 | Hands On Tutorial - continued                                                                                                                 |
+
 Day 2
 -----
 

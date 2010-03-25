@@ -3,6 +3,62 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
 
 
 =DAS Workshop 2010 Schedule=
+==Day 1==
+
+
+{| class="wikitable" border="1"
+|- style="background:silver"
+! width="100px"|Time
+! Title
+! Speaker
+! Resources
+|-
+| 8:45 - 9:30
+| colspan="3" | Minibus/Taxis to pick attendees up from hotels and bring to Campus
+|- style="background:#ffdead;"
+| 9:30 - 10:00 
+| colspan="3" | Coffee is served outside the training room 
+|- style="background:#ffdead;"
+|-
+| 10:00 - 10:10
+| Welcome and Introduction to the Workshop
+| Jonathan Warren
+|
+|-
+| 10:10 - 11:10
+| DAS - Technical Introduction 
+| Andy Jenkinson
+| [http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-Technical-Introduction.pptx Powerpoint 2008]<br/>
+[http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-Technical-Introduction.ppt Powerpoint 1997]<br/>
+[http://www.ebi.ac.uk/~aj/das_workshop_2009/DAS-technical-Introduction.pdf PDF] 
+|-
+| 11:10 - 11:30
+| The DAS Registration Service
+| Jonathan Warren
+| [http://www.biodas.org/wiki/DASworkshop200802:intro_tutorial#Finding_DAS_sources_.E2.80.93_the_DAS_Registry_Service_at_the_Sanger_Institute The Registry]
+|-
+| 11:30 - 12:15
+| Putting it all together
+| Rob Finn
+| [http://www.sanger.ac.uk/Software/analysis/das/presentations/Finn_DAS_20090309.pdf presentation]
+|- style="background:#ffdead;"
+| 12:15 - 13:15 
+| colspan="3" | Lunch break
+|-
+| 13:15 - 15:10
+| Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl.
+| Jonathan Warren and Andy Jenkinson
+| Java server: [http://www.dasregistry.org/DazzleTutorial.jsp Dazzle tutorial]<br/>
+Java client: [http://www.dasregistry.org/DasobertTutorial.jsp Dasobert tutorial]<br/>
+Perl server: [http://www.ebi.ac.uk/~aj/das_workshop_2009/proserver_tutorial.html Bio::Das::ProServer tutorial]<br/>
+Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::Lite tutorial]<br/>
+|- style="background:#ffdead;"
+| 15:10 - 15:30
+| colspan="3"|Coffee break 
+|-
+| 15:30 - 16:30 
+| colspan="3" | Hands On Tutorial - continued
+|}
 
 ==Day 2==
 

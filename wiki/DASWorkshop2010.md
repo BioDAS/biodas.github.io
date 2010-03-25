@@ -67,6 +67,8 @@ Day 2
 Day 3
 -----
 
+Start at 10am Finish at 4pm.
+
 ### Suggested Topics:
 
 `Content negotiation and efficient data formats`

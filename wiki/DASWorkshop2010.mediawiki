@@ -41,7 +41,7 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
 | 
 |-
 | 11:40 - 12:15
-| The DAS Registry
+| The DAS Registry and registering your source
 | Jonathan Warren
 |
 |- style="background:#ffdead;"

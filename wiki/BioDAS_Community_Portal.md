@@ -7,8 +7,11 @@ layout: wiki
 DAS Workshops
 -------------
 
-[DASWorkshop2010](http://www.biodas.org/wiki/DASWorkshop2010) [DAS
-Workshop 2009](http://www.biodas.org/wiki/DASworkshop200903)
+[DAS Workshop 2010](http://www.biodas.org/wiki/DASWorkshop2010)
+
+[DAS Workshop 2009](http://www.biodas.org/wiki/DASworkshop200903)
+
+[DAS Workshop 2008](http://www.biodas.org/wiki/DASworkshop200802)
 
 DAS Mailing Lists
 -----------------

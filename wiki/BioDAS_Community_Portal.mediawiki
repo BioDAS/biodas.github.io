@@ -1,4 +1,5 @@
 == DAS Workshops ==
+DAS workshops are run annually that consist of a training day, a day of talks and a development day.
 
 [http://www.biodas.org/wiki/DASWorkshop2010 DAS Workshop 2010]
 

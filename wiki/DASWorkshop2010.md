@@ -16,24 +16,21 @@ DAS Workshop 2010 Schedule
 Day 1
 -----
 
-| Time          | Title                                                                                                                     | Speaker                            | Resources                                                                                                         |
-|---------------|---------------------------------------------------------------------------------------------------------------------------|------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 8:45 - 9:30   | Minibus/Taxis to pick attendees up from hotels and bring to Campus                                                        |
-| 9:30 - 10:00  | Coffee is served outside the training room                                                                                |
+| Time          | Title                                                                                                                                                                                             | Speaker                            | Resources |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|-----------|
+| 8:45 - 9:30   | Minibus/Taxis to pick attendees up from hotels and bring to Campus                                                                                                                                |
+| 9:30 - 10:00  | Coffee is served outside the training room                                                                                                                                                        |
 ||
-| 10:00 - 10:10 | Welcome and Introduction to the Workshop                                                                                  | Jonathan Warren                    |                                                                                                                   |
-| 10:10 - 10:30 | DAS - Introduction/Overview                                                                                               | Andy Jenkinson                     |                                                                                                                   |
-| 10:30 - 10:40 | The DAS Game                                                                                                              | Rafael Jiminez                     |                                                                                                                   |
-| 10:40 - 11:40 | Hands on DAS Server Tutorials - Proserver, MyDAS - The room will be split into two groups: one for Java and one for Perl. | Andy Jenkinson, Gustavo Salazar    |                                                                                                                   |
-| 11:40 - 12:15 | The DAS Registry                                                                                                          | Jonathan Warren                    |                                                                                                                   |
-| 12:15 - 13:15 | Lunch break                                                                                                               |
-| 13:15 - 15:10 |                                                                                                                           | Jonathan Warren and Andy Jenkinson | Java server: [Dazzle tutorial](http://www.dasregistry.org/DazzleTutorial.jsp)                                     
-                                                                                                                                                                                  Java client: [Dasobert tutorial](http://www.dasregistry.org/DasobertTutorial.jsp)                                  
-                                                                                                                                                                                  Perl server: [Bio::Das::ProServer tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/proserver_tutorial.html)    
-                                                                                                                                                                                  Perl client: [Bio::Das::Lite tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html)           |
-| 15:10 - 15:30 | Putting it all together                                                                                                   | Rob Finn                           |                                                                                                                   |
-| 15:10 - 15:30 |                                                                                                                           |
-| 15:30 - 17:00 | Hands On Tutorial - continued                                                                                             |
+| 10:00 - 10:10 | Welcome and Introduction to the Workshop                                                                                                                                                          | Jonathan Warren                    |           |
+| 10:10 - 10:30 | DAS - Introduction/Overview                                                                                                                                                                       | Andy Jenkinson                     |           |
+| 10:30 - 10:40 | The DAS Game                                                                                                                                                                                      | Rafael Jiminez                     |           |
+| 10:40 - 11:40 | Hands on DAS Server Tutorials - Setting up a quick source for sharing data with your colleagues using Proserver or MyDAS - The room will be split into two groups: one for Java and one for Perl. | Andy Jenkinson, Gustavo Salazar    |           |
+| 11:40 - 12:15 | The DAS Registry                                                                                                                                                                                  | Jonathan Warren                    |           |
+| 12:15 - 13:15 | Lunch break                                                                                                                                                                                       |
+| 13:15 - 14:15 | Improving your data source so it can be registered with the DAS Registry and be displayed correctly in DAS clients                                                                                | Jonathan Warren and Andy Jenkinson |           |
+| 15:10 - 15:30 | Putting it all together                                                                                                                                                                           | Rob Finn                           |           |
+| 15:10 - 15:30 |                                                                                                                                                                                                   |
+| 15:30 - 17:00 | Hands On Tutorial - continued                                                                                                                                                                     |
 
 Day 2
 -----

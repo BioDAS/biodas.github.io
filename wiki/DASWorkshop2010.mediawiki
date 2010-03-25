@@ -35,26 +35,21 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
 | Rafael Jiminez
 | 
 |-
-| 10:40 - 11:30
-| DAS Server Tutorials - Proserver, MyDAS
+| 10:40 - 11:40
+| Hands on DAS Server Tutorials - Proserver, MyDAS - The room will be split into two groups: one for Java and one for Perl.
 | Andy Jenkinson, Gustavo Salazar
 | 
 |-
-| 11:10 - 11:30
-| The DAS Registration Service
+| 11:40 - 12:15
+| The DAS Registry
 | Jonathan Warren
-| 
-|-
-| 11:30 - 12:15
-| Putting it all together
-| Rob Finn
-| [http://www.sanger.ac.uk/Software/analysis/das/presentations/Finn_DAS_20090309.pdf presentation]
-|- 
+|
+|- style="background:#ffdead;"
 | 12:15 - 13:15 
 | colspan="3" | Lunch break
-|-style="background:#ffdead;"
+|-
 | 13:15 - 15:10
-| Hands On Tutorial - Setting up a DAS Server and creating a DAS Client. The room will be split into two groups: one for Java and one for Perl.
+| 
 | Jonathan Warren and Andy Jenkinson
 | Java server: [http://www.dasregistry.org/DazzleTutorial.jsp Dazzle tutorial]<br/>
 Java client: [http://www.dasregistry.org/DasobertTutorial.jsp Dasobert tutorial]<br/>

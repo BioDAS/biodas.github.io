@@ -53,13 +53,18 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
 | Jonathan Warren and Andy Jenkinson
 | 
 |-
-|15:10 - 15:30
-|Putting it all together
+|14:15 - 14:35
+|DAS clients - Putting it all together
 |Rob Finn
+|
+|-
+|14:35 - 15:10
+|DAS client libraries to query DAS sources
+|Andy Jenkinson, Rafael Jiminez, Jose Villaveces
 |
 |-style="background:#ffdead;"
 | 15:10 - 15:30
-| 
+| Cofee Break
 |-
 | 15:30 - 17:00 
 | colspan="3" | Hands On Tutorial - continued

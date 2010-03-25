@@ -32,7 +32,8 @@ Day 1
                                                                                                                                                                                                       Java client: [Dasobert tutorial](http://www.dasregistry.org/DasobertTutorial.jsp)                                  
                                                                                                                                                                                                       Perl server: [Bio::Das::ProServer tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/proserver_tutorial.html)    
                                                                                                                                                                                                       Perl client: [Bio::Das::Lite tutorial](http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html)           |
-| 15:10 - 15:30 | Coffee break                                                                                                                                  |
+| 15:10 - 15:30 | Putting it all together                                                                                                                       | Rob Finn                           |                                                                                                                   |
+| 15:10 - 15:30 |                                                                                                                                               |
 | 15:30 - 17:00 | Hands On Tutorial - continued                                                                                                                 |
 
 Day 2

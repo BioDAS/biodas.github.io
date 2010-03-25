@@ -61,8 +61,13 @@ Java client: [http://www.dasregistry.org/DasobertTutorial.jsp Dasobert tutorial]
 Perl server: [http://www.ebi.ac.uk/~aj/das_workshop_2009/proserver_tutorial.html Bio::Das::ProServer tutorial]<br/>
 Perl client: [http://www.ebi.ac.uk/~aj/das_workshop_2009/daslite_tutorial.html Bio::Das::Lite tutorial]<br/>
 |- style="background:#ffdead;"
+|15:10 - 15:30
+|Putting it all together
+|Rob Finn
+|
+|-
 | 15:10 - 15:30
-| colspan="3"|Coffee break 
+| 
 |-
 | 15:30 - 17:00 
 | colspan="3" | Hands On Tutorial - continued

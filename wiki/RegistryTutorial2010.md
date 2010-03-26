@@ -83,19 +83,8 @@ web service allowing you build a simple URL request and receive an XML
 response, as well as a SOAP (Simple Object Access Protocol) web service.
 Here we will focus on the DAS style web service.
 
-For the DAS style web service functionality provided by the DAS
-Registration Service, XSLT style sheets are used to transform the XML
-response into an attractive web page for viewing in an internet browser.
-For all of the following activities, please look at both the view in the
-web browser as well as the source of the page, which will reveal the XML
-response that can be parsed in suitable client code.
-
 > ***Look at the response to the DAS Registry sources command:
-> <http://www.dasregistry.org/das1/sources>. As indicated above, the
-> view you are seeing in the browser is a transformation of the XML
-> response into an attractive HTML view. Right click on the browser
-> window and click on 'View Source'. (The exact details of this depend
-> upon the internet browser you are using).***
+> <http://www.dasregistry.org/das1/sources>.***
 
 You should see that the XML response provides a `<SOURCES>` XML file,
 containing any number of `<SOURCE>` elements. Each `<SOURCE>` element

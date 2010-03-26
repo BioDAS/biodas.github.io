@@ -101,7 +101,7 @@ including:
 -   A range of additional properties for the service.
 
 > ***You can also perform the sources query for a single datasource:
-> <http://www.dasregistry.org/das1/sources/DS_409>***
+> <http://www.dasregistry.org/das1/DS_409>***
 
 For details of web services and WSDL:
 

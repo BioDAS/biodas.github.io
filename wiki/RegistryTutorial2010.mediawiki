@@ -62,7 +62,7 @@ You should see that the XML response provides a <tt>&lt;SOURCES&gt;</tt> XML fil
 * A range of additional properties for the service.
 
 <blockquote>
-'''''You can also perform the sources query for a single datasource: http://www.dasregistry.org/das1/sources/DS_409'''''
+'''''You can also perform the sources query for a single datasource: http://www.dasregistry.org/das1/DS_409'''''
 </blockquote>
 
 For details of web services and WSDL:

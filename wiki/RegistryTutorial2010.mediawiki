@@ -73,6 +73,11 @@ You will see that there are parameters you can use with the main queries that wi
 http://www.dasregistry.org/dasregistry/das1/sources?organism=9606&authority=NCBI&version=36&type=chromosome
 will return a list of soures that can all be mapped to the one coordinate system.
 You may also use this query to find all sources that can be mapped to humans http://www.dasregistry.org/das1/sources?organism=9606
+for 1.5 sources only http://www.dasregistry.org/das1.5/sources/ or for 1.6 sources only http://www.dasregistry.org/das1.6/sources/ 
+
+Note: http://www.dasregistry.org/das1/organism no longer works as it would have to return 400,000 results in xml format!
+
+
 
 </blockquote>
 <small>Jonathan Warren, Philip Jones, Sanger & EMBL-EBI, Hinxton, UK. February 2010</small>

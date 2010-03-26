@@ -4,8 +4,7 @@
 
 A [http://www.ebi.ac.uk/training/handson/DAS_070410.html 3-day workshop on DAS] hosted by EBI/Sanger. Includes a hands-on day of tutorials, a day of talks from DAS contributors and users as well as a hackathon/discussion day for progressing DAS projects.
 
-See the [[DASworkshop200903|schedule]] for the previous years tutorials and presentations.
-
+See the [[DASworkshop2010|schedule]] for the latest information on tutorials and presentations.
 
 == Sanger/EBI DAS Workshop, March 2009 ==
 

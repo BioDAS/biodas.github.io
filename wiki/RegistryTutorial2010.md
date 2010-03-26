@@ -109,5 +109,11 @@ including:
 > more information about how to use the available web services in your
 > own scripts.***
 
+> You will see that there are parameters you can use with the main
+> queries that will give more specific results for example:
+> <http://www.dasregistry.org/dasregistry/das1/sources?organism=9606&authority=NCBI&version=36&type=chromosome>
+> will return a list of soures that can all be mapped to the one
+> coordinate system.
+
 <small>Jonathan Warren, Philip Jones, Sanger & EMBL-EBI, Hinxton, UK.
 February 2010</small>

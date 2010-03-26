@@ -69,4 +69,4 @@ You should see that the XML response provides a <tt>&lt;SOURCES&gt;</tt> XML fil
 '''''Finally, you may like to take a look at the [http://www.dasregistry.org/help_scripting.jsp DAS Registry Server Help with Scripting Page] that provides more information about how to use the available web services in your own scripts.'''''
 </blockquote>
 
-<small>Philip Jones, Jonathan Warren EMBL-EBI, Hinxton, UK. February 2010</small>
+<small>Jonathan Warren, Philip Jones, Sanger & EMBL-EBI, Hinxton, UK. February 2010</small>

@@ -109,5 +109,5 @@ including:
 > more information about how to use the available web services in your
 > own scripts.***
 
-<small>Philip Jones, Jonathan Warren EMBL-EBI, Hinxton, UK. February
-2010</small>
+<small>Jonathan Warren, Philip Jones, Sanger & EMBL-EBI, Hinxton, UK.
+February 2010</small>

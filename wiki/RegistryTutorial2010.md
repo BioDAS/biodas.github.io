@@ -103,12 +103,11 @@ including:
 > ***You can also perform the sources query for a single datasource:
 > <http://www.dasregistry.org/das1/DS_409>***
 
-For details of web services and WSDL:
-
 > ***Finally, you may like to take a look at the [DAS Registry Server
 > Help with Scripting
 > Page](http://www.dasregistry.org/help_scripting.jsp) that provides
 > more information about how to use the available web services in your
 > own scripts.***
 
-<small>Philip Jones, EMBL-EBI, Hinxton, UK. February 2008</small>
+<small>Philip Jones, Jonathan Warren EMBL-EBI, Hinxton, UK. February
+2010</small>

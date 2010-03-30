@@ -131,7 +131,12 @@ documents found here: <http://www.dasregistry.org/validation1.6/>
 `if you select a link and then choose "view" "source" in your browser (browser dependant) you can see the rules in an xml like format`
 
 The tags are pretty self explanatory like <zeroOrMore> or <optional>
-relating to the elements within the tags.
+relating to the elements within the tags. There are other rules the
+registry uses but seeing these documents will help you overcome any
+
+When registering a source or updating one, the capabilities you select
+will need to be valid otherwise you will not be able to register/update
+your source.
 
 Registering/Updating a source in the registry
 ---------------------------------------------

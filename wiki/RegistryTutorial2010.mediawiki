@@ -79,15 +79,15 @@ Note: http://www.dasregistry.org/das1/organism no longer works as it would have 
 </blockquote>
 
 ==Registering/Updating a source in the registry==
-<blockquote>
-Log in with your open_id account ( having an account makes managing your das sources easier)
-choose "register new" (if updating you can select "sources", then "show mine" and click on the pencil icon to edit, the proceedure is then similar to registering a new source below).
-fill in the fields appropriately
-click update registration
-fill in a test region for your source e.g. 1:10000,110000 meaning chromosome 1 start and stop, which does return features.
-if your update/registered source is valid then the update will occur, if you DAS source is invalid it will tell you and not allow the update and you should follow the link shown to try validating your source to see where the problems are.
+
+ Log in with your open_id account ( having an account makes managing your das sources easier)
+ choose "register new" (if updating you can select "sources", then "show mine" and click on the pencil icon to edit, the proceedure is then similar to registering a new source below).
+ fill in the fields appropriately
+ click update registration
+ fill in a test region for your source e.g. 1:10000,110000 meaning chromosome 1 start and stop, which does return features.
+ if your update/registered source is valid then the update will occur, if you DAS source is invalid it will tell you and not allow the update and you should follow the link shown to try validating your source to see where the problems are.
 
 
 
-</blockquote>
+
 <small>Jonathan Warren, Philip Jones, Sanger & EMBL-EBI, Hinxton, UK. February 2010</small>

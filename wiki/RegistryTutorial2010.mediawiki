@@ -76,9 +76,10 @@ You may also use this query to find all sources that can be mapped to humans htt
 for 1.5 sources only http://www.dasregistry.org/das1.5/sources/ or for 1.6 sources only http://www.dasregistry.org/das1.6/sources/ 
 
 Note: http://www.dasregistry.org/das1/organism no longer works as it would have to return 400,000 results in xml format!
+</blockquote>
 
-== Registering/Updating a source in the registry ==
-
+==Registering/Updating a source in the registry==
+<blockquote>
 Log in with your open_id account ( having an account makes managing your das sources easier)
 choose "register new" (if updating you can select "sources", then "show mine" and click on the pencil icon to edit, the proceedure is then similar to registering a new source below).
 fill in the fields appropriately

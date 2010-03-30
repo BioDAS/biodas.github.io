@@ -121,10 +121,10 @@ including:
 >
 > Note: <http://www.dasregistry.org/das1/organism> no longer works as it
 > would have to return 400,000 results in xml format!
->
-> Registering/Updating a source in the registry
-> ---------------------------------------------
->
+
+Registering/Updating a source in the registry
+---------------------------------------------
+
 > Log in with your open\_id account ( having an account makes managing
 > your das sources easier) choose "register new" (if updating you can
 > select "sources", then "show mine" and click on the pencil icon to

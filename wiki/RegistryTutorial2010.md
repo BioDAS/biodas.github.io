@@ -128,8 +128,10 @@ More on validation
 The validation in the registry uses rules that are set up by RelaxNG
 documents found here: <http://www.dasregistry.org/validation1.6/>
 
-`if you select a link and then choose "view" "source" in your browser (browser dependant) you can see the rules in an xml like format`  
-`the tags are pretty self explanatory like `<zeroOrMore>` or `<optional>` relating to the elements within the tags.`
+`if you select a link and then choose "view" "source" in your browser (browser dependant) you can see the rules in an xml like format`
+
+The tags are pretty self explanatory like <zeroOrMore> or <optional>
+relating to the elements within the tags.
 
 Registering/Updating a source in the registry
 ---------------------------------------------

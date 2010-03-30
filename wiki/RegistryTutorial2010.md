@@ -132,7 +132,8 @@ documents found here: <http://www.dasregistry.org/validation1.6/>
 
 The tags are pretty self explanatory like <zeroOrMore> or <optional>
 relating to the elements within the tags. There are other rules the
-registry uses but seeing these documents will help you overcome any
+registry uses but seeing these documents will help you overcome most
+validation problems.
 
 When registering a source or updating one, the capabilities you select
 will need to be valid otherwise you will not be able to register/update

@@ -80,7 +80,7 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
 ! ProjectName
 ! Speaker
 ! Presentation
-|-
+|- style="background:#ffdead;"
 | 8:45 - 9:30
 | colspan="3" | Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.
 |- style="background:#ffdead;"
@@ -177,12 +177,12 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
 |
 |
 |
-|-
+|- style="background:#ffdead;"
 |17:10
 |Bus Leaves for Cambridge Travel Lodge
 |
 |[]
-|-
+|- style="background:#ffdead;"
 |19:00
 |Dinner at [http://restaurantalimentum.co.uk/index.php Alimentum] The Private Dining Room 7.00 pm for 7.30 pm sit down.
 |

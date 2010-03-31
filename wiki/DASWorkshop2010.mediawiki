@@ -12,13 +12,12 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
 ! Title
 ! Speaker
 ! Resources
-|-
+|-  style="background:#ffdead;"
 | 8:45 - 9:30
 | colspan="3" | Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.
 |- style="background:#ffdead;"
 | 9:30 - 10:00 
 | colspan="3" | Coffee is served outside the training room 
-|- style="background:#ffdead;"
 |-
 | 10:00 - 10:10
 | Welcome and Introduction to the Workshop
@@ -68,7 +67,7 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
 |-
 | 15:30 - 17:00 
 | colspan="3" | Hands On Tutorial - continued
-|-
+|-  style="background:#ffdead;"
 |17:15
 | colspan="3" |Departure from Campus to Cambridge Leisure Park at circa 17:15 hrs.
 |}

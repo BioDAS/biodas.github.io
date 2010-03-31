@@ -66,7 +66,12 @@ Day 2
 Day 3
 -----
 
-Start at 10am Finish at 4pm.
+As per other days -Departure from the Travelodge Cambridge Leisure Park
+at 08:45 hrs to Campus. Departure estimated 16:00 hrs form campus to
+Travellodge in order for people to get planes and trains etc back home.
+Start at 10am
+
+Finish at 4pm.
 
 ### Suggested Topics:
 

@@ -317,6 +317,36 @@ Content negotiation, either via request parameters or HTTP
 auto-negotiation. This would allow support for response formats other
 than DAS XML. Examples might include JSON, XHTML, etc.
 
+#### Rationale
+
+DAS XML is expressive but can be very verbose. This is particularly
+problematic for the features query, which depending on server and query
+can result in extremely large responses. It is therefore desirable to
+allow more efficient alternative content formats to be returned within
+the general DAS query framework, particularly for feature queries.
+
+#### Proposed Implementation
+
+Addition of an optional zero-or-more <FORMAT> element as a child of
+<TYPE> element in types command response, with required attributes
+"name" (arbitrary character string that uniquely identifies this format
+within the server) and mimetype (must follow standard mimetype
+identifier rules). Note that this strategy also allows for multiple
+formats with the same mimetype.
+
+Addition of an optional "format" query parameter to features query.
+Format parameter SHOULD be a format name that the server recognizes. If
+server can return ALL features that satisfy the feature query in the
+specified format, it should do so, and set the response Content-Type
+header accordingly. If the server does not recognize the requested
+format, or cannot return in that format all of the features that satisfy
+the features query, it should return an HTTP error message (with
+X-DAS-Status also set?).
+
+Both of these additions are optional, therefore these changes will not
+affect servers or clients that do not support alternative content
+formats.
+
 Use of URIs for DAS identifiers
 -------------------------------
 

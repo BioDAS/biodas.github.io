@@ -69,6 +69,7 @@ The 2010 DAS Workshop will be held on 7-9 April at the EBI Hinxton campus.
 | 15:30 - 17:00 
 | colspan="3" | Hands On Tutorial - continued
 |-
+|17:15
 | colspan="3" |Departure from Campus to Cambridge Leisure Park at circa 17:15 hrs.
 |}
 

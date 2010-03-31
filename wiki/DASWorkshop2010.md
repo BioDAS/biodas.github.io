@@ -13,6 +13,8 @@ campus.
 DAS Workshop 2010 Schedule
 ==========================
 
+All 3 days will be held in the EBI training room.
+
 Day 1
 -----
 

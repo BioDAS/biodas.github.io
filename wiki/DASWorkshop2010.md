@@ -66,10 +66,11 @@ Day 2
 Day 3
 -----
 
-As per other days -Departure from the Travelodge Cambridge Leisure Park
-at 08:45 hrs to Campus. Departure estimated 16:00 hrs form campus to
-Travellodge in order for people to get planes and trains etc back home.
+`As per other days -Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.`
+
 Start at 10am
+
+`Departure 16:00 hrs form campus to Travellodge in order for people to get planes and trains etc back home.`
 
 Finish at 4pm.
 

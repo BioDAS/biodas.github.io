@@ -7,11 +7,6 @@ layout: wiki
 Tutorial: An Introduction to the DAS Registry
 =============================================
 
-Introduction
-------------
-
-The next section describes how you can manually find DAS services.
-
 Finding DAS sources – the DAS Registry Service at the Sanger Institute
 ----------------------------------------------------------------------
 

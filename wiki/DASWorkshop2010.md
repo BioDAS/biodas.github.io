@@ -18,7 +18,7 @@ Day 1
 
 | Time          | Title                                                                                                                                                                                             | Speaker                                         | Resources                                                               |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|-------------------------------------------------------------------------|
-| 8:45 - 9:30   | Minibus/Taxis to pick attendees up from hotels and bring to Campus                                                                                                                                |
+| 8:45 - 9:30   | Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.                                                                                                                      |
 | 9:30 - 10:00  | Coffee is served outside the training room                                                                                                                                                        |
 ||
 | 10:00 - 10:10 | Welcome and Introduction to the Workshop                                                                                                                                                          | Jonathan Warren                                 |                                                                         |

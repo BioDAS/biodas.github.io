@@ -184,6 +184,8 @@ Content negotiation, either via request parameters or HTTP auto-negotiation. Thi
 
 DAS XML is expressive but can be very verbose.  This is particularly problematic for the features query, which depending on server and query can result in extremely large responses.  It is therefore desirable to allow more efficient alternative content formats to be returned within the general DAS query framework, particularly for feature queries.
 
+Another advantage is simplicity. If we allow a DAS server to send back other formats, then it can take advantage of libraries such as Picard or tools like samtools to run region queries on indexed flat files and return the data without having to parse and process thm. All the server would have to do is decode the request URL and then use Picard or samtools to grab the data from the flat file and return it to the client.
+
 ====Proposed Implementation====
 
 Addition of  an optional zero-or-more <FORMAT> element as a child of <TYPE> element in types command response, with required attributes "name" (arbitrary character string that uniquely identifies this format within the server) and mimetype (must follow standard mimetype identifier rules).  Note that this strategy also allows for multiple formats with the same mimetype.

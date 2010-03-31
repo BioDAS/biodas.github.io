@@ -325,6 +325,14 @@ can result in extremely large responses. It is therefore desirable to
 allow more efficient alternative content formats to be returned within
 the general DAS query framework, particularly for feature queries.
 
+Another advantage is simplicity. If we allow a DAS server to send back
+other formats, then it can take advantage of libraries such as Picard or
+tools like samtools to run region queries on indexed flat files and
+return the data without having to parse and process thm. All the server
+would have to do is decode the request URL and then use Picard or
+samtools to grab the data from the flat file and return it to the
+client.
+
 #### Proposed Implementation
 
 Addition of an optional zero-or-more <FORMAT> element as a child of

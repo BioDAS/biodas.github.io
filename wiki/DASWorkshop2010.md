@@ -38,8 +38,8 @@ Day 2
 
 | Time          | ProjectName                                                                                                             | Speaker                     | Presentation |
 |---------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------|--------------|
-| 09:30 - 10:00 | Arrival - Tea, Coffee.                                                                                                  |
 | 8:45 - 9:30   | Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.                                            |
+| 09:30 - 10:00 | Arrival - Tea, Coffee.                                                                                                  |
 | 10:00         | Opening talk                                                                                                            | Tim Hubbard                 | \[\]         |
 | 10:20         | Collaborative genomics with DAS- a new interactive DAS client                                                           | Thomas Down                 | \[\]         |
 | 10:40         | Progress to report on linking EMBOSS and DAS                                                                            | Peter Rice                  | \[\]         |

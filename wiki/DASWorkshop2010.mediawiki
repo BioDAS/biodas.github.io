@@ -61,7 +61,7 @@ All 3 days will be held in the EBI training room.
 |14:35 - 15:10
 |Talk and Tutorial -DAS client libraries to query DAS sources
 |Andy Jenkinson, Rafael Jiminez, Jose Villaveces
-|
+|[http://www.ebi.ac.uk/~jvillave/wiki/doku.php?id=jsdas JSDAS Tutorial]
 |-style="background:#ffdead;"
 | 15:10 - 15:30
 | colspan="3" | Cofee Break

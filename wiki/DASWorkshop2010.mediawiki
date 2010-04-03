@@ -38,7 +38,7 @@ All 3 days will be held in the EBI training room.
 | 10:40 - 11:40
 | Hands on DAS Server Tutorials - Setting up a quick source for sharing data with your colleagues using Proserver or MyDAS - The room will be split into two groups: one for Java and one for Perl.
 | Andy Jenkinson, Gustavo Salazar
-| Java:[http://code.google.com/p/mydas/wiki/MyDASTutorial MyDAS Part 1]
+| Introduction talk: [http://oware.cbio.uct.ac.za/~gustavo/DASservers.ppt PPT] Java:[http://code.google.com/p/mydas/wiki/MyDASTutorial MyDAS Part 1]
 |-
 | 11:40 - 12:15
 | The DAS Registry and registering your source

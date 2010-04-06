@@ -6,7 +6,7 @@
 
 ''“The purpose of the DAS registration service is to keep track which DAS services are around, which DAS commands they are understanding and about the coordinate systems of their data.”''
 
-The DAS Registration Server allows DAS clients to discover DAS services.  At the same time it provides an elegant browsable web interface that allows you to search for DAS sources, test their status, examine their reliability and learn more about what they offer.  At the time of writing, a total of 729 servers from 44 institutions in 44 different countries are included in the registry.
+The DAS Registration Server allows DAS clients to discover DAS services.  At the same time it provides an elegant browsable web interface that allows you to search for DAS sources, test their status, examine their reliability and learn more about what they offer.  At the time of writing, a total of 759 servers from 44 institutions in 17 different countries are included in the registry.
 
 The following activities will familiarize you with the content of the registry, both the 'human' interface and also the web-service interface that can be queried by DAS clients (and possibly your client code in the exercises this afternoon).
 

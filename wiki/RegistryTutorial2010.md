@@ -22,7 +22,7 @@ The DAS Registration Server allows DAS clients to discover DAS services.
 At the same time it provides an elegant browsable web interface that
 allows you to search for DAS sources, test their status, examine their
 reliability and learn more about what they offer. At the time of
-writing, a total of 729 servers from 44 institutions in 44 different
+writing, a total of 759 servers from 44 institutions in 17 different
 countries are included in the registry.
 
 The following activities will familiarize you with the content of the

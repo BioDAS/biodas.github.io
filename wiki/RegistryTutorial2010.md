@@ -70,6 +70,9 @@ ensure a common nomenclature.
 > that allows you to view a list of all the DAS servers that implement
 > this coordinate / accession system.***
 
+DAS web service
+---------------
+
 The next few exercises will allow you to examine some of the *web
 service* capabilities of the DAS Registration Server.
 
@@ -108,8 +111,10 @@ including:
 > more information about how to use the available web services in your
 > own scripts.***
 
-> You will see that there are parameters you can use with the main
-> queries that will give more specific results for example:
+> You can list the coordinate systems by using
+> <http://www.dasregistry.org/das1/coordinatesystem> You will see that
+> there are parameters you can use with the main queries that will give
+> more specific results for example:
 > <http://www.dasregistry.org/dasregistry/das1/sources?organism=9606&authority=NCBI&version=36&type=chromosome>
 > will return a list of soures that can all be mapped to the one
 > coordinate system. You may also use this query to find all sources

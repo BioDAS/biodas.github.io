@@ -70,6 +70,10 @@ ensure a common nomenclature.
 > that allows you to view a list of all the DAS servers that implement
 > this coordinate / accession system.***
 
+> ***If you go back to the list of servers page you can search for data
+> sources with specific types by for example typing exon in the text
+> area close to the top of the page with a "search types only" button***
+
 DAS web service
 ---------------
 

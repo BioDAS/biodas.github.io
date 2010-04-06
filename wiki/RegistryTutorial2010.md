@@ -81,6 +81,8 @@ web service allowing you build a simple URL request and receive an XML
 response, as well as a SOAP (Simple Object Access Protocol) web service.
 Here we will focus on the DAS style web service.
 
+### sources
+
 > ***Look at the response to the DAS Registry sources command:
 > <http://www.dasregistry.org/das1/sources>.***
 
@@ -97,6 +99,16 @@ including:
     "UniProt" has been assigned the URI CS\_DS6);
 -   The capabilities (implemented commands) of the data source;
 -   A range of additional properties for the service.
+
+You will see that there are parameters you can use with the main queries
+that will give more specific results for example:
+<http://www.dasregistry.org/dasregistry/das1/sources?organism=9606&authority=NCBI&version=36&type=chromosome>
+will return a list of soures that can all be mapped to the one
+coordinate system. You may also use this query to find all sources that
+can be mapped to humans
+<http://www.dasregistry.org/das1/sources?organism=9606> for 1.5 sources
+only <http://www.dasregistry.org/das1.5/sources/> or for 1.6 sources
+only <http://www.dasregistry.org/das1.6/sources/>
 
 > ***You can also perform the sources query for a single datasource:
 > <http://www.dasregistry.org/das1/DS_409>***
@@ -115,18 +127,6 @@ including:
 >
 > You can list the coordinate systems by using
 > <http://www.dasregistry.org/das1/coordinatesystem>
->
-> ### sources
->
-> You will see that there are parameters you can use with the main
-> queries that will give more specific results for example:
-> <http://www.dasregistry.org/dasregistry/das1/sources?organism=9606&authority=NCBI&version=36&type=chromosome>
-> will return a list of soures that can all be mapped to the one
-> coordinate system. You may also use this query to find all sources
-> that can be mapped to humans
-> <http://www.dasregistry.org/das1/sources?organism=9606> for 1.5
-> sources only <http://www.dasregistry.org/das1.5/sources/> or for 1.6
-> sources only <http://www.dasregistry.org/das1.6/sources/>
 >
 > ### organisms
 >

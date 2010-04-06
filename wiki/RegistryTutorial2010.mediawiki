@@ -72,7 +72,9 @@ You should see that the XML response provides a <tt>&lt;SOURCES&gt;</tt> XML fil
 '''''Finally, you may like to take a look at the [http://www.dasregistry.org/help_scripting.jsp DAS Registry Server Help with Scripting Page] that provides more information about how to use the available web services in your own scripts.'''''
 </blockquote>
 <blockquote>
+=== coordinate systems ===
 You can list the coordinate systems by using http://www.dasregistry.org/das1/coordinatesystem
+=== sources ===
 You will see that there are parameters you can use with the main queries that will give more specific results for example:
 http://www.dasregistry.org/dasregistry/das1/sources?organism=9606&authority=NCBI&version=36&type=chromosome
 will return a list of soures that can all be mapped to the one coordinate system.

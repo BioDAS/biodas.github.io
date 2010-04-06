@@ -128,6 +128,8 @@ including:
 > sources only <http://www.dasregistry.org/das1.5/sources/> or for 1.6
 > sources only <http://www.dasregistry.org/das1.6/sources/>
 >
+> ### organisms
+>
 > Note: <http://www.dasregistry.org/das1/organism> no longer works as it
 > would have to return 400,000 results in xml format!
 

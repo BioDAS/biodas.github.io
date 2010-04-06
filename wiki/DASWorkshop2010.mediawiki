@@ -28,7 +28,7 @@ All 3 days will be held in the EBI training room.
 | 10:10 - 10:30
 | DAS - Introduction/Overview
 | Andy Jenkinson
-| 
+| [http://www.ebi.ac.uk/~aj/das_workshop_2010/DAS-Introduction.pptx Basic Introduction] [http://www.ebi.ac.uk/~aj/das_workshop_2010/DAS-Introduction-Technical.pptx Technical Introduction]
 |-
 | 10:30 - 10:40
 | The DAS Game
@@ -38,7 +38,7 @@ All 3 days will be held in the EBI training room.
 | 10:40 - 11:40
 | Hands on DAS Server Tutorials - Setting up a quick source for sharing data with your colleagues using Proserver or MyDAS - The room will be split into two groups: one for Java and one for Perl.
 | Andy Jenkinson, Gustavo Salazar
-| Introduction talk: [http://oware.cbio.uct.ac.za/~gustavo/DASservers.ppt PPT] Java:[http://code.google.com/p/mydas/wiki/MyDASTutorial MyDAS Part 1]
+| Introduction talk: [http://oware.cbio.uct.ac.za/~gustavo/DASservers.ppt PPT] Java:[http://code.google.com/p/mydas/wiki/MyDASTutorial MyDAS Part 1] Perl:[http://www.ebi.ac.uk/~aj/das_workshop_2010/proserver_tutorial_1.html ProServer Part 1]
 |-
 | 11:40 - 12:15
 | The DAS Registry and registering your source
@@ -49,9 +49,9 @@ All 3 days will be held in the EBI training room.
 | colspan="3" | Lunch break
 |-
 | 13:15 - 14:15
-| Tutorial -Improving your data source so it can be registered with the DAS Registry and be displayed correctly in DAS clients
+| Tutorial - DAS servers continued
 | Andy Jenkinson, Rafael Jimenez, Gustavo Salazar
-| Java: [http://code.google.com/p/mydas/wiki/MyDASTutorial2ndPart MyDAS Part 2][http://code.google.com/p/mydas/wiki/MyDASTutorial3rdPart MyDAS Part 3]
+| Java: [http://code.google.com/p/mydas/wiki/MyDASTutorial2ndPart MyDAS Part 2][http://code.google.com/p/mydas/wiki/MyDASTutorial3rdPart MyDAS Part 3]Perl:[http://www.ebi.ac.uk/~aj/das_workshop_2010/proserver_tutorial_2.html ProServer Part 2][http://www.ebi.ac.uk/~aj/das_workshop_2010/proserver_tutorial_3.html ProServer Part 3]
 |-
 |14:15 - 14:35
 |DAS clients - Putting it all together
@@ -61,7 +61,7 @@ All 3 days will be held in the EBI training room.
 |14:35 - 15:10
 |Talk and Tutorial -DAS client libraries to query DAS sources
 |Andy Jenkinson, Rafael Jimenez, Jose Villaveces
-|[http://www.ebi.ac.uk/~jvillave/wiki/doku.php?id=jsdas JSDAS Tutorial], [http://www.ebi.ac.uk/~rafael/dokuwiki/doku.php?id=das:courses:dasobert Dasobert Tutorial]
+|Javascript:[http://www.ebi.ac.uk/~jvillave/wiki/doku.php?id=jsdas JSDAS Tutorial], Java:[http://www.ebi.ac.uk/~rafael/dokuwiki/doku.php?id=das:courses:dasobert Dasobert Tutorial], Perl:[http://www.ebi.ac.uk/~aj/das_workshop_2010/daslite_tutorial.html Bio::Das::Lite]
 |-style="background:#ffdead;"
 | 15:10 - 15:30
 | colspan="3" | Cofee Break

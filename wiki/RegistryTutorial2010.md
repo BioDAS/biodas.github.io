@@ -98,6 +98,10 @@ including:
 > ***You can also perform the sources query for a single datasource:
 > <http://www.dasregistry.org/das1/DS_409>***
 
+> ***If you go back to the list of servers page you can search for data
+> sources with specific types by for example typing exon in the text
+> area close to the top of the page with a "search types only" button***
+
 > ***Finally, you may like to take a look at the [DAS Registry Server
 > Help with Scripting
 > Page](http://www.dasregistry.org/help_scripting.jsp) that provides

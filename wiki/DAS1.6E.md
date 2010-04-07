@@ -338,9 +338,9 @@ client.
 Addition of an optional zero-or-more <FORMAT> element as a child of
 <TYPE> element in types command response, with required attributes
 "name" (arbitrary character string that uniquely identifies this format
-within the server) and mimetype (must follow standard mimetype
-identifier rules). Note that this strategy also allows for multiple
-formats with the same mimetype.
+within the server) and "mimetype" (must follow standard [mimetype
+identifier rules](http://tools.ietf.org/html/rfc2045)). Note that this
+strategy also allows for multiple formats with the same mimetype.
 
 Addition of an optional "format" query parameter to features query.
 Format parameter SHOULD be a format name that the server recognizes. If

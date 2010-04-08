@@ -104,8 +104,8 @@ All 3 days will be held in the EBI training room.
 |[]
 |-
 |11:00
-|Visualization of sequence features with STRAP
-|Christoph Gille
+|1.6 Spec Summary
+|Jonathan Warren
 |[]
 |-
 |11:20

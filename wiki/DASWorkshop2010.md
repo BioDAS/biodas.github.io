@@ -45,7 +45,7 @@ Day 2
 | 10:00         | Opening talk                                                                                                            | Tim Hubbard                 | \[\]         |
 | 10:20         | Collaborative genomics with DAS- a new interactive DAS client                                                           | Thomas Down                 | \[\]         |
 | 10:40         | Progress to report on linking EMBOSS and DAS                                                                            | Peter Rice                  | \[\]         |
-| 11:00         | Visualization of sequence features with STRAP                                                                           | Christoph Gille             | \[\]         |
+| 11:00         | 1.6 Spec Summary                                                                                                        | Jonathan Warren             | \[\]         |
 | 11:20         | easyDAS: a hosted solution for DAS server creation                                                                      | Bernat Gel                  | \[\]         |
 | 11:40         | Update on the DAS Registry                                                                                              | Jonathan Warren             | \[\]         |
 | 12:00         | DAS service to provide information on 3D motifs- PDBe                                                                   | Adel Golovin                | \[\]         |

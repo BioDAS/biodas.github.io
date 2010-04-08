@@ -78,6 +78,9 @@ Finish at 4pm.
 
 ### Suggested Topics:
 
+[doodle poll for expressing interest in
+topics](http://www.doodle.com/cvb5btwmrzz9avgh)
+
 `Content negotiation and efficient data formats`
 
 `how / if the big amounts data can be served via das`

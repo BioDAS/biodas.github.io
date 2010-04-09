@@ -149,7 +149,7 @@ All 3 days will be held in the EBI training room.
 |14:50
 |Data integration in ENFIN using standards; the EnCore DAS service
 |Rafael Jimenez
-|[]
+|[http://www.ebi.ac.uk/~rafael/talks/2010-04-07_workshop_das/2010-07-07_workshop_das_encore.pdf PDF], [http://www.ebi.ac.uk/~rafael/talks/2010-04-07_workshop_das/2010-07-07_workshop_das_encore.ppt PPT]
 |- style="background:#ffdead;"
 |15:10-15:30
 | colspan="3" | coffee break

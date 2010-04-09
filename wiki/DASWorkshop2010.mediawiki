@@ -33,7 +33,7 @@ All 3 days will be held in the EBI training room.
 | 10:30 - 10:40
 | The DAS Game
 | Rafael Jimenez
-| 
+| [http://www.ebi.ac.uk/~rafael/talks/2010-04-07_workshop_das/dasGame/ Game cards]
 |-
 | 10:40 - 11:40
 | Hands on DAS Server Tutorials - Setting up a quick source for sharing data with your colleagues using Proserver or MyDAS - The room will be split into two groups: one for Java and one for Perl.

@@ -335,6 +335,11 @@ client.
 
 #### Proposed Implementation
 
+At the DAS workshop the following was discussed as an alternative to the
+initial proposal below.
+
+##### Initial proposal
+
 Addition of an optional zero-or-more <FORMAT> element as a child of
 <TYPE> element in types command response, with required attributes
 "name" (arbitrary character string that uniquely identifies this format

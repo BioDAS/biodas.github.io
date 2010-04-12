@@ -214,7 +214,6 @@ Can query a datasource for a list of the formats it supports for example  ../das
 
 </pre>
 
-
 =====Initial proposal=====
 Addition of  an optional zero-or-more <FORMAT> element as a child of <TYPE> element in types command response, with required attributes "name" (arbitrary character string that uniquely identifies this format within the server) and "mimetype" (must follow standard [http://tools.ietf.org/html/rfc2045 mimetype identifier rules]).  Note that this strategy also allows for multiple formats with the same mimetype.
 

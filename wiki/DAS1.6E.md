@@ -338,6 +338,28 @@ client.
 At the DAS workshop the following was discussed as an alternative to the
 initial proposal below.
 
+Can query a datasource for a list of the formats it supports for example
+../das/hg18/format should result in something like the following:
+
+    <DASFORMAT>
+     <COMMAND name="das1:features">
+       <FORMAT name="das-JSON">
+    ..if no types specified here then all types for this source have this format for this command
+         <TYPE id="gene"/>
+         <TYPE id="exon"/>
+       </FORMAT>
+       <FORMAT name="das-GoogleProtocolBuffers">
+       ..if no types specified here then all types for this source have this format for this command
+         <TYPE id="gene"/>
+         <TYPE id="exon"/>
+       </FORMAT>
+     </COMMAND>
+    <COMMAND name="das1:entry_points">
+       <FORMAT name="das-JSON">
+       </FORMAT>
+     </COMMAND>
+    </DASFORMAT>
+
 ##### Initial proposal
 
 Addition of an optional zero-or-more <FORMAT> element as a child of

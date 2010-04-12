@@ -189,6 +189,31 @@ Another advantage is simplicity. If we allow a DAS server to send back other for
 ====Proposed Implementation====
 At the DAS workshop the following was discussed as an alternative to the initial proposal below.
 
+Can query a datasource for a list of the formats it supports for example  ../das/hg18/format should result in something like the following:
+<pre>
+<DASFORMAT>
+ <COMMAND name="das1:features">
+   <FORMAT name="das-JSON">
+..if no types specified here then all types for this source have this format for this command
+     <TYPE id="gene"/>
+     <TYPE id="exon"/>
+   </FORMAT>
+   <FORMAT name="das-GoogleProtocolBuffers">
+   ..if no types specified here then all types for this source have this format for this command
+     <TYPE id="gene"/>
+     <TYPE id="exon"/>
+   </FORMAT>
+ </COMMAND>
+<COMMAND name="das1:entry_points">
+   <FORMAT name="das-JSON">
+   </FORMAT>
+ </COMMAND>
+</DASFORMAT>
+
+
+
+</pre>
+
 
 =====Initial proposal=====
 Addition of  an optional zero-or-more <FORMAT> element as a child of <TYPE> element in types command response, with required attributes "name" (arbitrary character string that uniquely identifies this format within the server) and "mimetype" (must follow standard [http://tools.ietf.org/html/rfc2045 mimetype identifier rules]).  Note that this strategy also allows for multiple formats with the same mimetype.

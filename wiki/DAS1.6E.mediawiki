@@ -221,6 +221,58 @@ Addition of an optional "format" query parameter to features query.  Format para
 
 Both of these additions are optional, therefore these changes will not affect servers or clients that do not support alternative content formats.
 
+==Authentication==
+
+Per-user access control for DAS servers would be useful for federated distribution of private data, and would be necessary for the use of DAS in circumstances that are commercially sensitive or subject to patient privacy controls. Although authentication can theoretically be overlaid onto DAS, it has become apparent that a lack of an explicit recommendation for a single implementation strategy has prevented take-up by DAS clients and servers. As discussed at the [[DASWorkshop2010|2010 DAS Workshop]], there are two alternative proposals:
+
+===Standard HTTP Authentication===
+
+In this model, the DAS specification would simply specify that the existing HTTP authentication strategies ([http://en.wikipedia.org/wiki/Basic_access_authentication basic] and [http://en.wikipedia.org/wiki/Digest_access_authentication digest]) can be used in DAS, and that clients should be ready to handle these situations. This strategy is simple to adopt, and has a large number of existing implementation tools. However, clients and servers must all maintain independent implementations (with all of the regulatory privacy concerns) and users have separate login credentials for every DAS server.
+
+===Delegated Authentication===
+
+In a delegated authentication system, authentication is effectively "outsourced" to a third party by clients and servers, leaving servers only to deal with authorisation (i.e. servers maintain lists of users who are allowed access, but don't have to worry about passwords). The model is used by systems such as OpenID. However, OpenID itself is fundamentally tied to user-browser environments due to its use of HTTP redirects, and therefore cannot be used with DAS (not all DAS clients are browser based, and even browser-based clients use proxies due to technical limitations). Therefore, this model is a DAS-specific implementation of delegated authentication. The below summarises the steps in an authenticated DAS request:
+
+# A DAS client asks the user for his/her "DAS logon" credentials. This would be an email address and password. The DAS client is free to do this in any mechanism, which will depend on its implementation. For example, web-based clients might use HTTPS, desktop clients can use a dialog box.
+# The DAS client forwards the credentials over HTTPS to the DAS registry, which is acting as the 'credential provider'. The client also provides a list of servers it wishes to access. The location of the registry is predefined, as the client implicitly trusts the DAS Registry to confirm that the user is who he says he is.
+# If the password is correct, the DAS registry responds with a token for the client to use in requests to each DAS server. These tokens allow the client to act on the user's behalf without divulging the user's password.
+# The DAS client initiates a DAS request (e.g. for features) to the DAS server using HTTPS, and embeds the user's email address and token in the request.
+# The DAS server forwards the email address, token and its own URL to the DAS registry (which it trusts), and asks if the token is valid for that user and server.
+# If the token is valid, and the email address identifies someone who is authorised to access the DAS server, the DAS server returns the data to the DAS client
+
+Some points about this:
+* Tokens need to be tied to a specific DAS server, as otherwise an unscrupulous server could use a token received from a client to access data from another server.
+* The registry must check email addresses. Otherwise, a user could register an email address they do not own in order to gain access to a server.
+
+===Comparison===
+
+{|
+|-
+! 
+!  HTTP
+!  Delegated
+|-
+! width="130"|Credentials
+|  The user must maintain usernames and passwords for each and every DAS server.
+|  The user has a single "DAS password".
+|-
+!DAS client trust
+|  The user must trust a third party DAS client with his password. Unscrupulous clients can access a user's data from a '''single''' DAS source.
+|  The user must trust a third party DAS client with his password. Unscrupulous clients can access '''all''' a user's data from '''any''' DAS source.
+|-
+!Storing passwords
+|  DAS servers, and DAS clients storing passwords between sessions, need to worry about secure password storage.
+|  The DAS Registry, and DAS clients storing passwords between sessions, need to worry about secure password storage. Servers do not.
+|-
+!Rescinding access
+|  A user cannot rescind access (for example to a rogue client) without changing all their passwords.
+|  Tokens could be cancellable, enabling the user to visit the DAS registry and rescind access privileges to a client at will.
+|-
+!Authorisation
+|  In addition to maintaining user accounts and passwords, DAS servers must also adopt their own mechanism for authorisation.
+|  DAS servers must still adopt their own mechanism of authorisation by tying email addresses to internal user lists.
+|}
+
 ==Use of URIs for DAS identifiers==
 
 Often, the use of unique IDs within DAS is poorly executed. Formally adopting URIs as identifiers (including specifying how URIs are built from URI references within DAS XML documents) would allow cross referencing between sequences and annotations within and outside DAS.

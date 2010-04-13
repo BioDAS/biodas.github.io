@@ -85,6 +85,9 @@ provide your data via DAS:
     most extensions.
 -   [MyDas](http://code.google.com/p/mydas/) is a newer, more
     streamlined Java server but does not yet support all extensions.
+-   [EasyDAS](http://wwwdev.ebi.ac.uk/panda-srv/easydas/) is a wrapper
+    around MyDas facilitating access to the EBI's compute power for
+    those that don't have access to a server of their own.
 
 ### Validation
 

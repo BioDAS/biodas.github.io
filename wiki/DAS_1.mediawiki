@@ -39,6 +39,7 @@ Theoretically it is quite easy to implement a DAS server (once you know how). Ho
 * [http://biodas.org/servers/LDAS.html LDAS] is an older Perl server which is easy to set up but lacks support for the latest DAS features.
 * [http://www.biojava.org/wiki/Dazzle Dazzle] is a well established Java server tied to the BioJava framework and support most extensions.
 * [http://code.google.com/p/mydas/ MyDas] is a newer, more streamlined Java server but does not yet support all extensions.
+* [http://wwwdev.ebi.ac.uk/panda-srv/easydas/ EasyDAS] is a wrapper around MyDas facilitating access to the EBI's compute power for those that don't have access to a server of their own.
 
 === Validation ===
 

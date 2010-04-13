@@ -100,3 +100,11 @@ topics](http://www.doodle.com/cvb5btwmrzz9avgh)
 `The semantic web, RDF and DAS.`
 
 `DAS authentication and security`
+
+Actual topics that we discussed:
+
+`Authentication and security - see the proposed spec.`[`1`](http://www.biodas.org/wiki/DAS1.6E#Authentication%7Cspec)
+
+`Content Negogation and efficient formats.`
+
+`RDF.`

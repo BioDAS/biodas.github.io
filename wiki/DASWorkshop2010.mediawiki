@@ -221,3 +221,11 @@ Finish at 4pm.
  The semantic web, RDF and DAS.
 
  DAS authentication and security
+
+Actual topics that we discussed:
+
+ Authentication and security - see the proposed spec.[http://www.biodas.org/wiki/DAS1.6E#Authentication|spec]
+
+ Content Negogation and efficient formats.
+
+ RDF.

@@ -336,7 +336,13 @@ client.
 #### Proposed Implementation
 
 At the DAS workshop the following was discussed as an alternative to the
-initial proposal below.
+initial proposal below. The advantage of this alternative is that it
+should work well for both UCSC style sources with tracks that are
+separated by type and tracks seperated by data source name (e.g.
+ensembl). Having the format request and response separate from the types
+request/response means we do not break the 1.6 spec. The format as in
+this example also allows data providers to allow different response
+formats for different commands.
 
 Can query a datasource for a list of the formats it supports for example
 ../das/hg18/format should result in something like the following:

@@ -342,7 +342,8 @@ separated by type and tracks seperated by data source name (e.g.
 ensembl). Having the format request and response separate from the types
 request/response means we do not break the 1.6 spec. The format as in
 this example also allows data providers to allow different response
-formats for different commands.
+formats for different commands. It has also been proposed that format
+names be put on this wiki so as not to get name clashes.
 
 Can query a datasource for a list of the formats it supports for example
 ../das/hg18/format should result in something like the following:

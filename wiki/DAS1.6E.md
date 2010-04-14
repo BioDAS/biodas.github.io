@@ -343,7 +343,11 @@ ensembl). Having the format request and response separate from the types
 request/response means we do not break the 1.6 spec. The format as in
 this example also allows data providers to allow different response
 formats for different commands. It has also been proposed that format
-names be put on this wiki so as not to get name clashes.
+names be put on this wiki so as not to get name clashes. Names also need
+to be specific in that for example "JSON" format really does not say
+anything about the way the data is set out it is similar to saying my
+data comes as a tab separated file - we would not know what the
+"columns" represent.
 
 Can query a datasource for a list of the formats it supports for example
 ../das/hg18/format should result in something like the following:

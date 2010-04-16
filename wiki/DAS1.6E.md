@@ -286,14 +286,18 @@ DATE=2009-06-10 17:58:11.83588
 
 ### User Authentication
 
-The control of who is authorized or not to made modification in the
-writeback is an source implementation issue, however the authentication
-of the user should be done using [OpenId](http://www.openid.org/) as
-seen in the examples above the openid user should be sent through the
-NOTE element: <code>
+The control of who is authorized or not to made modifications in the
+writeback is a source implementation issue, however the recommendation
+to pass parameters is through the NOTE element, in the way
+\[KEY\]=\[VALUE\], creating as many NOTE elements as parameters are
+required for the particular implementation. <code>
 
 <NOTE>
-USER=<http://user.myopenid.com>
+USER=login
+
+</NOTE>
+<NOTE>
+PASSWORD=keypass
 
 </NOTE>
 </code>

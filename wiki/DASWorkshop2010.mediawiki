@@ -226,6 +226,6 @@ Actual topics that we discussed:
 
  Authentication and security - see the proposed spec.[http://www.biodas.org/wiki/DAS1.6E#Authentication|spec]
 
- Content Negogation and efficient formats.
+ Content Negogation and efficient formats- see proposal spec.[http://www.biodas.org/wiki/DAS1.6E#Support_for_alternative_content_formats|spec].
 
  RDF.

@@ -6,6 +6,16 @@ layout: wiki
 
 <big>**Welcome To BioDAS.org**</big>
 
+The 2010 Sanger/EBI DAS Workshop is now running
+-----------------------------------------------
+
+7th-9th April 2010 at the Wellcome Trust /EBI Genome Campus, Hinxton,
+UK.
+
+A [3-day workshop on
+DAS](http://www.ebi.ac.uk/training/handson/DAS_070410.html) Schedule:
+[DASWorkshop2010](/wiki/DASWorkshop2010 "wikilink")
+
 About DAS
 ---------
 

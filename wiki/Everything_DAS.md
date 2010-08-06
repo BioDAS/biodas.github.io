@@ -248,7 +248,7 @@ Discovering DAS sources programmatically
 The registry produces it's own sources.xml in response to the url
 request <http://www.dasregistry.org/das1/sources> and this can be used
 by clients to get information on the many DAS sources available around
-the world and what there capabilities are. Clients can now find out if
+the world and what their capabilities are. Clients can now find out if
 the data sources are valid or not due to a "valid" tag in the prop
 elements returned for each source in the sources.xml from the sources
 request. example snippet of a sources with a validated features cmd:

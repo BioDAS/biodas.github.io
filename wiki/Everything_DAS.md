@@ -127,10 +127,14 @@ here.](http://code.google.com/p/mydas/)
 
 [Proserver Page at the Sanger
 Institute.](http://www.sanger.ac.uk/Software/analysis/proserver/)  
-[Proserver
-Tutorial](http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proserver_tutorial.html)  
-[Guide to
-Proserver](http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proserver_guide.html)  
+[Proserver Tutorial
+1](http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proserver_tutorial_1/proserver_tutorial_1.html)  
+[Proserver Tutorial
+2](http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proserver_tutorial_2/proserver_tutorial_2.html)  
+[Proserver Tutorial
+3](http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proserver_tutorial_3/proserver_tutorial_3.html)  
+[Proserver Developers'
+Guide](http://proserver.svn.sourceforge.net/viewvc/proserver/trunk/doc/proserver_guide.html)  
 
 Implementing the latest specs
 -----------------------------

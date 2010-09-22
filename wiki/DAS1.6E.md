@@ -13,6 +13,21 @@ Existing Extensions
 These extensions have undergone development and have solid
 implementations.
 
+Alignment
+---------
+
+This extension is a new command, carried forward from its equivalent
+extension in the [DAS 1.53E extended
+specification](http://www.dasregistry.org/spec_1.53E.jsp) **with some
+modifications**. An official specification for the extension under DAS
+1.6 was proposed, but was removed in draft 7. Instead a redesign of the
+query mechanism is proposed in order to better accommodate genomic
+alignments. For posterity, draft 6 contains the last version before the
+specification was removed (see the [DAS 1.6](/wiki/DAS1.6 "wikilink") page for
+details of drafts). Discussion should be directed to the mailing list
+(see the [Community Portal](/wiki/BioDAS:Community_Portal "wikilink") page for
+details).
+
 Interaction
 -----------
 

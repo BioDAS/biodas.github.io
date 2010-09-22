@@ -37,8 +37,9 @@ The specification has been written as a number of drafts:
 -   [Draft 4](http://www.ebi.ac.uk/~aj/1.6_draft4/documents/spec.html)
 -   [Draft 5](http://www.ebi.ac.uk/~aj/1.6_draft5/documents/spec.html)
 -   [Draft 6](http://www.ebi.ac.uk/~aj/1.6_draft6/documents/spec.html)
+-   [Draft 7](http://www.ebi.ac.uk/~aj/1.6_draft7/documents/spec.html)
 
-Last modified: 23rd June 2010
+Last modified: 22nd September 2010
 
 (DAS) 1.6 Development and Tutorials
 ===================================

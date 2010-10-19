@@ -42,9 +42,9 @@ Hundreds of DAS servers are currently running worldwide, including those provide
 
 == Versions of DAS ==
 
-The original DAS specification was written by Lincoln Stein, Sean Eddy, and Robin Dowell. It is widely adopted and well supported, particularly throughout Europe, and is the basis for a large number of existing clients and servers. The protocol has been developed incrementally since its inception and thus there are several successive versions of the specification, each expanding on the last whilst retaining a focus on backwards compatibility. The current specification of DAS is version [http://www.biodas.org/documents/spec-1.53.html 1.53] and the upcoming version is [[DAS1.6|1.6]].
+The original DAS specification was written by Lincoln Stein, Sean Eddy, and Robin Dowell. It is widely adopted and well supported, particularly throughout Europe, and is the basis for a large number of existing clients and servers. The protocol has been developed incrementally since its inception and thus there are several successive versions of the specification, each expanding on the last whilst retaining a focus on backwards compatibility. The current specification of DAS is version [http://www.biodas.org/documents/spec-1.6.html 1.6].
 
-Though mature, the protocol continues to be extended to cater for the needs of the DAS community via extensions to the specification. Together, these extensions form an "extended specification". The current version is [http://www.dasregistry.org/spec_1.53E.jsp 1.53E] and the upcoming version is [[DAS1.6E|1.6E]].
+Though mature, the protocol continues to be extended to cater for the needs of the DAS community via extensions to the specification. Together, these extensions form an "extended specification". The current version is [[DAS1.6E|1.6E]].
 
 <b>NOTE:</b> The DAS/2 project is an entirely separate specification which although based on the DAS architecture is not backwards compatible with existing servers and clients. It is described separately on the [[DAS/2]] page.
 

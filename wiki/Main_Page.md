@@ -91,14 +91,12 @@ clients and servers. The protocol has been developed incrementally since
 its inception and thus there are several successive versions of the
 specification, each expanding on the last whilst retaining a focus on
 backwards compatibility. The current specification of DAS is version
-[1.53](http://www.biodas.org/documents/spec-1.53.html) and the upcoming
-version is [1.6](/wiki/DAS1.6 "wikilink").
+[1.6](http://www.biodas.org/documents/spec-1.6.html).
 
 Though mature, the protocol continues to be extended to cater for the
 needs of the DAS community via extensions to the specification.
 Together, these extensions form an "extended specification". The current
-version is [1.53E](http://www.dasregistry.org/spec_1.53E.jsp) and the
-upcoming version is [1.6E](/wiki/DAS1.6E "wikilink").
+version is [1.6E](/wiki/DAS1.6E "wikilink").
 
 <b>NOTE:</b> The DAS/2 project is an entirely separate specification
 which although based on the DAS architecture is not backwards compatible

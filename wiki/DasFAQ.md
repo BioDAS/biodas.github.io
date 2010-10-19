@@ -21,6 +21,14 @@ format enabling the distribution of massive microarray and Next
 Generation Sequencing data sets. DAS/1 requires data distribution
 through text based DAS XML.
 
+Which version of DAS/1 should I use?
+------------------------------------
+
+As of 19th October 2010, the latest official version of DAS/1 is
+[version 1.6](/wiki/DAS1.6 "wikilink"). Compatibility with previous versions
+is covered on the [DAS 1.6 Migration](/wiki/DAS_1.6_Migration "wikilink")
+page.
+
 What applications are the actual "DAS clients"?
 -----------------------------------------------
 

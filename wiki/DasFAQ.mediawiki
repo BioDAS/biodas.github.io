@@ -6,6 +6,10 @@
 
 "DAS" usually refers to version 1 of the protocol, sometimes called DAS/1. It continues to evolve and be supported, and is the basis of implementations for the vast majority of clients and servers. "DAS/2" is a separate protocol that is inspired by many of the same principles as DAS, but is not backwards compatible. One of the key differences is that DAS/2 allows annotations to be returned using any text or binary data format enabling the distribution of massive microarray and Next Generation Sequencing data sets.  DAS/1 requires data distribution through text based DAS XML.
 
+== Which version of DAS/1 should I use? ==
+
+As of 19th October 2010, the latest official version of DAS/1 is [[DAS1.6|version 1.6]]. Compatibility with previous versions is covered on the [[DAS 1.6 Migration]] page.
+
 == What applications are the actual "DAS clients"? ==
 
 DAS applications generally take the form of graphical genome browsers,

@@ -5,7 +5,7 @@ layout: wiki
 ---
 
 Details of existing and proposed Extensions to the [DAS 1.6
-specification](/wiki/DAS1.6 "wikilink"), once it has been released.
+specification](/wiki/DAS1.6 "wikilink").
 
 Existing Extensions
 ===================

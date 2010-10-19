@@ -1,4 +1,4 @@
-Details of existing and proposed Extensions to the [[DAS1.6|DAS 1.6 specification]], once it has been released.
+Details of existing and proposed Extensions to the [[DAS1.6|DAS 1.6 specification]].
 
 =Existing Extensions=
 

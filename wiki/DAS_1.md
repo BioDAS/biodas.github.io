@@ -9,33 +9,38 @@ tags:
 About the DAS Protocol
 ----------------------
 
-The current DAS specification, [DAS
-1.53](http://www.biodas.org/documents/spec-1.53.html), was written by
-Lincoln Stein, Sean Eddy, and Robin Dowell and is the basis for a large
-number of software implementations. Around 650 public DAS data sources
-are currently running worldwide, with many more private data sources
-known to be in use. A number of websites and software applications
-function as DAS clients.
+The DAS protocol was written by Lincoln Stein, Sean Eddy, and Robin
+Dowell in 2000, and is the basis for a large number of software
+implementations. Around 650 public DAS data sources are currently
+running worldwide, with many more private data sources known to be in
+use. A number of websites and software applications function as DAS
+clients.
+
+As of 19th October 2010, the latest version of the DAS protocol is [DAS
+1.6](/wiki/DAS1.6 "wikilink").
 
 The specification is being actively supported, and continues to be
 extended in order to cater for the needs of its existing users and
 expand its applicability to additional arenas. For example, though
-originally focussed on genomic annotation, extensions have enabled DAS
-to be used to distribute alignment, structural and molecular interaction
-data. These extensions are listed in the unofficial [1.53E (extended)
-specification](http://www.dasregistry.org/spec_1.53E.jsp).
+originally focussed on genomic annotation, the latest version includes
+support for protein sequences, structures and annotations. In addition,
+extensions have enabled DAS to be used to distribute alignment and
+molecular interaction data. These and other extensions are listed in the
+unofficial [DAS 1.6E](/wiki/DAS1.6E "wikilink") specification.
 
 <b>Note:</b> This protocol should not be confused with that of
 [DAS/2](/wiki/DAS/2 "wikilink"), an entirely separate project.
 
 The [DAS Overview](/wiki/DAS/1/Overview "wikilink") provides a glossary and
 list of concepts. The [DAS Plans](/wiki/DAS_Plans "wikilink") page describes
-some details of possible future improvements to DAS.
+some details of possible future improvements to DAS. See the [DAS
+specification](/wiki/DAS_specification "wikilink") page for more information
+on the different versions of DAS.
 
 Architecture
 ------------
 
-The Distributed Annotation System comprises three types of component:
+The Distributed Annotation System comprises four types of component:
 
 ### Data source
 
@@ -70,11 +75,12 @@ How to set up a DAS server
 Theoretically it is quite easy to implement a DAS server (once you know
 how). However, there are also some well established multi-purpose server
 implementations designed to be as flexible and easy to set up as
-possible. Many distributions contain ready made data-adaptors (e.g. for
+possible. It is strongly suggested to use one of these existing
+packages. Many distributions contain ready made data-adaptors (e.g. for
 GFF files). For custom data, simple plugins can be written to quickly
 provide your data via DAS:
 
--   [Proserver](http://www.sanger.ac.uk/proserver/) is a well
+-   [ProServer](http://www.sanger.ac.uk/proserver/) is a well
     established Perl server, supports all DAS extensions and is the most
     heavily used.
 -   [LDAS](http://biodas.org/servers/LDAS.html) is an older Perl server
@@ -85,8 +91,8 @@ provide your data via DAS:
     most extensions.
 -   [MyDas](http://code.google.com/p/mydas/) is a newer, more
     streamlined Java server but does not yet support all extensions.
--   [EasyDAS](http://wwwdev.ebi.ac.uk/panda-srv/easydas/) is a wrapper
-    around MyDas facilitating access to the EBI's compute power for
+-   [EasyDAS](http://www.ebi.ac.uk/panda-srv/easydas/) is a wrapper
+    around ProServer facilitating access to the EBI's compute power for
     those that don't have access to a server of their own.
 
 ### Validation

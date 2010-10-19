@@ -7,6 +7,14 @@ layout: wiki
 [DAS 1.6](http://www.biodas.org/documents/spec-1.6.html) is, as of 19th
 October 2010, the latest official version of the DAS specification.
 
+The DAS specification is a technical document but with some effort
+should hopefully be readable and understandable by people without a deep
+understanding of broader technical issues and other system
+architectures. That is, it makes only basic assumptions.
+
+Purpose
+-------
+
 It is the first official version published in several years, and aims
 to:
 
@@ -21,13 +29,11 @@ to:
 -   migrate from the use of DTDs for describing the XML formats to
     RelaxNG
 
-The DAS specification is a technical document but with some effort
-should hopefully be readable and understandable by people without a deep
-understanding of broader technical issues and other system
-architectures. That is, it makes only basic assumptions.
+Development
+-----------
 
-The specification was developed via progression through a number of
-drafts:
+The specification was developed as a community collaboration via
+progression through a number of drafts:
 
 -   [Draft 1](http://www.ebi.ac.uk/~aj/1.6_draft1/documents/spec.html)
 -   [Draft 2](http://www.ebi.ac.uk/~aj/1.6_draft2/documents/spec.html)
@@ -36,6 +42,13 @@ drafts:
 -   [Draft 5](http://www.ebi.ac.uk/~aj/1.6_draft5/documents/spec.html)
 -   [Draft 6](http://www.ebi.ac.uk/~aj/1.6_draft6/documents/spec.html)
 -   [Draft 7](http://www.ebi.ac.uk/~aj/1.6_draft7/documents/spec.html)
+
+Compatibility
+-------------
+
+Software developers wanting to know more about supporting or migrating
+between different versions of the specification may wish to consult the
+[DAS 1.6 Migration](/wiki/DAS_1.6_Migration "wikilink") page.
 
 Extensions
 ----------

@@ -6,6 +6,13 @@ layout: wiki
 
 <big>**Welcome To BioDAS.org**</big>
 
+Notice
+------
+
+<span style="color: darkred;">PLEASE NOTE: </span>a new version of DAS
+was recently released! See the [Versions of
+DAS](#Versions_of_DAS "wikilink") section below for more information.
+
 About DAS
 ---------
 
@@ -91,7 +98,7 @@ clients and servers. The protocol has been developed incrementally since
 its inception and thus there are several successive versions of the
 specification, each expanding on the last whilst retaining a focus on
 backwards compatibility. The current specification of DAS is version
-[1.6](http://www.biodas.org/documents/spec-1.6.html).
+[1.6](/wiki/DAS1.6 "wikilink").
 
 Though mature, the protocol continues to be extended to cater for the
 needs of the DAS community via extensions to the specification.

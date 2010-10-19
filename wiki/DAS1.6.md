@@ -4,16 +4,16 @@ permalink: wiki/DAS1.6/
 layout: wiki
 ---
 
-**Note: this is NOT the official version of the [DAS
-specification](http://biodas.org/documents/spec.html).**
-
 Distributed Annotation System (DAS) 1.6
 =======================================
 
-This is a working document and a proposal for a reworked DAS
-specification which hopes to:
+[DAS 1.6](http://www.biodas.org/documents/spec-1.6.html) is, as of 19th
+October 2010, the latest official version of the DAS specification.
 
--   clarify the existing DAS spec
+It is the first official version published in several years, and aims
+to:
+
+-   clarify ambiguities in the previous DAS specification
 -   better reflect how DAS is being used in the community today
 -   better reflect the use of DAS beyond the genome-centric arena
     (protein sequences and structures)
@@ -24,12 +24,13 @@ specification which hopes to:
 -   migrate from the use of DTDs for describing the XML formats to
     RelaxNG
 
-Note: the DAS specification is a technical document but with some effort
+The DAS specification is a technical document but with some effort
 should hopefully be readable and understandable by people without a deep
 understanding of broader technical issues and other system
 architectures. That is, it makes only basic assumptions.
 
-The specification has been written as a number of drafts:
+The specification was developed via progression through a number of
+drafts:
 
 -   [Draft 1](http://www.ebi.ac.uk/~aj/1.6_draft1/documents/spec.html)
 -   [Draft 2](http://www.ebi.ac.uk/~aj/1.6_draft2/documents/spec.html)
@@ -39,13 +40,20 @@ The specification has been written as a number of drafts:
 -   [Draft 6](http://www.ebi.ac.uk/~aj/1.6_draft6/documents/spec.html)
 -   [Draft 7](http://www.ebi.ac.uk/~aj/1.6_draft7/documents/spec.html)
 
-Last modified: 22nd September 2010
+Links
+-----
 
-(DAS) 1.6 Development and Tutorials
-===================================
+[DAS 1.6 in Dazzle](/wiki/DAS_1.6_in_Dazzle "wikilink")
 
-Dazzle Example Adaptor for 1.6 spec source compliant with the registry
-----------------------------------------------------------------------
+DAS 1.6 Development and Tutorials
+=================================
+
+Dazzle Example Adaptor
+----------------------
+
+Below is an example adaptor plugin for the Dazzle DAS server. It follows
+the 1.6 spec and is compliant with the [DAS
+Registry](/wiki/DasRegistry "wikilink").
 
 Subversion develpment repository
 <http://www.derkholm.net/svn/repos/dazzle/branches/16Dazzle> See class

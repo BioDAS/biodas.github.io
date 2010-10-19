@@ -9,10 +9,10 @@ See the sidebar (documentation box)
 [DAS](/wiki/DAS/1 "wikilink")
 -----------------------
 
-[1.53](http://www.biodas.org/documents/spec.html) : the current official version of the DAS specification  
-[1.53E](http://www.dasregistry.org/spec_1.53E.jsp) : the extensions adopted by the community for inclusion in a future specification  
-[1.6](/wiki/DAS1.6 "wikilink") : the upcoming version, to better represent use of DAS by the community  
-[1.6E](/wiki/DAS1.6E "wikilink") : proposed extensions for the upcoming 1.6 specification  
+[1.6](/wiki/DAS1.6 "wikilink") : the current official version of the DAS specification  
+[1.6E](/wiki/DAS1.6E "wikilink") : extensions proposed by the community for inclusion in a future official specification  
+[1.53](http://www.biodas.org/documents/spec.html) : the previous version of the DAS specification  
+[1.53E](http://www.dasregistry.org/spec_1.53E.jsp) : extensions to the previous version, some of which are adopted in DAS 1.6  
 
 [DAS/2](/wiki/DAS/2 "wikilink")
 -------------------------

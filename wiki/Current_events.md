@@ -4,6 +4,12 @@ permalink: wiki/Current_events/
 layout: wiki
 ---
 
+GMOD Europe meeting, September 2010
+-----------------------------------
+
+A [2 day meeting](http://gmod.org/wiki/GMOD_Europe_2010) of the Generic
+Model Organism Database project.
+
 Sanger/EBI DAS Workshop, April 2010
 -----------------------------------
 
@@ -19,6 +25,15 @@ progressing DAS projects.
 See the [schedule](/wiki/DASWorkshop2010 "wikilink") for the latest
 information on tutorials and presentations.
 
+EBI Programmatic access in Perl, Feb 2010
+-----------------------------------------
+
+22nd-26th February 2010 at the European Bioinformatics Institute,
+Hinxton, UK.
+
+\[<http://www.ebi.ac.uk/Information/events/calendar/viewevent.php?events_category_id>=&events\_subcategory\_id=&start\_date=20100222090000&events\_data\_id=1609&end\_date=20100226140000
+Details\]
+
 Sanger/EBI DAS Workshop, March 2009
 -----------------------------------
 
@@ -33,8 +48,8 @@ progressing DAS projects.
 See the [schedule](/wiki/DASworkshop200903 "wikilink") for the tutorials and
 presentations.
 
-Programmatic access in Java, Nov 2008
--------------------------------------
+EBI Programmatic access in Java, Nov 2008
+-----------------------------------------
 
 24th-27th November 2008 at the European Bioinformatics Institute,
 Hinxton, UK.

@@ -4,9 +4,6 @@ permalink: wiki/DAS1.6/
 layout: wiki
 ---
 
-Distributed Annotation System (DAS) 1.6
-=======================================
-
 [DAS 1.6](http://www.biodas.org/documents/spec-1.6.html) is, as of 19th
 October 2010, the latest official version of the DAS specification.
 

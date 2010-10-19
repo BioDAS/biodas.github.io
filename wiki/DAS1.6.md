@@ -37,6 +37,12 @@ drafts:
 -   [Draft 6](http://www.ebi.ac.uk/~aj/1.6_draft6/documents/spec.html)
 -   [Draft 7](http://www.ebi.ac.uk/~aj/1.6_draft7/documents/spec.html)
 
+Extensions
+----------
+
+Several extensions to the 1.6 are proposed by community members. See the
+[DAS1.6E](/wiki/DAS1.6E "wikilink") page for more details.
+
 Links
 -----
 

@@ -1,4 +1,5 @@
-[http://www.biodas.org/documents/spec-1.6.html DAS 1.6] is, as of 19th October 2010, the latest official version of the DAS specification.
+DAS 1.6 is, as of 19th October 2010, the latest official version of DAS. The specification document is found here:
+[http://www.biodas.org/documents/spec-1.6.html DAS 1.6 specification]
 
 The DAS specification is a technical document but with some effort should hopefully be readable and understandable by people without a deep understanding of broader technical issues and other system architectures. That is, it makes only basic assumptions.
 
@@ -8,7 +9,7 @@ It is the first official version published in several years, and aims to:
 * clarify ambiguities in the previous DAS specification
 * better reflect how DAS is being used in the community today
 * better reflect the use of DAS beyond the genome-centric arena (protein sequences and structures)
-* ratify commands from the [http://www.dasregistry.org/spec_1.53E.jsp 1.53E spec] 
+* ratify commands from the [http://www.dasregistry.org/spec_1.53E.jsp 1.53E extended spec] 
 * introduce some ideas inspired by DAS/2
 * formally introduce the DAS registry
 * migrate from the use of DTDs for describing the XML formats to RelaxNG

@@ -8,11 +8,11 @@ tags:
 
 <big>**DAS Frequently Asked Questions**</big>
 
-Which version of DAS should I be using?
----------------------------------------
+Should I be using DAS or DAS/2?
+-------------------------------
 
-In short, "DAS" usually refers to the original version of the protocol.
-It continues to evolve and be supported, and is the basis of
+"DAS" usually refers to version 1 of the protocol, sometimes called
+DAS/1. It continues to evolve and be supported, and is the basis of
 implementations for the vast majority of clients and servers. "DAS/2" is
 a separate protocol that is inspired by many of the same principles as
 DAS, but is not backwards compatible. One of the key differences is that

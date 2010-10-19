@@ -13,7 +13,7 @@ Information Source
 ------------------
 
 The full specification, available at
-<http://www.biodas.org/documents/spec.html>, serves as the primary
+<http://www.biodas.org/documents/spec-1.6.html>, serves as the primary
 source for this document and will be plagiarized without explicit
 notice. Any reference to this document will be made through the
 convention <U>Specs</U>.

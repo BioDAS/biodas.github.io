@@ -40,26 +40,20 @@ on the different versions of DAS.
 Architecture
 ------------
 
-The Distributed Annotation System comprises four types of component:
+The Distributed Annotation System comprises three types of component:
 
 ### Data source
 
 A data source provides programmatic access to data over a network,
 typically the internet. Each <i>data source</i> contains a set of data
-from one provider, for example Pfam domains.
+from one provider, for example Pfam domains. One or more <i>data
+sources</i> may be hosted by a single <i>DAS server</i>.
 
 ### Registry
 
 The [ DAS Registry](/wiki/DasRegistry "wikilink") lists and describes public
 <i>data sources</i> and the types of data that may be communicated using
 DAS. It is accessible programatically.
-
-### Server
-
-The term <i>DAS server</i> is often used interchangeably with <i>DAS
-source</i>. However a server is technically a piece of software used to
-host one or more <i>data sources</i>, and like the <i>registry</i> can
-provide details of these <i>data sources</i>.
 
 ### Client
 

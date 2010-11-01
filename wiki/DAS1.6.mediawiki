@@ -14,6 +14,16 @@ It is the first official version published in several years, and aims to:
 * formally introduce the DAS registry
 * migrate from the use of DTDs for describing the XML formats to RelaxNG
 
+The list of changes is listed here: [[DAS 1.6 Changes]].
+
+==Compatibility==
+
+Software developers wanting to know more about supporting or migrating between different versions of the specification may wish to consult the [[DAS 1.6 Migration]] page.
+
+==Extensions==
+
+Several extensions to the 1.6 are proposed by community members. See the [[DAS1.6E]] page for more details.
+
 ==Development==
 
 The specification was developed as a community collaboration via progression through a number of drafts:
@@ -24,14 +34,6 @@ The specification was developed as a community collaboration via progression thr
 * [http://www.ebi.ac.uk/~aj/1.6_draft5/documents/spec.html Draft 5]
 * [http://www.ebi.ac.uk/~aj/1.6_draft6/documents/spec.html Draft 6]
 * [http://www.ebi.ac.uk/~aj/1.6_draft7/documents/spec.html Draft 7]
-
-==Compatibility==
-
-Software developers wanting to know more about supporting or migrating between different versions of the specification may wish to consult the [[DAS 1.6 Migration]] page.
-
-==Extensions==
-
-Several extensions to the 1.6 are proposed by community members. See the [[DAS1.6E]] page for more details.
 
 ==Links==
 

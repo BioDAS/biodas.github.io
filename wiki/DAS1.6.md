@@ -30,19 +30,8 @@ to:
 -   migrate from the use of DTDs for describing the XML formats to
     RelaxNG
 
-Development
------------
-
-The specification was developed as a community collaboration via
-progression through a number of drafts:
-
--   [Draft 1](http://www.ebi.ac.uk/~aj/1.6_draft1/documents/spec.html)
--   [Draft 2](http://www.ebi.ac.uk/~aj/1.6_draft2/documents/spec.html)
--   [Draft 3](http://www.ebi.ac.uk/~aj/1.6_draft3/documents/spec.html)
--   [Draft 4](http://www.ebi.ac.uk/~aj/1.6_draft4/documents/spec.html)
--   [Draft 5](http://www.ebi.ac.uk/~aj/1.6_draft5/documents/spec.html)
--   [Draft 6](http://www.ebi.ac.uk/~aj/1.6_draft6/documents/spec.html)
--   [Draft 7](http://www.ebi.ac.uk/~aj/1.6_draft7/documents/spec.html)
+The list of changes is listed here: [DAS 1.6
+Changes](/wiki/DAS_1.6_Changes "wikilink").
 
 Compatibility
 -------------
@@ -56,6 +45,20 @@ Extensions
 
 Several extensions to the 1.6 are proposed by community members. See the
 [DAS1.6E](/wiki/DAS1.6E "wikilink") page for more details.
+
+Development
+-----------
+
+The specification was developed as a community collaboration via
+progression through a number of drafts:
+
+-   [Draft 1](http://www.ebi.ac.uk/~aj/1.6_draft1/documents/spec.html)
+-   [Draft 2](http://www.ebi.ac.uk/~aj/1.6_draft2/documents/spec.html)
+-   [Draft 3](http://www.ebi.ac.uk/~aj/1.6_draft3/documents/spec.html)
+-   [Draft 4](http://www.ebi.ac.uk/~aj/1.6_draft4/documents/spec.html)
+-   [Draft 5](http://www.ebi.ac.uk/~aj/1.6_draft5/documents/spec.html)
+-   [Draft 6](http://www.ebi.ac.uk/~aj/1.6_draft6/documents/spec.html)
+-   [Draft 7](http://www.ebi.ac.uk/~aj/1.6_draft7/documents/spec.html)
 
 Links
 -----

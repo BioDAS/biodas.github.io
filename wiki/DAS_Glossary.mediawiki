@@ -1,0 +1,1 @@
+Page for list of commands for servers and the registry:

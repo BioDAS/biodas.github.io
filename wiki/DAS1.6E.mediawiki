@@ -228,17 +228,33 @@ The following table shows the available standard fields that can be used in DAS 
 | Using(if available) the category of the type associated to the feature
 | typeCategory:coverage
 |-
-| typeId
-| Using the id of the type associated to the feature
-| typeId:SO\:0000417
+| type
+| Using any of the field related with the type associated to the feature(ie. typeId OR typeCvId OR typeLabel OR typeCategory)
+| type:SO\:0000417
 |-
-| typeId
-| Using the id of the type associated to the feature
-| typeId:SO\:0000417
+| methodId
+| Using the id of the method associated to the feature
+| methodId:ECO\:0000029
 |-
-| typeId
-| Using the id of the type associated to the feature
-| typeId:SO\:0000417
+| methodCvId
+| Using(if available) the ontology id of the method associated to the feature
+| methodCvId:ECO\:0000029
+|-
+| methodLabel
+| Using(if available) the label of the method associated to the feature
+| methodLabel:"inferred from InterPro motif similarity"
+|-
+| method
+| Using any of the fields of the method associated to the feature
+| method:inferred
+|-
+| start
+| Using the start coordinate of the feature
+| start:100
+|-
+| stop
+| Using the stop coordinate of the feature
+| stop:200
 |}
 
 ===Capability===

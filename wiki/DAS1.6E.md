@@ -359,17 +359,21 @@ query language. A query is broken into terms and operators:
 The following table shows the available standard fields that can be used
 in DAS advanced searches:
 
-| Field Name   | Searches on                                                               | Example                        |
-|--------------|---------------------------------------------------------------------------|--------------------------------|
-| featureId    | The Id of the feature                                                     | featureId:IPR003593\_450\_639  |
-| featureLabel | In case the feature has a label                                           | featureLabel:"ABC transporter" |
-| typeId       | Using the id of the type associated to the feature                        | typeId:SO\\:0000417            |
-| typeCvId     | Using(if available) the ontology id of the type associated to the feature | typeCvId:SO\\:0000417          |
-| typeLabel    | Using(if available) the label of the type associated to the feature       | typeLabel:polypeptide\_domain  |
-| typeCategory | Using(if available) the category of the type associated to the feature    | typeCategory:coverage          |
-| typeId       | Using the id of the type associated to the feature                        | typeId:SO\\:0000417            |
-| typeId       | Using the id of the type associated to the feature                        | typeId:SO\\:0000417            |
-| typeId       | Using the id of the type associated to the feature                        | typeId:SO\\:0000417            |
+| Field Name   | Searches on                                                                                                                 | Example                                               |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| featureId    | The Id of the feature                                                                                                       | featureId:IPR003593\_450\_639                         |
+| featureLabel | In case the feature has a label                                                                                             | featureLabel:"ABC transporter"                        |
+| typeId       | Using the id of the type associated to the feature                                                                          | typeId:SO\\:0000417                                   |
+| typeCvId     | Using(if available) the ontology id of the type associated to the feature                                                   | typeCvId:SO\\:0000417                                 |
+| typeLabel    | Using(if available) the label of the type associated to the feature                                                         | typeLabel:polypeptide\_domain                         |
+| typeCategory | Using(if available) the category of the type associated to the feature                                                      | typeCategory:coverage                                 |
+| type         | Using any of the field related with the type associated to the feature(ie. typeId OR typeCvId OR typeLabel OR typeCategory) | type:SO\\:0000417                                     |
+| methodId     | Using the id of the method associated to the feature                                                                        | methodId:ECO\\:0000029                                |
+| methodCvId   | Using(if available) the ontology id of the method associated to the feature                                                 | methodCvId:ECO\\:0000029                              |
+| methodLabel  | Using(if available) the label of the method associated to the feature                                                       | methodLabel:"inferred from InterPro motif similarity" |
+| method       | Using any of the fields of the method associated to the feature                                                             | method:inferred                                       |
+| start        | Using the start coordinate of the feature                                                                                   | start:100                                             |
+| stop         | Using the stop coordinate of the feature                                                                                    | stop:200                                              |
 
 ### Capability
 

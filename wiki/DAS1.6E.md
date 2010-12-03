@@ -374,6 +374,15 @@ in DAS advanced searches:
 | method       | Using any of the fields of the method associated to the feature                                                             | method:inferred                                       |
 | start        | Using the start coordinate of the feature                                                                                   | start:100                                             |
 | stop         | Using the stop coordinate of the feature                                                                                    | stop:200                                              |
+| score        | Using(if available) the score of the feature                                                                                | score:0.5                                             |
+| orientation  | Using(if available) the orientation of the feature                                                                          | orientation:\\+                                       |
+| phase        | Using the phase of the feature                                                                                              | phase:1                                               |
+| note         | Using(if available) any of the notes of the feature                                                                         | note:200                                              |
+| link         | Using(if available) any of the links of the feature                                                                         | link:200                                              |
+| target       | Using(if available) any of the targets of the feature                                                                       | target:supercontig201                                 |
+| parent       | Using(if available) any of the parents of the feature                                                                       | parent:chromosome1                                    |
+| part         | Using(if available) any of the parts of the feature                                                                         | part:contig201a                                       |
+| all          | Using any of the above fields of the feature                                                                                | all:chromosome                                        |
 
 ### Capability
 

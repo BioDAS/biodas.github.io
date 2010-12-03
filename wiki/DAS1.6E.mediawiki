@@ -196,8 +196,54 @@ Based in [http://lucene.apache.org/java/3_0_0/queryparsersyntax.html Lucene] que
 * '''Operands''': OR (or space), AND, NOT, +, -. E.g. typeCvId:CV:00001 AND featureLabel:"one Feature"
 * '''Grouping and field grouping''': (typeCvId:CV:00001 AND featureLabel:"one Feature") OR typeId:twoFeatureTypeIdOne
 
+The following table shows the available standard fields that can be used in DAS advanced searches: 
+
+{| class="wikitable" style="text-align: left; border: 1px solid #aaa; background-color: #ccc;"
+|-
+! Field Name
+! Searches on
+! Example
+|-
+| featureId
+| The Id of the feature
+| featureId:IPR003593_450_639
+|-
+| featureLabel
+| In case the feature has a label
+| featureLabel:"ABC transporter"
+|-
+| typeId
+| Using the id of the type associated to the feature
+| typeId:SO\:0000417
+|-
+| typeCvId
+| Using(if available) the ontology id of the type associated to the feature
+| typeCvId:SO\:0000417
+|-
+| typeLabel
+| Using(if available) the label of the type associated to the feature
+| typeLabel:polypeptide_domain
+|-
+| typeCategory
+| Using(if available) the category of the type associated to the feature
+| typeCategory:coverage
+|-
+| typeId
+| Using the id of the type associated to the feature
+| typeId:SO\:0000417
+|-
+| typeId
+| Using the id of the type associated to the feature
+| typeId:SO\:0000417
+|-
+| typeId
+| Using the id of the type associated to the feature
+| typeId:SO\:0000417
+|}
+
 ===Capability===
 A source able to deal with this extension have to reflect this in its ''sources'' command by a similar line as:
+
 <code> <capability type="das1:advanced-search"   /> </code>
 
 ==Support for alternative content formats==

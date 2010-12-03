@@ -356,10 +356,26 @@ query language. A query is broken into terms and operators:
 -   **Grouping and field grouping**: (typeCvId:CV:00001 AND
     featureLabel:"one Feature") OR typeId:twoFeatureTypeIdOne
 
+The following table shows the available standard fields that can be used
+in DAS advanced searches:
+
+| Field Name   | Searches on                                                               | Example                        |
+|--------------|---------------------------------------------------------------------------|--------------------------------|
+| featureId    | The Id of the feature                                                     | featureId:IPR003593\_450\_639  |
+| featureLabel | In case the feature has a label                                           | featureLabel:"ABC transporter" |
+| typeId       | Using the id of the type associated to the feature                        | typeId:SO\\:0000417            |
+| typeCvId     | Using(if available) the ontology id of the type associated to the feature | typeCvId:SO\\:0000417          |
+| typeLabel    | Using(if available) the label of the type associated to the feature       | typeLabel:polypeptide\_domain  |
+| typeCategory | Using(if available) the category of the type associated to the feature    | typeCategory:coverage          |
+| typeId       | Using the id of the type associated to the feature                        | typeId:SO\\:0000417            |
+| typeId       | Using the id of the type associated to the feature                        | typeId:SO\\:0000417            |
+| typeId       | Using the id of the type associated to the feature                        | typeId:SO\\:0000417            |
+
 ### Capability
 
 A source able to deal with this extension have to reflect this in its
 *sources* command by a similar line as:
+
 <capability type="das1:advanced-search"   />
 
 Support for alternative content formats

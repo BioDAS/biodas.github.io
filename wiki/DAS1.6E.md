@@ -326,8 +326,41 @@ not yet have implementations.
 DAS search
 ----------
 
-A mechanism for programmatic search of content within annotation
-servers.
+**December 3,2010**
+
+This is a working document and a proposal for an extension to the [DAS
+1.6 specification](/wiki/DAS1.6 "wikilink") in order to a mechanism for
+programmatic search of content within annotation servers.
+
+This proposal pretends to provide the basis for an optional extension of
+the *features* command to support elaborated queries.
+
+### New Argument - query
+
+A new argument for the *features* command should be added
+
+#### DAS Query Language
+
+Based in
+[Lucene](http://lucene.apache.org/java/3_0_0/queryparsersyntax.html)
+query language. A query is broken into terms and operators:
+
+-   **Terms**: single words or phrases (group of words surrounded
+    by quotes). E.g. polypeptide AND "alpha helix"
+-   **Fields**: used to search in a specific column. See the next
+    section for the specific field names. E.g. type:membrane
+-   **Term modifiers**: wildcard searches, fuzzy searches, proximity and
+    range searches. E.g. cur\*
+-   **Operands**: OR (or space), AND, NOT, +, -. E.g. typeCvId:CV:00001
+    AND featureLabel:"one Feature"
+-   **Grouping and field grouping**: (typeCvId:CV:00001 AND
+    featureLabel:"one Feature") OR typeId:twoFeatureTypeIdOne
+
+### Capability
+
+A source able to deal with this extension have to reflect this in its
+*sources* command by a similar line as:
+<capability type="das1:advanced-search"   />
 
 Support for alternative content formats
 ---------------------------------------

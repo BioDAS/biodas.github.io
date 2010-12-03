@@ -337,7 +337,27 @@ the *features* command to support elaborated queries.
 
 ### New Argument - query
 
-A new argument for the *features* command should be added
+*query*, a new argument for the *features* command should be added, so
+now the request of this command is defined as:
+
+<code>
+
+`SERVER/das/DSN/features?segment=RANGE`  
+` [;segment=RANGE]`  
+` [;type=TYPE]`  
+` [;type=TYPE]`  
+` [;category=CATEGORY]`  
+` [;category=CATEGORY]`  
+` [;feature_id=ID]`  
+` [;maxbins=BINS]`  
+` [;query=DASQUERY]`
+
+</code>
+
+Where DASQUERY is described below. In the case of a query contains
+simultaneously the attributes *segment*, *feature\_id* and *query*. they
+should be treated as a disjunction of the filtered subsets (ie. the
+result features should pass the 3 conditions).
 
 #### DAS Query Language
 
@@ -390,6 +410,13 @@ A source able to deal with this extension have to reflect this in its
 *sources* command by a similar line as:
 
 <capability type="das1:advanced-search"   />
+
+### Implementation Notes
+
+As a consequence of the first prototype of the advanced search
+capability in myDas, the capabilities *entry\_points* and
+*feature-by-id* are requirements of the new capability in order to
+automatically create indexes to improve the search performance.
 
 Support for alternative content formats
 ---------------------------------------

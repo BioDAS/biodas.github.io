@@ -383,6 +383,10 @@ in DAS advanced searches:
 |--------------|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | featureId    | The Id of the feature                                                                                                       | featureId:IPR003593\_450\_639                         |
 | featureLabel | In case the feature has a label                                                                                             | featureLabel:"ABC transporter"                        |
+| segmentId    | The Id of the segment                                                                                                       | segmentId:P05701                                      |
+| segmentLabel | In case the segment has a label                                                                                             | segmentLabel:P53                                      |
+| segmentStart | Using the start coordinate of the segment                                                                                   | start:1000                                            |
+| segmentStop  | Using the stop coordinate of the segment                                                                                    | stop:2000                                             |
 | typeId       | Using the id of the type associated to the feature                                                                          | typeId:SO\\:0000417                                   |
 | typeCvId     | Using(if available) the ontology id of the type associated to the feature                                                   | typeCvId:SO\\:0000417                                 |
 | typeLabel    | Using(if available) the label of the type associated to the feature                                                         | typeLabel:polypeptide\_domain                         |

@@ -226,6 +226,22 @@ The following table shows the available standard fields that can be used in DAS 
 | In case the feature has a label
 | featureLabel:"ABC transporter"
 |-
+| segmentId
+| The Id of the segment
+| segmentId:P05701
+|-
+| segmentLabel
+| In case the segment has a label
+| segmentLabel:P53
+|-
+| segmentStart
+| Using the start coordinate of the segment
+| start:1000
+|-
+| segmentStop
+| Using the stop coordinate of the segment
+| stop:2000
+|-
 | typeId
 | Using the id of the type associated to the feature
 | typeId:SO\:0000417

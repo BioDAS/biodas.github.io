@@ -12,6 +12,15 @@ The DAS registration server at
 where people can publish and share their DAS data sources (i.e., server
 locations and available data) with the community.
 
+It provides both human and programmatic interfaces to its repository of
+DAS data sources. A cut-down static mirror of the main programmatic
+Registry responses is available here:
+
+-   <http://www.ebi.ac.uk/das-srv/registry/das/sources> (a mirror of
+    <http://www.dasregistry.org/das/sources>)
+-   <http://www.ebi.ac.uk/das-srv/registry/das/coordinatesystem> (a
+    mirror of <http://www.dasregistry.org/das/coordinatesystem>)
+
 The [DAS/1](/wiki/DAS/1 "wikilink") and [DAS/2](/wiki/DAS/2 "wikilink")
 specifications do not define how to publish or discover DAS data sources
 (servers). Due to the success of DAS/1 and the large number of sources

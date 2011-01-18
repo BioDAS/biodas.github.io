@@ -56,7 +56,7 @@ All 3 days will be held in the EBI training room.
 |14:15 - 14:35
 |DAS clients - Putting it all together
 |Rob Finn
-|
+| [http://www.biodas.org/workshop_2009/20090309ClientSpecReview.ppt 2009 Powerpoint]<br/>[http://www.biodas.org/workshop_2009/20090309ClientSpecReview.pdf 2009 PDF]
 |-
 |14:35 - 15:10
 |Talk and Tutorial -DAS client libraries to query DAS sources

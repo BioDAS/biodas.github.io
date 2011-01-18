@@ -114,7 +114,6 @@ Training in DAS
 
 DAS Tutorials, talks and hackathons take place once a year at the Genome
 Campus UK almost every year in the [DAS
-Workshop](http://www.sanger.ac.uk/Software/analysis/das/DASWorkshopHistory.shtml).
-The next workshop is likely to be in March 2010. Events, courses and
-workshops involving DAS are often listed on the [Current
-events](/wiki/Current_events "wikilink") page.
+Workshop](/wiki/DASWorkshop2011 "wikilink"). The next workshop will be in
+March 2011. Events, courses and workshops involving DAS are often listed
+on the [Current events](/wiki/Current_events "wikilink") page.

@@ -45,27 +45,24 @@ there to enable people and computers to easily find the DAS data sources
 available around the world and also to help these data sources conform
 to the specifications. It's important that data served by DAS servers
 conform to enable the interoperability of different clients and servers
-around the world.[1.0](http://www.biodas.org/documents/spec.html) is
-currently supported and work is starting on supporting the new [The 1.6
-spec](http://www.biodas.org/wiki/DAS1.6) that is the latest and soon to
-be official DAS spec that mainly focuses on genomic annotations but also
-refers to the *E*xtentions specified in the 1.53*E* spec below. [The
-1.53E spec](http://www.dasregistry.org/spec_1.53E.jsp) contains up to
-date specifications for servers and clients that support information
-that can be exchanged using DAS that is not genome centric. Types of
-data include Proteins- Structures and alignments, Molecular
-Interactions, volume map data.
+around the world. The current version of the specification is [DAS
+1.6](http://www.biodas.org/wiki/DAS1.6), which adds support for
+non-genomic data compared to the previous version, [DAS
+1.53](http://www.biodas.org/documents/spec-1.53.html).
 
-### Current Status/ DAS specifications 1.5, 1.53E, 1.6, 2.0 and Future Intentions
+### Current Status/ DAS specifications 1.53, 1.53E, 1.6, 1.6E, 2.0 and Future Intentions
 
-Currently DAS 1.5 is the most widely used and supported together with
-1.53E. DAS 2.0 is quite different and is really running in parallel to
-the other 2 versions of DAS. After the 2009 workshop it was generally
-agreed that most of the useful additional features that 2.0 provides is
-now or very soon to be implemented in DAS 1.6E and it's subsequent
-incarnations and thus DAS2.0 is now considered redundant. If you wish
-your data to be widely accessible then use the [The 1.6
-spec](http://www.biodas.org/wiki/DAS1.6) and [The 1.53E
+The various versions of the DAS specification are described on the
+[DAS\_specification](/wiki/DAS_specification "wikilink") page.
+
+Currently DAS 1.53 is the most widely used and supported, together with
+1.53E. DAS 2.0 is quite different and can be considered a separate
+project from DAS, running in parallel. After the 2009 workshop it was
+generally agreed that most of the useful additional features that 2.0
+provides is now or very soon to be implemented in DAS 1.6E and it's
+subsequent incarnations and thus DAS2.0 is now considered redundant. If
+you wish your data to be widely accessible then use the [1.6
+spec](http://www.biodas.org/wiki/DAS1.6) or [1.53E
 spec](http://www.dasregistry.org/spec_1.53E.jsp) documents as your
 guide.
 

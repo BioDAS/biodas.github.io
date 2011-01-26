@@ -155,8 +155,8 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 | colspan="3" | coffee break
 |-
 |15:30
-|<del>Text Mining DAS source</del>
-|<del>Maximilian Haussler</del>
+|
+|
 |
 |-
 |15:50

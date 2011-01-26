@@ -40,6 +40,9 @@ Day 1
 Day 2
 -----
 
+Preliminary schedule where the order and content may still change
+considerably.
+
 | Time          | ProjectName                                                                                                             | Speaker                            | Presentation                                                   |
 |---------------|-------------------------------------------------------------------------------------------------------------------------|------------------------------------|----------------------------------------------------------------|
 | 8:45 - 9:30   | Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.                                            |

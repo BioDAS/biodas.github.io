@@ -80,5 +80,4 @@ Finish at 4pm.
 
 ### Suggested Topics:
 
-[doodle poll for expressing interest in
-topics](http://www.doodle.com/cvb5btwmrzz9avgh)
+\[ doodle poll for expressing interest in topics\]

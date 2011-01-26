@@ -104,8 +104,8 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 |[]
 |-
 |11:00
-|
-|
+|DAS search
+|Gustavo Salazar
 |[]
 |-
 |11:20
@@ -127,8 +127,8 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 | colspan="3" | Lunch break
 |-
 |13:30
-|
-|
+|EBI Search
+|Andy Jenkinson
 |[]
 |-
 |13:50
@@ -137,8 +137,8 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 |[]
 |-
 |14:10
-|jsDAS: A javascript DAS client library
-|Jose Villaveces (and Bernat Gel)
+|Dasty update
+|Jose Villaveces (and Leyla Garcia)
 |[http://www.biodas.org/workshop_2010/jose_jsdas.ppt PPT]
 |-
 |14:30

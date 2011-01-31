@@ -119,8 +119,8 @@ Preliminary schedule where the order and content may still change considerably.
 |[http://www.biodas.org/workshop_2010/warren_registry.ppt PPT]
 |-
 |12:00
-|
-|
+|Gregg Helt
+|WebApollo: Extending JBrowse to support DAS and genome annotation editing
 |[]
 |- style="background:#ffdead;"
 |12:15-13:30

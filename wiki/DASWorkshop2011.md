@@ -83,4 +83,5 @@ Finish at 4pm.
 
 ### Suggested Topics:
 
-\[ doodle poll for expressing interest in topics\]
+Discussion about fitting alternative data formats into the DAS ecosystem
+------------------------------------------------------------------------

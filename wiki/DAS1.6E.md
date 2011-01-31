@@ -601,6 +601,9 @@ Entry Points for annotation servers
 
 **January 28, 2010**
 
+**NOTE:** this modification is **included** in the final
+[DAS1.6](/wiki/DAS1.6 "wikilink") specification.
+
 #### Rationale
 
 In DAS version 1.6, the *entry\_points* command is required for

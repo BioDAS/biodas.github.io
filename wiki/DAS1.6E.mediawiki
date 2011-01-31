@@ -436,6 +436,8 @@ Often, the use of unique IDs within DAS is poorly executed. Formally adopting UR
 
 '''January 28, 2010'''
 
+'''NOTE:''' this modification is '''included''' in the final [[DAS1.6]] specification.
+
 ====Rationale====
 
 In DAS version 1.6, the ''entry_points'' command is required for reference servers and optional for annotation servers.

@@ -12,6 +12,25 @@ This extension is a new command, carried forward from its equivalent extension i
 
 The [http://dasmi.de/ DASMI] extension expands DAS to apply to molecular interactions. It is part of the [http://www.dasregistry.org/spec_1.53E.jsp DAS 1.53E specification] (i.e. is an existing extension to the [http://biodas.org/documents/spec.html 1.53 specification]). It is detailed [http://www.dasregistry.org/extension_interaction.jsp here].
 
+==Entry Points for annotation servers==
+
+'''January 28, 2010'''
+
+'''NOTE:''' this modification is '''included''' in the final [[DAS1.6]] specification.
+
+====Rationale====
+
+In DAS version 1.6, the ''entry_points'' command is required for reference servers and optional for annotation servers.
+
+However, it is difficult for annotation servers to support this command because the start/stop attributes of the SEGMENT element are mandatory. In contrast to reference servers, annotation servers very rarely know the length of each entry point and therefore cannot satisfy this requirement. This is a pity because it'd be useful for clients if annotation servers were able to provide a list of IDs for the segments it has annotated. This would be very easy to implement because every server always knows the IDs of the segments it has annotated, and needs this information in order to support the ''unknown-segment'' capability.
+
+====Required Change====
+
+Allowing annotation servers to easily list their entry points would require amending the specification to say something like:
+* reference servers must always list all possible segments with their start/stop positions
+* annotation servers implementing entry_points must list only the segments they have annotated, and start/stop are optional
+
+
 ==DAS writeback==
 
 '''June 10,2009'''
@@ -431,21 +450,3 @@ Some points about this:
 ==Use of URIs for DAS identifiers==
 
 Often, the use of unique IDs within DAS is poorly executed. Formally adopting URIs as identifiers (including specifying how URIs are built from URI references within DAS XML documents) would allow cross referencing between sequences and annotations within and outside DAS.
-
-==Entry Points for annotation servers==
-
-'''January 28, 2010'''
-
-'''NOTE:''' this modification is '''included''' in the final [[DAS1.6]] specification.
-
-====Rationale====
-
-In DAS version 1.6, the ''entry_points'' command is required for reference servers and optional for annotation servers.
-
-However, it is difficult for annotation servers to support this command because the start/stop attributes of the SEGMENT element are mandatory. In contrast to reference servers, annotation servers very rarely know the length of each entry point and therefore cannot satisfy this requirement. This is a pity because it'd be useful for clients if annotation servers were able to provide a list of IDs for the segments it has annotated. This would be very easy to implement because every server always knows the IDs of the segments it has annotated, and needs this information in order to support the ''unknown-segment'' capability.
-
-====Required Change====
-
-Allowing annotation servers to easily list their entry points would require amending the specification to say something like:
-* reference servers must always list all possible segments with their start/stop positions
-* annotation servers implementing entry_points must list only the segments they have annotated, and start/stop are optional

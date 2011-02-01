@@ -97,4 +97,5 @@ Improving interactivity of DAS data (TAD)
 -----------------------------------------
 
 Can we extend DAS to give better support for more interactive client
-navigation? Things like next/previous feature buttons.
+navigation? Things like next/previous feature buttons. Customized html
+labels/pop ups? (JW)

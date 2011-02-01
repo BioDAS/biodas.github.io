@@ -204,5 +204,6 @@ Finish at 4pm.
 ==Genome alignments in DAS (TAD)==
 ==Improving interactivity of DAS data (TAD)==
 
-Can we extend DAS to give better support for more interactive client navigation?  Things like next/previous feature buttons.
+Can we extend DAS to give better support for more interactive client navigation?
+Things like next/previous feature buttons.
 Customized html labels/pop ups? (JW)

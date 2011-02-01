@@ -28,49 +28,54 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 | 10:10 - 10:30
 | DAS - Introduction/Overview
 | Andy Jenkinson
-| [http://www.ebi.ac.uk/~aj/das_workshop_2010/DAS-Introduction.pptx Basic Introduction] [http://www.ebi.ac.uk/~aj/das_workshop_2010/DAS-Introduction-Technical.pptx Technical Introduction]
+| 
 |-
 | 10:30 - 10:40
 | The DAS Game
 | Rafael Jimenez
-| [http://www.ebi.ac.uk/~rafael/talks/2010-04-07_workshop_das/dasGame/ Game cards]
+| 
 |-
 | 10:40 - 11:40
-| Hands on DAS Server Tutorials - Setting up a quick source for sharing data with your colleagues using Proserver or MyDAS - The room will be split into two groups: one for Java and one for Perl.
-| Andy Jenkinson, Gustavo Salazar
-| Introduction talk: [http://oware.cbio.uct.ac.za/~gustavo/DASservers.ppt PPT] Java:[http://code.google.com/p/mydas/wiki/MyDASTutorial MyDAS Part 1] Perl:[http://www.ebi.ac.uk/~aj/das_workshop_2010/proserver_tutorial_1.html ProServer Part 1]
+| Hands on DAS Server Tutorials - Setting up a quick source for sharing data with your colleagues.
+| Andy Jenkinson and Gustavo Salazar
+| Perl(ProServer) and Java(MyDAS) 
 |-
 | 11:40 - 12:15
-| The DAS Registry and registering your source
+| Registering your source
 | Jonathan Warren
-|[http://www.biodas.org/wiki/RegistryTutorial2010 RegistryTutorial2010]
+| The DAS Registry
 |- style="background:#ffdead;"
 | 12:15 - 13:15 
 | colspan="3" | Lunch break
 |-
 | 13:15 - 14:15
 | Tutorial - DAS servers continued
-| Andy Jenkinson, Rafael Jimenez, Gustavo Salazar
-| Java: [http://code.google.com/p/mydas/wiki/MyDASTutorial2ndPart MyDAS Part 2][http://code.google.com/p/mydas/wiki/MyDASTutorial3rdPart MyDAS Part 3]Perl:[http://www.ebi.ac.uk/~aj/das_workshop_2010/proserver_tutorial_2.html ProServer Part 2][http://www.ebi.ac.uk/~aj/das_workshop_2010/proserver_tutorial_3.html ProServer Part 3]
+| Andy Jenkinson and Gustavo Salazar
+| Perl(ProServer) and Java(MyDAS) 
 |-
 |14:15 - 14:35
-|DAS clients - Putting it all together
-|Rob Finn
-| [http://www.biodas.org/workshop_2009/20090309ClientSpecReview.ppt 2009 Powerpoint]<br/>[http://www.biodas.org/workshop_2009/20090309ClientSpecReview.pdf 2009 PDF]
+| Automated creation of DAS servers
+| Bernat Gel
+| easyDAS 
 |-
-|14:35 - 15:10
+|14:35 - 14:50
+|DAS clients - Putting it all together
+|Leyla J. Garcia
+| 
+|-
+|14:50 - 15:25
 |Talk and Tutorial -DAS client libraries to query DAS sources
-|Andy Jenkinson, Rafael Jimenez, Jose Villaveces
-|Javascript:[http://www.ebi.ac.uk/~jvillave/wiki/doku.php?id=jsdas JSDAS Tutorial], Java:[http://www.ebi.ac.uk/~rafael/dokuwiki/doku.php?id=das:courses:dasobert Dasobert Tutorial], Perl:[http://www.ebi.ac.uk/~aj/das_workshop_2010/daslite_tutorial.html Bio::Das::Lite]
+|Andy Jenkinson, Jose Villaveces and Rafael Jimenez
+|Perl(Bio::Das::Lite), Javascript(jsDAS) and Java(JAXB)
 |-style="background:#ffdead;"
-| 15:10 - 15:30
+| 15:25 - 15:45
 | colspan="3" | Cofee Break
 |-
-| 15:30 - 17:00 
+| 15:45 - 17:15 
 | colspan="3" | Hands On Tutorial - continued
 |-  style="background:#ffdead;"
-|17:15
-| colspan="3" |Departure from Campus to Cambridge Leisure Park at circa 17:15 hrs.
+|17:30
+| colspan="3" |Departure from Campus to Cambridge Leisure Park at circa 17:30 hrs.
 |- style="background:#ffdead;"
 |19:00
 |Dinner at [http://www.browns-restaurants.co.uk/menu-cambridge.php Browns] The Private Dining Room 7.00 pm for 7.30 pm sit down.

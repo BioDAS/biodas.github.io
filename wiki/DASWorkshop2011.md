@@ -36,6 +36,8 @@ Day 1
 | 15:10 - 15:30 | Cofee Break                                                                                                                                                                                       |
 | 15:30 - 17:00 | Hands On Tutorial - continued                                                                                                                                                                     |
 | 17:15         | Departure from Campus to Cambridge Leisure Park at circa 17:15 hrs.                                                                                                                               |
+| 19:00         | Dinner at \[Restaurant to be confirmed - likely walking distance to the travel lodge\] The Private Dining Room 7.00 pm for 7.30 pm sit down.                                                      |                                                 |                                                                                                                                                                                                                                                                                                                                             |
+||
 
 Day 2
 -----

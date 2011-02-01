@@ -98,9 +98,9 @@ Preliminary schedule where the order and content may still change considerably.
 |Thomas Down
 |[]
 |-
-|10:40
-|Dealing with Personal Genomes using DAS
-|Manuel Corpas
+|
+|
+|
 |[]
 |-
 |11:00
@@ -132,8 +132,8 @@ Preliminary schedule where the order and content may still change considerably.
 |[]
 |-
 |13:50
-|
-|
+|Dealing with Personal Genomes using DAS
+|Manuel Corpas
 |[]
 |-
 |14:10

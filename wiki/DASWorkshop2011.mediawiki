@@ -200,5 +200,9 @@ Finish at 4pm.
 
 ===Suggested Topics:===
 
-==Discussion about fitting alternative data formats into the DAS ecosystem (TD)==
+==Discussion about fitting alternative data formats into the DAS ecosystem (TAD)==
 ==Security - authorization and authentication for clients, servers, registry (GS, AJ, JW)==
+==Genome alignments in DAS (TAD)==
+==Improving interactivity of DAS data (TAD)==
+
+Can we extend DAS to give better support for more interactive client navigation?  Things like next/previous feature buttons.

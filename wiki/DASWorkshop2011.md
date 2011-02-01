@@ -83,5 +83,8 @@ Finish at 4pm.
 
 ### Suggested Topics:
 
-Discussion about fitting alternative data formats into the DAS ecosystem
-------------------------------------------------------------------------
+Discussion about fitting alternative data formats into the DAS ecosystem (TD)
+-----------------------------------------------------------------------------
+
+Security - authorization and authentication for clients, servers, registry (GS, AJ, JW)
+---------------------------------------------------------------------------------------

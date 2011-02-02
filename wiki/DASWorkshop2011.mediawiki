@@ -153,8 +153,8 @@ Preliminary schedule where the order and content may still change considerably.
 |[http://www.biodas.org/workshop_2010/jose_jsdas.ppt PPT]
 |-
 |14:30
-|
-|
+|EMBOSS as a DAS client
+|Peter Rice, Mahmut Uludag
 |[]
 |-
 |14:50

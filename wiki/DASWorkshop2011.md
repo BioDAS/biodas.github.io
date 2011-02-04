@@ -96,6 +96,8 @@ Security - authorization and authentication for clients, servers, registry (GS, 
 Genome alignments in DAS (TAD)
 ------------------------------
 
+[Some background](/wiki/DAS1.6E#Alignment "wikilink").
+
 Improving interactivity of DAS data (TAD)
 -----------------------------------------
 

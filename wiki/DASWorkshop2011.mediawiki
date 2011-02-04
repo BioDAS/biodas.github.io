@@ -210,6 +210,8 @@ See [[DAS1.6E#Support_for_alternative_content_formats|proposal from 2010 worksho
 
 ==Security - authorization and authentication for clients, servers, registry (GS, AJ, JW)==
 ==Genome alignments in DAS (TAD)==
+[[DAS1.6E#Alignment|Some background]].
+
 ==Improving interactivity of DAS data (TAD)==
 
 Can we extend DAS to give better support for more interactive client navigation?

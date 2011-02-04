@@ -205,6 +205,9 @@ Finish at 4pm.
 ===Suggested Topics:===
 
 ==Discussion about fitting alternative data formats into the DAS ecosystem (TAD)==
+
+See [[DAS1.6E#Support_for_alternative_content_formats|proposal from 2010 workshop]].
+
 ==Security - authorization and authentication for clients, servers, registry (GS, AJ, JW)==
 ==Genome alignments in DAS (TAD)==
 ==Improving interactivity of DAS data (TAD)==

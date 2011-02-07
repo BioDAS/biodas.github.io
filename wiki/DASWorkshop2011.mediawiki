@@ -63,8 +63,9 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 |-
 | 15:30 - 17:15 
 | Hands-on programming tutorial: DAS client libraries, 10 minute introduction (Leyla)
-| Bio::Das::Lite -or- JAXB (Rafael) -or- JSDAS (Jose & Bernat) Each will cover sources, sequence & features using the same examples
-| The DAS registry 
+| Each will cover sources, sequence & features using the same examples
+| Bio::Das::Lite -or- JAXB (Rafael) -or- JSDAS (Jose & Bernat)
+|-  
 |17:30
 | colspan="3" |Departure from Campus to Cambridge Leisure Park at circa 17:30 hrs.
 |- style="background:#ffdead;"

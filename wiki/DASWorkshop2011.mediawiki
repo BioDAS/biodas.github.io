@@ -40,10 +40,10 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 | Bernat Gel, Thomas Down, Jose Villavaces
 | Creating DAS sources from GFF files supplied using easyDAS (Bernat), Viewing DAS sources using Dalliance (Thomas) -or- Dasty3 (Jose)
 |-
-| 11:40 - 12:15
-| Registering your source
+| 11:25 - 12:15
+| Hands-on programming tutorial: Creating a custom DAS source
 | Jonathan Warren
-| The DAS Registry
+| 10 minute introduction to DAS servers (Gustavo), MyDAS (Gustavo) -or- ProServer (Andy), Each will use the same examples
 |- style="background:#ffdead;"
 | 12:15 - 13:15 
 | colspan="3" | Lunch break

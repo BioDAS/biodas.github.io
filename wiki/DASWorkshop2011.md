@@ -74,6 +74,9 @@ considerably.
 Day 3
 -----
 
+Location is the Floating room in the Morgan Building at the Sanger
+institute.
+
 `As per other days -Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.`
 
 Start at 10am

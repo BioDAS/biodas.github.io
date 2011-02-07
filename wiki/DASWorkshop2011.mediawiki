@@ -48,32 +48,23 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 | 12:15 - 13:15 
 | colspan="3" | Lunch break
 |-
-| 13:15 - 14:15
+| 13:15 - 14:50
 | Tutorial - DAS servers continued
 | Andy Jenkinson and Gustavo Salazar
 | Perl(ProServer) and Java(MyDAS) 
 |-
-|14:15 - 14:35
-| Automated creation of DAS servers
-| Bernat Gel
-| easyDAS 
-|-
-|14:35 - 14:50
-|DAS clients - Putting it all together
-|Leyla J. Garcia
-| 
-|-
-|14:50 - 15:25
-|Talk and Tutorial -DAS client libraries to query DAS sources
-|Andy Jenkinson, Jose Villaveces and Rafael Jimenez
-|Perl(Bio::Das::Lite), Javascript(jsDAS) and Java(JAXB)
+|14:50 - 15:10
+| Hands on Tutorial The DAS registry: Short introduction talk then hands on tutorial
+| Jonathan Warren
+| The DAS registry 
 |-style="background:#ffdead;"
-| 15:25 - 15:45
+| 15:10 - 15:30
 | colspan="3" | Cofee Break
 |-
-| 15:45 - 17:15 
-| colspan="3" | Hands On Tutorial - continued
-|-  style="background:#ffdead;"
+| 15:30 - 17:15 
+| Hands-on programming tutorial: DAS client libraries, 10 minute introduction (Leyla)
+| Bio::Das::Lite -or- JAXB (Rafael) -or- JSDAS (Jose & Bernat) Each will cover sources, sequence & features using the same examples
+| The DAS registry 
 |17:30
 | colspan="3" |Departure from Campus to Cambridge Leisure Park at circa 17:30 hrs.
 |- style="background:#ffdead;"

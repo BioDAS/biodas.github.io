@@ -17,28 +17,28 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 | 8:45 - 9:30
 | colspan="3" | Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.
 |- style="background:#ffdead;"
-| 9:30 - 10:00 
+| 9:30 - 09:50 
 | colspan="3" | Coffee is served outside the training room 
 |-
-| 10:00 - 10:10
+| 09:50 - 10:00
 | Welcome and Introduction to the Workshop
 | Jonathan Warren
 |
 |-
-| 10:10 - 10:30
+| 10:00 - 10:20
 | DAS - Introduction/Overview
 | Andy Jenkinson
 | 
 |-
-| 10:30 - 10:40
+| 10:20 - 10:35
 | The DAS Game
 | Rafael Jimenez
 | 
 |-
-| 10:40 - 11:40
-| Hands on DAS Server Tutorials - Setting up a quick source for sharing data with your colleagues.
-| Andy Jenkinson and Gustavo Salazar
-| Perl(ProServer) and Java(MyDAS) 
+| 10:35 - 11:25
+| Hands on DAS Server Tutorials: using DAS software, 10 minute introduction of some DAS implementations (Bernat)
+| Bernat Gel, Thomas Down, Jose Villavaces
+| Creating DAS sources from GFF files supplied using easyDAS (Bernat), Viewing DAS sources using Dalliance (Thomas) -or- Dasty3 (Jose)
 |-
 | 11:40 - 12:15
 | Registering your source

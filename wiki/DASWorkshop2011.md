@@ -19,6 +19,9 @@ be announced.
 Day 1
 -----
 
+Some knowledge/experience of PERL or Java and or Javascript would be
+beneficial for the hands on training day.
+
 | Time          | Title                                                                                                                            | Speaker                                  | Resources                                                                                                                            |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | 8:45 - 9:30   | Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.                                                     |

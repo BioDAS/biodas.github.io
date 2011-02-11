@@ -36,7 +36,7 @@ The first 2 days will be held in the EBI training room. 3rd day room to be annou
 | 
 |-
 | 10:35 - 11:25
-| Hands on DAS Server Tutorials: using DAS software, 10 minute introduction of some DAS implementations (Bernat)
+| Hands-on tutorial: using DAS software, 10 minute introduction of some DAS implementations (Bernat)
 | Bernat Gel, Thomas Down, Jose Villavaces
 | Creating DAS sources from GFF files supplied using easyDAS (Bernat), Viewing DAS sources using Dalliance (Thomas) -or- Dasty3 (Jose)
 |-

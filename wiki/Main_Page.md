@@ -56,8 +56,8 @@ minimal development cost.
 Here are some examples of DAS-enabled applications or websites for end
 users:
 
--   [Dalliance](http://www.biodalliance.org/human/ncbi36/) Experimental
-    Web/Javascript based Genome Viewer
+-   [Dalliance](http://www.biodalliance.org/) Interactive web-based
+    genome viewer
 -   [IGV](http://www.broadinstitute.org/igv/) Integrative Genome Viewer
     java based browser for many genomes
 -   [Ensembl](http://www.ensembl.org/info/data/ensembl_das.html) uses

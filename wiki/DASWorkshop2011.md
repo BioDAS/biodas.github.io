@@ -114,3 +114,8 @@ Dasobert 2
 ----------
 
 Improvements, Schema Driven? (JW, RJ))
+
+pagination in features response
+-------------------------------
+
+in general or for search functionality

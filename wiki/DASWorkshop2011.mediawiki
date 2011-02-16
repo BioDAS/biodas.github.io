@@ -62,8 +62,8 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | colspan="3" | Cofee Break
 |-
 | 15:30 - 17:15 
-| Hands-on programming tutorial: DAS client libraries, 10 minute introduction (Leyla)
-| Leyla Garcia
+| Hands-on programming tutorial: DAS client libraries, 10 minute introduction
+| 
 | Bio::Das::Lite -or- JAXB (Rafael) -or- JSDAS (Jose & Bernat), Each will cover sources, sequence & features using the same examples
 |-  
 |17:30
@@ -141,7 +141,7 @@ Preliminary schedule where the order and content may still change considerably.
 |-
 |14:10
 |Dasty update
-|Jose Villaveces (and Leyla Garcia)
+|Jose Villaveces
 |[http://www.biodas.org/workshop_2010/jose_jsdas.ppt PPT]
 |-
 |14:30

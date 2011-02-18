@@ -10,11 +10,12 @@ Notice
 ------
 
 A workshop is being held on the 2-4th March at the Genome Campus outside
-Cambridge for agenda see here [|
-agenda](http://www.biodas.org/wiki/DASWorkshop2011) and for registration
-see here: \[<http://www.ebi.ac.uk//training/onsite/110302DAS.html>|
-registration\] <span style="color: darkred;">PLEASE NOTE: </span>a new
-version of DAS was recently released! See the [Versions of
+Cambridge for agenda see here
+[agenda](http://www.biodas.org/wiki/DASWorkshop2011) and for
+registration see here:
+\[<http://www.ebi.ac.uk//training/onsite/110302DAS.html>| registration\]
+<span style="color: darkred;">PLEASE NOTE: </span>a new version of DAS
+was recently released! See the [Versions of
 DAS](#Versions_of_DAS "wikilink") section below for more information.
 
 About DAS

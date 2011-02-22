@@ -119,3 +119,9 @@ Pagination in features response
 -------------------------------
 
 For search functionality (or in general?) (GS, AJ, RJ, JW, LG)
+
+Philosophy of validation, spec compliance - client vs server expectations
+-------------------------------------------------------------------------
+
+Should the DAS registry say list all sources and just give information
+on their validity rather than archiving sources. (JW)

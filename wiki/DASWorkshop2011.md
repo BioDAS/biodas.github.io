@@ -124,4 +124,6 @@ Philosophy of validation, spec compliance - client vs server expectations
 -------------------------------------------------------------------------
 
 Should the DAS registry say list all sources and just give information
-on their validity rather than archiving sources. (JW)
+on their validity rather than archiving sources. Should clients do all
+they can to accommodate poor data sources or should they link to
+validation data and encourage correct data source compliance?(JW)

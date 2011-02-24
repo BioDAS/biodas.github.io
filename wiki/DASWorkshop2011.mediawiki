@@ -43,7 +43,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 11:25 - 12:15
 | Hands-on programming tutorial: Creating a custom DAS source
 | Jonathan Warren
-| 10 minute introduction to DAS servers (Gustavo), MyDAS (Gustavo) -or- ProServer (Andy), Each will use the same examples
+| 10 minute introduction to DAS servers [http://www.biotnet.org/sites/biotnet.org/files/documents/41/dasservers.ppt PPT] [http://www.biotnet.org/training-materials/das-servers BTN] (Gustavo), [http://code.google.com/p/mydas/wiki/Tutorials MyDAS] (Gustavo) -or- ProServer (Andy), Each will use the same examples
 |- style="background:#ffdead;"
 | 12:15 - 13:15 
 | colspan="3" | Lunch break

@@ -64,8 +64,8 @@ considerably.
 | 14:30         | EMBOSS as a DAS client                                                                            | Peter Rice, Mahmut Uludag | \[\]                                                           |
 | 14:50         | Jalview Update                                                                                    | James Proctor             | \[\], \[\]                                                     |
 | 15:10-15:30   | coffee break                                                                                      |
-| 15:30         | Authentication and Autorization for writeback and secure DAS data sources                         | Gustavo and Andy          | \[\], \[\]                                                     |
-| 15:50         |                                                                                                   |                           | \[\]                                                           |
+| 15:30         | Setting up a BAM based DAS source in GBrowse.                                                     | Frank Schwach             | \[\], \[\]                                                     |
+| 15:50         | Authentication and Autorization for writeback and secure DAS data sources                         | Gustavo and Andy          | \[\], \[\]                                                     |
 | 16:10         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                           | \[\]                                                           |
 | 16:30         |                                                                                                   |                           |                                                                |
 | 16:50         |                                                                                                   |                           |                                                                |

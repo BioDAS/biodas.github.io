@@ -46,29 +46,29 @@ Day 2
 Preliminary schedule where the order and content may still change
 considerably.
 
-| Time          | ProjectName                                                                                       | Speaker                                                                   | Presentation                                                   |
-|---------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------|
+| Time          | ProjectName                                                                                       | Speaker                   | Presentation                                                   |
+|---------------|---------------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------|
 | 8:45 - 9:30   | Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.                      |
 | 09:30 - 10:00 | Arrival - Tea, Coffee.                                                                            |
-| 10:00         | Opening talk                                                                                      | Tim Hubbard                                                               | \[\]                                                           |
-| 10:20         | Dalliance- a new interactive DAS client                                                           | Thomas Down                                                               | \[\]                                                           |
-|               |                                                                                                   |                                                                           | \[\]                                                           |
-| 11:00         | DAS search                                                                                        | Gustavo Salazar                                                           | \[\]                                                           |
-| 11:20         | easyDAS: a hosted solution for DAS server creation                                                | Bernat Gel                                                                | [PPT](http://www.biodas.org/workshop_2010/bernat_easydas.ppt)  |
-| 11:40         | Update on the DAS Registry                                                                        | Jonathan Warren                                                           | [PPT](http://www.biodas.org/workshop_2010/warren_registry.ppt) |
-| 12:00         | Gregg Helt                                                                                        | WebApollo: Extending JBrowse to support DAS and genome annotation editing | \[\]                                                           |
+| 10:00         | Opening talk                                                                                      | Tim Hubbard               | \[\]                                                           |
+| 10:20         | Dalliance- a new interactive DAS client                                                           | Thomas Down               | \[\]                                                           |
+|               |                                                                                                   |                           | \[\]                                                           |
+| 11:00         | DAS search                                                                                        | Gustavo Salazar           | \[\]                                                           |
+| 11:20         | easyDAS: a hosted solution for DAS server creation                                                | Bernat Gel                | [PPT](http://www.biodas.org/workshop_2010/bernat_easydas.ppt)  |
+| 11:40         | Update on the DAS Registry                                                                        | Jonathan Warren           | [PPT](http://www.biodas.org/workshop_2010/warren_registry.ppt) |
+| 12:00         | WebApollo: Extending JBrowse to support DAS and genome annotation editing                         | Gregg Helt                | \[\]                                                           |
 | 12:15-13:30   | Lunch break                                                                                       |
-| 13:30         | EBI Search                                                                                        | Andy Jenkinson                                                            | \[\]                                                           |
-| 13:50         | Dealing with Personal Genomes using DAS                                                           | Manuel Corpas                                                             | \[\]                                                           |
-| 14:10         | Dasty update                                                                                      | Jose Villaveces                                                           | [PPT](http://www.biodas.org/workshop_2010/jose_jsdas.ppt)      |
-| 14:30         | EMBOSS as a DAS client                                                                            | Peter Rice, Mahmut Uludag                                                 | \[\]                                                           |
-| 14:50         |                                                                                                   |                                                                           | \[\], \[\]                                                     |
+| 13:30         | EBI Search                                                                                        | Andy Jenkinson            | \[\]                                                           |
+| 13:50         | Dealing with Personal Genomes using DAS                                                           | Manuel Corpas             | \[\]                                                           |
+| 14:10         | Dasty update                                                                                      | Jose Villaveces           | [PPT](http://www.biodas.org/workshop_2010/jose_jsdas.ppt)      |
+| 14:30         | EMBOSS as a DAS client                                                                            | Peter Rice, Mahmut Uludag | \[\]                                                           |
+| 14:50         |                                                                                                   |                           | \[\], \[\]                                                     |
 | 15:10-15:30   | coffee break                                                                                      |
-| 15:30         |                                                                                                   |                                                                           |                                                                |
-| 15:50         |                                                                                                   |                                                                           | \[\]                                                           |
-| 16:10         |                                                                                                   |                                                                           | \[\]                                                           |
-| 16:30         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                                                                           |                                                                |
-| 16:50         |                                                                                                   |                                                                           |                                                                |
+| 15:30         |                                                                                                   |                           |                                                                |
+| 15:50         |                                                                                                   |                           | \[\]                                                           |
+| 16:10         |                                                                                                   |                           | \[\]                                                           |
+| 16:30         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                           |                                                                |
+| 16:50         |                                                                                                   |                           |                                                                |
 | 17:10         | Bus Leaves for Cambridge Travel Lodge                                                             |
 ||
 

@@ -66,8 +66,8 @@ considerably.
 | 15:10-15:30   | coffee break                                                                                      |
 | 15:30         | Authentication and Autorization for writeback and secure DAS data sources                         | Gustavo and Andy          | \[\], \[\]                                                     |
 | 15:50         |                                                                                                   |                           | \[\]                                                           |
-| 16:10         |                                                                                                   |                           | \[\]                                                           |
-| 16:30         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                           |                                                                |
+| 16:10         | Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups |                           | \[\]                                                           |
+| 16:30         |                                                                                                   |                           |                                                                |
 | 16:50         |                                                                                                   |                           |                                                                |
 | 17:10         | Bus Leaves for Cambridge Travel Lodge                                                             |
 ||

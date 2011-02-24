@@ -158,7 +158,7 @@ Preliminary schedule where the order and content may still change considerably.
 | colspan="3" | coffee break
 |-
 |15:30
-|Setting up a BAM based DAS source in GBrowse.
+|Setting up a BAM based DAS source in GBrowse experience.
 |Frank Schwach
 |[], []
 |-

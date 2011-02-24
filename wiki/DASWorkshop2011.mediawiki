@@ -101,14 +101,14 @@ Preliminary schedule where the order and content may still change considerably.
 |Thomas Down
 |[]
 |-
-|
-|
-|
+|10:40
+|DAS search
+|Gustavo Salazar
 |[]
 |-
 |11:00
-|DAS search
-|Gustavo Salazar
+|Short break
+|
 |[]
 |-
 |11:20
@@ -150,17 +150,17 @@ Preliminary schedule where the order and content may still change considerably.
 |[]
 |-
 |14:50
-|
-|
+|Jalview Update
+|James Proctor
 |[], []
 |- style="background:#ffdead;"
 |15:10-15:30
 | colspan="3" | coffee break
 |-
 |15:30
-|
-|
-|
+|Authentication and Autorization for writeback and secure DAS data sources
+|Gustavo and Andy
+|[], []
 |-
 |15:50
 |

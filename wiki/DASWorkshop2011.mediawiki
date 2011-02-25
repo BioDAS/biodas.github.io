@@ -64,7 +64,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 15:30 - 17:15 
 | Hands-on programming tutorial: DAS client libraries, 10 minute introduction
 | 
-| Bio::Das::Lite -or- JAXB (Rafael) -or- JSDAS (Jose & Bernat), Each will cover sources, sequence & features using the same examples
+| Bio::Das::Lite -or- JDAS (Rafael & Leyla) -or- JSDAS (Jose & Bernat), Each will cover sources, sequence & features using the same examples
 |-  
 |17:30
 | colspan="3" |Departure from Campus to Cambridge Travel Lodge and Leisure Park at circa 17:30 hrs.

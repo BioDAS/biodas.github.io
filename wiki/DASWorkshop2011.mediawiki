@@ -104,7 +104,7 @@ Preliminary schedule where the order and content may still change considerably.
 |10:40
 |DAS search
 |Gustavo Salazar
-|[http://www.biotnet.org/sites/biotnet.org/files/documents/41/gustavo_advancesearch.ppt PPT]|[http://www.biotnet.org/training-materials/das-advance-search BTN]
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/41/gustavo_advancesearch.ppt PPT], [http://www.biotnet.org/training-materials/das-advance-search BTN]
 |-
 |11:00
 |Short break

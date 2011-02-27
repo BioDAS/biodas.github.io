@@ -102,6 +102,13 @@ Genome alignments in DAS (TAD)
 
 [Some background](/wiki/DAS1.6E#Alignment "wikilink").
 
+Briefly: there's a pretty good alignment data model, but the query
+syntax currently has a few issues which limit its use for genomic
+alignments. Most significantly, there's not a good way to fetch a subset
+of the alignment based on *sequence* coordinates (e.g. "give me all
+alignment blocks overlapping the segment 22:30000000,30100000 from human
+NCBI36").
+
 Improving interactivity of DAS data (TAD)
 -----------------------------------------
 

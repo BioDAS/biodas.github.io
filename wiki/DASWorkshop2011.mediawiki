@@ -38,7 +38,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 10:35 - 11:25
 | Hands-on tutorial: using DAS software, 10 minute introduction of some DAS implementations (Bernat)
 | Bernat Gel, Thomas Down, Jose Villavaces
-| Creating DAS sources from GFF files supplied using easyDAS (Bernat), Viewing DAS sources using Dalliance (Thomas) -or- Dasty3 (Jose)
+| Creating DAS sources from GFF files supplied using easyDAS (Bernat), Viewing DAS sources using Dalliance (Thomas) [http://www.biodalliance.org/people/thomas/dalliance-for-das-workshop.pdf PDF]-or- Dasty3 (Jose)
 |-
 | 11:25 - 12:15
 | Hands-on programming tutorial: Creating a custom DAS source

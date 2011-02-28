@@ -6,6 +6,7 @@ The 2011 DAS Workshop will be held on 2-4 Marchl at the EBI Hinxton campus.
 The first 2 days will be held in the EBI training room. 3rd day room to be announced.
 ==Day 1==
 Some knowledge/experience of PERL or Java and or Javascript would be beneficial for the hands on training day.
+===Example DAS commands can be found here as a DAS quick reference guide: [http://www.dasregistry.org/DASCommandExamples.jsp DAS examples]===
 
 {| class="wikitable" border="1"
 |- style="background:silver"

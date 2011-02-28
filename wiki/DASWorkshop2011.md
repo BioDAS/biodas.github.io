@@ -137,6 +137,6 @@ on their validity rather than archiving sources. Should clients do all
 they can to accommodate poor data sources or should they link to
 validation data and encourage correct data source compliance?(JW)
 
-Also: how aggressively should the registry check for dead datasources?
-Should there be some expectation of "maximum reasonable response time"
-for a DAS request?
+Also: how aggressively should the registry check for and prune dead
+datasources? Should there be some expectation of "maximum reasonable
+response time" for a DAS request? (TAD)

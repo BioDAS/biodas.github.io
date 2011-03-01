@@ -57,7 +57,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 |14:50 - 15:10
 | Hands on Tutorial The DAS registry: Short introduction talk then hands on tutorial
 | Jonathan Warren
-| The DAS registry 
+| [http://www.biotnet.org/sites/biotnet.org/files/documents/38/dasregisry.doc The DAS registry Tutorial] 
 |-style="background:#ffdead;"
 | 15:10 - 15:30
 | colspan="3" | Cofee Break

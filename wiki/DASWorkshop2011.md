@@ -96,6 +96,9 @@ Discussion about fitting alternative data formats into the DAS ecosystem (TAD)
 See [proposal from 2010
 workshop](/wiki/DAS1.6E#Support_for_alternative_content_formats "wikilink").
 
+Also [Binary data support in
+Dalliance](http://www.biodalliance.org/bin.html).
+
 Security - authorization and authentication for clients, servers, registry (GS, AJ, JW)
 ---------------------------------------------------------------------------------------
 

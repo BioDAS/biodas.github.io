@@ -65,7 +65,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 15:30 - 17:15 
 | Hands-on programming tutorial: DAS client libraries, 10 minute introduction
 | Andy, Rafael, Leyla, Jose, Bernat
-| [http://www.biotnet.org/training-materials/bio-das-proserver-tutorial Bio::Das::Lite]-or- [http://www.biotnet.org/training-materials/jdas JDAS] -or- [http://code.google.com/p/jsdas/wiki/tutorial JSDAS]. Each will cover sources, sequence & features using the same examples
+| [http://www.biotnet.org/training-materials/bio-das-lite-tutorial Bio::Das::Lite]-or- [http://www.biotnet.org/training-materials/jdas JDAS] -or- [http://code.google.com/p/jsdas/wiki/tutorial JSDAS]. Each will cover sources, sequence & features using the same examples
 |-  
 |17:30
 | colspan="3" |Departure from Campus to Cambridge Travel Lodge and Leisure Park at circa 17:30 hrs.

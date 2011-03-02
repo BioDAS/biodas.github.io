@@ -39,7 +39,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 10:35 - 11:25
 | Hands-on tutorial: using DAS software, 10 minute introduction of some DAS implementations (Bernat)
 | Bernat Gel, Thomas Down, Jose Villavaces
-| Implementations. [http://www.lsi.upc.edu/~bgel/research/easydas/tutorial/Implementations.ppt PPT] [http://code.google.com/p/easydas/wiki/tutorialDASWorkshop2011 Creating DAS sources from GFF files supplied using easyDAS] (Bernat), Viewing DAS sources using Dalliance (Thomas) [http://www.biodalliance.org/people/thomas/dalliance-for-das-workshop.pdf PDF]-or- Dasty3 (Jose)
+| Implementations. [http://www.lsi.upc.edu/~bgel/research/easydas/tutorial/Implementations.ppt PPT] [http://code.google.com/p/easydas/wiki/tutorialDASWorkshop2011 Creating DAS sources from GFF files supplied using easyDAS] (Bernat), Viewing DAS sources using Dalliance (Thomas) [http://www.biodalliance.org/people/thomas/dalliance-for-das-workshop.pdf PDF]-or- Dasty3 (Jose) [http://www.ebi.ac.uk/~ljgarcia/Presentations/Tutorials/DASTY3.doc DOC]
 |-
 | 11:25 - 12:15
 | Hands-on programming tutorial: Creating a custom DAS source
@@ -65,7 +65,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 15:30 - 17:15 
 | Hands-on programming tutorial: DAS client libraries, 10 minute introduction
 | Andy, Rafael, Leyla, Jose, Bernat
-| [http://www.biotnet.org/training-materials/bio-das-proserver-tutorial Bio::Das::Lite]-or- [http://www.biotnet.org/training-materials/jdas JDAS] -or- JSDAS. Each will cover sources, sequence & features using the same examples
+| [http://www.biotnet.org/training-materials/bio-das-proserver-tutorial Bio::Das::Lite]-or- [http://code.google.com/p/jsdas/wiki/tutorial JDAS] -or- JSDAS. Each will cover sources, sequence & features using the same examples
 |-  
 |17:30
 | colspan="3" |Departure from Campus to Cambridge Travel Lodge and Leisure Park at circa 17:30 hrs.

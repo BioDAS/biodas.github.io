@@ -32,7 +32,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 
 |-
 | 10:20 - 10:35
-| The DAS Game
+| [http://www.biotnet.org/sites/biotnet.org/files/documents/32/dasgame.pdf The DAS Game]
 | Rafael Jimenez
 | 
 |-

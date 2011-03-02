@@ -32,9 +32,9 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 
 |-
 | 10:20 - 10:35
-| [http://www.biotnet.org/sites/biotnet.org/files/documents/32/dasgame.pdf The DAS Game]
+| The DAS Game
 | Rafael Jimenez
-| 
+| [http://www.biotnet.org/sites/biotnet.org/files/documents/32/dasgame.pdf The DAS Game]
 |-
 | 10:35 - 11:25
 | Hands-on tutorial: using DAS software, 10 minute introduction of some DAS implementations (Bernat)

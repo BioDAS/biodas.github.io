@@ -143,3 +143,11 @@ validation data and encourage correct data source compliance?(JW)
 Also: how aggressively should the registry check for and prune dead
 datasources? Should there be some expectation of "maximum reasonable
 response time" for a DAS request? (TAD)
+
+Maxbins strategies
+------------------
+
+As simple as it can seem, binning strategies for the maxbins attribute
+are not evident. Although the binning startegy is very dependant on data
+type, it would be nice to have a small set of standard simple binning
+algorithms so maxbins can be easily added to new DAS sources. (BG)

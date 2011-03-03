@@ -164,9 +164,9 @@ Preliminary schedule where the order and content may still change considerably.
 |[], []
 |-
 |15:50
-|Authentication and Autorization for writeback and secure DAS data sources
+|Authentication and Authorization for writeback and secure DAS data sources
 |Gustavo and Andy
-|[], []
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/41/dassecurity.ppt PPT], [http://www.biotnet.org/training-materials/das-security BTN]
 |-
 |16:10
 |Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups

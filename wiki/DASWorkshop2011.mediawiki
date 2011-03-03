@@ -100,7 +100,7 @@ Preliminary schedule where the order and content may still change considerably.
 |10:20
 |Dalliance- a new interactive DAS client
 |Thomas Down
-|[http:/www.biodalliance.org/people/thomas/dalliance-201103/dalliance.html HTML]
+|[http://www.biodalliance.org/people/thomas/dalliance-201103/dalliance.html HTML Slides]
 |-
 |10:40
 |DAS search

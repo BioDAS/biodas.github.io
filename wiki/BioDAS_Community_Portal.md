@@ -10,11 +10,10 @@ DAS Workshops
 DAS workshops are run annually that consist of a training day, a day of
 talks and a development day.
 
-[DAS Workshop 2010](http://www.biodas.org/wiki/DASWorkshop2010)
-
-[DAS Workshop 2009](http://www.biodas.org/wiki/DASworkshop200903)
-
-[DAS Workshop 2008](http://www.biodas.org/wiki/DASworkshop200802)
+-   [DAS Workshop 2011](/wiki/DASWorkshop2011 "wikilink")
+-   [DAS Workshop 2010](/wiki/DASWorkshop2010 "wikilink")
+-   [DAS Workshop 2009](/wiki/DASworkshop200903 "wikilink")
+-   [DAS Workshop 2008](/wiki/DASworkshop200802 "wikilink")
 
 DAS Mailing Lists
 -----------------

@@ -13,8 +13,7 @@ campus.
 DAS Workshop 2011 Schedule
 ==========================
 
-The first 2 days will be held in the EBI training room. 3rd day room to
-be announced.
+All 3 days will be held in the EBI training room.
 
 Day 1
 -----

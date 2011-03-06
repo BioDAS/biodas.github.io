@@ -628,3 +628,10 @@ Often, the use of unique IDs within DAS is poorly executed. Formally
 adopting URIs as identifiers (including specifying how URIs are built
 from URI references within DAS XML documents) would allow cross
 referencing between sequences and annotations within and outside DAS.
+
+Adjacent Feature filter
+-----------------------
+
+An optimization to allow efficient implementation of "next/previous
+feature" functionality. [Proposed
+spec](https://github.com/dasmoth/dalliance/wiki/AdjacentFeatures).

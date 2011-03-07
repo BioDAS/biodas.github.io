@@ -29,7 +29,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 10:00 - 10:20
 | DAS - Introduction/Overview
 | Andy Jenkinson
-| 
+| [http://http://www.biotnet.org/training-materials/introduction-das Introduction] [http://www.biotnet.org/training-materials/technical-introduction-das Technical Introduction]
 |-
 | 10:20 - 10:35
 | The DAS Game

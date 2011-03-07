@@ -133,7 +133,7 @@ Preliminary schedule where the order and content may still change considerably.
 |13:30
 |EBI Search
 |Andy Jenkinson
-|[]
+|[http://www.ebi.ac.uk/~aj/das_workshop_2011/EBI-Search.pptx PPTX]
 |-
 |13:50
 |Dealing with Personal Genomes using DAS

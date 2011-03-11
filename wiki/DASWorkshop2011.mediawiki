@@ -125,7 +125,7 @@ Preliminary schedule where the order and content may still change considerably.
 |12:00
 |WebApollo: Extending JBrowse to support DAS and genome annotation editing
 |Gregg Helt
-|[]
+|[http://s3.amazonaws.com/WebApollo/presentations/WebApollo+-+DAS+Workshop+2011.pptx PPTX], [http://s3.amazonaws.com/WebApollo/presentations/WebApollo+-+DAS+Workshop+2011.pdf PDF]
 |- style="background:#ffdead;"
 |12:15-13:30
 | colspan="3" | Lunch break

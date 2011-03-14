@@ -120,7 +120,7 @@ Preliminary schedule where the order and content may still change considerably.
 |11:40
 |Update on the DAS Registry
 |Jonathan Warren
-|[http://www.biodas.org/workshop_2010/warren_registry.ppt PPT]
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/das_registry_update2.pptx PPT]
 |-
 |12:00
 |WebApollo: Extending JBrowse to support DAS and genome annotation editing

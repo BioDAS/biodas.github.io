@@ -95,7 +95,7 @@ Preliminary schedule where the order and content may still change considerably.
 |10:00
 |Opening talk 
 |Tim Hubbard
-|[]
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/th201103_das_workshop.pdf PDF]
 |-
 |10:20
 |Dalliance- a new interactive DAS client
@@ -148,7 +148,7 @@ Preliminary schedule where the order and content may still change considerably.
 |14:30
 |EMBOSS as a DAS client
 |Peter Rice, Mahmut Uludag
-|[]
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/premboss-das2011.ppt PPT]
 |-
 |14:50
 |Jalview Update
@@ -161,7 +161,7 @@ Preliminary schedule where the order and content may still change considerably.
 |15:30
 |Setting up a BAM based DAS source in GBrowse experience.
 |Frank Schwach
-|[], []
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/fsdas_workshop_march11.pdf PDF], []
 |-
 |15:50
 |Authentication and Authorization for writeback and secure DAS data sources

@@ -152,8 +152,8 @@ Preliminary schedule where the order and content may still change considerably.
 |-
 |14:50
 |Jalview Update
-|James Proctor
-|[], []
+|James Procter
+|[http://www.jalview.org/talks/2011_DASJalviewUpdate.pdf PDF]
 |- style="background:#ffdead;"
 |15:10-15:30
 | colspan="3" | coffee break

@@ -675,6 +675,14 @@ results at any one time. This is particularly important for responses
 with large numbers of features (such as an advanced search). The
 parameter takes the form start-end.
 
+Note that servers implementing this capability should NOT choose to
+limit the rows returned unless the client requests it, and should NOT
+choose a different range to that requested by the client. This
+capability thus differs the equivalent parameter in the DAS
+entry\_points command. Servers that are unable to serve a client's
+requested range of rows should respond with an error (see [\#Status
+Code](#Status_Code "wikilink") below).
+
 ### Response
 
 Two modifications on the features XML response are required to support

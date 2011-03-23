@@ -727,7 +727,7 @@ contains 16, the response would look like this:
 
 <code>
 
-` /das/mysource/features?segment=1:200,800;segment=2:400,1000;rows=1-20`  
+` /das/mysource/features?segment=1:200,800;segment=2:400,1000;rows=1-5`  
 ` `<GFF total="20">  
 `   `<SEGMENT id="1" start="200" stop="800" total="4">  
 `     `<FEATURE id="f1">` ... `</FEATURE>  
@@ -743,7 +743,9 @@ contains 16, the response would look like this:
 </code>
 
 If only the first 4 rows had been requested, the second segment would be
-omitted entirely but the total in the GFF element would still be 20.
+omitted entirely but the total in the GFF element would still be 20. On
+the other hand if the requested rows were 6-20, only the 2nd to 16th
+features from segment 2 would be returned.
 
 ### Capability
 

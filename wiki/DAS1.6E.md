@@ -719,6 +719,32 @@ this extension:
 for the cases where this extension is not implemented, however their
 inclusion is mandatory if this capability is reported.
 
+The server should respond to a features request with a "rows" parameter
+by only returning the features in the indicated range. Features in
+different segments should be processed sequentially. That is, where
+rows=1-5 and the first segment contains 4 features and the second
+contains 16, the response would look like this:
+
+<code>
+
+` /das/mysource/features?segment=1:200,800;segment=2:400,1000;rows=1-20`  
+` `<GFF total="20">  
+`   `<SEGMENT id="1" start="200" stop="800" total="4">  
+`     `<FEATURE id="f1">` ... `</FEATURE>  
+`     `<FEATURE id="f2">` ... `</FEATURE>  
+`     `<FEATURE id="f3">` ... `</FEATURE>  
+`     `<FEATURE id="f4">` ... `</FEATURE>  
+`   `</SEGMENT>  
+`   `<SEGMENT id="2" start="400" stop="1000" total="16">  
+`     `<FEATURE id="f5">` ... `</FEATURE>  
+`   `</SEGMENT>  
+` `</GFF>
+
+</code>
+
+If only the first 4 rows had been requested, the second segment would be
+omitted entirely but the total in the GFF element would still be 20.
+
 ### Capability
 
 A source able to deal with this extension have to reflect this in its

@@ -123,7 +123,8 @@ The various specification versions on this site are described
 
 ![](DasEvolution2.PNG "DasEvolution2.PNG")
 
-Graphic representation of the evolution of "Versions of DAS" over the
+Graphic representation of the evolution of ["Versions of
+DAS"](http://www.biotnet.org/training-materials/versions-das) over the
 years. The different colors identify the version/specification and the
 white numbers an estimation of available sources per year.
 

@@ -635,3 +635,93 @@ Adjacent Feature filter
 An optimization to allow efficient implementation of "next/previous
 feature" functionality. [Proposed
 spec](https://github.com/dasmoth/dalliance/wiki/AdjacentFeatures).
+
+Pagination for DAS
+------------------
+
+**March 23,2011**
+
+This is a working document and a proposal for an extension to the [DAS
+1.6 specification](/wiki/DAS1.6 "wikilink") in order to provide a mechanism to
+paginate the results of a *feature* request similar to the already
+included for *entry-points*.
+
+This proposal explains how a specific subset of the response can be
+requested.
+
+### New Argument - rows
+
+*rows*, a new argument for the *features* command is added as optional,
+so now the request of this command is defined as:
+
+<code>
+
+`SERVER/das/DSN/features?segment=RANGE`  
+` [;segment=RANGE]`  
+` [;type=TYPE]`  
+` [;type=TYPE]`  
+` [;category=CATEGORY]`  
+` [;category=CATEGORY]`  
+` [;feature_id=ID]`  
+` [;maxbins=BINS]`  
+` [;query=DASQUERY]`  
+` `**`[;rows=start-end]`**
+
+</code>
+
+Limits the features returned in the response to those in the given
+range, allowing the client to retrieve a smaller cross-section of the
+results at any one time. This is particularly important for responses
+with large numbers of features (such as an advanced search). The
+parameter takes the form start-end.
+
+### Response
+
+Two modifications on the features XML response are required to support
+this extension:
+
+-   The element **GFF** new optional attribute called *total* reporting
+    the total number of features in the whole response(for all the
+    segments that excluding the pagination should be returned). The
+    addition to the relaxNG should be:
+
+`  `<code>  
+`   `<element name="GFF">  
+`    `<optional>  
+`     `**<attribute name="total"><data type="integer"/></attribute>**  
+`     ...`  
+`    `</optional>  
+`    ...`  
+`  `</code>
+
+-   The element **SEGMENT** new optional attribute called *total*
+    reporting the total number of features in the specific segment. The
+    addition to the relaxNG should be:
+
+`  `<code>  
+`   `<element name="SEGMENT">  
+`    `<optional>  
+`     `**<attribute name="total"><data type="integer"/></attribute>**  
+`     ...`  
+`    `</optional>  
+`    ...`  
+`  `</code>
+
+**Note:** The added attributes are defined as optional in the response
+for the cases where this extension is not implemented, however their
+inclusion is mandatory if this capability is reported.
+
+### Capability
+
+A source able to deal with this extension have to reflect this in its
+*sources* command by a similar line as:
+
+<capability type="das1:rows-for-feature"   />
+
+### Status Code
+
+If a request is too long that a DAS server is not able to process
+it(e.j. Reaching Memory limits) the server should respond with an HTTP
+error 500 including a X-DAS-Status header 502, this can be interpreted
+to the client as a suggestion to use pagination, or to redefine the
+start-stop limits of the rows parameter.

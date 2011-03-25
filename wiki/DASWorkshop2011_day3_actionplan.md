@@ -7,9 +7,6 @@ layout: wiki
 Action plan
 -----------
 
--   [DAS workshop 2011](/wiki/DASWorkshop2011 "wikilink")
-    -   [Minutes](/wiki/DASWorkshop2011/day3/minutes "wikilink")
-
 | ACTION                                                                                          | WHO                  | By WHEN        | STATUS      |
 |-------------------------------------------------------------------------------------------------|----------------------|----------------|-------------|
 | **Security (authentication)**                                                                   |
@@ -52,4 +49,6 @@ Action plan
 | **Graphical conventions on feature types**                                                      |
 | Explore options                                                                                 | LJG                  | April 2011     | In progress |
 
+-   [DAS workshop 2011](/wiki/DASWorkshop2011 "wikilink")
+    -   [Minutes](/wiki/DASWorkshop2011/day3/minutes "wikilink")
 

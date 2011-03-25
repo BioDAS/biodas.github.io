@@ -26,12 +26,20 @@
 | JP
 | May 2011
 |-
+| Centralized authentication (registry): Specification 
+| GAS
+| November 2011
+|-
 | Centralized authentication (registry): Server implementation: Proserver 
 | AJ
 | February 2012
 |-
 | Centralized authentication (registry): Server implementation: MyDas 
 | GAS
+| February 2012
+|-
+| Centralized authentication (registry): Registry implementation
+| GAS & JW
 | February 2012
 |-
 | Centralized authentication (registry): Client implementation: Dasty 

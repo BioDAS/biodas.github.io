@@ -16,9 +16,9 @@ DAS**
 ### Outline
 
 -   Introduction: Review about DAS (and overview, historical background,
-    evolution of
+    evolution ofsources) and Main Scope of this contribution
 
-sources) and Main Scope of this contribution
+<!-- -->
 
 -   State of the art
 
@@ -29,9 +29,9 @@ sources) and Main Scope of this contribution
 <!-- -->
 
 -   Brief comparison with at least two other federated systems (e.g.
-    BioMart and
+    BioMart and psicquic) and perhaps one non federated system.
 
-psicquic) and perhaps one non federated system.
+<!-- -->
 
 -   Illustrate the results from the workshop and main immediate
     changes/implementations

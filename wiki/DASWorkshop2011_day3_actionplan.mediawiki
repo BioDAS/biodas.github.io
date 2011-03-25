@@ -12,7 +12,7 @@
 |-
 | HTTP authenticatio: Server implementation: MyDas
 | LJG & GAS
-| End of April 2011
+| April 2011
 |-
 | HTTP authentication: Client implementation: Dalliance
 | TAD
@@ -26,10 +26,6 @@
 | JP
 | May 2011
 |-
-| Centralized authentication (registry): Specification 
-| GAS
-| November 2011
-|-
 | Centralized authentication (registry): Server implementation: Proserver 
 | AJ
 | February 2012
@@ -38,15 +34,11 @@
 | GAS
 | February 2012
 |-
-| Centralized authentication (registry): Registry implementation
-| GAS & JW
-| February 2012
-|-
 | Centralized authentication (registry): Client implementation: Dasty 
 | RJ
 | March 2012
 |-  style="background:#ffdead;"
-| colspan="3" | TOPIC: Alternative Content: one capability using “formats” command
+| colspan="3" | TOPIC: '''Alternative Content: one capability using “formats” command'''
 |-
 | Add specification in BioDAS extension page
 | RCJ
@@ -72,27 +64,23 @@
 | GH
 | June 2011
 |-  style="background:#ffdead;"
-| colspan="3" | TOPIC: Pagination for features command
+| colspan="3" | TOPIC: '''Pagination for features command'''
 |-
 | Server implementation: MyDas
 | LJG & GAS
-| April 5th 2011
+| April 2011
 |-
 | Server implementation: Proserver
 | AJ
-| April 5th 2011
-|-
-| Implement the Request/Response described in minutes
-| For Proserver by AJ
-| By end of April 2011
+| April 2011
 |-  style="background:#ffdead;"
-| colspan="3" | TOPIC: Strategy for Java client library
+| colspan="3" | TOPIC: '''Strategy for Java client library'''
 |-
 | Stay with JDAS incorporating functionality Dasobert.
 | RCJ, LW, JP, SK, GAS
 | June 2011
 |-  style="background:#ffdead;"
-| colspan="3" | TOPIC: Incompatibility in DAS
+| colspan="3" | TOPIC: '''Incompatibility in DAS'''
 |-
 | For the list of priorities identify provide examples of valid sources implementing all commands
 | JW
@@ -106,7 +94,7 @@
 | JW
 | June 2011
 |-  style="background:#ffdead;"
-| colspan="3" | TOPIC: Genomic alignments
+| colspan="3" | TOPIC: '''Genomic alignments'''
 |-
 | Disscuss proposal in the DAS mailing list
 | TAD
@@ -118,7 +106,7 @@
 | TAD
 | March 2011
 |-  style="background:#ffdead;"
-| colspan="3" | TOPIC: Next feature
+| colspan="3" | TOPIC: '''Next feature'''
 |-
 | Server implementation: Dazzle
 | TAD
@@ -128,7 +116,7 @@
 | TAD
 | April 2011
 |-  style="background:#ffdead;"
-| colspan="3" | TOPIC: Linking features to rich content
+| colspan="3" | TOPIC: '''Linking features to rich content'''
 |-
 | Client implementation: Dalliance
 | TAD
@@ -142,7 +130,7 @@
 | JW
 | June 2011
 |-  style="background:#ffdead;"
-| colspan="3" | TOPIC: Graphical conventions on feature types
+| colspan="3" | TOPIC: '''Graphical conventions on feature types'''
 |-
 | Explore options
 | LJG

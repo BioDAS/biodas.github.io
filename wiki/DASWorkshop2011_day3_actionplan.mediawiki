@@ -30,7 +30,7 @@
 |-
 | HTTP authentication: Client implementation: Jalview
 | JP
-| May 2011
+| June 2011
 | In progress 
 |-
 | Centralized authentication (registry): Specification 

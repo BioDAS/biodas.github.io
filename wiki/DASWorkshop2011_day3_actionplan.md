@@ -14,7 +14,7 @@ Action plan
 | HTTP authentication: Server implementation: MyDas                                               | LJG & GAS            | April 2011     | In progress |
 | HTTP authentication: Client implementation: Dalliance                                           | TAD                  | May 2011       | In progress |
 | HTTP authentication: Client implementation: IGB                                                 | GH                   | May 2011       | In progress |
-| HTTP authentication: Client implementation: Jalview                                             | JP                   | May 2011       | In progress |
+| HTTP authentication: Client implementation: Jalview                                             | JP                   | June 2011      | In progress |
 | Centralized authentication (registry): Specification                                            | GAS & JW             | November 2011  | In progress |
 | Centralized authentication (registry): Server implementation: Proserver                         | AJ                   | February 2012  | In progress |
 | Centralized authentication (registry): Server implementation: MyDas                             | GAS                  | February 2012  | In progress |

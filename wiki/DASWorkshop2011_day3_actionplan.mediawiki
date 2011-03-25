@@ -6,16 +6,24 @@
 |-  style="background:#ffdead;"
 | colspan="3" | TOPIC: Security (authentication)
 |-
-| Implementing HTTP authentication
-| Proserver (AJ & GAS)
+| HTTP authenticatio: Server implementation: Proserver
+| AJ
 | End of April 2011
 |-
-| Implementing HTTP authentication
-| Servers (AJ & GAS)
+| HTTP authenticatio: Server implementation: MyDas
+| LJG & GAS
 | End of April 2011
 |-
-| Implementing HTTP authentication
-| Clients (TAD, GH & JP)
+| HTTP authentication: Client implementation: Dalliance
+| TAD
+| End of May 2011
+|-
+| HTTP authentication: Client implementation: IGB
+| GH
+| End of May 2011
+|-
+| HTTP authentication: Client implementation: Jalview
+| JP
 | End of May 2011
 |-
 | Centralized authentication

@@ -192,6 +192,7 @@ Preliminary schedule where the order and content may still change considerably.
 * [[DASWorkshop2011/day3/topics|Suggested Topics]]
 * [[DASWorkshop2011/day3/minutes|Minutes]]
 * [[DASWorkshop2011/day3/actionplan|Action Plan]]
+* [[DASWorkshop2011/day3/paper|DAS Paper]]
 
 
 Location is the EBI Training Room

@@ -21,7 +21,7 @@
 | HTTP authentication: Client implementation: Dalliance
 | TAD
 | May 2011
-| In progress 
+| DONE 
 |-
 | HTTP authentication: Client implementation: IGB
 | GH
@@ -142,16 +142,16 @@
 | April 2011
 | In progress 
 |-
-| Server implementation: Dalliance
+| Client implementation: Dalliance
 | TAD
 | April 2011
-| In progress 
+| DONE (on nav branch.  Should be in release 0.7) 
 |-  style="background:#ffdead;"
 | colspan="4" | '''Linking features to rich content'''
 |-
 | Client implementation: Dalliance
 | TAD
-| June 2011
+| June 2011 (subject to server impl.)
 | In progress 
 |-
 | Server implementation: Proserver

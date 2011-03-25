@@ -1,2 +1,7 @@
+== Minutes ==
 * [http://www.ebi.ac.uk/~rafael/docs/das/workshop2011/dasworkshop2011_minutes.pdf dasworkshop2011_minutes.pdf]
 * [http://www.ebi.ac.uk/~rafael/docs/das/workshop2011/dasworkshop2011_minutes.doc dasworkshop2011_minutes.doc]
+
+
+* [[DASWorkshop2011|DAS workshop 2011]]
+** [[DASWorkshop2011/day3/actionplan|Action Plan]]

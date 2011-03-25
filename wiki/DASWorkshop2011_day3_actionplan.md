@@ -12,6 +12,7 @@ layout: wiki
 | HTTP authentication: Client implementation: Dalliance                                           | TAD                  | May 2011       |
 | HTTP authentication: Client implementation: IGB                                                 | GH                   | May 2011       |
 | HTTP authentication: Client implementation: Jalview                                             | JP                   | May 2011       |
+| Centralized authentication (registry): Specification                                            | GAS & JW             | November 2011  |
 | Centralized authentication (registry): Server implementation: Proserver                         | AJ                   | February 2012  |
 | Centralized authentication (registry): Server implementation: MyDas                             | GAS                  | February 2012  |
 | Centralized authentication (registry): Client implementation: Dasty                             | RJ                   | March 2012     |

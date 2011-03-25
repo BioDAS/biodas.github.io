@@ -26,6 +26,10 @@
 | JP
 | May 2011
 |-
+| Centralized authentication (registry): Specification 
+| GAS & JW
+| November 2011
+|-
 | Centralized authentication (registry): Server implementation: Proserver 
 | AJ
 | February 2012

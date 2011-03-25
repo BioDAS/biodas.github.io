@@ -1,7 +1,7 @@
 
 == Action plan ==
 * [[DASWorkshop2011|DAS workshop 2011]]
-  * [[DASWorkshop2011/day3/minutes|Minutes]]
+** [[DASWorkshop2011/day3/minutes|Minutes]]
 
 {|border="1" cellpadding="2" style="border-collapse: separate; border-spacing: 0; border-width: 1px; border-style: solid; border-color: #000; padding: 0"
 |- style="background:silver"

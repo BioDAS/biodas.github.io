@@ -193,6 +193,7 @@ Preliminary schedule where the order and content may still change considerably.
 * [[DASWorkshop2011/day3/minutes|Minutes]]
 * [[DASWorkshop2011/day3/actionplan|Action Plan]]
 
+
 Location is the EBI Training Room
  As per other days -Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.
 Start at 10am

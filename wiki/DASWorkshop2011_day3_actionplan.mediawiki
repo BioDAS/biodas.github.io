@@ -8,7 +8,7 @@
 |-
 | HTTP authenticatio: Server implementation: Proserver
 | AJ
-| End of April 2011
+| April 2011
 |-
 | HTTP authenticatio: Server implementation: MyDas
 | LJG & GAS
@@ -16,39 +16,63 @@
 |-
 | HTTP authentication: Client implementation: Dalliance
 | TAD
-| End of May 2011
+| May 2011
 |-
 | HTTP authentication: Client implementation: IGB
 | GH
-| End of May 2011
+| May 2011
 |-
 | HTTP authentication: Client implementation: Jalview
 | JP
-| End of May 2011
+| May 2011
 |-
-| Centralized authentication
-| Servers (GAS)
+| Centralized authentication (registry): Server implementation: Proserver 
+| AJ
 | February 2012
+|-
+| Centralized authentication (registry): Server implementation: MyDas 
+| GAS
+| February 2012
+|-
+| Centralized authentication (registry): Client implementation: Dasty 
+| RJ
+| March 2012
 |-  style="background:#ffdead;"
 | colspan="3" | TOPIC: Alternative Content: one capability using “formats” command
 |-
-| Specification in BioDAS extension page
-| RCJ to add
-| By April 5th 2011
+| Add specification in BioDAS extension page
+| RCJ
+| April 5th 2011
 |-
 | Demo: client pointing to static file
-| TAD to implement
-| By April 5th 2011
+| TAD
+| April 5th 2011
 |-
-| Implement the capability
-| JW, GH, GAS and AJ
-| By June 2011
+| Registry implemention
+| JW
+| June 2011
+|-
+| Server implemention: Proserver
+| AJ
+| June 2011
+|-
+| Server implemention: MyDas
+| LJG & GAS
+| June 2011
+|-
+| Server implemention: Genoviz? & Trellis
+| GH
+| June 2011
 |-  style="background:#ffdead;"
 | colspan="3" | TOPIC: Pagination for features command
 |-
-| Implement the Request/Response described in minutes
-| For MyDAS by GAS
-| By April 5th 2011
+| Server implementation: MyDas
+| LJG & GAS
+| April 5th 2011
+|-
+| Server implementation: Proserver
+| AJ
+| April 5th 2011
 |-
 | Implement the Request/Response described in minutes
 | For Proserver by AJ
@@ -56,47 +80,63 @@
 |-  style="background:#ffdead;"
 | colspan="3" | TOPIC: Strategy for Java client library
 |-
-| Stay with JDAS incorporating functionality Dasobert has.
+| Stay with JDAS incorporating functionality Dasobert.
 | RCJ, LW, JP, SK, GAS
-| By June 2011
+| June 2011
 |-  style="background:#ffdead;"
 | colspan="3" | TOPIC: Incompatibility in DAS
 |-
 | For the list of priorities identify provide examples of valid sources implementing all commands
 | JW
-| By June 2011
+| June 2011
 |-
 | Report primary error
 | JW
-| By June 2011
+| June 2011
 |-
 | Allow no limits on what you can register
 | JW
-| By June 2011
+| June 2011
 |-  style="background:#ffdead;"
 | colspan="3" | TOPIC: Genomic alignments
 |-
-| Implement proposal specified in minutes
+| Disscuss proposal in the DAS mailing list
 | TAD
-| By end May 2011
+| March 2011
 |-  style="background:#ffdead;"
 | colspan="3" | TOPIC: Binning strategy
 |-
-| Order by size and return first, if no score then provide density (feature) info
+| Disscuss proposal in the DAS mailing list
 | TAD
-| Circulate e-mail by April 5th
+| March 2011
 |-  style="background:#ffdead;"
-| colspan="3" | TOPIC: Paper
+| colspan="3" | TOPIC: Next feature
 |-
-| Define outline and request confirmation for contribution to specific sections
-| 
-| 
+| Server implementation: Dazzle
+| TAD
+| April 2011
 |-
-| 
-| 
-| 
+| Server implementation: Dalliance
+| TAD
+| April 2011
+|-  style="background:#ffdead;"
+| colspan="3" | TOPIC: Linking features to rich content
 |-
-| 
-| 
-| 
+| Client implementation: Dalliance
+| TAD
+| June 2011
+|-
+| Server implementation: Proserver
+| AJ
+| June 2011
+|-
+| Source demo
+| JW
+| June 2011
+|-  style="background:#ffdead;"
+| colspan="3" | TOPIC: Graphical conventions on feature types
+|-
+| Explore options
+| LJG
+| April 2011
 |}

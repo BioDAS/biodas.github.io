@@ -4,6 +4,13 @@ permalink: wiki/DASWorkshop2011/day3/actionplan/
 layout: wiki
 ---
 
+Action plan
+-----------
+
+-   [DAS workshop 2011](/wiki/DASWorkshop2011 "wikilink")
+
+` * `[`Minutes`](/wiki/DASWorkshop2011/day3/minutes "wikilink")
+
 | ACTION                                                                                          | WHO                  | By WHEN        | STATUS      |
 |-------------------------------------------------------------------------------------------------|----------------------|----------------|-------------|
 | **Security (authentication)**                                                                   |

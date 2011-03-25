@@ -7,7 +7,7 @@
 | colspan="3" | TOPIC: Security (authentication)
 |-
 | Implementing HTTP authentication
-| Servers (AJ & GAS)
+| Proserver (AJ & GAS)
 | End of April 2011
 |-
 | Implementing HTTP authentication
@@ -65,16 +65,22 @@
 | Allow no limits on what you can register
 | JW
 | By June 2011
+|-  style="background:#ffdead;"
+| colspan="3" | TOPIC: Genomic alignments
 |-
-| ...
-| 
-| 
+| Implement proposal specified in minutes
+| TAD
+| By end May 2011
+|-  style="background:#ffdead;"
+| colspan="3" | TOPIC: Binning strategy
 |-
-| 
-| 
-| 
+| Order by size and return first, if no score then provide density (feature) info
+| TAD
+| Circulate e-mail by April 5th
+|-  style="background:#ffdead;"
+| colspan="3" | TOPIC: Paper
 |-
-| 
+| Define outline and request confirmation for contribution to specific sections
 | 
 | 
 |-

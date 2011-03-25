@@ -76,6 +76,10 @@ considerably.
 Day 3
 -----
 
+-   [Suggested Topics](/wiki/DASWorkshop2011/day3/topics "wikilink")
+-   [Minutes](/wiki/DASWorkshop2011/day3/minutes "wikilink")
+-   [Action Plan](/wiki/DASWorkshop2011/day3/actionplan "wikilink")
+
 Location is the EBI Training Room
 
 `As per other days -Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.`
@@ -85,8 +89,3 @@ Start at 10am
 `Departure 16:00 hrs form campus to Travelodge in order for people to get planes and trains etc back home.`
 
 Finish at 4pm.
-
--   [Suggested Topics](/wiki/DASWorkshop2011/day3/topics "wikilink")
--   [Minutes](/wiki/DASWorkshop2011/day3/minutes "wikilink")
--   [Action Plan](/wiki/DASWorkshop2011/day3/actionplan "wikilink")
-

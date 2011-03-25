@@ -24,7 +24,7 @@ layout: wiki
 | Server implemention: MyDas                                                                      | LJG & GAS            | June 2011      | In progress |
 | Server implemention: Genoviz? & Trellis                                                         | GH                   | June 2011      | In progress |
 | **Pagination for features command**                                                             |
-| Server implementation: MyDas                                                                    | LJG & GAS            | April 2011     | In progress |
+| Server implementation: MyDas                                                                    | LJG & GAS            | April 2011     | DONE        |
 | Server implementation: Proserver                                                                | AJ                   | April 2011     | In progress |
 | **Strategy for Java client library**                                                            |
 | Stay with JDAS incorporating functionality Dasobert.                                            | RCJ, LW, JP, SK, GAS | June 2011      | In progress |

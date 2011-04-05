@@ -148,12 +148,12 @@ Preliminary schedule where the order and content may still change considerably.
 |14:30
 |EMBOSS as a DAS client
 |Peter Rice, Mahmut Uludag
-|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/premboss-das2011.ppt PPT]
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/premboss-das2011.ppt PPT][http://www.scivee.tv/node/28159 Video]
 |-
 |14:50
 |Jalview Update
 |James Procter
-|[http://www.jalview.org/talks/2011_DASJalviewUpdate.pdf PDF]
+|[http://www.jalview.org/talks/2011_DASJalviewUpdate.pdf PDF][http://www.scivee.tv/node/28160 Video]
 |- style="background:#ffdead;"
 |15:10-15:30
 | colspan="3" | coffee break
@@ -161,12 +161,12 @@ Preliminary schedule where the order and content may still change considerably.
 |15:30
 |Setting up a BAM based DAS source in GBrowse experience.
 |Frank Schwach
-|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/fsdas_workshop_march11.pdf PDF], []
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/fsdas_workshop_march11.pdf PDF], [http://www.scivee.tv/node/28133 Video]
 |-
 |15:50
 |Authentication and Authorization for writeback and secure DAS data sources
 |Gustavo and Andy
-|[http://www.biotnet.org/sites/biotnet.org/files/documents/41/dassecurity.ppt PPT], [http://www.biotnet.org/training-materials/das-security BTN]
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/41/dassecurity.ppt PPT], [http://www.biotnet.org/training-materials/das-security BTN][http://www.scivee.tv/node/28136 Video]
 |-
 |16:10
 |Discussion/talk about activity organisation of next day - preliminary groups and chairs of groups

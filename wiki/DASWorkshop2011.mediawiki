@@ -100,12 +100,12 @@ Preliminary schedule where the order and content may still change considerably.
 |10:20
 |Dalliance- a new interactive DAS client
 |Thomas Down
-|[http://www.biodalliance.org/people/thomas/dalliance-201103/dalliance.html HTML Slides]
+|[http://www.biodalliance.org/people/thomas/dalliance-201103/dalliance.html HTML Slides][http://www.scivee.tv/node/28151 Video]
 |-
 |10:40
 |DAS search
 |Gustavo Salazar
-|[http://www.biotnet.org/sites/biotnet.org/files/documents/41/gustavo_advancesearch.ppt PPT], [http://www.biotnet.org/training-materials/das-advance-search BTN]
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/41/gustavo_advancesearch.ppt PPT], [http://www.biotnet.org/training-materials/das-advance-search BTN][http://www.scivee.tv/node/28152 Video]
 |-
 |11:00
 |Short break
@@ -115,17 +115,17 @@ Preliminary schedule where the order and content may still change considerably.
 |11:20
 |easyDAS: a hosted solution for DAS server creation
 |Bernat Gel
-|[http://www.biotnet.org/training-materials/easydas-presentation BTN]
+|[http://www.biotnet.org/training-materials/easydas-presentation BTN][http://www.scivee.tv/node/28108 Video]
 |-
 |11:40
 |Update on the DAS Registry
 |Jonathan Warren
-|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/das_registry_update2.pptx PPT]
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/38/das_registry_update2.pptx PPT][http://www.scivee.tv/node/28112 Video]
 |-
 |12:00
 |WebApollo: Extending JBrowse to support DAS and genome annotation editing
 |Gregg Helt
-|[http://s3.amazonaws.com/WebApollo/presentations/WebApollo+-+DAS+Workshop+2011.pptx PPTX], [http://s3.amazonaws.com/WebApollo/presentations/WebApollo+-+DAS+Workshop+2011.pdf PDF]
+|[http://s3.amazonaws.com/WebApollo/presentations/WebApollo+-+DAS+Workshop+2011.pptx PPTX], [http://s3.amazonaws.com/WebApollo/presentations/WebApollo+-+DAS+Workshop+2011.pdf PDF][http://www.scivee.tv/node/28130 Video]
 |- style="background:#ffdead;"
 |12:15-13:30
 | colspan="3" | Lunch break
@@ -133,7 +133,7 @@ Preliminary schedule where the order and content may still change considerably.
 |13:30
 |EBI Search
 |Andy Jenkinson
-|[http://www.ebi.ac.uk/~aj/das_workshop_2011/EBI-Search.pptx PPTX]
+|[http://www.ebi.ac.uk/~aj/das_workshop_2011/EBI-Search.pptx PPTX][http://www.scivee.tv/node/28153 Video]
 |-
 |13:50
 |Dealing with Personal Genomes using DAS
@@ -143,7 +143,7 @@ Preliminary schedule where the order and content may still change considerably.
 |14:10
 |Dasty update
 |Jose Villaveces
-|[http://www.biotnet.org/sites/biotnet.org/files/documents/42/dasty_1.ppt PPT]
+|[http://www.biotnet.org/sites/biotnet.org/files/documents/42/dasty_1.ppt PPT][http://www.scivee.tv/node/28154 Video]
 |-
 |14:30
 |EMBOSS as a DAS client

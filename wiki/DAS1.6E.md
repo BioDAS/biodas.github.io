@@ -112,36 +112,37 @@ and as it will be explained later the same format could be used for the
 input or the output of one of the HTTP methods. Extra information can be
 required depending of the implementation as metadata of the operation.
 For those cases the element NOTE should be used in a notation KEY=VALUE.
-In the example below this notation is used to represent the OpenId of
-the user who sent or is sending this feature to the server. <code>
+In the example below this notation is used to represent the credentials
+of the user who sent or is sending this feature to the server. <code>
 
-<?xml version="1.0" standalone='no'?>
-<!DOCTYPE DASGFF SYSTEM "http://www.biodas.org/dtd/dasgff.dtd">
-<DASGFF>  
-` `<GFF version="1.0" href="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/features?segment=P05067">  
-`   `<SEGMENT id="P05067" start="1" stop="770" version="7dd43312cd29a262acdc0517230bc5ca">  
-`      `<FEATURE id="UNIPROTKB_P05067_KEYWORD_Disease" label="Disease mutation">  
-`       `<TYPE id="BS:01019" category="inferred by curator (ECO:0000001)">`disease`</TYPE>  
-`       `<METHOD id="UniProt">`UniProt`</METHOD>  
-`       `<START>`10`</START>  
-`       `<END>`40`</END>  
-`       `<SCORE>`0.0`</SCORE>  
-`       `<ORIENTATION>`0`</ORIENTATION>  
-`       `<PHASE>`-`</PHASE>  
-`       `<LINK href="http://www.uniprot.org/uniprot/P05067">[`http://www.uniprot.org/uniprot/P05067`](http://www.uniprot.org/uniprot/P05067)</LINK>  
-`       `
+<?xml version="1.0" standalone="no"?>
+<DASGFF>
+
+<GFF href="http://some_server">  
+` `<SEGMENT id="P05067" start="1" stop="770" version="7dd43312cd29a262acdc0517230bc5ca" label="Amyloid beta A4 protein" >  
+`  `<FEATURE id="new" label="testAnnotation" >  
+`   `<TYPE id="SO:0001072" cvId="SO:0001072" >`extramembrane_polypeptide_region`</TYPE>  
+`   `<METHOD id="ECO:0000053" cvId="ECO:0000053" >`computational combinatorial analysis`</METHOD>  
+`   `<START>`50`</START>  
+`   `<END>`100`</END>  
+`   `
 
 <NOTE>
-Adding a new feature!
+Test annotation
 
 </NOTE>
 <NOTE>
-USER=<http://user.myopenid.com>
+USER=tester
 
 </NOTE>
-`     `</FEATURE>  
-`   `</SEGMENT>  
-` `</GFF>  
+<NOTE>
+PASSWORD=tester
+
+</NOTE>
+`  `</FEATURE>  
+` `</SEGMENT>  
+</GFF>
+
 </DASGFF>
 
 </code>
@@ -152,46 +153,46 @@ USER=<http://user.myopenid.com>
 
 The HTTP method *POST* should be used to create a feature in the server.
 The writeback document should be sent to the server in a POST variable
-called ''' *content* '''. The server should create an identifier for
+called ''' *\_content* '''. The server should create an identifier for
 this feature. This id should be the URI formed by the concatenation of
 the URL of the writeback server and some unique number for the server(a
-consecutive number). The response should be based in the HTTP headers of
-the DAS specification. (i.e. 200 OK, 500 Server error, etc.). The
-content of the response should be a GFFDAS format with the information
-that was created in the database therefore if everything is correct the
-response will be almost the same that the input document. The only
-difference will be the metainformation added for the server as notes,
-for example
+consecutive number).\`http://writeback/0\` The response should be based
+in the HTTP headers of the DAS specification. (i.e. 200 OK, 500 Server
+error, etc.). The content of the response should be a GFFDAS format with
+the information that was created in the database therefore if everything
+is correct the response will be almost the same that the input document.
+The only difference will be the meta-information added for the server as
+notes, for example
 
 <code>
 
 <NOTE>
-USER=<http://user.myopenid.com>
+USER=tester
+
+</NOTE>
+<NOTE>
+DATE=2011-03-30 11:42:56.325
 
 </NOTE>
 <NOTE>
 VERSION=1
 
 </NOTE>
-<NOTE>
-DATE=2009-06-10 18:11:30.672644
-
-</NOTE>
 </code>
 
 #### PUT
 
-The behavior of the method *PUT* is very similar to the described for
-*POST*. However in this case the writeback document is the content itsel
-of the request(i.e. Is not embedded in any parameter). An important
-difference is the management of the id, which is defined as the value in
-the field *id* of the element *FEATURE* if this value is a valid URI,
-otherwise is the URI formed by the base URL in the field *href*
-concatenated with the value in the field *id* of the element *FEATURE*.
-For example for the same writeback document of above the id in the
-element ''FEATURE will be: <code>
+The behaviour of the method *PUT* is very similar to the described for
+*POST*. However in this case the writeback document is the content
+itself of the request(i.e. Is not embedded in any parameter). An
+important difference is the management of the id, which is defined as
+the value in the field *id* of the element *FEATURE* if this value is a
+valid URI, otherwise is the URI formed by the base URL in the field
+*href* concatenated with the value in the field *id* of the element
+*FEATURE*. For example for the same writeback document of above the id
+in the element *FEATURE* will be: <code>
 
-<FEATURE id="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/features/UNIPROTKB_P05067_KEYWORD_Disease" label="Disease mutation">
+<FEATURE id="http://some_server/new" label="testAnnotation">
 
 </code> The response should follow the same rules as the *POST* method.
 
@@ -200,11 +201,11 @@ element ''FEATURE will be: <code>
 The *DELETE* method doesn't require a writeback document for the input,
 because in order to DELETE a feature is just necessary to identify it.
 The identification of a feature will be reconstructed by its id and the
-id of the segment where it will be deleted. The openid is also require
-for this transaction. The format of the HTTP connection should be:
-<code>
+id of the segment where it will be deleted. The authentication
+credentials are also require for this transaction. The format of the
+HTTP connection should be: <code>
 
-`DELETE [server]?featureid=[featureid]&user=[openid]&segmentid=[segmentid]`
+`DELETE [server]?segmentid=[segmentid]&featureid=[featureid]&user=[user]&password=[password]&href=[href]`
 
 </code>
 
@@ -213,9 +214,13 @@ entity describing the status, 202 (Accepted) if the action has not yet
 been enacted, or 204 (No Content) if the action has been enacted but the
 response does not include an entity. The content of the response should
 be in the same GFF format but the parameter *label* of the element
-*FEATURE* should be **DELETED** as in: <code>
+*FEATURE* should be **DELETED**. The *id* attribute of the elements
+*TYPE* and *METHOD* should be also set to **DELETED** because this
+attributes are mandatory for a GFF document.: <code>
 
-<FEATURE id="http://writeback/92" label="DELETED">
+`     `<FEATURE id="http://writeback/new" label="DELETED">  
+`       `<TYPE id="DELETED" />  
+`       `<METHOD id="DELETED" />
 
 </code>
 
@@ -271,63 +276,81 @@ The document returned from the *features* request is an XML-formatted
 <code>
 
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE DASGFF SYSTEM "http://www.biodas.org/dtd/dasgff.dtd">
-<DASGFF>  
-` `<GFF version="1.0" href="http://localhost:8080/MyDas/das/writeback/historical?feature=http://writeback/9">  
-`   `<SEGMENT id="P05067" start="1" stop="770" version="7dd43312cd29a262acdc0517230bc5ca">  
-`     `<FEATURE id="http://writeback/9" label="Disease mutation">  
-`       `<TYPE id="BS:01019" category="inferred by curator (ECO:0000001)">`disease`</TYPE>  
-`       `<METHOD id="1">`UniProt`</METHOD>  
-`       `<START>`143`</START>  
-`       `<END>`189`</END>  
+<?xml-stylesheet href="xslt/features.xsl" type="text/xsl"?>
+<DASGFF>
+
+` `<GFF href="http://writeback/historical?feature=http://some_server/new">  
+`   `<SEGMENT id="P05067" start="1" stop="770" version="7dd43312cd29a262acdc0517230bc5ca" label="Amyloid beta A4 protein">  
+`     `<FEATURE id="http://some_server/new" label="DELETED">  
+`       `<TYPE id="DELETED" />  
+`       `<METHOD id="DELETED" />  
 `       `<SCORE>`0.0`</SCORE>  
-`       `<ORIENTATION>`0`</ORIENTATION>  
-`       `<PHASE>`-`</PHASE>  
 `       `
 
 <NOTE>
-testing note
+USER=tester
 
 </NOTE>
 <NOTE>
-USER=<http://user.myopenid.com>
+DATE=2011-03-30 15:00:54.623
+
+</NOTE>
+<NOTE>
+VERSION=3
+
+</NOTE>
+`     `</FEATURE>  
+`     `<FEATURE id="http://some_server/new" label="testAnnotation">  
+`       `<TYPE id="SO:0001072" cvId="SO:0001072">`extramembrane_polypeptide_region`</TYPE>  
+`       `<METHOD id="ECO:0000053" cvId="ECO:0000053">`computational combinatorial analysis`</METHOD>  
+`       `<START>`50`</START>  
+`       `<END>`100`</END>  
+`       `
+
+<NOTE>
+Test annotation
+
+</NOTE>
+<NOTE>
+USER=tester
+
+</NOTE>
+<NOTE>
+DATE=2011-03-30 12:17:17.344
 
 </NOTE>
 <NOTE>
 VERSION=1
 
 </NOTE>
-<NOTE>
-DATE=2009-05-25 14:22:39.705735
-
-</NOTE>
-`       `<LINK href="http://www.uniprot.org/uniprot/P05067">[`http://www.uniprot.org/uniprot/P05067`](http://www.uniprot.org/uniprot/P05067)</LINK>  
 `     `</FEATURE>  
-`     `<FEATURE id="http://writeback/9" label="DELETED">  
-`       `<TYPE id="" category="" />  
-`       `<METHOD />  
-`       `<START>`0`</START>  
-`       `<END>`0`</END>  
-`       `<SCORE>`0.0`</SCORE>  
-`       `<ORIENTATION>`0`</ORIENTATION>  
-`       `<PHASE>`-`</PHASE>  
+`     `<FEATURE id="http://some_server/new" label="testAnnotation">  
+`       `<TYPE id="SO:0001072" cvId="SO:0001072">`extramembrane_polypeptide_region`</TYPE>  
+`       `<METHOD id="ECO:0000053" cvId="ECO:0000053">`computational combinatorial analysis`</METHOD>  
+`       `<START>`150`</START>  
+`       `<END>`200`</END>  
 `       `
 
 <NOTE>
-USER=<http://user.myopenid.com>
+Test annotation 2
+
+</NOTE>
+<NOTE>
+USER=tester
+
+</NOTE>
+<NOTE>
+DATE=2011-03-30 14:17:36.53
 
 </NOTE>
 <NOTE>
 VERSION=2
 
 </NOTE>
-<NOTE>
-DATE=2009-06-10 17:58:11.83588
-
-</NOTE>
 `     `</FEATURE>  
 `   `</SEGMENT>  
-` `</GFF>  
+` `</GFF>
+
 </DASGFF>
 
 </code>

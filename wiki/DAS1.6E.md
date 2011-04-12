@@ -116,16 +116,15 @@ In the example below this notation is used to represent the credentials
 of the user who sent or is sending this feature to the server. <code>
 
 <?xml version="1.0" standalone="no"?>
-<DASGFF>
-
-<GFF href="http://some_server">  
-` `<SEGMENT id="P05067" start="1" stop="770" version="7dd43312cd29a262acdc0517230bc5ca" label="Amyloid beta A4 protein" >  
-`  `<FEATURE id="new" label="testAnnotation" >  
-`   `<TYPE id="SO:0001072" cvId="SO:0001072" >`extramembrane_polypeptide_region`</TYPE>  
-`   `<METHOD id="ECO:0000053" cvId="ECO:0000053" >`computational combinatorial analysis`</METHOD>  
-`   `<START>`50`</START>  
-`   `<END>`100`</END>  
-`   `
+<DASGFF>  
+` `<GFF href="http://some_server">  
+`  `<SEGMENT id="P05067" start="1" stop="770" version="7dd43312cd29a262acdc0517230bc5ca" label="Amyloid beta A4 protein" >  
+`   `<FEATURE id="new" label="testAnnotation" >  
+`    `<TYPE id="SO:0001072" cvId="SO:0001072" >`extramembrane_polypeptide_region`</TYPE>  
+`    `<METHOD id="ECO:0000053" cvId="ECO:0000053" >`computational combinatorial analysis`</METHOD>  
+`    `<START>`50`</START>  
+`    `<END>`100`</END>  
+`    `
 
 <NOTE>
 Test annotation
@@ -139,10 +138,9 @@ USER=tester
 PASSWORD=tester
 
 </NOTE>
-`  `</FEATURE>  
-` `</SEGMENT>  
-</GFF>
-
+`   `</FEATURE>  
+`  `</SEGMENT>  
+` `</GFF>  
 </DASGFF>
 
 </code>
@@ -277,8 +275,7 @@ The document returned from the *features* request is an XML-formatted
 
 <?xml version="1.0" standalone="no"?>
 <?xml-stylesheet href="xslt/features.xsl" type="text/xsl"?>
-<DASGFF>
-
+<DASGFF>  
 ` `<GFF href="http://writeback/historical?feature=http://some_server/new">  
 `   `<SEGMENT id="P05067" start="1" stop="770" version="7dd43312cd29a262acdc0517230bc5ca" label="Amyloid beta A4 protein">  
 `     `<FEATURE id="http://some_server/new" label="DELETED">  
@@ -349,8 +346,7 @@ VERSION=2
 </NOTE>
 `     `</FEATURE>  
 `   `</SEGMENT>  
-` `</GFF>
-
+` `</GFF>  
 </DASGFF>
 
 </code>

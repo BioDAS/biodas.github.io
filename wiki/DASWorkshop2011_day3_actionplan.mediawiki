@@ -11,7 +11,7 @@
 | HTTP authentication: Server implementation: Proserver
 | AJ
 | April 2011
-| In progress 
+| DONE (needs testing) 
 |-
 | HTTP authentication: Server implementation: MyDas
 | LJG & GAS

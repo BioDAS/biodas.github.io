@@ -10,7 +10,7 @@ Action plan
 | ACTION                                                                                          | WHO                  | By WHEN                             | STATUS                                         |
 |-------------------------------------------------------------------------------------------------|----------------------|-------------------------------------|------------------------------------------------|
 | **Security (authentication)**                                                                   |
-| HTTP authentication: Server implementation: Proserver                                           | AJ                   | April 2011                          | In progress                                    |
+| HTTP authentication: Server implementation: Proserver                                           | AJ                   | April 2011                          | DONE (needs testing)                           |
 | HTTP authentication: Server implementation: MyDas                                               | LJG & GAS            | April 2011                          | In progress                                    |
 | HTTP authentication: Client implementation: Dalliance                                           | TAD                  | May 2011                            | DONE                                           |
 | HTTP authentication: Client implementation: IGB                                                 | GH                   | May 2011                            | In progress                                    |

@@ -95,7 +95,7 @@
 | Server implementation: Proserver
 | AJ
 | April 2011
-| In progress 
+| DONE
 |-  style="background:#ffdead;"
 | colspan="4" | '''Strategy for Java client library'''
 |-

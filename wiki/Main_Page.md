@@ -72,8 +72,8 @@ users:
 -   [Dasty2](http://www.ebi.ac.uk/dasty/) is a web-based viewer for
     protein annotations
 -   [Jalview](http://www.jalview.org) is a multiple alignment editor.
--   [PeppeR](http://biocomp.cnb.uam.es/das/PeppeR/) is a graphical
-    viewer for 3D electron microscopy data.
+-   [1](http://biocomp.cnb.csic.es/das/pepper.jsp) is a graphical viewer
+    for 3D electron microscopy data.
 -   [DASMI](http://www.dasmi.de) is an integration portal for protein
     interaction data.
 -   [DASher](http://dasher.sbc.su.se) is a Java-based viewer for

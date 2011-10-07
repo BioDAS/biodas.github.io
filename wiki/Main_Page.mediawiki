@@ -36,7 +36,7 @@ Here are some examples of DAS-enabled applications or websites for end users:
 * [http://www.efamily.org.uk/software/dasclients/spice/ SPICE] is an application for projecting protein annotations onto 3D structures.
 * [http://www.ebi.ac.uk/dasty/ Dasty2] is a web-based viewer for protein annotations
 * [http://www.jalview.org Jalview] is a multiple alignment editor.
-* [http://biocomp.cnb.csic.es/das/pepper.jsp] is a graphical viewer for 3D electron microscopy data.
+* [http://biocomp.cnb.csic.es/das/pepper.jsp PeppeR] is a graphical viewer for 3D electron microscopy data.
 * [http://www.dasmi.de DASMI] is an integration portal for protein interaction data.
 * [http://dasher.sbc.su.se DASher] is a Java-based viewer for protein annotations.
 * [http://epic.embl.de EpiC] presents structure-function summaries for antibody design.

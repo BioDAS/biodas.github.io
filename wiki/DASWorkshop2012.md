@@ -9,7 +9,8 @@ The DAS workshop for 2012 is preliminarily scheduled for 27-29th Feb 2012. Subje
 
 ### Recent developments since the last workshop
 
-DAS writeback DAS search
+DAS writeback, DAS search, Registry CRUD via web service (get, post,
+put, delete), Registry supports JSON for all requests and responses,
 
 ### Suggestions for discussions on Developers Day
 

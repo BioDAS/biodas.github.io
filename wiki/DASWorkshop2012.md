@@ -14,7 +14,9 @@ put, delete), Registry supports JSON for all requests and responses,
 
 ### Suggestions for discussions on Developers Day
 
-JSON roll out to other servers and clients? (jw) Firming up of the
-authentication DAS standard so the registry and writeback are consistent
+JSON roll out to other servers and clients? (jw)
+
+Firming up of the authentication DAS standard so the registry and
+writeback are consistent
 
 ### Possible DAS related Talks

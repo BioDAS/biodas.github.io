@@ -14,4 +14,6 @@ put, delete), Registry supports JSON for all requests and responses,
 
 ### Suggestions for discussions on Developers Day
 
+JSON roll out to other servers and clients? (jw)
+
 ### Possible DAS related Talks

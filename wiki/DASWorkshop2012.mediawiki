@@ -7,3 +7,4 @@ DAS writeback, DAS search, Registry CRUD via web service (get, post, put, delete
 *Firming up of the authentication DAS standard so the registry and writeback are consistent (jw)
 
 ===Possible DAS related Talks===
+DAS Registry - new architecture and capabilities (jw)

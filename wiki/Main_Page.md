@@ -76,8 +76,8 @@ users:
     interaction data.
 -   [DASher](http://dasher.sbc.su.se) is a Java-based viewer for
     protein annotations.
--   [EpiC](http://epic.embl.de) presents structure-function summaries
-    for antibody design.
+-   [EpiC](http://bioware.ucd.ie/epic/) presents structure-function
+    summaries for antibody design.
 -   [STRAP](http://www.bioinformatics.org/strap/) is a STRucture-based
     sequence Alignment Program.
 

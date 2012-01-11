@@ -4,7 +4,7 @@ The 2012 DAS Workshop will be held on 27-29 Feb at the EBI Hinxton campus.
 
 =DAS Workshop 2012 Schedule=
 All 3 days will be held in the EBI training room.
-==Day 1==
+§==Day 1==
 Some knowledge/experience of PERL or Java and or Javascript would be beneficial for the hands on training day.
 ===Example DAS commands can be found here as a DAS quick reference guide: [http://www.dasregistry.org/DASCommandExamples.jsp DAS examples]===
 
@@ -26,9 +26,9 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | [http://www.biotnet.org/training-materials/das-game The DAS Game]
 |-
 | 
-| Hands-on tutorial: using DAS software, 10 minute introduction of some DAS implementations (Bernat)
+| Hands-on tutorial: using DAS software, 10 minute introduction of some DAS implementations
 | 
-| Implementations. [http://www.lsi.upc.edu/~bgel/research/easydas/tutorial/Implementations.ppt PPT] [http://code.google.com/p/easydas/wiki/tutorialDASWorkshop2011 Creating DAS sources from GFF files supplied using easyDAS] (Bernat), Viewing DAS sources using Dalliance (Thomas) [http://www.biodalliance.org/people/thomas/dalliance-for-das-workshop.pdf PDF]-or- Dasty3 (Jose) [http://www.ebi.ac.uk/~ljgarcia/Presentations/Tutorials/DASTY3_DASWorkshop_2011.pdf PDF]
+| 
 |-
 | 
 | Hands-on programming tutorial: Creating a custom DAS source

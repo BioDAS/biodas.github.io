@@ -38,8 +38,8 @@ beneficial for the hands on training day.
 | 19:00         | Dinner at the Red Lion Whittlesford 7.00 pm for 7.30 pm sit down.                                  |         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 ||
 
-Day 2
------
+Day 2 Develpers Hackathon
+-------------------------
 
 DAS developers day
 

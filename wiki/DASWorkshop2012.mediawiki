@@ -66,7 +66,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 |-
 |}
 
-==Day 2==
+==Day 2 Develpers Hackathon==
 DAS developers day
 ===Recent developments since the last workshop===
 DAS writeback, DAS search, Registry CRUD via web service (get, post, put, delete), Registry supports JSON for all requests and responses,

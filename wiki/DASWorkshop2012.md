@@ -51,20 +51,12 @@ Day 3
 
 Location is the EBI Training Room
 
-`As per other days -Departure from the Travelodge Cambridge Leisure Park at 08:45 hrs to Campus.`
-
-Start at 10am
-
-`Departure 16:00 hrs form campus to Travelodge in order for people to get planes and trains etc back home.`
-
-Finish at 4pm.
-
 ### Recent developments since the last workshop
 
 DAS writeback, DAS search, Registry CRUD via web service (get, post,
 put, delete), Registry supports JSON for all requests and responses,
 
-### Suggestions for discussions on Developers Day
+### Suggestions for discussions on Developers Days
 
 -   JSON roll out to other servers and clients? (jw)
 -   Firming up of the authentication DAS standard so the registry and

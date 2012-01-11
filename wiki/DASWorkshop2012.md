@@ -59,7 +59,7 @@ modified since the modified since header) ? (jw)
 
 DAS Registry - new architecture and capabilities (jw)
 
-Day 3
------
+Day 3 DAS Developers Day Hackathon
+----------------------------------
 
 DAS Developers Hackathon Location is the EBI Training Room

@@ -9,8 +9,8 @@ layout: wiki
 Notice
 ------
 
-The DAS workshop for 2012 is preliminarily scheduled for 27-29th Feb
-2012. Subject to funding see here
+Registrations open for the DAS workshop for 2012 27-29th Feb 2012.
+Subject to funding see here
 [agenda](http://www.biodas.org/wiki/DASWorkshop2012)
 <span style="color: darkred;">PLEASE NOTE: </span>a new version of DAS
 was recently released! See the [Versions of

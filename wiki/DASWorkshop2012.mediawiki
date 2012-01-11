@@ -67,7 +67,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 |}
 
 ==Day 2==
-
+DAS developers day
 
 ==Day 3==
 Location is the EBI Training Room

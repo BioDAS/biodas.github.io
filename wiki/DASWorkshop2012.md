@@ -41,6 +41,8 @@ beneficial for the hands on training day.
 Day 2
 -----
 
+DAS developers day
+
 Day 3
 -----
 

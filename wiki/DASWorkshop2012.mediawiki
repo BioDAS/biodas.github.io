@@ -14,28 +14,23 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 ! Title
 ! Speaker
 ! Resources
-|-  style="background:#ffdead;"
-| 8:45
-| Welcome and Introduction to the Workshop
-| 
-|
-|-
-| 10:00 - 10:20
+|- 
+| 9:00
 | DAS - Introduction/Overview
 | 
 | [http://www.biotnet.org/training-materials/introduction-das Introduction] [http://www.biotnet.org/training-materials/technical-introduction-das Technical Introduction]
 |-
-| 10:20 - 10:35
+| 
 | The DAS Game
 |
 | [http://www.biotnet.org/training-materials/das-game The DAS Game]
 |-
-| 10:35 - 11:25
+| 
 | Hands-on tutorial: using DAS software, 10 minute introduction of some DAS implementations (Bernat)
 | 
 | Implementations. [http://www.lsi.upc.edu/~bgel/research/easydas/tutorial/Implementations.ppt PPT] [http://code.google.com/p/easydas/wiki/tutorialDASWorkshop2011 Creating DAS sources from GFF files supplied using easyDAS] (Bernat), Viewing DAS sources using Dalliance (Thomas) [http://www.biodalliance.org/people/thomas/dalliance-for-das-workshop.pdf PDF]-or- Dasty3 (Jose) [http://www.ebi.ac.uk/~ljgarcia/Presentations/Tutorials/DASTY3_DASWorkshop_2011.pdf PDF]
 |-
-| 11:25 - 12:15
+| 
 | Hands-on programming tutorial: Creating a custom DAS source
 | 
 | [http://www.biotnet.org/training-materials/das-servers 10 minute introduction to DAS servers], [http://code.google.com/p/mydas/wiki/Tutorials MyDAS] -or- [http://www.biotnet.org/training-materials/bio-das-proserver-tutorial ProServer]
@@ -43,12 +38,12 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 12:15 - 13:15 
 | colspan="3" | Lunch break
 |-
-| 13:15 - 14:50
+| 
 | Tutorial - DAS servers continued
 | 
 | Perl(ProServer) and Java(MyDAS) 
 |-
-|14:50 - 15:10
+|
 | Hands on Tutorial The DAS registry: Short introduction talk then hands on tutorial
 |
 | [http://www.biotnet.org/training-materials/short-das-registry-tutorial-basic-knowledge DAS Registry Tutorial] 
@@ -56,7 +51,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | 15:10 - 15:30
 | colspan="3" | Cofee Break
 |-
-| 15:30 - 17:15 
+| 
 | Hands-on programming tutorial: DAS client libraries, 10 minute introduction
 | 
 | [http://www.biotnet.org/training-materials/bio-das-lite-tutorial Bio::Das::Lite]-or- [http://www.biotnet.org/training-materials/jdas JDAS] -or- [http://code.google.com/p/jsdas/wiki/tutorial JSDAS]. Each will cover sources, sequence & features using the same examples
@@ -65,7 +60,7 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 | colspan="3" |Departure from Campus to Cambridge Travel Lodge and Leisure Park at circa 17:30 hrs.
 |- style="background:#ffdead;"
 |19:00
-|Dinner at the red lion Whittlesford 7.00 pm for 7.30 pm sit down.
+|Dinner at the Red Lion Whittlesford 7.00 pm for 7.30 pm sit down.
 |
 |
 |-

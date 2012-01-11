@@ -44,11 +44,6 @@ Day 2
 Day 3
 -----
 
--   [Suggested Topics](/wiki/DASWorkshop2011/day3/topics "wikilink")
--   [Minutes](/wiki/DASWorkshop2011/day3/minutes "wikilink")
--   [Action Plan](/wiki/DASWorkshop2011/day3/actionplan "wikilink")
--   [DAS Paper proposal](/wiki/DASWorkshop2011/day3/paperproposal "wikilink")
-
 Location is the EBI Training Room
 
 ### Recent developments since the last workshop

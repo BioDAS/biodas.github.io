@@ -70,12 +70,6 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 
 
 ==Day 3==
-* [[DASWorkshop2011/day3/topics|Suggested Topics]]
-* [[DASWorkshop2011/day3/minutes|Minutes]]
-* [[DASWorkshop2011/day3/actionplan|Action Plan]]
-* [[DASWorkshop2011/day3/paperproposal|DAS Paper proposal]]
-
-
 Location is the EBI Training Room
  
 ===Recent developments since the last workshop===

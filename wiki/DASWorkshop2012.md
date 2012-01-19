@@ -13,8 +13,12 @@ campus.
 DAS Workshop 2012 Schedule
 ==========================
 
-All 3 days will be held in the EBI training room. §==Day 1== Some
-knowledge/experience of PERL or Java and or Javascript would be
+All 3 days will be held in the EBI training room.
+
+Day 1
+-----
+
+Some knowledge/experience of PERL or Java and or Javascript would be
 beneficial for the hands on training day.
 
 ### Example DAS commands can be found here as a DAS quick reference guide: [DAS examples](http://www.dasregistry.org/DASCommandExamples.jsp)

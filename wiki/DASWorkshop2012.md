@@ -50,12 +50,16 @@ put, delete), Registry supports JSON for all requests and responses,
 
 ### Suggestions for discussions on Developers Days
 
-JSON roll out to other servers and clients? (jw) Firming up of the
-authentication DAS standard so the registry and writeback are consistent
-(jw) Add support for conditional get (If-Modified-Since - reply only if
-modified since the modified since header) ? (jw) High density simple
-features such as snps - vcf format or simple json format wtihout method
-and stop? (jw)
+JSON roll out to other servers and clients? (jw)
+
+Firming up of the authentication DAS standard so the registry and
+writeback are consistent (jw)
+
+Add support for conditional get (If-Modified-Since - reply only if
+modified since the modified since header) ? (jw)
+
+High density simple features such as snps - vcf format or simple json
+format wtihout method and stop? (jw)
 
 ### Possible DAS related Talks
 

@@ -23,6 +23,10 @@ beneficial for the hands on training day.
 
 ### Example DAS commands can be found here as a DAS quick reference guide: [DAS examples](http://www.dasregistry.org/DASCommandExamples.jsp)
 
+The draft schedule for Day 1 is below. Please note that session times
+are a rough indication only and will vary according to progress on the
+day.
+
 | Time  | Title                                                                         | Speaker     | Resources                                                                                                                                                                                                                                                                     |
 |-------|-------------------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 9:00  | Welcome and Information                                                       | JW          |                                                                                                                                                                                                                                                                               |

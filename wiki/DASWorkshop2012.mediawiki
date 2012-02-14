@@ -8,6 +8,8 @@ All 3 days will be held in the EBI training room.
 Some knowledge/experience of PERL or Java and or Javascript would be beneficial for the hands on training day.
 ===Example DAS commands can be found here as a DAS quick reference guide: [http://www.dasregistry.org/DASCommandExamples.jsp DAS examples]===
 
+The draft schedule for Day 1 is below. Please note that session times are a rough indication only and will vary according to progress on the day.
+
 {| class="wikitable" border="1"
 |- style="background:silver"
 ! width="100px"|Time

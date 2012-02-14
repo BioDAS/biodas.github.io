@@ -83,7 +83,3 @@ Please feel free to add suggestions for discussions or code sprints.
 -   DAS Registry - new architecture and capabilities (JW)
 -   DAS in personal genomics (MC/JW/BG)
 
-Day 3 DAS Developers Day Hackathon
-----------------------------------
-
-DAS Developers Hackathon Location is the EBI Training Room

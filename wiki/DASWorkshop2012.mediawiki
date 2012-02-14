@@ -16,53 +16,85 @@ Some knowledge/experience of PERL or Java and or Javascript would be beneficial 
 ! Resources
 |- 
 | 9:00
+| Welcome and Information
+| JW
+|
+|- 
+| 9:00
 | DAS - Introduction/Overview
-| 
+| AJ
 | [http://www.biotnet.org/training-materials/introduction-das Introduction] [http://www.biotnet.org/training-materials/technical-introduction-das Technical Introduction]
 |-
-| 
+| 9:40
 | The DAS Game
-|
+| LG
 | [http://www.biotnet.org/training-materials/das-game The DAS Game]
 |-
-| 
-| Hands-on tutorial: using DAS software, 10 minute introduction of some DAS implementations
-| 
+| 10:00
+| DAS - Technical Introduction
+| AJ
+| [http://www.biotnet.org/training-materials/technical-introduction-das Technical Introduction]
+|- style="background:#ffdead;"
+| 10:20
+| colspan="3" | Coffee break
+|-
+| 10:40
+| Using DAS software, an introduction to some DAS implementations
+| RJ
 | 
 |-
+| 11:00
+| Hands-on: creating a DAS source from a file with EasyDAS
+| RJ
 | 
+|-
+| 11:10
+| Hands-on: viewing DAS sources with Ensembl OR Dasty
+| AJ/RJ
+| 
+|-
+| 11:20
+| Introduction to DAS server frameworks
+| JW
+| [http://www.biotnet.org/training-materials/das-servers 10 minute introduction to DAS servers] 
+|-
+| 11:30
 | Hands-on programming tutorial: Creating a custom DAS source
-| 
-| [http://www.biotnet.org/training-materials/das-servers 10 minute introduction to DAS servers], [http://code.google.com/p/mydas/wiki/Tutorials MyDAS] -or- [http://www.biotnet.org/training-materials/bio-das-proserver-tutorial ProServer]
+| AJ/JW/LG/RJ
+| [http://code.google.com/p/mydas/wiki/Tutorials MyDAS] -or- [http://www.biotnet.org/training-materials/bio-das-proserver-tutorial ProServer]
 |- style="background:#ffdead;"
-| 12:15 - 13:15 
+| 12:30
 | colspan="3" | Lunch break
 |-
-| 
+| 13:30
 | Tutorial - DAS servers continued
-| 
-| Perl(ProServer) and Java(MyDAS) 
+| AJ/JW/LG/RJ
+|
 |-
-|
-| Hands on Tutorial The DAS registry: Short introduction talk then hands on tutorial
-|
+| 14:50
+| Introduction and hands-on: The DAS registry
+| JW
 | [http://www.biotnet.org/training-materials/short-das-registry-tutorial-basic-knowledge DAS Registry Tutorial] 
 |-style="background:#ffdead;"
-| 15:10 - 15:30
-| colspan="3" | Cofee Break
+| 15:10
+| colspan="3" | Coffee Break
 |-
-| 
-| Hands-on programming tutorial: DAS client libraries, 10 minute introduction
-| 
+| 15:30
+| Introduction to DAS client libraries
+| LG
+|
+|-
+| 15:40
+| Hands-on programming tutorial: DAS client libraries
+| AJ/JW/LG/RJ
 | [http://www.biotnet.org/training-materials/bio-das-lite-tutorial Bio::Das::Lite]-or- [http://www.biotnet.org/training-materials/jdas JDAS] -or- [http://code.google.com/p/jsdas/wiki/tutorial JSDAS]. Each will cover sources, sequence & features using the same examples
 |-  
 |17:30
-| colspan="3" |Departure from Campus to Whittlesford Station/Holiday Inn at circa 17:30 hrs.
+| colspan="3" | Departure from Campus to Whittlesford Station/Holiday Inn at circa 17:30 hrs.
 |- style="background:#ffdead;"
 |19:00
-|Dinner at the Red Lion Whittlesford 7.00 pm for 7.30 pm sit down.
-|
-|
+| colspan="3" | Dinner at the Red Lion Whittlesford 7.00 pm for 7.30 pm sit down.
+
 |-
 |}
 

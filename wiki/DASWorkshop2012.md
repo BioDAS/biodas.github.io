@@ -49,32 +49,39 @@ day.
 | 19:00 | Dinner at the Red Lion Whittlesford 7.00 pm for 7.30 pm sit down.             |
 ||
 
-Day 2 Developers Hackathon
---------------------------
+Day 2 and Day 3: Developer Hackathon
+------------------------------------
 
-DAS developers day
+This year we will not have a day of talks as in previous years. Instead,
+both day 2 and day 3 will be "DAS developers' days". This may include
+some updates on progress since the last workshop, discussions, and a
+code hackathon. The exact format is yet to be decided.
 
 ### Recent developments since the last workshop
 
-DAS writeback, DAS search, Registry CRUD via web service (get, post,
-put, delete), Registry supports JSON for all requests and responses,
+-   DAS writeback
+-   DAS search
+-   Registry CRUD via a web service (get, post, put, delete)
+-   Alternative content negotiation (e.g. the Registry supports JSON for
+    all requests and responses)
+-   Authentication/encryption in ProServer
 
-### Suggestions for discussions on Developers Days
+### Suggestions for topics on Developers Days
 
-JSON roll out to other servers and clients? (jw)
+Please feel free to add suggestions for discussions or code sprints.
 
-Firming up of the authentication DAS standard so the registry and
-writeback are consistent (jw)
-
-Add support for conditional get (If-Modified-Since - reply only if
-modified since the modified since header) ? (jw)
-
-High density simple features such as snps - vcf format or simple json
-format wtihout method and stop? (jw)
+-   JSON roll out to other servers and clients? (JW)
+-   Firming up of the authentication DAS standard so the registry and
+    writeback are consistent (JW)
+-   Add support for conditional get (If-Modified-Since - reply only if
+    modified since the modified since header) ? (JW)
+-   High density simple features such as SNPs - vcf format or simple
+    json format without method and stop? (JW)
 
 ### Possible DAS related Talks
 
-DAS Registry - new architecture and capabilities (jw)
+-   DAS Registry - new architecture and capabilities (JW)
+-   DAS in personal genomics (MC/JW/BG)
 
 Day 3 DAS Developers Day Hackathon
 ----------------------------------

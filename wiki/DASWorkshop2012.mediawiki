@@ -100,21 +100,30 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 |-
 |}
 
-==Day 2 Developers Hackathon==
-DAS developers day
+==Day 2 and Day 3: Developer Hackathon==
+This year we will not have a day of talks as in previous years. Instead, both day 2 and day 3 will be "DAS developers' days". This may include some updates on progress since the last workshop, discussions, and a code hackathon. The exact format is yet to be decided.
+
 ===Recent developments since the last workshop===
-DAS writeback, DAS search, Registry CRUD via web service (get, post, put, delete), Registry supports JSON for all requests and responses,
-===Suggestions for discussions on Developers Days===
-JSON roll out to other servers and clients? (jw)
 
-Firming up of the authentication DAS standard so the registry and writeback are consistent (jw)
+* DAS writeback
+* DAS search
+* Registry CRUD via a web service (get, post, put, delete)
+* Alternative content negotiation (e.g. the Registry supports JSON for all requests and responses)
+* Authentication/encryption in ProServer
 
-Add support for conditional get (If-Modified-Since - reply only if modified since the modified since header) ? (jw)
+===Suggestions for topics on Developers Days===
 
-High density simple features such as snps - vcf format or simple json format wtihout method and stop? (jw)
+Please feel free to add suggestions for discussions or code sprints.
+
+* JSON roll out to other servers and clients? (JW)
+* Firming up of the authentication DAS standard so the registry and writeback are consistent (JW)
+* Add support for conditional get (If-Modified-Since - reply only if modified since the modified since header) ? (JW)
+* High density simple features such as SNPs - vcf format or simple json format without method and stop? (JW)
 
 ===Possible DAS related Talks===
-DAS Registry - new architecture and capabilities (jw)
+
+* DAS Registry - new architecture and capabilities (JW)
+* DAS in personal genomics (MC/JW/BG)
 
 ==Day 3 DAS Developers Day Hackathon==
 DAS Developers Hackathon

@@ -74,7 +74,7 @@ Please feel free to add suggestions for discussions or code sprints.
 -   Firming up of the authentication DAS standard so the registry and
     writeback are consistent (JW)
 -   Add support for conditional get (If-Modified-Since - reply only if
-    modified since the modified since header) ? (JW)
+    modified since the modified since header) or ETags? (JW)
 -   High density simple features such as SNPs - vcf format or simple
     json format without method and stop? (JW)
 

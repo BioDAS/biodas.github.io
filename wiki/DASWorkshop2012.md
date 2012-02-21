@@ -82,4 +82,5 @@ Please feel free to add suggestions for discussions or code sprints.
 
 -   DAS Registry - new architecture and capabilities (JW)
 -   DAS in personal genomics (MC/JW/BG)
+-   Secure DAS trial (JP)
 

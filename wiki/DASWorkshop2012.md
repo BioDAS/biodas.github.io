@@ -61,10 +61,10 @@ code hackathon. The exact format is yet to be decided.
 
 -   DAS writeback
 -   DAS search
--   Registry CRUD via a web service (get, post, put, delete)
+-   Registry CRUD via a web service (get, post, put, delete) (JW)
 -   Alternative content negotiation (e.g. the Registry supports JSON for
-    all requests and responses)
--   Authentication/encryption in ProServer
+    all requests and responses) (AJ/JW)
+-   Authentication/encryption in ProServer (AJ)
 
 ### Suggestions for topics on Developers Days
 

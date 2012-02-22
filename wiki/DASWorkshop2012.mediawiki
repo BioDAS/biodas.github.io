@@ -107,9 +107,9 @@ This year we will not have a day of talks as in previous years. Instead, both da
 
 * DAS writeback
 * DAS search
-* Registry CRUD via a web service (get, post, put, delete)
-* Alternative content negotiation (e.g. the Registry supports JSON for all requests and responses)
-* Authentication/encryption in ProServer
+* Registry CRUD via a web service (get, post, put, delete) (JW)
+* Alternative content negotiation (e.g. the Registry supports JSON for all requests and responses) (AJ/JW)
+* Authentication/encryption in ProServer (AJ)
 
 ===Suggestions for topics on Developers Days===
 

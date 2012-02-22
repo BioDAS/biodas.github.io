@@ -46,9 +46,9 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | 
 |-
 | 11:00
-| Hands-on: creating a DAS source from a file with EasyDAS
+| Demo: creating a DAS source from a file with EasyDAS
 | RJ
-| 
+| [http://code.google.com/p/easydas/wiki/easyDAS_tutorial easyDAS tutorial]
 |-
 | 11:10
 | Hands-on: viewing DAS sources with Ensembl OR Dasty

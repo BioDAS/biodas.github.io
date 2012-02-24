@@ -53,7 +53,7 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | 11:10
 | Hands-on: viewing DAS sources with Ensembl OR Dasty
 | AJ/RJ
-| 
+| [http://www.biotnet.org/training-materials/dasty-3-tutorial-das-workshop-2011 Dasty Tutorial]
 |-
 | 11:20
 | Introduction to DAS server frameworks

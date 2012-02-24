@@ -89,7 +89,7 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | 15:40
 | Hands-on programming tutorial: DAS client libraries
 | AJ/JW/LG/RJ
-| [http://www.biotnet.org/training-materials/bio-das-lite-tutorial Bio::Das::Lite]-or- [http://www.biotnet.org/training-materials/jdas JDAS] -or- [http://code.google.com/p/jsdas/wiki/tutorial JSDAS]. Each will cover sources, sequence & features using the same examples
+| [http://www.biotnet.org/training-materials/bio-das-lite-tutorial Bio::Das::Lite]-or- [http://code.google.com/p/jdas/wiki/dasWorkshop2012 JDAS] -or- [http://code.google.com/p/jsdas/wiki/tutorial JSDAS]. Each will cover sources, sequence & features using the same examples
 |-  
 |17:30
 | colspan="3" | Departure from Campus to Whittlesford Station/Holiday Inn at circa 17:30 hrs.

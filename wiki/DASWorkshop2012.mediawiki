@@ -84,7 +84,7 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | 15:30
 | Introduction to DAS client libraries
 | LG
-|
+| [http://www.biotnet.org/sites/biotnet.org/files/documents/40/clientlibraries_das_ws_2012.ppt Introduction to client libraries]
 |-
 | 15:40
 | Hands-on programming tutorial: DAS client libraries

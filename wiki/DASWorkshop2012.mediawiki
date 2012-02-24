@@ -51,8 +51,8 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | [http://code.google.com/p/easydas/wiki/easyDAS_tutorial easyDAS tutorial]
 |-
 | 11:10
-| Hands-on: viewing DAS sources with Ensembl OR Dasty
-| AJ/RJ
+| Hands-on: viewing DAS sources with Ensembl
+| AJ
 | [http://www.biotnet.org/training-materials/dasty-3-tutorial-das-workshop-2011 Dasty Tutorial]
 |-
 | 11:20

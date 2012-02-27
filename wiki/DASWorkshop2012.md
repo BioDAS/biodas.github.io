@@ -94,3 +94,6 @@ RelaxNG document for validation of features:
 
 6 easy steps to setting up a [genotype data source in the cloud/tomcat
 server'](http://biodasman.wordpress.com/2012/01/12/easy-deployment-of-das-server-for-personal-genotype-data-to-the-amazon-cloud/'MyDAS)
+
+\['Sanger Proserver Adapters'
+<https://sangeradaptors.svn.sourceforge.net/svnroot/sangeradaptors/Bio/Das/ProServer/SourceAdaptor/>\]

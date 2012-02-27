@@ -17,12 +17,12 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 ! Speaker
 ! Resources
 |- 
-| 9:00
+| 9:15
 | Welcome and Information
 | JW
 |
 |- 
-| 9:00
+| 9:20
 | DAS - Introduction/Overview
 | AJ
 | [http://www.ebi.ac.uk/~aj/das_workshop_2012/DAS-Introduction.pptx DAS Introduction]

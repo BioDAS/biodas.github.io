@@ -130,3 +130,5 @@ Please feel free to add suggestions for discussions or code sprints.
 DAS 1.6 specification [http://www.biodas.org/documents/spec-1.6.html spec]
 
 RelaxNG document for validation of features: [http://www.dasregistry.org/validation1.6/features.rng relaxng]
+
+6 easy steps to setting up a [http://biodasman.wordpress.com/2012/01/12/easy-deployment-of-das-server-for-personal-genotype-data-to-the-amazon-cloud/'MyDAS genotype data source in the cloud/tomcat server']

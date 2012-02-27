@@ -91,3 +91,6 @@ DAS 1.6 specification
 
 RelaxNG document for validation of features:
 [relaxng](http://www.dasregistry.org/validation1.6/features.rng)
+
+6 easy steps to setting up a [genotype data source in the cloud/tomcat
+server'](http://biodasman.wordpress.com/2012/01/12/easy-deployment-of-das-server-for-personal-genotype-data-to-the-amazon-cloud/'MyDAS)

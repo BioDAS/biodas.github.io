@@ -25,7 +25,7 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | 9:00
 | DAS - Introduction/Overview
 | AJ
-| [http://www.ebi.ac.uk/~aj/das_workshop_2012/DAS-Introduction.pptx]
+| [http://www.ebi.ac.uk/~aj/das_workshop_2012/DAS-Introduction.pptx DAS Introduction]
 |-
 | 9:40
 | The DAS Game
@@ -35,7 +35,7 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | 10:00
 | DAS - Technical Introduction
 | AJ
-| [http://www.ebi.ac.uk/~aj/das_workshop_2012/DAS-Introduction-Technical.pptx]
+| [http://www.ebi.ac.uk/~aj/das_workshop_2012/DAS-Introduction-Technical.pptx DAS Technical Introduction]
 |- style="background:#ffdead;"
 | 10:20
 | colspan="3" | Coffee break

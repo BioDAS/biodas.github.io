@@ -25,7 +25,7 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | 9:00
 | DAS - Introduction/Overview
 | AJ
-| [http://www.biotnet.org/training-materials/introduction-das Introduction] [http://www.biotnet.org/training-materials/technical-introduction-das Technical Introduction]
+| [http://www.ebi.ac.uk/~aj/das_workshop_2012/DAS-Introduction.pptx]
 |-
 | 9:40
 | The DAS Game
@@ -35,7 +35,7 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | 10:00
 | DAS - Technical Introduction
 | AJ
-| [http://www.biotnet.org/training-materials/technical-introduction-das Technical Introduction]
+| [http://www.ebi.ac.uk/~aj/das_workshop_2012/DAS-Introduction-Technical.pptx]
 |- style="background:#ffdead;"
 | 10:20
 | colspan="3" | Coffee break
@@ -53,7 +53,7 @@ The draft schedule for Day 1 is below. Please note that session times are a roug
 | 11:10
 | Hands-on: viewing DAS sources with Ensembl
 | AJ
-| [http://www.biotnet.org/training-materials/dasty-3-tutorial-das-workshop-2011 Dasty Tutorial]
+| [http://www.ebi.ac.uk/~aj/das_workshop_2012/ensembl/das-ensembl.html DAS in Ensembl]
 |-
 | 11:20
 | Introduction to DAS server frameworks

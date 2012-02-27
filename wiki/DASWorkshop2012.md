@@ -84,3 +84,9 @@ Please feel free to add suggestions for discussions or code sprints.
 -   DAS in personal genomics (MC/JW/BG)
 -   Secure DAS trial (David Martin, Jim Procter, Thomas Down)
 
+### Useful links
+
+DAS 1.6 specification
+[spec](http://www.biodas.org/documents/spec-1.6.html) RelaxNG document
+for validation:
+[relaxng](http://www.dasregistry.org/validation1.6/features.rng)

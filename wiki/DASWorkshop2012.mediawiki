@@ -125,3 +125,7 @@ Please feel free to add suggestions for discussions or code sprints.
 * DAS Registry - new architecture and capabilities (JW)
 * DAS in personal genomics (MC/JW/BG)
 * Secure DAS trial (David Martin, Jim Procter, Thomas Down)
+
+===Useful links===
+DAS 1.6 specification [http://www.biodas.org/documents/spec-1.6.html spec]
+RelaxNG document for validation: [http://www.dasregistry.org/validation1.6/features.rng relaxng]

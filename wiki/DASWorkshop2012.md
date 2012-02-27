@@ -87,6 +87,7 @@ Please feel free to add suggestions for discussions or code sprints.
 ### Useful links
 
 DAS 1.6 specification
-[spec](http://www.biodas.org/documents/spec-1.6.html) RelaxNG document
-for validation:
+[spec](http://www.biodas.org/documents/spec-1.6.html)
+
+RelaxNG document for validation:
 [relaxng](http://www.dasregistry.org/validation1.6/features.rng)

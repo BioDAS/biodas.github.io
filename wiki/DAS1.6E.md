@@ -652,15 +652,19 @@ direct implementations of that method.
 
 ##### Worked Example/proof of concept
 
-The server at <http://www.compbio.dundee.ac.uk/geneweb/das> holds mixed
-mode data in the data source
-[myseq](http://www.compbio.dundee.ac.uk/geneweb/das/myseq "wikilink").
+The server at [http://www.compbio.dundee.ac.uk/geneweb/das University of
+Dundee](http://www.compbio.dundee.ac.uk/geneweb/das_University_of_Dundee "wikilink")
+holds mixed mode data in the data source
+[http://www.compbio.dundee.ac.uk/geneweb/das/myseq
+myseq](http://www.compbio.dundee.ac.uk/geneweb/das/myseq_myseq "wikilink").
 (This is a proof of concept server written in Python on Django. It
 implements the sources, features, sequences and authopt capabilities. It
 is not a robust production server - please be nice).
 
-A public user can [retrieve features for the sequence
-*sequence1*](http://www.compbio.dundee.ac.uk/geneweb/das/myseq/features?segment=sequence1 "wikilink").
+A public user can
+[http://www.compbio.dundee.ac.uk/geneweb/das/myseq/features?segment=sequence1
+retrieve features for the sequence
+''sequence1''](http://www.compbio.dundee.ac.uk/geneweb/das/myseq/features?segment=sequence1_retrieve_features_for_the_sequence_''sequence1'' "wikilink").
 As this is mixed mode and the muggle web browser does not support mixed
 mode (just private and public) the client will only see public data like
 this:
@@ -680,7 +684,7 @@ features/1.1,sequence/1.1,authopt/1.0 x-das-version: 1.6
 x-das-authmethods: Basic realm='Davids denied DAS demo' x-das-status:
 200 ... (other headers snipped)
 
-Our non-muggle client recognises the ''x-das-authmethods: Basic
+Our non-muggle client recognises the ''X-DAS-AuthMethods: Basic
 realm='Davids denied DAS demo' '' header and can manage Basic
 authentication.
 

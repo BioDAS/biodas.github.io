@@ -437,9 +437,9 @@ Authentication is left to the client and server to negotiate. It is expected tha
 
 =====Worked Example/proof of concept=====
 
-The server at [[http://www.compbio.dundee.ac.uk/geneweb/das]] holds mixed mode data in the data source [[http://www.compbio.dundee.ac.uk/geneweb/das/myseq|myseq]]. (This is a proof of concept server written in Python on Django. It implements the sources, features, sequences and authopt capabilities. It is not a robust production server - please be nice).
+The server at [[http://www.compbio.dundee.ac.uk/geneweb/das University of Dundee]] holds mixed mode data in the data source [[http://www.compbio.dundee.ac.uk/geneweb/das/myseq myseq]]. (This is a proof of concept server written in Python on Django. It implements the sources, features, sequences and authopt capabilities. It is not a robust production server - please be nice).
 
-A public user can [[http://www.compbio.dundee.ac.uk/geneweb/das/myseq/features?segment=sequence1|retrieve features for the sequence ''sequence1'']]. As this is mixed mode and the muggle web browser does not support mixed mode (just private and public) the client will only see public data like this:
+A public user can [[http://www.compbio.dundee.ac.uk/geneweb/das/myseq/features?segment=sequence1 retrieve features for the sequence ''sequence1'']]. As this is mixed mode and the muggle web browser does not support mixed mode (just private and public) the client will only see public data like this:
 
 <nowiki><?xml version="1.0" ?>
 <DASGFF>
@@ -461,7 +461,7 @@ x-das-status: 200
 ... (other headers snipped)
 </nowiki>
 
-Our non-muggle client recognises the ''x-das-authmethods: Basic realm='Davids denied DAS demo' '' header and can manage Basic authentication. 
+Our non-muggle client recognises the ''X-DAS-AuthMethods: Basic realm='Davids denied DAS demo' '' header and can manage Basic authentication. 
 
 It constructs a set of headers (now including the CORS headers which I will omit for brevity) which include ''X-DAS-Authorisation: Basic RGF2aWQ6ZGl2YUQ=''  (Username David, Password divaD) and now gets the response including the header ''X-DAS-IsAuthenticated: True'' to indicate that authorisation was successful.
 
@@ -480,7 +480,6 @@ The response content has changed to include the features that are visible to thi
 </DASGFF></nowiki>
 
 This server has data for three users (David, Tom and Jim with passwords divaD, moT and miJ). You are welcome to try clients against this server but do not expect it to be robust.
-
 
 ===Implications===
 Mixed mode provides a useful layer to allow public visible entry points to which writeback requests can be made.

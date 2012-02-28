@@ -566,11 +566,168 @@ in circumstances that are commercially sensitive or subject to patient
 privacy controls. Although authentication can theoretically be overlaid
 onto DAS, it has become apparent that a lack of an explicit
 recommendation for a single implementation strategy has prevented
-take-up by DAS clients and servers. As discussed at the [2010 DAS
-Workshop](/wiki/DASWorkshop2010 "wikilink"), there are two alternative
-proposals:
+take-up by DAS clients and servers.
 
-### Standard HTTP Authentication
+### Outcome from the 2012 DAS workshop
+
+There are two authentication scenarios:
+
+-   **private data** The entry point/data source contains only
+    private data. Any access to data and capabilities of that source
+    *require* the client to present some credentials. This is analagous
+    to realm based HTTP Authentication.
+-   **mixed mode** The response from the data source is dependent on the
+    authentication state of the user. The source can provide some public
+    data to unauthenticated users but may present additional data or
+    capabilites to authenticated clients. This is equivalent to
+    application implemented login where different data/options appear
+    upon authentication through an application login (the metaphor given
+    is Flickr where the public may view photos, authenticated users may
+    comment on them, and the owner can edit them).
+
+#### Principles
+
+1.  Any methodology must exhibit graceful degradation. Any
+    authentication-blind (herafter referred to as a muggle) client or
+    server must be able to interoperate with authentication aware
+    servers and clients, though functionality arising from
+    authentication is obviously not accessible.
+2.  Implementation and selection of the authentication method is a
+    matter for consenting clients and servers to agree on outwith the
+    DAS specification. However, any authentication name that exists in
+    the HTTP specification (such as Digest or Basic) should conform to
+    that specification. No client or server is required to support any
+    particular authentication method.
+3.  The implementation should be as lightweight as possible.
+4.  The server should advertise available authentication methods
+
+#### Implementation
+
+##### Summary
+
+The base implementation is through use of HTTP headers and extension of
+the capabilities specification. Servers and clients should be careful to
+adhere to the CORS specifiation where appropriate for cross-origin
+request headers.
+
+##### Private Mode
+
+A private server should implement standard HTTP authentication. A 401
+response is returned to an unauthenticated client and the server
+**must** then receive and act upon an appropriate *Authorisation:*
+header. DAS servers implementing this method **must** advertise the
+capability *authreq/1.0*.
+
+##### Mixed Mode
+
+For Mixed Mode the server will always return a valid DAS response to a
+correctly formed DAS query. It will advertise the availability of
+authentication through the capability *authopt/1.0*. Each DAS response
+for the server where authentication is an option **must** return the
+HTTP header *X-DAS=AuthMethods* which is an unterminated semicolon
+separated list of available methods. The method specification is the
+method name followed by any parameters required, eg. "Basic
+realm='shareddata';" When a user is authenticated, the server will
+return the additional header *X-DAS-IsAuthenticated: True* (True may be
+any string containing at least one non-space character).
+
+To authenticate, the client must include either or both of the headers
+*Authorisation* or *X-DAS-Authorisation*. If both are set they should
+contain the same value. The duplication arises from the inability of
+some (most) client libraries to provide access to the *Authorisation*
+header. Clients should not expect to receive a 401 response prior to
+sending authentication details
+
+##### Capabilities
+
+The capabilities advertised by a DAS server may change upon
+authentication. For example a server may choose to only advertise
+writeback as a capability to authenticated clients.
+
+##### Authentication Methods
+
+Authentication is left to the client and server to negotiate. It is
+expected that methods using the same names as HTTP methods will be
+direct implementations of that method.
+
+##### Worked Example/proof of concept
+
+The server at <http://www.compbio.dundee.ac.uk/geneweb/das> holds mixed
+mode data in the data source
+[myseq](http://www.compbio.dundee.ac.uk/geneweb/das/myseq "wikilink").
+(This is a proof of concept server written in Python on Django. It
+implements the sources, features, sequences and authopt capabilities. It
+is not a robust production server - please be nice).
+
+A public user can [retrieve features for the sequence
+*sequence1*](http://www.compbio.dundee.ac.uk/geneweb/das/myseq/features?segment=sequence1 "wikilink").
+As this is mixed mode and the muggle web browser does not support mixed
+mode (just private and public) the client will only see public data like
+this:
+
+&lt;?xml version="1.0" ?&gt; &lt;DASGFF&gt; &lt;GFF
+href="http://www.compbio.dundee.ac.uk/geneweb/das/myseq/features?segment=sequence1"
+version="1.0"&gt; &lt;SEGMENT id="sequence1" start="1" stop="140"&gt;
+&lt;FEATURE id="f1"&gt;&lt;TYPE id="thingy"/&gt;&lt;METHOD
+id="invented"/&gt;&lt;START&gt;1&lt;/START&gt;&lt;END&gt;10&lt;/END&gt;&lt;NOTE&gt;This
+should be visible to all clients&lt;/NOTE&gt;&lt;/FEATURE&gt;
+&lt;/SEGMENT&gt; &lt;/GFF&gt; &lt;/DASGFF&gt;
+
+A non-muggle client will look through the headers and see the following:
+
+x-das-server: Davids Django Dassler x-das-capabilities:
+features/1.1,sequence/1.1,authopt/1.0 x-das-version: 1.6
+x-das-authmethods: Basic realm='Davids denied DAS demo' x-das-status:
+200 ... (other headers snipped)
+
+Our non-muggle client recognises the ''x-das-authmethods: Basic
+realm='Davids denied DAS demo' '' header and can manage Basic
+authentication.
+
+It constructs a set of headers (now including the CORS headers which I
+will omit for brevity) which include *X-DAS-Authorisation: Basic
+RGF2aWQ6ZGl2YUQ=* (Username David, Password divaD) and now gets the
+response including the header *X-DAS-IsAuthenticated: True* to indicate
+that authorisation was successful.
+
+The response content has changed to include the features that are
+visible to this user as well as the public data.
+
+&lt;?xml version="1.0" ?&gt; &lt;DASGFF&gt; &lt;GFF
+href="http://www.compbio.dundee.ac.uk/geneweb/das/myseq/features?segment=sequence1"
+version="1.0"&gt; &lt;SEGMENT id="sequence1" start="1" stop="140"&gt;
+&lt;FEATURE id="f1"&gt;&lt;TYPE id="thingy"/&gt;&lt;METHOD
+id="invented"/&gt;&lt;START&gt;1&lt;/START&gt;&lt;END&gt;10&lt;/END&gt;&lt;NOTE&gt;This
+should be visible to all clients&lt;/NOTE&gt;&lt;/FEATURE&gt;
+&lt;FEATURE id="f3"&gt;&lt;TYPE id="Jim and David\\'s
+thingy"/&gt;&lt;METHOD
+id="invented"/&gt;&lt;START&gt;30&lt;/START&gt;&lt;END&gt;35&lt;/END&gt;&lt;NOTE&gt;This
+should be visible to both Jim and David
+only&lt;/NOTE&gt;&lt;/FEATURE&gt; &lt;FEATURE id="f4"&gt;&lt;TYPE
+id="David\\'s thingy"/&gt;&lt;METHOD
+id="invented"/&gt;&lt;START&gt;40&lt;/START&gt;&lt;END&gt;45&lt;/END&gt;&lt;NOTE&gt;This
+should be visible to David only&lt;/NOTE&gt;&lt;/FEATURE&gt; &lt;FEATURE
+id="f6"&gt;&lt;TYPE id="David and Tom\\'s thingy"/&gt;&lt;METHOD
+id="invented"/&gt;&lt;START&gt;60&lt;/START&gt;&lt;END&gt;65&lt;/END&gt;&lt;NOTE&gt;This
+should be visible to David and Tom only&lt;/NOTE&gt;&lt;/FEATURE&gt;
+&lt;/SEGMENT&gt; &lt;/GFF&gt; &lt;/DASGFF&gt;
+
+This server has data for three users (David, Tom and Jim with passwords
+divaD, moT and miJ). You are welcome to try clients against this server
+but do not expect it to be robust.
+
+### Implications
+
+Mixed mode provides a useful layer to allow public visible entry points
+to which writeback requests can be made. Muggle clients and servers will
+not break and will function as they do now.
+
+### Discussions from the [2010 DAS Workshop](/wiki/DASWorkshop2010 "wikilink") (Legacy content)
+
+As discussed at the [2010 DAS Workshop](/wiki/DASWorkshop2010 "wikilink"),
+there are two alternative proposals:
+
+#### Standard HTTP Authentication
 
 In this model, the DAS specification would simply specify that the
 existing HTTP authentication strategies
@@ -583,7 +740,7 @@ maintain independent implementations (with all of the regulatory privacy
 concerns) and users have separate login credentials for every DAS
 server.
 
-### Delegated Authentication
+#### Delegated Authentication
 
 In a delegated authentication system, authentication is effectively
 "outsourced" to a third party by clients and servers, leaving servers

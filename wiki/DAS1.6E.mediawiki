@@ -436,6 +436,10 @@ Mixing public and private data on the same source is not definable at the curren
 
 Authentication is left to the client and server to negotiate. It is expected that methods  using the same names as HTTP methods will be direct implementations of that method.
 
+=====<tt>das/sources</tt> command=====
+
+Clients should expect any authentication method for the <tt>/das/sources</tt> command. For ''authopt'' servers, the content of the response may change upon authentication. Servers are not required to publish private mode sources to unauthenticated clients (and may specifically choose so not to do).
+
 =====Worked Example/proof of concept=====
 
 The server at [[http://www.compbio.dundee.ac.uk/geneweb/das University of Dundee]] holds mixed mode data in the data source [[http://www.compbio.dundee.ac.uk/geneweb/das/myseq myseq]]. (This is a proof of concept server written in Python on Django. It implements the sources, features, sequences and authopt capabilities. It is not a robust production server - please be nice).

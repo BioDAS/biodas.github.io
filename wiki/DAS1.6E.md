@@ -642,7 +642,12 @@ sending authentication details
 
 The capabilities advertised by a DAS server may change upon
 authentication. For example a server may choose to only advertise
-writeback as a capability to authenticated clients.
+writeback as a capability to authenticated clients. However,
+authentication capabilities should be expressed at the source level as
+the finest level of granularity. A source should have only one
+authentication capability (none, authreq or authopt). Mixing public and
+private data on the same source is not definable at the current
+granularity of capability definitions.
 
 ##### Authentication Methods
 

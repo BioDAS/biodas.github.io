@@ -429,7 +429,8 @@ When a user is authenticated, the server will return the additional header ''X-D
 To authenticate, the client must include either or both of the headers ''Authorisation'' or ''X-DAS-Authorisation''. If both are set they should contain the same value. The duplication arises from the inability of some (most) client libraries to provide access to the ''Authorisation'' header. Clients should not expect to receive a 401 response prior to sending authentication details
 
 =====Capabilities=====
-The capabilities advertised by a DAS server may change upon authentication. For example a server may choose to only advertise writeback as a capability to authenticated clients.
+The capabilities advertised by a DAS server may change upon authentication. For example a server may choose to only advertise writeback as a capability to authenticated clients. However, authentication capabilities should be expressed at the source level as the finest level of granularity. A source should have only one authentication capability (none, authreq or authopt).
+Mixing public and private data on the same source is not definable at the current granularity of capability definitions.
 
 =====Authentication Methods=====
 

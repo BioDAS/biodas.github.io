@@ -97,3 +97,8 @@ server'](http://biodasman.wordpress.com/2012/01/12/easy-deployment-of-das-server
 
 \['Sanger Proserver Adapters'
 <https://sangeradaptors.svn.sourceforge.net/svnroot/sangeradaptors/Bio/Das/ProServer/SourceAdaptor/>\]
+
+### Images
+
+Pictures, mostly from day 2 are here
+<http://www.flickr.com/photos/davidmam/sets/72157629110016398/>

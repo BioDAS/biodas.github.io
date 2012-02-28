@@ -616,7 +616,9 @@ A private server should implement standard HTTP authentication. A 401
 response is returned to an unauthenticated client and the server
 **must** then receive and act upon an appropriate *Authorisation:*
 header. DAS servers implementing this method **must** advertise the
-capability *authreq/1.0*.
+capability *authreq/1.0* (or later version). The capability *authreq* is
+incompatible with the capability *authopt*. Either or none should be
+specified. To specify both is an error.
 
 ##### Mixed Mode
 

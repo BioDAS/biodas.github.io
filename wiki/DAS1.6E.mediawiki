@@ -419,7 +419,7 @@ There are two authentication scenarios:
 The base implementation is through use of HTTP headers and extension of the capabilities specification. Servers and clients should be careful to adhere to the CORS specifiation where appropriate for cross-origin request headers.
 
 =====Private Mode=====
-A private server should implement standard HTTP authentication. A 401 response is returned to an unauthenticated client and the server '''must''' then receive and act upon an appropriate ''Authorisation:'' header. DAS servers implementing this method '''must''' advertise the capability ''authreq/1.0''.
+A private server should implement standard HTTP authentication. A 401 response is returned to an unauthenticated client and the server '''must''' then receive and act upon an appropriate ''Authorisation:'' header. DAS servers implementing this method '''must''' advertise the capability ''authreq/1.0'' (or later version). The capability ''authreq'' is incompatible with the capability ''authopt''. Either or none should be specified. To specify both is an error.
 
 =====Mixed Mode=====
 For Mixed Mode the server will always return a valid DAS response to a correctly formed DAS query. It will advertise the availability of authentication through the capability ''authopt/1.0''.

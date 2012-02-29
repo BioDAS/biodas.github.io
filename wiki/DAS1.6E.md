@@ -626,7 +626,7 @@ For Mixed Mode the server will always return a valid DAS response to a
 correctly formed DAS query. It will advertise the availability of
 authentication through the capability *authopt/1.0*. Each DAS response
 for the server where authentication is an option **must** return the
-HTTP header *X-DAS=AuthMethods* which is an unterminated semicolon
+HTTP header *X-DAS-AuthMethods* which is an unterminated semicolon
 separated list of available methods. The method specification is the
 method name followed by any parameters required, eg. "Basic
 realm='shareddata';" When a user is authenticated, the server will
@@ -634,11 +634,11 @@ return the additional header *X-DAS-IsAuthenticated: True* (True may be
 any string containing at least one non-space character).
 
 To authenticate, the client must include either or both of the headers
-*Authorisation* or *X-DAS-Authorisation*. If both are set they should
+*Authorization* or *X-DAS-Authorization*. If both are set they should
 contain the same value. The duplication arises from the inability of
-some (most) client libraries to provide access to the *Authorisation*
-header. Clients should not expect to receive a 401 response prior to
-sending authentication details
+some (most) client libraries to provide access to the *Authorization*
+header. In contrast to "private" mode, clients should not expect to
+receive a 401 response prior to sending authentication details.
 
 ##### Capabilities
 

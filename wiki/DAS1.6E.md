@@ -667,9 +667,10 @@ granularity of capability definitions.
 
 ##### Authentication Methods
 
-Authentication is left to the client and server to negotiate. It is
-expected that methods using the same names as HTTP methods will be
-direct implementations of that method.
+For both private and mixed modes, the process of authentication is left
+to the client and server to negotiate. It is expected that methods using
+the same names as HTTP methods (i.e. basic and digest) will be direct
+implementations of that method.
 
 ##### `das/sources` command
 

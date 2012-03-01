@@ -436,7 +436,7 @@ Mixing public and private data on the same source is not definable at the curren
 
 =====Authentication Methods=====
 
-Authentication is left to the client and server to negotiate. It is expected that methods  using the same names as HTTP methods will be direct implementations of that method.
+For both private and mixed modes, the process of authentication is left to the client and server to negotiate. It is expected that methods using the same names as HTTP methods (i.e. basic and digest) will be direct implementations of that method.
 
 =====<tt>das/sources</tt> command=====
 

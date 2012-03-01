@@ -612,13 +612,16 @@ request headers.
 
 ##### Private Mode
 
-A private server should implement standard HTTP authentication. A 401
-response is returned to an unauthenticated client and the server
-**must** then receive and act upon an appropriate *Authorisation:*
-header. DAS servers implementing this method **must** advertise the
-capability *authreq/1.0* (or later version). The capability *authreq* is
-incompatible with the capability *authopt*. Either or none should be
-specified. To specify both is an error.
+A private server should implement standard HTTP authentication. Clients
+are only authorised to access the requested document (i.e. the DAS
+response) if they submit valid credentials *and* those credentials
+identify a user that is authorised to access the document. In any other
+case, a "401 Unauthorized" response is returned to the client. The
+client **may** submit credentials in the "Authorization" header and the
+server **must** act upon it. DAS servers implementing this method
+**must** advertise the capability *authreq/1.0* (or later version). The
+capability *authreq* is incompatible with the capability *authopt*.
+Either or none should be specified. To specify both is an error.
 
 ##### Mixed Mode
 

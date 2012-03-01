@@ -623,22 +623,33 @@ specified. To specify both is an error.
 ##### Mixed Mode
 
 For Mixed Mode the server will always return a valid DAS response to a
-correctly formed DAS query. It will advertise the availability of
-authentication through the capability *authopt/1.0*. Each DAS response
-for the server where authentication is an option **must** return the
-HTTP header *X-DAS-AuthMethods* which is an unterminated semicolon
-separated list of available methods. The method specification is the
-method name followed by any parameters required, eg. "Basic
-realm='shareddata';" When a user is authenticated, the server will
-return the additional header *X-DAS-IsAuthenticated: True* (True may be
-any string containing at least one non-space character).
+correctly formed DAS query. In terms of the HTTP specification, this
+means that user-agents are always authorised to access the requested
+document, regardless of whether they present any user credentials.
+However, if credentials are presented, they may provide access to more
+data and thus a different document may be returned. Servers using mixed
+mode will advertise the availability of authentication through the
+capability *authopt/1.0*.
 
-To authenticate, the client must include either or both of the headers
-*Authorization* or *X-DAS-Authorization*. If both are set they should
-contain the same value. The duplication arises from the inability of
-some (most) client libraries to provide access to the *Authorization*
-header. In contrast to "private" mode, clients should not expect to
-receive a 401 response prior to sending authentication details.
+In mixed mode, each DAS response for the server **must** return the HTTP
+header *X-DAS-AuthMethods*. The value of this header is an unterminated
+semicolon separated list of available methods. Each method comprises the
+method name, followed by any parameters required. For example:
+
+` X-DAS-AuthMethods: Basic realm="shareddata"`
+
+When a user is authenticated, the server will return the additional
+header *X-DAS-IsAuthenticated: True* (True may be any string containing
+at least one non-space character).
+
+In order to authenticate, the client must provide the appropriate
+credentials in either or both of the *Authorization* and
+*X-DAS-Authorization* headers. If both are set they must contain the
+same value. The duplication arises from the inability of some (most)
+client libraries to provide access to the *Authorization* header. In
+contrast to "private" mode, clients should not expect to receive a 401
+response - neither prior to sending authentication details, nor if
+authentication details are not valid.
 
 ##### Capabilities
 

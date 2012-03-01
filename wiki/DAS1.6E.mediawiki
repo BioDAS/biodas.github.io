@@ -410,7 +410,7 @@ There are two authentication scenarios:
 ====Principles====
 
 # Any methodology must exhibit graceful degradation. Any authentication-blind (herafter referred to as a muggle) client or server must be able to interoperate with authentication aware servers and clients, though functionality arising from authentication is obviously not accessible.
-# Implementation and selection of the authentication method is a matter for consenting clients and servers to agree on outwith the DAS specification. However, any authentication name that exists in the HTTP specification (such as Digest or Basic) should conform to that specification. No client or server is required to support any particular authentication method.
+# Implementation and selection of the authentication method is a matter for consenting clients and servers to agree on, and is out of scope for the DAS specification. However, any authentication name that exists in the HTTP specification (such as Digest or Basic) should conform to that specification. No client or server is required to support any particular authentication method.
 # The implementation should be as lightweight as possible.
 # The server should advertise available authentication methods
 

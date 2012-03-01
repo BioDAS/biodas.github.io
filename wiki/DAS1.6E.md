@@ -593,11 +593,11 @@ There are two authentication scenarios:
     servers and clients, though functionality arising from
     authentication is obviously not accessible.
 2.  Implementation and selection of the authentication method is a
-    matter for consenting clients and servers to agree on outwith the
-    DAS specification. However, any authentication name that exists in
-    the HTTP specification (such as Digest or Basic) should conform to
-    that specification. No client or server is required to support any
-    particular authentication method.
+    matter for consenting clients and servers to agree on, and is out of
+    scope for the DAS specification. However, any authentication name
+    that exists in the HTTP specification (such as Digest or Basic)
+    should conform to that specification. No client or server is
+    required to support any particular authentication method.
 3.  The implementation should be as lightweight as possible.
 4.  The server should advertise available authentication methods
 

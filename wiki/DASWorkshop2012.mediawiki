@@ -139,3 +139,19 @@ RelaxNG document for validation of features: [http://www.dasregistry.org/validat
 ===Images===
 
 Pictures, mostly from day 2 are here [[http://www.flickr.com/photos/davidmam/sets/72157629110016398/]]
+
+===Outcomes from workshop 2012===
+
+A Ruby server is in development that implement the sources, sequence, features, types and soon entry_points request/responses : [https://github.com/alexkalderimis/RubyDAS https://github.com/alexkalderimis/RubyDAS] Bastian Greshaek and Alex Kalderimis
+
+Mixed mode authentication for DAS servers specification [http://www.biodas.org/wiki/DAS1.6E#Authentication http://www.biodas.org/wiki/DAS1.6E#Authentication]
+
+SOLR based MyDAS gff current svn repository version of MyDAS. Rafael Jimenez
+
+Firming up of the DAS JSON format (decided on "real" JSON rather than a convert from xml). Thomas Down, Andy Jenkinson, Jonathan warren.
+
+DAS server code is being added to the Intermine project (MyDAS based). Alex Kalderimis
+
+DAS support in the VectorNTI Genome Bench software is being updated. Ajish A Kahar
+
+Additions to the JDAS (Java DAS library) code including authentication mixed mode mentioned above. Jim Procter, Leyla Garcia, Jonathan Warren.

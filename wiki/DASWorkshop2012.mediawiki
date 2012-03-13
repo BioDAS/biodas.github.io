@@ -144,7 +144,7 @@ Pictures, mostly from day 2 are here [[http://www.flickr.com/photos/davidmam/set
 
 A Ruby server is in development that implement the sources, sequence, features, types and soon entry_points request/responses : [https://github.com/alexkalderimis/RubyDAS https://github.com/alexkalderimis/RubyDAS] Bastian Greshaek and Alex Kalderimis
 
-Mixed mode authentication for DAS servers specification [http://www.biodas.org/wiki/DAS1.6E#Authentication http://www.biodas.org/wiki/DAS1.6E#Authentication]
+Mixed mode authentication for DAS servers specification [http://www.biodas.org/wiki/DAS1.6E#Authentication http://www.biodas.org/wiki/DAS1.6E#Authentication]. David Martin, Jim Proctor, Thomas Down, Andy Jenkinson.
 
 SOLR based MyDAS gff current svn repository version of MyDAS. Rafael Jimenez
 

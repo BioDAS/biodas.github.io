@@ -111,7 +111,8 @@ features, types and soon entry\_points request/responses :
 Bastian Greshaek and Alex Kalderimis
 
 Mixed mode authentication for DAS servers specification
-[<http://www.biodas.org/wiki/DAS1.6E#Authentication>](http://www.biodas.org/wiki/DAS1.6E#Authentication)
+[<http://www.biodas.org/wiki/DAS1.6E#Authentication>](http://www.biodas.org/wiki/DAS1.6E#Authentication).
+David Martin, Jim Proctor, Thomas Down, Andy Jenkinson.
 
 SOLR based MyDAS gff current svn repository version of MyDAS. Rafael
 Jimenez

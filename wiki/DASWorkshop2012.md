@@ -103,7 +103,8 @@ server'](http://biodasman.wordpress.com/2012/01/12/easy-deployment-of-das-server
 Pictures, mostly from day 2 are here
 <http://www.flickr.com/photos/davidmam/sets/72157629110016398/>
 
-### Outcomes from workshop 2012
+Outcomes from workshop 2012
+===========================
 
 A Ruby server is in development that implement the sources, sequence,
 features, types and soon entry\_points request/responses :

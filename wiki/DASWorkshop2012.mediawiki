@@ -140,7 +140,7 @@ RelaxNG document for validation of features: [http://www.dasregistry.org/validat
 
 Pictures, mostly from day 2 are here [[http://www.flickr.com/photos/davidmam/sets/72157629110016398/]]
 
-===Outcomes from workshop 2012===
+=Outcomes from workshop 2012=
 
 A Ruby server is in development that implement the sources, sequence, features, types and soon entry_points request/responses : [https://github.com/alexkalderimis/RubyDAS https://github.com/alexkalderimis/RubyDAS] Bastian Greshaek and Alex Kalderimis
 

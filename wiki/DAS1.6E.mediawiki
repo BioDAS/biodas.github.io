@@ -391,11 +391,18 @@ Can query a datasource for a list of the formats it supports for example  ../das
 </pre>
 
 =====Initial proposal=====
+
+''This was the first proposal, subsequently amended as above.''
+
 Addition of  an optional zero-or-more <FORMAT> element as a child of <TYPE> element in types command response, with required attributes "name" (arbitrary character string that uniquely identifies this format within the server) and "mimetype" (must follow standard [http://tools.ietf.org/html/rfc2045 mimetype identifier rules]).  Note that this strategy also allows for multiple formats with the same mimetype.
 
 Addition of an optional "format" query parameter to features query.  Format parameter SHOULD be a format name that the server recognizes.  If server can return ALL features that satisfy the feature query in the specified format, it should do so, and set the response Content-Type header accordingly.  If the server does not recognize the requested format, or cannot return in that format all of the features that satisfy the features query, it should return an HTTP error message (with X-DAS-Status also set?).
 
 Both of these additions are optional, therefore these changes will not affect servers or clients that do not support alternative content formats.
+
+====List of Formats====
+
+Implementation details for specific formats are on the [[Alternative Content Formats]] page.
 
 ==Authentication==
 

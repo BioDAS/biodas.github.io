@@ -537,6 +537,8 @@ Can query a datasource for a list of the formats it supports for example
 
 ##### Initial proposal
 
+*This was the first proposal, subsequently amended as above.*
+
 Addition of an optional zero-or-more <FORMAT> element as a child of
 <TYPE> element in types command response, with required attributes
 "name" (arbitrary character string that uniquely identifies this format
@@ -556,6 +558,11 @@ X-DAS-Status also set?).
 Both of these additions are optional, therefore these changes will not
 affect servers or clients that do not support alternative content
 formats.
+
+#### List of Formats
+
+Implementation details for specific formats are on the [Alternative
+Content Formats](/wiki/Alternative_Content_Formats "wikilink") page.
 
 Authentication
 --------------

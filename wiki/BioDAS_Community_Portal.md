@@ -25,12 +25,6 @@ DAS Mailing Lists
 -   Used for: discussions and questions about DAS in general
 -   Gmane: <http://dir.gmane.org/gmane.science.biology.biodas>
 
-### DAS registration server announce list
-
--   Listinfo:
-    <http://lists.sanger.ac.uk/mailman/listinfo/das_registry_announce>
--   Used for: announcements for the DAS registry
-
 ### ProServer mailing list
 
 -   Listinfo:

@@ -3,7 +3,7 @@
 
 The DAS protocol was written by Lincoln Stein, Sean Eddy, and Robin Dowell in 2000, and is the basis for a large number of software implementations. Around 650 public DAS data sources are currently running worldwide, with many more private data sources known to be in use. A number of  websites and software applications function as DAS clients.
 
-As of 19th October 2010, the latest version of the DAS protocol is [[DAS1.6|DAS 1.6]].
+As of January 2013, the latest version of the DAS protocol is [[DAS1.6|DAS 1.6]].
 
 The specification is being actively supported, and continues to be extended in order to cater for the needs of its existing users and expand its applicability to additional arenas. For example, though originally focussed on genomic annotation, the latest version includes support for protein sequences, structures and annotations. In addition, extensions have enabled DAS to be used to distribute alignment and molecular interaction data. These and other extensions are listed in the unofficial [[DAS1.6E|DAS 1.6E]] specification.
 

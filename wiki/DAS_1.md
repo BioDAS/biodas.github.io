@@ -16,7 +16,7 @@ running worldwide, with many more private data sources known to be in
 use. A number of websites and software applications function as DAS
 clients.
 
-As of 19th October 2010, the latest version of the DAS protocol is [DAS
+As of January 2013, the latest version of the DAS protocol is [DAS
 1.6](/wiki/DAS1.6 "wikilink").
 
 The specification is being actively supported, and continues to be

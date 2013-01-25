@@ -21,7 +21,7 @@ DAS Mailing Lists
 ### DAS Discussion list
 
 -   Post to: das@biodas.org
--   Listinfo: <http://biodas.org/mailman/listinfo/das>
+-   Listinfo: <http://lists.open-bio.org/mailman/listinfo/das>
 -   Used for: discussions and questions about DAS in general
 -   Gmane: <http://dir.gmane.org/gmane.science.biology.biodas>
 

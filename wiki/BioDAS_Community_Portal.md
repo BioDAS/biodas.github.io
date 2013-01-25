@@ -34,7 +34,7 @@ DAS Mailing Lists
 
 ### DAS Announcements
 
--   Listinfo: <http://biodas.org/mailman/listinfo/das-announce>
+-   Listinfo: <http://lists.open-bio.org/mailman/listinfo/das-announce>
 -   Used for: major DAS announcements
 
 DAS/2 Discussion list

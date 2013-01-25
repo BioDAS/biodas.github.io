@@ -21,7 +21,7 @@ DAS workshops are run annually that consist of a training day, a day of talks an
 
 === DAS Announcements ===
 
-* Listinfo: http://biodas.org/mailman/listinfo/das-announce
+* Listinfo: http://lists.open-bio.org/mailman/listinfo/das-announce
 * Used for: major DAS announcements
 
 == DAS/2 Discussion list==

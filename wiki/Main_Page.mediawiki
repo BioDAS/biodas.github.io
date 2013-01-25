@@ -1,7 +1,6 @@
 <big>'''Welcome To BioDAS.org'''</big>
 
 ==Notice==
-Registrations open for the DAS workshop for 2012 27-29th Feb 2012. Register [http://www.ebi.ac.uk/training/onsite/120227_DAS.html here] and the current agenda is here  [http://www.biodas.org/wiki/DASWorkshop2012 agenda]
 
 <span style="color: darkred;">PLEASE NOTE: </span>a new version of DAS was recently released! See the [[#Versions of DAS|Versions of DAS]] section below for more information.
 

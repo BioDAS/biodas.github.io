@@ -11,9 +11,9 @@ layout: wiki
 
 A workshop is being held on the 2-4th March at the Genome Campus outside
 Cambridge for agenda see here
-[1](http://www.biodas.org/wiki/DASWorkshop2011%7Cagenda) and for
+[agenda](http://www.biodas.org/wiki/DASWorkshop2011) and for
 registration see here:
-[2](http://www.ebi.ac.uk//training/onsite/110302DAS.html%7Cregistration)
+[registration](http://www.ebi.ac.uk//training/onsite/110302DAS.html)
 
 GMOD Europe meeting, September 2010
 -----------------------------------

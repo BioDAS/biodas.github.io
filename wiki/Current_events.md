@@ -4,8 +4,8 @@ permalink: wiki/Current_events/
 layout: wiki
 ---
 
-DASWorkshop2011|DAS workshop, March 2011
-----------------------------------------
+DAS workshop, March 2011
+------------------------
 
 2nd-4th March at the Genome Campus, Hinxton UK.
 

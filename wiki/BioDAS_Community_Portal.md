@@ -43,22 +43,3 @@ DAS/2 Discussion list
 `'''The DAS/2 discussion list has been retired. `  
 `Please direct all DAS-related discussion to the DAS Discussion list noted above.`  
 `DAS/2 discussion list archives are available at `[`http://lists.open-bio.org/pipermail/das2/`](http://lists.open-bio.org/pipermail/das2/)`'''`
-
-Teleconference
---------------
-
-|              |                                           |
-|--------------|-------------------------------------------|
-| Next Meeting | 5 March 2009                              |
-| Schedule     | Biweekly on Thursday                      |
-| Time of Day  | 9:00 AM PST, 12:00 PM EST, 17:00 GMT      |
-| Dialin (US)  | 866-692-3582 (Conference \#: 4977624)     |
-| Dialin (UK)  | -   BIRMINGHAM: 0808-238-6019             
-                -   GLASGOW: 0808-238-6019                 
-                -   LEEDS: 0808-238-6019                   
-                -   LONDON: 0808-238-6019                  
-                -   MANCHESTER: 0808-238-6019              |
-| Minutes      | <http://biodas.org/documents/das2/notes/> |
-||
-
-

@@ -10,6 +10,7 @@ DAS Workshops
 DAS workshops are run annually that consist of a training day, a day of
 talks and a development day.
 
+-   [DAS Workshop 2012](/wiki/DASWorkshop2012 "wikilink")
 -   [DAS Workshop 2011](/wiki/DASWorkshop2011 "wikilink")
 -   [DAS Workshop 2010](/wiki/DASWorkshop2010 "wikilink")
 -   [DAS Workshop 2009](/wiki/DASworkshop200903 "wikilink")

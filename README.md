@@ -3,9 +3,11 @@ title: BioDAS website README
 ---
 
 The git repository at <https://github.com/biodas/biodas.github.io/>
-produces the BioDAS website at <https://biodas.org>
-using GitHub Pages (rendered using Jekyll, see
-<https://help.github.com/articles/using-jekyll-with-pages/> for details).
+aimed to reproduce the BioDAS website once at ``biodas.org`` (but
+sadly the original privately held domain ownership lapst) and now
+at <http://biodas.open-bio.org> using GitHub Pages (rendered using
+Jekyll, see <https://help.github.com/articles/using-jekyll-with-pages/>
+for details).
 
 Much of the content is under the URL prefix ``/wiki/`` because this
 was based on an automated conversion of the old MediaWiki website,
